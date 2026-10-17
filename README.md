@@ -93,12 +93,33 @@ Wskazówki:
 - Ćwiczenie „luki” działa, gdy zdanie przykładowe (`example_formal` / `example`) zawiera jedno z formalnych wyrażeń lub słowo (także w odmianie, np. *analyse → analysed*).
 - Słowa bez polskiego tłumaczenia pojawiają się tylko jako fiszki.
 
+## Synchronizacja między urządzeniami (Supabase)
+
+Postęp jest zapisywany lokalnie i w tle synchronizowany z Supabase (projekt `academic-words`). Logowanie odbywa się bez hasła, kodem z e-maila. Na każdym urządzeniu loguje się ten sam e-mail: *Ustawienia → Synchronizacja*.
+
+Konfiguracja jednorazowa w panelu Supabase:
+
+1. **Tabela:** *SQL Editor → New query* → wklej [`supabase/schema.sql`](supabase/schema.sql) → *Run*.
+2. **Kod w mailu:** *Authentication → Emails* → szablony **Magic Link** i **Confirm signup**: dodaj do treści kod, np.
+   ```html
+   <h2>Academic Words</h2>
+   <p>Twój kod logowania: <strong>{{ .Token }}</strong></p>
+   ```
+3. **Adres strony:** *Authentication → URL Configuration* → *Site URL* = adres aplikacji na GitHub Pages; ten sam adres dodaj w *Redirect URLs* (oraz `http://localhost:8765` do testów).
+4. *(opcjonalnie)* Gdy wszyscy już się zalogują: *Authentication → Sign In / Providers* → wyłącz *Allow new users to sign up*.
+
+Adres projektu i klucz `publishable` są w [`config.js`](config.js). Klucz jest publiczny z założenia, a dane chronią reguły RLS (każdy widzi tylko swój wiersz). Pusty klucz oznacza, że aplikacja działa wyłącznie lokalnie.
+
+Warto wiedzieć:
+- Wbudowany serwer pocztowy Supabase wysyła tylko kilka maili na godzinę, więc przy testach nie prosi się o kod co chwilę.
+- Darmowy projekt jest wstrzymywany po ok. tygodniu bez ruchu. Aplikacja działa wtedy dalej lokalnie, a projekt wznawia się przyciskiem *Restore* w panelu Supabase.
+- Łączenie danych: dla każdego słowa wygrywa nowszy wpis, więc nauka na dwóch urządzeniach się nie nadpisuje. *Resetuj postęp* czyści też dane w chmurze.
+
 ## Postęp i dane
 
 - **Status słowa** liczony z 10 ostatnich odpowiedzi: < 60% poprawnych = *nowe*, 60–90% = *w nauce*, > 90% (min. 3 odpowiedzi) = *opanowane*.
-- **Przeniesienie na inne urządzenie:** *Ustawienia → Eksportuj postęp*, a na drugim urządzeniu *Importuj postęp*.
-- Wyczyszczenie danych przeglądarki usuwa postęp — warto co jakiś czas zrobić eksport.
+- **Przeniesienie na inne urządzenie:** synchronizacja (wyżej). Eksport i import pliku JSON zostają jako zapasowa kopia.
 
 ## Rozbudowa (pomysły)
 
-Architektura jest przygotowana pod: ręczne dodawanie słów (`state.customItems` jest już scalane ze słownikiem), nowe typy ćwiczeń (rejestr `RENDERERS` w `app.js`), synchronizację (cały stan to jeden obiekt JSON), wymowę (Web Speech API), import .docx i OCR.
+Architektura jest przygotowana pod: ręczne dodawanie słów (`state.customItems` jest już scalane ze słownikiem i synchronizowane), nowe typy ćwiczeń (rejestr `RENDERERS` w `app.js`), wymowę (Web Speech API), import .docx i OCR.

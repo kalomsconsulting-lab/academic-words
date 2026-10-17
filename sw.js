@@ -1,11 +1,12 @@
 // Service worker: network-first (zawsze świeże pliki online), cache jako zapas offline.
 // Po zmianie listy plików podbij numer wersji.
-const CACHE = 'academic-words-v1';
+const CACHE = 'academic-words-v2';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
+  './config.js',
   './vocabulary.json',
   './manifest.json',
   './icons/icon.svg',
@@ -13,6 +14,8 @@ const ASSETS = [
   './icons/icon-512.png',
   './icons/apple-touch-icon.png',
 ];
+// Biblioteki z CDN (wersja przypięta w URL, więc cache-first jest bezpieczny).
+const CDN_HOSTS = ['cdn.jsdelivr.net'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
@@ -27,7 +30,23 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const req = event.request;
-  if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+
+  if (CDN_HOSTS.includes(url.hostname)) {
+    event.respondWith(
+      caches.match(req).then((hit) => hit || fetch(req).then((res) => {
+        if (res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put(req, copy));
+        }
+        return res;
+      })));
+    return;
+  }
+  // Supabase API i inne zewnętrzne adresy — bez pośrednictwa.
+  if (url.origin !== location.origin) return;
+
   event.respondWith(
     fetch(req)
       .then((res) => {

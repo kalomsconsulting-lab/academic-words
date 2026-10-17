@@ -194,9 +194,20 @@
   }
 
   let state = loadState();
-  function save() {
+
+  // Odcisk ustawień (bez motywu, który jest per urządzenie) — wykrywa zmianę ustawień do synchronizacji.
+  const settingsFp = () => JSON.stringify({ ...state.settings, theme: null });
+  let lastSettingsFp = settingsFp();
+
+  function saveLocal() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
     catch (e) { toast('Nie udało się zapisać postępu (pamięć przeglądarki niedostępna).'); }
+  }
+  function save() {
+    const fp = settingsFp();
+    if (fp !== lastSettingsFp) { state.settingsTs = Date.now(); lastSettingsFp = fp; }
+    saveLocal();
+    scheduleSync();
   }
 
   function dayLog(d = today()) {
@@ -335,6 +346,7 @@
     if (correct) p.correct++;
     p.hist = [...p.hist, correct ? 1 : 0].slice(-10);
     p.last = t;
+    p.ts = Date.now();
     log.answers++;
 
     const q = Math.max(0, Math.min(5, quality));
@@ -1099,7 +1111,10 @@
       h('div', { class: 'hero' },
         h('div', null,
           h('h1', null, `Cześć${name ? ', ' + name : ''}! 👋`),
-          h('div', { class: 'muted' }, 'Formalny angielski do Academic Writing')),
+          h('div', { class: 'muted' }, 'Formalny angielski do Academic Writing'),
+          sync.client && !sync.user
+            ? h('a', { href: '#/settings', class: 'small' }, '☁️ Włącz synchronizację między urządzeniami')
+            : null),
         st ? h('div', { class: 'streak', title: 'Dni nauki z rzędu' }, `🔥 ${st} ${plural(st, 'dzień', 'dni', 'dni')}`) : null),
       h('div', { class: 'grid grid-2' },
         h('div', { class: 'card start-card' },
@@ -1323,6 +1338,8 @@
   function renderSettings(view) {
     const fileInput = h('input', { type: 'file', accept: 'application/json,.json', class: 'hidden', onChange: importProgress });
     const learned = Object.keys(state.progress).length;
+    const syncCard = h('div', { class: 'card', id: 'sync-card' });
+    renderSyncCard(syncCard);
     view.replaceChildren(
       h('h1', null, 'Ustawienia'),
       h('div', { class: 'card' },
@@ -1342,9 +1359,10 @@
           h('div', { class: 'txt' }, h('b', null, 'Długość szybkiej sesji'), h('span', { class: 'muted small' }, 'Liczba słów w jednej sesji')),
           h('select', { 'aria-label': 'Długość sesji', value: String(state.settings.sessionSize), onChange: (e) => { state.settings.sessionSize = Number(e.target.value); save(); } },
             [10, 12, 15].map((n) => h('option', { value: String(n) }, String(n)))))),
+      syncCard,
       h('div', { class: 'card' },
         h('h2', null, 'Dane i postęp'),
-        h('p', { class: 'muted small' }, `Postęp zapisany w tej przeglądarce: ${learned} ${plural(learned, 'słowo', 'słowa', 'słów')}. Aby przenieść go na inne urządzenie, wyeksportuj plik i zaimportuj go tam.`),
+        h('p', { class: 'muted small' }, `Postęp na tym urządzeniu: ${learned} ${plural(learned, 'słowo', 'słowa', 'słów')}. Plik eksportu to zapasowa kopia — do przenoszenia między urządzeniami służy synchronizacja.`),
         h('div', { class: 'row' },
           h('button', { class: 'btn btn-primary', onClick: exportProgress }, '⬇️ Eksportuj postęp'),
           h('button', { class: 'btn', onClick: () => fileInput.click() }, '⬆️ Importuj postęp'),
@@ -1381,6 +1399,7 @@
         if (!confirm('Zaimportować postęp z pliku? Obecny postęp na tym urządzeniu zostanie zastąpiony.')) return;
         localStorage.setItem(STORAGE_KEY, JSON.stringify(s));
         state = loadState();
+        lastSettingsFp = settingsFp();
         save();
         applyTheme();
         toast(`Zaimportowano postęp (${Object.keys(state.progress).length} słów)`);
@@ -1396,20 +1415,220 @@
     if (!confirm('Na pewno usunąć cały postęp nauki? Tej operacji nie można cofnąć (chyba że masz eksport).')) return;
     state.progress = {};
     state.daily = {};
+    state.resetAt = Date.now(); // synchronizacja nie przywróci starszych wpisów z chmury
     save();
     toast('Postęp wyczyszczony');
     route();
   }
 
   // ===================================================================
+  // Synchronizacja (Supabase): logowanie kodem z e-maila, jeden wiersz JSON na użytkownika.
+  // localStorage pozostaje lokalną kopią — aplikacja działa offline, a zmiany wysyłamy w tle.
+  // ===================================================================
+  const CFG = window.AW_CONFIG || {};
+  const sync = { client: null, user: null, status: 'off', error: '', lastSync: null, timer: null, busy: false, again: false, email: '' };
+
+  // Łączy dwa stany: dla każdego słowa wygrywa nowszy wpis, dni nauki — większa liczba odpowiedzi.
+  function mergeStates(local, remote) {
+    const resetAt = Math.max(local.resetAt || 0, remote.resetAt || 0);
+    const progress = {};
+    for (const src of [local.progress || {}, remote.progress || {}]) {
+      for (const [id, p] of Object.entries(src)) {
+        if (!p || (resetAt && (p.ts || 0) < resetAt)) continue;
+        const cur = progress[id];
+        if (!cur || (p.ts || 0) > (cur.ts || 0) || ((p.ts || 0) === (cur.ts || 0) && p.attempts > cur.attempts)) progress[id] = p;
+      }
+    }
+    const resetDay = resetAt ? dayStr(new Date(resetAt)) : '';
+    const daily = {};
+    for (const src of [local.daily || {}, remote.daily || {}]) {
+      for (const [d, v] of Object.entries(src)) {
+        if (d < resetDay) continue;
+        const cur = daily[d] || { answers: 0, newItems: 0 };
+        daily[d] = { answers: Math.max(cur.answers, v.answers || 0), newItems: Math.max(cur.newItems, v.newItems || 0) };
+      }
+    }
+    const remoteNewer = (remote.settingsTs || 0) > (local.settingsTs || 0);
+    const settings = remoteNewer ? { ...local.settings, ...remote.settings, theme: local.settings.theme } : local.settings;
+    const custom = new Map();
+    for (const it of [...(remote.customItems || []), ...(local.customItems || [])]) custom.set(it.id, it);
+    return {
+      ...local, progress, daily, settings, resetAt,
+      settingsTs: Math.max(local.settingsTs || 0, remote.settingsTs || 0),
+      customItems: [...custom.values()],
+    };
+  }
+
+  function scheduleSync(delay = 8000) {
+    if (!sync.user) return;
+    sync.dirty = true;
+    clearTimeout(sync.timer);
+    sync.timer = setTimeout(() => syncNow(), delay);
+  }
+
+  async function syncNow(manual) {
+    if (!sync.client || !sync.user) return;
+    if (sync.busy) { sync.again = true; return; }
+    if (!navigator.onLine) { sync.status = 'offline'; refreshSyncUi(); return; }
+    clearTimeout(sync.timer);
+    sync.busy = true;
+    sync.status = 'syncing';
+    refreshSyncUi();
+    try {
+      const { data, error } = await sync.client.from('progress').select('state').eq('user_id', sync.user.id).maybeSingle();
+      if (error) throw error;
+      const before = JSON.stringify(state.progress);
+      if (data && data.state) {
+        state = mergeStates(state, data.state);
+        lastSettingsFp = settingsFp();
+        saveLocal();
+      }
+      sync.dirty = false;
+      const { error: upErr } = await sync.client.from('progress')
+        .upsert({ user_id: sync.user.id, state, updated_at: new Date().toISOString() });
+      if (upErr) throw upErr;
+      sync.status = 'ok';
+      sync.error = '';
+      sync.lastSync = new Date();
+      if (manual) toast('Zsynchronizowano ☁️');
+      // odśwież widok, jeśli z chmury przyszły nowe dane (nie w trakcie sesji)
+      if (JSON.stringify(state.progress) !== before && (currentRoute === 'dashboard' || currentRoute === 'browse')) route();
+    } catch (e) {
+      sync.status = 'error';
+      sync.error = (e && e.message) || String(e);
+      if (manual) toast('Błąd synchronizacji: ' + sync.error);
+    } finally {
+      sync.busy = false;
+      refreshSyncUi();
+      if (sync.again) { sync.again = false; syncNow(); }
+    }
+  }
+
+  async function initSync() {
+    if (!CFG.supabaseUrl || !CFG.supabaseAnonKey) { sync.status = 'off'; return; }
+    if (!window.supabase) { sync.status = 'unavailable'; refreshSyncUi(); return; }
+    sync.client = window.supabase.createClient(CFG.supabaseUrl, CFG.supabaseAnonKey, {
+      auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, flowType: 'pkce', storageKey: 'awv:auth' },
+    });
+    sync.client.auth.onAuthStateChange((event, session) => {
+      const prev = sync.user && sync.user.id;
+      sync.user = session ? session.user : null;
+      sync.status = sync.user ? (sync.status === 'off' || sync.status === 'loggedout' ? 'ok' : sync.status) : 'loggedout';
+      // wywołania Supabase poza callbackiem (zalecenie biblioteki)
+      if (sync.user && sync.user.id !== prev) setTimeout(() => syncNow(), 0);
+      refreshSyncUi();
+      if (currentRoute === 'dashboard') route();
+    });
+    await sync.client.auth.getSession();
+    // posprzątaj adres po kliknięciu linku z e-maila (?code=… / ?error=…)
+    const qs = new URLSearchParams(location.search);
+    if (qs.has('code') || qs.has('error')) {
+      if (qs.get('error_description')) toast('Logowanie nieudane: ' + qs.get('error_description'));
+      history.replaceState(null, '', location.pathname + location.hash);
+    }
+    window.addEventListener('online', () => sync.dirty && syncNow());
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden' && sync.dirty) syncNow();
+      if (document.visibilityState === 'visible') syncNow(); // nauka mogła się odbyć na innym urządzeniu
+    });
+  }
+
+  function refreshSyncUi() {
+    const card = document.getElementById('sync-card');
+    if (card) renderSyncCard(card);
+  }
+
+  function syncStatusText() {
+    switch (sync.status) {
+      case 'syncing': return '⏳ Synchronizuję…';
+      case 'offline': return '📴 Brak internetu — zsynchronizuję po połączeniu.';
+      case 'error': return '⚠️ Błąd: ' + sync.error;
+      default: return sync.lastSync
+        ? `✅ Ostatnia synchronizacja: ${sync.lastSync.toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' })}`
+        : '✅ Połączono';
+    }
+  }
+
+  function renderSyncCard(card) {
+    const title = h('h2', null, '☁️ Synchronizacja');
+    if (!CFG.supabaseUrl || !CFG.supabaseAnonKey) {
+      card.replaceChildren(title, h('p', { class: 'muted small' }, 'Synchronizacja nie jest jeszcze skonfigurowana (brak klucza Supabase w config.js). Postęp zapisuje się tylko na tym urządzeniu.'));
+      return;
+    }
+    if (!sync.client) {
+      card.replaceChildren(title, h('p', { class: 'muted small' }, 'Nie udało się wczytać modułu synchronizacji — sprawdź połączenie z internetem i odśwież stronę.'));
+      return;
+    }
+    if (sync.user) {
+      card.replaceChildren(title,
+        h('p', null, 'Zalogowano jako ', h('b', null, sync.user.email || '—')),
+        h('p', { class: 'muted small' }, syncStatusText()),
+        h('p', { class: 'muted small' }, 'Postęp zapisuje się automatycznie po każdej odpowiedzi i łączy z innymi urządzeniami zalogowanymi na ten sam e-mail.'),
+        h('div', { class: 'row' },
+          h('button', { class: 'btn btn-primary', disabled: sync.busy, onClick: () => syncNow(true) }, '🔄 Synchronizuj teraz'),
+          h('div', { class: 'spacer' }),
+          h('button', { class: 'btn btn-ghost', onClick: async () => {
+            if (sync.dirty) await syncNow();
+            await sync.client.auth.signOut();
+            toast('Wylogowano — postęp zostaje na tym urządzeniu');
+          } }, 'Wyloguj')));
+      return;
+    }
+
+    const msg = h('div', { class: 'muted small', style: 'min-height:1.5em' });
+    const fail = (e) => { msg.textContent = '⚠️ ' + ((e && e.message) || e); };
+    if (!sync.email) {
+      const email = h('input', { type: 'text', inputmode: 'email', autocomplete: 'email', placeholder: 'adres e-mail', 'aria-label': 'Adres e-mail' });
+      const send = async () => {
+        const v = email.value.trim();
+        if (!/^\S+@\S+\.\S+$/.test(v)) { fail('Podaj poprawny adres e-mail.'); return; }
+        msg.textContent = 'Wysyłam kod…';
+        const { error } = await sync.client.auth.signInWithOtp({ email: v, options: { shouldCreateUser: true, emailRedirectTo: location.origin + location.pathname } });
+        if (error) { fail(error.message); return; }
+        sync.email = v;
+        renderSyncCard(card);
+      };
+      email.addEventListener('keydown', (e) => { if (e.key === 'Enter') send(); });
+      card.replaceChildren(title,
+        h('p', { class: 'muted small' }, 'Zaloguj się tym samym e-mailem na telefonie i komputerze — postęp będzie wspólny. Bez hasła: dostaniesz kod w mailu.'),
+        h('div', { class: 'field' }, email),
+        h('button', { class: 'btn btn-primary', onClick: send }, 'Wyślij kod'),
+        msg);
+      return;
+    }
+
+    const code = h('input', { type: 'text', inputmode: 'numeric', autocomplete: 'one-time-code', maxlength: '10', placeholder: 'kod z e-maila', 'aria-label': 'Kod z e-maila', class: 'answer' });
+    const verify = async () => {
+      const token = code.value.replace(/\s/g, '');
+      if (!/^\d{6,10}$/.test(token)) { fail('Wpisz kod z e-maila (same cyfry).'); return; }
+      msg.textContent = 'Sprawdzam…';
+      const { error } = await sync.client.auth.verifyOtp({ email: sync.email, token, type: 'email' });
+      if (error) { fail(error.message); return; }
+      sync.email = '';
+      toast('Zalogowano — synchronizuję postęp ☁️');
+    };
+    code.addEventListener('keydown', (e) => { if (e.key === 'Enter') verify(); });
+    card.replaceChildren(title,
+      h('p', { class: 'small' }, 'Wysłaliśmy kod na ', h('b', null, sync.email), '. Wpisz go poniżej (albo kliknij link w mailu na tym urządzeniu).'),
+      h('div', { class: 'field' }, code),
+      h('div', { class: 'row' },
+        h('button', { class: 'btn btn-primary', onClick: verify }, 'Zaloguj'),
+        h('button', { class: 'btn btn-ghost', onClick: () => { sync.email = ''; renderSyncCard(card); } }, 'Zmień e-mail')),
+      msg);
+    setTimeout(() => code.focus(), 30);
+  }
+
+  // ===================================================================
   // Router i start
   // ===================================================================
+  let currentRoute = '';
   const ROUTES = { dashboard: renderDashboard, learn: renderLearn, browse: renderBrowse, settings: renderSettings, session: renderSessionView, summary: renderSummary };
   const NAV_FOR = { session: 'learn', summary: 'learn' };
 
   function route() {
     const name = (location.hash.replace(/^#\/?/, '') || 'dashboard').split('?')[0];
     const key = ROUTES[name] ? name : 'dashboard';
+    currentRoute = key;
     const view = document.getElementById('view');
     keyHandler = null;
     hideFeedback();
@@ -1446,6 +1665,7 @@
     }
     window.addEventListener('hashchange', route);
     route();
+    initSync().catch((e) => { sync.status = 'error'; sync.error = String(e); refreshSyncUi(); });
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
       navigator.serviceWorker.register('sw.js').catch(() => {});
     }
