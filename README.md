@@ -47,6 +47,37 @@ git push
 
 ## Dodawanie nowego słownictwa
 
+Są dwie drogi:
+
+- **W aplikacji** (bez edytowania plików i bez pusha): *Ustawienia → Moje materiały* albo *Panel → Dodaj własne materiały*. Słowa trafiają do Twojego postępu i synchronizują się między urządzeniami.
+- **Przez `vocabulary.json`**: słowa trafiają do wszystkich użytkowników aplikacji.
+
+### W aplikacji (własne materiały)
+
+Trzy sposoby dodawania:
+
+1. **Plik JSON**: tablica wpisów albo obiekt `{ "items": [...] }` w formacie z sekcji niżej. Pola `id` nie trzeba podawać. Brak `category` oznacza kategorię domyślną dla typu.
+2. **Wklejony tekst**: jeden wpis w linii, kolumny oddzielone `;` lub tabulatorem (wklejka z Excela działa). Typ i kategorię wybiera się z listy, domyślnie *Słowo AWL*:
+   | Typ | Kolumny |
+   |---|---|
+   | `awl_word` | słowo ; po polsku ; zdanie przykładowe |
+   | `academic_verb` | czasownik ; po polsku ; funkcja ; zdanie przykładowe |
+   | `replacement` | nieformalnie ; formalnie (kilka przez `/`) ; po polsku ; przykład formalny |
+   | `hedging` | zdanie zbyt pewne ; wersja ostrożna ; technika ; opis |
+   | `style_rule` | reguła ; błędnie ; poprawnie |
+
+   Kilka tłumaczeń oddziela się przecinkiem. Linie puste i zaczynające się od `#` są pomijane.
+3. **Formularz** do pojedynczego słowa, z polami zależnymi od typu.
+
+Każdy import kończy się **podglądem**: wpisy z błędami (brak wymaganego pola, nieznany typ, kategoria, funkcja lub technika) są zablokowane, a duplikaty (to samo słowo już jest w słowniku, we własnych materiałach albo dwa razy w imporcie) są domyślnie odznaczone. Dopiero przycisk *Dodaj* zapisuje zaznaczone wpisy.
+
+Szczegóły techniczne:
+- Wpisy trafiają do `state.customItems` z `id` `c-<znacznik czasu>-<nr>`, polem `source` (nazwa pliku, nazwa paczki albo „ręcznie”) i `addedAt`. Przechodzą tę samą walidację co `vocabulary.json` (`itemErrors()` / `prepareItem()` w `app.js`).
+- Nowe słowa od razu są w słowniku, sesjach i statystykach kategorii. Powtórki SRS wprowadzają je jako *nowe* przed resztą słownika (w ramach dziennego limitu nowych słów). Filtr *⭐ Moje materiały* jest w Nauce, Słowniku i na Panelu.
+- *Moje materiały* grupują wpisy według źródła. Można usunąć pojedynczy wpis albo całą paczkę. Usunięcie kasuje też postęp tych słów i zapisuje id w `state.deletedCustom` (tombstones), więc synchronizacja nie przywróci ich z innego urządzenia.
+
+### Przez vocabulary.json
+
 1. Wrzuć handout (.doc/.docx lub zdjęcie) do Claude z prośbą: *„Wyciągnij słownictwo do vocabulary.json w formacie appki Academic Words”* i dołącz przykładowy wpis z sekcji niżej.
 2. Dopisz nowe wpisy na końcu tablicy `items` w `vocabulary.json`. Każdy `id` musi być unikalny (np. kolejny `r037`, `av042`, `awl571`, `sr008`, `h013`).
 3. Zmień pole `updated` na dzisiejszą datę, zrób commit i push — GitHub Pages odświeży stronę, a nowe słowa pojawią się w aplikacji (postęp nauki zostaje).
@@ -108,6 +139,7 @@ Warto wiedzieć:
 - Wbudowany serwer pocztowy Supabase wysyła tylko kilka maili na godzinę, więc przy testach nie prosi się o kod co chwilę.
 - Darmowy projekt jest wstrzymywany po ok. tygodniu bez ruchu. Aplikacja działa wtedy dalej lokalnie, a projekt wznawia się przyciskiem *Restore* w panelu Supabase.
 - Łączenie danych: dla każdego słowa wygrywa nowszy wpis, więc nauka na dwóch urządzeniach się nie nadpisuje. *Resetuj postęp* czyści też dane w chmurze.
+- Własne materiały są sumowane z obu urządzeń, a usunięte (tombstones w `deletedCustom`) wygrywają z kopią z drugiego urządzenia.
 
 ## Postęp i dane
 
@@ -116,4 +148,4 @@ Warto wiedzieć:
 
 ## Rozbudowa (pomysły)
 
-Architektura jest przygotowana pod: ręczne dodawanie słów (`state.customItems` jest już scalane ze słownikiem i synchronizowane), nowe typy ćwiczeń (rejestr `RENDERERS` w `app.js`), wymowę (Web Speech API), import .docx i OCR.
+Architektura jest przygotowana pod: edycję własnych wpisów, nowe typy ćwiczeń (rejestr `RENDERERS` w `app.js`), wymowę (Web Speech API), import .docx i OCR.

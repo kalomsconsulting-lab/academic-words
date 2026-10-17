@@ -169,7 +169,8 @@
       version: 1,
       progress: {},       // id -> { ef, interval, reps, due, attempts, correct, hist[], last }
       daily: {},          // 'YYYY-MM-DD' -> { answers, newItems }
-      customItems: [],    // miejsce na słowa dodane ręcznie w przyszłości
+      customItems: [],    // własne materiały dodane w aplikacji (id z prefiksem "c-")
+      deletedCustom: {},  // id -> czas usunięcia (tombstones, żeby synchronizacja nie przywracała usuniętych)
       settings: {
         theme: 'system',
         name: '',
@@ -192,6 +193,7 @@
         progress: s.progress || {},
         daily: s.daily || {},
         customItems: s.customItems || [],
+        deletedCustom: s.deletedCustom || {},
       };
     } catch (e) {
       return base;
@@ -275,10 +277,64 @@
     return null;
   }
 
+  // Domyślna kategoria, gdy wpis jej nie podaje.
+  const TYPE_CATEGORY = { replacement: 'informal_phrases', academic_verb: 'academic_verbs', awl_word: 'awl', style_rule: 'style_rules', hedging: 'hedging' };
+
+  // Pola wpisów wg typu (formularz, wklejanie, walidacja). list: separator kilku wartości.
+  const FIELDS = {
+    replacement: [
+      { key: 'informal', label: 'Wyrażenie nieformalne', req: true, ph: 'find out' },
+      { key: 'formal', label: 'Formalne odpowiedniki', req: true, list: '/', hint: 'kilka oddziel „/”', ph: 'investigate / determine' },
+      { key: 'polish', label: 'Po polsku', list: ',', hint: 'kilka oddziel przecinkiem', ph: 'zbadać, ustalić' },
+      { key: 'example_informal', label: 'Przykład nieformalny', ph: 'We need to find out what happened.' },
+      { key: 'example_formal', label: 'Przykład formalny', ph: 'Further research is needed to determine the cause.' },
+    ],
+    academic_verb: [
+      { key: 'word', label: 'Czasownik', req: true, ph: 'advocate' },
+      { key: 'polish', label: 'Po polsku', list: ',', hint: 'kilka oddziel przecinkiem', ph: 'popierać' },
+      { key: 'function', label: 'Funkcja', req: true, options: FUNCTION_LABELS },
+      { key: 'example', label: 'Zdanie przykładowe', ph: 'Several researchers advocate a more cautious approach.' },
+    ],
+    awl_word: [
+      { key: 'word', label: 'Słowo', req: true, ph: 'significant' },
+      { key: 'polish', label: 'Po polsku', list: ',', hint: 'kilka oddziel przecinkiem', ph: 'istotny, znaczący' },
+      { key: 'example', label: 'Zdanie przykładowe', ph: 'The results were statistically significant.' },
+      { key: 'awl_group', label: 'Grupa AWL', num: true, hint: '1–10, opcjonalnie', ph: '1' },
+    ],
+    hedging: [
+      { key: 'informal', label: 'Zdanie zbyt pewne', req: true, ph: 'This proves that…' },
+      { key: 'formal', label: 'Wersja ostrożna (hedging)', req: true, ph: 'This may indicate that…' },
+      { key: 'technique', label: 'Technika', req: true, options: TECHNIQUES },
+      { key: 'polish', label: 'Opis po polsku', ph: 'Czasowniki modalne' },
+    ],
+    style_rule: [
+      { key: 'rule', label: 'Reguła', req: true, ph: 'Nie dziel bezokoliczników' },
+      { key: 'incorrect', label: 'Błędnie', req: true, ph: 'I was told to always keep a good look out.' },
+      { key: 'correct', label: 'Poprawnie', req: true, ph: 'I was always told to keep a good look out.' },
+    ],
+  };
+
+  const filled = (v) => (Array.isArray(v) ? v.some((x) => String(x).trim()) : v != null && String(v).trim() !== '');
+
+  // Walidacja wpisu (wspólna dla vocabulary.json i własnych materiałów). Pusta lista = wpis poprawny.
+  function itemErrors(raw) {
+    if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return ['Wpis nie jest obiektem JSON'];
+    if (!filled(raw.type)) return ['Brak pola type'];
+    if (!TYPES[raw.type]) return [`Nieznany typ „${raw.type}”`];
+    const errs = [];
+    if (filled(raw.category) && !CATEGORIES[raw.category]) errs.push(`Nieznana kategoria „${raw.category}”`);
+    for (const f of FIELDS[raw.type]) {
+      if (f.req && !filled(raw[f.key])) errs.push(`Brak pola ${f.key} (${f.label.toLowerCase()})`);
+      else if (f.options && filled(raw[f.key]) && !f.options[raw[f.key]]) errs.push(`Nieznana wartość ${f.key}: „${raw[f.key]}”`);
+    }
+    return errs;
+  }
+
   function prepareItem(raw) {
-    if (!raw || !raw.id || !TYPES[raw.type]) return null;
-    const it = { ...raw, difficulty: Number(raw.difficulty) || 1 };
-    if (!CATEGORIES[it.category]) it.category = 'informal_phrases';
+    if (!raw || !raw.id || itemErrors(raw).length) return null;
+    const it = { ...raw, difficulty: Math.min(3, Math.max(1, Number(raw.difficulty) || 1)) };
+    if (!CATEGORIES[it.category]) it.category = TYPE_CATEGORY[it.type];
+    it._custom = String(it.id).startsWith('c-');
     switch (it.type) {
       case 'replacement': {
         it.formal = toArr(it.formal);
@@ -315,13 +371,21 @@
     return it;
   }
 
+  let BASE_ITEMS = [];
+
   async function loadVocab() {
     const res = await fetch('vocabulary.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
-    const items = Array.isArray(data) ? data : data.items;
+    BASE_ITEMS = Array.isArray(data) ? data : data.items;
     VOCAB_META = Array.isArray(data) ? {} : data;
-    VOCAB = [...items, ...state.customItems].map(prepareItem).filter(Boolean);
+    rebuildVocab();
+  }
+
+  // Scala słownik z własnymi materiałami — wołane też po dodaniu/usunięciu i po synchronizacji.
+  function rebuildVocab() {
+    const gone = state.deletedCustom || {};
+    VOCAB = [...BASE_ITEMS, ...state.customItems.filter((c) => !gone[c.id])].map(prepareItem).filter(Boolean);
     BY_ID.clear();
     for (const it of VOCAB) BY_ID.set(it.id, it);
   }
@@ -389,7 +453,7 @@
   // ===================================================================
   function filterPool(cfg) {
     return VOCAB.filter((it) =>
-      (cfg.category === 'all' || it.category === cfg.category) &&
+      (cfg.category === 'all' || it.category === cfg.category || (cfg.category === 'custom' && it._custom)) &&
       (cfg.difficulty === 'all' || String(it.difficulty) === String(cfg.difficulty)));
   }
 
@@ -406,8 +470,10 @@
   function srsItems(pool) {
     const due = pool.filter(isDue).sort((a, b) => state.progress[a.id].due.localeCompare(state.progress[b.id].due)).slice(0, 30);
     const { newToday } = srsCounts(pool);
+    // własne materiały (najnowsze najpierw) wchodzą jako nowe przed resztą słownika
     const fresh = pool.filter((it) => !state.progress[it.id])
-      .sort((a, b) => a.difficulty - b.difficulty || (a.awl_group || 0) - (b.awl_group || 0))
+      .sort((a, b) => b._custom - a._custom || String(b.addedAt || '').localeCompare(String(a.addedAt || '')) ||
+        a.difficulty - b.difficulty || (a.awl_group || 0) - (b.awl_group || 0))
       .slice(0, newToday);
     return shuffle([...due, ...fresh]);
   }
@@ -498,7 +564,7 @@
   function startSession(cfg) {
     const pool = filterPool(cfg);
     let items;
-    if (cfg.items) items = cfg.items;
+    if (cfg.items) items = cfg.items.filter((it) => BY_ID.get(it.id) === it); // bez wpisów usuniętych w międzyczasie
     else if (cfg.mode === 'srs') items = srsItems(pool);
     else items = quickItems(pool, cfg.size || state.settings.sessionSize);
     if (!items.length) {
@@ -580,7 +646,7 @@
   function buildMC(it) {
     const opts = (correct, wrong) => shuffle([{ text: correct, correct: true }, ...wrong.map((t) => ({ text: t, correct: false }))]);
     if (it.type === 'replacement') {
-      const dir = weightedPick({ inf_formal: 2, formal_pl: 1, pl_formal: 1 });
+      const dir = it.polish.length ? weightedPick({ inf_formal: 2, formal_pl: 1, pl_formal: 1 }) : 'inf_formal';
       const sameType = (o) => o.type === 'replacement';
       if (dir === 'formal_pl') {
         return { instruction: 'Co to znaczy po polsku?', prompt: pick(it.formal), answer: it.polish[0],
@@ -595,7 +661,7 @@
         options: opts(correct, distractors(it, (o) => o.formal[0], sameType, it.formal)) };
     }
     if (it.type === 'academic_verb') {
-      const dir = weightedPick({ fn: 2, en_pl: 1, pl_en: 1 });
+      const dir = it.polish.length ? weightedPick({ fn: 2, en_pl: 1, pl_en: 1 }) : 'fn';
       if (dir === 'fn') {
         return { instruction: 'Wybierz czasownik', prompt: `Który czasownik służy do ${FUNCTION_Q[it.function]}?`, sentence: true, answer: it.word,
           options: opts(it.word, distractors(it, (o) => o.word, (o) => o.type === 'academic_verb' && o.function !== it.function, [it.word])) };
@@ -655,7 +721,7 @@
         };
       case 'awl_word':
         return {
-          label: `AWL · grupa ${it.awl_group}`, text: it.word, expected: it.polish.join(', ') || '—',
+          label: it.awl_group ? `AWL · grupa ${it.awl_group}` : 'Słowo akademickie', text: it.word, expected: it.polish.join(', ') || '—',
           back: [h('div', { class: 'main' }, it.word), kv([['Po polsku', it.polish.join(', ') || '(brak tłumaczenia)']]), ex('good', '✓', it.example)],
         };
       case 'style_rule':
@@ -1092,16 +1158,18 @@
     const st = streak();
     const { due, newToday } = srsCounts();
     const overall = statsFor(VOCAB);
+    const mine = VOCAB.filter((it) => it._custom);
     let quickCat = state.settings.lastConfig.category || 'all';
+    if (quickCat === 'custom' && !mine.length) quickCat = 'all';
 
     const chips = h('div', { class: 'chips' });
     const drawChips = () => chips.replaceChildren(
-      ...[['all', 'Wszystkie'], ...Object.entries(CATEGORIES).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
+      ...[['all', 'Wszystkie'], ...(mine.length ? [['custom', '⭐ Moje']] : []), ...Object.entries(CATEGORIES).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
         h('button', { class: 'chip' + (quickCat === k ? ' active' : ''), onClick: () => { quickCat = k; drawChips(); } }, label)));
     drawChips();
 
-    const catRows = Object.entries(CATEGORIES).map(([key, c]) => {
-      const items = VOCAB.filter((it) => it.category === key);
+    const catRows = [...Object.entries(CATEGORIES), ['custom', { label: 'Moje materiały', pl: 'własne słownictwo', icon: '⭐' }]].map(([key, c]) => {
+      const items = key === 'custom' ? mine : VOCAB.filter((it) => it.category === key);
       if (!items.length) return null;
       const s = statsFor(items);
       return h('button', { class: 'cat-row', onClick: () => startSession({ mode: 'quick', category: key, difficulty: 'all', exercise: 'mix' }) },
@@ -1152,7 +1220,8 @@
       h('div', { class: 'card' },
         h('h2', null, 'Kategorie'),
         h('p', { class: 'muted small' }, 'Kliknij kategorię, aby od razu zacząć szybką sesję.'),
-        h('div', { class: 'cat-list' }, catRows)));
+        h('div', { class: 'cat-list' }, catRows),
+        h('a', { class: 'btn btn-block', href: '#/materials', style: 'margin-top:12px' }, '➕ Dodaj własne materiały')));
   }
 
   function seg(options, value, onChange) {
@@ -1181,8 +1250,11 @@
       }
     }
 
+    const hasMine = VOCAB.some((it) => it._custom);
+    if (cfg.category === 'custom' && !hasMine) cfg.category = 'all';
     const catSelect = h('select', { id: 'f-cat', value: cfg.category, onChange: (e) => { cfg.category = e.target.value; persist(); } },
       h('option', { value: 'all' }, 'Wszystkie kategorie'),
+      hasMine ? h('option', { value: 'custom' }, '⭐ Moje materiały') : null,
       Object.entries(CATEGORIES).map(([k, c]) => h('option', { value: k }, `${c.icon} ${c.label}`)));
     const diffSelect = h('select', { id: 'f-diff', value: String(cfg.difficulty), onChange: (e) => { cfg.difficulty = e.target.value; persist(); } },
       h('option', { value: 'all' }, 'Wszystkie poziomy'),
@@ -1259,7 +1331,8 @@
     const st = statusOf(it);
     const badges = h('div', { class: 'word-badges' },
       it.type === 'academic_verb' ? h('span', { class: 'badge' }, FUNCTION_LABELS[it.function]) : null,
-      it.type === 'awl_word' ? h('span', { class: 'badge' }, `AWL ${it.awl_group}`) : null,
+      it.type === 'awl_word' && it.awl_group ? h('span', { class: 'badge' }, `AWL ${it.awl_group}`) : null,
+      it._custom ? h('span', { class: 'badge mine', title: it.source }, '⭐ Moje') : null,
       it.type === 'hedging' ? h('span', { class: 'badge', title: TECHNIQUES[it.technique] }, (TECHNIQUE_DEFS[it.technique] || {}).en || it.technique) : null,
       h('span', { class: 'badge', title: DIFFICULTY[it.difficulty] }, '●'.repeat(it.difficulty) + '○'.repeat(3 - it.difficulty)),
       h('span', { class: 'badge ' + st }, STATUS_LABELS[st]));
@@ -1303,7 +1376,7 @@
       const q = bs.q.trim().toLowerCase();
       const rank = { new: 0, learning: 1, mastered: 2 };
       const out = VOCAB.filter((it) =>
-        (bs.category === 'all' || it.category === bs.category) &&
+        (bs.category === 'all' || it.category === bs.category || (bs.category === 'custom' && it._custom)) &&
         (bs.type === 'all' || it.type === bs.type) &&
         (!q || it._search.includes(q)));
       const alpha = (a, b) => a._label.localeCompare(b._label, 'en', { sensitivity: 'base' });
@@ -1332,7 +1405,8 @@
       h('h1', null, 'Słownik'),
       h('div', { class: 'filters' },
         search,
-        sel('category', [['all', 'Wszystkie kategorie'], ...Object.entries(CATEGORIES).map(([k, c]) => [k, c.label])], 'Kategoria'),
+        sel('category', [['all', 'Wszystkie kategorie'], ...(VOCAB.some((it) => it._custom) ? [['custom', '⭐ Moje materiały']] : []),
+          ...Object.entries(CATEGORIES).map(([k, c]) => [k, c.label])], 'Kategoria'),
         sel('type', [['all', 'Wszystkie typy'], ...Object.entries(TYPES)], 'Typ'),
         sel('sort', [['alpha', 'A → Z'], ['difficulty', 'Poziom ↑'], ['difficulty_desc', 'Poziom ↓'], ['status', 'Status (nowe najpierw)']], 'Sortowanie')),
       countEl, list, more);
@@ -1364,6 +1438,12 @@
           h('div', { class: 'txt' }, h('b', null, 'Długość szybkiej sesji'), h('span', { class: 'muted small' }, 'Liczba słów w jednej sesji')),
           h('select', { 'aria-label': 'Długość sesji', value: String(state.settings.sessionSize), onChange: (e) => { state.settings.sessionSize = Number(e.target.value); save(); } },
             [10, 12, 15].map((n) => h('option', { value: String(n) }, String(n)))))),
+      h('div', { class: 'card' },
+        h('h2', null, '📚 Moje materiały'),
+        h('p', { class: 'muted small' }, state.customItems.length
+          ? `Masz ${state.customItems.length} ${plural(state.customItems.length, 'własny wpis', 'własne wpisy', 'własnych wpisów')}. Synchronizują się razem z postępem.`
+          : 'Dodaj własne słownictwo z pliku JSON, wklejonego tekstu albo pojedynczo — bez edytowania vocabulary.json.'),
+        h('a', { class: 'btn btn-primary', href: '#/materials' }, '➕ Dodaj / zarządzaj materiałami')),
       syncCard,
       h('div', { class: 'card' },
         h('h2', null, 'Dane i postęp'),
@@ -1427,6 +1507,366 @@
   }
 
   // ===================================================================
+  // Własne materiały: import pliku JSON, wklejony tekst, formularz, zarządzanie paczkami.
+  // Zapis do state.customItems (localStorage + synchronizacja), usunięcia jako tombstones w state.deletedCustom.
+  // ===================================================================
+  // Kolumny wklejanego tekstu (separator ; lub tabulator).
+  const PASTE_COLS = {
+    awl_word: ['word', 'polish', 'example'],
+    academic_verb: ['word', 'polish', 'function', 'example'],
+    replacement: ['informal', 'formal', 'polish', 'example_formal'],
+    hedging: ['informal', 'formal', 'technique', 'polish'],
+    style_rule: ['rule', 'incorrect', 'correct'],
+  };
+
+  let pending = null;   // podgląd importu: { source, rows: [{ item, errors, warnings, dup, checked, line }] }
+  let lastAdded = null; // { source, ids } — komunikat po dodaniu
+  const openPacks = new Set();
+  const matUi = { tab: 'paste', pasteType: 'awl_word', pasteCat: 'awl', pasteText: '', pasteSource: '', formType: 'awl_word', formCat: 'awl' };
+
+  const fieldDef = (type, key) => (FIELDS[type] || []).find((f) => f.key === key);
+  const dupKey = (it) => norm(it.informal || it.word || it.incorrect || it.rule || '');
+  const fmtDate = (iso) => (iso ? new Date(iso).toLocaleDateString('pl-PL', { day: 'numeric', month: 'short', year: 'numeric' }) : '');
+
+  // Tekst z pola/kolumny -> wartość wpisu (listy, liczby, funkcja/technika po kluczu albo nazwie).
+  function parseField(type, key, text) {
+    const f = fieldDef(type, key);
+    const v = String(text).trim();
+    if (!f || !v) return v;
+    if (f.list) return v.split(f.list === '/' ? /\s*\/\s*/ : /\s*[,/]\s*/).filter(Boolean);
+    if (f.num) return Number(v) || undefined;
+    if (f.options) {
+      const k = v.toLowerCase().replace(/[\s-]+/g, '_');
+      if (f.options[k]) return k;
+      const byName = Object.keys(f.options).find((o) => f.options[o].toLowerCase().startsWith(v.toLowerCase()));
+      return byName || v;
+    }
+    return v;
+  }
+
+  // Kopia wpisu z pliku bez pól nadawanych przez aplikację; brak kategorii -> domyślna dla typu.
+  function cleanRaw(raw) {
+    const out = {};
+    for (const [k, v] of Object.entries(raw)) {
+      if (k === 'id' || k === 'source' || k === 'addedAt' || k.startsWith('_') || v == null || v === '') continue;
+      out[k] = typeof v === 'string' ? v.trim() : v;
+    }
+    if (!filled(out.category) && TYPE_CATEGORY[out.type]) out.category = TYPE_CATEGORY[out.type];
+    if (out.difficulty != null) out.difficulty = Math.min(3, Math.max(1, Number(out.difficulty) || 1));
+    return out;
+  }
+
+  function itemWarnings(it) {
+    const w = [];
+    if ((it.type === 'awl_word' || it.type === 'academic_verb') && !filled(it.polish)) w.push('Bez tłumaczenia — słowo pojawi się głównie jako fiszka');
+    return w;
+  }
+
+  function buildPending(raws, source) {
+    const seen = new Map();
+    for (const it of VOCAB) {
+      const k = dupKey(it);
+      if (k && !seen.has(k)) seen.set(k, it._custom ? `już w Twoich materiałach („${it.source}”)` : 'już w słowniku');
+    }
+    const rows = raws.map((raw, i) => {
+      const isObj = raw && typeof raw === 'object' && !Array.isArray(raw);
+      const item = isObj ? cleanRaw(raw) : {};
+      const errors = isObj ? itemErrors(item) : ['Wpis nie jest obiektem JSON'];
+      const warnings = errors.length ? [] : itemWarnings(item);
+      if (isObj && raw.__extra) warnings.push('Nadmiarowe kolumny pominięte');
+      const line = isObj && raw.__line ? raw.__line : i + 1;
+      const k = errors.length ? '' : dupKey(item);
+      const dup = (k && seen.get(k)) || null;
+      if (k && !dup) seen.set(k, `powtórzone w tym imporcie (poz. ${line})`);
+      return { item, errors, warnings, dup, checked: !errors.length && !dup, line };
+    });
+    pending = { source: source || 'ręcznie', rows };
+    lastAdded = null;
+  }
+
+  function parsePaste(text, type, category) {
+    const cols = PASTE_COLS[type];
+    const out = [];
+    text.split(/\r?\n/).forEach((line, i) => {
+      const t = line.trim();
+      if (!t || t.startsWith('#')) return;
+      const parts = line.split(line.includes('\t') ? '\t' : ';').map((s) => s.trim());
+      const raw = { type, category, __line: i + 1 };
+      cols.forEach((key, j) => { if (parts[j]) raw[key] = parseField(type, key, parts[j]); });
+      if (parts.slice(cols.length).some(Boolean)) raw.__extra = true;
+      out.push(raw);
+    });
+    return out;
+  }
+
+  function commitPending() {
+    const rows = pending.rows.filter((r) => r.checked && !r.errors.length);
+    if (!rows.length) return;
+    const stamp = Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+    const addedAt = new Date().toISOString();
+    const added = rows.map((r, i) => ({ ...r.item, id: `c-${stamp}-${i}`, source: pending.source, addedAt }));
+    state.customItems = [...state.customItems, ...added];
+    save();
+    rebuildVocab();
+    lastAdded = { source: pending.source, ids: added.map((a) => a.id) };
+    pending = null;
+    toast(`Dodano ${added.length} ${plural(added.length, 'wpis', 'wpisy', 'wpisów')} ✅`);
+  }
+
+  function removeCustom(ids, what) {
+    if (!confirm(`Usunąć ${what}? Postęp nauki tych słów też zostanie usunięty (również na innych urządzeniach po synchronizacji).`)) return false;
+    const del = new Set(ids);
+    const ts = Date.now();
+    state.deletedCustom = { ...state.deletedCustom };
+    for (const id of del) { state.deletedCustom[id] = ts; delete state.progress[id]; }
+    state.customItems = state.customItems.filter((c) => !del.has(c.id));
+    if (lastAdded) lastAdded.ids = lastAdded.ids.filter((id) => !del.has(id));
+    save();
+    rebuildVocab();
+    toast('Usunięto');
+    return true;
+  }
+
+  function learnItems(ids) {
+    const items = shuffle(ids.map((id) => BY_ID.get(id)).filter(Boolean)).slice(0, Math.max(state.settings.sessionSize, 15));
+    startSession({ mode: 'quick', category: 'all', difficulty: 'all', exercise: 'mix', items });
+  }
+
+  const optionEls = (dict, value) => Object.entries(dict).map(([k, l]) => h('option', { value: k, selected: k === value }, l));
+  const catOptions = (value) => Object.entries(CATEGORIES).map(([k, c]) => h('option', { value: k, selected: k === value }, `${c.icon} ${c.label}`));
+
+  function renderMaterials(view) {
+    const panel = h('div');
+    const previewCard = h('div', { class: 'card', id: 'mat-preview' });
+    const manageCard = h('div', { class: 'card' });
+    const tabs = seg([['file', '📄 Plik JSON'], ['paste', '📋 Wklej'], ['form', '✏️ Słowo']], matUi.tab, (v) => { matUi.tab = v; drawPanel(); });
+    tabs.classList.add('seg-full');
+
+    const showPreview = () => { drawPreview(); previewCard.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
+    function drawPanel() {
+      panel.replaceChildren(matUi.tab === 'file' ? filePanel(showPreview) : matUi.tab === 'paste' ? pastePanel(showPreview) : formPanel(showPreview));
+    }
+
+    function drawPreview() {
+      if (!pending) {
+        const ids = lastAdded ? lastAdded.ids : [];
+        previewCard.classList.toggle('hidden', !ids.length);
+        if (ids.length) {
+          previewCard.replaceChildren(
+            h('h2', null, `✅ Dodano ${ids.length} ${plural(ids.length, 'wpis', 'wpisy', 'wpisów')}`),
+            h('p', { class: 'muted small' }, `Paczka „${lastAdded.source}”. Nowe słowa są już w słowniku, w sesjach i w powtórkach (jako nowe, przed resztą słownika).`),
+            h('div', { class: 'row' },
+              h('button', { class: 'btn btn-primary', onClick: () => learnItems(ids) }, '🎯 Ucz się ich teraz'),
+              h('button', { class: 'btn btn-ghost', onClick: () => { lastAdded = null; drawPreview(); } }, 'Zamknij')));
+        }
+        return;
+      }
+      previewCard.classList.remove('hidden');
+      const rows = pending.rows;
+      const nErr = rows.filter((r) => r.errors.length).length;
+      const nDup = rows.filter((r) => r.dup).length;
+      const nNew = rows.length - nErr - nDup;
+      const addBtn = h('button', { class: 'btn btn-primary' });
+      const updateBtn = () => {
+        const n = rows.filter((r) => r.checked).length;
+        addBtn.textContent = `Dodaj (${n})`;
+        addBtn.disabled = !n;
+      };
+      addBtn.addEventListener('click', () => { commitPending(); drawPreview(); drawManage(); });
+      updateBtn();
+      previewCard.replaceChildren(
+        h('h2', null, 'Podgląd przed zapisem'),
+        h('p', { class: 'muted small' }, 'Źródło: ', h('b', null, pending.source), ` · ${rows.length} ${plural(rows.length, 'wpis', 'wpisy', 'wpisów')}: `,
+          `${nNew} ${plural(nNew, 'nowy', 'nowe', 'nowych')}, ${nDup} ${plural(nDup, 'duplikat', 'duplikaty', 'duplikatów')}, ${nErr} z błędami. `,
+          'Odznacz wpisy, których nie chcesz dodawać.'),
+        h('div', { class: 'pv-list' }, rows.map((r) => previewRow(r, updateBtn))),
+        h('div', { class: 'row', style: 'margin-top:14px' },
+          h('button', { class: 'btn btn-ghost', onClick: () => { pending = null; drawPreview(); } }, 'Anuluj'),
+          h('div', { class: 'spacer' }),
+          addBtn));
+    }
+
+    function drawManage() {
+      const groups = new Map();
+      for (const c of state.customItems) {
+        const k = c.source || 'bez nazwy';
+        if (!groups.has(k)) groups.set(k, []);
+        groups.get(k).push(c);
+      }
+      const title = h('h2', null, `📚 Moje materiały${state.customItems.length ? ` (${state.customItems.length})` : ''}`);
+      if (!groups.size) {
+        manageCard.replaceChildren(title, h('p', { class: 'muted small' }, 'Nie masz jeszcze własnych materiałów. Dodane wpisy trafią do sesji, powtórek i statystyk kategorii tak jak reszta słownika.'));
+        return;
+      }
+      const del = (ids, what) => { if (removeCustom(ids, what)) { drawManage(); drawPreview(); } };
+      manageCard.replaceChildren(title,
+        h('p', { class: 'muted small' }, 'Pogrupowane według źródła. Usunięcie kasuje też postęp nauki tych słów.'),
+        ...[...groups].map(([src, items]) => {
+          const latest = items.reduce((m, c) => (c.addedAt > m ? c.addedAt : m), '');
+          const n = items.length;
+          const det = h('details', { class: 'pack', open: openPacks.has(src) },
+            h('summary', null,
+              h('span', { class: 'pack-name' }, src),
+              h('span', { class: 'muted small' }, `${n} ${plural(n, 'wpis', 'wpisy', 'wpisów')} · ${fmtDate(latest)}`)),
+            h('div', { class: 'pack-items' }, items.map((c) => {
+              const it = BY_ID.get(c.id);
+              const label = it ? it._label : dupKey(c);
+              return h('div', { class: 'pack-item' },
+                h('div', { class: 'txt' },
+                  h('b', null, label), it && it._answer ? h('span', { class: 'muted' }, ' — ' + it._answer) : null,
+                  h('div', { class: 'pv-meta' }, `${TYPES[c.type] || c.type} · ${(CATEGORIES[it ? it.category : c.category] || {}).label || '—'} · ${it ? STATUS_LABELS[statusOf(it)] : '—'}`)),
+                h('button', { class: 'icon-btn', title: 'Usuń wpis', 'aria-label': `Usuń: ${label}`, onClick: () => del([c.id], `wpis „${label}”`) }, '🗑'));
+            })),
+            h('div', { class: 'row pack-actions' },
+              h('button', { class: 'btn', onClick: () => learnItems(items.map((c) => c.id)) }, '🎯 Ucz się'),
+              h('div', { class: 'spacer' }),
+              h('button', { class: 'btn btn-danger', onClick: () => del(items.map((c) => c.id), `całą paczkę „${src}” (${n} ${plural(n, 'wpis', 'wpisy', 'wpisów')})`) }, 'Usuń paczkę')));
+          det.addEventListener('toggle', () => (det.open ? openPacks.add(src) : openPacks.delete(src)));
+          return det;
+        }));
+    }
+
+    view.replaceChildren(
+      h('a', { class: 'back-link', href: '#/settings' }, '← Ustawienia'),
+      h('h1', null, 'Dodaj materiały'),
+      h('p', { class: 'muted' }, 'Nowe słownictwo bez edytowania vocabulary.json. Każdy import kończy się podglądem, a dopiero potem zapisem.'),
+      h('div', { class: 'card' }, tabs, panel),
+      previewCard,
+      manageCard);
+    drawPanel();
+    drawPreview();
+    drawManage();
+  }
+
+  function previewRow(r, onChange) {
+    const p = r.errors.length ? null : prepareItem({ ...r.item, id: 'preview' });
+    const label = p ? p._label : (dupKey(r.item) || JSON.stringify(r.item).slice(0, 80) || '(pusty wpis)');
+    const cb = h('input', { type: 'checkbox', checked: r.checked, disabled: !!r.errors.length, 'aria-label': `Dodaj: ${label}`,
+      onChange: (e) => { r.checked = e.target.checked; onChange(); } });
+    const cat = CATEGORIES[r.item.category];
+    return h('label', { class: 'pv-row' + (r.errors.length ? ' err' : r.dup ? ' dup' : '') },
+      cb,
+      h('span', { class: 'pv-body' },
+        h('span', null, h('b', null, label), p && p._answer ? h('span', { class: 'muted' }, ' — ' + p._answer) : null),
+        h('span', { class: 'pv-meta' }, `poz. ${r.line} · ${TYPES[r.item.type] || r.item.type || 'brak typu'} · ${cat ? cat.label : r.item.category || '—'}`),
+        r.errors.map((e) => h('span', { class: 'pv-msg bad' }, '✗ ' + e)),
+        r.dup ? h('span', { class: 'pv-msg warn' }, '⚠ Duplikat: ' + r.dup) : null,
+        r.warnings.map((w) => h('span', { class: 'pv-msg' }, 'ℹ ' + w))));
+  }
+
+  function filePanel(onPreview) {
+    const input = h('input', { type: 'file', accept: 'application/json,.json', class: 'hidden', onChange: (e) => {
+      const file = e.target.files && e.target.files[0];
+      e.target.value = '';
+      if (!file) return;
+      if (file.size > 2e6) { toast('Plik jest za duży (maks. 2 MB).'); return; }
+      const reader = new FileReader();
+      reader.onload = () => {
+        let data;
+        try { data = JSON.parse(reader.result); } catch (err) { toast('To nie jest poprawny plik JSON.'); return; }
+        const items = Array.isArray(data) ? data : data && Array.isArray(data.items) ? data.items : null;
+        if (!items) { toast('Plik musi zawierać tablicę wpisów albo obiekt { "items": [...] }.'); return; }
+        if (!items.length) { toast('Plik nie zawiera żadnych wpisów.'); return; }
+        buildPending(items, file.name);
+        onPreview();
+      };
+      reader.readAsText(file);
+    } });
+    const sample = JSON.stringify({ items: [
+      { type: 'awl_word', word: 'significant', polish: ['istotny'], example: 'The results were statistically significant.', category: 'awl', difficulty: 1 },
+      { type: 'replacement', informal: 'find out', formal: ['investigate', 'determine'], polish: ['zbadać'], category: 'phrasal_verbs' },
+    ] }, null, 1);
+    return h('div', null,
+      h('p', { class: 'small' }, 'Plik w formacie vocabulary.json: tablica wpisów albo obiekt ', h('code', null, '{ "items": [...] }'),
+        '. Pola ', h('code', null, 'id'), ' nie trzeba podawać — aplikacja nada własne.'),
+      h('button', { class: 'btn btn-primary btn-block', onClick: () => input.click() }, '📂 Wybierz plik .json'),
+      input,
+      h('details', { class: 'small', style: 'margin-top:12px' },
+        h('summary', null, 'Przykład pliku i dozwolone wartości'),
+        h('pre', { class: 'code' }, sample),
+        h('p', { class: 'muted' }, 'Typy: ', Object.keys(TYPES).join(', '), '. Kategorie: ', Object.keys(CATEGORIES).join(', '),
+          '. Brak kategorii = domyślna dla typu. Pełny opis pól: README, sekcja „Format wpisów”.')));
+  }
+
+  function pastePanel(onPreview) {
+    const hint = h('p', { class: 'muted small', style: 'margin:0' });
+    const ta = h('textarea', { id: 'm-paste', rows: '7', spellcheck: 'false', value: matUi.pasteText });
+    ta.addEventListener('input', () => { matUi.pasteText = ta.value; });
+    const catSel = h('select', { id: 'm-pcat', onChange: (e) => { matUi.pasteCat = e.target.value; } }, catOptions(matUi.pasteCat));
+    const drawHint = () => {
+      const t = matUi.pasteType;
+      const cols = PASTE_COLS[t].map((k) => fieldDef(t, k).label.toLowerCase());
+      hint.replaceChildren('Jeden wpis w linii, kolumny oddzielone ', h('b', null, ';'), ' lub tabulatorem: ', h('b', null, cols.join(' ; ')), '.',
+        t === 'academic_verb' ? ` Funkcja: ${Object.keys(FUNCTION_LABELS).join(', ')}.` : '',
+        t === 'hedging' ? ` Technika: ${Object.keys(TECHNIQUE_DEFS).join(', ')}.` : '');
+      ta.placeholder = PASTE_COLS[t].map((k) => { const f = fieldDef(t, k); return f.options ? Object.keys(f.options)[0] : f.ph; }).join(' ; ');
+    };
+    const typeSel = h('select', { id: 'm-ptype', onChange: (e) => {
+      matUi.pasteType = e.target.value;
+      matUi.pasteCat = TYPE_CATEGORY[matUi.pasteType];
+      catSel.value = matUi.pasteCat;
+      drawHint();
+    } }, optionEls(TYPES, matUi.pasteType));
+    const src = h('input', { type: 'text', id: 'm-psrc', maxlength: '60', placeholder: `Wklejone ${today()}`, value: matUi.pasteSource,
+      onInput: (e) => { matUi.pasteSource = e.target.value; } });
+    drawHint();
+    const go = () => {
+      const raws = parsePaste(ta.value, matUi.pasteType, matUi.pasteCat);
+      if (!raws.length) { toast('Wklej co najmniej jedną linię.'); ta.focus(); return; }
+      buildPending(raws, matUi.pasteSource.trim() || `Wklejone ${today()}`);
+      onPreview();
+    };
+    return h('div', null,
+      h('div', { class: 'grid grid-2', style: 'gap:0 16px' },
+        h('div', { class: 'field' }, h('label', { for: 'm-ptype' }, 'Typ wpisów'), typeSel),
+        h('div', { class: 'field' }, h('label', { for: 'm-pcat' }, 'Kategoria'), catSel)),
+      h('div', { class: 'field' }, h('label', { for: 'm-paste' }, 'Tekst'), hint, ta),
+      h('div', { class: 'field' }, h('label', { for: 'm-psrc' }, 'Nazwa paczki ', h('span', { class: 'muted small', style: 'font-weight:500' }, '(opcjonalnie)')), src),
+      h('button', { class: 'btn btn-primary btn-block', onClick: go }, 'Podgląd →'));
+  }
+
+  function formPanel(onPreview) {
+    const wrap = h('div');
+    function draw() {
+      const type = matUi.formType;
+      const inputs = {};
+      const fields = FIELDS[type].map((f) => {
+        const id = 'mf-' + f.key;
+        const ctl = f.options
+          ? h('select', { id }, optionEls(f.options))
+          : h('input', { type: f.num ? 'number' : 'text', id, placeholder: f.ph, min: f.num ? '1' : null, max: f.num ? '10' : null,
+            autocapitalize: 'off', spellcheck: 'false' });
+        inputs[f.key] = ctl;
+        return h('div', { class: 'field' },
+          h('label', { for: id }, f.label, f.req ? h('span', { class: 'req', title: 'wymagane' }, ' *') : null,
+            f.hint ? h('span', { class: 'muted small', style: 'font-weight:500' }, ` (${f.hint})`) : null),
+          ctl);
+      });
+      const typeSel = h('select', { id: 'mf-type', onChange: (e) => { matUi.formType = e.target.value; matUi.formCat = TYPE_CATEGORY[matUi.formType]; draw(); } }, optionEls(TYPES, type));
+      const catSel = h('select', { id: 'mf-cat', onChange: (e) => { matUi.formCat = e.target.value; } }, catOptions(matUi.formCat));
+      const diffSel = h('select', { id: 'mf-diff' }, optionEls(Object.fromEntries(Object.entries(DIFFICULTY).map(([k, l]) => [k, `${k} — ${l}`])), '1'));
+      const go = () => {
+        const raw = { type, category: catSel.value, difficulty: Number(diffSel.value) };
+        for (const f of FIELDS[type]) {
+          const v = inputs[f.key].value.trim();
+          if (v) raw[f.key] = parseField(type, f.key, v);
+        }
+        buildPending([raw], 'ręcznie');
+        onPreview();
+      };
+      wrap.replaceChildren(
+        h('div', { class: 'field' }, h('label', { for: 'mf-type' }, 'Typ'), typeSel),
+        ...fields,
+        h('div', { class: 'grid grid-2', style: 'gap:0 16px' },
+          h('div', { class: 'field' }, h('label', { for: 'mf-cat' }, 'Kategoria'), catSel),
+          h('div', { class: 'field' }, h('label', { for: 'mf-diff' }, 'Poziom'), diffSel)),
+        h('button', { class: 'btn btn-primary btn-block', onClick: go }, 'Podgląd →'));
+    }
+    draw();
+    return wrap;
+  }
+
+  // ===================================================================
   // Synchronizacja (Supabase): logowanie kodem z e-maila, jeden wiersz JSON na użytkownika.
   // localStorage pozostaje lokalną kopią — aplikacja działa offline, a zmiany wysyłamy w tle.
   // ===================================================================
@@ -1455,10 +1895,16 @@
     }
     const remoteNewer = (remote.settingsTs || 0) > (local.settingsTs || 0);
     const settings = remoteNewer ? { ...local.settings, ...remote.settings, theme: local.settings.theme } : local.settings;
+    // Usunięte własne materiały: suma tombstones z obu stron wygrywa nad sumą wpisów i ich postępem.
+    const deletedCustom = { ...(remote.deletedCustom || {}) };
+    for (const [id, t] of Object.entries(local.deletedCustom || {})) deletedCustom[id] = Math.max(t, deletedCustom[id] || 0);
+    for (const id of Object.keys(deletedCustom)) delete progress[id];
     const custom = new Map();
-    for (const it of [...(remote.customItems || []), ...(local.customItems || [])]) custom.set(it.id, it);
+    for (const it of [...(remote.customItems || []), ...(local.customItems || [])]) {
+      if (it && it.id && !deletedCustom[it.id]) custom.set(it.id, it);
+    }
     return {
-      ...local, progress, daily, settings, resetAt,
+      ...local, progress, daily, settings, resetAt, deletedCustom,
       settingsTs: Math.max(local.settingsTs || 0, remote.settingsTs || 0),
       customItems: [...custom.values()],
     };
@@ -1483,11 +1929,15 @@
       const { data, error } = await sync.client.from('progress').select('state').eq('user_id', sync.user.id).maybeSingle();
       if (error) throw error;
       const before = JSON.stringify(state.progress);
+      const customFp = () => state.customItems.map((c) => c.id).join();
+      const customBefore = customFp();
       if (data && data.state) {
         state = mergeStates(state, data.state);
         lastSettingsFp = settingsFp();
         saveLocal();
       }
+      const customChanged = customFp() !== customBefore;
+      if (customChanged) rebuildVocab();
       sync.dirty = false;
       const { error: upErr } = await sync.client.from('progress')
         .upsert({ user_id: sync.user.id, state, updated_at: new Date().toISOString() });
@@ -1497,7 +1947,8 @@
       sync.lastSync = new Date();
       if (manual) toast('Zsynchronizowano ☁️');
       // odśwież widok, jeśli z chmury przyszły nowe dane (nie w trakcie sesji)
-      if (JSON.stringify(state.progress) !== before && (currentRoute === 'dashboard' || currentRoute === 'browse')) route();
+      if ((JSON.stringify(state.progress) !== before || customChanged) && (currentRoute === 'dashboard' || currentRoute === 'browse')) route();
+      else if (customChanged && currentRoute === 'materials' && !pending) route();
     } catch (e) {
       sync.status = 'error';
       sync.error = (e && e.message) || String(e);
@@ -1627,8 +2078,8 @@
   // Router i start
   // ===================================================================
   let currentRoute = '';
-  const ROUTES = { dashboard: renderDashboard, learn: renderLearn, browse: renderBrowse, settings: renderSettings, session: renderSessionView, summary: renderSummary };
-  const NAV_FOR = { session: 'learn', summary: 'learn' };
+  const ROUTES = { dashboard: renderDashboard, learn: renderLearn, browse: renderBrowse, settings: renderSettings, session: renderSessionView, summary: renderSummary, materials: renderMaterials };
+  const NAV_FOR = { session: 'learn', summary: 'learn', materials: 'settings' };
 
   function route() {
     const name = (location.hash.replace(/^#\/?/, '') || 'dashboard').split('?')[0];
