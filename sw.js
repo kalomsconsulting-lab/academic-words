@@ -30,6 +30,7 @@ const ASSETS = [
   './data/psychology.json',
   './data/geografia-7.json',
   './data/edukacja-zdrowotna-7.json',
+  './data/historia-7.json',
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-192.png',

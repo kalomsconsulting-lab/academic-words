@@ -1,0 +1,1532 @@
+{
+ "version": 1,
+ "subject": "historia_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, historia, działy XVIII–XXX (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996); zakres klasy 7: od epoki napoleońskiej do paktu Ribbentrop–Mołotow",
+ "items": [
+  {
+   "id": "his7-pp-001",
+   "type": "qa",
+   "question": "W którym roku Napoleon Bonaparte koronował się na cesarza Francuzów?",
+   "answer": "1804",
+   "accept": [
+    "w 1804 r.",
+    "1804 r."
+   ],
+   "explanation": "Koronacja odbyła się 2 grudnia 1804 r. w katedrze Notre-Dame w Paryżu.",
+   "category": "his7_napoleon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XVIII.1"
+  },
+  {
+   "id": "his7-pp-002",
+   "type": "qa",
+   "question": "Jak nazywa się ogłoszony w 1804 r. francuski kodeks prawa cywilnego, który wprowadzał równość obywateli wobec prawa?",
+   "answer": "Kodeks Napoleona",
+   "accept": [
+    "kodeks cywilny Napoleona",
+    "Kodeks cywilny",
+    "kodeks napoleoński"
+   ],
+   "explanation": "Kodeks obowiązywał też w Księstwie Warszawskim i stał się wzorem dla prawa cywilnego w wielu krajach Europy.",
+   "category": "his7_napoleon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XVIII.1"
+  },
+  {
+   "id": "his7-pp-003",
+   "type": "cloze",
+   "text": "Ogłoszona przez Napoleona w 1806 r. {{blokada kontynentalna}} miała zakazać państwom Europy handlu z Wielką Brytanią.",
+   "hint": "blokada ... (od nazwy kontynentu)",
+   "explanation": "Blokada miała zrujnować gospodarkę Wielkiej Brytanii, ale uderzyła też w gospodarki krajów kontynentu.",
+   "category": "his7_napoleon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XVIII.1"
+  },
+  {
+   "id": "his7-pp-004",
+   "type": "qa",
+   "question": "Kto w 1797 r. we Włoszech utworzył Legiony Polskie walczące u boku Francji?",
+   "answer": "Jan Henryk Dąbrowski",
+   "accept": [
+    "Dąbrowski",
+    "gen. Dąbrowski",
+    "generał Dąbrowski"
+   ],
+   "explanation": "Legiony powstały w Lombardii; Polacy liczyli, że z pomocą Francji odzyskają niepodległość.",
+   "category": "his7_napoleon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XVIII.2"
+  },
+  {
+   "id": "his7-pp-005",
+   "type": "cloze",
+   "text": "Słowa Pieśni Legionów Polskich „Jeszcze Polska nie zginęła” napisał w 1797 r. {{Józef Wybicki}}.",
+   "hint": "autor słów dzisiejszego hymnu Polski",
+   "explanation": "Pieśń, znana jako Mazurek Dąbrowskiego, jest od 1927 r. hymnem państwowym Polski.",
+   "category": "his7_napoleon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XVIII.2"
+  },
+  {
+   "id": "his7-pp-006",
+   "type": "qa",
+   "question": "Jak nazywało się państwo polskie utworzone przez Napoleona w 1807 r. na mocy pokoju w Tylży?",
+   "answer": "Księstwo Warszawskie",
+   "accept": [],
+   "explanation": "Księstwo powstało z ziem drugiego i trzeciego zaboru pruskiego; jego księciem został król Saksonii Fryderyk August.",
+   "category": "his7_napoleon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XVIII.2"
+  },
+  {
+   "id": "his7-pp-007",
+   "type": "qa",
+   "question": "Który książę, bratanek ostatniego króla Polski, dowodził armią Księstwa Warszawskiego i zginął w bitwie pod Lipskiem w 1813 r.?",
+   "answer": "Józef Poniatowski",
+   "accept": [
+    "książę Józef Poniatowski",
+    "Poniatowski",
+    "książę Józef"
+   ],
+   "explanation": "Napoleon mianował go marszałkiem Francji; zginął, osłaniając odwrót armii napoleońskiej.",
+   "category": "his7_napoleon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XVIII.2"
+  },
+  {
+   "id": "his7-pp-008",
+   "type": "qa",
+   "question": "W którym roku zakończył obrady kongres wiedeński?",
+   "answer": "1815",
+   "accept": [
+    "w 1815 r.",
+    "1815 r."
+   ],
+   "explanation": "Kongres obradował od września 1814 r. do czerwca 1815 r. i ustalił nowy ład w Europie po wojnach napoleońskich.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.1"
+  },
+  {
+   "id": "his7-pp-009",
+   "type": "qa",
+   "question": "Jak nazywa się zasada kongresu wiedeńskiego nakazująca przywrócenie na trony dynastii panujących przed rewolucją francuską?",
+   "answer": "legitymizm",
+   "accept": [
+    "zasada legitymizmu"
+   ],
+   "explanation": "Obok legitymizmu kongres kierował się zasadami restauracji i równowagi sił.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.1"
+  },
+  {
+   "id": "his7-pp-010",
+   "type": "cloze",
+   "text": "Trzy zasady kongresu wiedeńskiego to legitymizm, restauracja i {{równowaga sił}}.",
+   "hint": "żadne mocarstwo nie miało dominować w Europie",
+   "explanation": "Równowaga sił miała zapobiec powtórce hegemonii jednego państwa, jaką zbudował Napoleon.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.1"
+  },
+  {
+   "id": "his7-pp-011",
+   "type": "qa",
+   "question": "Jak nazywał się sojusz Rosji, Austrii i Prus zawarty w 1815 r. w obronie porządku ustalonego na kongresie wiedeńskim?",
+   "answer": "Święte Przymierze",
+   "accept": [],
+   "explanation": "Święte Przymierze miało tłumić ruchy rewolucyjne i narodowe w Europie.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.1"
+  },
+  {
+   "id": "his7-pp-012",
+   "type": "qa",
+   "question": "Jak nazywało się państwo utworzone na kongresie wiedeńskim z większości ziem Księstwa Warszawskiego i połączone unią z Rosją?",
+   "answer": "Królestwo Polskie",
+   "accept": [
+    "Królestwo Kongresowe",
+    "Kongresówka"
+   ],
+   "explanation": "Królem Polski został car Rosji Aleksander I; stąd potoczna nazwa Kongresówka.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.1"
+  },
+  {
+   "id": "his7-pp-013",
+   "type": "qa",
+   "question": "W którym kraju w XVIII w. rozpoczęła się rewolucja przemysłowa?",
+   "answer": "w Anglii",
+   "accept": [
+    "Anglia",
+    "Wielka Brytania",
+    "w Wielkiej Brytanii"
+   ],
+   "explanation": "Anglia miała kapitał, złoża węgla i żelaza oraz rozwinięty rynek, co sprzyjało mechanizacji produkcji.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.2"
+  },
+  {
+   "id": "his7-pp-014",
+   "type": "qa",
+   "question": "Kto udoskonalił maszynę parową, dzięki czemu znalazła zastosowanie w fabrykach i transporcie?",
+   "answer": "James Watt",
+   "accept": [
+    "Watt"
+   ],
+   "explanation": "Ulepszona maszyna parowa Watta (lata 60.–80. XVIII w.) stała się symbolem rewolucji przemysłowej.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.2"
+  },
+  {
+   "id": "his7-pp-015",
+   "type": "cloze",
+   "text": "Nowa klasa społeczna robotników fabrycznych, utrzymujących się z pracy najemnej, to {{proletariat}}.",
+   "hint": "inaczej klasa robotnicza",
+   "explanation": "Robotnicy pracowali po kilkanaście godzin dziennie, często wraz z dziećmi, w złych warunkach.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.2"
+  },
+  {
+   "id": "his7-pp-016",
+   "type": "cloze",
+   "text": "Szybki rozwój miast i wzrost liczby ich mieszkańców w XIX w. to {{urbanizacja}}.",
+   "hint": "od łac. urbs, miasto",
+   "explanation": "Ludność ze wsi przenosiła się do miast w poszukiwaniu pracy w fabrykach.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIX.2"
+  },
+  {
+   "id": "his7-pp-017",
+   "type": "qa",
+   "question": "Który car Rosji nadał Królestwu Polskiemu konstytucję w 1815 r.?",
+   "answer": "Aleksander I",
+   "accept": [
+    "car Aleksander I"
+   ],
+   "explanation": "Konstytucja Królestwa Polskiego była jedną z najbardziej liberalnych w ówczesnej Europie.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.1"
+  },
+  {
+   "id": "his7-pp-018",
+   "type": "cloze",
+   "text": "Królestwo Polskie było połączone z Rosją {{unią personalną}}: car Rosji był jednocześnie królem Polski.",
+   "hint": "wspólny władca, osobne państwa",
+   "explanation": "Królestwo miało własny sejm, wojsko, skarb i język polski jako urzędowy.",
+   "category": "his7_partitions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XX.1"
+  },
+  {
+   "id": "his7-pp-019",
+   "type": "qa",
+   "question": "Który minister skarbu Królestwa Polskiego rozwijał przemysł i założył w 1828 r. Bank Polski?",
+   "answer": "Ksawery Drucki-Lubecki",
+   "accept": [
+    "Drucki-Lubecki",
+    "Lubecki",
+    "Franciszek Ksawery Drucki-Lubecki"
+   ],
+   "explanation": "Lubecki uporządkował finanse Królestwa i wspierał budowę zakładów przemysłowych, m.in. w Zagłębiu Staropolskim.",
+   "category": "his7_partitions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XX.1"
+  },
+  {
+   "id": "his7-pp-020",
+   "type": "qa",
+   "question": "Jaką uczelnię założono w Warszawie w 1816 r. w okresie konstytucyjnym Królestwa Polskiego?",
+   "answer": "Uniwersytet Warszawski",
+   "accept": [
+    "Królewski Uniwersytet Warszawski"
+   ],
+   "explanation": "Uniwersytet został zamknięty przez władze rosyjskie po upadku powstania listopadowego.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.1"
+  },
+  {
+   "id": "his7-pp-021",
+   "type": "qa",
+   "question": "W którym roku wybuchło powstanie listopadowe?",
+   "answer": "1830",
+   "accept": [
+    "w 1830 r.",
+    "1830 r."
+   ],
+   "explanation": "Powstanie rozpoczęło się w nocy z 29 na 30 listopada 1830 r. w Warszawie.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.2"
+  },
+  {
+   "id": "his7-pp-022",
+   "type": "qa",
+   "question": "Jak nazywa się atak podchorążych na Belweder 29 listopada 1830 r., który rozpoczął powstanie listopadowe?",
+   "answer": "Noc Listopadowa",
+   "accept": [
+    "noc listopadowa"
+   ],
+   "explanation": "Celem ataku na Belweder był wielki książę Konstanty, który jednak zdołał uciec.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.2"
+  },
+  {
+   "id": "his7-pp-023",
+   "type": "qa",
+   "question": "Kto stał na czele spisku podchorążych, który wywołał powstanie listopadowe?",
+   "answer": "Piotr Wysocki",
+   "accept": [
+    "Wysocki",
+    "podporucznik Piotr Wysocki"
+   ],
+   "explanation": "Wysocki był instruktorem w Szkole Podchorążych Piechoty w Warszawie.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.2"
+  },
+  {
+   "id": "his7-pp-024",
+   "type": "cloze",
+   "text": "25 stycznia 1831 r. sejm Królestwa Polskiego uchwalił {{detronizację}} cara Mikołaja I jako króla Polski.",
+   "hint": "pozbawienie tronu",
+   "explanation": "Od tego momentu powstanie stało się otwartą wojną polsko-rosyjską.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XX.2"
+  },
+  {
+   "id": "his7-pp-025",
+   "type": "qa",
+   "question": "Pod jaką miejscowością 25 lutego 1831 r. stoczono krwawą, nierozstrzygniętą bitwę w obronie Warszawy?",
+   "answer": "Grochów",
+   "accept": [
+    "pod Grochowem",
+    "Olszynka Grochowska"
+   ],
+   "explanation": "Bitwa pod Grochowem (Olszynką Grochowską) powstrzymała pierwsze rosyjskie natarcie na stolicę.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XX.2"
+  },
+  {
+   "id": "his7-pp-026",
+   "type": "cloze",
+   "text": "Po upadku powstania listopadowego car Mikołaj I zastąpił konstytucję Królestwa Polskiego {{Statutem Organicznym}} (1832).",
+   "hint": "Statut ...",
+   "explanation": "Statut Organiczny zlikwidował sejm i osobne wojsko polskie; następstwem były też represje i konfiskaty majątków.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XX.2"
+  },
+  {
+   "id": "his7-pp-027",
+   "type": "qa",
+   "question": "Jak nazywała się autonomiczna jednostka ze stolicą w Poznaniu, utworzona w 1815 r. w zaborze pruskim?",
+   "answer": "Wielkie Księstwo Poznańskie",
+   "accept": [],
+   "explanation": "Autonomia Księstwa była ograniczona, a po 1848 r. zniesiona i zastąpiona germanizacją.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.3"
+  },
+  {
+   "id": "his7-pp-028",
+   "type": "qa",
+   "question": "Jak nazywało się istniejące w latach 1815–1846 wolne, neutralne miasto-państwo pod kontrolą trzech zaborców?",
+   "answer": "Rzeczpospolita Krakowska",
+   "accept": [
+    "Wolne Miasto Kraków"
+   ],
+   "explanation": "Po nieudanym powstaniu krakowskim w 1846 r. Austria wcieliła Kraków do swojego państwa.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.3"
+  },
+  {
+   "id": "his7-pp-029",
+   "type": "cloze",
+   "text": "Ziemie dawnej Rzeczypospolitej włączone bezpośrednio do Rosji w czasie rozbiorów nazywano {{ziemiami zabranymi}}.",
+   "hint": "ziemie „zabrane” przez Rosję (m.in. Litwa, Wołyń)",
+   "explanation": "W przeciwieństwie do Królestwa Polskiego ziemie zabrane nie miały żadnej autonomii.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.3"
+  },
+  {
+   "id": "his7-pp-030",
+   "type": "qa",
+   "question": "Jak nazywa się fala emigracji politycznej Polaków po upadku powstania listopadowego?",
+   "answer": "Wielka Emigracja",
+   "accept": [],
+   "explanation": "Na emigrację udało się kilka tysięcy żołnierzy, polityków i twórców, m.in. Mickiewicz, Słowacki i Chopin.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.4"
+  },
+  {
+   "id": "his7-pp-031",
+   "type": "qa",
+   "question": "Do którego kraju udała się większość uczestników Wielkiej Emigracji?",
+   "answer": "do Francji",
+   "accept": [
+    "Francja",
+    "Francji"
+   ],
+   "explanation": "Centrum emigracji stał się Paryż, gdzie powstały główne obozy polityczne.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XX.4"
+  },
+  {
+   "id": "his7-pp-032",
+   "type": "qa",
+   "question": "Który książę kierował w Paryżu konserwatywnym obozem Wielkiej Emigracji, zwanym Hotelem Lambert?",
+   "answer": "Adam Jerzy Czartoryski",
+   "accept": [
+    "Adam Czartoryski",
+    "Czartoryski",
+    "książę Czartoryski"
+   ],
+   "explanation": "Hotel Lambert liczył na odbudowę Polski dzięki dyplomacji i pomocy mocarstw zachodnich.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XX.4"
+  },
+  {
+   "id": "his7-pp-033",
+   "type": "qa",
+   "question": "W którym roku wybuchło powstanie styczniowe?",
+   "answer": "1863",
+   "accept": [
+    "w 1863 r.",
+    "1863 r."
+   ],
+   "explanation": "Powstanie rozpoczęło się 22 stycznia 1863 r. i trwało do 1864 r.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXI.1"
+  },
+  {
+   "id": "his7-pp-034",
+   "type": "qa",
+   "question": "Jak nazywano przymusowy pobór do armii rosyjskiej ogłoszony w styczniu 1863 r., który stał się bezpośrednią przyczyną wybuchu powstania?",
+   "answer": "branka",
+   "accept": [],
+   "explanation": "Branka miała objąć młodych mężczyzn podejrzewanych o działalność spiskową.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXI.1"
+  },
+  {
+   "id": "his7-pp-035",
+   "type": "qa",
+   "question": "Jak nazywano zwolenników szybkiego wybuchu powstania zbrojnego w Królestwie Polskim przed 1863 r.?",
+   "answer": "czerwoni",
+   "accept": [
+    "stronnictwo czerwonych",
+    "obóz czerwonych"
+   ],
+   "explanation": "Czerwoni chcieli powstania połączonego z uwłaszczeniem chłopów.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXI.1"
+  },
+  {
+   "id": "his7-pp-036",
+   "type": "qa",
+   "question": "Jak nazywano stronnictwo umiarkowane, które przed 1863 r. odrzucało walkę zbrojną i liczyło na reformy?",
+   "answer": "biali",
+   "accept": [
+    "stronnictwo białych",
+    "obóz białych"
+   ],
+   "explanation": "Biali skupiali ziemiaństwo i bogate mieszczaństwo; do powstania przyłączyli się dopiero po jego wybuchu.",
+   "category": "his7_uprisings",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXI.1"
+  },
+  {
+   "id": "his7-pp-037",
+   "type": "qa",
+   "question": "Kto był ostatnim dyktatorem powstania styczniowego, straconym na stokach Cytadeli Warszawskiej w 1864 r.?",
+   "answer": "Romuald Traugutt",
+   "accept": [
+    "Traugutt"
+   ],
+   "explanation": "Traugutt kierował powstaniem od października 1863 r. do aresztowania w kwietniu 1864 r.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXI.2"
+  },
+  {
+   "id": "his7-pp-038",
+   "type": "cloze",
+   "text": "Aby odebrać powstańcom poparcie chłopów, car w 1864 r. ogłosił {{uwłaszczenie}} chłopów w Królestwie Polskim.",
+   "hint": "nadanie ziemi na własność",
+   "explanation": "Chłopi otrzymali ziemię na własność na warunkach korzystniejszych niż w pozostałych zaborach.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXI.3"
+  },
+  {
+   "id": "his7-pp-039",
+   "type": "qa",
+   "question": "Czy uwłaszczenie chłopów w zaborze rosyjskim (1864) nastąpiło wcześniej, czy później niż w zaborach pruskim i austriackim?",
+   "answer": "później",
+   "accept": [],
+   "explanation": "W zaborze pruskim uwłaszczenie przeprowadzano od 1807 r., w austriackim w 1848 r.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXI.3"
+  },
+  {
+   "id": "his7-pp-040",
+   "type": "cloze",
+   "text": "Po powstaniu styczniowym Królestwo Polskie straciło resztki odrębności, a w urzędowej nomenklaturze zastąpiono je nazwą {{Kraj Przywiślański/Kraj Nadwiślański}}.",
+   "hint": "nazwa od rzeki Wisły",
+   "explanation": "Zlikwidowano odrębne instytucje Królestwa, a język rosyjski wprowadzono do urzędów i szkół.",
+   "category": "his7_uprisings",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXI.4"
+  },
+  {
+   "id": "his7-pp-041",
+   "type": "qa",
+   "question": "Które państwo było ośrodkiem zjednoczenia Włoch w XIX w.?",
+   "answer": "Piemont",
+   "accept": [
+    "Królestwo Sardynii",
+    "Sardynia",
+    "Królestwo Piemontu"
+   ],
+   "explanation": "Zjednoczeniem kierowali król Wiktor Emanuel II i premier Camillo Cavour; Królestwo Włoch proklamowano w 1861 r.",
+   "category": "his7_vienna",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXII.1"
+  },
+  {
+   "id": "his7-pp-042",
+   "type": "qa",
+   "question": "Który premier Prus doprowadził do zjednoczenia Niemiec „krwią i żelazem”?",
+   "answer": "Otto von Bismarck",
+   "accept": [
+    "Bismarck"
+   ],
+   "explanation": "Bismarck zjednoczył Niemcy przez wojny z Danią, Austrią i Francją.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.1"
+  },
+  {
+   "id": "his7-pp-043",
+   "type": "qa",
+   "question": "W którym roku, po zwycięstwie nad Francją, proklamowano Cesarstwo Niemieckie?",
+   "answer": "1871",
+   "accept": [
+    "w 1871 r.",
+    "1871 r."
+   ],
+   "explanation": "Proklamacja odbyła się w Sali Lustrzanej w Wersalu; cesarzem został król Prus Wilhelm I.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.1"
+  },
+  {
+   "id": "his7-pp-044",
+   "type": "qa",
+   "question": "W których latach toczyła się wojna secesyjna w Stanach Zjednoczonych?",
+   "answer": "1861-1865",
+   "accept": [
+    "1861 - 1865",
+    "od 1861 do 1865",
+    "w latach 1861-1865"
+   ],
+   "explanation": "Wojna zakończyła się zwycięstwem Północy i zniesieniem niewolnictwa.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.2"
+  },
+  {
+   "id": "his7-pp-045",
+   "type": "qa",
+   "question": "Kto był prezydentem Stanów Zjednoczonych w czasie wojny secesyjnej?",
+   "answer": "Abraham Lincoln",
+   "accept": [
+    "Lincoln"
+   ],
+   "explanation": "Lincoln ogłosił w 1863 r. zniesienie niewolnictwa; zginął w zamachu w 1865 r.",
+   "category": "his7_vienna",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.2"
+  },
+  {
+   "id": "his7-pp-046",
+   "type": "cloze",
+   "text": "Główną przyczyną wojny secesyjnej był spór o {{niewolnictwo}} między uprzemysłowioną Północą a rolniczym Południem.",
+   "hint": "praca niewolników na plantacjach",
+   "explanation": "Stany południowe wystąpiły z Unii (secesja) i utworzyły Konfederację.",
+   "category": "his7_vienna",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXII.2"
+  },
+  {
+   "id": "his7-pp-047",
+   "type": "qa",
+   "question": "Jak nazywa się polityka podboju i podporządkowania terytoriów zamorskich prowadzona przez państwa europejskie w XIX w.?",
+   "answer": "kolonializm",
+   "accept": [
+    "ekspansja kolonialna",
+    "imperializm"
+   ],
+   "explanation": "Kolonie dostarczały surowców i rynków zbytu, a ich ludność była wyzyskiwana.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.3"
+  },
+  {
+   "id": "his7-pp-048",
+   "type": "qa",
+   "question": "Które państwo stworzyło w XIX w. największe imperium kolonialne, „nad którym nigdy nie zachodzi słońce”?",
+   "answer": "Wielka Brytania",
+   "accept": [
+    "Anglia",
+    "Imperium Brytyjskie"
+   ],
+   "explanation": "Brytyjczycy panowali m.in. w Indiach, Kanadzie, Australii i dużej części Afryki.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.3"
+  },
+  {
+   "id": "his7-pp-049",
+   "type": "cloze",
+   "text": "Na konferencji w Berlinie (1884–1885) mocarstwa europejskie ustaliły zasady podziału {{Afryki}} na kolonie.",
+   "hint": "kontynent",
+   "explanation": "Do początku XX w. niemal cała Afryka została podzielona między państwa europejskie.",
+   "category": "his7_industry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXII.3"
+  },
+  {
+   "id": "his7-pp-050",
+   "type": "qa",
+   "question": "Jak nazywa się ideologia głosząca, że najwyższą wartością jest własny naród i jego interesy?",
+   "answer": "nacjonalizm",
+   "accept": [],
+   "explanation": "Nacjonalizm w XIX w. napędzał ruchy zjednoczeniowe, ale też konflikty między narodami.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.4"
+  },
+  {
+   "id": "his7-pp-051",
+   "type": "qa",
+   "question": "Jaką ideologię stworzyli Karol Marks i Fryderyk Engels, zapowiadającą rewolucję robotniczą i zniesienie własności prywatnej?",
+   "answer": "komunizm",
+   "accept": [
+    "marksizm",
+    "socjalizm naukowy"
+   ],
+   "explanation": "Założenia wyłożyli w „Manifeście komunistycznym” z 1848 r.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.4"
+  },
+  {
+   "id": "his7-pp-052",
+   "type": "cloze",
+   "text": "Ruch walczący w XIX i na początku XX w. o prawa wyborcze dla kobiet to ruch {{sufrażystek}}.",
+   "hint": "od ang. suffrage, prawo głosu",
+   "explanation": "Jako jedno z pierwszych państw prawa wyborcze kobietom przyznała Nowa Zelandia (1893); Polska w 1918 r.",
+   "category": "his7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXII.4"
+  },
+  {
+   "id": "his7-pp-053",
+   "type": "qa",
+   "question": "Jak nazywa się polityka zaborcy rosyjskiego polegająca na narzucaniu Polakom języka i kultury rosyjskiej?",
+   "answer": "rusyfikacja",
+   "accept": [],
+   "explanation": "Po powstaniu styczniowym język rosyjski stał się obowiązkowy w szkołach i urzędach Królestwa.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.1"
+  },
+  {
+   "id": "his7-pp-054",
+   "type": "qa",
+   "question": "Jak nazywa się polityka zaborcy pruskiego polegająca na narzucaniu Polakom języka i kultury niemieckiej?",
+   "answer": "germanizacja",
+   "accept": [],
+   "explanation": "Germanizacja objęła szkołę, urzędy i politykę osadniczą w Wielkopolsce i na Pomorzu.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.1"
+  },
+  {
+   "id": "his7-pp-055",
+   "type": "qa",
+   "question": "Jak nazywała się polityka Bismarcka wymierzona w Kościół katolicki, uderzająca także w Polaków w zaborze pruskim?",
+   "answer": "Kulturkampf",
+   "accept": [
+    "kulturkampf",
+    "walka o kulturę"
+   ],
+   "explanation": "Kulturkampf („walka o kulturę”) ograniczał wpływ Kościoła na szkolnictwo i prześladował duchownych.",
+   "category": "his7_partitions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.1"
+  },
+  {
+   "id": "his7-pp-056",
+   "type": "cloze",
+   "text": "W zaborze austriackim Polacy uzyskali od lat 60. XIX w. {{autonomię}} galicyjską: Sejm Krajowy we Lwowie i polski język urzędowy.",
+   "hint": "samorząd, częściowa samodzielność",
+   "explanation": "Galicja stała się ośrodkiem polskiej kultury i nauki z polskimi uniwersytetami w Krakowie i Lwowie.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.1"
+  },
+  {
+   "id": "his7-pp-057",
+   "type": "qa",
+   "question": "Jak nazywała się instytucja pruska powołana w 1886 r. do wykupu polskiej ziemi i osiedlania na niej Niemców?",
+   "answer": "Komisja Kolonizacyjna",
+   "accept": [],
+   "explanation": "Polacy odpowiedzieli zakładaniem własnych banków i spółek ziemskich; symbolem oporu stał się wóz Drzymały.",
+   "category": "his7_partitions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.1"
+  },
+  {
+   "id": "his7-pp-058",
+   "type": "qa",
+   "question": "Jak nazywa się program działania Polaków pod zaborami polegający na rozwijaniu gospodarki, oświaty i kultury zamiast walki zbrojnej?",
+   "answer": "praca organiczna",
+   "accept": [],
+   "explanation": "Praca organiczna rozwinęła się najpierw w Wielkopolsce, a po 1864 r. także w Królestwie (praca u podstaw).",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.2"
+  },
+  {
+   "id": "his7-pp-059",
+   "type": "qa",
+   "question": "Jak nazywa się postawa lojalności Polaków wobec władz wszystkich trzech państw zaborczych?",
+   "answer": "trójlojalizm",
+   "accept": [
+    "lojalizm"
+   ],
+   "explanation": "Trójlojaliści uważali, że ugoda z zaborcami da Polakom więcej niż kolejne powstania.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.2"
+  },
+  {
+   "id": "his7-pp-060",
+   "type": "cloze",
+   "text": "Ruch {{spółdzielczy}} (np. banki ludowe w zaborze pruskim) pomagał Polakom chronić ziemię i majątek przed wykupem.",
+   "hint": "spółdzielnie, wspólna własność",
+   "explanation": "W Wielkopolsce rozwijał go m.in. ks. Piotr Wawrzyniak, patron Związku Spółek Zarobkowych.",
+   "category": "his7_partitions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.2"
+  },
+  {
+   "id": "his7-pp-061",
+   "type": "qa",
+   "question": "Jaką partię o programie socjalistycznym i niepodległościowym założono w 1892 r.; jej działaczem był Józef Piłsudski?",
+   "answer": "PPS",
+   "accept": [
+    "Polska Partia Socjalistyczna"
+   ],
+   "explanation": "PPS łączyła postulaty robotnicze z celem odzyskania niepodległości.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.4"
+  },
+  {
+   "id": "his7-pp-062",
+   "type": "qa",
+   "question": "Jak nazywa się ruch polityczny, którego ideologiem był Roman Dmowski, a partią Stronnictwo Narodowo-Demokratyczne?",
+   "answer": "ruch narodowy",
+   "accept": [
+    "narodowa demokracja",
+    "endecja",
+    "ND",
+    "Narodowa Demokracja"
+   ],
+   "explanation": "Endecja stawiała na solidarność całego narodu i traktowała Niemcy jako głównego wroga Polaków.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.4"
+  },
+  {
+   "id": "his7-pp-063",
+   "type": "qa",
+   "question": "Kto był głównym ideologiem ruchu narodowego i autorem „Myśli nowoczesnego Polaka”?",
+   "answer": "Roman Dmowski",
+   "accept": [
+    "Dmowski"
+   ],
+   "explanation": "Dmowski był później jednym z twórców odrodzonej Polski i delegatem na konferencję paryską.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.4"
+  },
+  {
+   "id": "his7-pp-064",
+   "type": "cloze",
+   "text": "Partia chłopska założona w Galicji w 1895 r., z której wywodził się Wincenty Witos, to {{Stronnictwo Ludowe}}.",
+   "hint": "ruch ludowy",
+   "explanation": "Ruch ludowy walczył o prawa polityczne i oświatę dla chłopów; w II RP Witos trzykrotnie był premierem.",
+   "category": "his7_partitions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.4"
+  },
+  {
+   "id": "his7-pp-065",
+   "type": "qa",
+   "question": "W których latach toczyła się rewolucja w Rosji i Królestwie Polskim, w trakcie której Polacy żądali m.in. polskiej szkoły?",
+   "answer": "1905-1907",
+   "accept": [
+    "1905 - 1907",
+    "od 1905 do 1907",
+    "w latach 1905-1907"
+   ],
+   "explanation": "Rewolucja wybuchła po klęsce Rosji w wojnie z Japonią i „krwawej niedzieli” w Petersburgu.",
+   "category": "his7_partitions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.5"
+  },
+  {
+   "id": "his7-pp-066",
+   "type": "cloze",
+   "text": "W czasie rewolucji 1905–1907 w Królestwie Polskim trwał {{strajk szkolny}}, w którym uczniowie domagali się nauki w języku polskim.",
+   "hint": "protest uczniów",
+   "explanation": "W jego wyniku władze zezwoliły na zakładanie prywatnych szkół polskich.",
+   "category": "his7_partitions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXIII.5"
+  },
+  {
+   "id": "his7-pp-067",
+   "type": "qa",
+   "question": "Jak nazywał się sojusz Niemiec, Austro-Węgier i Włoch zawarty w 1882 r.?",
+   "answer": "trójprzymierze",
+   "accept": [
+    "Trójprzymierze"
+   ],
+   "explanation": "W czasie wojny Niemcy i Austro-Węgry tworzyły państwa centralne; Włochy przeszły w 1915 r. na stronę ententy.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.1"
+  },
+  {
+   "id": "his7-pp-068",
+   "type": "qa",
+   "question": "Jak nazywał się sojusz Francji, Rosji i Wielkiej Brytanii, który walczył w I wojnie światowej z państwami centralnymi?",
+   "answer": "trójporozumienie",
+   "accept": [
+    "ententa",
+    "Ententa",
+    "Trójporozumienie"
+   ],
+   "explanation": "Trójporozumienie (ententa) ukształtowało się w latach 1893–1907.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.1"
+  },
+  {
+   "id": "his7-pp-069",
+   "type": "qa",
+   "question": "Co było bezpośrednią przyczyną wybuchu I wojny światowej w 1914 r.?",
+   "answer": "zamach w Sarajewie",
+   "accept": [
+    "zabójstwo Franciszka Ferdynanda",
+    "zamach na Franciszka Ferdynanda",
+    "zamach na arcyksięcia Franciszka Ferdynanda"
+   ],
+   "explanation": "28 czerwca 1914 r. serbski zamachowiec zastrzelił następcę tronu Austro-Węgier; miesiąc później Austro-Węgry wypowiedziały wojnę Serbii.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.1"
+  },
+  {
+   "id": "his7-pp-070",
+   "type": "cloze",
+   "text": "Walki na froncie zachodnim, w których wojska miesiącami tkwiły w okopach, nazywamy wojną {{pozycyjną}}.",
+   "hint": "front się nie przesuwał",
+   "explanation": "Przeciwieństwem była wojna manewrowa, typowa dla frontu wschodniego.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.2"
+  },
+  {
+   "id": "his7-pp-071",
+   "type": "qa",
+   "question": "Jaką nową broń pancerną po raz pierwszy użyli Brytyjczycy w 1916 r., by przełamać front?",
+   "answer": "czołg",
+   "accept": [
+    "czołgi"
+   ],
+   "explanation": "Czołgi weszły do walki w bitwie nad Sommą; wraz z lotnictwem i gazami były nowością I wojny.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.3"
+  },
+  {
+   "id": "his7-pp-072",
+   "type": "qa",
+   "question": "Jakiej broni po raz pierwszy na masową skalę użyli Niemcy pod Ypres w 1915 r.?",
+   "answer": "gazów bojowych",
+   "accept": [
+    "gaz bojowy",
+    "gazy bojowe",
+    "chlor",
+    "broń chemiczna",
+    "gaz"
+   ],
+   "explanation": "Po atakach gazowych żołnierze otrzymali maski przeciwgazowe.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.3"
+  },
+  {
+   "id": "his7-pp-073",
+   "type": "qa",
+   "question": "Jak nazywa się rewolucja w Rosji z marca 1917 r., która obaliła cara Mikołaja II?",
+   "answer": "rewolucja lutowa",
+   "accept": [
+    "lutowa"
+   ],
+   "explanation": "Nazwa pochodzi od kalendarza juliańskiego używanego wtedy w Rosji; władzę objął Rząd Tymczasowy.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.4"
+  },
+  {
+   "id": "his7-pp-074",
+   "type": "qa",
+   "question": "Kto stał na czele bolszewików, którzy w listopadzie 1917 r. przejęli władzę w Rosji?",
+   "answer": "Włodzimierz Lenin",
+   "accept": [
+    "Lenin"
+   ],
+   "explanation": "Przewrót bolszewicki (rewolucja październikowa) zapoczątkował wojnę domową w Rosji.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIV.4"
+  },
+  {
+   "id": "his7-pp-075",
+   "type": "qa",
+   "question": "Jak nazywa się ogłoszony 5 listopada 1916 r. dokument cesarzy Niemiec i Austro-Węgier zapowiadający utworzenie państwa polskiego?",
+   "answer": "Akt 5 listopada",
+   "accept": [
+    "akt 5 listopada 1916",
+    "akt piątego listopada"
+   ],
+   "explanation": "Akt miał zachęcić Polaków do służby w armiach państw centralnych; nie określał granic przyszłego państwa.",
+   "category": "his7_ww1",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXV.1"
+  },
+  {
+   "id": "his7-pp-076",
+   "type": "qa",
+   "question": "W którym punkcie orędzia prezydenta USA Wilsona ze stycznia 1918 r. mowa była o niepodległej Polsce z dostępem do morza?",
+   "answer": "w trzynastym",
+   "accept": [
+    "13",
+    "trzynasty",
+    "punkt 13",
+    "w punkcie 13"
+   ],
+   "explanation": "Orędzie Wilsona liczyło 14 punktów; punkt 13 zapowiadał niepodległą Polskę z dostępem do morza.",
+   "category": "his7_ww1",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXV.1"
+  },
+  {
+   "id": "his7-pp-077",
+   "type": "qa",
+   "question": "Kto dowodził I Brygadą Legionów Polskich walczących u boku Austro-Węgier?",
+   "answer": "Józef Piłsudski",
+   "accept": [
+    "Piłsudski"
+   ],
+   "explanation": "Legiony Polskie powstały w 1914 r. z inicjatywy Piłsudskiego i działaczy galicyjskich.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXV.2"
+  },
+  {
+   "id": "his7-pp-078",
+   "type": "cloze",
+   "text": "Odmowa złożenia przez legionistów przysięgi na wierność cesarzowi Niemiec w 1917 r. to {{kryzys przysięgowy}}; Piłsudskiego uwięziono w Magdeburgu.",
+   "hint": "kryzys ...",
+   "explanation": "Po kryzysie przysięgowym Legiony zostały rozwiązane, a część żołnierzy internowano.",
+   "category": "his7_ww1",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXV.2"
+  },
+  {
+   "id": "his7-pp-079",
+   "type": "qa",
+   "question": "Jak nazywała się ochotnicza armia polska tworzona we Francji od 1917 r., dowodzona przez gen. Józefa Hallera?",
+   "answer": "Błękitna Armia",
+   "accept": [
+    "Armia Hallera",
+    "Armia Polska we Francji",
+    "armia błękitna"
+   ],
+   "explanation": "Nazwa pochodzi od koloru francuskich mundurów; w 1919 r. armia wróciła do Polski.",
+   "category": "his7_ww1",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXV.2"
+  },
+  {
+   "id": "his7-pp-080",
+   "type": "qa",
+   "question": "W którym roku rozpoczęła się konferencja pokojowa w Paryżu kończąca I wojnę światową?",
+   "answer": "1919",
+   "accept": [
+    "w 1919 r.",
+    "1919 r."
+   ],
+   "explanation": "Konferencja obradowała od stycznia 1919 r.; Polskę reprezentowali Dmowski i Paderewski.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVI.2"
+  },
+  {
+   "id": "his7-pp-081",
+   "type": "qa",
+   "question": "Jak nazywa się traktat pokojowy z Niemcami podpisany 28 czerwca 1919 r.?",
+   "answer": "traktat wersalski",
+   "accept": [
+    "pokój wersalski"
+   ],
+   "explanation": "Traktat uznawał Niemcy za winne wojny; od niego pochodzi nazwa ładu wersalskiego.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVI.2"
+  },
+  {
+   "id": "his7-pp-082",
+   "type": "qa",
+   "question": "Jak nazywała się międzynarodowa organizacja powołana po I wojnie światowej dla utrzymania pokoju, poprzedniczka ONZ?",
+   "answer": "Liga Narodów",
+   "accept": [],
+   "explanation": "Liga Narodów okazała się słaba: nie przystąpiły do niej USA, a w latach 30. nie powstrzymała agresorów.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVI.2"
+  },
+  {
+   "id": "his7-pp-083",
+   "type": "cloze",
+   "text": "Traktat wersalski nakładał na Niemcy obowiązek płacenia {{reparacji}} (odszkodowań wojennych) i ograniczał ich armię do 100 tys. żołnierzy.",
+   "hint": "odszkodowania wojenne",
+   "explanation": "Poczucie upokorzenia Niemiec traktatem wykorzystywali później naziści.",
+   "category": "his7_interwar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXVI.2"
+  },
+  {
+   "id": "his7-pp-084",
+   "type": "qa",
+   "question": "Jak nazywa się system rządów, w którym państwo kontroluje wszystkie dziedziny życia obywateli, oparty na jednej partii, terrorze i propagandzie?",
+   "answer": "totalitaryzm",
+   "accept": [
+    "system totalitarny"
+   ],
+   "explanation": "Totalitaryzmami były narodowy socjalizm w Niemczech i system sowiecki w ZSRS.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVI.3"
+  },
+  {
+   "id": "his7-pp-085",
+   "type": "qa",
+   "question": "Kto w 1933 r. został kanclerzem Niemiec i wprowadził dyktaturę narodowych socjalistów?",
+   "answer": "Adolf Hitler",
+   "accept": [
+    "Hitler"
+   ],
+   "explanation": "Hitler stał na czele partii NSDAP; po 1933 r. zlikwidował opozycję i wprowadził ustawy antyżydowskie.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVI.3"
+  },
+  {
+   "id": "his7-pp-086",
+   "type": "qa",
+   "question": "Kto po śmierci Lenina objął władzę w ZSRS i wprowadził system terroru oraz przymusową kolektywizację rolnictwa?",
+   "answer": "Józef Stalin",
+   "accept": [
+    "Stalin"
+   ],
+   "explanation": "Kolektywizacja i wielki głód na Ukrainie oraz wielka czystka pochłonęły miliony ofiar.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVI.3"
+  },
+  {
+   "id": "his7-pp-087",
+   "type": "qa",
+   "question": "Którego dnia 1918 r. Rada Regencyjna przekazała Józefowi Piłsudskiemu władzę wojskową (dziś Narodowe Święto Niepodległości)?",
+   "answer": "11 listopada",
+   "accept": [
+    "11 listopada 1918",
+    "11.11.1918",
+    "11 XI 1918"
+   ],
+   "explanation": "Tego samego dnia Niemcy podpisały rozejm kończący I wojnę światową.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.1"
+  },
+  {
+   "id": "his7-pp-088",
+   "type": "qa",
+   "question": "Jaki urząd objął Józef Piłsudski 22 listopada 1918 r., stając na czele odrodzonego państwa?",
+   "answer": "Tymczasowy Naczelnik Państwa",
+   "accept": [
+    "Naczelnik Państwa",
+    "naczelnik państwa"
+   ],
+   "explanation": "Piłsudski sprawował władzę do czasu zebrania się Sejmu Ustawodawczego w lutym 1919 r.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.1"
+  },
+  {
+   "id": "his7-pp-089",
+   "type": "qa",
+   "question": "Jak nazywa się zwycięskie powstanie, które wybuchło 27 grudnia 1918 r. i przyłączyło Wielkopolskę do Polski?",
+   "answer": "powstanie wielkopolskie",
+   "accept": [],
+   "explanation": "Powstanie wybuchło po przyjeździe Paderewskiego do Poznania; jego zdobycze potwierdził traktat wersalski.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.2"
+  },
+  {
+   "id": "his7-pp-090",
+   "type": "qa",
+   "question": "Ile powstań śląskich wybuchło w latach 1919–1921?",
+   "answer": "trzy",
+   "accept": [
+    "3"
+   ],
+   "explanation": "Po trzecim powstaniu śląskim (1921) Polska otrzymała wschodnią część Górnego Śląska z Katowicami.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.2"
+  },
+  {
+   "id": "his7-pp-091",
+   "type": "qa",
+   "question": "Na jakich terenach odbyły się w 1920 r. plebiscyty przegrane przez Polskę?",
+   "answer": "Warmia, Mazury i Powiśle",
+   "accept": [
+    "Warmia i Mazury",
+    "na Warmii, Mazurach i Powiślu",
+    "Warmia Mazury Powiśle"
+   ],
+   "explanation": "Plebiscyt odbył się w lipcu 1920 r., gdy Armia Czerwona zbliżała się do Warszawy, co osłabiło polską pozycję.",
+   "category": "his7_ii_rp",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.2"
+  },
+  {
+   "id": "his7-pp-092",
+   "type": "cloze",
+   "text": "Na mocy traktatu wersalskiego Polska otrzymała Wielkopolskę i Pomorze Gdańskie, a {{Gdańsk}} stał się Wolnym Miastem pod opieką Ligi Narodów.",
+   "hint": "miasto portowe nad Bałtykiem",
+   "explanation": "Polska miała w Wolnym Mieście Gdańsku prawa celne i pocztowe, ale miasto było zdominowane przez Niemców.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.2"
+  },
+  {
+   "id": "his7-pp-093",
+   "type": "qa",
+   "question": "W którym roku rozegrała się Bitwa Warszawska, zwana „cudem nad Wisłą”?",
+   "answer": "1920",
+   "accept": [
+    "w 1920 r.",
+    "1920 r."
+   ],
+   "explanation": "Bitwa Warszawska (sierpień 1920) odwróciła losy wojny polsko-bolszewickiej.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.3"
+  },
+  {
+   "id": "his7-pp-094",
+   "type": "qa",
+   "question": "Jak nazywa się operacja z kwietnia i maja 1920 r., w czasie której wojska polskie zajęły Kijów?",
+   "answer": "wyprawa kijowska",
+   "accept": [
+    "ofensywa kijowska"
+   ],
+   "explanation": "Po wyprawie kijowskiej nastąpiła kontrofensywa bolszewicka aż pod Warszawę.",
+   "category": "his7_ii_rp",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.3"
+  },
+  {
+   "id": "his7-pp-095",
+   "type": "cloze",
+   "text": "Wojnę polsko-bolszewicką zakończył podpisany w marcu 1921 r. traktat {{ryski}} (pokój w Rydze).",
+   "hint": "od nazwy stolicy Łotwy",
+   "explanation": "Traktat ustalił wschodnią granicę Polski, która przetrwała do 1939 r.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVII.3"
+  },
+  {
+   "id": "his7-pp-096",
+   "type": "qa",
+   "question": "W którym roku uchwalono konstytucję marcową?",
+   "answer": "1921",
+   "accept": [
+    "w 1921 r.",
+    "1921 r."
+   ],
+   "explanation": "Konstytucję uchwalił Sejm Ustawodawczy 17 marca 1921 r.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVIII.2"
+  },
+  {
+   "id": "his7-pp-097",
+   "type": "cloze",
+   "text": "Konstytucja marcowa wprowadzała ustrój {{demokracji parlamentarnej}}: silny sejm i słabą pozycję prezydenta.",
+   "hint": "rządy parlamentu",
+   "explanation": "Prezydenta wybierało Zgromadzenie Narodowe, a rząd był odpowiedzialny przed sejmem.",
+   "category": "his7_ii_rp",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXVIII.2"
+  },
+  {
+   "id": "his7-pp-098",
+   "type": "qa",
+   "question": "Kto był pierwszym prezydentem Rzeczypospolitej Polskiej, zamordowanym w grudniu 1922 r. kilka dni po zaprzysiężeniu?",
+   "answer": "Gabriel Narutowicz",
+   "accept": [
+    "Narutowicz"
+   ],
+   "explanation": "Zabójstwo Narutowicza przez fanatyka było przejawem ostrych konfliktów politycznych w młodym państwie.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVIII.3"
+  },
+  {
+   "id": "his7-pp-099",
+   "type": "qa",
+   "question": "W którym roku Józef Piłsudski dokonał przewrotu majowego?",
+   "answer": "1926",
+   "accept": [
+    "w 1926 r.",
+    "1926 r."
+   ],
+   "explanation": "Przewrót majowy (12–14 maja 1926) zakończył okres rządów parlamentarnych w Polsce.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVIII.3"
+  },
+  {
+   "id": "his7-pp-100",
+   "type": "qa",
+   "question": "Jak nazywano system rządów w Polsce po przewrocie majowym, oparty na autorytecie Piłsudskiego i ograniczeniu roli sejmu?",
+   "answer": "sanacja",
+   "accept": [
+    "rządy sanacji",
+    "rządy sanacyjne"
+   ],
+   "explanation": "Nazwa pochodzi od hasła „uzdrowienia” (łac. sanatio) życia publicznego.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVIII.4"
+  },
+  {
+   "id": "his7-pp-101",
+   "type": "qa",
+   "question": "Jak nazywa się konstytucja z 1935 r., która dawała prezydentowi nadrzędną władzę w państwie?",
+   "answer": "konstytucja kwietniowa",
+   "accept": [],
+   "explanation": "Konstytucja kwietniowa umocniła polski autorytaryzm; weszła w życie krótko przed śmiercią Piłsudskiego.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXVIII.4"
+  },
+  {
+   "id": "his7-pp-102",
+   "type": "cloze",
+   "text": "Polityka zagraniczna II RP pod kierunkiem Józefa Becka opierała się na zasadzie {{równowagi}} (równej odległości) między Niemcami a ZSRS.",
+   "hint": "ani z jednym, ani z drugim sąsiadem",
+   "explanation": "Polska podpisała pakt o nieagresji z ZSRS (1932) i deklarację o niestosowaniu przemocy z Niemcami (1934).",
+   "category": "his7_ii_rp",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXVIII.5"
+  },
+  {
+   "id": "his7-pp-103",
+   "type": "qa",
+   "question": "Jaka mniejszość narodowa była najliczniejsza w II Rzeczypospolitej?",
+   "answer": "Ukraińcy",
+   "accept": [
+    "Ukraińcy (Rusini)"
+   ],
+   "explanation": "Mniejszości (Ukraińcy, Żydzi, Białorusini, Niemcy) stanowiły około jednej trzeciej ludności II RP.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIX.1"
+  },
+  {
+   "id": "his7-pp-104",
+   "type": "qa",
+   "question": "Kto jako premier i minister skarbu przeprowadził w 1924 r. reformę walutową, wprowadzając złotego?",
+   "answer": "Władysław Grabski",
+   "accept": [
+    "Grabski"
+   ],
+   "explanation": "Złoty zastąpił markę polską, która uległa hiperinflacji.",
+   "category": "his7_ii_rp",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXIX.2"
+  },
+  {
+   "id": "his7-pp-105",
+   "type": "qa",
+   "question": "Jakie miasto portowe zbudowano w II RP od podstaw, aby uniezależnić polski handel morski od Gdańska?",
+   "answer": "Gdynia",
+   "accept": [],
+   "explanation": "Budowę portu rozpoczęto w 1921 r.; w latach 30. Gdynia była największym portem na Bałtyku.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIX.2"
+  },
+  {
+   "id": "his7-pp-106",
+   "type": "qa",
+   "question": "Jak nazywał się okręg przemysłowy budowany od 1936 r. z inicjatywy Eugeniusza Kwiatkowskiego?",
+   "answer": "COP",
+   "accept": [
+    "Centralny Okręg Przemysłowy"
+   ],
+   "explanation": "COP powstał w widłach Wisły i Sanu, m.in. w Stalowej Woli; miał rozwijać przemysł zbrojeniowy i zmniejszyć bezrobocie.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIX.2"
+  },
+  {
+   "id": "his7-pp-107",
+   "type": "qa",
+   "question": "Który polski pisarz otrzymał w 1924 r. literacką Nagrodę Nobla za powieść „Chłopi”?",
+   "answer": "Władysław Reymont",
+   "accept": [
+    "Reymont",
+    "Władysław Stanisław Reymont"
+   ],
+   "explanation": "Wśród innych osiągnięć kulturalnych II RP były lwowska szkoła matematyczna i rozwój radia oraz kina.",
+   "category": "his7_ii_rp",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXIX.3"
+  },
+  {
+   "id": "his7-pp-108",
+   "type": "qa",
+   "question": "Jak nazywa się przyłączenie Austrii do Niemiec dokonane przez Hitlera w marcu 1938 r.?",
+   "answer": "Anschluss",
+   "accept": [
+    "anszlus",
+    "Anschluss Austrii"
+   ],
+   "explanation": "Anschluss łamał traktat wersalski, a mocarstwa zachodnie nie zareagowały.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXX.1"
+  },
+  {
+   "id": "his7-pp-109",
+   "type": "qa",
+   "question": "Na jakiej konferencji we wrześniu 1938 r. Wielka Brytania i Francja zgodziły się na oddanie Niemcom czechosłowackich Sudetów?",
+   "answer": "w Monachium",
+   "accept": [
+    "Monachium",
+    "konferencja monachijska",
+    "układ monachijski"
+   ],
+   "explanation": "Czechosłowacji nie dopuszczono do obrad; w marcu 1939 r. Niemcy zajęły resztę Czech.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXX.2"
+  },
+  {
+   "id": "his7-pp-110",
+   "type": "cloze",
+   "text": "Politykę ustępstw Zachodu wobec Hitlera w latach 30. nazywa się polityką {{appeasementu/ustępstw}}.",
+   "hint": "ang. „uspokajanie”",
+   "explanation": "Zwolennicy appeasementu, m.in. premier Chamberlain, wierzyli, że ustępstwa zapobiegną wojnie.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXX.2"
+  },
+  {
+   "id": "his7-pp-111",
+   "type": "qa",
+   "question": "Kiedy podpisano pakt Ribbentrop–Mołotow?",
+   "answer": "23 sierpnia 1939",
+   "accept": [
+    "23.08.1939",
+    "23 VIII 1939",
+    "1939",
+    "w 1939 r."
+   ],
+   "explanation": "Pakt o nieagresji między Niemcami a ZSRS podpisano w Moskwie na tydzień przed wybuchem wojny.",
+   "category": "his7_interwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XXX.3"
+  },
+  {
+   "id": "his7-pp-112",
+   "type": "cloze",
+   "text": "Tajny protokół paktu Ribbentrop–Mołotow dzielił Europę Środkowo-Wschodnią na {{strefy wpływów}} Niemiec i ZSRS, w tym przewidywał podział Polski.",
+   "hint": "obszary, w których decyduje dane mocarstwo",
+   "explanation": "Konsekwencją paktu była agresja Niemiec 1 września i ZSRS 17 września 1939 r. na Polskę.",
+   "category": "his7_interwar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XXX.3"
+  }
+ ]
+}
