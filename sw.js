@@ -20,6 +20,7 @@ const ASSETS = [
   './data/english.json',
   './data/chemia-7.json',
   './data/polski-7.json',
+  './data/computer-science.json',
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-192.png',

@@ -1,0 +1,1237 @@
+{
+ "version": 1,
+ "subject": "cs_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, informatyka, zakres podstawowy (Dz.U. 2018 poz. 467); uzupełnienia z IB DP Computer Science (themes A1-A4, B1-B2) oznaczone 'IB'",
+ "items": [
+  {
+   "id": "csib-pp-001",
+   "type": "qa",
+   "question": "What does CPU stand for?",
+   "answer": "central processing unit",
+   "accept": [
+    "processor"
+   ],
+   "explanation": "The CPU executes program instructions and controls the other components.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-002",
+   "type": "cloze",
+   "text": "The part of the CPU that performs arithmetic and logical operations is the {{ALU/arithmetic logic unit}}.",
+   "hint": "three-letter abbreviation",
+   "explanation": "The control unit fetches and decodes instructions; the ALU does the calculations.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-003",
+   "type": "qa",
+   "question": "Which type of main memory is volatile and holds the programs and data currently in use?",
+   "answer": "RAM",
+   "accept": [
+    "random access memory"
+   ],
+   "explanation": "RAM loses its contents when the power is switched off.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-004",
+   "type": "cloze",
+   "text": "Memory that keeps its contents without power, such as ROM or flash, is called {{non-volatile}} memory.",
+   "hint": "opposite of volatile",
+   "explanation": "RAM is volatile; SSDs, ROM and flash drives are non-volatile.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-005",
+   "type": "qa",
+   "question": "What is the small, very fast memory inside or next to the CPU that stores frequently used data?",
+   "answer": "cache",
+   "accept": [
+    "cache memory",
+    "CPU cache"
+   ],
+   "explanation": "Cache reduces the time the CPU waits for data from RAM.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-006",
+   "type": "cloze",
+   "text": "The cycle a CPU repeats for every instruction is the {{fetch}}-decode-execute cycle.",
+   "hint": "get the instruction from memory",
+   "explanation": "The instruction is fetched from memory, decoded by the control unit and then executed.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-007",
+   "type": "qa",
+   "question": "Which storage device has no moving parts and stores data in flash memory?",
+   "answer": "SSD",
+   "accept": [
+    "solid state drive",
+    "solid-state drive"
+   ],
+   "explanation": "An SSD is faster and more shock-resistant than a hard disk drive (HDD) with spinning platters.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-008",
+   "type": "qa",
+   "question": "What is the software that manages hardware, memory and files and runs application programs called?",
+   "answer": "operating system",
+   "accept": [
+    "OS"
+   ],
+   "explanation": "Windows, Linux, macOS, Android and iOS are operating systems.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "csib-pp-009",
+   "type": "qa",
+   "question": "Which task of the operating system decides which process gets the CPU and for how long?",
+   "answer": "scheduling",
+   "accept": [
+    "process scheduling",
+    "process management",
+    "CPU scheduling"
+   ],
+   "explanation": "The scheduler shares the CPU between running processes so that they appear to run at the same time.",
+   "category": "csib_systems",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "csib-pp-010",
+   "type": "qa",
+   "question": "What is software that is permanently stored in a device, such as a router or printer, called?",
+   "answer": "firmware",
+   "accept": [],
+   "explanation": "Firmware is low-level software stored in non-volatile memory that controls the device's hardware.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "csib-pp-011",
+   "type": "cloze",
+   "text": "A {{driver}} is a small program that lets the operating system communicate with a specific hardware device.",
+   "hint": "device ...",
+   "explanation": "Printers, graphics cards and network cards each need a driver.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "csib-pp-012",
+   "type": "qa",
+   "question": "What is a computer system built into a larger product, such as a washing machine or a car, called?",
+   "answer": "embedded system",
+   "accept": [
+    "embedded computer"
+   ],
+   "explanation": "Embedded systems perform one dedicated function and often run on a microcontroller.",
+   "category": "csib_systems",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "csib-pp-013",
+   "type": "qa",
+   "question": "Convert the binary number 1011 to decimal.",
+   "answer": "11",
+   "accept": [],
+   "explanation": "1*8 + 0*4 + 1*2 + 1*1 = 11.",
+   "category": "csib_data",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "csib-pp-014",
+   "type": "qa",
+   "question": "Convert the decimal number 25 to binary.",
+   "answer": "11001",
+   "accept": [],
+   "explanation": "25 = 16 + 8 + 1, so the bits for 16, 8 and 1 are set: 11001.",
+   "category": "csib_data",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "csib-pp-015",
+   "type": "qa",
+   "question": "Convert the hexadecimal number 2F to decimal.",
+   "answer": "47",
+   "accept": [],
+   "explanation": "2*16 + 15 = 47 (F stands for 15).",
+   "category": "csib_data",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "csib-pp-016",
+   "type": "qa",
+   "question": "Convert the decimal number 255 to hexadecimal.",
+   "answer": "FF",
+   "accept": [
+    "ff",
+    "0xFF"
+   ],
+   "explanation": "255 = 15*16 + 15, and 15 is written as F.",
+   "category": "csib_data",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "csib-pp-017",
+   "type": "qa",
+   "question": "Write the binary number 11110000 in hexadecimal.",
+   "answer": "F0",
+   "accept": [
+    "f0",
+    "0xF0"
+   ],
+   "explanation": "Each group of 4 bits is one hex digit: 1111 = F, 0000 = 0.",
+   "category": "csib_data",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "csib-pp-018",
+   "type": "qa",
+   "question": "How many different values can be represented with 8 bits?",
+   "answer": "256",
+   "accept": [
+    "2^8"
+   ],
+   "explanation": "Each bit has 2 states, so 8 bits give 2^8 = 256 combinations.",
+   "category": "csib_data",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-019",
+   "type": "qa",
+   "question": "What is the largest unsigned integer that fits in one byte?",
+   "answer": "255",
+   "accept": [],
+   "explanation": "One byte has 8 bits; the largest value is 11111111 = 2^8 - 1 = 255.",
+   "category": "csib_data",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-020",
+   "type": "cloze",
+   "text": "One byte consists of {{8}} bits.",
+   "explanation": "A bit is a single 0 or 1; a byte is the basic unit for storing one character or a small number.",
+   "category": "csib_data",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-021",
+   "type": "qa",
+   "question": "Which character encoding uses 7 bits and defines 128 characters?",
+   "answer": "ASCII",
+   "accept": [],
+   "explanation": "ASCII covers English letters, digits and control characters; e.g. 'A' is 65.",
+   "category": "csib_data",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-022",
+   "type": "cloze",
+   "text": "The {{Unicode}} standard (used by UTF-8) can represent characters from virtually all writing systems, including Polish letters.",
+   "hint": "universal character set",
+   "explanation": "ASCII has no room for letters such as ł or ż; UTF-8 encodes them using 2 bytes.",
+   "category": "csib_data",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-023",
+   "type": "qa",
+   "question": "What is the smallest element of a digital image, storing one colour value?",
+   "answer": "pixel",
+   "accept": [],
+   "explanation": "Image resolution is given as the number of pixels, e.g. 1920 x 1080.",
+   "category": "csib_data",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-024",
+   "type": "cloze",
+   "text": "Converting an analogue sound wave into digital data by measuring its value at regular intervals is called {{sampling}}.",
+   "hint": "taking samples",
+   "explanation": "The sample rate (e.g. 44.1 kHz) says how many measurements are taken per second.",
+   "category": "csib_data",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-025",
+   "type": "qa",
+   "question": "What type of compression reduces file size without losing any data, as in ZIP or PNG files?",
+   "answer": "lossless",
+   "accept": [
+    "lossless compression"
+   ],
+   "explanation": "Lossy compression (JPEG, MP3) discards some information to get much smaller files.",
+   "category": "csib_data",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A1"
+  },
+  {
+   "id": "csib-pp-026",
+   "type": "qa",
+   "question": "What does LAN stand for?",
+   "answer": "local area network",
+   "accept": [],
+   "explanation": "A LAN connects devices in one building or site, e.g. a school network.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A2"
+  },
+  {
+   "id": "csib-pp-027",
+   "type": "cloze",
+   "text": "A network that covers a large geographic area, such as the Internet, is a {{WAN/wide area network}}.",
+   "hint": "W... area network",
+   "explanation": "WANs connect LANs over long distances, often using leased telecom lines.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A2"
+  },
+  {
+   "id": "csib-pp-028",
+   "type": "qa",
+   "question": "What is the unique numerical address that identifies a device on an IP network?",
+   "answer": "IP address",
+   "accept": [
+    "IP"
+   ],
+   "explanation": "Example of an IPv4 address: 192.168.1.10.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-029",
+   "type": "qa",
+   "question": "How many bits does an IPv4 address have?",
+   "answer": "32",
+   "accept": [
+    "32 bits"
+   ],
+   "explanation": "IPv4 is written as four numbers 0-255 separated by dots; IPv6 uses 128 bits.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-030",
+   "type": "qa",
+   "question": "Which system translates domain names such as example.com into IP addresses?",
+   "answer": "DNS",
+   "accept": [
+    "domain name system"
+   ],
+   "explanation": "Without DNS you would have to remember the numeric IP address of every website.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-031",
+   "type": "qa",
+   "question": "Which hardware address is assigned to a network interface card by its manufacturer?",
+   "answer": "MAC address",
+   "accept": [
+    "MAC",
+    "physical address"
+   ],
+   "explanation": "A MAC address is a 48-bit identifier, written e.g. as 00:1A:2B:3C:4D:5E.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-032",
+   "type": "qa",
+   "question": "Which device forwards data packets between different networks, e.g. between a home LAN and the Internet?",
+   "answer": "router",
+   "accept": [],
+   "explanation": "A router chooses the path a packet should take based on its destination IP address.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A2"
+  },
+  {
+   "id": "csib-pp-033",
+   "type": "cloze",
+   "text": "Within a LAN, a {{switch}} forwards data only to the port of the destination device, unlike a hub.",
+   "explanation": "A switch learns which MAC address is connected to which port.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A2"
+  },
+  {
+   "id": "csib-pp-034",
+   "type": "qa",
+   "question": "Which protocol do web browsers use to request web pages from servers?",
+   "answer": "HTTP",
+   "accept": [
+    "hypertext transfer protocol",
+    "HTTPS"
+   ],
+   "explanation": "HTTP stands for Hypertext Transfer Protocol; HTTPS is its encrypted version.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-035",
+   "type": "qa",
+   "question": "What does the letter S in HTTPS mean?",
+   "answer": "secure",
+   "accept": [
+    "secured",
+    "encrypted"
+   ],
+   "explanation": "HTTPS encrypts the connection using TLS, so the data cannot be read in transit.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-036",
+   "type": "cloze",
+   "text": "Data sent across the Internet is split into small units called {{packets}}, each of which may travel by a different route.",
+   "explanation": "The packets are reassembled in the correct order at the destination.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-037",
+   "type": "qa",
+   "question": "Which set of protocols is the foundation of communication on the Internet?",
+   "answer": "TCP/IP",
+   "accept": [
+    "TCP IP",
+    "TCP and IP"
+   ],
+   "explanation": "IP delivers packets to the right address; TCP ensures they arrive complete and in order.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "csib-pp-038",
+   "type": "qa",
+   "question": "What is a system that monitors network traffic and blocks connections that break its rules called?",
+   "answer": "firewall",
+   "accept": [],
+   "explanation": "A firewall can be hardware, software or both, and protects a network from unwanted access.",
+   "category": "csib_networks",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A2"
+  },
+  {
+   "id": "csib-pp-039",
+   "type": "qa",
+   "question": "What is a finite, precise sequence of steps that solves a problem called?",
+   "answer": "algorithm",
+   "accept": [],
+   "explanation": "An algorithm can be written as a list of steps, a flowchart, pseudocode or a program.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "csib-pp-040",
+   "type": "cloze",
+   "text": "An informal, language-independent description of an algorithm written in structured English is called {{pseudocode}}.",
+   "explanation": "Pseudocode is used to plan a program before writing it in a real language.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "csib-pp-041",
+   "type": "cloze",
+   "text": "Breaking a complex problem into smaller, more manageable parts is called {{decomposition}}.",
+   "hint": "de...",
+   "explanation": "Decomposition, abstraction and pattern recognition are key elements of computational thinking.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB B1"
+  },
+  {
+   "id": "csib-pp-042",
+   "type": "qa",
+   "question": "Which sorting algorithm repeatedly swaps neighbouring elements that are in the wrong order?",
+   "answer": "bubble sort",
+   "accept": [
+    "bubble"
+   ],
+   "explanation": "After each pass the largest remaining element 'bubbles up' to the end of the list.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2c"
+  },
+  {
+   "id": "csib-pp-043",
+   "type": "qa",
+   "question": "Which sorting algorithm takes each next element and inserts it into the correct position in the already sorted part?",
+   "answer": "insertion sort",
+   "accept": [
+    "insertion"
+   ],
+   "explanation": "Insertion sort is how most people sort playing cards in their hand.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2c"
+  },
+  {
+   "id": "csib-pp-044",
+   "type": "qa",
+   "question": "In the worst case, how many comparisons does a linear search make on a list of n elements?",
+   "answer": "n",
+   "accept": [
+    "n comparisons"
+   ],
+   "explanation": "Linear search checks elements one by one until it finds the target or reaches the end.",
+   "category": "csib_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB B1"
+  },
+  {
+   "id": "csib-pp-045",
+   "type": "qa",
+   "question": "Which search algorithm requires sorted data and halves the search range at every step?",
+   "answer": "binary search",
+   "accept": [
+    "binary"
+   ],
+   "explanation": "Binary search compares the target with the middle element and discards half of the list.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB B1"
+  },
+  {
+   "id": "csib-pp-046",
+   "type": "qa",
+   "question": "What is the time complexity of binary search in Big O notation?",
+   "answer": "O(log n)",
+   "accept": [
+    "log n",
+    "logarithmic"
+   ],
+   "explanation": "Each step halves the list, so a list of 1024 elements needs at most about 10 steps.",
+   "category": "csib_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB B1"
+  },
+  {
+   "id": "csib-pp-047",
+   "type": "qa",
+   "question": "What is the worst-case time complexity of bubble sort in Big O notation?",
+   "answer": "O(n^2)",
+   "accept": [
+    "n^2",
+    "quadratic",
+    "O(n2)"
+   ],
+   "explanation": "Bubble sort makes about n passes with up to n comparisons each.",
+   "category": "csib_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB B1"
+  },
+  {
+   "id": "csib-pp-048",
+   "type": "cloze",
+   "text": "The notation used to describe how an algorithm's running time grows with the size of the input is {{Big O}} notation.",
+   "explanation": "Examples: O(1), O(log n), O(n), O(n^2).",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB B1"
+  },
+  {
+   "id": "csib-pp-049",
+   "type": "qa",
+   "question": "Encrypt the word HAL with a Caesar cipher using a shift of 3.",
+   "answer": "KDO",
+   "accept": [],
+   "explanation": "Each letter is shifted 3 places forward in the alphabet: H->K, A->D, L->O.",
+   "category": "csib_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2b"
+  },
+  {
+   "id": "csib-pp-050",
+   "type": "qa",
+   "question": "What is the simple pattern-matching method that tries the pattern at every position of the text called?",
+   "answer": "naive",
+   "accept": [
+    "naive method",
+    "naive search",
+    "brute force",
+    "brute-force"
+   ],
+   "explanation": "The naive method compares the pattern character by character at each starting position.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2b"
+  },
+  {
+   "id": "csib-pp-051",
+   "type": "qa",
+   "question": "What is the next term of the Fibonacci sequence 0, 1, 1, 2, 3, 5, 8, ...?",
+   "answer": "13",
+   "accept": [],
+   "explanation": "Each term is the sum of the two previous terms: 5 + 8 = 13.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2d"
+  },
+  {
+   "id": "csib-pp-052",
+   "type": "qa",
+   "question": "When testing whether n is prime, up to which value is it enough to check for divisors?",
+   "answer": "square root of n",
+   "accept": [
+    "sqrt(n)",
+    "sqrt n",
+    "root of n",
+    "the square root of n"
+   ],
+   "explanation": "If n has a divisor greater than sqrt(n), it must also have one smaller than sqrt(n).",
+   "category": "csib_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "csib-pp-053",
+   "type": "qa",
+   "question": "Which algorithm finds the greatest common divisor of two numbers by repeatedly taking the remainder of division?",
+   "answer": "Euclidean algorithm",
+   "accept": [
+    "Euclid's algorithm",
+    "Euclid",
+    "Euclidean"
+   ],
+   "explanation": "gcd(a, b) = gcd(b, a mod b) until the remainder is 0; e.g. gcd(48, 18) = 6.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "csib-pp-054",
+   "type": "cloze",
+   "text": "A {{trace table}} records the values of variables step by step to check how an algorithm works for sample data.",
+   "explanation": "Tracing an algorithm by hand helps find logic errors before running the program.",
+   "category": "csib_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "csib-pp-055",
+   "type": "qa",
+   "question": "In Python, what is the output of print(7 // 2)?",
+   "answer": "3",
+   "accept": [],
+   "explanation": "// is integer (floor) division; 7 / 2 would give 3.5.",
+   "category": "csib_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-056",
+   "type": "qa",
+   "question": "In Python, what is the output of print(7 % 3)?",
+   "answer": "1",
+   "accept": [],
+   "explanation": "% gives the remainder of division: 7 = 2*3 + 1.",
+   "category": "csib_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-057",
+   "type": "qa",
+   "question": "What is the data type of the value True in Python?",
+   "answer": "bool",
+   "accept": [
+    "boolean"
+   ],
+   "explanation": "Boolean values are True and False; they result from comparisons such as x > 5.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-058",
+   "type": "qa",
+   "question": "What is the data type of the value \"42\" (with quotation marks) in Python?",
+   "answer": "str",
+   "accept": [
+    "string"
+   ],
+   "explanation": "Anything in quotation marks is a string, even if it looks like a number; int(\"42\") converts it.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-059",
+   "type": "cloze",
+   "text": "A named storage location whose value can change while the program runs is called a {{variable}}.",
+   "explanation": "In Python a variable is created by assignment, e.g. count = 0.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-060",
+   "type": "qa",
+   "question": "Which keyword starts a conditional statement in Python?",
+   "answer": "if",
+   "accept": [],
+   "explanation": "Example: if x > 0: print(\"positive\")",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-061",
+   "type": "cloze",
+   "text": "In Python, the keyword meaning \"otherwise, if\" in a conditional statement is {{elif}}.",
+   "explanation": "Example: if x > 0: ... elif x == 0: ... else: ...",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-062",
+   "type": "qa",
+   "question": "How many times does the body of the loop for i in range(5): run?",
+   "answer": "5",
+   "accept": [
+    "5 times"
+   ],
+   "explanation": "range(5) produces the values 0, 1, 2, 3, 4.",
+   "category": "csib_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-063",
+   "type": "qa",
+   "question": "Which Python loop repeats as long as a condition is true, when the number of repetitions is not known in advance?",
+   "answer": "while loop",
+   "accept": [
+    "while"
+   ],
+   "explanation": "Example: while n != 1: n = n // 2",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-064",
+   "type": "qa",
+   "question": "Which keyword defines a function in Python?",
+   "answer": "def",
+   "accept": [],
+   "explanation": "Example: def area(a, b): return a * b",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-065",
+   "type": "qa",
+   "question": "What does len([3, 1, 4, 1]) return in Python?",
+   "answer": "4",
+   "accept": [],
+   "explanation": "len() returns the number of elements in a list (or characters in a string).",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-066",
+   "type": "qa",
+   "question": "What is the index of the first element of a Python list?",
+   "answer": "0",
+   "accept": [
+    "zero"
+   ],
+   "explanation": "Indexing starts at 0, so the last element of a list of 5 items has index 4.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-067",
+   "type": "cloze",
+   "text": "A function sends a value back to the place where it was called using the {{return}} statement.",
+   "explanation": "A function without return gives back the value None.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-068",
+   "type": "qa",
+   "question": "Which Python function reads a line of text typed by the user?",
+   "answer": "input()",
+   "accept": [
+    "input"
+   ],
+   "explanation": "input() always returns a string; use int(input()) to read a number.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-069",
+   "type": "qa",
+   "question": "What does int(\"12\") + 3 evaluate to in Python?",
+   "answer": "15",
+   "accept": [],
+   "explanation": "int() converts the string \"12\" to the number 12, then 12 + 3 = 15.",
+   "category": "csib_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-070",
+   "type": "qa",
+   "question": "What is the value of the expression not (3 > 2 and 5 < 1) in Python?",
+   "answer": "True",
+   "accept": [
+    "true"
+   ],
+   "explanation": "3 > 2 is True, 5 < 1 is False, True and False is False, not False is True.",
+   "category": "csib_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-071",
+   "type": "cloze",
+   "text": "A value passed to a function when it is called is an {{argument}}; the name used in the function definition is a parameter.",
+   "explanation": "In area(3, 4) the arguments are 3 and 4; in def area(a, b) the parameters are a and b.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-072",
+   "type": "cloze",
+   "text": "An error that lets the program run but produces wrong results is a {{logic}} error.",
+   "hint": "not a syntax error",
+   "explanation": "Syntax errors stop the program from running; logic errors must be found by testing with different data.",
+   "category": "csib_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "csib-pp-073",
+   "type": "qa",
+   "question": "In a relational database, what is a single row of a table, describing one entity, called?",
+   "answer": "record",
+   "accept": [
+    "row"
+   ],
+   "explanation": "A record of a Students table holds all the data about one student.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "csib-pp-074",
+   "type": "cloze",
+   "text": "A column of a database table that stores one attribute, such as surname, is called a {{field}}.",
+   "explanation": "Each field has a data type, e.g. text, number or date.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "csib-pp-075",
+   "type": "qa",
+   "question": "Which field uniquely identifies each record in a database table?",
+   "answer": "primary key",
+   "accept": [
+    "key"
+   ],
+   "explanation": "The primary key cannot repeat or be empty, e.g. student_id.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "csib-pp-076",
+   "type": "qa",
+   "question": "What is a field that refers to the primary key of another table called?",
+   "answer": "foreign key",
+   "accept": [],
+   "explanation": "Foreign keys create relationships between tables, e.g. class_id in the Students table.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "csib-pp-077",
+   "type": "qa",
+   "question": "Which language is used to query and modify relational databases?",
+   "answer": "SQL",
+   "accept": [
+    "structured query language"
+   ],
+   "explanation": "SQL stands for Structured Query Language.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A3"
+  },
+  {
+   "id": "csib-pp-078",
+   "type": "qa",
+   "question": "Which SQL keyword retrieves data from a table?",
+   "answer": "SELECT",
+   "accept": [
+    "select"
+   ],
+   "explanation": "Example: SELECT name FROM students",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A3"
+  },
+  {
+   "id": "csib-pp-079",
+   "type": "qa",
+   "question": "Which SQL clause limits the result to rows that meet a condition?",
+   "answer": "WHERE",
+   "accept": [
+    "where"
+   ],
+   "explanation": "Example: SELECT * FROM students WHERE grade > 4",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A3"
+  },
+  {
+   "id": "csib-pp-080",
+   "type": "cloze",
+   "text": "In a spreadsheet, the formula that adds the values in cells B2 to B10 is ={{SUM}}(B2:B10).",
+   "explanation": "Other common functions: AVERAGE, MIN, MAX, COUNT, IF.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "csib-pp-081",
+   "type": "qa",
+   "question": "In a spreadsheet, what kind of cell reference is $A$1?",
+   "answer": "absolute reference",
+   "accept": [
+    "absolute",
+    "absolute cell reference"
+   ],
+   "explanation": "An absolute reference does not change when the formula is copied to another cell.",
+   "category": "csib_databases",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "csib-pp-082",
+   "type": "qa",
+   "question": "Which spreadsheet tool summarises a large table by grouping and aggregating data?",
+   "answer": "pivot table",
+   "accept": [
+    "pivot"
+   ],
+   "explanation": "A pivot table can e.g. show the average grade for each class from a list of all grades.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "csib-pp-083",
+   "type": "qa",
+   "question": "What is a request for specific records from a database, such as all students born after 2010, called?",
+   "answer": "query",
+   "accept": [],
+   "explanation": "Queries can filter, sort and combine data from several tables.",
+   "category": "csib_databases",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "csib-pp-084",
+   "type": "cloze",
+   "text": "Information that can identify a specific person, such as a name, address or PESEL number, is called {{personal data}}.",
+   "explanation": "In the EU, personal data is protected by the GDPR (in Polish: RODO).",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "csib-pp-085",
+   "type": "qa",
+   "question": "What is the legal right of an author to control the copying and distribution of their work called?",
+   "answer": "copyright",
+   "accept": [],
+   "explanation": "Copying software, music or texts without permission breaks copyright law.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "csib-pp-086",
+   "type": "qa",
+   "question": "What is software whose source code is publicly available to use, modify and share called?",
+   "answer": "open source",
+   "accept": [
+    "open-source",
+    "open source software",
+    "free software"
+   ],
+   "explanation": "Linux, Python and Firefox are open source; the licence says what you may do with the code.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "csib-pp-087",
+   "type": "cloze",
+   "text": "Copying or using software without a valid licence is called software {{piracy}}.",
+   "explanation": "Piracy causes losses to developers and often spreads malware to the users.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "csib-pp-088",
+   "type": "qa",
+   "question": "What is the set of rules for polite and respectful behaviour on the Internet called?",
+   "answer": "netiquette",
+   "accept": [],
+   "explanation": "The word combines 'net' and 'etiquette'.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "csib-pp-089",
+   "type": "qa",
+   "question": "What is an attack in which criminals pretend to be a trusted organisation to trick people into revealing passwords or card details?",
+   "answer": "phishing",
+   "accept": [],
+   "explanation": "Phishing messages usually contain a link to a fake login page.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "csib-pp-090",
+   "type": "qa",
+   "question": "What is an authentication method that combines a password with a second factor, such as a code from a phone, called?",
+   "answer": "two-factor authentication",
+   "accept": [
+    "2FA",
+    "two factor authentication",
+    "multi-factor authentication",
+    "MFA"
+   ],
+   "explanation": "Even if a password is stolen, the attacker still needs the second factor.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "csib-pp-091",
+   "type": "cloze",
+   "text": "Transforming data so that only someone with the correct key can read it is called {{encryption}}.",
+   "explanation": "Encryption protects data on disks and in transit, e.g. in HTTPS and messaging apps.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "csib-pp-092",
+   "type": "qa",
+   "question": "What is malware that encrypts a victim's files and demands payment for the key called?",
+   "answer": "ransomware",
+   "accept": [],
+   "explanation": "Regular backups are the best protection against ransomware.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "csib-pp-093",
+   "type": "qa",
+   "question": "What is the gap between people who have access to digital technology and those who do not called?",
+   "answer": "digital divide",
+   "accept": [
+    "digital exclusion"
+   ],
+   "explanation": "Digital inclusion means helping everyone, including people with special needs, use technology.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "csib-pp-094",
+   "type": "qa",
+   "question": "What is the trail of data a person leaves through their online activity called?",
+   "answer": "digital footprint",
+   "accept": [],
+   "explanation": "Posts, photos and comments can stay online for years and affect your image.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "csib-pp-095",
+   "type": "qa",
+   "question": "What is the branch of artificial intelligence in which systems learn patterns from data instead of following explicitly programmed rules?",
+   "answer": "machine learning",
+   "accept": [
+    "ML"
+   ],
+   "explanation": "A machine learning model is trained on examples, e.g. labelled photos.",
+   "category": "csib_impacts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A4"
+  },
+  {
+   "id": "csib-pp-096",
+   "type": "cloze",
+   "text": "Systematic unfairness in an AI model caused by unrepresentative {{training data}} is called algorithmic bias.",
+   "hint": "the examples the model learns from",
+   "explanation": "If the data under-represents a group, the model may make worse decisions for that group.",
+   "category": "csib_impacts",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A4"
+  }
+ ]
+}
