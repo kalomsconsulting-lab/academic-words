@@ -228,13 +228,14 @@ input.answer.bad { border-color: var(--bad); background: var(--bad-soft); }
 .big-num { font-size: 2.2rem; font-weight: 800; line-height: 1; }
 .cat-list { display: flex; flex-direction: column; gap: 4px; }
 .cat-row {
-  display: grid; grid-template-columns: 34px 1fr auto; gap: 10px; align-items: center;
+  display: grid; grid-template-columns: 34px 1fr 60px; gap: 10px; align-items: center;
   padding: 10px 6px; border-radius: 12px; cursor: pointer; background: none; border: 0; width: 100%; text-align: left;
 }
 .cat-row:hover { background: var(--surface-2); }
 .cat-ico { width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; font-size: 1.1rem; background: var(--surface-2); }
 .cat-row .bar { margin-top: 6px; height: 7px; }
 .cat-name { font-weight: 700; font-size: .95rem; }
+.cat-pl { font-weight: 500; font-size: .8rem; color: var(--muted); margin-left: 8px; }
 
 /* ===== Session ===== */
 .session-top { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; }

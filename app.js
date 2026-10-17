@@ -9,14 +9,14 @@
   const STORAGE_KEY = 'awv:v1';
 
   const CATEGORIES = {
-    phrasal_verbs:    { label: 'Czasowniki frazowe', short: 'Phrasal verbs', icon: '🔗' },
-    informal_phrases: { label: 'Wyrażenia nieformalne', short: 'Wyrażenia', icon: '💬' },
-    academic_verbs:   { label: 'Czasowniki akademickie', short: 'Academic verbs', icon: '🎓' },
-    connectors:       { label: 'Łączniki i spójniki', short: 'Łączniki', icon: '➕' },
-    hedging:          { label: 'Język ostrożny (hedging)', short: 'Hedging', icon: '🌫️' },
-    awl:              { label: 'Academic Word List', short: 'AWL', icon: '📚' },
-    style_rules:      { label: 'Reguły stylu', short: 'Styl', icon: '✍️' },
-    noun_phrases:     { label: 'Frazy rzeczownikowe', short: 'Frazy rzecz.', icon: '🧩' },
+    phrasal_verbs:    { label: 'Phrasal verbs', short: 'Phrasal verbs', pl: 'czasowniki frazowe', icon: '🔗' },
+    informal_phrases: { label: 'Informal phrases', short: 'Phrases', pl: 'wyrażenia nieformalne', icon: '💬' },
+    academic_verbs:   { label: 'Academic verbs', short: 'Academic verbs', pl: 'czasowniki akademickie', icon: '🎓' },
+    connectors:       { label: 'Connectors', short: 'Connectors', pl: 'łączniki i spójniki', icon: '➕' },
+    hedging:          { label: 'Hedging', short: 'Hedging', pl: 'język ostrożny', icon: '🌫️' },
+    awl:              { label: 'Academic Word List', short: 'AWL', pl: 'akademicka lista słów', icon: '📚' },
+    style_rules:      { label: 'Style rules', short: 'Style', pl: 'reguły stylu', icon: '✍️' },
+    noun_phrases:     { label: 'Noun phrases', short: 'Noun phrases', pl: 'frazy rzeczownikowe', icon: '🧩' },
   };
 
   const TYPES = {
@@ -1107,7 +1107,7 @@
       return h('button', { class: 'cat-row', onClick: () => startSession({ mode: 'quick', category: key, difficulty: 'all', exercise: 'mix' }) },
         h('span', { class: 'cat-ico' }, c.icon),
         h('span', null,
-          h('div', { class: 'cat-name' }, c.label),
+          h('div', { class: 'cat-name' }, c.label, h('span', { class: 'cat-pl' }, c.pl)),
           progressBar(s)),
         h('span', { class: 'muted small', style: 'text-align:right' }, `${s.mastered}/${s.total}`, h('br'), `${Math.round((s.mastered / s.total) * 100)}%`));
     });
