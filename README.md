@@ -15,6 +15,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 | `vocabulary.json` | słownictwo Academic English (704 wpisy) |
 | `data/biology.json` | karty bazowe z biologii IB (56 przykładowych: pytania i zdania z luką, po kilka w każdej kategorii) |
 | `data/angielski-7.json`, `data/biologia-7.json` | karty bazowe dla 7 klasy (52 słówka, 51 kart z biologii po polsku) |
+| `data/matematyka-7.json` | Matematyka 7 klasy: 124 karty z podstawy programowej (znaczek 📘, pole `pp`) |
 | `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
 
 **Starter pack (`vocabulary.json`):**
@@ -35,7 +36,7 @@ Przedmioty są pogrupowane w **ścieżki** (`LEVELS` w `app.js`), a konto widzi 
 | IB Pre-DP (`ib`) | Academic English, Biology, English, Mathematics, Chemistry, Physics, History, Geography, Computer Science, Psychology (karty po angielsku); History of Poland, Polish, Edukacja obywatelska (po polsku); German B (słówka DE↔PL) |
 | 7 klasa szkoły podstawowej (`sp7`) | Angielski (słówka EN↔PL), Niemiecki (słówka DE↔PL), Biologia, Matematyka, Polski, Chemia, Fizyka, Historia, Geografia, Informatyka, Edukacja zdrowotna (karty po polsku) |
 
-Lista przedmiotów pochodzi z planów lekcji (Pre-DP1 R w 2. SLO STO i 7B w SP 112, rok 2026/27). Pominięte są przedmioty bez treści do zapamiętania: WF, basen, godzina wychowawcza / Homeroom, religia, etyka, muzyka, plastyka, dziedzictwo kulturowe, Art. Electives idą trymestrami: teraz Psychology, a Philosophy (`philosophy_ib`) i Business & Management (`business_ib`) mają gotowe działy i trzeba je tylko dopisać do `LEVELS.ib.subjects`, gdy się zaczną. Każdy przedmiot ma własne działy (`CATEGORIES` z polem `subject`). Kartami bazowymi (plik w `data/`) mają tylko Academic English, Biology, Angielski i Biologia; pozostałe przedmioty nie mają pola `file` i zapełniają się z importu AI i wspólnych materiałów.
+Lista przedmiotów pochodzi z planów lekcji (Pre-DP1 R w 2. SLO STO i 7B w SP 112, rok 2026/27). Pominięte są przedmioty bez treści do zapamiętania: WF, basen, godzina wychowawcza / Homeroom, religia, etyka, muzyka, plastyka, dziedzictwo kulturowe, Art. Electives idą trymestrami: teraz Psychology, a Philosophy (`philosophy_ib`) i Business & Management (`business_ib`) mają gotowe działy i trzeba je tylko dopisać do `LEVELS.ib.subjects`, gdy się zaczną. Każdy przedmiot ma własne działy (`CATEGORIES` z polem `subject`). Karty bazowe (plik w `data/`) mają Academic English, Biology, Angielski, Biologia i Matematyka; pozostałe przedmioty nie mają pola `file` i zapełniają się z importu AI i wspólnych materiałów.
 
 Nowe konto przy pierwszym uruchomieniu wybiera ścieżkę (można ją zmienić w *Ustawieniach*). Ścieżka zapisuje się w `settings.level` i synchronizuje z kontem. Stan sprzed wprowadzenia ścieżek, który ma już postęp, jest automatycznie przypisany do IB. Prompt czatu AI dostaje poziom ucznia i język kart z przedmiotu (`lang`), a przedmiot językowy (`vocab: true`) dostaje prompt na słówka.
 
@@ -51,6 +52,8 @@ Menu boczne (na komputerze) ma listę przedmiotów z liczbą kart do zrobienia d
 **Kategorie Angielskiego (7 klasa):** tematy z podstawy programowej z prefiksem `en7_` (`people`, `home`, `school`, `work`, `family`, `food`, `shopping`, `travel`, `culture`, `sport`, `health`, `science`, `nature`, `society`, `other`). Typ `awl_word` wyświetla się tu jako *Słówko*.
 
 **Kategorie Biologii (7 klasa):** działy z prefiksem `bio7_` (`body`, `skin`, `movement`, `digestion`, `circulation`, `immune`, `breathing`, `excretion`, `nervous`, `senses`, `hormones`, `reproduction`, `health`, `other`).
+
+**Karty z podstawy programowej:** karty bazowe wygenerowane z oficjalnej podstawy programowej mają `"source": "Podstawa programowa"` i `"pp"` z numerem wymagania (np. `"VIII.7"`; dla treści z przewodnika IB np. `"IB A2.1"`). W aplikacji dostają znaczek **📘 Podstawa programowa** (numer wymagania w podpowiedzi) i własny filtr 📘 na panelu *Dziś*, we *Własnej sesji* i w *Kartach*. Poza tym zachowują się jak zwykłe karty bazowe: nie liczą się do *Dodanych materiałów* i nie da się ich usunąć. Identyfikatory: `<przedmiot>-pp-<nr>`, np. `mat7-pp-001`. Źródła, mapowanie wymagań na działy i liczby kart są w [docs/podstawa-programowa.md](docs/podstawa-programowa.md).
 
 **Polskie znaki w odpowiedziach:** odpowiedź wpisana bez polskich liter (np. „zoladek” zamiast „żołądek”) jest zaliczana z przypomnieniem; wyszukiwanie też ich nie wymaga.
 

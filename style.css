@@ -476,6 +476,7 @@ input.answer.bad { border-color: var(--bad); background: var(--bad-soft); }
 .pv-notes { display: grid; gap: 4px; margin-bottom: 10px; padding: 10px 12px; border-radius: 12px; background: var(--bad-soft); }
 .req { color: var(--bad); }
 .badge.mine { background: var(--accent-soft); color: var(--accent); }
+.badge.pp { background: var(--ok-soft); color: var(--ok); }
 code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .85em; background: var(--surface-2); padding: 1px 5px; border-radius: 6px; }
 pre.code { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; overflow-x: auto; font-size: .78rem; margin: 8px 0; }
 details > summary { cursor: pointer; font-weight: 600; }
