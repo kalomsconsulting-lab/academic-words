@@ -197,6 +197,20 @@ Warto wiedzieć:
 - Łączenie danych: dla każdego słowa wygrywa nowszy wpis, więc nauka na dwóch urządzeniach się nie nadpisuje. *Resetuj postęp* czyści też dane w chmurze.
 - Własne materiały są sumowane z obu urządzeń, a usunięte (tombstones w `deletedCustom`) wygrywają z kopią z drugiego urządzenia.
 
+## Widok rodzica
+
+Rodzic widzi postęp dzieci, a każde dziecko uczy się na własnym koncie (własny e-mail albo alias rodzica, np. `rodzic+zosia@gmail.com`).
+
+Konfiguracja jednorazowa: w panelu Supabase *SQL Editor → New query* → wklej [`supabase/family.sql`](supabase/family.sql) → *Run* (po `schema.sql`). Jeśli rejestracja nowych użytkowników jest wyłączona, włącz ją na czas zakładania kont dzieci albo dodaj je w *Authentication → Add user*.
+
+Połączenie kont:
+1. **Rodzic:** *Ustawienia → Rodzina → Utwórz kod rodziny* (albo przy pierwszym uruchomieniu *Jestem rodzicem*). Pojawia się zakładka **Rodzina**.
+2. **Dziecko:** na swoim koncie *Ustawienia → Rodzina* → wpisuje kod → *Połącz*. Może się w każdej chwili odłączyć.
+
+Zakładka *Rodzina* pokazuje dla każdego dziecka: odpowiedzi dziś, serię dni, ostatnią naukę, wykres odpowiedzi z 7 dni, postęp i zaległe powtórki w każdym przedmiocie oraz karty z największą liczbą błędów. Rodzic może zmienić dziecku ścieżkę nauki (zmiana dociera na urządzenie dziecka przy najbliższej synchronizacji) i odłączyć konto. Odpowiedzi dziecka może tylko czytać: dostęp chronią reguły RLS i funkcje `join_family` / `set_child_level` w `family.sql`. Dane są tak aktualne jak ostatnia synchronizacja dziecka.
+
+Konto z kodem rodziny bez własnej ścieżki nauki otwiera się od razu w widoku rodziny.
+
 ## Postęp i dane
 
 - **Status słowa** liczony z 10 ostatnich odpowiedzi: < 60% poprawnych = *nowe*, 60–90% = *w nauce*, > 90% (min. 3 odpowiedzi) = *opanowane*.

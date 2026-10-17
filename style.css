@@ -140,6 +140,18 @@ body.in-session .view { padding-bottom: 24px; }
 .subj-btn .caret { color: var(--muted); font-size: .8rem; }
 body.no-level .nav-subjects, body.no-level .nav-section, body.no-level .subj-switch,
 body.no-level .nav a[data-route="learn"], body.no-level .nav a[data-route="browse"], body.no-level .nav a[data-route="materials"] { display: none !important; }
+.nav-family { display: none !important; }
+body.parent-mode .nav-family { display: flex !important; }
+body.no-level.parent-mode .nav a[data-route="dashboard"] { display: none !important; }
+.family-code { font-size: 2rem; font-weight: 800; letter-spacing: .18em; font-family: ui-monospace, Consolas, monospace; margin: 4px 0 12px; color: var(--accent); }
+.sep { border: 0; border-top: 1px solid var(--border); margin: 16px 0; }
+.child-head { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 8px; }
+.week-chart { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; height: 120px; align-items: end; margin-bottom: 8px; }
+.week-col { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 4px; }
+.week-bar { width: 100%; max-width: 34px; min-height: 3px; border-radius: 6px 6px 2px 2px; background: var(--primary); }
+.week-bar.empty { background: var(--border); }
+.week-n { font-size: .75rem; font-weight: 700; color: var(--muted); min-height: 1em; }
+.week-d { font-size: .75rem; color: var(--muted); }
 .level-card { text-align: left; cursor: pointer; font: inherit; color: inherit; width: 100%; }
 .level-card:hover { border-color: var(--primary); }
 .level-card h2 { margin: 0 0 6px; }
@@ -503,3 +515,6 @@ details > summary { cursor: pointer; font-weight: 600; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Mały przycisk (widok rodziny) */
+.btn.btn-sm { min-height: 34px; padding: 6px 12px; font-size: .85rem; border-radius: 10px; }

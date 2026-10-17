@@ -580,8 +580,9 @@
   // ===================================================================
   // Postęp i powtórki (SM-2)
   // ===================================================================
-  function statusOf(it) {
-    const p = state.progress[it.id];
+  // progress: domyślnie własny; widok rodzica liczy status z postępu dziecka.
+  function statusOf(it, progress = state.progress) {
+    const p = progress[it.id];
     if (!p || !p.hist || !p.hist.length) return 'new';
     const acc = p.hist.reduce((s, x) => s + x, 0) / p.hist.length;
     if (acc > 0.9 && p.hist.length >= 3) return 'mastered';
@@ -627,11 +628,11 @@
     return { due, newToday: Math.min(newLeft, unseen) };
   }
 
-  function streak() {
+  function streak(daily = state.daily) {
     let n = 0;
     let d = today();
-    if (!(state.daily[d] && state.daily[d].answers)) d = addDays(d, -1);
-    while (state.daily[d] && state.daily[d].answers) { n++; d = addDays(d, -1); }
+    if (!(daily[d] && daily[d].answers)) d = addDays(d, -1);
+    while (daily[d] && daily[d].answers) { n++; d = addDays(d, -1); }
     return n;
   }
 
@@ -1400,7 +1401,10 @@
       h('div', { class: 'grid grid-2' }, Object.entries(LEVELS).map(([k, lv]) =>
         h('button', { class: 'card level-card', onClick: () => setLevel(k) },
           h('h2', null, lv.label),
-          h('div', { class: 'muted small' }, lv.subjects.map((sk) => `${SUBJECTS[sk].icon} ${SUBJECTS[sk].label}`).join(' · '))))),
+          h('div', { class: 'muted small' }, lv.subjects.map((sk) => `${SUBJECTS[sk].icon} ${SUBJECTS[sk].label}`).join(' · ')))),
+        h('button', { class: 'card level-card', onClick: () => { state.settings.parentMode = true; save(); applyParentMode(); location.hash = '#/family'; } },
+          h('h2', null, '👪 Jestem rodzicem'),
+          h('div', { class: 'muted small' }, 'Podgląd postępów dzieci. Własną ścieżkę nauki możesz wybrać później w Ustawieniach.'))),
       sync.client && !sync.user
         ? h('p', { class: 'muted small' }, 'Masz już konto na innym urządzeniu? ', h('a', { href: '#/settings' }, 'Zaloguj się w Ustawieniach'), ', a ścieżka i postęp wczytają się same.')
         : null);
@@ -1752,6 +1756,8 @@
     const learned = Object.keys(state.progress).length;
     const syncCard = h('div', { class: 'card', id: 'sync-card' });
     renderSyncCard(syncCard);
+    const familyCard = h('div', { class: 'card', id: 'family-card' });
+    renderFamilyCard(familyCard);
     view.replaceChildren(
       h('h1', null, 'Ustawienia'),
       h('div', { class: 'card' },
@@ -1783,6 +1789,7 @@
           : 'Dodaj własne karty z czatu AI, pliku JSON, wklejonego tekstu albo pojedynczo.'),
         h('a', { class: 'btn btn-primary', href: '#/materials' }, '➕ Dodaj / zarządzaj materiałami')),
       syncCard,
+      familyCard,
       h('div', { class: 'card' },
         h('h2', null, 'Dane i postęp'),
         h('p', { class: 'muted small' }, `Postęp na tym urządzeniu: ${learned} ${plural(learned, 'słowo', 'słowa', 'słów')}. Plik eksportu to zapasowa kopia — do przenoszenia między urządzeniami służy synchronizacja.`),
@@ -2419,6 +2426,7 @@
         state = mergeStates(state, data.state);
         lastSettingsFp = settingsFp();
         saveLocal();
+        applyParentMode();
       }
       const customChanged = customFp() !== customBefore;
       if (customChanged) rebuildVocab();
@@ -2454,11 +2462,16 @@
     sync.client.auth.onAuthStateChange((event, session) => {
       const prev = sync.user && sync.user.id;
       sync.user = session ? session.user : null;
+      if (!sync.user || sync.user.id !== family.loadedFor) { family.loadedFor = null; family.error = ''; }
       sync.status = sync.user ? (sync.status === 'off' || sync.status === 'loggedout' ? 'ok' : sync.status) : 'loggedout';
       // wywołania Supabase poza callbackiem (zalecenie biblioteki)
-      if (sync.user && sync.user.id !== prev) setTimeout(() => syncNow(), 0);
+      if (sync.user && sync.user.id !== prev) {
+        setTimeout(() => syncNow(), 0);
+        // konto z kodem rodziny = rodzic: włącz zakładkę Rodzina (i pomiń wybór ścieżki)
+        setTimeout(() => loadFamily().then(() => { if (state.settings.parentMode && currentRoute !== 'session') route(); }), 0);
+      }
       refreshSyncUi();
-      if (currentRoute === 'dashboard') route();
+      if (currentRoute === 'dashboard' || currentRoute === 'family') route();
     });
     await sync.client.auth.getSession();
     // posprzątaj adres po kliknięciu linku z e-maila (?code=… / ?error=…)
@@ -2477,6 +2490,9 @@
   function refreshSyncUi() {
     const card = document.getElementById('sync-card');
     if (card) renderSyncCard(card);
+    // karta Rodzina zależy tylko od zalogowanego konta — nie przerysowuj jej przy każdej zmianie statusu
+    const fam = document.getElementById('family-card');
+    if (fam && fam.dataset.user !== String(sync.user ? sync.user.id : '')) renderFamilyCard(fam);
   }
 
   function syncStatusText() {
@@ -2560,10 +2576,252 @@
   }
 
   // ===================================================================
+  // Rodzina: rodzic widzi postęp dzieci (Supabase: supabase/family.sql).
+  // Rodzic tworzy kod rodziny, dziecko wpisuje go u siebie. Rodzic tylko czyta postęp i może zmienić ścieżkę.
+  // ===================================================================
+  const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // bez 0/O i 1/I
+  // Stan po stronie konta: kod rodzica, powiązania jako dziecko; null = jeszcze nie wczytano.
+  const family = { code: null, asChild: null, error: '', loadedFor: null };
+
+  const famErr = (e) => {
+    const m = (e && e.message) || String(e);
+    // brak tabel/funkcji = nie uruchomiono supabase/family.sql
+    return /family_|join_family|set_child_level|schema cache|does not exist/i.test(m)
+      ? 'Widok rodziny nie jest jeszcze włączony w bazie: uruchom supabase/family.sql w panelu Supabase.' : m;
+  };
+
+  async function loadFamily(force) {
+    if (!sync.client || !sync.user) return;
+    if (!force && family.loadedFor === sync.user.id) return;
+    family.error = '';
+    try {
+      const [codeRes, linkRes] = await Promise.all([
+        sync.client.from('family_codes').select('code').eq('parent_id', sync.user.id).maybeSingle(),
+        sync.client.from('family_links').select('parent_id').eq('child_id', sync.user.id),
+      ]);
+      if (codeRes.error) throw codeRes.error;
+      if (linkRes.error) throw linkRes.error;
+      family.code = codeRes.data ? codeRes.data.code : '';
+      family.asChild = linkRes.data || [];
+      family.loadedFor = sync.user.id;
+      if (family.code && !state.settings.parentMode) { state.settings.parentMode = true; save(); applyParentMode(); }
+    } catch (e) {
+      family.error = famErr(e);
+    }
+  }
+
+  async function createFamilyCode() {
+    for (let i = 0; i < 5; i++) {
+      const code = Array.from(crypto.getRandomValues(new Uint32Array(6)), (n) => CODE_CHARS[n % CODE_CHARS.length]).join('');
+      const { error } = await sync.client.from('family_codes').insert({ parent_id: sync.user.id, code });
+      if (!error) { family.code = code; return; }
+      if (!/duplicate|unique/i.test(error.message)) throw error; // powtórzony kod: losuj jeszcze raz
+    }
+    throw new Error('Nie udało się utworzyć kodu, spróbuj ponownie.');
+  }
+
+  function applyParentMode() {
+    document.body.classList.toggle('parent-mode', !!state.settings.parentMode);
+  }
+
+  // Karta „Rodzina” w Ustawieniach: kod dla rodzica i dołączanie dla dziecka.
+  function renderFamilyCard(card) {
+    card.dataset.user = sync.user ? sync.user.id : '';
+    const title = h('h2', null, '👪 Rodzina');
+    if (!sync.client || !sync.user) {
+      card.replaceChildren(title, h('p', { class: 'muted small' },
+        'Rodzic może podglądać postęp dzieci. Najpierw zaloguj się w karcie Synchronizacja (każdy na swoim koncie).'));
+      return;
+    }
+    if (family.loadedFor !== sync.user.id && !family.error) {
+      card.replaceChildren(title, h('p', { class: 'muted small' }, 'Wczytuję…'));
+      loadFamily().then(() => renderFamilyCard(card));
+      return;
+    }
+    const msg = h('div', { class: 'muted small', style: 'min-height:1.5em' }, family.error ? '⚠️ ' + family.error : '');
+    const fail = (e) => { msg.textContent = '⚠️ ' + famErr(e); };
+
+    // Rodzic
+    const parentPart = family.code
+      ? h('div', null,
+        h('p', { class: 'small' }, 'Twój kod rodziny (dziecko wpisuje go u siebie w Ustawieniach):'),
+        h('div', { class: 'family-code' }, family.code),
+        h('a', { class: 'btn btn-primary', href: '#/family' }, '👪 Otwórz widok rodziny'))
+      : h('div', null,
+        h('p', { class: 'muted small' }, 'Jesteś rodzicem? Utwórz kod i przekaż go dzieciom. Zobaczysz ich postęp, ale nie zmienisz ich odpowiedzi.'),
+        h('button', { class: 'btn', onClick: async () => {
+          try { await createFamilyCode(); state.settings.parentMode = true; save(); applyParentMode(); renderFamilyCard(card); }
+          catch (e) { fail(e); }
+        } }, 'Utwórz kod rodziny'));
+
+    // Dziecko
+    let childPart;
+    if (family.asChild && family.asChild.length) {
+      childPart = h('div', null,
+        h('p', { class: 'small' }, '✅ Twoje konto jest połączone z kontem rodzica. Rodzic widzi Twój postęp i może zmienić ścieżkę nauki, ale nie zmienia Twoich odpowiedzi.'),
+        h('button', { class: 'btn btn-ghost', onClick: async () => {
+          if (!confirm('Odłączyć konto od rodzica? Rodzic przestanie widzieć Twój postęp.')) return;
+          const { error } = await sync.client.from('family_links').delete().eq('child_id', sync.user.id);
+          if (error) { fail(error); return; }
+          family.asChild = [];
+          renderFamilyCard(card);
+        } }, 'Odłącz od rodzica'));
+    } else {
+      const input = h('input', { type: 'text', maxlength: '12', placeholder: 'kod od rodzica', 'aria-label': 'Kod rodziny', autocapitalize: 'characters', class: 'answer' });
+      const join = async () => {
+        const code = input.value.replace(/\s/g, '').toUpperCase();
+        if (code.length < 4) { msg.textContent = '⚠️ Wpisz kod od rodzica.'; return; }
+        const { error } = await sync.client.rpc('join_family', { p_code: code, p_name: state.settings.name || null });
+        if (error) { fail(error); return; }
+        toast('Połączono z kontem rodzica 👪');
+        await loadFamily(true);
+        renderFamilyCard(card);
+      };
+      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') join(); });
+      childPart = h('div', null,
+        h('p', { class: 'muted small' }, 'Masz kod od rodzica? Wpisz go, żeby rodzic widział Twój postęp.'),
+        h('div', { class: 'row' }, input, h('button', { class: 'btn btn-primary', onClick: join }, 'Połącz')));
+    }
+    card.replaceChildren(title, parentPart, h('hr', { class: 'sep' }), childPart, msg);
+  }
+
+  // Podsumowanie postępu dziecka z jego stanu (wiersz progress.state).
+  function childSummary(row) {
+    const st = row.state || {};
+    const settings = st.settings || {};
+    const level = LEVELS[settings.level] ? settings.level : null;
+    const prog = st.progress || {};
+    const daily = st.daily || {};
+    const gone = st.deletedCustom || {};
+    const items = [...BASE_ITEMS, ...(st.customItems || []).filter((c) => c && !gone[c.id])].map(prepareItem).filter(Boolean);
+    const byId = new Map(items.map((it) => [it.id, it]));
+    const t = today();
+    const subjects = (level ? LEVELS[level].subjects : []).map((key) => {
+      const pool = items.filter((it) => it.subject === key);
+      const stats = { total: pool.length, new: 0, learning: 0, mastered: 0 };
+      for (const it of pool) stats[statusOf(it, prog)]++;
+      const due = pool.filter((it) => prog[it.id] && prog[it.id].due <= t).length;
+      return { key, stats, due };
+    });
+    const week = Array.from({ length: 7 }, (_, i) => {
+      const d = addDays(t, i - 6);
+      return { d, n: (daily[d] && daily[d].answers) || 0 };
+    });
+    const lastDay = Object.keys(daily).filter((d) => daily[d].answers).sort().pop() || null;
+    const hardest = Object.entries(prog)
+      .map(([id, p]) => ({ it: byId.get(id), wrong: (p.attempts || 0) - (p.correct || 0), p }))
+      .filter((x) => x.it && x.wrong > 0)
+      .sort((a, b) => b.wrong - a.wrong || (a.p.correct / a.p.attempts) - (b.p.correct / b.p.attempts))
+      .slice(0, 5);
+    return { name: settings.name || '', level, subjects, week, today: (daily[t] && daily[t].answers) || 0, streak: streak(daily), lastDay, hardest };
+  }
+
+  const localDate = (d) => { const [y, m, dd] = d.split('-').map(Number); return new Date(y, m - 1, dd); };
+  const WEEKDAYS = ['nd', 'pn', 'wt', 'śr', 'cz', 'pt', 'sb'];
+  function dayAgo(d) {
+    if (!d) return 'jeszcze się nie uczył(a)';
+    const diff = Math.round((localDate(today()) - localDate(d)) / 864e5);
+    return diff === 0 ? 'dziś' : diff === 1 ? 'wczoraj' : `${diff} dni temu (${fmtDate(d)})`;
+  }
+
+  function childCard(link, row, onChanged) {
+    const name = (row && row.state && row.state.settings && row.state.settings.name) || link.child_name || link.child_email || 'Dziecko';
+    const head = h('div', { class: 'child-head' },
+      h('div', null, h('h2', { style: 'margin:0' }, name), h('div', { class: 'muted small' }, link.child_email || '')));
+    const unlink = h('button', { class: 'btn btn-ghost btn-sm', onClick: async () => {
+      if (!confirm(`Przestać śledzić postęp: ${name}?`)) return;
+      const { error } = await sync.client.from('family_links').delete().eq('parent_id', sync.user.id).eq('child_id', link.child_id);
+      if (error) { toast(famErr(error)); return; }
+      onChanged();
+    } }, 'Odłącz');
+    if (!row) {
+      return h('div', { class: 'card' }, head,
+        h('p', { class: 'muted small' }, 'Brak zapisanego postępu. Dziecko musi raz zalogować się w aplikacji na swoim koncie.'), unlink);
+    }
+    const s = childSummary(row);
+    const levelSel = h('select', { 'aria-label': 'Ścieżka nauki dziecka', onChange: async (e) => {
+      const { error } = await sync.client.rpc('set_child_level', { p_child: link.child_id, p_level: e.target.value });
+      if (error) { toast(famErr(error)); return; }
+      toast('Zmieniono ścieżkę. Dziecko zobaczy ją po najbliższej synchronizacji.');
+      onChanged();
+    } },
+    s.level ? null : h('option', { value: '' }, '— nie wybrano —'),
+    Object.entries(LEVELS).map(([k, lv]) => h('option', { value: k, selected: k === s.level }, lv.label)));
+
+    const max = Math.max(1, ...s.week.map((w) => w.n));
+    const chart = h('div', { class: 'week-chart', role: 'img', 'aria-label': 'Odpowiedzi w ostatnich 7 dniach: ' + s.week.map((w) => w.n).join(', ') },
+      s.week.map((w) => h('div', { class: 'week-col', title: `${fmtDate(w.d)}: ${w.n}` },
+        h('span', { class: 'week-n' }, w.n ? String(w.n) : ''),
+        h('div', { class: 'week-bar' + (w.n ? '' : ' empty'), style: `height:${Math.round((w.n / max) * 100)}%` }),
+        h('span', { class: 'week-d' }, WEEKDAYS[localDate(w.d).getDay()]))));
+
+    return h('div', { class: 'card' },
+      head,
+      h('div', { class: 'setting' }, h('div', { class: 'txt' }, h('b', null, 'Ścieżka nauki')), levelSel),
+      h('div', { class: 'stat-row', style: 'margin-top:8px' },
+        h('div', { class: 'stat' }, h('b', null, String(s.today)), h('span', null, 'odpowiedzi dziś')),
+        h('div', { class: 'stat' }, h('b', { style: 'color:var(--warn)' }, `🔥 ${s.streak}`), h('span', null, plural(s.streak, 'dzień z rzędu', 'dni z rzędu', 'dni z rzędu'))),
+        h('div', { class: 'stat' }, h('b', { class: 'small' }, dayAgo(s.lastDay)), h('span', null, 'ostatnia nauka'))),
+      h('h3', null, 'Ostatnie 7 dni'), chart,
+      s.subjects.length ? [h('h3', null, 'Przedmioty'),
+        h('div', { class: 'cat-list' }, s.subjects.map((x) => h('div', { class: 'cat-row', style: 'cursor:default' },
+          h('span', { class: 'cat-ico' }, SUBJECTS[x.key].icon),
+          h('span', null, h('div', { class: 'cat-name' }, SUBJECTS[x.key].label), progressBar(x.stats)),
+          h('span', { class: 'muted small', style: 'text-align:right;white-space:nowrap', title: 'opanowane / wszystkie karty' },
+            `✓ ${x.stats.mastered}/${x.stats.total}`, h('br'), x.due ? `${x.due} do powtórki` : 'bez zaległości'))))] : null,
+      s.hardest.length ? [h('h3', null, 'Najtrudniejsze karty'),
+        h('div', { class: 'err-list' }, s.hardest.map((x) => h('div', { class: 'err' },
+          h('div', { class: 'q' }, `${SUBJECTS[x.it.subject].icon} ${x.it._label}`),
+          h('div', { class: 'a' }, '✓ ' + x.it._answer),
+          h('div', { class: 'muted small' }, `${x.wrong} ${plural(x.wrong, 'błąd', 'błędy', 'błędów')} na ${x.p.attempts} ${plural(x.p.attempts, 'odpowiedź', 'odpowiedzi', 'odpowiedzi')}`))))] : null,
+      h('p', { class: 'muted small', style: 'margin-top:12px' },
+        `Dane z ostatniej synchronizacji dziecka: ${new Date(row.updated_at).toLocaleString('pl-PL', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}.`),
+      unlink);
+  }
+
+  async function renderFamily(view) {
+    const title = h('h1', null, '👪 Rodzina');
+    if (!sync.client || !sync.user) {
+      view.replaceChildren(title, h('div', { class: 'card' },
+        h('p', null, 'Widok rodziny wymaga zalogowania.'), h('a', { class: 'btn btn-primary', href: '#/settings' }, 'Przejdź do Ustawień')));
+      return;
+    }
+    const body = h('div', null, h('div', { class: 'card muted' }, 'Wczytuję postęp dzieci…'));
+    const reload = () => { if (currentRoute === 'family') renderFamily(view); };
+    view.replaceChildren(title, h('div', { class: 'row', style: 'margin:-6px 0 14px' },
+      h('span', { class: 'muted small' }, 'Postęp połączonych kont. Dane odświeżają się, gdy dziecko się uczy i jest online.'),
+      h('div', { class: 'spacer' }), h('button', { class: 'btn btn-sm', onClick: reload }, '🔄 Odśwież')), body);
+    try {
+      await loadFamily(true);
+      if (family.error) throw new Error(family.error);
+      const { data: links, error } = await sync.client.from('family_links').select('child_id, child_email, child_name, created_at').eq('parent_id', sync.user.id).order('created_at');
+      if (error) throw error;
+      if (currentRoute !== 'family') return;
+      if (!links.length) {
+        body.replaceChildren(h('div', { class: 'card' },
+          h('h2', null, 'Nie ma jeszcze połączonych dzieci'),
+          family.code
+            ? [h('p', { class: 'small' }, 'Kod rodziny do przekazania dzieciom:'), h('div', { class: 'family-code' }, family.code),
+              h('p', { class: 'muted small' }, 'Dziecko wpisuje go na swoim koncie: Ustawienia → Rodzina → Połącz.')]
+            : [h('p', { class: 'muted small' }, 'Najpierw utwórz kod rodziny w Ustawieniach.'), h('a', { class: 'btn btn-primary', href: '#/settings' }, 'Ustawienia')]));
+        return;
+      }
+      const { data: rows, error: e2 } = await sync.client.from('progress').select('user_id, state, updated_at').in('user_id', links.map((l) => l.child_id));
+      if (e2) throw e2;
+      if (currentRoute !== 'family') return;
+      const byUser = new Map(rows.map((r) => [r.user_id, r]));
+      body.replaceChildren(...links.map((l) => childCard(l, byUser.get(l.child_id), reload)),
+        family.code ? h('p', { class: 'muted small' }, 'Kod rodziny dla kolejnego dziecka: ', h('b', null, family.code)) : null);
+    } catch (e) {
+      body.replaceChildren(h('div', { class: 'card' }, h('p', null, '⚠️ ' + famErr(e))));
+    }
+  }
+
+  // ===================================================================
   // Router i start
   // ===================================================================
   let currentRoute = '';
-  const ROUTES = { dashboard: renderDashboard, learn: renderLearn, browse: renderBrowse, settings: renderSettings, session: renderSessionView, summary: renderSummary, materials: renderMaterials };
+  const ROUTES = { dashboard: renderDashboard, learn: renderLearn, browse: renderBrowse, settings: renderSettings, session: renderSessionView, summary: renderSummary, materials: renderMaterials, family: renderFamily };
   const NAV_FOR = { session: 'learn', summary: 'learn' };
 
   function route() {
@@ -2576,8 +2834,10 @@
     view.classList.remove('flash-ok', 'flash-bad');
     document.body.classList.toggle('in-session', key === 'session');
     document.querySelectorAll('.nav a').forEach((a) => a.classList.toggle('active', a.dataset.route === (NAV_FOR[key] || key)));
+    // Rodzic bez własnej ścieżki nauki: panel to widok rodziny.
+    if (!state.settings.level && state.settings.parentMode && key === 'dashboard') { location.hash = '#/family'; return; }
     // Bez wybranej ścieżki: tylko ekran wyboru (i Ustawienia, żeby można było się zalogować).
-    const onboarding = !state.settings.level && key !== 'settings';
+    const onboarding = !state.settings.level && key !== 'settings' && !(key === 'family' && state.settings.parentMode);
     document.body.classList.toggle('no-level', !state.settings.level);
     if (key !== 'session') renderNav();
     if (onboarding) renderOnboarding(view);
@@ -2600,6 +2860,7 @@
 
   async function boot() {
     applyTheme();
+    applyParentMode();
     try {
       await loadVocab();
     } catch (e) {
