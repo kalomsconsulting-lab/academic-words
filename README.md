@@ -12,7 +12,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 | `app.js` | cała logika: ćwiczenia, powtórki SM-2, widoki |
 | `ai-import.js` | import z czatu AI: prompt do skopiowania i parser odpowiedzi (`window.AW_AI`) |
 | `vocabulary.json` | słownictwo Academic English (704 wpisy) |
-| `data/biology.json` | karty bazowe z biologii (na razie puste, karty dodaje się w aplikacji) |
+| `data/biology.json` | karty bazowe z biologii (56 przykładowych: pytania i zdania z luką, po kilka w każdej kategorii) |
 | `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
 
 **Starter pack (`vocabulary.json`):**

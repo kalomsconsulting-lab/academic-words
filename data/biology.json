@@ -2,5 +2,525 @@
  "version": 1,
  "subject": "biology",
  "updated": "2026-10-17",
- "items": []
+ "items": [
+  {
+   "id": "bio-001",
+   "type": "qa",
+   "question": "Which organelle is the site of aerobic respiration?",
+   "answer": "mitochondrion",
+   "accept": [
+    "mitochondria"
+   ],
+   "explanation": "Most of the ATP in a eukaryotic cell is produced in the mitochondria.",
+   "category": "bio_cells",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-002",
+   "type": "qa",
+   "question": "Which structure controls what enters and leaves a cell?",
+   "answer": "cell membrane",
+   "accept": [
+    "plasma membrane",
+    "cell surface membrane"
+   ],
+   "category": "bio_cells",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-003",
+   "type": "qa",
+   "question": "Which organelles are the site of protein synthesis?",
+   "answer": "ribosomes",
+   "accept": [
+    "ribosome"
+   ],
+   "category": "bio_cells",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-004",
+   "type": "qa",
+   "question": "What type of cell has no nucleus and no membrane-bound organelles?",
+   "answer": "prokaryotic cell",
+   "accept": [
+    "prokaryote",
+    "prokaryotic"
+   ],
+   "explanation": "Bacteria are prokaryotes; their DNA lies free in the cytoplasm.",
+   "category": "bio_cells",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-005",
+   "type": "qa",
+   "question": "How many micrometres are there in one millimetre?",
+   "answer": "1000",
+   "accept": [
+    "1,000",
+    "one thousand"
+   ],
+   "category": "bio_cells",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-006",
+   "type": "cloze",
+   "text": "Water moves across a partially permeable membrane by {{osmosis}}.",
+   "hint": "water movement",
+   "explanation": "Water moves from a dilute solution to a more concentrated one.",
+   "category": "bio_cells",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-007",
+   "type": "cloze",
+   "text": "The net movement of particles from a higher to a lower concentration is called {{diffusion}}.",
+   "category": "bio_cells",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-008",
+   "type": "cloze",
+   "text": "Moving substances against a concentration gradient using energy from ATP is called {{active transport}}.",
+   "category": "bio_cells",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-009",
+   "type": "cloze",
+   "text": "Plant cell walls are made mainly of {{cellulose}}.",
+   "hint": "polysaccharide",
+   "category": "bio_cells",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-010",
+   "type": "cloze",
+   "text": "Mitosis produces two {{genetically identical}} daughter nuclei.",
+   "explanation": "Mitosis is used for growth, repair and asexual reproduction.",
+   "category": "bio_cells",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-011",
+   "type": "qa",
+   "question": "What are the monomers of proteins?",
+   "answer": "amino acids",
+   "accept": [
+    "amino acid"
+   ],
+   "category": "bio_molecules",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-012",
+   "type": "qa",
+   "question": "Which bond links amino acids in a polypeptide?",
+   "answer": "peptide bond",
+   "accept": [
+    "peptide"
+   ],
+   "explanation": "It forms in a condensation reaction that releases water.",
+   "category": "bio_molecules",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-013",
+   "type": "qa",
+   "question": "What is the region of an enzyme where the substrate binds called?",
+   "answer": "active site",
+   "category": "bio_molecules",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-014",
+   "type": "qa",
+   "question": "Which molecule is the main energy currency of the cell?",
+   "answer": "ATP",
+   "accept": [
+    "adenosine triphosphate"
+   ],
+   "category": "bio_molecules",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-015",
+   "type": "qa",
+   "question": "Which reagent turns blue-black in the presence of starch?",
+   "answer": "iodine",
+   "accept": [
+    "iodine solution"
+   ],
+   "category": "bio_molecules",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-016",
+   "type": "qa",
+   "question": "What are the products of aerobic respiration?",
+   "answer": "carbon dioxide and water",
+   "accept": [
+    "water and carbon dioxide"
+   ],
+   "category": "bio_molecules",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-017",
+   "type": "cloze",
+   "text": "Enzymes speed up reactions by lowering the {{activation energy}}.",
+   "hint": "energy",
+   "category": "bio_molecules",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-018",
+   "type": "cloze",
+   "text": "At high temperatures an enzyme {{denatures}} and its active site changes shape.",
+   "explanation": "The substrate no longer fits, so the rate of reaction falls.",
+   "category": "bio_molecules",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-019",
+   "type": "cloze",
+   "text": "Glucose and fructose are examples of {{monosaccharides / monosaccharide}}.",
+   "hint": "simple sugars",
+   "category": "bio_molecules",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-020",
+   "type": "cloze",
+   "text": "Anaerobic respiration in human muscles produces {{lactate / lactic acid}}.",
+   "category": "bio_molecules",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-021",
+   "type": "qa",
+   "question": "What is the shape of a DNA molecule?",
+   "answer": "double helix",
+   "category": "bio_genetics",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-022",
+   "type": "qa",
+   "question": "Which base pairs with adenine in DNA?",
+   "answer": "thymine",
+   "accept": [
+    "T"
+   ],
+   "category": "bio_genetics",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-023",
+   "type": "qa",
+   "question": "Which base replaces thymine in RNA?",
+   "answer": "uracil",
+   "accept": [
+    "U"
+   ],
+   "category": "bio_genetics",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-024",
+   "type": "qa",
+   "question": "How many chromosomes are in a normal human body cell?",
+   "answer": "46",
+   "accept": [
+    "forty-six",
+    "23 pairs"
+   ],
+   "category": "bio_genetics",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-025",
+   "type": "qa",
+   "question": "What term describes an organism with two different alleles of a gene?",
+   "answer": "heterozygous",
+   "accept": [
+    "heterozygote"
+   ],
+   "category": "bio_genetics",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-026",
+   "type": "qa",
+   "question": "What is a random change in the base sequence of DNA called?",
+   "answer": "mutation",
+   "accept": [
+    "gene mutation"
+   ],
+   "category": "bio_genetics",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-027",
+   "type": "cloze",
+   "text": "Different versions of the same gene are called {{alleles / allele}}.",
+   "category": "bio_genetics",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-028",
+   "type": "cloze",
+   "text": "Meiosis produces {{haploid}} gametes with half the number of chromosomes.",
+   "category": "bio_genetics",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-029",
+   "type": "cloze",
+   "text": "Charles Darwin proposed evolution by {{natural selection}}.",
+   "category": "bio_genetics",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-030",
+   "type": "qa",
+   "question": "Which blood vessels carry blood away from the heart?",
+   "answer": "arteries",
+   "accept": [
+    "artery"
+   ],
+   "category": "bio_human",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-031",
+   "type": "qa",
+   "question": "Which chamber of the heart pumps blood to the rest of the body?",
+   "answer": "left ventricle",
+   "explanation": "It has the thickest muscular wall of the four chambers.",
+   "category": "bio_human",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-032",
+   "type": "qa",
+   "question": "Which hormone lowers blood glucose concentration?",
+   "answer": "insulin",
+   "category": "bio_human",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-033",
+   "type": "qa",
+   "question": "Which organ produces insulin?",
+   "answer": "pancreas",
+   "category": "bio_human",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-034",
+   "type": "qa",
+   "question": "Which white blood cells produce antibodies?",
+   "answer": "lymphocytes",
+   "accept": [
+    "lymphocyte",
+    "B lymphocytes",
+    "B cells"
+   ],
+   "category": "bio_human",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-035",
+   "type": "cloze",
+   "text": "Gas exchange in the lungs takes place in the {{alveoli / alveolus}}.",
+   "hint": "air sacs",
+   "category": "bio_human",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-036",
+   "type": "cloze",
+   "text": "Red blood cells contain {{haemoglobin / hemoglobin}}, which binds oxygen.",
+   "category": "bio_human",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-037",
+   "type": "cloze",
+   "text": "Most digested food is absorbed in the {{small intestine / ileum}}.",
+   "category": "bio_human",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-038",
+   "type": "qa",
+   "question": "Which pigment absorbs light for photosynthesis?",
+   "answer": "chlorophyll",
+   "category": "bio_plants",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-039",
+   "type": "qa",
+   "question": "Through which pores in leaves does gas exchange occur?",
+   "answer": "stomata",
+   "accept": [
+    "stoma",
+    "stomas"
+   ],
+   "category": "bio_plants",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-040",
+   "type": "qa",
+   "question": "Which tissue transports water from the roots to the leaves?",
+   "answer": "xylem",
+   "category": "bio_plants",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-041",
+   "type": "qa",
+   "question": "Which tissue transports sugars around a plant?",
+   "answer": "phloem",
+   "explanation": "This movement of sugars is called translocation.",
+   "category": "bio_plants",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-042",
+   "type": "qa",
+   "question": "Which gas is released as a by-product of photosynthesis?",
+   "answer": "oxygen",
+   "accept": [
+    "O2"
+   ],
+   "category": "bio_plants",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-043",
+   "type": "cloze",
+   "text": "Photosynthesis takes place in the {{chloroplasts / chloroplast}}.",
+   "category": "bio_plants",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-044",
+   "type": "cloze",
+   "text": "The loss of water vapour from leaves is called {{transpiration}}.",
+   "category": "bio_plants",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-045",
+   "type": "qa",
+   "question": "What is an organism that makes its own food called?",
+   "answer": "producer",
+   "accept": [
+    "autotroph"
+   ],
+   "category": "bio_ecology",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-046",
+   "type": "qa",
+   "question": "Roughly what percentage of energy passes from one trophic level to the next?",
+   "answer": "10%",
+   "accept": [
+    "10",
+    "10 percent",
+    "10 per cent",
+    "ten percent"
+   ],
+   "explanation": "The rest is lost mainly as heat from respiration.",
+   "category": "bio_ecology",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-047",
+   "type": "qa",
+   "question": "What is the role and position of a species in its ecosystem called?",
+   "answer": "niche",
+   "accept": [
+    "ecological niche"
+   ],
+   "category": "bio_ecology",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-048",
+   "type": "qa",
+   "question": "Which gas released by burning fossil fuels is the main contributor to the greenhouse effect?",
+   "answer": "carbon dioxide",
+   "accept": [
+    "CO2"
+   ],
+   "category": "bio_ecology",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-049",
+   "type": "cloze",
+   "text": "Producers are eaten by {{primary consumers}}.",
+   "category": "bio_ecology",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-050",
+   "type": "cloze",
+   "text": "All the populations of different species living in one area form a {{community}}.",
+   "category": "bio_ecology",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-051",
+   "type": "cloze",
+   "text": "Organisms that break down dead material are called {{decomposers / saprotrophs}}.",
+   "category": "bio_ecology",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-052",
+   "type": "qa",
+   "question": "What is the variable you deliberately change in an experiment called?",
+   "answer": "independent variable",
+   "category": "bio_skills",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-053",
+   "type": "qa",
+   "question": "What is the variable you measure in an experiment called?",
+   "answer": "dependent variable",
+   "category": "bio_skills",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-054",
+   "type": "qa",
+   "question": "Which statistic shows how spread out data are around the mean?",
+   "answer": "standard deviation",
+   "category": "bio_skills",
+   "difficulty": 2
+  },
+  {
+   "id": "bio-055",
+   "type": "cloze",
+   "text": "Variables kept the same throughout an experiment are called {{control variables / controlled variables}}.",
+   "category": "bio_skills",
+   "difficulty": 1
+  },
+  {
+   "id": "bio-056",
+   "type": "cloze",
+   "text": "Repeating trials and calculating a mean improves the {{reliability}} of the results.",
+   "category": "bio_skills",
+   "difficulty": 2
+  }
+ ]
 }
