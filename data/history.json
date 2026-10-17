@@ -1,0 +1,1471 @@
+{
+ "version": 1,
+ "subject": "history_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum ogólnokształcącego i technikum, historia, zakres podstawowy (Dz.U. 2018 poz. 467, ze zmianami z 2024 r.), działy I–XIII (starożytność i średniowiecze, klasa 1); umiejętności źródłowe i nazwy tematów wg IB DP History guide (OPVL)",
+ "items": [
+  {
+   "id": "histib-pp-001",
+   "type": "qa",
+   "question": "What is the name of the period of human past before the invention of writing?",
+   "answer": "prehistory",
+   "accept": [
+    "pre-history"
+   ],
+   "explanation": "History in the strict sense begins with written sources; everything earlier is prehistory.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "histib-pp-002",
+   "type": "cloze",
+   "text": "The writing of history and the body of historical works about a topic is called {{historiography}}.",
+   "hint": "the \"history of history\"",
+   "explanation": "Historiography also studies how interpretations of the past change over time.",
+   "category": "histib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "histib-pp-003",
+   "type": "qa",
+   "question": "Which historical epoch conventionally begins with the fall of the Western Roman Empire in 476 and ends in the 15th century?",
+   "answer": "the Middle Ages",
+   "accept": [
+    "Middle Ages",
+    "medieval period",
+    "the medieval period"
+   ],
+   "explanation": "Standard periodisation: antiquity, Middle Ages, early modern period, modern period.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "histib-pp-004",
+   "type": "qa",
+   "question": "Between which two rivers did the civilisation of Mesopotamia develop?",
+   "answer": "Tigris and Euphrates",
+   "accept": [
+    "Euphrates and Tigris",
+    "the Tigris and the Euphrates"
+   ],
+   "explanation": "The name Mesopotamia means \"the land between the rivers\".",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "histib-pp-005",
+   "type": "cloze",
+   "text": "The civilisation of ancient Egypt depended on the annual floods of the river {{Nile}}.",
+   "hint": "the longest river of Africa",
+   "explanation": "The floods deposited fertile silt, which made intensive farming possible in the desert.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "histib-pp-006",
+   "type": "qa",
+   "question": "What is the name of the wedge-shaped writing system developed by the Sumerians in Mesopotamia?",
+   "answer": "cuneiform",
+   "accept": [
+    "cuneiform script",
+    "cuneiform writing"
+   ],
+   "explanation": "Cuneiform signs were pressed into wet clay tablets with a reed stylus.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "histib-pp-007",
+   "type": "qa",
+   "question": "What is the name of the Egyptian writing system that used pictorial signs?",
+   "answer": "hieroglyphs",
+   "accept": [
+    "hieroglyphics",
+    "hieroglyphic writing",
+    "hieroglyphic script"
+   ],
+   "explanation": "Hieroglyphs were used mainly on monuments; a simpler cursive script was used for everyday writing on papyrus.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "histib-pp-008",
+   "type": "qa",
+   "question": "Which Babylonian king is known for one of the oldest written law codes, based on the principle \"an eye for an eye\"?",
+   "answer": "Hammurabi",
+   "accept": [
+    "Hammurapi"
+   ],
+   "explanation": "The Code of Hammurabi was carved on a stone stele and set out punishments according to social status.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "histib-pp-009",
+   "type": "qa",
+   "question": "Which ancient seafaring and trading people of the eastern Mediterranean created an alphabet that became the basis of the Greek and Latin alphabets?",
+   "answer": "Phoenicians",
+   "accept": [
+    "the Phoenicians",
+    "Phoenicia"
+   ],
+   "explanation": "The Phoenician alphabet used about 22 signs for consonants; the Greeks added vowels.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "histib-pp-010",
+   "type": "qa",
+   "question": "What monumental tombs were built for Egyptian pharaohs of the Old Kingdom, for example at Giza?",
+   "answer": "pyramids",
+   "accept": [
+    "the pyramids",
+    "pyramid"
+   ],
+   "explanation": "The pyramids of Giza, built in the 3rd millennium BC, are the best-known monuments of ancient Egypt.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "histib-pp-011",
+   "type": "cloze",
+   "text": "The Chinese philosopher whose teaching on social harmony and respect for elders shaped Chinese culture for centuries was {{Confucius}}.",
+   "hint": "Latinised name of Kong Fuzi",
+   "explanation": "Confucianism stressed duty, ritual and loyalty within family and state.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "histib-pp-012",
+   "type": "qa",
+   "question": "What is the name of the belief in and worship of only one God, characteristic of ancient Judaism?",
+   "answer": "monotheism",
+   "accept": [
+    "monotheistic religion"
+   ],
+   "explanation": "Most ancient peoples were polytheistic; the Jews were distinctive in worshipping one God.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "histib-pp-013",
+   "type": "qa",
+   "question": "What is the name of the sacred collection of writings of Judaism, whose first five books are called the Torah?",
+   "answer": "Hebrew Bible",
+   "accept": [
+    "the Hebrew Bible",
+    "Tanakh",
+    "the Bible",
+    "Old Testament",
+    "the Old Testament"
+   ],
+   "explanation": "The Torah (the Pentateuch) contains the Law given, according to tradition, to Moses.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "histib-pp-014",
+   "type": "qa",
+   "question": "What is the Greek name for an independent city-state such as Athens or Sparta?",
+   "answer": "polis",
+   "accept": [
+    "city-state",
+    "city state"
+   ],
+   "explanation": "The plural is poleis; the Greek world was made up of hundreds of such communities.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "histib-pp-015",
+   "type": "qa",
+   "question": "In which Greek polis did the citizens themselves decide on laws by voting in the assembly (ekklesia)?",
+   "answer": "Athens",
+   "accept": [
+    "Athenian polis"
+   ],
+   "explanation": "Athenian democracy was direct: every adult male citizen could speak and vote in the assembly.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "histib-pp-016",
+   "type": "cloze",
+   "text": "The system of government in which all adult male citizens took part in decision-making, developed in Athens, is called {{democracy}}.",
+   "hint": "rule of the demos (people)",
+   "explanation": "Women, foreigners (metics) and slaves were excluded from Athenian citizenship.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "histib-pp-017",
+   "type": "qa",
+   "question": "Which Greek polis was ruled by two kings and devoted its whole society to military training?",
+   "answer": "Sparta",
+   "accept": [
+    "Lacedaemon",
+    "Lakedaimon"
+   ],
+   "explanation": "Spartan boys began state military education (the agoge) at the age of seven.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "histib-pp-018",
+   "type": "qa",
+   "question": "What was the name of the unfree population of Sparta, who farmed the land for the Spartan citizens?",
+   "answer": "helots",
+   "accept": [
+    "the helots",
+    "helot"
+   ],
+   "explanation": "Helots were state-owned serfs; their forced labour allowed Spartans to devote themselves to war.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "histib-pp-019",
+   "type": "qa",
+   "question": "In what year did the Athenians defeat the Persians at the Battle of Marathon?",
+   "answer": "490 BC",
+   "accept": [
+    "490 BCE",
+    "490"
+   ],
+   "explanation": "Marathon ended the first Persian invasion of Greece under King Darius I.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "histib-pp-020",
+   "type": "qa",
+   "question": "At which mountain pass did a small Greek force led by King Leonidas of Sparta fight the Persians in 480 BC?",
+   "answer": "Thermopylae",
+   "accept": [
+    "the Thermopylae pass",
+    "Thermopylai"
+   ],
+   "explanation": "The Spartans and their allies were defeated, but the battle became a symbol of courage.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "histib-pp-021",
+   "type": "qa",
+   "question": "Which Macedonian king conquered the Persian Empire and reached India in the 4th century BC?",
+   "answer": "Alexander the Great",
+   "accept": [
+    "Alexander",
+    "Alexander of Macedon",
+    "Alexander III"
+   ],
+   "explanation": "Alexander died in Babylon in 323 BC and his empire was divided among his generals.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "histib-pp-022",
+   "type": "cloze",
+   "text": "The period after the death of Alexander the Great, when Greek culture spread across the Near East, is called the {{Hellenistic}} period.",
+   "hint": "from \"Hellas\", the Greek name of Greece",
+   "explanation": "Hellenistic kingdoms included Ptolemaic Egypt and the Seleucid Empire.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "histib-pp-023",
+   "type": "qa",
+   "question": "On which mountain, according to Greek religion, did the twelve main gods led by Zeus live?",
+   "answer": "Mount Olympus",
+   "accept": [
+    "Olympus",
+    "Olympos"
+   ],
+   "explanation": "The twelve Olympians included Zeus, Hera, Poseidon, Athena, Apollo and Artemis.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "histib-pp-024",
+   "type": "qa",
+   "question": "Which athletic festival, held every four years at the sanctuary of Zeus, united the Greeks from 776 BC?",
+   "answer": "Olympic Games",
+   "accept": [
+    "the Olympic Games",
+    "Olympics",
+    "the Olympics",
+    "Olympia games"
+   ],
+   "explanation": "The Games were held at Olympia in honour of Zeus; wars were suspended for their duration.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "histib-pp-025",
+   "type": "qa",
+   "question": "Which temple of the goddess Athena stands on the Acropolis of Athens?",
+   "answer": "Parthenon",
+   "accept": [
+    "the Parthenon"
+   ],
+   "explanation": "The Parthenon was built in the 5th century BC under Pericles as the model of the Doric order.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "histib-pp-026",
+   "type": "qa",
+   "question": "Which Athenian philosopher, teacher of Plato, was sentenced to death in 399 BC and drank hemlock?",
+   "answer": "Socrates",
+   "accept": [
+    "Sokrates"
+   ],
+   "explanation": "Socrates wrote nothing; we know his teaching from Plato and Xenophon.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "histib-pp-027",
+   "type": "cloze",
+   "text": "The two epic poems about the Trojan War and the return of Odysseus, the Iliad and the Odyssey, are attributed to {{Homer}}.",
+   "hint": "the blind poet",
+   "explanation": "The Homeric epics were the foundation of Greek education.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "histib-pp-028",
+   "type": "cloze",
+   "text": "After the expulsion of the kings, Rome was governed as a {{republic}}, in which power belonged to elected magistrates, the Senate and the people.",
+   "hint": "res publica, \"public affair\"",
+   "explanation": "Two consuls elected for one year held the highest executive power.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "histib-pp-029",
+   "type": "qa",
+   "question": "What was the name of the two highest annually elected magistrates of the Roman Republic?",
+   "answer": "consuls",
+   "accept": [
+    "consul",
+    "the consuls"
+   ],
+   "explanation": "Consuls commanded the army and presided over the Senate; each could veto the other.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "histib-pp-030",
+   "type": "qa",
+   "question": "What was the name of the council of elders that was the most influential political body of the Roman Republic?",
+   "answer": "Senate",
+   "accept": [
+    "the Senate",
+    "Roman Senate"
+   ],
+   "explanation": "The Senate advised magistrates, controlled finances and directed foreign policy.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "histib-pp-031",
+   "type": "qa",
+   "question": "Which magistrate, elected by the plebeians, could veto decisions of other magistrates and was personally inviolable?",
+   "answer": "tribune of the plebs",
+   "accept": [
+    "plebeian tribune",
+    "tribune",
+    "tribunes of the plebs",
+    "people's tribune"
+   ],
+   "explanation": "The office was created in the early 5th century BC as a result of the plebeians' struggle with the patricians.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "histib-pp-032",
+   "type": "qa",
+   "question": "Which Roman general and dictator, conqueror of Gaul, was assassinated in the Senate in 44 BC?",
+   "answer": "Julius Caesar",
+   "accept": [
+    "Caesar",
+    "Gaius Julius Caesar"
+   ],
+   "explanation": "Caesar was killed on the Ides of March (15 March) 44 BC by senators led by Brutus and Cassius.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "histib-pp-033",
+   "type": "qa",
+   "question": "Who became the first Roman emperor in 27 BC, after defeating Mark Antony and Cleopatra?",
+   "answer": "Octavian Augustus",
+   "accept": [
+    "Augustus",
+    "Octavian",
+    "Caesar Augustus",
+    "Gaius Octavius"
+   ],
+   "explanation": "Augustus kept republican institutions in form but held real power as princeps (first citizen).",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "histib-pp-034",
+   "type": "cloze",
+   "text": "The system of government created by Augustus, in which the emperor ruled as \"first citizen\" while republican institutions formally survived, is called the {{principate}}.",
+   "hint": "from princeps, \"first citizen\"",
+   "explanation": "The principate lasted until the 3rd-century crisis, when it was replaced by the dominate.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "histib-pp-035",
+   "type": "qa",
+   "question": "Which North African city, Rome's main rival in the western Mediterranean, was destroyed by the Romans in 146 BC after the Punic Wars?",
+   "answer": "Carthage",
+   "accept": [
+    "Karthago",
+    "Carthago"
+   ],
+   "explanation": "Rome fought three Punic Wars with Carthage; Hannibal invaded Italy in the second.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "histib-pp-036",
+   "type": "qa",
+   "question": "Who was the supreme god of the Romans, equivalent to the Greek Zeus?",
+   "answer": "Jupiter",
+   "accept": [
+    "Iuppiter",
+    "Jove"
+   ],
+   "explanation": "Jupiter, Juno and Minerva formed the Capitoline Triad worshipped on the Capitol.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "histib-pp-037",
+   "type": "qa",
+   "question": "In which Roman province was Jesus of Nazareth, the founder of Christianity, born and active?",
+   "answer": "Judaea",
+   "accept": [
+    "Judea",
+    "Palestine",
+    "Iudaea"
+   ],
+   "explanation": "Judaea was a Roman province governed by prefects such as Pontius Pilate.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "histib-pp-038",
+   "type": "qa",
+   "question": "Which emperor granted Christians freedom of worship in the Edict of Milan of 313?",
+   "answer": "Constantine the Great",
+   "accept": [
+    "Constantine",
+    "Constantine I",
+    "Constantine the First"
+   ],
+   "explanation": "The Edict of Milan ended the persecution of Christians in the Roman Empire.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "histib-pp-039",
+   "type": "qa",
+   "question": "In what year was the Western Roman Empire conventionally brought to an end by the deposition of its last emperor, Romulus Augustulus?",
+   "answer": "476",
+   "accept": [
+    "476 AD",
+    "AD 476",
+    "476 CE"
+   ],
+   "explanation": "The Germanic commander Odoacer deposed Romulus Augustulus and sent the imperial insignia to Constantinople.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "histib-pp-040",
+   "type": "qa",
+   "question": "What was the name of the great amphitheatre in Rome where gladiator fights were held?",
+   "answer": "Colosseum",
+   "accept": [
+    "the Colosseum",
+    "Flavian Amphitheatre",
+    "Coliseum"
+   ],
+   "explanation": "The Colosseum was built in the 1st century AD under the Flavian emperors.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "histib-pp-041",
+   "type": "qa",
+   "question": "Which 6th-century Byzantine emperor ordered the great codification of Roman law?",
+   "answer": "Justinian",
+   "accept": [
+    "Justinian I",
+    "Justinian the Great"
+   ],
+   "explanation": "The Corpus Iuris Civilis (Justinian's Code) became the basis of civil law in much of Europe.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "histib-pp-042",
+   "type": "qa",
+   "question": "What was the capital of the Byzantine Empire, founded by Constantine on the site of ancient Byzantium?",
+   "answer": "Constantinople",
+   "accept": [
+    "Byzantium",
+    "Istanbul",
+    "Konstantinopolis"
+   ],
+   "explanation": "Constantinople was captured by the Ottoman Turks in 1453 and is now Istanbul.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "histib-pp-043",
+   "type": "qa",
+   "question": "Which great domed church of Constantinople, built under Justinian, is the masterpiece of Byzantine architecture?",
+   "answer": "Hagia Sophia",
+   "accept": [
+    "Church of Holy Wisdom",
+    "St Sophia",
+    "Saint Sophia"
+   ],
+   "explanation": "Hagia Sophia means \"Holy Wisdom\"; after 1453 it was turned into a mosque.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "histib-pp-044",
+   "type": "qa",
+   "question": "In what year did the Great Schism divide Christianity into the Roman Catholic and Eastern Orthodox Churches?",
+   "answer": "1054",
+   "accept": [
+    "1054 AD",
+    "AD 1054"
+   ],
+   "explanation": "The Pope and the Patriarch of Constantinople excommunicated each other in 1054.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "histib-pp-045",
+   "type": "qa",
+   "question": "Who was the founder of Islam, regarded by Muslims as the last prophet?",
+   "answer": "Muhammad",
+   "accept": [
+    "Mohammed",
+    "Mahomet",
+    "the Prophet Muhammad"
+   ],
+   "explanation": "Muhammad preached in Mecca and Medina in the early 7th century.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "histib-pp-046",
+   "type": "qa",
+   "question": "What is the holy book of Islam, believed by Muslims to be the word of God revealed to Muhammad?",
+   "answer": "Quran",
+   "accept": [
+    "Koran",
+    "the Quran",
+    "the Koran",
+    "Qur'an"
+   ],
+   "explanation": "The Quran is written in Arabic and divided into 114 chapters (suras).",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "histib-pp-047",
+   "type": "cloze",
+   "text": "The five basic religious duties of a Muslim, including the profession of faith, prayer, almsgiving, fasting in Ramadan and pilgrimage to Mecca, are called the Five {{Pillars}} of Islam.",
+   "hint": "supports of a building",
+   "explanation": "The pilgrimage to Mecca is called the hajj.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "histib-pp-048",
+   "type": "qa",
+   "question": "What was the title of the political and religious successors of Muhammad who ruled the Muslim state?",
+   "answer": "caliph",
+   "accept": [
+    "caliphs",
+    "the caliph",
+    "khalifa"
+   ],
+   "explanation": "The state ruled by a caliph is a caliphate; the Umayyad and Abbasid were the main dynasties.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "histib-pp-049",
+   "type": "qa",
+   "question": "Which numeral system, including the digit zero, was transmitted to Europe through Arab scholars?",
+   "answer": "Arabic numerals",
+   "accept": [
+    "Hindu-Arabic numerals",
+    "Arabic numerals 0-9",
+    "Indian numerals"
+   ],
+   "explanation": "The numerals originated in India; Arab mathematicians such as al-Khwarizmi spread them.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "histib-pp-050",
+   "type": "qa",
+   "question": "Which Frankish king was crowned emperor by the Pope in Rome on Christmas Day 800?",
+   "answer": "Charlemagne",
+   "accept": [
+    "Charles the Great",
+    "Karl der Grosse",
+    "Carolus Magnus"
+   ],
+   "explanation": "Charlemagne was crowned by Pope Leo III in St Peter's Basilica.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "histib-pp-051",
+   "type": "cloze",
+   "text": "The revival of learning, art and Latin writing at the court of Charlemagne is known as the Carolingian {{Renaissance}}.",
+   "hint": "French for \"rebirth\"",
+   "explanation": "Charlemagne's palace school at Aachen was led by the scholar Alcuin of York.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "histib-pp-052",
+   "type": "qa",
+   "question": "Which treaty of 843 divided the Carolingian Empire among the three grandsons of Charlemagne?",
+   "answer": "Treaty of Verdun",
+   "accept": [
+    "Verdun",
+    "the Treaty of Verdun"
+   ],
+   "explanation": "The division into West Francia, East Francia and Middle Francia foreshadowed France and Germany.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "histib-pp-053",
+   "type": "qa",
+   "question": "Which king of the East Franks (Germany) was crowned emperor in 962, founding the medieval Holy Roman Empire?",
+   "answer": "Otto I",
+   "accept": [
+    "Otto the Great",
+    "Otto I the Great"
+   ],
+   "explanation": "The Ottonian emperors saw themselves as successors of Charlemagne.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "histib-pp-054",
+   "type": "qa",
+   "question": "What is the name of the process by which the peoples of early medieval Europe adopted the Christian faith?",
+   "answer": "Christianisation",
+   "accept": [
+    "christianization",
+    "conversion to Christianity",
+    "conversion"
+   ],
+   "explanation": "Christianisation usually began with the baptism of the ruler, as in Poland in 966.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.3"
+  },
+  {
+   "id": "histib-pp-055",
+   "type": "qa",
+   "question": "What is the name of the 11th-12th-century conflict between the Pope and the Emperor over the right to appoint bishops?",
+   "answer": "Investiture Controversy",
+   "accept": [
+    "investiture contest",
+    "investiture dispute",
+    "investiture",
+    "the investiture controversy"
+   ],
+   "explanation": "The dispute was settled by the Concordat of Worms in 1122.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "histib-pp-056",
+   "type": "qa",
+   "question": "Where in 1077 did Emperor Henry IV do penance before Pope Gregory VII to have his excommunication lifted?",
+   "answer": "Canossa",
+   "accept": [
+    "at Canossa",
+    "Canossa castle"
+   ],
+   "explanation": "\"Going to Canossa\" has become a phrase for humiliating submission.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "histib-pp-057",
+   "type": "qa",
+   "question": "Which Pope called for the First Crusade at the Council of Clermont in 1095?",
+   "answer": "Urban II",
+   "accept": [
+    "Pope Urban II",
+    "Urban the Second"
+   ],
+   "explanation": "Urban II urged knights to free the Holy Sepulchre in Jerusalem from Muslim rule.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "histib-pp-058",
+   "type": "qa",
+   "question": "In what year did the crusaders capture Jerusalem during the First Crusade?",
+   "answer": "1099",
+   "accept": [
+    "1099 AD",
+    "AD 1099"
+   ],
+   "explanation": "The crusaders founded the Kingdom of Jerusalem and other crusader states in the Levant.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "histib-pp-059",
+   "type": "qa",
+   "question": "What were the religious orders of knights founded during the crusades, such as the Templars and Hospitallers, called?",
+   "answer": "military orders",
+   "accept": [
+    "knightly orders",
+    "crusading orders",
+    "orders of knights",
+    "military religious orders"
+   ],
+   "explanation": "The Teutonic Order, later active in Prussia, was also founded in the Holy Land.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "histib-pp-060",
+   "type": "cloze",
+   "text": "In the feudal system a lord granted land, called a {{fief}}, to a vassal in return for military service and loyalty.",
+   "hint": "Latin feudum",
+   "explanation": "The ceremony in which the vassal swore loyalty to the lord was called homage.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "histib-pp-061",
+   "type": "qa",
+   "question": "In feudal society, what was the name of a person who received land from a lord and owed him loyalty and military service?",
+   "answer": "vassal",
+   "accept": [
+    "a vassal",
+    "vassals"
+   ],
+   "explanation": "A vassal could in turn grant parts of his land to his own vassals.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "histib-pp-062",
+   "type": "qa",
+   "question": "What were the unfree peasants of medieval Europe, bound to the land of their lord, called?",
+   "answer": "serfs",
+   "accept": [
+    "serf",
+    "the serfs",
+    "villeins"
+   ],
+   "explanation": "Serfs could not leave the manor and owed labour services to the lord.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "histib-pp-063",
+   "type": "qa",
+   "question": "What is the name of the medieval farming method in which fields were divided into three parts, with one left fallow each year?",
+   "answer": "three-field system",
+   "accept": [
+    "three field system",
+    "three-field rotation",
+    "three field rotation"
+   ],
+   "explanation": "The three-field system, spreading from the 11th century, raised yields and supported population growth.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "histib-pp-064",
+   "type": "qa",
+   "question": "What were the medieval associations of craftsmen of one trade in a town, which controlled production and training, called?",
+   "answer": "guilds",
+   "accept": [
+    "guild",
+    "craft guilds",
+    "the guilds"
+   ],
+   "explanation": "Guilds set prices and quality standards and trained apprentices and journeymen.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "histib-pp-065",
+   "type": "qa",
+   "question": "What was the name of the association of north German trading towns, led by Lubeck, that dominated Baltic trade from the 13th century?",
+   "answer": "Hanseatic League",
+   "accept": [
+    "Hansa",
+    "the Hanseatic League",
+    "the Hansa",
+    "Hanse"
+   ],
+   "explanation": "Gdansk, Torun and Elblag were among the Polish members of the Hansa.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "histib-pp-066",
+   "type": "qa",
+   "question": "In what year was Mieszko I, the first historical ruler of Poland, baptised?",
+   "answer": "966",
+   "accept": [
+    "966 AD",
+    "AD 966"
+   ],
+   "explanation": "The baptism of Mieszko I is treated as the beginning of the Polish state in Christian Europe.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "histib-pp-067",
+   "type": "qa",
+   "question": "Which Polish ruler was crowned the first king of Poland in 1025?",
+   "answer": "Boleslaw the Brave",
+   "accept": [
+    "Boleslaus I",
+    "Boleslaw I",
+    "Boleslaw Chrobry",
+    "Boleslaus the Brave",
+    "Boleslaw I the Brave"
+   ],
+   "explanation": "Boleslaw the Brave met Emperor Otto III at the Congress of Gniezno in 1000.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "histib-pp-068",
+   "type": "cloze",
+   "text": "The testament of Boleslaw Wrymouth (Boleslaw III) of 1138 divided Poland among his sons and began the period of {{fragmentation}}.",
+   "hint": "the country split into duchies",
+   "explanation": "The senior duke was to rule the senioral province with Krakow, but the system soon broke down.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "histib-pp-069",
+   "type": "qa",
+   "question": "Which knightly order, invited to Poland by Konrad of Masovia in 1226, conquered Prussia and became an enemy of the Polish state?",
+   "answer": "Teutonic Order",
+   "accept": [
+    "the Teutonic Order",
+    "Teutonic Knights",
+    "the Teutonic Knights"
+   ],
+   "explanation": "The Teutonic Order was originally founded in the Holy Land during the crusades.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "histib-pp-070",
+   "type": "qa",
+   "question": "Which Polish ruler ended the fragmentation period by being crowned king in Krakow in 1320?",
+   "answer": "Wladyslaw the Elbow-high",
+   "accept": [
+    "Wladyslaw Lokietek",
+    "Ladislaus the Short",
+    "Wladyslaw I",
+    "Ladislaus the Elbow-high",
+    "Lokietek"
+   ],
+   "explanation": "His coronation in Wawel Cathedral reunited the Polish kingdom.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "histib-pp-071",
+   "type": "qa",
+   "question": "Which king of Poland, the last of the Piast dynasty, founded the university in Krakow in 1364?",
+   "answer": "Casimir the Great",
+   "accept": [
+    "Casimir III",
+    "Kazimierz Wielki",
+    "Casimir III the Great",
+    "Kazimierz the Great"
+   ],
+   "explanation": "Casimir the Great also codified the law and strengthened the royal administration.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "histib-pp-072",
+   "type": "qa",
+   "question": "What was the name of the 1385 agreement between Poland and Lithuania under which Jogaila (Jagiello) married Jadwiga and became king of Poland?",
+   "answer": "Union of Krewo",
+   "accept": [
+    "Krewo",
+    "the Union of Krewo",
+    "Krevo",
+    "Union of Krevo"
+   ],
+   "explanation": "Jogaila was baptised as Wladyslaw and began the Jagiellonian dynasty in Poland.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "histib-pp-073",
+   "type": "qa",
+   "question": "In what year did Polish and Lithuanian forces defeat the Teutonic Order at the Battle of Grunwald?",
+   "answer": "1410",
+   "accept": [
+    "1410 AD",
+    "AD 1410"
+   ],
+   "explanation": "The battle is also known in German as Tannenberg; the Grand Master Ulrich von Jungingen was killed.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "histib-pp-074",
+   "type": "qa",
+   "question": "What is the name of the pandemic of plague that killed roughly a third of Europe's population between 1347 and 1351?",
+   "answer": "Black Death",
+   "accept": [
+    "the Black Death",
+    "the plague",
+    "bubonic plague",
+    "the Great Plague"
+   ],
+   "explanation": "The plague reached Europe from Asia by ship and spread rapidly along trade routes.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "histib-pp-075",
+   "type": "qa",
+   "question": "Between which two kingdoms was the Hundred Years' War (1337-1453) fought?",
+   "answer": "England and France",
+   "accept": [
+    "France and England",
+    "England, France",
+    "English and French"
+   ],
+   "explanation": "The war began over the English king's claim to the French throne.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "histib-pp-076",
+   "type": "qa",
+   "question": "Which French peasant girl led the army that relieved Orleans in 1429 and was later burned at the stake?",
+   "answer": "Joan of Arc",
+   "accept": [
+    "Jeanne d'Arc",
+    "Joan of Arc of Domremy",
+    "the Maid of Orleans"
+   ],
+   "explanation": "Joan of Arc was executed by the English in Rouen in 1431.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "histib-pp-077",
+   "type": "cloze",
+   "text": "The English longbow victories of the Hundred Years' War, such as Crecy (1346) and Agincourt (1415), showed the declining military importance of mounted {{knights}}.",
+   "hint": "armoured horsemen",
+   "explanation": "Infantry with longbows and later firearms undermined the feudal knightly army.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "histib-pp-078",
+   "type": "qa",
+   "question": "What is the name of the large peasant uprising in England of 1381, led by Wat Tyler?",
+   "answer": "Peasants' Revolt",
+   "accept": [
+    "the Peasants' Revolt",
+    "Peasants Revolt",
+    "Wat Tyler's rebellion",
+    "English Peasants Revolt"
+   ],
+   "explanation": "Labour shortages after the Black Death and new taxes led to peasant risings in England and France.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "histib-pp-079",
+   "type": "qa",
+   "question": "Which Turkish state conquered Constantinople in 1453, ending the Byzantine Empire?",
+   "answer": "Ottoman Empire",
+   "accept": [
+    "the Ottoman Empire",
+    "Ottomans",
+    "the Ottomans",
+    "Ottoman Turks"
+   ],
+   "explanation": "Sultan Mehmed II the Conqueror captured Constantinople after a siege of nearly two months.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "histib-pp-080",
+   "type": "qa",
+   "question": "In what year did Constantinople fall to the Ottoman Turks?",
+   "answer": "1453",
+   "accept": [
+    "1453 AD",
+    "AD 1453"
+   ],
+   "explanation": "The fall of Constantinople is often taken as a symbolic end of the Middle Ages.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "histib-pp-081",
+   "type": "qa",
+   "question": "Which medieval institution of higher learning, first established in Bologna and Paris, taught theology, law, medicine and the liberal arts?",
+   "answer": "university",
+   "accept": [
+    "universities",
+    "the university"
+   ],
+   "explanation": "The University of Krakow, founded in 1364, was the second university in central Europe after Prague.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "histib-pp-082",
+   "type": "qa",
+   "question": "What is the name of the medieval philosophical method that used Aristotelian logic to systematise Christian theology, represented by Thomas Aquinas?",
+   "answer": "scholasticism",
+   "accept": [
+    "scholastic philosophy",
+    "scholastic method",
+    "the scholastic method"
+   ],
+   "explanation": "Thomas Aquinas's Summa Theologiae is the classic work of scholasticism.",
+   "category": "histib_early",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "histib-pp-083",
+   "type": "qa",
+   "question": "Who is the author of the first Polish chronicle, written in Latin in the early 12th century at the court of Boleslaw Wrymouth?",
+   "answer": "Gallus Anonymus",
+   "accept": [
+    "Gall Anonim",
+    "Anonymous Gallus",
+    "Gallus"
+   ],
+   "explanation": "The chronicle of Gallus Anonymus is the oldest narrative source for early Polish history.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "histib-pp-084",
+   "type": "qa",
+   "question": "What was the oldest Polish religious song, sung by knights before the Battle of Grunwald, called?",
+   "answer": "Bogurodzica",
+   "accept": [
+    "Mother of God",
+    "Bogurodzica hymn"
+   ],
+   "explanation": "Bogurodzica is also the oldest surviving Polish poetic text.",
+   "category": "histib_early",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.3"
+  },
+  {
+   "id": "histib-pp-085",
+   "type": "qa",
+   "question": "Which architectural style of the 11th-12th centuries is characterised by thick walls, small windows and round arches?",
+   "answer": "Romanesque",
+   "accept": [
+    "Romanesque style",
+    "the Romanesque style",
+    "Romanesque architecture"
+   ],
+   "explanation": "Romanesque churches look like fortresses; examples in Poland include the collegiate church in Tum.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.4"
+  },
+  {
+   "id": "histib-pp-086",
+   "type": "qa",
+   "question": "Which architectural style of the 12th-15th centuries is characterised by pointed arches, flying buttresses and large stained-glass windows?",
+   "answer": "Gothic",
+   "accept": [
+    "Gothic style",
+    "the Gothic style",
+    "Gothic architecture"
+   ],
+   "explanation": "Gothic cathedrals such as Notre-Dame in Paris and Chartres rise to great heights thanks to buttresses.",
+   "category": "histib_early",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.4"
+  },
+  {
+   "id": "histib-pp-087",
+   "type": "qa",
+   "question": "In IB source analysis, what do the four letters of OPVL stand for?",
+   "answer": "origin, purpose, value, limitations",
+   "accept": [
+    "origin purpose value limitations",
+    "origin, purpose, value and limitations",
+    "origins purpose value limitations"
+   ],
+   "explanation": "OPVL is the framework used in IB History to evaluate a source with reference to its origin and purpose.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-088",
+   "type": "qa",
+   "question": "In OPVL analysis, which element describes who produced a source, when, where and in what form?",
+   "answer": "origin",
+   "accept": [
+    "origins",
+    "the origin"
+   ],
+   "explanation": "Origin includes the author, the date, the place and the type of document.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-089",
+   "type": "qa",
+   "question": "In OPVL analysis, which element asks why the source was created and for which audience?",
+   "answer": "purpose",
+   "accept": [
+    "the purpose"
+   ],
+   "explanation": "Purpose is linked to audience: a private diary and a propaganda poster have different purposes.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-090",
+   "type": "cloze",
+   "text": "In OPVL analysis, the {{value}} of a source is what it can tell a historian, judged with reference to its origin, purpose and content.",
+   "hint": "the usefulness of the source",
+   "explanation": "A biased source can still be valuable, for example as evidence of the author's views.",
+   "category": "histib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-091",
+   "type": "cloze",
+   "text": "In OPVL analysis, the {{limitations}} of a source are the ways in which its origin, purpose and content restrict what it can tell a historian.",
+   "hint": "what the source cannot tell us",
+   "explanation": "Limitations include bias, lack of hindsight, a narrow perspective or missing information.",
+   "category": "histib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-092",
+   "type": "qa",
+   "question": "What is the term for a source produced at the time of the events studied or by a participant, such as a letter, speech or photograph?",
+   "answer": "primary source",
+   "accept": [
+    "a primary source",
+    "primary sources",
+    "primary"
+   ],
+   "explanation": "Primary sources are first-hand evidence; secondary sources are later accounts, such as history books.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-093",
+   "type": "qa",
+   "question": "What is the term for a source written later by someone who did not witness the events, such as a historian's book or textbook?",
+   "answer": "secondary source",
+   "accept": [
+    "a secondary source",
+    "secondary sources",
+    "secondary"
+   ],
+   "explanation": "Secondary sources interpret and analyse primary sources.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-094",
+   "type": "qa",
+   "question": "What is the term for a one-sided or partial point of view in a source, favouring one side or interpretation?",
+   "answer": "bias",
+   "accept": [
+    "biased",
+    "a bias",
+    "partiality"
+   ],
+   "explanation": "Identifying bias is part of assessing a source's limitations, but a biased source is not worthless.",
+   "category": "histib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB skills"
+  },
+  {
+   "id": "histib-pp-095",
+   "type": "qa",
+   "question": "What is the name of IB History world history topic 10, which studies the emergence, consolidation and aims of 20th-century regimes such as Nazi Germany or Stalin's USSR?",
+   "answer": "Authoritarian states",
+   "accept": [
+    "authoritarian states (20th century)",
+    "authoritarian states 20th century"
+   ],
+   "explanation": "Topic 10 examines the emergence, consolidation and policies of authoritarian states in the 20th century.",
+   "category": "histib_states",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB topic 10"
+  },
+  {
+   "id": "histib-pp-096",
+   "type": "qa",
+   "question": "What is the name of IB History prescribed subject 3, which studies the expansion of Japan, Germany and Italy in the 1930s?",
+   "answer": "The move to global war",
+   "accept": [
+    "move to global war",
+    "the move to global war"
+   ],
+   "explanation": "Prescribed subject 3 covers Japanese expansion in East Asia (1931-41) and German and Italian expansion (1933-40).",
+   "category": "histib_states",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB PS3"
+  },
+  {
+   "id": "histib-pp-097",
+   "type": "qa",
+   "question": "What is the name of IB History world history topic 12, which studies superpower tensions and rivalries between the USA and the USSR after 1945?",
+   "answer": "The Cold War",
+   "accept": [
+    "Cold War",
+    "cold war: superpower tensions and rivalries"
+   ],
+   "explanation": "Topic 12 is titled \"The Cold War: superpower tensions and rivalries (20th century)\".",
+   "category": "histib_coldwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB topic 12"
+  },
+  {
+   "id": "histib-pp-098",
+   "type": "qa",
+   "question": "What is the name of IB History prescribed subject 5, which studies the conflicts in Rwanda (1990-98) and Kosovo (1989-2002)?",
+   "answer": "Conflict and intervention",
+   "accept": [
+    "conflict and intervention"
+   ],
+   "explanation": "Prescribed subject 5 examines the causes, course and international responses to the Rwandan and Kosovo conflicts.",
+   "category": "histib_coldwar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB PS5"
+  }
+ ]
+}
