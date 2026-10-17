@@ -307,7 +307,7 @@
     // Bez pola file: przedmiot startuje pusty, karty dochodzą z importu AI i materiałów wspólnych.
     math_ib: { label: 'Mathematics', icon: '📐', tagline: 'Pojęcia, wzory i twierdzenia', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'mathib_other' },
     chemistry_ib: { label: 'Chemistry', icon: '🧪', tagline: 'Pojęcia, reakcje i fakty', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'chemib_other' },
-    physics_ib: { label: 'Physics', icon: '⚛️', tagline: 'Pojęcia, prawa i jednostki', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'physib_other' },
+    physics_ib: { label: 'Physics', icon: '⚛️', tagline: 'Pojęcia, prawa i jednostki', file: 'data/physics.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'physib_other' },
     history_ib: { label: 'History', icon: '📜', tagline: 'Wydarzenia, daty i pojęcia', file: 'data/history.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'histib_other' },
     historia_polski_ib: { label: 'History of Poland', icon: '🏰', tagline: 'Historia Polski: daty, postacie, pojęcia', file: 'data/historia-polski.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'hpl_other' },
     geography_ib: { label: 'Geography', icon: '🗺️', tagline: 'Procesy, pojęcia i przykłady', file: 'data/geography.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geoib_other' },

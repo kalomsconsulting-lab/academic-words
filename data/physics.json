@@ -1,0 +1,1387 @@
+{
+ "version": 1,
+ "subject": "physics_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum ogólnokształcącego i technikum, fizyka, zakres podstawowy (Dz.U. 2018 poz. 467); klasa 1: wymagania przekrojowe, mechanika, grawitacja, wstęp do termodynamiki; pęd wg IB DP Physics guide 2025 (A.2)",
+ "items": [
+  {
+   "id": "physib-pp-001",
+   "type": "qa",
+   "question": "What is the SI base unit of mass?",
+   "answer": "kilogram",
+   "accept": [
+    "kg"
+   ],
+   "explanation": "The kilogram is one of the seven SI base units; the gram is not a base unit.",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "physib-pp-002",
+   "type": "qa",
+   "question": "Express the newton (N) in SI base units.",
+   "answer": "kg · m/s^2",
+   "accept": [
+    "kg m/s^2",
+    "kg*m/s^2",
+    "kg m s^-2",
+    "kgm/s^2"
+   ],
+   "explanation": "From F = m · a: mass in kg times acceleration in m/s^2.",
+   "category": "physib_measure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "physib-pp-003",
+   "type": "qa",
+   "question": "Express the joule (J) in SI base units.",
+   "answer": "kg · m^2/s^2",
+   "accept": [
+    "kg m^2/s^2",
+    "kg*m^2/s^2",
+    "kg m^2 s^-2",
+    "N m",
+    "N·m"
+   ],
+   "explanation": "Work = force × distance, so 1 J = 1 N · m = 1 kg · m^2/s^2.",
+   "category": "physib_measure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "physib-pp-004",
+   "type": "qa",
+   "question": "What power of ten does the prefix kilo- (k) represent?",
+   "answer": "10^3",
+   "accept": [
+    "1000",
+    "thousand"
+   ],
+   "explanation": "1 km = 1000 m, 1 kJ = 1000 J.",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "physib-pp-005",
+   "type": "qa",
+   "question": "What power of ten does the prefix micro- (μ) represent?",
+   "answer": "10^-6",
+   "accept": [
+    "0.000001",
+    "one millionth"
+   ],
+   "explanation": "1 μm = 0.000001 m; the order is milli (10^-3), micro (10^-6), nano (10^-9).",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "physib-pp-006",
+   "type": "qa",
+   "question": "Convert 72 km/h to m/s.",
+   "answer": "20 m/s",
+   "accept": [
+    "20"
+   ],
+   "explanation": "72 km/h = 72 000 m / 3600 s = 20 m/s; divide km/h by 3.6.",
+   "category": "physib_measure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "physib-pp-007",
+   "type": "qa",
+   "question": "Is velocity a scalar or a vector quantity?",
+   "answer": "vector",
+   "accept": [
+    "a vector",
+    "vector quantity"
+   ],
+   "explanation": "Velocity has magnitude and direction; speed is the corresponding scalar.",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "physib-pp-008",
+   "type": "qa",
+   "question": "Which two of these are scalar quantities: force, mass, displacement, time?",
+   "answer": "mass and time",
+   "accept": [
+    "mass, time",
+    "time and mass",
+    "time, mass",
+    "mass time"
+   ],
+   "explanation": "Force and displacement have a direction, so they are vectors; mass and time are scalars.",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "physib-pp-009",
+   "type": "cloze",
+   "text": "The final result of a repeated measurement is taken as the {{mean/average/arithmetic mean}} of the individual readings.",
+   "hint": "a statistical quantity",
+   "explanation": "Averaging several readings reduces the effect of random errors.",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "physib-pp-010",
+   "type": "qa",
+   "question": "A length is measured as 12.3 cm with an uncertainty of 0.1 cm. Write the result with its uncertainty.",
+   "answer": "(12.3 ± 0.1) cm",
+   "accept": [
+    "12.3 ± 0.1 cm",
+    "12.3 +- 0.1 cm",
+    "12.3 +/- 0.1 cm",
+    "(12.3 +- 0.1) cm",
+    "(12.3 +/- 0.1) cm"
+   ],
+   "explanation": "A measurement result is written as value ± uncertainty, followed by the unit.",
+   "category": "physib_measure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "physib-pp-011",
+   "type": "qa",
+   "question": "Round 9.80665 to three significant figures.",
+   "answer": "9.81",
+   "accept": [],
+   "explanation": "The fourth significant figure is 6, so the third is rounded up: 9.81.",
+   "category": "physib_measure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "physib-pp-012",
+   "type": "qa",
+   "question": "Estimate the height of a classroom door to one significant figure, in metres.",
+   "answer": "2 m",
+   "accept": [
+    "2",
+    "about 2 m",
+    "2 metres",
+    "2 meters"
+   ],
+   "explanation": "An estimate is a rough but reasonable value, here about 2 m (order of magnitude 10^0 m).",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "physib-pp-013",
+   "type": "qa",
+   "question": "What is the name of the line along which a body moves?",
+   "answer": "trajectory",
+   "accept": [
+    "path",
+    "the trajectory",
+    "the path"
+   ],
+   "explanation": "The trajectory (path) is the set of positions the body passes through; its length is the distance travelled.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "physib-pp-014",
+   "type": "cloze",
+   "text": "The length of the path travelled by a body is called the {{distance/distance travelled}}, a scalar quantity.",
+   "hint": "scalar, measured in metres",
+   "explanation": "Distance is the length of the trajectory; displacement is the vector from start to finish.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "physib-pp-015",
+   "type": "qa",
+   "question": "A runner completes one full 400 m lap of a track. What is the magnitude of her displacement?",
+   "answer": "0 m",
+   "accept": [
+    "0",
+    "zero",
+    "zero metres",
+    "0 metres"
+   ],
+   "explanation": "Displacement is the vector from the initial to the final position; after a full lap they coincide.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "physib-pp-016",
+   "type": "qa",
+   "question": "What is the SI unit of acceleration?",
+   "answer": "m/s^2",
+   "accept": [
+    "m/s2",
+    "metre per second squared",
+    "meter per second squared",
+    "m s^-2"
+   ],
+   "explanation": "Acceleration is the change of velocity (m/s) per unit time (s).",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "physib-pp-017",
+   "type": "cloze",
+   "text": "Average velocity is defined as {{displacement}} divided by the time taken.",
+   "hint": "a vector, not distance",
+   "explanation": "Average speed uses distance; average velocity uses displacement.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "physib-pp-018",
+   "type": "qa",
+   "question": "Give the formula for acceleration in terms of change of velocity Δv and time Δt.",
+   "answer": "a = Δv/Δt",
+   "accept": [
+    "a = Δv / Δt",
+    "a = dv/dt",
+    "a = (v - v0)/t",
+    "a = (v - u)/t",
+    "Δv / Δt",
+    "a = delta v / delta t"
+   ],
+   "explanation": "Acceleration is the rate of change of velocity; its direction is the direction of Δv.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "physib-pp-019",
+   "type": "qa",
+   "question": "What does the gradient (slope) of a position–time graph represent?",
+   "answer": "velocity",
+   "accept": [
+    "speed",
+    "the velocity"
+   ],
+   "explanation": "Gradient = Δx / Δt, which is velocity; a straight line means uniform motion.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-020",
+   "type": "qa",
+   "question": "What does the area under a velocity–time graph represent?",
+   "answer": "displacement",
+   "accept": [
+    "distance",
+    "distance travelled",
+    "the displacement"
+   ],
+   "explanation": "Area = velocity × time = displacement (distance for motion in one direction).",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-021",
+   "type": "qa",
+   "question": "What does the gradient (slope) of a velocity–time graph represent?",
+   "answer": "acceleration",
+   "accept": [
+    "the acceleration"
+   ],
+   "explanation": "Gradient = Δv / Δt = acceleration; a horizontal line means constant velocity.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-022",
+   "type": "qa",
+   "question": "A car moves at a constant 15 m/s. How far does it travel in 8 s?",
+   "answer": "120 m",
+   "accept": [
+    "120"
+   ],
+   "explanation": "In uniform motion s = v · t = 15 · 8 = 120 m.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-023",
+   "type": "qa",
+   "question": "Give the equation for the distance travelled from rest with constant acceleration a in time t.",
+   "answer": "s = at^2/2",
+   "accept": [
+    "s = a t^2 / 2",
+    "s = 1/2 a t^2",
+    "s = (a t^2)/2",
+    "s = 0.5 a t^2",
+    "s = (1/2)at^2",
+    "at^2/2"
+   ],
+   "explanation": "For uniformly accelerated motion from rest the distance grows with the square of time.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-024",
+   "type": "qa",
+   "question": "A bike accelerates uniformly from rest at 2 m/s^2. What is its speed after 5 s?",
+   "answer": "10 m/s",
+   "accept": [
+    "10"
+   ],
+   "explanation": "v = a · t = 2 · 5 = 10 m/s.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-025",
+   "type": "qa",
+   "question": "A train accelerates uniformly from 10 m/s to 30 m/s in 10 s. What is its acceleration?",
+   "answer": "2 m/s^2",
+   "accept": [
+    "2"
+   ],
+   "explanation": "a = Δv / Δt = (30 - 10) / 10 = 2 m/s^2.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-026",
+   "type": "qa",
+   "question": "A ball is dropped from rest. Ignoring air resistance, how far does it fall in 2 s? (g = 10 m/s^2)",
+   "answer": "20 m",
+   "accept": [
+    "20"
+   ],
+   "explanation": "Free fall is uniformly accelerated motion: s = g t^2 / 2 = 10 · 4 / 2 = 20 m.",
+   "category": "physib_motion",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-027",
+   "type": "qa",
+   "question": "A stone is thrown vertically upwards at 15 m/s. How long does it take to reach the highest point? (g = 10 m/s^2)",
+   "answer": "1.5 s",
+   "accept": [
+    "1.5",
+    "1,5 s"
+   ],
+   "explanation": "At the top v = 0, so t = v0 / g = 15 / 10 = 1.5 s.",
+   "category": "physib_motion",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-028",
+   "type": "qa",
+   "question": "What is the SI unit of frequency?",
+   "answer": "hertz",
+   "accept": [
+    "Hz",
+    "hertz (Hz)"
+   ],
+   "explanation": "1 Hz = 1 cycle per second; frequency f = 1 / T.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "physib-pp-029",
+   "type": "qa",
+   "question": "A wheel completes one revolution every 0.5 s. What is its frequency?",
+   "answer": "2 Hz",
+   "accept": [
+    "2"
+   ],
+   "explanation": "f = 1 / T = 1 / 0.5 = 2 Hz.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "physib-pp-030",
+   "type": "qa",
+   "question": "Give the formula for the linear speed of a body in uniform circular motion with radius r and period T.",
+   "answer": "v = 2πr/T",
+   "accept": [
+    "v = 2πr / T",
+    "v = 2 pi r / T",
+    "2πr/T",
+    "v = 2 π r / T",
+    "v = 2pir/T"
+   ],
+   "explanation": "In one period the body covers the circumference 2πr.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "physib-pp-031",
+   "type": "qa",
+   "question": "Two forces of 3 N and 4 N act on a body at right angles. What is the magnitude of the resultant force?",
+   "answer": "5 N",
+   "accept": [
+    "5"
+   ],
+   "explanation": "Forces add as vectors: for perpendicular forces use Pythagoras, sqrt(3^2 + 4^2) = 5 N.",
+   "category": "physib_motion",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "physib-pp-032",
+   "type": "qa",
+   "question": "Two forces of 6 N and 2 N act on a body in opposite directions. What is the resultant force?",
+   "answer": "4 N",
+   "accept": [
+    "4"
+   ],
+   "explanation": "For opposite directions the magnitudes subtract: 6 - 2 = 4 N, in the direction of the larger force.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "physib-pp-033",
+   "type": "cloze",
+   "text": "Newton's first law: a body stays at rest or moves with constant velocity unless acted on by a {{net force/resultant force/unbalanced force/non-zero net force}}.",
+   "hint": "sum of all forces",
+   "explanation": "This property of bodies is called inertia; the law holds in inertial frames.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-034",
+   "type": "qa",
+   "question": "Give Newton's second law as a formula linking net force, mass and acceleration.",
+   "answer": "F = ma",
+   "accept": [
+    "F = m · a",
+    "F = m a",
+    "a = F/m",
+    "a = F / m"
+   ],
+   "explanation": "The acceleration is proportional to the net force and inversely proportional to the mass.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-035",
+   "type": "qa",
+   "question": "A net force of 12 N acts on a 4 kg body. What is its acceleration?",
+   "answer": "3 m/s^2",
+   "accept": [
+    "3"
+   ],
+   "explanation": "a = F / m = 12 / 4 = 3 m/s^2.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-036",
+   "type": "qa",
+   "question": "What net force is needed to give a 1500 kg car an acceleration of 2 m/s^2?",
+   "answer": "3000 N",
+   "accept": [
+    "3000",
+    "3 kN"
+   ],
+   "explanation": "F = m · a = 1500 · 2 = 3000 N.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-037",
+   "type": "cloze",
+   "text": "Newton's third law: if body A exerts a force on body B, then B exerts a force on A that is equal in magnitude and {{opposite}} in direction.",
+   "hint": "direction of the reaction",
+   "explanation": "Action and reaction act on different bodies, so they never cancel each other.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-038",
+   "type": "qa",
+   "question": "What is the name of the property of a body that resists changes in its state of motion?",
+   "answer": "inertia",
+   "accept": [
+    "mass"
+   ],
+   "explanation": "Inertia is measured by mass: the greater the mass, the harder it is to change the velocity.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-039",
+   "type": "qa",
+   "question": "What is the weight of a 5 kg body on Earth? (g = 10 m/s^2)",
+   "answer": "50 N",
+   "accept": [
+    "50"
+   ],
+   "explanation": "Weight W = m · g = 5 · 10 = 50 N; weight is a force, mass is not.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-040",
+   "type": "qa",
+   "question": "Which type of friction acts on a body that is at rest but being pushed?",
+   "answer": "static friction",
+   "accept": [
+    "static"
+   ],
+   "explanation": "Static friction balances the applied force up to a maximum value; kinetic friction acts on sliding bodies.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.7"
+  },
+  {
+   "id": "physib-pp-041",
+   "type": "qa",
+   "question": "What general name is given to the resistance a fluid (air or water) exerts on a body moving through it?",
+   "answer": "drag",
+   "accept": [
+    "air resistance",
+    "fluid resistance",
+    "medium resistance",
+    "drag force"
+   ],
+   "explanation": "Drag (resistance of the medium) grows with speed; friction acts between solid surfaces.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.7"
+  },
+  {
+   "id": "physib-pp-042",
+   "type": "qa",
+   "question": "Give an example of a situation in which friction is useful.",
+   "answer": "walking",
+   "accept": [
+    "braking",
+    "driving",
+    "car brakes",
+    "holding objects",
+    "writing",
+    "tyres on the road",
+    "tires on the road"
+   ],
+   "explanation": "Without friction we could not walk, brake or grip objects; it is harmful when it wears machine parts.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.7"
+  },
+  {
+   "id": "physib-pp-043",
+   "type": "qa",
+   "question": "What is the name of the net force acting on a body in uniform circular motion?",
+   "answer": "centripetal force",
+   "accept": [
+    "centripetal"
+   ],
+   "explanation": "The centripetal force points towards the centre of the circle and changes only the direction of velocity.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "physib-pp-044",
+   "type": "qa",
+   "question": "Give the formula for the centripetal force on a body of mass m moving at speed v in a circle of radius r.",
+   "answer": "F = mv^2/r",
+   "accept": [
+    "F = m v^2 / r",
+    "mv^2/r",
+    "F = m · v^2 / r",
+    "F = (m v^2)/r"
+   ],
+   "explanation": "The centripetal force is proportional to mass and to the square of speed and inversely proportional to radius.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "physib-pp-045",
+   "type": "qa",
+   "question": "In which type of reference frame do Newton's laws hold in their basic form?",
+   "answer": "inertial",
+   "accept": [
+    "inertial frame",
+    "inertial reference frame",
+    "an inertial frame"
+   ],
+   "explanation": "An inertial frame is one that is at rest or moves with constant velocity; in an accelerating (non-inertial) frame fictitious forces appear.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.9"
+  },
+  {
+   "id": "physib-pp-046",
+   "type": "cloze",
+   "text": "A braking bus is an example of a {{non-inertial/non inertial/noninertial}} reference frame: passengers feel pushed forward although no real force pushes them.",
+   "hint": "the frame is accelerating",
+   "explanation": "In a non-inertial frame we must add fictitious (inertial) forces to use Newton's laws.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.9"
+  },
+  {
+   "id": "physib-pp-047",
+   "type": "qa",
+   "question": "Give the formula for the momentum of a body of mass m moving with velocity v.",
+   "answer": "p = mv",
+   "accept": [
+    "p = m · v",
+    "p = m v"
+   ],
+   "explanation": "Momentum is a vector with the direction of velocity; its unit is kg · m/s.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-048",
+   "type": "qa",
+   "question": "What is the SI unit of momentum?",
+   "answer": "kg · m/s",
+   "accept": [
+    "kg m/s",
+    "kgm/s",
+    "kg*m/s",
+    "N · s",
+    "N s",
+    "Ns"
+   ],
+   "explanation": "From p = m · v: kilogram times metre per second (equivalently newton second).",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-049",
+   "type": "qa",
+   "question": "What is the momentum of a 2 kg ball moving at 6 m/s?",
+   "answer": "12 kg · m/s",
+   "accept": [
+    "12",
+    "12 kg m/s",
+    "12 kgm/s",
+    "12 kg*m/s"
+   ],
+   "explanation": "p = m · v = 2 · 6 = 12 kg · m/s.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-050",
+   "type": "cloze",
+   "text": "Newton's second law in momentum form: the net force equals the rate of change of {{momentum}}, F = Δp / Δt.",
+   "hint": "p = m · v",
+   "explanation": "F · Δt = Δp; the product F · Δt is called impulse.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-051",
+   "type": "qa",
+   "question": "Under what condition is the total momentum of a system of bodies conserved?",
+   "answer": "isolated system",
+   "accept": [
+    "no external net force",
+    "no external forces",
+    "net external force is zero",
+    "the system is isolated",
+    "no net external force"
+   ],
+   "explanation": "In an isolated system internal forces cancel in pairs, so the total momentum stays constant.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-052",
+   "type": "qa",
+   "question": "A 2 kg cart moving at 3 m/s collides with a stationary 1 kg cart and they stick together. What is their common speed?",
+   "answer": "2 m/s",
+   "accept": [
+    "2"
+   ],
+   "explanation": "Momentum conservation: 2 · 3 = (2 + 1) · v, so v = 6 / 3 = 2 m/s.",
+   "category": "physib_motion",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-053",
+   "type": "qa",
+   "question": "What is the SI unit of work and energy?",
+   "answer": "joule",
+   "accept": [
+    "J",
+    "joule (J)"
+   ],
+   "explanation": "1 J is the work done by a force of 1 N over a distance of 1 m.",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-054",
+   "type": "qa",
+   "question": "Give the formula for the work done by a constant force F acting along a displacement s.",
+   "answer": "W = Fs",
+   "accept": [
+    "W = F · s",
+    "W = F s",
+    "W = F · s · cos α",
+    "W = F s cos a"
+   ],
+   "explanation": "Only the component of the force along the displacement does work.",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-055",
+   "type": "qa",
+   "question": "A force of 20 N pushes a box 5 m along the direction of the force. How much work is done?",
+   "answer": "100 J",
+   "accept": [
+    "100"
+   ],
+   "explanation": "W = F · s = 20 · 5 = 100 J.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-056",
+   "type": "qa",
+   "question": "How much work does a force do if it is perpendicular to the displacement?",
+   "answer": "0 J",
+   "accept": [
+    "0",
+    "zero",
+    "none",
+    "no work"
+   ],
+   "explanation": "The centripetal force in circular motion does no work; the speed does not change.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-057",
+   "type": "qa",
+   "question": "Define power as a formula in terms of work W and time t.",
+   "answer": "P = W/t",
+   "accept": [
+    "P = W / t",
+    "W / t",
+    "W/t"
+   ],
+   "explanation": "Power is the rate of doing work (or transferring energy).",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-058",
+   "type": "qa",
+   "question": "What is the SI unit of power?",
+   "answer": "watt",
+   "accept": [
+    "W",
+    "watt (W)"
+   ],
+   "explanation": "1 W = 1 J/s.",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-059",
+   "type": "qa",
+   "question": "A motor does 3000 J of work in 60 s. What is its power?",
+   "answer": "50 W",
+   "accept": [
+    "50"
+   ],
+   "explanation": "P = W / t = 3000 / 60 = 50 W.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-060",
+   "type": "qa",
+   "question": "Give the formula for the kinetic energy of a body of mass m moving at speed v.",
+   "answer": "Ek = mv^2/2",
+   "accept": [
+    "Ek = m v^2 / 2",
+    "Ek = 1/2 m v^2",
+    "Ek = 0.5 m v^2",
+    "Ek = (1/2)mv^2",
+    "mv^2/2",
+    "1/2 mv^2",
+    "KE = mv^2/2",
+    "KE = 1/2 mv^2",
+    "E = mv^2/2"
+   ],
+   "explanation": "Kinetic energy grows with the square of speed: doubling the speed quadruples Ek.",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-061",
+   "type": "qa",
+   "question": "What is the kinetic energy of a 4 kg body moving at 3 m/s?",
+   "answer": "18 J",
+   "accept": [
+    "18"
+   ],
+   "explanation": "Ek = m v^2 / 2 = 4 · 9 / 2 = 18 J.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-062",
+   "type": "qa",
+   "question": "Give the formula for gravitational potential energy near the Earth's surface at height h.",
+   "answer": "Ep = mgh",
+   "accept": [
+    "Ep = m g h",
+    "mgh",
+    "PE = mgh",
+    "E = mgh",
+    "Ep = m · g · h"
+   ],
+   "explanation": "Potential energy is measured relative to a chosen reference level (usually the ground).",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-063",
+   "type": "qa",
+   "question": "A 2 kg book is lifted 1.5 m. By how much does its potential energy increase? (g = 10 m/s^2)",
+   "answer": "30 J",
+   "accept": [
+    "30"
+   ],
+   "explanation": "ΔEp = m g h = 2 · 10 · 1.5 = 30 J.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-064",
+   "type": "cloze",
+   "text": "The principle of conservation of mechanical energy: when only conservative forces (e.g. gravity) do work, the sum of kinetic and potential energy stays {{constant}}.",
+   "hint": "does not change",
+   "explanation": "Friction and drag turn mechanical energy into internal (thermal) energy, so the principle then does not apply.",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-065",
+   "type": "qa",
+   "question": "A ball is dropped from a height of 5 m. What is its speed just before hitting the ground? Ignore air resistance, g = 10 m/s^2.",
+   "answer": "10 m/s",
+   "accept": [
+    "10"
+   ],
+   "explanation": "m g h = m v^2 / 2, so v = sqrt(2 g h) = sqrt(100) = 10 m/s.",
+   "category": "physib_energy",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-066",
+   "type": "qa",
+   "question": "A pendulum bob at its highest point has 2 J of potential energy relative to the lowest point. Ignoring losses, what is its kinetic energy at the lowest point?",
+   "answer": "2 J",
+   "accept": [
+    "2"
+   ],
+   "explanation": "All potential energy converts into kinetic energy at the lowest point: Ek = Ep = 2 J.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-067",
+   "type": "qa",
+   "question": "What is the name of the energy a body has because of its motion?",
+   "answer": "kinetic energy",
+   "accept": [
+    "kinetic"
+   ],
+   "explanation": "Energy is the capacity to do work; kinetic energy is associated with motion, potential energy with position.",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-068",
+   "type": "qa",
+   "question": "Give Newton's law of universal gravitation as a formula for the force between masses M and m at distance r.",
+   "answer": "F = GMm/r^2",
+   "accept": [
+    "F = G M m / r^2",
+    "F = G m M / r^2",
+    "GMm/r^2",
+    "F = G · M · m / r^2",
+    "F = GmM/r^2"
+   ],
+   "explanation": "The gravitational force is proportional to both masses and inversely proportional to the square of the distance between their centres.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "physib-pp-069",
+   "type": "qa",
+   "question": "By what factor does the gravitational force between two bodies change if the distance between them is doubled?",
+   "answer": "it decreases 4 times",
+   "accept": [
+    "4 times smaller",
+    "decreases 4 times",
+    "quarter",
+    "1/4",
+    "falls to a quarter",
+    "becomes 4 times smaller",
+    "one quarter",
+    "divided by 4"
+   ],
+   "explanation": "F is proportional to 1 / r^2, so doubling r gives F / 4.",
+   "category": "physib_motion",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "physib-pp-070",
+   "type": "qa",
+   "question": "What force causes a dropped apple to fall towards the ground?",
+   "answer": "gravity",
+   "accept": [
+    "gravitational force",
+    "force of gravity",
+    "the force of gravity",
+    "weight"
+   ],
+   "explanation": "Free fall is caused by the Earth's gravitational attraction; g is about 9.81 m/s^2 near the surface.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "physib-pp-071",
+   "type": "qa",
+   "question": "What force acts as the centripetal force for a satellite in a circular orbit around the Earth?",
+   "answer": "gravity",
+   "accept": [
+    "gravitational force",
+    "force of gravity",
+    "the Earth's gravity",
+    "earth's gravity"
+   ],
+   "explanation": "The gravitational force is directed towards the Earth's centre and keeps changing the direction of the satellite's velocity.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "physib-pp-072",
+   "type": "cloze",
+   "text": "In a satellite orbiting the Earth, astronauts experience {{weightlessness}} because the satellite and everything in it fall freely with the same acceleration.",
+   "hint": "a state, not a force",
+   "explanation": "Gravity still acts on the astronauts (it keeps them in orbit); they are weightless because nothing supports them.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "physib-pp-073",
+   "type": "qa",
+   "question": "What is the name of the state in which a body presses on its support with a force greater than its weight, e.g. in a rocket during launch?",
+   "answer": "overload",
+   "accept": [
+    "g-force",
+    "hypergravity",
+    "overloading",
+    "excess g"
+   ],
+   "explanation": "Overload (increased apparent weight) occurs when the support accelerates upwards, e.g. in a lift starting to go up or during rocket launch.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "physib-pp-074",
+   "type": "qa",
+   "question": "What is the name of the unit of distance equal to the mean distance from the Earth to the Sun?",
+   "answer": "astronomical unit",
+   "accept": [
+    "AU",
+    "astronomical unit (AU)",
+    "au"
+   ],
+   "explanation": "1 AU is about 150 million km; it is convenient for distances in the Solar System.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "physib-pp-075",
+   "type": "qa",
+   "question": "What does one light-year measure: time or distance?",
+   "answer": "distance",
+   "accept": [
+    "a distance",
+    "length"
+   ],
+   "explanation": "A light-year is the distance light travels in one year, about 9.5 · 10^12 km.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "physib-pp-076",
+   "type": "qa",
+   "question": "Approximately how old is the Universe according to the Big Bang model?",
+   "answer": "13.8 billion years",
+   "accept": [
+    "13.8 billion",
+    "about 14 billion years",
+    "14 billion years",
+    "13,8 billion years",
+    "13.7 billion years"
+   ],
+   "explanation": "The Big Bang is the beginning of the known Universe; the galaxies have been moving apart (the Universe expands) ever since.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "physib-pp-077",
+   "type": "qa",
+   "question": "What does the observed recession of galaxies (they move away from us) show about the Universe?",
+   "answer": "it is expanding",
+   "accept": [
+    "expansion",
+    "the universe is expanding",
+    "it expands",
+    "expanding"
+   ],
+   "explanation": "The farther a galaxy, the faster it recedes; this is evidence for the expansion of the Universe.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "physib-pp-078",
+   "type": "qa",
+   "question": "What happens to the length of a metal rod when it is heated?",
+   "answer": "it increases",
+   "accept": [
+    "increases",
+    "it gets longer",
+    "it expands",
+    "expands",
+    "gets longer"
+   ],
+   "explanation": "Linear thermal expansion of solids; gases and liquids show volume expansion.",
+   "category": "physib_thermal",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "physib-pp-079",
+   "type": "qa",
+   "question": "What is the name of the energy transfer between two systems caused by a temperature difference?",
+   "answer": "heat",
+   "accept": [
+    "heating",
+    "heat transfer"
+   ],
+   "explanation": "Heat is energy transferred because of a temperature difference; work is energy transferred by a force.",
+   "category": "physib_thermal",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "physib-pp-080",
+   "type": "cloze",
+   "text": "The internal energy of a system can be changed in two ways: by doing work on it or by transferring {{heat}} to it.",
+   "hint": "energy flow due to temperature difference",
+   "explanation": "This is the first law of thermodynamics: ΔU = W + Q (with the sign convention that W and Q are energy given to the system).",
+   "category": "physib_thermal",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "physib-pp-081",
+   "type": "qa",
+   "question": "Which law of thermodynamics is a statement of energy conservation including internal energy?",
+   "answer": "the first law",
+   "accept": [
+    "first law",
+    "first law of thermodynamics",
+    "the first",
+    "first",
+    "1st law"
+   ],
+   "explanation": "ΔU = Q + W: the change of internal energy equals heat and work transferred to the system.",
+   "category": "physib_thermal",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "physib-pp-082",
+   "type": "qa",
+   "question": "Give the formula for the heat needed to raise the temperature of mass m by ΔT, with specific heat capacity c.",
+   "answer": "Q = mcΔT",
+   "accept": [
+    "Q = m c ΔT",
+    "Q = m c delta T",
+    "Q = mc delta T",
+    "mcΔT",
+    "Q = m · c · ΔT",
+    "Q = mcdT"
+   ],
+   "explanation": "The specific heat capacity c is the heat per kilogram per kelvin; for water c = 4200 J/(kg · K).",
+   "category": "physib_thermal",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "physib-pp-083",
+   "type": "qa",
+   "question": "How much heat is needed to warm 2 kg of water by 10 °C? (c = 4200 J/(kg · K))",
+   "answer": "84000 J",
+   "accept": [
+    "84 000 J",
+    "84000",
+    "84 kJ",
+    "84 000"
+   ],
+   "explanation": "Q = m c ΔT = 2 · 4200 · 10 = 84 000 J.",
+   "category": "physib_thermal",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "physib-pp-084",
+   "type": "qa",
+   "question": "What is the name of the heat needed to melt 1 kg of a solid at its melting point, without changing its temperature?",
+   "answer": "latent heat of fusion",
+   "accept": [
+    "specific latent heat of fusion",
+    "heat of fusion",
+    "specific heat of fusion",
+    "latent heat of melting",
+    "specific latent heat"
+   ],
+   "explanation": "During a phase change the temperature stays constant: Q = m · L.",
+   "category": "physib_thermal",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "physib-pp-085",
+   "type": "qa",
+   "question": "What is the name of the phenomenon in which two waves overlap and reinforce or cancel each other?",
+   "answer": "interference",
+   "accept": [
+    "wave interference"
+   ],
+   "explanation": "Waves add according to the principle of superposition; crests meeting crests reinforce, crest meeting trough cancels.",
+   "category": "physib_waves",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.3"
+  },
+  {
+   "id": "physib-pp-086",
+   "type": "qa",
+   "question": "What is the name of the bending of a wave as it passes through a narrow slit or around an obstacle?",
+   "answer": "diffraction",
+   "accept": [],
+   "explanation": "Diffraction is most noticeable when the slit width is comparable to the wavelength.",
+   "category": "physib_waves",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "physib-pp-087",
+   "type": "qa",
+   "question": "Which law gives the force between two point electric charges?",
+   "answer": "Coulomb's law",
+   "accept": [
+    "Coulomb law",
+    "Coulomb's"
+   ],
+   "explanation": "F = k · q1 · q2 / r^2: proportional to the charges, inversely proportional to the square of the distance.",
+   "category": "physib_electric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "physib-pp-088",
+   "type": "qa",
+   "question": "Which law links the current through a conductor with the voltage across it: I = U / R?",
+   "answer": "Ohm's law",
+   "accept": [
+    "Ohm law",
+    "Ohm's"
+   ],
+   "explanation": "Current is proportional to voltage for a metallic conductor at constant temperature; R is its resistance.",
+   "category": "physib_electric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.3"
+  },
+  {
+   "id": "physib-pp-089",
+   "type": "qa",
+   "question": "Atoms of the same element whose nuclei differ in the number of neutrons are called what?",
+   "answer": "isotopes",
+   "accept": [
+    "isotope"
+   ],
+   "explanation": "Isotopes have the same atomic number Z but different mass numbers A.",
+   "category": "physib_nuclear",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "physib-pp-090",
+   "type": "qa",
+   "question": "What is the name of a quantum (particle) of light?",
+   "answer": "photon",
+   "accept": [
+    "a photon"
+   ],
+   "explanation": "Light shows wave–particle duality; the energy of a photon is E = h · f.",
+   "category": "physib_nuclear",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  }
+ ]
+}
