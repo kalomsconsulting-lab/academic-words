@@ -323,7 +323,7 @@
       types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'deib_other', typeLabels: { awl_word: 'Słówko' },
     },
     matematyka_sp7: { label: 'Matematyka', icon: '📐', tagline: 'Pojęcia, wzory i własności', file: 'data/matematyka-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'mat7_other' },
-    fizyka_sp7: { label: 'Fizyka', icon: '⚛️', tagline: 'Wielkości, jednostki i prawa', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'fiz7_other' },
+    fizyka_sp7: { label: 'Fizyka', icon: '⚛️', tagline: 'Wielkości, jednostki i prawa', file: 'data/fizyka-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'fiz7_other' },
     chemia_sp7: { label: 'Chemia', icon: '🧪', tagline: 'Pierwiastki, wzory i reakcje', file: 'data/chemia-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'chem7_other' },
     polski_sp7: { label: 'Polski', icon: '📖', tagline: 'Lektury, gramatyka i pojęcia', file: 'data/polski-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'pol7_other' },
     historia_sp7: { label: 'Historia', icon: '📜', tagline: 'XIX wiek i dwudziestolecie: daty i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'his7_other' },

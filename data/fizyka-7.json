@@ -1,0 +1,1581 @@
+{
+ "version": 1,
+ "subject": "fizyka_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, fizyka, klasy VII–VIII (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996), działy I–V; zakres klasy 7 wg typowego rozkładu materiału",
+ "items": [
+  {
+   "id": "fiz7-pp-001",
+   "type": "qa",
+   "question": "Jak nazywa się wielkość określająca, o ile wynik pomiaru może różnić się od wartości rzeczywistej?",
+   "answer": "niepewność pomiarowa",
+   "accept": [
+    "niepewność pomiaru",
+    "niepewność"
+   ],
+   "explanation": "Każdy pomiar jest obarczony niepewnością, np. linijka z podziałką milimetrową daje niepewność ok. 1 mm.",
+   "category": "fiz7_intro",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "fiz7-pp-002",
+   "type": "qa",
+   "question": "Długość ołówka zmierzono linijką: 15,3 cm z niepewnością 0,1 cm. Zapisz wynik pomiaru razem z niepewnością.",
+   "answer": "(15,3 ± 0,1) cm",
+   "accept": [
+    "15,3 cm ± 0,1 cm",
+    "15,3 ± 0,1 cm",
+    "15,3 cm +/- 0,1 cm"
+   ],
+   "explanation": "Wynik pomiaru zapisujemy z jednostką i niepewnością: wartość ± niepewność.",
+   "category": "fiz7_intro",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "fiz7-pp-003",
+   "type": "qa",
+   "question": "Zaokrąglij wynik 3,14159 do trzech cyfr znaczących.",
+   "answer": "3,14",
+   "accept": [
+    "3.14"
+   ],
+   "explanation": "Cyfry znaczące liczymy od pierwszej cyfry różnej od zera: 3, 1, 4.",
+   "category": "fiz7_intro",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "fiz7-pp-004",
+   "type": "qa",
+   "question": "Ile metrów ma 2,5 km?",
+   "answer": "2500 m",
+   "accept": [
+    "2500"
+   ],
+   "explanation": "Przedrostek kilo- oznacza 1000, więc 2,5 km = 2,5 · 1000 m.",
+   "category": "fiz7_intro",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "fiz7-pp-005",
+   "type": "qa",
+   "question": "Jaki przedrostek oznacza milionową część jednostki (10^-6), np. w mikrometrze?",
+   "answer": "mikro",
+   "accept": [
+    "mikro-",
+    "µ"
+   ],
+   "explanation": "Mikro- = 0,000001; 1 µm = 0,000001 m.",
+   "category": "fiz7_intro",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "fiz7-pp-006",
+   "type": "qa",
+   "question": "Ile centymetrów ma 0,35 m?",
+   "answer": "35 cm",
+   "accept": [
+    "35"
+   ],
+   "explanation": "Przedrostek centy- oznacza setną część, więc 1 m = 100 cm.",
+   "category": "fiz7_intro",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "fiz7-pp-007",
+   "type": "cloze",
+   "text": "Zależność, w której dwukrotny wzrost jednej wielkości powoduje dwukrotny wzrost drugiej, a jej wykres jest prostą przechodzącą przez początek układu, to {{proporcjonalność prosta}}.",
+   "hint": "rodzaj proporcjonalności",
+   "explanation": "Np. droga w ruchu jednostajnym jest wprost proporcjonalna do czasu.",
+   "category": "fiz7_intro",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "fiz7-pp-008",
+   "type": "qa",
+   "question": "Jaki kształt ma wykres zależności wprost proporcjonalnej?",
+   "answer": "prosta przez początek układu",
+   "accept": [
+    "linia prosta przez początek układu współrzędnych",
+    "prosta przechodząca przez początek układu",
+    "prosta",
+    "półprosta z początku układu"
+   ],
+   "explanation": "Prosta nieprzechodząca przez początek układu to zależność liniowa, ale nie proporcjonalność prosta.",
+   "category": "fiz7_intro",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "fiz7-pp-009",
+   "type": "cloze",
+   "text": "Pasażer siedzący w jadącym pociągu spoczywa względem {{wagonu/pociągu}}, ale porusza się względem peronu.",
+   "hint": "układ odniesienia",
+   "explanation": "Ruch jest względny: to, czy ciało się porusza, zależy od wyboru układu odniesienia.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "fiz7-pp-010",
+   "type": "qa",
+   "question": "Jak nazywa się ciało (lub układ ciał), względem którego opisujemy ruch?",
+   "answer": "układ odniesienia",
+   "accept": [
+    "ciało odniesienia"
+   ],
+   "explanation": "Ten sam ruch opisany względem różnych układów odniesienia może wyglądać inaczej.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "fiz7-pp-011",
+   "type": "qa",
+   "question": "Jak nazywa się linia, po której porusza się ciało?",
+   "answer": "tor",
+   "accept": [
+    "tor ruchu"
+   ],
+   "explanation": "Tor może być prostoliniowy lub krzywoliniowy.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "fiz7-pp-012",
+   "type": "cloze",
+   "text": "Długość odcinka toru przebytego przez ciało w danym czasie to {{droga}}.",
+   "hint": "oznaczamy literą s",
+   "explanation": "Drogę mierzymy w metrach; nie mylić z torem, czyli linią ruchu.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "fiz7-pp-013",
+   "type": "qa",
+   "question": "Ile sekund ma 1,5 godziny?",
+   "answer": "5400 s",
+   "accept": [
+    "5400"
+   ],
+   "explanation": "1 h = 60 min = 3600 s, więc 1,5 h = 5400 s.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "fiz7-pp-014",
+   "type": "qa",
+   "question": "Podaj wzór na wartość prędkości w ruchu prostoliniowym (droga s, czas t).",
+   "answer": "v = s/t",
+   "accept": [
+    "v = s / t",
+    "v=s/t",
+    "s/t",
+    "v = s : t"
+   ],
+   "explanation": "Prędkość to droga przebyta w jednostce czasu; jednostką w SI jest m/s.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "fiz7-pp-015",
+   "type": "qa",
+   "question": "Rowerzysta przejechał 36 km w 2 h. Jaka była jego średnia prędkość w km/h?",
+   "answer": "18 km/h",
+   "accept": [
+    "18"
+   ],
+   "explanation": "v = s / t = 36 km / 2 h = 18 km/h.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "fiz7-pp-016",
+   "type": "qa",
+   "question": "Wyraź prędkość 72 km/h w metrach na sekundę.",
+   "answer": "20 m/s",
+   "accept": [
+    "20"
+   ],
+   "explanation": "72 km/h = 72 000 m / 3600 s = 20 m/s; dzielimy przez 3,6.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "fiz7-pp-017",
+   "type": "cloze",
+   "text": "Ruch, w którym ciało w jednakowych przedziałach czasu przebywa jednakowe drogi, to ruch {{jednostajny}}.",
+   "hint": "stała prędkość",
+   "explanation": "W ruchu jednostajnym prostoliniowym wartość prędkości jest stała.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "fiz7-pp-018",
+   "type": "qa",
+   "question": "Jak zmienia się wartość prędkości w ruchu jednostajnym prostoliniowym?",
+   "answer": "nie zmienia się",
+   "accept": [
+    "jest stała",
+    "stała",
+    "pozostaje stała"
+   ],
+   "explanation": "Droga rośnie wprost proporcjonalnie do czasu, a prędkość jest stała.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "fiz7-pp-019",
+   "type": "qa",
+   "question": "Jaki kształt ma wykres drogi od czasu s(t) w ruchu jednostajnym prostoliniowym?",
+   "answer": "prosta przez początek układu",
+   "accept": [
+    "linia prosta",
+    "prosta",
+    "półprosta",
+    "prosta przechodząca przez początek układu"
+   ],
+   "explanation": "Droga jest wprost proporcjonalna do czasu, więc wykres to półprosta wychodząca z początku układu.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "fiz7-pp-020",
+   "type": "qa",
+   "question": "Jaki kształt ma wykres prędkości od czasu v(t) w ruchu jednostajnym?",
+   "answer": "pozioma prosta",
+   "accept": [
+    "linia pozioma",
+    "prosta pozioma",
+    "prosta równoległa do osi czasu",
+    "odcinek poziomy",
+    "pozioma linia"
+   ],
+   "explanation": "Prędkość jest stała, więc wykres v(t) to pozioma linia.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "fiz7-pp-021",
+   "type": "qa",
+   "question": "Na wykresie v(t) ciało porusza się z prędkością 4 m/s przez 10 s. Jaką drogę odczytasz z tego wykresu?",
+   "answer": "40 m",
+   "accept": [
+    "40"
+   ],
+   "explanation": "Droga to pole pod wykresem v(t): 4 m/s · 10 s = 40 m.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "fiz7-pp-022",
+   "type": "cloze",
+   "text": "Ruch, w którym wartość prędkości w jednakowych przedziałach czasu rośnie o tę samą wartość, to ruch jednostajnie {{przyspieszony}}.",
+   "hint": "prędkość rośnie",
+   "explanation": "Np. spadek swobodny lub ruszający samochód ze stałym przyspieszeniem.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.7"
+  },
+  {
+   "id": "fiz7-pp-023",
+   "type": "qa",
+   "question": "Jak nazywa się ruch, w którym wartość prędkości maleje w jednakowych przedziałach czasu o tę samą wartość?",
+   "answer": "jednostajnie opóźniony",
+   "accept": [
+    "ruch jednostajnie opóźniony",
+    "opóźniony"
+   ],
+   "explanation": "Np. hamowanie samochodu ze stałym opóźnieniem.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.7"
+  },
+  {
+   "id": "fiz7-pp-024",
+   "type": "qa",
+   "question": "Podaj wzór na przyspieszenie (zmiana prędkości Δv, czas Δt, w którym nastąpiła).",
+   "answer": "a = Δv/Δt",
+   "accept": [
+    "a = Δv / Δt",
+    "a = v / t",
+    "a=Δv/Δt",
+    "Δv/Δt",
+    "v/t",
+    "a = delta v / delta t"
+   ],
+   "explanation": "Przyspieszenie mówi, o ile zmienia się prędkość w ciągu jednej sekundy.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "fiz7-pp-025",
+   "type": "qa",
+   "question": "Jaka jest jednostka przyspieszenia w układzie SI?",
+   "answer": "m/s^2",
+   "accept": [
+    "m/s²",
+    "m/s2",
+    "m/s/s",
+    "metr na sekundę kwadrat"
+   ],
+   "explanation": "Przyspieszenie 1 m/s^2 oznacza, że prędkość rośnie o 1 m/s w każdej sekundzie.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "fiz7-pp-026",
+   "type": "qa",
+   "question": "Samochód rusza z miejsca i po 10 s osiąga prędkość 20 m/s. Jakie jest jego przyspieszenie?",
+   "answer": "2 m/s^2",
+   "accept": [
+    "2",
+    "2 m/s²",
+    "2 m/s2"
+   ],
+   "explanation": "a = Δv / Δt = 20 m/s / 10 s = 2 m/s^2.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "fiz7-pp-027",
+   "type": "qa",
+   "question": "Ciało rusza z miejsca z przyspieszeniem 3 m/s^2. Jaką prędkość ma po 5 s?",
+   "answer": "15 m/s",
+   "accept": [
+    "15"
+   ],
+   "explanation": "Δv = a · Δt = 3 m/s^2 · 5 s = 15 m/s.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "fiz7-pp-028",
+   "type": "qa",
+   "question": "Na wykresie v(t) prędkość rośnie liniowo od 0 do 12 m/s w czasie 4 s. Jakie jest przyspieszenie?",
+   "answer": "3 m/s^2",
+   "accept": [
+    "3",
+    "3 m/s²",
+    "3 m/s2"
+   ],
+   "explanation": "a = Δv / Δt = 12 m/s / 4 s = 3 m/s^2; na wykresie v(t) to nachylenie prostej.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.9"
+  },
+  {
+   "id": "fiz7-pp-029",
+   "type": "qa",
+   "question": "Na wykresie v(t) prędkość maleje liniowo od 30 m/s do 10 m/s w czasie 5 s. Jaka jest wartość opóźnienia?",
+   "answer": "4 m/s^2",
+   "accept": [
+    "4",
+    "4 m/s²",
+    "4 m/s2"
+   ],
+   "explanation": "Zmiana prędkości wynosi 20 m/s w 5 s, więc 20 / 5 = 4 m/s^2.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.9"
+  },
+  {
+   "id": "fiz7-pp-030",
+   "type": "qa",
+   "question": "Jaka jest jednostka siły w układzie SI?",
+   "answer": "niuton",
+   "accept": [
+    "N",
+    "newton"
+   ],
+   "explanation": "1 N to siła, która ciału o masie 1 kg nadaje przyspieszenie 1 m/s^2.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "fiz7-pp-031",
+   "type": "qa",
+   "question": "Wymień trzy cechy wektora siły oprócz punktu przyłożenia.",
+   "answer": "wartość, kierunek, zwrot",
+   "accept": [
+    "wartość kierunek zwrot",
+    "kierunek, zwrot, wartość",
+    "zwrot, kierunek, wartość"
+   ],
+   "explanation": "Siła jest wektorem: ma wartość, kierunek, zwrot i punkt przyłożenia.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "fiz7-pp-032",
+   "type": "cloze",
+   "text": "Cecha wektora siły, która mówi, w którą stronę wzdłuż danego kierunku działa siła (np. w górę lub w dół), to {{zwrot}}.",
+   "hint": "strzałka wektora",
+   "explanation": "Kierunek to prosta, wzdłuż której działa siła; zwrot to jedna z dwóch stron tej prostej.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "fiz7-pp-033",
+   "type": "qa",
+   "question": "Jak nazywa się siła, z jaką Ziemia przyciąga ciała?",
+   "answer": "siła ciężkości",
+   "accept": [
+    "siła grawitacji",
+    "ciężar",
+    "grawitacja",
+    "ciężkości"
+   ],
+   "explanation": "Siła ciężkości jest skierowana pionowo w dół, ku środkowi Ziemi.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.11"
+  },
+  {
+   "id": "fiz7-pp-034",
+   "type": "qa",
+   "question": "Jak nazywa się siła, z jaką rozciągnięta sprężyna działa na zaczepiony do niej ciężarek?",
+   "answer": "siła sprężystości",
+   "accept": [
+    "sprężystości",
+    "sprężystość"
+   ],
+   "explanation": "Siła sprężystości pojawia się przy odkształcaniu ciał, np. sprężyny lub gumki.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.11"
+  },
+  {
+   "id": "fiz7-pp-035",
+   "type": "qa",
+   "question": "Jaka siła powoduje, że pchnięte po podłodze pudełko w końcu się zatrzymuje?",
+   "answer": "siła tarcia",
+   "accept": [
+    "tarcie",
+    "siła oporów ruchu",
+    "opory ruchu",
+    "tarcia"
+   ],
+   "explanation": "Tarcie i opór powietrza to siły oporów ruchu, skierowane przeciwnie do ruchu.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.11"
+  },
+  {
+   "id": "fiz7-pp-036",
+   "type": "qa",
+   "question": "Dwie siły o wartościach 5 N i 3 N działają na ciało wzdłuż tej samej prostej o zgodnych zwrotach. Jaka jest wartość siły wypadkowej?",
+   "answer": "8 N",
+   "accept": [
+    "8"
+   ],
+   "explanation": "Siły o tym samym kierunku i zwrocie dodajemy: 5 N + 3 N = 8 N.",
+   "category": "fiz7_forces",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.12"
+  },
+  {
+   "id": "fiz7-pp-037",
+   "type": "qa",
+   "question": "Dwie siły o wartościach 5 N i 3 N działają na ciało wzdłuż tej samej prostej o przeciwnych zwrotach. Jaka jest wartość siły wypadkowej?",
+   "answer": "2 N",
+   "accept": [
+    "2"
+   ],
+   "explanation": "Siły o przeciwnych zwrotach odejmujemy: 5 N − 3 N = 2 N; wypadkowa ma zwrot większej siły.",
+   "category": "fiz7_forces",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.12"
+  },
+  {
+   "id": "fiz7-pp-038",
+   "type": "cloze",
+   "text": "Zgodnie z trzecią zasadą dynamiki, jeśli ciało A działa na ciało B pewną siłą, to ciało B działa na A siłą o tej samej wartości i kierunku, lecz o przeciwnym {{zwrocie}}.",
+   "hint": "cecha wektora",
+   "explanation": "Siły akcji i reakcji są przyłożone do dwóch różnych ciał.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.13"
+  },
+  {
+   "id": "fiz7-pp-039",
+   "type": "qa",
+   "question": "Dlaczego siły akcji i reakcji z trzeciej zasady dynamiki nie równoważą się?",
+   "answer": "działają na różne ciała",
+   "accept": [
+    "przyłożone do różnych ciał",
+    "są przyłożone do różnych ciał",
+    "działają na inne ciała",
+    "bo działają na różne ciała"
+   ],
+   "explanation": "Równoważyć się mogą tylko siły przyłożone do tego samego ciała.",
+   "category": "fiz7_forces",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.13"
+  },
+  {
+   "id": "fiz7-pp-040",
+   "type": "cloze",
+   "text": "Zgodnie z pierwszą zasadą dynamiki, jeśli na ciało nie działają siły lub działające siły równoważą się, ciało pozostaje w spoczynku lub porusza się ruchem {{jednostajnym prostoliniowym}}.",
+   "hint": "jaki ruch",
+   "explanation": "Pierwsza zasada dynamiki nazywana jest zasadą bezwładności.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.14"
+  },
+  {
+   "id": "fiz7-pp-041",
+   "type": "qa",
+   "question": "Samochód jedzie ze stałą prędkością po prostej drodze. Co można powiedzieć o siłach działających na niego?",
+   "answer": "równoważą się",
+   "accept": [
+    "siły się równoważą",
+    "siły równoważą się",
+    "wypadkowa wynosi 0",
+    "wypadkowa jest równa zero",
+    "wypadkowa 0 N"
+   ],
+   "explanation": "Ruch jednostajny prostoliniowy oznacza, że wypadkowa sił jest równa zero (siła ciągu równoważy opory).",
+   "category": "fiz7_forces",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.14"
+  },
+  {
+   "id": "fiz7-pp-042",
+   "type": "qa",
+   "question": "Jak nazywa się właściwość ciała polegająca na tym, że trudno zmienić jego prędkość; jej miarą jest masa?",
+   "answer": "bezwładność",
+   "accept": [
+    "inercja"
+   ],
+   "explanation": "Im większa masa, tym większa bezwładność i tym trudniej ciało rozpędzić lub zatrzymać.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.15"
+  },
+  {
+   "id": "fiz7-pp-043",
+   "type": "qa",
+   "question": "Podaj wzór drugiej zasady dynamiki (siła wypadkowa F, masa m, przyspieszenie a).",
+   "answer": "a = F/m",
+   "accept": [
+    "a = F / m",
+    "F = m · a",
+    "F = m * a",
+    "F=ma",
+    "F = ma",
+    "a=F/m",
+    "F/m"
+   ],
+   "explanation": "Przyspieszenie jest wprost proporcjonalne do siły wypadkowej i odwrotnie proporcjonalne do masy.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.15"
+  },
+  {
+   "id": "fiz7-pp-044",
+   "type": "qa",
+   "question": "Na wózek o masie 4 kg działa siła wypadkowa 12 N. Jakie przyspieszenie uzyska wózek?",
+   "answer": "3 m/s^2",
+   "accept": [
+    "3",
+    "3 m/s²",
+    "3 m/s2"
+   ],
+   "explanation": "a = F / m = 12 N / 4 kg = 3 m/s^2.",
+   "category": "fiz7_forces",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.15"
+  },
+  {
+   "id": "fiz7-pp-045",
+   "type": "cloze",
+   "text": "Spadek swobodny (bez oporów ruchu) to ruch jednostajnie {{przyspieszony}} pod wpływem siły grawitacji.",
+   "hint": "rodzaj ruchu",
+   "explanation": "Przyspieszenie spadku swobodnego przy powierzchni Ziemi wynosi ok. 10 m/s^2 (dokładniej 9,81 m/s^2).",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.16"
+  },
+  {
+   "id": "fiz7-pp-046",
+   "type": "qa",
+   "question": "Czy w spadku swobodnym (bez oporu powietrza) cięższe ciało spada z większym przyspieszeniem niż lżejsze?",
+   "answer": "nie",
+   "accept": [
+    "nie, przyspieszenie jest takie samo",
+    "nie, jest jednakowe",
+    "nie, takie samo"
+   ],
+   "explanation": "Przyspieszenie grawitacyjne g nie zależy od masy ciała; w próżni piórko i kamień spadają jednakowo.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.16"
+  },
+  {
+   "id": "fiz7-pp-047",
+   "type": "qa",
+   "question": "Podaj wzór na siłę ciężkości (masa m, przyspieszenie grawitacyjne g).",
+   "answer": "F = m·g",
+   "accept": [
+    "F = m · g",
+    "F = m * g",
+    "F=mg",
+    "F = mg",
+    "Fc = m · g",
+    "Fg = m · g",
+    "Q = m · g",
+    "Q=mg",
+    "mg",
+    "m · g"
+   ],
+   "explanation": "Siła ciężkości (ciężar) jest wprost proporcjonalna do masy; na Ziemi g ≈ 10 m/s^2.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.17"
+  },
+  {
+   "id": "fiz7-pp-048",
+   "type": "qa",
+   "question": "Jaki ciężar ma na Ziemi ciało o masie 5 kg? Przyjmij g = 10 m/s^2.",
+   "answer": "50 N",
+   "accept": [
+    "50"
+   ],
+   "explanation": "F = m · g = 5 kg · 10 m/s^2 = 50 N.",
+   "category": "fiz7_forces",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.17"
+  },
+  {
+   "id": "fiz7-pp-049",
+   "type": "qa",
+   "question": "Czy masa ciała zmieni się, gdy przeniesiemy je z Ziemi na Księżyc?",
+   "answer": "nie",
+   "accept": [
+    "nie, masa jest stała",
+    "nie zmieni się",
+    "nie, nie zmieni się"
+   ],
+   "explanation": "Masa jest stała; zmienia się ciężar, bo na Księżycu g jest ok. 6 razy mniejsze.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.17"
+  },
+  {
+   "id": "fiz7-pp-050",
+   "type": "qa",
+   "question": "Podaj wzór na pracę mechaniczną (siła F, droga s przebyta wzdłuż kierunku działania siły).",
+   "answer": "W = F·s",
+   "accept": [
+    "W = F · s",
+    "W = F * s",
+    "W=Fs",
+    "W = Fs",
+    "W = F s",
+    "F · s",
+    "Fs"
+   ],
+   "explanation": "Praca jest wykonywana, gdy siła przesuwa ciało wzdłuż swojego kierunku.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "fiz7-pp-051",
+   "type": "qa",
+   "question": "Jaka jest jednostka pracy w układzie SI?",
+   "answer": "dżul",
+   "accept": [
+    "J",
+    "joule",
+    "dzul"
+   ],
+   "explanation": "1 J = 1 N · 1 m, czyli praca siły 1 N na drodze 1 m.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "fiz7-pp-052",
+   "type": "qa",
+   "question": "Jaką pracę wykona siła 20 N, przesuwając ciało o 3 m wzdłuż kierunku swojego działania?",
+   "answer": "60 J",
+   "accept": [
+    "60"
+   ],
+   "explanation": "W = F · s = 20 N · 3 m = 60 J.",
+   "category": "fiz7_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "fiz7-pp-053",
+   "type": "qa",
+   "question": "Podaj wzór na moc (praca W, czas t, w którym została wykonana).",
+   "answer": "P = W/t",
+   "accept": [
+    "P = W / t",
+    "P=W/t",
+    "W/t",
+    "P = W : t"
+   ],
+   "explanation": "Moc mówi, jak szybko wykonywana jest praca.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "fiz7-pp-054",
+   "type": "qa",
+   "question": "Jaka jest jednostka mocy w układzie SI?",
+   "answer": "wat",
+   "accept": [
+    "W",
+    "watt"
+   ],
+   "explanation": "1 W = 1 J/s; 1 kW = 1000 W.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "fiz7-pp-055",
+   "type": "qa",
+   "question": "Silnik wykonał pracę 6000 J w czasie 20 s. Jaka jest jego moc?",
+   "answer": "300 W",
+   "accept": [
+    "300"
+   ],
+   "explanation": "P = W / t = 6000 J / 20 s = 300 W.",
+   "category": "fiz7_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "fiz7-pp-056",
+   "type": "cloze",
+   "text": "Energię, jaką ma ciało dzięki swojemu ruchowi, nazywamy energią {{kinetyczną}}.",
+   "hint": "od greckiego „ruch”",
+   "explanation": "Energia kinetyczna rośnie z masą i z kwadratem prędkości.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "fiz7-pp-057",
+   "type": "qa",
+   "question": "Jak nazywa się energia, jaką ma ciało podniesione na pewną wysokość nad powierzchnię Ziemi?",
+   "answer": "potencjalna grawitacji",
+   "accept": [
+    "energia potencjalna grawitacji",
+    "potencjalna",
+    "energia potencjalna",
+    "potencjalna ciężkości",
+    "energia potencjalna ciężkości"
+   ],
+   "explanation": "Energia potencjalna grawitacji zależy od masy ciała i wysokości, na jakiej się znajduje.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "fiz7-pp-058",
+   "type": "qa",
+   "question": "Jaki rodzaj energii ma ściśnięta lub rozciągnięta sprężyna?",
+   "answer": "potencjalną sprężystości",
+   "accept": [
+    "energia potencjalna sprężystości",
+    "potencjalna sprężystości",
+    "sprężystości",
+    "energię potencjalną sprężystości"
+   ],
+   "explanation": "Odkształcone sprężyście ciało może wykonać pracę, wracając do pierwotnego kształtu.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "fiz7-pp-059",
+   "type": "qa",
+   "question": "Podaj wzór na energię potencjalną grawitacji ciała o masie m na wysokości h.",
+   "answer": "Ep = m·g·h",
+   "accept": [
+    "Ep = m · g · h",
+    "Ep = mgh",
+    "E = m · g · h",
+    "E=mgh",
+    "mgh",
+    "Ep=m*g*h",
+    "Ep = m g h"
+   ],
+   "explanation": "Zmiana energii potencjalnej równa jest pracy wykonanej przy podnoszeniu ciała: W = F · s = m · g · h.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "fiz7-pp-060",
+   "type": "qa",
+   "question": "Podaj wzór na energię kinetyczną ciała o masie m poruszającego się z prędkością v.",
+   "answer": "Ek = m·v^2/2",
+   "accept": [
+    "Ek = m · v^2 / 2",
+    "Ek = mv^2/2",
+    "E = m v^2 / 2",
+    "E=mv^2/2",
+    "mv^2/2",
+    "Ek = (m · v^2) / 2",
+    "Ek = 1/2 m v^2",
+    "1/2 mv^2",
+    "Ek=1/2mv^2",
+    "Ek = m · v² / 2",
+    "Ek = mv²/2"
+   ],
+   "explanation": "Dwukrotny wzrost prędkości oznacza czterokrotny wzrost energii kinetycznej.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "fiz7-pp-061",
+   "type": "qa",
+   "question": "O ile wzrośnie energia potencjalna grawitacji ciała o masie 2 kg podniesionego o 5 m? Przyjmij g = 10 m/s^2.",
+   "answer": "100 J",
+   "accept": [
+    "100",
+    "o 100 J"
+   ],
+   "explanation": "ΔEp = m · g · h = 2 kg · 10 m/s^2 · 5 m = 100 J.",
+   "category": "fiz7_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "fiz7-pp-062",
+   "type": "qa",
+   "question": "Jaką energię kinetyczną ma ciało o masie 4 kg poruszające się z prędkością 3 m/s?",
+   "answer": "18 J",
+   "accept": [
+    "18"
+   ],
+   "explanation": "Ek = m · v^2 / 2 = 4 · 9 / 2 = 18 J.",
+   "category": "fiz7_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "fiz7-pp-063",
+   "type": "cloze",
+   "text": "Zgodnie z zasadą zachowania energii mechanicznej, gdy nie działają opory ruchu, suma energii kinetycznej i potencjalnej ciała jest {{stała}}.",
+   "hint": "nie zmienia się",
+   "explanation": "Energia może zmieniać postać, ale jej całkowita ilość się nie zmienia.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "fiz7-pp-064",
+   "type": "qa",
+   "question": "Ciało spada swobodnie (bez oporów). Jak zmieniają się jego energia potencjalna i energia kinetyczna?",
+   "answer": "potencjalna maleje, kinetyczna rośnie",
+   "accept": [
+    "potencjalna maleje kinetyczna rośnie",
+    "Ep maleje, Ek rośnie",
+    "Ep maleje Ek rośnie"
+   ],
+   "explanation": "Energia potencjalna zamienia się w kinetyczną, a ich suma pozostaje stała.",
+   "category": "fiz7_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "fiz7-pp-065",
+   "type": "qa",
+   "question": "Kamień o energii potencjalnej 200 J spada swobodnie (bez oporów ruchu). Jaką energię kinetyczną ma tuż przed uderzeniem w ziemię?",
+   "answer": "200 J",
+   "accept": [
+    "200"
+   ],
+   "explanation": "Cała energia potencjalna zamieniła się w kinetyczną, bo energia mechaniczna jest zachowana.",
+   "category": "fiz7_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "fiz7-pp-066",
+   "type": "cloze",
+   "text": "Dwa stykające się ciała o jednakowej temperaturze, między którymi nie przepływa ciepło, są w stanie {{równowagi termicznej}}.",
+   "hint": "równowaga ...",
+   "explanation": "Ciała o różnych temperaturach po pewnym czasie wyrównują temperatury i osiągają równowagę termiczną.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "fiz7-pp-067",
+   "type": "qa",
+   "question": "W którą stronę przepływa ciepło między dwoma stykającymi się ciałami o różnych temperaturach?",
+   "answer": "od cieplejszego do zimniejszego",
+   "accept": [
+    "od ciała cieplejszego do zimniejszego",
+    "od ciała o wyższej temperaturze do ciała o niższej temperaturze",
+    "z cieplejszego do zimniejszego",
+    "od cieplejszego do chłodniejszego"
+   ],
+   "explanation": "Ciepło przepływa samorzutnie od ciała o wyższej temperaturze do ciała o niższej, aż do równowagi termicznej.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "fiz7-pp-068",
+   "type": "qa",
+   "question": "Przelicz temperaturę 25 °C na kelwiny.",
+   "answer": "298 K",
+   "accept": [
+    "298",
+    "298,15 K",
+    "298,15"
+   ],
+   "explanation": "T(K) = t(°C) + 273; 25 + 273 = 298 K.",
+   "category": "fiz7_heat",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "fiz7-pp-069",
+   "type": "qa",
+   "question": "Jaka temperatura w skali Celsjusza odpowiada 0 K (zeru bezwzględnemu)?",
+   "answer": "-273 °C",
+   "accept": [
+    "-273",
+    "-273,15 °C",
+    "-273,15"
+   ],
+   "explanation": "Zero bezwzględne to najniższa możliwa temperatura; 0 °C = 273 K.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "fiz7-pp-070",
+   "type": "qa",
+   "question": "Wymień dwa sposoby zmiany energii wewnętrznej ciała.",
+   "answer": "wykonanie pracy, przekazanie ciepła",
+   "accept": [
+    "praca i ciepło",
+    "praca, ciepło",
+    "wykonanie pracy i przepływ ciepła",
+    "wykonując pracę lub przekazując ciepło",
+    "praca lub ciepło",
+    "ciepło i praca"
+   ],
+   "explanation": "Np. pocieranie dłoni (praca) albo ogrzewanie wody na kuchence (ciepło) zwiększa energię wewnętrzną.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "fiz7-pp-071",
+   "type": "cloze",
+   "text": "Energia przekazywana między ciałami o różnych temperaturach (bez wykonywania pracy) to {{ciepło}}.",
+   "hint": "oznaczamy Q",
+   "explanation": "Ciepło, podobnie jak praca, jest sposobem zmiany energii wewnętrznej; jednostką jest dżul.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "fiz7-pp-072",
+   "type": "cloze",
+   "text": "Im wyższa temperatura ciała, tym {{większa}} jest średnia energia kinetyczna chaotycznego ruchu jego cząsteczek.",
+   "hint": "większa czy mniejsza",
+   "explanation": "Temperatura jest miarą średniej energii kinetycznej cząsteczek.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "fiz7-pp-073",
+   "type": "qa",
+   "question": "Z jaką wielkością dotyczącą cząsteczek ciała związana jest jego temperatura?",
+   "answer": "średnia energia kinetyczna cząsteczek",
+   "accept": [
+    "średnią energią kinetyczną cząsteczek",
+    "energia kinetyczna cząsteczek",
+    "średnia energia kinetyczna",
+    "prędkość cząsteczek",
+    "energia ruchu cząsteczek"
+   ],
+   "explanation": "Cząsteczki poruszają się chaotycznie; im szybciej, tym wyższa temperatura ciała.",
+   "category": "fiz7_heat",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "fiz7-pp-074",
+   "type": "qa",
+   "question": "Jak nazywa się przekazywanie ciepła przez substancję bez przemieszczania się jej części, np. wzdłuż metalowego pręta?",
+   "answer": "przewodnictwo cieplne",
+   "accept": [
+    "przewodnictwo",
+    "przewodzenie ciepła",
+    "przewodzenie",
+    "przewodnictwo ciepła"
+   ],
+   "explanation": "W przewodnictwie energię przekazują sobie sąsiednie cząsteczki przez zderzenia.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "fiz7-pp-075",
+   "type": "qa",
+   "question": "Które materiały są lepszymi przewodnikami ciepła: metale czy drewno i styropian?",
+   "answer": "metale",
+   "accept": [],
+   "explanation": "Metale dobrze przewodzą ciepło; drewno, styropian i powietrze są izolatorami.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "fiz7-pp-076",
+   "type": "cloze",
+   "text": "Materiały słabo przewodzące ciepło (np. styropian, wełna mineralna, powietrze) nazywamy {{izolatorami}} cieplnymi.",
+   "hint": "przeciwieństwo przewodnika",
+   "explanation": "Izolacja cieplna budynków i ubrań ogranicza straty ciepła.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "fiz7-pp-077",
+   "type": "qa",
+   "question": "Jak nazywa się przenoszenie ciepła w cieczach i gazach polegające na unoszeniu się cieplejszych, mniej gęstych warstw ku górze?",
+   "answer": "konwekcja",
+   "accept": [
+    "unoszenie"
+   ],
+   "explanation": "Konwekcja zachodzi tylko w cieczach i gazach, np. przy ogrzewaniu wody w garnku.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "fiz7-pp-078",
+   "type": "cloze",
+   "text": "Ogrzane powietrze nad kaloryferem ma mniejszą gęstość, więc unosi się do {{góry}}, a na jego miejsce napływa chłodniejsze; tak powstaje konwekcja.",
+   "hint": "kierunek",
+   "explanation": "Dzięki konwekcji ciepłe powietrze krąży po pokoju.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "fiz7-pp-079",
+   "type": "qa",
+   "question": "Jak nazywa się przejście ciała stałego w ciecz?",
+   "answer": "topnienie",
+   "accept": [
+    "topnieć"
+   ],
+   "explanation": "Np. topnienie lodu w temperaturze 0 °C.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "fiz7-pp-080",
+   "type": "qa",
+   "question": "Jak nazywa się przejście cieczy w ciało stałe?",
+   "answer": "krzepnięcie",
+   "accept": [
+    "krzepnąć",
+    "zamarzanie"
+   ],
+   "explanation": "Krzepnięcie to proces odwrotny do topnienia; dla wody nazywamy je zamarzaniem.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "fiz7-pp-081",
+   "type": "qa",
+   "question": "Jak nazywa się przejście gazu (pary) bezpośrednio w ciało stałe, np. powstawanie szronu?",
+   "answer": "resublimacja",
+   "accept": [],
+   "explanation": "Proces odwrotny do resublimacji to sublimacja, np. parowanie suchego lodu.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "fiz7-pp-082",
+   "type": "qa",
+   "question": "Jak nazywa się zamiana pary wodnej w ciecz, np. osadzanie się kropel na zimnej szybie?",
+   "answer": "skraplanie",
+   "accept": [
+    "kondensacja"
+   ],
+   "explanation": "Skraplanie to proces odwrotny do parowania.",
+   "category": "fiz7_heat",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "fiz7-pp-083",
+   "type": "qa",
+   "question": "Jak zmienia się temperatura topniejącego lodu podczas całego procesu topnienia, mimo ciągłego dostarczania ciepła?",
+   "answer": "nie zmienia się",
+   "accept": [
+    "jest stała",
+    "pozostaje stała",
+    "stała",
+    "wynosi 0 °C"
+   ],
+   "explanation": "Podczas topnienia i wrzenia dostarczone ciepło zużywane jest na zmianę stanu skupienia, a nie na wzrost temperatury.",
+   "category": "fiz7_heat",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "fiz7-pp-084",
+   "type": "qa",
+   "question": "Podaj wzór na gęstość (masa m, objętość V).",
+   "answer": "ρ = m/V",
+   "accept": [
+    "ρ = m / V",
+    "d = m / V",
+    "ro = m / V",
+    "m/V",
+    "m / V",
+    "ρ=m/V",
+    "rho = m/V",
+    "gęstość = m/V",
+    "d=m/V"
+   ],
+   "explanation": "Gęstość mówi, jaką masę ma jednostka objętości substancji.",
+   "category": "fiz7_matter",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "fiz7-pp-085",
+   "type": "qa",
+   "question": "Jaka jest jednostka gęstości w układzie SI?",
+   "answer": "kg/m^3",
+   "accept": [
+    "kg/m³",
+    "kg/m3",
+    "kilogram na metr sześcienny"
+   ],
+   "explanation": "Często używa się też g/cm^3; 1 g/cm^3 = 1000 kg/m^3.",
+   "category": "fiz7_matter",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "fiz7-pp-086",
+   "type": "qa",
+   "question": "Dlaczego gazy mają znacznie mniejszą gęstość niż ciecze i ciała stałe?",
+   "answer": "duże odległości między cząsteczkami",
+   "accept": [
+    "cząsteczki są daleko od siebie",
+    "cząsteczki są od siebie daleko",
+    "większe odległości między cząsteczkami",
+    "bo cząsteczki są daleko od siebie"
+   ],
+   "explanation": "W gazie cząsteczki są od siebie wielokrotnie bardziej oddalone niż w cieczy czy ciele stałym.",
+   "category": "fiz7_matter",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "fiz7-pp-087",
+   "type": "qa",
+   "question": "Jaką gęstość ma substancja, jeśli 200 cm^3 tej substancji ma masę 500 g?",
+   "answer": "2,5 g/cm^3",
+   "accept": [
+    "2,5",
+    "2.5 g/cm^3",
+    "2,5 g/cm³",
+    "2,5 g/cm3",
+    "2500 kg/m^3",
+    "2500 kg/m³"
+   ],
+   "explanation": "ρ = m / V = 500 g / 200 cm^3 = 2,5 g/cm^3.",
+   "category": "fiz7_matter",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "fiz7-pp-088",
+   "type": "qa",
+   "question": "Jaką masę ma 2 m^3 wody o gęstości 1000 kg/m^3?",
+   "answer": "2000 kg",
+   "accept": [
+    "2000",
+    "2 t",
+    "2 tony"
+   ],
+   "explanation": "m = ρ · V = 1000 kg/m^3 · 2 m^3 = 2000 kg.",
+   "category": "fiz7_matter",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "fiz7-pp-089",
+   "type": "qa",
+   "question": "Podaj wzór na ciśnienie (siła parcia F, pole powierzchni S).",
+   "answer": "p = F/S",
+   "accept": [
+    "p = F / S",
+    "p=F/S",
+    "F/S",
+    "p = F : S"
+   ],
+   "explanation": "Siła parcia działa prostopadle do powierzchni; ciśnienie to parcie na jednostkę powierzchni.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "fiz7-pp-090",
+   "type": "qa",
+   "question": "Jaka jest jednostka ciśnienia w układzie SI?",
+   "answer": "paskal",
+   "accept": [
+    "Pa",
+    "pascal"
+   ],
+   "explanation": "1 Pa = 1 N/m^2; w praktyce używa się hPa i kPa.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "fiz7-pp-091",
+   "type": "qa",
+   "question": "Siła parcia 200 N działa prostopadle na powierzchnię 0,5 m^2. Jakie ciśnienie wywiera?",
+   "answer": "400 Pa",
+   "accept": [
+    "400"
+   ],
+   "explanation": "p = F / S = 200 N / 0,5 m^2 = 400 Pa.",
+   "category": "fiz7_pressure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "fiz7-pp-092",
+   "type": "qa",
+   "question": "Jaka jest przybliżona wartość normalnego ciśnienia atmosferycznego na poziomie morza w hektopaskalach?",
+   "answer": "1013 hPa",
+   "accept": [
+    "1013",
+    "1013,25 hPa",
+    "ok. 1000 hPa",
+    "1000 hPa",
+    "101300 Pa",
+    "101 300 Pa"
+   ],
+   "explanation": "Ciśnienie atmosferyczne wywiera słup powietrza nad nami; mierzy je barometr.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "fiz7-pp-093",
+   "type": "qa",
+   "question": "Jak zmienia się ciśnienie atmosferyczne wraz ze wzrostem wysokości nad poziomem morza?",
+   "answer": "maleje",
+   "accept": [
+    "spada",
+    "zmniejsza się"
+   ],
+   "explanation": "Im wyżej, tym mniejszy słup powietrza nad nami, więc ciśnienie jest niższe.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "fiz7-pp-094",
+   "type": "cloze",
+   "text": "Zgodnie z prawem {{Pascala}} zwiększenie ciśnienia zewnętrznego powoduje jednakowy przyrost ciśnienia w całej objętości cieczy lub gazu.",
+   "hint": "nazwisko uczonego",
+   "explanation": "Prawo Pascala wykorzystują prasa i hamulce hydrauliczne.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "fiz7-pp-095",
+   "type": "qa",
+   "question": "Podaj przykład urządzenia, którego działanie opiera się na prawie Pascala.",
+   "answer": "prasa hydrauliczna",
+   "accept": [
+    "podnośnik hydrauliczny",
+    "hamulce hydrauliczne",
+    "hamulec hydrauliczny",
+    "prasa",
+    "pompka rowerowa"
+   ],
+   "explanation": "W prasie hydraulicznej mała siła na małym tłoku daje dużą siłę na dużym tłoku przy tym samym ciśnieniu.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "fiz7-pp-096",
+   "type": "qa",
+   "question": "Podaj wzór na ciśnienie hydrostatyczne (gęstość cieczy ρ, wysokość słupa cieczy h, przyspieszenie g).",
+   "answer": "p = ρ·g·h",
+   "accept": [
+    "p = ρ · g · h",
+    "p = ρgh",
+    "p = d · g · h",
+    "p=dgh",
+    "p = ro · g · h",
+    "ρgh",
+    "dgh",
+    "p = h · ρ · g",
+    "p = ρ g h"
+   ],
+   "explanation": "Ciśnienie hydrostatyczne rośnie wprost proporcjonalnie do głębokości.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "fiz7-pp-097",
+   "type": "qa",
+   "question": "Jakie ciśnienie hydrostatyczne panuje na głębokości 10 m w wodzie? Przyjmij ρ = 1000 kg/m^3 i g = 10 m/s^2.",
+   "answer": "100 000 Pa",
+   "accept": [
+    "100000 Pa",
+    "100000",
+    "100 kPa",
+    "1000 hPa",
+    "100 000"
+   ],
+   "explanation": "p = ρ · g · h = 1000 · 10 · 10 = 100 000 Pa, czyli mniej więcej tyle, ile ciśnienie atmosferyczne.",
+   "category": "fiz7_pressure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "fiz7-pp-098",
+   "type": "cloze",
+   "text": "Ciśnienie hydrostatyczne w cieczy zależy od gęstości cieczy i od {{wysokości słupa cieczy/głębokości/wysokości}}, a nie zależy od kształtu naczynia.",
+   "hint": "jak głęboko",
+   "explanation": "W naczyniach połączonych ciecz ustala się na tym samym poziomie niezależnie od kształtu ramion.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "fiz7-pp-099",
+   "type": "qa",
+   "question": "Jak nazywa się siła, z jaką ciecz lub gaz działa na zanurzone w nich ciało, skierowana pionowo do góry?",
+   "answer": "siła wyporu",
+   "accept": [
+    "wypór",
+    "wyporu",
+    "siła wyporności"
+   ],
+   "explanation": "Siła wyporu wynika z różnicy ciśnień hydrostatycznych na dole i na górze zanurzonego ciała.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.7"
+  },
+  {
+   "id": "fiz7-pp-100",
+   "type": "cloze",
+   "text": "Zgodnie z prawem Archimedesa wartość siły wyporu jest równa ciężarowi {{wypartej cieczy/cieczy wypartej przez ciało/wypartej cieczy lub gazu}}.",
+   "hint": "czego ciężarowi?",
+   "explanation": "Siła wyporu zależy od gęstości cieczy i objętości zanurzonej części ciała: Fw = ρ · g · V.",
+   "category": "fiz7_pressure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.7"
+  },
+  {
+   "id": "fiz7-pp-101",
+   "type": "qa",
+   "question": "Ciało pływa częściowo zanurzone w cieczy. Jaka jest jego gęstość w porównaniu z gęstością tej cieczy?",
+   "answer": "mniejsza",
+   "accept": [
+    "mniejsza od gęstości cieczy",
+    "mniejsza niż cieczy",
+    "jest mniejsza"
+   ],
+   "explanation": "Ciało tonie, gdy jego gęstość jest większa od gęstości cieczy; pływa całkowicie zanurzone, gdy są równe.",
+   "category": "fiz7_pressure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.7"
+  },
+  {
+   "id": "fiz7-pp-102",
+   "type": "qa",
+   "question": "Kamień o ciężarze 30 N zanurzony całkowicie w wodzie wskazuje na siłomierzu 18 N. Jaka jest wartość siły wyporu?",
+   "answer": "12 N",
+   "accept": [
+    "12"
+   ],
+   "explanation": "Fw = ciężar − wskazanie siłomierza = 30 N − 18 N = 12 N.",
+   "category": "fiz7_pressure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.7"
+  },
+  {
+   "id": "fiz7-pp-103",
+   "type": "qa",
+   "question": "Jak nazywa się zjawisko, dzięki któremu nartnik może chodzić po wodzie, a powierzchnia cieczy zachowuje się jak sprężysta błona?",
+   "answer": "napięcie powierzchniowe",
+   "accept": [],
+   "explanation": "Napięcie powierzchniowe wynika z sił przyciągania między cząsteczkami cieczy.",
+   "category": "fiz7_matter",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.8"
+  },
+  {
+   "id": "fiz7-pp-104",
+   "type": "cloze",
+   "text": "Siły {{międzycząsteczkowe/spójności}} sprawiają, że ciecz formuje się w kuliste krople.",
+   "hint": "między cząsteczkami",
+   "explanation": "Przykłady działania sił międzycząsteczkowych to także zwilżanie i włoskowatość.",
+   "category": "fiz7_matter",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.8"
+  }
+ ]
+}
