@@ -1,7 +1,8 @@
 {
  "version": 1,
  "subject": "biology",
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, biologia, zakres podstawowy (Dz.U. 2018 poz. 467), działy I–IV i cele ogólne III; treści spoza zakresu podstawowego wg IB DP Biology guide (first assessment 2025), oznaczone „IB …”",
  "items": [
   {
    "id": "bio-001",
@@ -13,7 +14,8 @@
    ],
    "explanation": "Most of the ATP in a eukaryotic cell is produced in the mitochondria.",
    "category": "bio_cells",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "II.5"
   },
   {
    "id": "bio-002",
@@ -25,7 +27,8 @@
     "cell surface membrane"
    ],
    "category": "bio_cells",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "II.2"
   },
   {
    "id": "bio-003",
@@ -36,7 +39,8 @@
     "ribosome"
    ],
    "category": "bio_cells",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "II.5"
   },
   {
    "id": "bio-004",
@@ -49,7 +53,8 @@
    ],
    "explanation": "Bacteria are prokaryotes; their DNA lies free in the cytoplasm.",
    "category": "bio_cells",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "IB A2.2"
   },
   {
    "id": "bio-005",
@@ -61,7 +66,8 @@
     "one thousand"
    ],
    "category": "bio_cells",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.5"
   },
   {
    "id": "bio-006",
@@ -70,21 +76,24 @@
    "hint": "water movement",
    "explanation": "Water moves from a dilute solution to a more concentrated one.",
    "category": "bio_cells",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "II.4"
   },
   {
    "id": "bio-007",
    "type": "cloze",
    "text": "The net movement of particles from a higher to a lower concentration is called {{diffusion}}.",
    "category": "bio_cells",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "II.3"
   },
   {
    "id": "bio-008",
    "type": "cloze",
    "text": "Moving substances against a concentration gradient using energy from ATP is called {{active transport}}.",
    "category": "bio_cells",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "II.3"
   },
   {
    "id": "bio-009",
@@ -92,7 +101,8 @@
    "text": "Plant cell walls are made mainly of {{cellulose}}.",
    "hint": "polysaccharide",
    "category": "bio_cells",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "IB A2.2"
   },
   {
    "id": "bio-010",
@@ -100,7 +110,8 @@
    "text": "Mitosis produces two {{genetically identical}} daughter nuclei.",
    "explanation": "Mitosis is used for growth, repair and asexual reproduction.",
    "category": "bio_cells",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "IV.4"
   },
   {
    "id": "bio-011",
@@ -111,7 +122,8 @@
     "amino acid"
    ],
    "category": "bio_molecules",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "I.2.2"
   },
   {
    "id": "bio-012",
@@ -123,7 +135,8 @@
    ],
    "explanation": "It forms in a condensation reaction that releases water.",
    "category": "bio_molecules",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "I.2.2"
   },
   {
    "id": "bio-013",
@@ -131,7 +144,8 @@
    "question": "What is the region of an enzyme where the substrate binds called?",
    "answer": "active site",
    "category": "bio_molecules",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.2.1"
   },
   {
    "id": "bio-014",
@@ -142,7 +156,8 @@
     "adenosine triphosphate"
    ],
    "category": "bio_molecules",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.1.2"
   },
   {
    "id": "bio-015",
@@ -153,7 +168,8 @@
     "iodine solution"
    ],
    "category": "bio_molecules",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "I.2.1"
   },
   {
    "id": "bio-016",
@@ -164,7 +180,8 @@
     "water and carbon dioxide"
    ],
    "category": "bio_molecules",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.3.1"
   },
   {
    "id": "bio-017",
@@ -172,7 +189,8 @@
    "text": "Enzymes speed up reactions by lowering the {{activation energy}}.",
    "hint": "energy",
    "category": "bio_molecules",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.2.2"
   },
   {
    "id": "bio-018",
@@ -180,7 +198,8 @@
    "text": "At high temperatures an enzyme {{denatures}} and its active site changes shape.",
    "explanation": "The substrate no longer fits, so the rate of reaction falls.",
    "category": "bio_molecules",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.2.3"
   },
   {
    "id": "bio-019",
@@ -188,14 +207,16 @@
    "text": "Glucose and fructose are examples of {{monosaccharides / monosaccharide}}.",
    "hint": "simple sugars",
    "category": "bio_molecules",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "I.2.1"
   },
   {
    "id": "bio-020",
    "type": "cloze",
    "text": "Anaerobic respiration in human muscles produces {{lactate / lactic acid}}.",
    "category": "bio_molecules",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.3.2"
   },
   {
    "id": "bio-021",
@@ -203,7 +224,8 @@
    "question": "What is the shape of a DNA molecule?",
    "answer": "double helix",
    "category": "bio_genetics",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "I.2.4"
   },
   {
    "id": "bio-022",
@@ -214,7 +236,8 @@
     "T"
    ],
    "category": "bio_genetics",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "I.2.4"
   },
   {
    "id": "bio-023",
@@ -225,7 +248,8 @@
     "U"
    ],
    "category": "bio_genetics",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "I.2.4"
   },
   {
    "id": "bio-024",
@@ -237,7 +261,8 @@
     "23 pairs"
    ],
    "category": "bio_genetics",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "IV.1"
   },
   {
    "id": "bio-025",
@@ -273,7 +298,8 @@
    "type": "cloze",
    "text": "Meiosis produces {{haploid}} gametes with half the number of chromosomes.",
    "category": "bio_genetics",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "IV.4"
   },
   {
    "id": "bio-029",
@@ -359,7 +385,8 @@
    "question": "Which pigment absorbs light for photosynthesis?",
    "answer": "chlorophyll",
    "category": "bio_plants",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "IB C1.3"
   },
   {
    "id": "bio-039",
@@ -399,14 +426,16 @@
     "O2"
    ],
    "category": "bio_plants",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "IB C1.3"
   },
   {
    "id": "bio-043",
    "type": "cloze",
    "text": "Photosynthesis takes place in the {{chloroplasts / chloroplast}}.",
    "category": "bio_plants",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "IB C1.3"
   },
   {
    "id": "bio-044",
@@ -490,7 +519,8 @@
    "question": "What is the variable you deliberately change in an experiment called?",
    "answer": "independent variable",
    "category": "bio_skills",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.2"
   },
   {
    "id": "bio-053",
@@ -498,7 +528,8 @@
    "question": "What is the variable you measure in an experiment called?",
    "answer": "dependent variable",
    "category": "bio_skills",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.2"
   },
   {
    "id": "bio-054",
@@ -506,21 +537,985 @@
    "question": "Which statistic shows how spread out data are around the mean?",
    "answer": "standard deviation",
    "category": "bio_skills",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.3"
   },
   {
    "id": "bio-055",
    "type": "cloze",
    "text": "Variables kept the same throughout an experiment are called {{control variables / controlled variables}}.",
    "category": "bio_skills",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.2"
   },
   {
    "id": "bio-056",
    "type": "cloze",
    "text": "Repeating trials and calculating a mean improves the {{reliability}} of the results.",
    "category": "bio_skills",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.3"
+  },
+  {
+   "id": "bio-pp-001",
+   "type": "cloze",
+   "text": "The main biogenic elements are carbon, hydrogen, oxygen, nitrogen, phosphorus and {{sulfur / sulphur}}.",
+   "hint": "CHONPS",
+   "explanation": "These six macroelements build almost all organic molecules of the cell.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "bio-pp-002",
+   "type": "qa",
+   "question": "Which element is found in all proteins but not in carbohydrates or simple lipids?",
+   "answer": "nitrogen",
+   "accept": [
+    "N"
+   ],
+   "explanation": "Every amino acid contains an amino group (-NH2).",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "bio-pp-003",
+   "type": "qa",
+   "question": "Which microelement is a component of haemoglobin and is needed to transport oxygen?",
+   "answer": "iron",
+   "accept": [
+    "Fe"
+   ],
+   "explanation": "Iron deficiency leads to anaemia.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "bio-pp-004",
+   "type": "qa",
+   "question": "Which microelement is needed to make thyroid hormones such as thyroxine?",
+   "answer": "iodine",
+   "accept": [
+    "I"
+   ],
+   "explanation": "Iodine deficiency causes goitre (enlarged thyroid).",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "bio-pp-005",
+   "type": "qa",
+   "question": "Which microelement strengthens tooth enamel and bones?",
+   "answer": "fluorine",
+   "accept": [
+    "F",
+    "fluoride"
+   ],
+   "explanation": "Fluoride is added to toothpaste to prevent tooth decay.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "bio-pp-006",
+   "type": "cloze",
+   "text": "Water is an excellent {{solvent}} because its molecules are polar.",
+   "explanation": "Ions and polar molecules dissolve in water, so it is the medium of all metabolic reactions.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "bio-pp-007",
+   "type": "qa",
+   "question": "What type of bond forms between neighbouring water molecules?",
+   "answer": "hydrogen bond",
+   "accept": [
+    "hydrogen bonds",
+    "hydrogen bonding"
+   ],
+   "explanation": "Hydrogen bonds explain the cohesion, high boiling point and high heat capacity of water.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "bio-pp-008",
+   "type": "cloze",
+   "text": "Because of its high {{specific heat capacity}}, water warms up and cools down slowly, which stabilises body temperature.",
+   "hint": "a lot of energy is needed to raise its temperature",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "bio-pp-009",
+   "type": "qa",
+   "question": "What is the attraction between water molecules that lets water move up narrow xylem vessels called?",
+   "answer": "cohesion",
+   "accept": [
+    "cohesive forces"
+   ],
+   "explanation": "Cohesion (water to water) and adhesion (water to the vessel wall) together cause capillary action.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "bio-pp-010",
+   "type": "qa",
+   "question": "Which two monosaccharides make up sucrose?",
+   "answer": "glucose and fructose",
+   "accept": [
+    "glucose + fructose",
+    "fructose and glucose"
+   ],
+   "explanation": "Sucrose is the sugar transported in plants and used as table sugar.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2.1"
+  },
+  {
+   "id": "bio-pp-011",
+   "type": "qa",
+   "question": "Which polysaccharide is the storage carbohydrate of animals, found in liver and muscle?",
+   "answer": "glycogen",
+   "accept": [],
+   "explanation": "Plants store glucose as starch, animals as glycogen.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.1"
+  },
+  {
+   "id": "bio-pp-012",
+   "type": "qa",
+   "question": "Which pentose sugar is found in RNA nucleotides?",
+   "answer": "ribose",
+   "accept": [],
+   "explanation": "DNA contains deoxyribose, which has one oxygen atom fewer.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.1"
+  },
+  {
+   "id": "bio-pp-013",
+   "type": "cloze",
+   "text": "A protein that contains a non-protein part, such as the haem group in haemoglobin, is a {{complex / conjugated}} protein.",
+   "hint": "opposite of a simple protein",
+   "explanation": "Simple proteins consist only of amino acids.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2.2"
+  },
+  {
+   "id": "bio-pp-014",
+   "type": "qa",
+   "question": "Which fibrous structural protein is the main component of tendons, skin and bone?",
+   "answer": "collagen",
+   "accept": [],
+   "explanation": "Collagen is the most abundant protein in the human body.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.2"
+  },
+  {
+   "id": "bio-pp-015",
+   "type": "qa",
+   "question": "Which protein builds hair, nails and the outer layer of the skin?",
+   "answer": "keratin",
+   "accept": [],
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.2"
+  },
+  {
+   "id": "bio-pp-016",
+   "type": "cloze",
+   "text": "A simple lipid (triglyceride) consists of one molecule of {{glycerol}} and three fatty acids.",
+   "explanation": "Fats and oils are triglycerides; they are insoluble in water and store energy.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.3"
+  },
+  {
+   "id": "bio-pp-017",
+   "type": "qa",
+   "question": "Which complex lipids are the main building blocks of cell membranes?",
+   "answer": "phospholipids",
+   "accept": [
+    "phospholipid"
+   ],
+   "explanation": "A phospholipid has a hydrophilic phosphate head and two hydrophobic fatty-acid tails.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.3"
+  },
+  {
+   "id": "bio-pp-018",
+   "type": "qa",
+   "question": "Which sugar is found in DNA nucleotides?",
+   "answer": "deoxyribose",
+   "accept": [],
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
+  },
+  {
+   "id": "bio-pp-019",
+   "type": "qa",
+   "question": "Name the three components of a nucleotide.",
+   "answer": "phosphate, sugar, nitrogenous base",
+   "accept": [
+    "phosphate, sugar, base",
+    "phosphate group, pentose sugar, nitrogenous base",
+    "sugar, phosphate, base"
+   ],
+   "explanation": "In DNA the sugar is deoxyribose; in RNA it is ribose.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
+  },
+  {
+   "id": "bio-pp-020",
+   "type": "qa",
+   "question": "Which structure inside the nucleus produces ribosomal RNA and assembles ribosome subunits?",
+   "answer": "nucleolus",
+   "accept": [
+    "nucleoli"
+   ],
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "bio-pp-021",
+   "type": "qa",
+   "question": "What is the double membrane surrounding the nucleus called?",
+   "answer": "nuclear envelope",
+   "accept": [
+    "nuclear membrane"
+   ],
+   "explanation": "Its pores allow mRNA to leave the nucleus and proteins to enter.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "bio-pp-022",
+   "type": "qa",
+   "question": "Which organelle modifies, packages and sorts proteins for secretion?",
+   "answer": "Golgi apparatus",
+   "accept": [
+    "Golgi body",
+    "Golgi",
+    "Golgi complex"
+   ],
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB B2.2"
+  },
+  {
+   "id": "bio-pp-023",
+   "type": "qa",
+   "question": "Which organelles contain digestive enzymes that break down worn-out cell parts and engulfed material?",
+   "answer": "lysosomes",
+   "accept": [
+    "lysosome"
+   ],
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB B2.2"
+  },
+  {
+   "id": "bio-pp-024",
+   "type": "cloze",
+   "text": "The {{rough endoplasmic reticulum / rough ER}} is studded with ribosomes and synthesises proteins for export from the cell.",
+   "hint": "membrane system continuous with the nuclear envelope",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB B2.2"
+  },
+  {
+   "id": "bio-pp-025",
+   "type": "qa",
+   "question": "Which large fluid-filled organelle stores water and keeps a plant cell turgid?",
+   "answer": "vacuole",
+   "accept": [
+    "central vacuole"
+   ],
+   "explanation": "The vacuole is surrounded by a membrane called the tonoplast.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A2.2"
+  },
+  {
+   "id": "bio-pp-026",
+   "type": "cloze",
+   "text": "Fungal cell walls are made of {{chitin}}, whereas plant cell walls are made of cellulose.",
+   "hint": "the same polysaccharide as in insect exoskeletons",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A2.2"
+  },
+  {
+   "id": "bio-pp-027",
+   "type": "qa",
+   "question": "In a prokaryotic cell, what is the region containing the circular DNA molecule called?",
+   "answer": "nucleoid",
+   "accept": [
+    "nucleoid region"
+   ],
+   "explanation": "The nucleoid is not surrounded by a membrane.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A2.2"
+  },
+  {
+   "id": "bio-pp-028",
+   "type": "cloze",
+   "text": "The theory that mitochondria and chloroplasts evolved from prokaryotes engulfed by an ancestral cell is the {{endosymbiotic}} theory.",
+   "explanation": "Evidence: both organelles have their own circular DNA, 70S ribosomes and a double membrane.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A2.1"
+  },
+  {
+   "id": "bio-pp-029",
+   "type": "qa",
+   "question": "Which network of protein fibres gives a cell its shape and moves organelles and chromosomes?",
+   "answer": "cytoskeleton",
+   "accept": [],
+   "explanation": "It consists of microtubules, microfilaments and intermediate filaments.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB B2.2"
+  },
+  {
+   "id": "bio-pp-030",
+   "type": "cloze",
+   "text": "The cell membrane is a {{phospholipid}} bilayer with embedded proteins.",
+   "explanation": "The fluid mosaic model: lipids and proteins can move within the layer.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "bio-pp-031",
+   "type": "qa",
+   "question": "What type of transport moves glucose across a membrane down its concentration gradient through a carrier protein, without using ATP?",
+   "answer": "facilitated diffusion",
+   "accept": [
+    "passive transport by carrier",
+    "facilitated transport"
+   ],
+   "explanation": "Simple diffusion needs no protein; active transport needs a protein and ATP.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "bio-pp-032",
+   "type": "qa",
+   "question": "What is the process by which a cell takes in large particles or fluid by enclosing them in a vesicle?",
+   "answer": "endocytosis",
+   "accept": [
+    "phagocytosis",
+    "pinocytosis"
+   ],
+   "explanation": "Phagocytosis (solids) and pinocytosis (liquids) are types of endocytosis.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "bio-pp-033",
+   "type": "cloze",
+   "text": "Releasing substances from a cell in vesicles that fuse with the cell membrane is called {{exocytosis}}.",
+   "explanation": "Hormones and digestive enzymes leave cells by exocytosis.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "bio-pp-034",
+   "type": "cloze",
+   "text": "An animal cell placed in a {{hypotonic}} solution takes in water by osmosis and may burst.",
+   "hint": "the solution is more dilute than the cytoplasm",
+   "explanation": "A plant cell in the same solution becomes turgid thanks to its wall.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "bio-pp-035",
+   "type": "cloze",
+   "text": "In a hypertonic solution a plant cell loses water and its protoplast shrinks away from the cell wall; this is {{plasmolysis}}.",
+   "explanation": "Plasmolysis can be observed in onion epidermis placed in concentrated salt solution.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "bio-pp-036",
+   "type": "qa",
+   "question": "How do you calculate the total magnification of a light microscope?",
+   "answer": "eyepiece x objective",
+   "accept": [
+    "eyepiece times objective",
+    "ocular x objective",
+    "eyepiece magnification x objective magnification",
+    "objective x eyepiece"
+   ],
+   "explanation": "E.g. 10x eyepiece and 40x objective give 400x.",
+   "category": "bio_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "bio-pp-037",
+   "type": "qa",
+   "question": "What thin glass plate is placed over a specimen on a microscope slide?",
+   "answer": "cover slip",
+   "accept": [
+    "coverslip",
+    "cover glass"
+   ],
+   "explanation": "Lower it at an angle to avoid trapping air bubbles.",
+   "category": "bio_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "bio-pp-038",
+   "type": "qa",
+   "question": "Which objective lens should you use first when focusing a microscope?",
+   "answer": "lowest power",
+   "accept": [
+    "the lowest power",
+    "low power",
+    "the smallest"
+   ],
+   "explanation": "Find and centre the specimen at low power before switching to a higher power.",
+   "category": "bio_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "bio-pp-039",
+   "type": "qa",
+   "question": "What is the formula for the magnification of a drawing or photograph?",
+   "answer": "image size / actual size",
+   "accept": [
+    "image size divided by actual size",
+    "image / actual",
+    "drawing size / real size"
+   ],
+   "explanation": "Rearranged: actual size = image size / magnification.",
+   "category": "bio_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "bio-pp-040",
+   "type": "cloze",
+   "text": "Enzymes are biological catalysts, and almost all of them are {{proteins}}.",
+   "explanation": "Their 3D shape, including the active site, depends on the amino acid sequence.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "bio-pp-041",
+   "type": "qa",
+   "question": "What term describes the fact that an enzyme acts on only one substrate or one type of reaction?",
+   "answer": "substrate specificity",
+   "accept": [
+    "specificity",
+    "enzyme specificity"
+   ],
+   "explanation": "The substrate fits the active site like a key fits a lock.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "bio-pp-042",
+   "type": "qa",
+   "question": "Which enzyme breaks down hydrogen peroxide into water and oxygen?",
+   "answer": "catalase",
+   "accept": [],
+   "explanation": "Catalase activity can be tested with liver or potato pieces in hydrogen peroxide.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.3"
+  },
+  {
+   "id": "bio-pp-043",
+   "type": "cloze",
+   "text": "Below the optimum temperature the rate of an enzyme reaction falls because molecules have less {{kinetic energy}} and collide less often.",
+   "hint": "energy of motion",
+   "explanation": "Unlike heat denaturation, this effect is reversible.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2.3"
+  },
+  {
+   "id": "bio-pp-044",
+   "type": "qa",
+   "question": "What is the general term for all the chemical reactions taking place in a cell?",
+   "answer": "metabolism",
+   "accept": [],
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.1"
+  },
+  {
+   "id": "bio-pp-045",
+   "type": "cloze",
+   "text": "Reactions that build complex molecules from simpler ones and require energy are {{anabolic}} reactions.",
+   "hint": "e.g. protein synthesis, photosynthesis",
+   "explanation": "Catabolic reactions break molecules down and release energy that drives anabolism.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.1"
+  },
+  {
+   "id": "bio-pp-046",
+   "type": "qa",
+   "question": "What are the products of ATP hydrolysis?",
+   "answer": "ADP and phosphate",
+   "accept": [
+    "ADP + Pi",
+    "ADP and Pi",
+    "ADP and inorganic phosphate",
+    "ADP, phosphate"
+   ],
+   "explanation": "Breaking the terminal phosphate bond releases energy used by the cell.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1.2"
+  },
+  {
+   "id": "bio-pp-047",
+   "type": "qa",
+   "question": "What are the substrates of aerobic respiration?",
+   "answer": "glucose and oxygen",
+   "accept": [
+    "oxygen and glucose",
+    "glucose + oxygen"
+   ],
+   "explanation": "Products: carbon dioxide, water and energy stored in ATP.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3.1"
+  },
+  {
+   "id": "bio-pp-048",
+   "type": "qa",
+   "question": "Under what condition do human muscle cells switch to lactic acid fermentation?",
+   "answer": "lack of oxygen",
+   "accept": [
+    "no oxygen",
+    "oxygen shortage",
+    "anaerobic conditions",
+    "without oxygen",
+    "insufficient oxygen"
+   ],
+   "explanation": "During intense exercise oxygen supply is too low for aerobic respiration alone.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3.2"
+  },
+  {
+   "id": "bio-pp-049",
+   "type": "qa",
+   "question": "How many ATP molecules are gained from one glucose molecule in lactic acid fermentation?",
+   "answer": "2",
+   "accept": [
+    "two"
+   ],
+   "explanation": "Aerobic respiration yields about 30 ATP per glucose, roughly fifteen times more.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3.3"
+  },
+  {
+   "id": "bio-pp-050",
+   "type": "qa",
+   "question": "What is the breakdown of glycogen into glucose called?",
+   "answer": "glycogenolysis",
+   "accept": [],
+   "explanation": "It supplies glucose from liver and muscle stores when energy demand rises.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3.4"
+  },
+  {
+   "id": "bio-pp-051",
+   "type": "cloze",
+   "text": "Word equation of photosynthesis: carbon dioxide + water -> {{glucose}} + oxygen (light and chlorophyll needed).",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB C1.3"
+  },
+  {
+   "id": "bio-pp-052",
+   "type": "qa",
+   "question": "In which part of the chloroplast does the Calvin cycle (light-independent reactions) take place?",
+   "answer": "stroma",
+   "accept": [],
+   "explanation": "The light-dependent reactions occur in the thylakoid membranes.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB C1.3"
+  },
+  {
+   "id": "bio-pp-053",
+   "type": "cloze",
+   "text": "In the nucleus, DNA is wound around proteins called {{histones}}, forming chromatin.",
+   "explanation": "Before division chromatin condenses into visible chromosomes.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "bio-pp-054",
+   "type": "qa",
+   "question": "What is a cell with two sets of chromosomes (2n) called?",
+   "answer": "diploid",
+   "accept": [],
+   "explanation": "Human body cells are diploid (46); gametes are haploid (23).",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "bio-pp-055",
+   "type": "qa",
+   "question": "In which phase of the cell cycle is DNA replicated?",
+   "answer": "S phase",
+   "accept": [
+    "S",
+    "synthesis phase",
+    "synthesis"
+   ],
+   "explanation": "After S phase the amount of DNA in the nucleus is doubled.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "bio-pp-056",
+   "type": "cloze",
+   "text": "The longest part of the cell cycle, between two divisions, is {{interphase}}.",
+   "explanation": "Interphase consists of G1, S and G2 phases.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "bio-pp-057",
+   "type": "qa",
+   "question": "What term describes DNA replication, in which each new molecule keeps one original strand?",
+   "answer": "semi-conservative",
+   "accept": [
+    "semiconservative",
+    "semi conservative"
+   ],
+   "explanation": "Each strand serves as a template for a new complementary strand.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "bio-pp-058",
+   "type": "qa",
+   "question": "Name the four phases of mitosis in order.",
+   "answer": "prophase, metaphase, anaphase, telophase",
+   "accept": [
+    "prophase metaphase anaphase telophase",
+    "PMAT"
+   ],
+   "explanation": "Prophase: chromosomes condense; metaphase: line up; anaphase: separate; telophase: nuclei re-form.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "bio-pp-059",
+   "type": "qa",
+   "question": "What is the division of the cytoplasm that follows nuclear division called?",
+   "answer": "cytokinesis",
+   "accept": [],
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "bio-pp-060",
+   "type": "qa",
+   "question": "How many daughter cells result from one cell undergoing meiosis?",
+   "answer": "4",
+   "accept": [
+    "four"
+   ],
+   "explanation": "Meiosis consists of two consecutive divisions.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "bio-pp-061",
+   "type": "cloze",
+   "text": "In humans, meiosis takes place only in the gonads, producing {{gametes}} (sperm and egg cells).",
+   "explanation": "Mitosis serves growth and tissue repair; meiosis serves sexual reproduction.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "bio-pp-062",
+   "type": "qa",
+   "question": "What is programmed cell death, e.g. removal of the tissue between fingers in an embryo, called?",
+   "answer": "apoptosis",
+   "accept": [],
+   "explanation": "Apoptosis also removes damaged or infected cells.",
+   "category": "bio_cells",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "bio-pp-063",
+   "type": "qa",
+   "question": "What is a testable statement that predicts the outcome of an experiment called?",
+   "answer": "hypothesis",
+   "accept": [],
+   "explanation": "A hypothesis is accepted or rejected on the basis of the results.",
+   "category": "bio_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "bio-pp-064",
+   "type": "cloze",
+   "text": "The sample treated exactly like the experimental one except for the tested factor is the {{control}} group.",
+   "hint": "próba kontrolna",
+   "explanation": "Without a control you cannot tell whether the tested factor caused the effect.",
+   "category": "bio_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "bio-pp-065",
+   "type": "qa",
+   "question": "Which enzyme unwinds the DNA double helix during replication?",
+   "answer": "helicase",
+   "accept": [
+    "DNA helicase"
+   ],
+   "explanation": "Helicase breaks the hydrogen bonds between complementary bases.",
+   "category": "bio_genetics",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.1"
+  },
+  {
+   "id": "bio-pp-066",
+   "type": "qa",
+   "question": "Which enzyme adds complementary nucleotides to the growing DNA strand during replication?",
+   "answer": "DNA polymerase",
+   "accept": [
+    "polymerase"
+   ],
+   "category": "bio_genetics",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.1"
+  },
+  {
+   "id": "bio-pp-067",
+   "type": "cloze",
+   "text": "{{Transcription}} is the synthesis of mRNA from a DNA template by RNA polymerase.",
+   "explanation": "It takes place in the nucleus of eukaryotic cells.",
+   "category": "bio_genetics",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.2"
+  },
+  {
+   "id": "bio-pp-068",
+   "type": "qa",
+   "question": "What is the synthesis of a polypeptide on a ribosome, using the sequence of mRNA, called?",
+   "answer": "translation",
+   "accept": [],
+   "category": "bio_genetics",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.2"
+  },
+  {
+   "id": "bio-pp-069",
+   "type": "qa",
+   "question": "How many mRNA bases make up one codon?",
+   "answer": "3",
+   "accept": [
+    "three"
+   ],
+   "explanation": "Each codon specifies one amino acid or a stop signal.",
+   "category": "bio_genetics",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.2"
+  },
+  {
+   "id": "bio-pp-070",
+   "type": "qa",
+   "question": "Which type of RNA carries amino acids to the ribosome?",
+   "answer": "tRNA",
+   "accept": [
+    "transfer RNA"
+   ],
+   "explanation": "The tRNA anticodon pairs with the complementary codon on mRNA.",
+   "category": "bio_genetics",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.2"
+  },
+  {
+   "id": "bio-pp-071",
+   "type": "qa",
+   "question": "What is the maintenance of a stable internal environment, e.g. constant body temperature, called?",
+   "answer": "homeostasis",
+   "accept": [],
+   "explanation": "Thermoregulation, osmoregulation and blood pressure control are examples.",
+   "category": "bio_general",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1.5"
+  },
+  {
+   "id": "bio-pp-072",
+   "type": "qa",
+   "question": "What type of feedback mechanism maintains homeostasis by reversing a change?",
+   "answer": "negative feedback",
+   "accept": [],
+   "explanation": "E.g. a rise in blood glucose triggers insulin, which lowers it again.",
+   "category": "bio_general",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1.5"
+  },
+  {
+   "id": "bio-pp-073",
+   "type": "qa",
+   "question": "In the binomial name Homo sapiens, which word is the genus?",
+   "answer": "Homo",
+   "accept": [],
+   "explanation": "The second word (sapiens) is the species epithet; the whole name is written in italics.",
+   "category": "bio_general",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A3.1"
+  },
+  {
+   "id": "bio-pp-074",
+   "type": "qa",
+   "question": "Which taxonomic rank is directly above species?",
+   "answer": "genus",
+   "accept": [],
+   "explanation": "Order of ranks: domain, kingdom, phylum, class, order, family, genus, species.",
+   "category": "bio_general",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A3.2"
+  },
+  {
+   "id": "bio-pp-075",
+   "type": "cloze",
+   "text": "The three domains of life are Bacteria, Archaea and {{Eukarya / Eukaryota / Eukaryotes}}.",
+   "explanation": "Only Eukarya have cells with a nucleus.",
+   "category": "bio_general",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A3.2"
+  },
+  {
+   "id": "bio-pp-076",
+   "type": "qa",
+   "question": "What is a group of organisms that can interbreed and produce fertile offspring called?",
+   "answer": "species",
+   "accept": [],
+   "category": "bio_general",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB A3.1"
   }
  ]
 }
