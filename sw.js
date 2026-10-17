@@ -18,6 +18,7 @@ const ASSETS = [
   './data/informatyka-7.json',
   './data/historia-polski.json',
   './data/english.json',
+  './data/chemia-7.json',
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-192.png',

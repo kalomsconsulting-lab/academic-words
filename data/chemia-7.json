@@ -1,0 +1,1401 @@
+{
+ "version": 1,
+ "subject": "chemia_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, chemia, klasy VII–VIII (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996); działy I–V jako zakres klasy 7",
+ "items": [
+  {
+   "id": "chem7-pp-001",
+   "type": "qa",
+   "question": "Który metal, będący składnikiem przewodów elektrycznych, ma charakterystyczną czerwonobrązową barwę?",
+   "answer": "miedź",
+   "accept": [
+    "Cu"
+   ],
+   "explanation": "Miedź bardzo dobrze przewodzi prąd, dlatego robi się z niej przewody.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "chem7-pp-002",
+   "type": "cloze",
+   "text": "Spośród żelaza, glinu i miedzi tylko {{żelazo}} jest przyciągane przez magnes.",
+   "hint": "metal, z którego robi się stal",
+   "explanation": "Właściwości magnetyczne odróżniają żelazo od glinu i miedzi.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "chem7-pp-003",
+   "type": "qa",
+   "question": "Co oznacza piktogram z płomieniem na opakowaniu substancji chemicznej?",
+   "answer": "substancja łatwopalna",
+   "accept": [
+    "łatwopalna",
+    "łatwopalność",
+    "palna",
+    "substancja palna"
+   ],
+   "explanation": "Takie substancje (np. etanol, benzyna) trzeba trzymać z dala od ognia.",
+   "category": "chem7_lab",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chem7-pp-004",
+   "type": "qa",
+   "question": "Co oznacza piktogram z czaszką i skrzyżowanymi piszczelami?",
+   "answer": "substancja toksyczna",
+   "accept": [
+    "toksyczna",
+    "trująca",
+    "substancja trująca",
+    "silnie toksyczna"
+   ],
+   "explanation": "Oznacza substancję silnie trującą, groźną nawet w małych ilościach.",
+   "category": "chem7_lab",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chem7-pp-005",
+   "type": "cloze",
+   "text": "Piktogram przedstawiający probówki, z których ciecz kapie na dłoń i metal, oznacza substancję {{żrącą/żrąca}}.",
+   "hint": "np. stężone kwasy i zasady",
+   "explanation": "Substancje żrące niszczą skórę i metale, np. stężony kwas siarkowy.",
+   "category": "chem7_lab",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chem7-pp-006",
+   "type": "qa",
+   "question": "Jak należy sprawdzać zapach substancji w probówce?",
+   "answer": "nawiewając dłonią",
+   "accept": [
+    "nawiewać dłonią",
+    "machając dłonią",
+    "ruchem dłoni",
+    "ruchem ręki"
+   ],
+   "explanation": "Nigdy nie wącha się bezpośrednio nad wylotem probówki.",
+   "category": "chem7_lab",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chem7-pp-007",
+   "type": "qa",
+   "question": "Co do czego należy wlewać przy rozcieńczaniu stężonego kwasu siarkowego?",
+   "answer": "kwas do wody",
+   "accept": [
+    "kwas do wody, nie odwrotnie",
+    "kwas wlewamy do wody"
+   ],
+   "explanation": "Rozcieńczanie wydziela dużo ciepła; wlewanie wody do kwasu grozi rozpryskiem.",
+   "category": "chem7_lab",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chem7-pp-008",
+   "type": "qa",
+   "question": "Który stan skupienia ma określoną objętość, ale przyjmuje kształt naczynia?",
+   "answer": "ciekły",
+   "accept": [
+    "ciecz",
+    "stan ciekły"
+   ],
+   "explanation": "Ciecz nie ma własnego kształtu, ale ma stałą objętość; ciało stałe ma i kształt, i objętość.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chem7-pp-009",
+   "type": "cloze",
+   "text": "Substancja w stanie {{gazowym}} nie ma ani własnego kształtu, ani stałej objętości: wypełnia całe naczynie.",
+   "hint": "trzeci stan skupienia",
+   "explanation": "Gazy łatwo sprężyć, bo między ich cząsteczkami są duże odległości.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chem7-pp-010",
+   "type": "qa",
+   "question": "Jak nazywa się samorzutne mieszanie się substancji wskutek ruchu cząsteczek, np. rozchodzenie się zapachu perfum?",
+   "answer": "dyfuzja",
+   "accept": [],
+   "explanation": "Dyfuzja zachodzi najszybciej w gazach, a najwolniej w ciałach stałych.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chem7-pp-011",
+   "type": "qa",
+   "question": "Jak nazywa się przejście ciała stałego bezpośrednio w gaz?",
+   "answer": "sublimacja",
+   "accept": [
+    "sublimować"
+   ],
+   "explanation": "Sublimuje np. suchy lód (stały CO2) i jod.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chem7-pp-012",
+   "type": "cloze",
+   "text": "Rozpuszczanie polega na rozpadzie substancji na cząsteczki (lub jony) i ich rozmieszczeniu między cząsteczkami {{rozpuszczalnika}}.",
+   "hint": "np. woda",
+   "explanation": "Rozpuszczanie jest możliwe dzięki ruchowi cząsteczek (dyfuzji).",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chem7-pp-013",
+   "type": "cloze",
+   "text": "Mieszanina, której składników nie widać gołym okiem ani pod mikroskopem, to mieszanina {{jednorodna}}.",
+   "hint": "przeciwieństwo niejednorodnej",
+   "explanation": "Np. roztwór soli w wodzie, powietrze, stopy metali.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chem7-pp-014",
+   "type": "qa",
+   "question": "Jakim rodzajem mieszaniny jest piasek z wodą, w którym składniki widać gołym okiem?",
+   "answer": "niejednorodna",
+   "accept": [
+    "mieszanina niejednorodna",
+    "heterogeniczna"
+   ],
+   "explanation": "W mieszaninie niejednorodnej da się wskazać poszczególne składniki.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chem7-pp-015",
+   "type": "qa",
+   "question": "Jakim rodzajem mieszaniny jest roztwór cukru w wodzie?",
+   "answer": "jednorodna",
+   "accept": [
+    "mieszanina jednorodna",
+    "homogeniczna",
+    "roztwór właściwy"
+   ],
+   "explanation": "Cukier rozpuszcza się całkowicie i jego cząsteczek nie widać.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chem7-pp-016",
+   "type": "qa",
+   "question": "Jaką metodą rozdziela się piasek od wody, używając lejka z sączkiem?",
+   "answer": "sączenie",
+   "accept": [
+    "filtracja",
+    "filtrowanie",
+    "sączenie przez sączek"
+   ],
+   "explanation": "Sączenie oddziela ciało stałe nierozpuszczalne od cieczy.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "chem7-pp-017",
+   "type": "qa",
+   "question": "Jaką metodą rozdziela się mieszaninę wody i alkoholu, wykorzystując różnicę temperatur wrzenia?",
+   "answer": "destylacja",
+   "accept": [
+    "destylowanie"
+   ],
+   "explanation": "Ciecz o niższej temperaturze wrzenia odparowuje pierwsza i jest skraplana.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "chem7-pp-018",
+   "type": "qa",
+   "question": "W jakim naczyniu laboratoryjnym rozdziela się dwie niemieszające się ciecze, np. olej i wodę?",
+   "answer": "rozdzielacz",
+   "accept": [
+    "w rozdzielaczu"
+   ],
+   "explanation": "Cięższa ciecz spływa na dół i spuszcza się ją kranikiem.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "chem7-pp-019",
+   "type": "cloze",
+   "text": "Odparowanie wody z roztworu soli, w wyniku którego wydzielają się kryształy, to {{krystalizacja}}.",
+   "hint": "wydzielanie kryształów",
+   "explanation": "Krystalizacja pozwala odzyskać substancję rozpuszczoną z roztworu.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "chem7-pp-020",
+   "type": "qa",
+   "question": "Jak nazywa się substancja prosta, której nie można rozłożyć metodami chemicznymi na prostsze (np. tlen, żelazo)?",
+   "answer": "pierwiastek chemiczny",
+   "accept": [
+    "pierwiastek"
+   ],
+   "explanation": "Pierwiastek to zbiór atomów o tej samej liczbie atomowej.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "chem7-pp-021",
+   "type": "cloze",
+   "text": "W przeciwieństwie do mieszaniny {{związek chemiczny}} ma stały skład i powstaje w wyniku reakcji chemicznej.",
+   "hint": "np. woda H2O",
+   "explanation": "Składniki mieszaniny zachowują swoje właściwości, a w związku chemicznym powstaje nowa substancja.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "chem7-pp-022",
+   "type": "qa",
+   "question": "Jak nazywa się grupa pierwiastków, które mają połysk, są kowalne i dobrze przewodzą prąd oraz ciepło?",
+   "answer": "metale",
+   "accept": [
+    "metal"
+   ],
+   "explanation": "Większość pierwiastków to metale, np. żelazo, miedź, glin.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "chem7-pp-023",
+   "type": "cloze",
+   "text": "Siarka, tlen i węgiel to {{niemetale}}: są kruche lub gazowe i na ogół nie przewodzą prądu.",
+   "hint": "przeciwieństwo metali",
+   "explanation": "Niemetale nie mają połysku metalicznego i nie są kowalne.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "chem7-pp-024",
+   "type": "qa",
+   "question": "Podaj symbol chemiczny żelaza.",
+   "answer": "Fe",
+   "accept": [],
+   "explanation": "Od łacińskiej nazwy ferrum.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "chem7-pp-025",
+   "type": "qa",
+   "question": "Podaj symbol chemiczny sodu.",
+   "answer": "Na",
+   "accept": [],
+   "explanation": "Od łacińskiej nazwy natrium.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "chem7-pp-026",
+   "type": "qa",
+   "question": "Który pierwiastek ma symbol K?",
+   "answer": "potas",
+   "accept": [],
+   "explanation": "Od łacińskiej nazwy kalium.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "chem7-pp-027",
+   "type": "qa",
+   "question": "Który pierwiastek ma symbol Pb?",
+   "answer": "ołów",
+   "accept": [],
+   "explanation": "Od łacińskiej nazwy plumbum.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "chem7-pp-028",
+   "type": "cloze",
+   "text": "Gęstość oblicza się ze wzoru d = m / {{V}}, czyli masa podzielona przez objętość.",
+   "hint": "objętość",
+   "explanation": "Jednostki gęstości to np. g/cm3 lub kg/m3.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.10"
+  },
+  {
+   "id": "chem7-pp-029",
+   "type": "qa",
+   "question": "Oblicz masę 20 cm3 glinu o gęstości 2,7 g/cm3.",
+   "answer": "54 g",
+   "accept": [
+    "54",
+    "54g",
+    "54 gramy",
+    "54 gramów"
+   ],
+   "explanation": "m = d · V = 2,7 g/cm3 · 20 cm3 = 54 g.",
+   "category": "chem7_substances",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.10"
+  },
+  {
+   "id": "chem7-pp-030",
+   "type": "qa",
+   "question": "Jak nazywa się liczba Z określająca liczbę protonów w jądrze atomu?",
+   "answer": "liczba atomowa",
+   "accept": [
+    "atomowa",
+    "liczba porządkowa"
+   ],
+   "explanation": "Liczba atomowa decyduje, do jakiego pierwiastka należy atom.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chem7-pp-031",
+   "type": "cloze",
+   "text": "Pierwiastek chemiczny to zbiór atomów o tej samej liczbie {{atomowej}} Z.",
+   "hint": "liczba protonów",
+   "explanation": "Wszystkie atomy węgla mają Z = 6, niezależnie od liczby neutronów.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chem7-pp-032",
+   "type": "qa",
+   "question": "Ile elektronów walencyjnych ma atom pierwiastka z grupy 17, np. chloru?",
+   "answer": "7",
+   "accept": [
+    "siedem"
+   ],
+   "explanation": "Dla grup 13–18 liczba elektronów walencyjnych = numer grupy − 10.",
+   "category": "chem7_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "chem7-pp-033",
+   "type": "cloze",
+   "text": "Numer {{okresu}} w układzie okresowym jest równy liczbie powłok elektronowych w atomie pierwiastka.",
+   "hint": "wiersz układu okresowego",
+   "explanation": "Np. sód (3. okres) ma 3 powłoki elektronowe.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "chem7-pp-034",
+   "type": "qa",
+   "question": "Ile neutronów ma atom sodu o liczbie atomowej 11 i liczbie masowej 23?",
+   "answer": "12",
+   "accept": [
+    "dwanaście"
+   ],
+   "explanation": "Liczba neutronów = A − Z = 23 − 11 = 12.",
+   "category": "chem7_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chem7-pp-035",
+   "type": "cloze",
+   "text": "Liczba masowa A to łączna liczba protonów i {{neutronów}} w jądrze atomu.",
+   "hint": "cząstki bez ładunku",
+   "explanation": "W zapisie A/Z E liczba masowa stoi u góry, a atomowa u dołu.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chem7-pp-036",
+   "type": "qa",
+   "question": "Ile elektronów ma obojętny elektrycznie atom chloru o liczbie atomowej 17?",
+   "answer": "17",
+   "accept": [
+    "siedemnaście"
+   ],
+   "explanation": "W atomie obojętnym liczba elektronów równa się liczbie protonów.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chem7-pp-037",
+   "type": "qa",
+   "question": "Jak nazywają się atomy tego samego pierwiastka różniące się liczbą neutronów?",
+   "answer": "izotopy",
+   "accept": [
+    "izotop"
+   ],
+   "explanation": "Izotopy mają tę samą liczbę atomową, ale różną liczbę masową.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "chem7-pp-038",
+   "type": "qa",
+   "question": "Jak nazywa się izotop wodoru, którego jądro zawiera jeden proton i jeden neutron?",
+   "answer": "deuter",
+   "accept": [
+    "wodór-2",
+    "2H"
+   ],
+   "explanation": "Wodór ma trzy izotopy: prot, deuter i tryt.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "chem7-pp-039",
+   "type": "qa",
+   "question": "W jakiej jednostce podaje się masę atomową w układzie okresowym?",
+   "answer": "unit",
+   "accept": [
+    "u",
+    "jednostka masy atomowej",
+    "w unitach"
+   ],
+   "explanation": "1 u to 1/12 masy atomu węgla-12.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "chem7-pp-040",
+   "type": "qa",
+   "question": "Który pierwiastek ma liczbę atomową 6?",
+   "answer": "węgiel",
+   "accept": [
+    "C"
+   ],
+   "explanation": "Z = 6 oznacza 6 protonów w jądrze.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "chem7-pp-041",
+   "type": "cloze",
+   "text": "Pierwiastki z tej samej {{grupy}} układu okresowego mają podobne właściwości, bo mają tyle samo elektronów walencyjnych.",
+   "hint": "kolumna układu okresowego",
+   "explanation": "Np. lit, sód i potas (grupa 1) są miękkimi, aktywnymi metalami.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "chem7-pp-042",
+   "type": "cloze",
+   "text": "W okresie, od lewej do prawej, właściwości metaliczne pierwiastków {{słabną/maleją}}, a rośnie charakter niemetaliczny.",
+   "hint": "rosną czy maleją?",
+   "explanation": "Wynika to ze wzrostu liczby elektronów walencyjnych w okresie.",
+   "category": "chem7_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "chem7-pp-043",
+   "type": "qa",
+   "question": "Co oznacza zapis 2H2?",
+   "answer": "2 cząsteczki wodoru",
+   "accept": [
+    "dwie cząsteczki wodoru",
+    "2 czasteczki H2",
+    "dwie cząsteczki H2"
+   ],
+   "explanation": "Współczynnik 2 to liczba cząsteczek, indeks 2 to liczba atomów w cząsteczce.",
+   "category": "chem7_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.7"
+  },
+  {
+   "id": "chem7-pp-044",
+   "type": "qa",
+   "question": "Co oznacza zapis 2H?",
+   "answer": "2 atomy wodoru",
+   "accept": [
+    "dwa atomy wodoru",
+    "dwa atomy H"
+   ],
+   "explanation": "Brak indeksu oznacza pojedyncze atomy, nie cząsteczki.",
+   "category": "chem7_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.7"
+  },
+  {
+   "id": "chem7-pp-045",
+   "type": "qa",
+   "question": "Jak nazywa się zdolność atomu do przyciągania elektronów w wiązaniu chemicznym?",
+   "answer": "elektroujemność",
+   "accept": [],
+   "explanation": "Największą elektroujemność ma fluor, najmniejszą metale z grupy 1.",
+   "category": "chem7_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "chem7-pp-046",
+   "type": "qa",
+   "question": "Jaki rodzaj wiązania polega na uwspólnieniu par elektronowych między atomami?",
+   "answer": "kowalencyjne",
+   "accept": [
+    "wiązanie kowalencyjne",
+    "atomowe",
+    "wiązanie atomowe"
+   ],
+   "explanation": "Powstaje między atomami o małej różnicy elektroujemności, np. w H2, H2O.",
+   "category": "chem7_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "chem7-pp-047",
+   "type": "cloze",
+   "text": "W łączeniu się atomów biorą udział elektrony zewnętrznej powłoki, czyli elektrony {{walencyjne}}.",
+   "hint": "od słowa wartościowość",
+   "explanation": "Atomy dążą do uzyskania trwałej konfiguracji ośmiu elektronów (oktetu).",
+   "category": "chem7_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "chem7-pp-048",
+   "type": "qa",
+   "question": "Podaj wzór sumaryczny amoniaku.",
+   "answer": "NH3",
+   "accept": [],
+   "explanation": "Azot łączy się z trzema atomami wodoru trzema wiązaniami pojedynczymi.",
+   "category": "chem7_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.9"
+  },
+  {
+   "id": "chem7-pp-049",
+   "type": "qa",
+   "question": "Podaj wzór sumaryczny metanu.",
+   "answer": "CH4",
+   "accept": [],
+   "explanation": "Węgiel łączy się z czterema atomami wodoru.",
+   "category": "chem7_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.9"
+  },
+  {
+   "id": "chem7-pp-050",
+   "type": "qa",
+   "question": "Ile wiązań (kresek) łączy atomy w cząsteczce azotu N2 we wzorze strukturalnym?",
+   "answer": "3",
+   "accept": [
+    "trzy",
+    "potrójne",
+    "wiązanie potrójne"
+   ],
+   "explanation": "Każdy atom azotu ma 5 elektronów walencyjnych i uwspólnia 3 z nich.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.9"
+  },
+  {
+   "id": "chem7-pp-051",
+   "type": "qa",
+   "question": "Jak nazywa się jon o ładunku dodatnim?",
+   "answer": "kation",
+   "accept": [],
+   "explanation": "Kation powstaje, gdy atom oddaje elektrony; jon ujemny to anion.",
+   "category": "chem7_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "chem7-pp-052",
+   "type": "qa",
+   "question": "Jaki ładunek ma trwały jon magnezu?",
+   "answer": "2+",
+   "accept": [
+    "Mg2+",
+    "+2",
+    "dwudodatni",
+    "2 plus"
+   ],
+   "explanation": "Magnez (grupa 2) oddaje 2 elektrony walencyjne.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "chem7-pp-053",
+   "type": "qa",
+   "question": "Jaki ładunek ma jon chlorkowy?",
+   "answer": "1-",
+   "accept": [
+    "Cl-",
+    "-1",
+    "minus 1",
+    "minus jeden",
+    "ujemny"
+   ],
+   "explanation": "Chlor (grupa 17) przyjmuje 1 elektron, uzyskując oktet.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "chem7-pp-054",
+   "type": "cloze",
+   "text": "Związki jonowe, np. NaCl, w temperaturze pokojowej są ciałami stałymi o {{wysokiej}} temperaturze topnienia.",
+   "hint": "niskiej czy wysokiej?",
+   "explanation": "Silne przyciąganie jonów wymaga dużej energii, by je rozdzielić.",
+   "category": "chem7_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.11"
+  },
+  {
+   "id": "chem7-pp-055",
+   "type": "qa",
+   "question": "Które związki, jonowe czy kowalencyjne, przewodzą prąd po rozpuszczeniu w wodzie lub stopieniu?",
+   "answer": "jonowe",
+   "accept": [
+    "związki jonowe"
+   ],
+   "explanation": "Prąd przewodzą swobodne jony; związki kowalencyjne zwykle go nie przewodzą.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.11"
+  },
+  {
+   "id": "chem7-pp-056",
+   "type": "qa",
+   "question": "Jaka jest maksymalna wartościowość względem tlenu pierwiastka z grupy 15, np. azotu?",
+   "answer": "V",
+   "accept": [
+    "5",
+    "pięć"
+   ],
+   "explanation": "Dla grup 13–17 maksymalna wartościowość względem tlenu = numer grupy − 10.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.12"
+  },
+  {
+   "id": "chem7-pp-057",
+   "type": "qa",
+   "question": "Jaka jest wartościowość względem wodoru pierwiastka z grupy 16, np. siarki w H2S?",
+   "answer": "II",
+   "accept": [
+    "2",
+    "dwa"
+   ],
+   "explanation": "Dla grup 14–17 wartościowość względem wodoru = 18 − numer grupy.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.12"
+  },
+  {
+   "id": "chem7-pp-058",
+   "type": "qa",
+   "question": "Podaj wzór sumaryczny tlenku glinu, w którym glin jest trójwartościowy.",
+   "answer": "Al2O3",
+   "accept": [],
+   "explanation": "Krzyżujemy wartościowości: Al(III) i O(II) dają Al2O3.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.13"
+  },
+  {
+   "id": "chem7-pp-059",
+   "type": "qa",
+   "question": "Jak nazywa się tlenek o wzorze SO3?",
+   "answer": "tlenek siarki(VI)",
+   "accept": [
+    "tlenek siarki VI",
+    "tlenek siarki 6",
+    "tlenek siarki (VI)"
+   ],
+   "explanation": "Siarka ma tu wartościowość VI: 3 atomy tlenu po II.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.13"
+  },
+  {
+   "id": "chem7-pp-060",
+   "type": "qa",
+   "question": "Czy topnienie lodu to zjawisko fizyczne, czy reakcja chemiczna?",
+   "answer": "zjawisko fizyczne",
+   "accept": [
+    "fizyczne",
+    "zjawisko"
+   ],
+   "explanation": "Zmienia się tylko stan skupienia; woda pozostaje wodą.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chem7-pp-061",
+   "type": "qa",
+   "question": "Czy rdzewienie żelaza to zjawisko fizyczne, czy reakcja chemiczna?",
+   "answer": "reakcja chemiczna",
+   "accept": [
+    "chemiczna",
+    "reakcja"
+   ],
+   "explanation": "Powstaje nowa substancja (rdza) o innych właściwościach niż żelazo.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chem7-pp-062",
+   "type": "cloze",
+   "text": "W {{reakcji chemicznej}} powstają nowe substancje, a w zjawisku fizycznym substancja pozostaje ta sama.",
+   "hint": "przemiana chemiczna",
+   "explanation": "Np. spalanie drewna to reakcja, a łamanie patyka to zjawisko fizyczne.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chem7-pp-063",
+   "type": "qa",
+   "question": "Jak nazywają się substancje powstające w reakcji chemicznej, zapisywane po prawej stronie równania?",
+   "answer": "produkty",
+   "accept": [
+    "produkt"
+   ],
+   "explanation": "Substancje po lewej stronie, wchodzące do reakcji, to substraty.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chem7-pp-064",
+   "type": "cloze",
+   "text": "Uzupełnij współczynnik: 2 Mg + O2 → {{2}} MgO.",
+   "hint": "ile cząsteczek MgO?",
+   "explanation": "Liczba atomów każdego pierwiastka musi być równa po obu stronach.",
+   "category": "chem7_reactions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chem7-pp-065",
+   "type": "cloze",
+   "text": "Prawo {{zachowania masy}}: łączna masa substratów równa się łącznej masie produktów reakcji.",
+   "hint": "masa się nie zmienia",
+   "explanation": "Dlatego dobieramy współczynniki stechiometryczne w równaniach.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chem7-pp-066",
+   "type": "qa",
+   "question": "Jak nazywa się reakcja, w której wydziela się energia, np. spalanie?",
+   "answer": "egzotermiczna",
+   "accept": [
+    "reakcja egzotermiczna",
+    "egzoenergetyczna"
+   ],
+   "explanation": "Egzotermiczna = wydziela ciepło do otoczenia.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "chem7-pp-067",
+   "type": "qa",
+   "question": "Jak nazywa się reakcja wymagająca ciągłego dostarczania energii, np. rozkład węglanu wapnia?",
+   "answer": "endotermiczna",
+   "accept": [
+    "reakcja endotermiczna",
+    "endoenergetyczna"
+   ],
+   "explanation": "Endotermiczna = pochłania ciepło z otoczenia.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "chem7-pp-068",
+   "type": "qa",
+   "question": "Jak nazywa się substancja, która przyspiesza reakcję chemiczną, ale sama się w niej nie zużywa?",
+   "answer": "katalizator",
+   "accept": [],
+   "explanation": "Np. tlenek manganu(IV) przyspiesza rozkład nadtlenku wodoru.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "chem7-pp-069",
+   "type": "qa",
+   "question": "Czym wykrywa się obecność tlenu w probówce?",
+   "answer": "żarzącym się łuczywkiem",
+   "accept": [
+    "łuczywko",
+    "żarzące się łuczywko",
+    "łuczywkiem"
+   ],
+   "explanation": "Żarzące się łuczywko w tlenie rozpala się jasnym płomieniem.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "chem7-pp-070",
+   "type": "qa",
+   "question": "Z rozkładu jakiego związku, z tlenkiem manganu(IV) jako katalizatorem, otrzymuje się tlen w laboratorium?",
+   "answer": "nadtlenek wodoru",
+   "accept": [
+    "H2O2",
+    "woda utleniona",
+    "nadtlenku wodoru"
+   ],
+   "explanation": "2 H2O2 → 2 H2O + O2; tlen otrzymuje się też z rozkładu KMnO4.",
+   "category": "chem7_air",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "chem7-pp-071",
+   "type": "cloze",
+   "text": "Produkt spalania magnezu w tlenie: 2 Mg + O2 → 2 {{MgO}}.",
+   "hint": "tlenek magnezu",
+   "explanation": "Magnez spala się oślepiająco białym płomieniem, dając biały proszek.",
+   "category": "chem7_air",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "chem7-pp-072",
+   "type": "qa",
+   "question": "Z jakiego tlenku zbudowane są głównie piasek i kwarc?",
+   "answer": "tlenek krzemu(IV)",
+   "accept": [
+    "SiO2",
+    "tlenek krzemu IV",
+    "tlenek krzemu",
+    "krzemionka"
+   ],
+   "explanation": "SiO2 ma bardzo wysoką temperaturę topnienia i służy do produkcji szkła.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "chem7-pp-073",
+   "type": "qa",
+   "question": "Jakie związki, stosowane dawniej w lodówkach i aerozolach, spowodowały powstanie dziury ozonowej?",
+   "answer": "freony",
+   "accept": [
+    "freon"
+   ],
+   "explanation": "Zakaz stosowania freonów (protokół montrealski) pozwolił warstwie ozonowej się odbudowywać.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "chem7-pp-074",
+   "type": "qa",
+   "question": "Jak nazywa się proces niszczenia metali pod wpływem tlenu i wilgoci, np. rdzewienie żelaza?",
+   "answer": "korozja",
+   "accept": [
+    "rdzewienie"
+   ],
+   "explanation": "Przed korozją chroni m.in. malowanie, smarowanie i pokrywanie innym metalem.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "chem7-pp-075",
+   "type": "qa",
+   "question": "Jakim odczynnikiem wykrywa się dwutlenek węgla, który powoduje jego zmętnienie?",
+   "answer": "woda wapienna",
+   "accept": [
+    "wodą wapienną",
+    "wodą wapienną (mętnieje)"
+   ],
+   "explanation": "CO2 reaguje z wodą wapienną, tworząc biały osad węglanu wapnia.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "chem7-pp-076",
+   "type": "qa",
+   "question": "Jaki gaz wydziela się w reakcji węglanu wapnia z kwasem solnym?",
+   "answer": "dwutlenek węgla",
+   "accept": [
+    "CO2",
+    "tlenek węgla(IV)",
+    "tlenek węgla IV"
+   ],
+   "explanation": "CaCO3 + 2 HCl → CaCl2 + H2O + CO2.",
+   "category": "chem7_air",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "chem7-pp-077",
+   "type": "cloze",
+   "text": "Nadmierna emisja CO2 nasila {{efekt cieplarniany}} i prowadzi do globalnego ocieplenia.",
+   "hint": "zatrzymywanie ciepła w atmosferze",
+   "explanation": "CO2 jest potrzebny roślinom do fotosyntezy, ale jego nadmiar ogrzewa klimat.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "chem7-pp-078",
+   "type": "qa",
+   "question": "Jaki gaz otrzymuje się w reakcji cynku z kwasem solnym?",
+   "answer": "wodór",
+   "accept": [
+    "H2"
+   ],
+   "explanation": "Zn + 2 HCl → ZnCl2 + H2; wodór jest najlżejszym gazem.",
+   "category": "chem7_air",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "chem7-pp-079",
+   "type": "qa",
+   "question": "Jak nazywa się trujący gaz H2S o zapachu zgniłych jaj?",
+   "answer": "siarkowodór",
+   "accept": [],
+   "explanation": "Siarkowodór jest wodorkiem niemetalu, podobnie jak amoniak NH3 i chlorowodór HCl.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "chem7-pp-080",
+   "type": "cloze",
+   "text": "Wodny roztwór chlorowodoru HCl to {{kwas solny}}, obecny m.in. w soku żołądkowym.",
+   "hint": "kwas w żołądku",
+   "explanation": "Chlorowodór to gaz bardzo dobrze rozpuszczalny w wodzie.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "chem7-pp-081",
+   "type": "qa",
+   "question": "Jaki gaz stanowi około 78% objętości powietrza?",
+   "answer": "azot",
+   "accept": [
+    "N2"
+   ],
+   "explanation": "Azot jest głównym, mało aktywnym składnikiem powietrza.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "chem7-pp-082",
+   "type": "qa",
+   "question": "Ile procent objętości powietrza stanowi tlen?",
+   "answer": "21%",
+   "accept": [
+    "21",
+    "około 21%",
+    "ok. 21%",
+    "ok 21"
+   ],
+   "explanation": "Pozostały ok. 1% to argon, dwutlenek węgla i inne gazy.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "chem7-pp-083",
+   "type": "cloze",
+   "text": "Powietrze to {{mieszanina}} gazów, a nie związek chemiczny, dlatego jego składniki można rozdzielić destylacją skroplonego powietrza.",
+   "hint": "nie związek, lecz...",
+   "explanation": "Skład powietrza może się nieco zmieniać, np. zawartość pary wodnej.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "chem7-pp-084",
+   "type": "qa",
+   "question": "Do której grupy układu okresowego należą gazy szlachetne?",
+   "answer": "18",
+   "accept": [
+    "osiemnastej",
+    "grupa 18",
+    "XVIII"
+   ],
+   "explanation": "Hel, neon, argon, krypton, ksenon i radon mają zapełnioną zewnętrzną powłokę.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "chem7-pp-085",
+   "type": "qa",
+   "question": "Jaki gaz szlachetny, lżejszy od powietrza i niepalny, wypełnia balony i sterowce?",
+   "answer": "hel",
+   "accept": [
+    "He"
+   ],
+   "explanation": "Neon świeci w reklamach, argon wypełnia żarówki.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "chem7-pp-086",
+   "type": "qa",
+   "question": "Jak nazywa się mieszanina dymu, pyłów i mgły gromadząca się nad miastami, głównie ze spalania paliw?",
+   "answer": "smog",
+   "accept": [],
+   "explanation": "Smog zawiera m.in. pyły zawieszone PM10 i PM2,5 oraz tlenki siarki i azotu.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "chem7-pp-087",
+   "type": "qa",
+   "question": "Tlenki jakich dwóch pierwiastków, emitowane ze spalania paliw, są główną przyczyną kwaśnych opadów?",
+   "answer": "siarki i azotu",
+   "accept": [
+    "tlenki siarki i azotu",
+    "siarka i azot",
+    "azotu i siarki"
+   ],
+   "explanation": "SO2 i NOx reagują z wodą w atmosferze, tworząc kwasy.",
+   "category": "chem7_air",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "chem7-pp-088",
+   "type": "cloze",
+   "text": "Cząsteczka wody jest {{dipolem/polarna}}: ma biegun dodatni przy atomach wodoru i ujemny przy atomie tlenu.",
+   "hint": "ma dwa bieguny",
+   "explanation": "Budowa polarna sprawia, że woda dobrze rozpuszcza związki jonowe i substancje polarne.",
+   "category": "chem7_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "chem7-pp-089",
+   "type": "qa",
+   "question": "Jaki rodzaj mieszaniny tworzy mąka z wodą, której cząstki po pewnym czasie opadają na dno?",
+   "answer": "zawiesina",
+   "accept": [
+    "zawiesinę"
+   ],
+   "explanation": "Zawiesina jest mieszaniną niejednorodną; podobnie zachowuje się piasek w wodzie.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "chem7-pp-090",
+   "type": "qa",
+   "question": "Jaki rodzaj mieszaniny tworzy białko jaja z wodą, w której cząstki nie opadają, ale rozpraszają światło?",
+   "answer": "koloid",
+   "accept": [
+    "roztwór koloidalny",
+    "koloidalny"
+   ],
+   "explanation": "Koloidy to też mleko, żelatyna i mgła.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "chem7-pp-091",
+   "type": "qa",
+   "question": "Która woda zawiera najwięcej rozpuszczonych soli: wodociągowa, mineralna czy morska?",
+   "answer": "morska",
+   "accept": [
+    "woda morska"
+   ],
+   "explanation": "Woda morska zawiera ok. 3,5% soli, głównie chlorku sodu.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chem7-pp-092",
+   "type": "cloze",
+   "text": "Rozdrobnienie substancji, mieszanie i podwyższenie {{temperatury}} przyspieszają rozpuszczanie ciał stałych w wodzie.",
+   "hint": "ogrzewanie",
+   "explanation": "Cukier w gorącej herbacie rozpuszcza się szybciej niż w zimnej.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "chem7-pp-093",
+   "type": "qa",
+   "question": "Jak nazywa się roztwór, w którym w danej temperaturze nie można już rozpuścić więcej substancji?",
+   "answer": "nasycony",
+   "accept": [
+    "roztwór nasycony"
+   ],
+   "explanation": "Po dodaniu kolejnej porcji substancja opada na dno.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "chem7-pp-094",
+   "type": "qa",
+   "question": "Rozpuszczalność to maksymalna masa substancji, jaka rozpuszcza się w danej temperaturze w jakiej masie wody?",
+   "answer": "100 g",
+   "accept": [
+    "100 g wody",
+    "100",
+    "100 gramach wody",
+    "w 100 g wody"
+   ],
+   "explanation": "Rozpuszczalność podaje się w g na 100 g wody, dla określonej temperatury.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "chem7-pp-095",
+   "type": "cloze",
+   "text": "Roztwór, w którym w danej temperaturze można jeszcze rozpuścić dodatkową porcję substancji, to roztwór {{nienasycony}}.",
+   "hint": "przeciwieństwo nasyconego",
+   "explanation": "Roztwór nienasycony można nasycić, dodając substancję lub odparowując wodę.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "chem7-pp-096",
+   "type": "qa",
+   "question": "Rozpuszczalność azotanu(V) potasu w 20 °C wynosi 32 g/100 g wody. Ile gramów tej soli rozpuści się w 200 g wody?",
+   "answer": "64 g",
+   "accept": [
+    "64",
+    "64g",
+    "64 gramy"
+   ],
+   "explanation": "Dwa razy więcej wody rozpuści dwa razy więcej soli: 2 · 32 g = 64 g.",
+   "category": "chem7_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "chem7-pp-097",
+   "type": "cloze",
+   "text": "Rozpuszczalność większości ciał stałych w wodzie {{rośnie/wzrasta/zwiększa się}} wraz ze wzrostem temperatury.",
+   "hint": "rośnie czy maleje?",
+   "explanation": "Dlatego krzywe rozpuszczalności soli na wykresie wznoszą się w prawo.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "chem7-pp-098",
+   "type": "qa",
+   "question": "Jak zmienia się rozpuszczalność gazów w wodzie wraz ze wzrostem temperatury?",
+   "answer": "maleje",
+   "accept": [
+    "zmniejsza się",
+    "spada"
+   ],
+   "explanation": "Dlatego ciepła woda gazowana szybciej traci CO2.",
+   "category": "chem7_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "chem7-pp-099",
+   "type": "cloze",
+   "text": "Stężenie procentowe oblicza się ze wzoru Cp = masa substancji / masa {{roztworu}} · 100%.",
+   "hint": "nie rozpuszczalnika",
+   "explanation": "Masa roztworu = masa substancji + masa rozpuszczalnika.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "chem7-pp-100",
+   "type": "qa",
+   "question": "Oblicz stężenie procentowe roztworu otrzymanego z 10 g soli i 90 g wody.",
+   "answer": "10%",
+   "accept": [
+    "10",
+    "10 procent",
+    "10 %"
+   ],
+   "explanation": "Masa roztworu = 100 g, Cp = 10 g / 100 g · 100% = 10%.",
+   "category": "chem7_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "chem7-pp-101",
+   "type": "qa",
+   "question": "Ile gramów cukru zawiera 200 g roztworu o stężeniu 5%?",
+   "answer": "10 g",
+   "accept": [
+    "10",
+    "10g",
+    "10 gramów"
+   ],
+   "explanation": "ms = 5% · 200 g = 10 g.",
+   "category": "chem7_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "chem7-pp-102",
+   "type": "qa",
+   "question": "Oblicz masę 100 cm3 roztworu o gęstości 1,2 g/cm3.",
+   "answer": "120 g",
+   "accept": [
+    "120",
+    "120g",
+    "120 gramów"
+   ],
+   "explanation": "m = d · V = 1,2 g/cm3 · 100 cm3 = 120 g; gęstość pozwala przeliczyć objętość roztworu na masę.",
+   "category": "chem7_water",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  }
+ ]
+}
