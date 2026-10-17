@@ -332,7 +332,7 @@
       label: 'Niemiecki', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', file: 'data/niemiecki-7.json', lang: 'de-pl', vocab: true,
       types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'de7_other', typeLabels: { awl_word: 'Słówko' },
     },
-    informatyka_sp7: { label: 'Informatyka', icon: '💻', tagline: 'Pojęcia, algorytmy i programy', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'inf7_other' },
+    informatyka_sp7: { label: 'Informatyka', icon: '💻', tagline: 'Pojęcia, algorytmy i programy', file: 'data/informatyka-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'inf7_other' },
     edukacja_zdrowotna_sp7: { label: 'Edukacja zdrowotna', icon: '🩺', tagline: 'Zdrowie fizyczne, psychiczne i społeczne', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'ez7_other' },
   };
   // Nazwa języka obcego w poleceniach ćwiczeń ze słówkami („Napisz po …”).

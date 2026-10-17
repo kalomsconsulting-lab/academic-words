@@ -1,0 +1,1319 @@
+{
+ "version": 1,
+ "subject": "informatyka_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, informatyka, klasy VII–VIII (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996); działy I–V bloku VII–VIII, zakres klasy 7 wg typowego rozkładu materiału",
+ "items": [
+  {
+   "id": "inf7-pp-001",
+   "type": "qa",
+   "question": "Jak nazywa się opis problemu, który podaje, jakie są dane wejściowe i jaki ma być wynik?",
+   "answer": "specyfikacja",
+   "accept": [
+    "specyfikacja problemu"
+   ],
+   "explanation": "Specyfikacja zawiera opis danych, wyniku i warunków, jakie muszą spełniać.",
+   "category": "inf7_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "inf7-pp-002",
+   "type": "cloze",
+   "text": "Skończony ciąg jasno określonych kroków prowadzących do rozwiązania problemu to {{algorytm}}.",
+   "hint": "a jak przepis kucharski",
+   "explanation": "Algorytm można zapisać w języku naturalnym, jako listę kroków, schemat blokowy lub program.",
+   "category": "inf7_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "inf7-pp-003",
+   "type": "qa",
+   "question": "Jak nazywa się graficzny sposób zapisu algorytmu z użyciem prostokątów, rombów i strzałek?",
+   "answer": "schemat blokowy",
+   "accept": [
+    "schemat blokowy algorytmu",
+    "schemat"
+   ],
+   "explanation": "Prostokąt to operacja, romb to warunek, a strzałki wskazują kolejność kroków.",
+   "category": "inf7_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "inf7-pp-004",
+   "type": "qa",
+   "question": "Jaki kształt ma w schemacie blokowym blok warunkowy (decyzyjny), z którego wychodzą gałęzie TAK i NIE?",
+   "answer": "romb",
+   "accept": [
+    "rombu",
+    "romb (blok decyzyjny)"
+   ],
+   "explanation": "Początek i koniec algorytmu rysuje się jako owal, operacje jako prostokąt, a warunek jako romb.",
+   "category": "inf7_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "inf7-pp-005",
+   "type": "cloze",
+   "text": "Liczba naturalna jest podzielna przez 3, gdy przez 3 podzielna jest {{suma cyfr}} tej liczby.",
+   "hint": "cecha podzielności, dodaj cyfry",
+   "explanation": "Np. 234: 2 + 3 + 4 = 9, a 9 dzieli się przez 3, więc 234 dzieli się przez 3. W programie sprawdza się to warunkiem n % 3 == 0.",
+   "category": "inf7_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "inf7-pp-006",
+   "type": "qa",
+   "question": "Jaki wynik daje w Pythonie wyrażenie 17 % 5 (reszta z dzielenia)?",
+   "answer": "2",
+   "accept": [
+    "dwa"
+   ],
+   "explanation": "Operator % zwraca resztę z dzielenia: 17 = 3 · 5 + 2. Liczba jest podzielna przez k, gdy n % k == 0.",
+   "category": "inf7_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "inf7-pp-007",
+   "type": "qa",
+   "question": "Jaką operacją wyodrębnia się ostatnią cyfrę liczby naturalnej n w programie?",
+   "answer": "n % 10",
+   "accept": [
+    "reszta z dzielenia przez 10",
+    "n mod 10",
+    "n%10"
+   ],
+   "explanation": "Reszta z dzielenia przez 10 to ostatnia cyfra; n // 10 (dzielenie całkowite) odrzuca ją, co pozwala przejść do kolejnej cyfry.",
+   "category": "inf7_algorithms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "inf7-pp-008",
+   "type": "qa",
+   "question": "Co oblicza algorytm Euklidesa?",
+   "answer": "największy wspólny dzielnik",
+   "accept": [
+    "NWD",
+    "nwd",
+    "największy wspólny dzielnik dwóch liczb"
+   ],
+   "explanation": "W wersji z odejmowaniem od większej liczby odejmuje się mniejszą, aż obie będą równe; w wersji z resztą zastępuje się parę (a, b) parą (b, a % b), aż b = 0.",
+   "category": "inf7_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "inf7-pp-009",
+   "type": "qa",
+   "question": "Jaki jest wynik algorytmu Euklidesa dla liczb 48 i 18?",
+   "answer": "6",
+   "accept": [
+    "sześć",
+    "NWD = 6"
+   ],
+   "explanation": "48 % 18 = 12, 18 % 12 = 6, 12 % 6 = 0, więc NWD(48, 18) = 6.",
+   "category": "inf7_algorithms",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.2a"
+  },
+  {
+   "id": "inf7-pp-010",
+   "type": "qa",
+   "question": "Jak nazywa się metoda wyszukiwania elementu w zbiorze nieuporządkowanym polegająca na sprawdzaniu kolejno każdego elementu?",
+   "answer": "wyszukiwanie liniowe",
+   "accept": [
+    "przeszukiwanie liniowe",
+    "wyszukiwanie sekwencyjne",
+    "liniowe"
+   ],
+   "explanation": "W zbiorze nieuporządkowanym w najgorszym razie trzeba obejrzeć wszystkie elementy.",
+   "category": "inf7_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2b"
+  },
+  {
+   "id": "inf7-pp-011",
+   "type": "cloze",
+   "text": "Sortowanie przez proste {{wybieranie}} polega na znalezieniu najmniejszego elementu i zamianie go z pierwszym, a potem powtarzaniu tego dla reszty.",
+   "hint": "selection sort",
+   "explanation": "W każdym przebiegu wybiera się najmniejszy (lub największy) element z nieposortowanej części.",
+   "category": "inf7_algorithms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2b"
+  },
+  {
+   "id": "inf7-pp-012",
+   "type": "qa",
+   "question": "Ile zamian wykona sortowanie przez proste wybieranie (rosnąco) dla listy 5, 1, 3, jeśli zamienia w każdym przebiegu?",
+   "answer": "2",
+   "accept": [
+    "dwie",
+    "2 zamiany"
+   ],
+   "explanation": "Przebieg 1: najmniejsze 1 zamieniamy z 5, mamy 1, 5, 3. Przebieg 2: najmniejsze z (5, 3) to 3, mamy 1, 3, 5.",
+   "category": "inf7_algorithms",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.2b"
+  },
+  {
+   "id": "inf7-pp-013",
+   "type": "qa",
+   "question": "Jaką liczbę dziesiętną przedstawia zapis binarny 1011?",
+   "answer": "11",
+   "accept": [
+    "jedenaście"
+   ],
+   "explanation": "1·8 + 0·4 + 1·2 + 1·1 = 11.",
+   "category": "inf7_computer",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "inf7-pp-014",
+   "type": "qa",
+   "question": "Jak nazywa się kod, w którym każdemu znakowi (np. literze A) przypisano liczbę, np. 65?",
+   "answer": "ASCII",
+   "accept": [
+    "kod ASCII",
+    "ascii"
+   ],
+   "explanation": "ASCII koduje 128 znaków na 7 bitach; np. A = 65, a = 97, spacja = 32. Tekst w komputerze to ciąg takich kodów.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "inf7-pp-015",
+   "type": "qa",
+   "question": "Jakie dwie wartości może przyjmować wartość logiczna?",
+   "answer": "prawda i fałsz",
+   "accept": [
+    "prawda, fałsz",
+    "True i False",
+    "true false",
+    "1 i 0",
+    "prawda fałsz"
+   ],
+   "explanation": "W Pythonie to True i False; w komputerze zapisuje się je jako 1 i 0 (jeden bit).",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "inf7-pp-016",
+   "type": "qa",
+   "question": "Jak nazywa się w programie nazwane miejsce w pamięci, w którym przechowuje się wartość, np. wiek = 13?",
+   "answer": "zmienna",
+   "accept": [
+    "zmienne"
+   ],
+   "explanation": "Zmienna ma nazwę i wartość, którą program może odczytywać i zmieniać.",
+   "category": "inf7_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-017",
+   "type": "qa",
+   "question": "Jaka funkcja Pythona wczytuje tekst wpisany przez użytkownika z klawiatury?",
+   "answer": "input()",
+   "accept": [
+    "input",
+    "input( )"
+   ],
+   "explanation": "input() zwraca tekst; aby otrzymać liczbę, trzeba go przekształcić, np. int(input()).",
+   "category": "inf7_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-018",
+   "type": "qa",
+   "question": "Jaka funkcja Pythona wypisuje tekst na ekranie?",
+   "answer": "print()",
+   "accept": [
+    "print"
+   ],
+   "explanation": "Np. print(\"Cześć\") wyświetla napis Cześć. To instrukcja wyjścia.",
+   "category": "inf7_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-019",
+   "type": "qa",
+   "question": "Co wypisze w Pythonie instrukcja print(7 // 2)?",
+   "answer": "3",
+   "accept": [
+    "trzy"
+   ],
+   "explanation": "Operator // to dzielenie całkowite (bez reszty); 7 / 2 dałoby 3.5, a 7 % 2 dałoby 1.",
+   "category": "inf7_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-020",
+   "type": "qa",
+   "question": "Jaką wartość ma w Pythonie wyrażenie logiczne (5 > 3) and (2 > 4)?",
+   "answer": "False",
+   "accept": [
+    "fałsz",
+    "false"
+   ],
+   "explanation": "Koniunkcja (and) jest prawdziwa tylko wtedy, gdy oba warunki są prawdziwe; 2 > 4 jest fałszem.",
+   "category": "inf7_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-021",
+   "type": "cloze",
+   "text": "Instrukcja warunkowa w Pythonie zaczyna się słowem {{if}}, a wariant wykonywany w przeciwnym razie wprowadza słowo else.",
+   "hint": "po angielsku „jeżeli”",
+   "explanation": "Np.: if x > 0: print(\"dodatnia\") else: print(\"niedodatnia\"). W Scratchu to blok „jeżeli … to … w przeciwnym razie”.",
+   "category": "inf7_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-022",
+   "type": "qa",
+   "question": "Ile razy wykona się ciało pętli for i in range(5) w Pythonie?",
+   "answer": "5",
+   "accept": [
+    "pięć",
+    "5 razy"
+   ],
+   "explanation": "range(5) daje liczby 0, 1, 2, 3, 4, czyli pięć wartości.",
+   "category": "inf7_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-023",
+   "type": "qa",
+   "question": "Jaka pętla w Pythonie powtarza instrukcje tak długo, jak długo warunek jest prawdziwy?",
+   "answer": "while",
+   "accept": [
+    "pętla while"
+   ],
+   "explanation": "Np. while n > 0: n = n - 1. W Scratchu podobnie działa blok „powtarzaj aż”.",
+   "category": "inf7_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-024",
+   "type": "qa",
+   "question": "Jakim słowem kluczowym definiuje się własną funkcję w Pythonie?",
+   "answer": "def",
+   "accept": [
+    "def()"
+   ],
+   "explanation": "Np. def pole(a, b): return a * b. Funkcja grupuje instrukcje pod jedną nazwą i może zwracać wynik przez return.",
+   "category": "inf7_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-025",
+   "type": "qa",
+   "question": "Jaką wartość zwróci w Pythonie wywołanie len([3, 8, 1, 4])?",
+   "answer": "4",
+   "accept": [
+    "cztery"
+   ],
+   "explanation": "len() zwraca liczbę elementów listy (tablicy). Elementy numeruje się od 0, więc [3, 8, 1, 4][0] to 3.",
+   "category": "inf7_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-026",
+   "type": "qa",
+   "question": "Jaki element listy t = [10, 20, 30] zwróci wyrażenie t[1] w Pythonie?",
+   "answer": "20",
+   "accept": [
+    "dwadzieścia"
+   ],
+   "explanation": "Indeksy listy zaczynają się od 0: t[0] = 10, t[1] = 20, t[2] = 30.",
+   "category": "inf7_programming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-027",
+   "type": "qa",
+   "question": "Jak nazywa się sprawdzanie programu na przykładowych danych w celu wykrycia błędów?",
+   "answer": "testowanie",
+   "accept": [
+    "testowanie programu",
+    "testy",
+    "test"
+   ],
+   "explanation": "Podstawa wymaga, aby uczeń projektował, tworzył i testował programy; wykryte błędy poprawia się (debugowanie).",
+   "category": "inf7_programming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "inf7-pp-028",
+   "type": "qa",
+   "question": "Jak nazywa się operacja wycięcia z fotografii tylko potrzebnego fragmentu?",
+   "answer": "kadrowanie",
+   "accept": [
+    "kadrowanie zdjęcia",
+    "przycinanie",
+    "przycięcie"
+   ],
+   "explanation": "Kadrowanie usuwa zbędne brzegi i poprawia kompozycję zdjęcia.",
+   "category": "inf7_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3a"
+  },
+  {
+   "id": "inf7-pp-029",
+   "type": "qa",
+   "question": "Jak nazywa się najmniejszy punkt obrazu cyfrowego, z których składa się zdjęcie?",
+   "answer": "piksel",
+   "accept": [
+    "pixel",
+    "piksele"
+   ],
+   "explanation": "Rozdzielczość obrazu to liczba pikseli, np. 1920 × 1080.",
+   "category": "inf7_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3a"
+  },
+  {
+   "id": "inf7-pp-030",
+   "type": "qa",
+   "question": "Jaki popularny format pliku stosuje się do zapisu zdjęć ze stratną kompresją?",
+   "answer": "JPEG",
+   "accept": [
+    "jpg",
+    "jpeg",
+    ".jpg"
+   ],
+   "explanation": "JPG daje małe pliki kosztem jakości; PNG zachowuje pełną jakość i przezroczystość.",
+   "category": "inf7_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3a"
+  },
+  {
+   "id": "inf7-pp-031",
+   "type": "qa",
+   "question": "Jak nazywa się czynność łączenia ujęć filmowych, przycinania ich i dodawania dźwięku?",
+   "answer": "montaż",
+   "accept": [
+    "montaż filmu",
+    "montaż wideo",
+    "edycja wideo"
+   ],
+   "explanation": "Podstawowa obróbka filmu to przycięcie klipów, ułożenie ich na osi czasu, dodanie napisów i muzyki.",
+   "category": "inf7_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3a"
+  },
+  {
+   "id": "inf7-pp-032",
+   "type": "qa",
+   "question": "Co robi skrót klawiszowy Ctrl+B w edytorze tekstu?",
+   "answer": "pogrubienie",
+   "accept": [
+    "pogrubienie tekstu",
+    "pogrubia tekst",
+    "pogrubia"
+   ],
+   "explanation": "Ctrl+I to kursywa, Ctrl+U to podkreślenie.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-033",
+   "type": "cloze",
+   "text": "Zestaw znaków o jednolitym kroju, np. Arial lub Times New Roman, to {{czcionka}}.",
+   "hint": "krój pisma",
+   "explanation": "Czcionkę opisuje nazwa kroju, rozmiar (w punktach) i styl (pogrubienie, kursywa).",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-034",
+   "type": "qa",
+   "question": "Jak nazywa się gotowy zestaw ustawień formatowania (np. „Nagłówek 1”), który stosuje się do akapitu jednym kliknięciem?",
+   "answer": "styl",
+   "accept": [
+    "style",
+    "styl akapitu"
+   ],
+   "explanation": "Dzięki stylom nagłówków można automatycznie utworzyć spis treści.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-035",
+   "type": "qa",
+   "question": "Jaki skrót klawiszowy wstawia w edytorze tekstu ręczny podział strony?",
+   "answer": "Ctrl+Enter",
+   "accept": [
+    "ctrl enter",
+    "ctrl + enter"
+   ],
+   "explanation": "Dłuższe dokumenty dzieli się na strony podziałem strony, a nie wieloma pustymi akapitami.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-036",
+   "type": "qa",
+   "question": "Jak nazywa się wyrównanie tekstu, przy którym obie krawędzie akapitu, lewa i prawa, są równe?",
+   "answer": "wyjustowanie",
+   "accept": [
+    "justowanie",
+    "do lewej i prawej",
+    "wyjustowany",
+    "justuj"
+   ],
+   "explanation": "Pozostałe wyrównania to do lewej, do prawej i wyśrodkowanie.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-037",
+   "type": "qa",
+   "question": "Jak nazywa się obszar na górze każdej strony dokumentu, w którym można umieścić np. tytuł?",
+   "answer": "nagłówek",
+   "accept": [
+    "nagłówek strony"
+   ],
+   "explanation": "Na dole strony jest stopka, często z numerem strony.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-038",
+   "type": "qa",
+   "question": "Jak nazywają się pola tabeli w dokumencie tekstowym, leżące na przecięciu wierszy i kolumn?",
+   "answer": "komórki",
+   "accept": [
+    "komórka"
+   ],
+   "explanation": "Tabela ma wiersze i kolumny, a na ich przecięciu komórki; komórki można scalać i dzielić.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-039",
+   "type": "qa",
+   "question": "Jaką funkcją edytora tekstu wstawia się do dokumentu znak, którego nie ma na klawiaturze, np. ©, π lub €?",
+   "answer": "wstaw symbol",
+   "accept": [
+    "symbol",
+    "wstawianie symbolu",
+    "wstaw symbole",
+    "znak specjalny"
+   ],
+   "explanation": "W Wordzie: Wstawianie, Symbol; w LibreOffice: Wstaw, Znak specjalny.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3b"
+  },
+  {
+   "id": "inf7-pp-040",
+   "type": "qa",
+   "question": "Jak nazywa się pojedyncze pole arkusza kalkulacyjnego powstałe na przecięciu kolumny i wiersza?",
+   "answer": "komórka",
+   "accept": [
+    "komórka arkusza"
+   ],
+   "explanation": "Komórkę opisuje adres, np. B3 (kolumna B, wiersz 3).",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-041",
+   "type": "qa",
+   "question": "Jakim znakiem rozpoczyna się każda formuła w arkuszu kalkulacyjnym?",
+   "answer": "=",
+   "accept": [
+    "znak równości",
+    "znakiem równości",
+    "równa się"
+   ],
+   "explanation": "Np. =A1+A2 albo =SUMA(A1:A10).",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-042",
+   "type": "qa",
+   "question": "Jaka funkcja arkusza kalkulacyjnego oblicza sumę wartości z zakresu komórek?",
+   "answer": "SUMA",
+   "accept": [
+    "=SUMA",
+    "SUM",
+    "suma()"
+   ],
+   "explanation": "Np. =SUMA(B2:B10) dodaje wartości z komórek od B2 do B10. Inne podstawowe funkcje: ŚREDNIA, MIN, MAX, ILE.LICZB.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-043",
+   "type": "qa",
+   "question": "Jaka funkcja arkusza kalkulacyjnego oblicza średnią arytmetyczną zakresu?",
+   "answer": "ŚREDNIA",
+   "accept": [
+    "=ŚREDNIA",
+    "AVERAGE",
+    "średnia()"
+   ],
+   "explanation": "Np. =ŚREDNIA(C2:C6). Wynik to suma wartości podzielona przez ich liczbę.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-044",
+   "type": "qa",
+   "question": "Jak nazywa się adres komórki w postaci A1, który po skopiowaniu formuły do innej komórki zmienia się odpowiednio?",
+   "answer": "adres względny",
+   "accept": [
+    "adresowanie względne",
+    "względny",
+    "względne"
+   ],
+   "explanation": "Po skopiowaniu formuły =A1*2 z B1 do B2 otrzymamy =A2*2.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-045",
+   "type": "qa",
+   "question": "Jak nazywa się adres komórki w postaci $A$1, który nie zmienia się przy kopiowaniu formuły?",
+   "answer": "adres bezwzględny",
+   "accept": [
+    "adresowanie bezwzględne",
+    "bezwzględny",
+    "bezwzględne"
+   ],
+   "explanation": "Znak $ blokuje kolumnę i wiersz; stosuje się go np. do komórki ze stałym kursem lub stawką VAT.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-046",
+   "type": "qa",
+   "question": "Jak nazywa się adres komórki w postaci A$1 lub $A1, w którym zablokowany jest tylko wiersz albo tylko kolumna?",
+   "answer": "adres mieszany",
+   "accept": [
+    "adresowanie mieszane",
+    "mieszany",
+    "mieszane"
+   ],
+   "explanation": "Przydaje się np. do tworzenia tabliczki mnożenia jedną formułą: =$A2*B$1.",
+   "category": "inf7_office",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-047",
+   "type": "qa",
+   "question": "Formułę =A1*$B$1 skopiowano z komórki C1 do komórki C2. Jaką postać przyjmie w C2?",
+   "answer": "=A2*$B$1",
+   "accept": [
+    "A2*$B$1",
+    "= A2 * $B$1"
+   ],
+   "explanation": "Adres względny A1 przesunął się o jeden wiersz w dół na A2, a adres bezwzględny $B$1 pozostał bez zmian.",
+   "category": "inf7_office",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-048",
+   "type": "qa",
+   "question": "Jaki typ wykresu najlepiej pokazuje, jaką część całości stanowią poszczególne dane (np. udział procentowy)?",
+   "answer": "kołowy",
+   "accept": [
+    "wykres kołowy",
+    "kołowy wykres"
+   ],
+   "explanation": "Wykres kolumnowy porównuje wartości, liniowy pokazuje zmiany w czasie, a kołowy udziały w całości.",
+   "category": "inf7_office",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-049",
+   "type": "qa",
+   "question": "Jak nazywa się narzędzie arkusza, które ukrywa wiersze niespełniające wybranego warunku, np. pokazuje tylko oceny powyżej 4?",
+   "answer": "filtr",
+   "accept": [
+    "filtrowanie",
+    "filtr danych",
+    "autofiltr"
+   ],
+   "explanation": "Sortowanie zmienia kolejność wierszy (rosnąco/malejąco), a filtrowanie pokazuje tylko wybrane.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3c"
+  },
+  {
+   "id": "inf7-pp-050",
+   "type": "qa",
+   "question": "Jak nazywa się pojedyncza „strona” prezentacji multimedialnej?",
+   "answer": "slajd",
+   "accept": [
+    "slajdy"
+   ],
+   "explanation": "Prezentacja składa się ze slajdów z tekstem, grafiką, czasem z dźwiękiem i animacjami.",
+   "category": "inf7_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "inf7-pp-051",
+   "type": "qa",
+   "question": "Jak nazywa się efekt wizualny widoczny przy przechodzeniu z jednego slajdu do następnego?",
+   "answer": "przejście",
+   "accept": [
+    "przejście slajdu",
+    "przejścia",
+    "efekt przejścia"
+   ],
+   "explanation": "Animacje dotyczą obiektów na slajdzie, a przejścia zmiany slajdów.",
+   "category": "inf7_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "inf7-pp-052",
+   "type": "qa",
+   "question": "Jaki język znaczników służy do tworzenia struktury strony internetowej?",
+   "answer": "HTML",
+   "accept": [
+    "html",
+    "język HTML"
+   ],
+   "explanation": "HTML opisuje elementy strony (nagłówki, akapity, obrazy, linki), a CSS jej wygląd.",
+   "category": "inf7_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "inf7-pp-053",
+   "type": "qa",
+   "question": "Jaki znacznik HTML wstawia na stronę obraz?",
+   "answer": "<img>",
+   "accept": [
+    "img",
+    "<img src>",
+    "znacznik img"
+   ],
+   "explanation": "Np. <img src=\"kot.jpg\" alt=\"kot\">. Atrybut src wskazuje plik graficzny.",
+   "category": "inf7_media",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "inf7-pp-054",
+   "type": "qa",
+   "question": "Jaki znacznik HTML tworzy odnośnik (link) do innej strony?",
+   "answer": "<a>",
+   "accept": [
+    "a",
+    "<a href>",
+    "znacznik a",
+    "a href"
+   ],
+   "explanation": "Np. <a href=\"https://zpe.gov.pl\">ZPE</a>. Atrybut href podaje adres docelowy.",
+   "category": "inf7_media",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3d"
+  },
+  {
+   "id": "inf7-pp-055",
+   "type": "qa",
+   "question": "W jakim formacie warto zapisać dokument, aby wyglądał tak samo na każdym urządzeniu i nadawał się do druku?",
+   "answer": "PDF",
+   "accept": [
+    "pdf",
+    ".pdf"
+   ],
+   "explanation": "PDF zachowuje układ, czcionki i grafikę niezależnie od programu, w którym się go otwiera.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "inf7-pp-056",
+   "type": "qa",
+   "question": "Jakie rozszerzenie ma domyślny plik dokumentu tekstowego programu Microsoft Word?",
+   "answer": ".docx",
+   "accept": [
+    "docx",
+    "doc"
+   ],
+   "explanation": "Arkusz Excela to .xlsx, prezentacja PowerPointa to .pptx, a dokument LibreOffice Writer to .odt.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "inf7-pp-057",
+   "type": "qa",
+   "question": "Jak nazywa się orientacja strony, w której strona jest szersza niż wyższa?",
+   "answer": "pozioma",
+   "accept": [
+    "orientacja pozioma",
+    "poziomo",
+    "krajobrazowa"
+   ],
+   "explanation": "Przed wydrukiem ustawia się orientację (pionowa/pozioma), marginesy, rozmiar papieru i zakres stron.",
+   "category": "inf7_office",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "inf7-pp-058",
+   "type": "qa",
+   "question": "W jaki znak należy ująć frazę w wyszukiwarce, aby znaleźć strony zawierające dokładnie ten ciąg słów?",
+   "answer": "cudzysłów",
+   "accept": [
+    "cudzysłowy",
+    "\"",
+    "znak cudzysłowu"
+   ],
+   "explanation": "Np. \"algorytm Euklidesa\" znajduje strony z tą dokładną frazą, a znak minus przed słowem wyklucza je z wyników.",
+   "category": "inf7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "inf7-pp-059",
+   "type": "qa",
+   "question": "Jak nazywa się słowo lub fraza wpisywana w wyszukiwarce w celu znalezienia informacji?",
+   "answer": "słowo kluczowe",
+   "accept": [
+    "słowa kluczowe",
+    "hasło",
+    "zapytanie",
+    "fraza"
+   ],
+   "explanation": "Dobre słowa kluczowe są konkretne, np. „stolica Australii” zamiast całego pytania.",
+   "category": "inf7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "inf7-pp-060",
+   "type": "qa",
+   "question": "Jak nazywa się grupa komputerów i urządzeń połączonych tak, aby mogły wymieniać dane?",
+   "answer": "sieć komputerowa",
+   "accept": [
+    "sieć",
+    "sieć komputerów"
+   ],
+   "explanation": "Internet to ogólnoświatowa sieć łącząca wiele mniejszych sieci.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-061",
+   "type": "qa",
+   "question": "Jak nazywa się sieć obejmująca niewielki obszar, np. jeden budynek szkoły?",
+   "answer": "LAN",
+   "accept": [
+    "sieć lokalna",
+    "sieć LAN",
+    "lan"
+   ],
+   "explanation": "LAN (Local Area Network) to sieć lokalna; WAN (Wide Area Network) to sieć rozległa, np. Internet.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-062",
+   "type": "qa",
+   "question": "Jak nazywa się urządzenie, które łączy sieć domową z Internetem i przekazuje dane między sieciami?",
+   "answer": "router",
+   "accept": [
+    "ruter"
+   ],
+   "explanation": "Router wybiera trasę pakietów; przełącznik (switch) łączy urządzenia w sieci lokalnej.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-063",
+   "type": "qa",
+   "question": "Jak nazywa się komputer w sieci, który udostępnia usługi (np. strony WWW, pocztę) innym komputerom?",
+   "answer": "serwer",
+   "accept": [
+    "serwery"
+   ],
+   "explanation": "Komputer korzystający z usług serwera to klient; np. przeglądarka to klient serwera WWW.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-064",
+   "type": "qa",
+   "question": "Jak nazywa się unikatowy adres liczbowy komputera w sieci, np. 192.168.1.10?",
+   "answer": "adres IP",
+   "accept": [
+    "ip",
+    "IP",
+    "numer IP"
+   ],
+   "explanation": "Adres IPv4 to cztery liczby od 0 do 255 rozdzielone kropkami.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-065",
+   "type": "qa",
+   "question": "Jaki system zamienia nazwy domen, np. zpe.gov.pl, na adresy IP?",
+   "answer": "DNS",
+   "accept": [
+    "system DNS",
+    "serwer DNS",
+    "dns"
+   ],
+   "explanation": "DNS (Domain Name System) to „książka telefoniczna” Internetu.",
+   "category": "inf7_computer",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-066",
+   "type": "cloze",
+   "text": "Zbiór reguł określających sposób przesyłania danych w sieci, np. HTTP albo TCP/IP, to {{protokół}}.",
+   "hint": "umowa między komputerami",
+   "explanation": "HTTP przesyła strony WWW, HTTPS robi to w sposób szyfrowany, a TCP/IP to podstawowy protokół Internetu.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-067",
+   "type": "qa",
+   "question": "Jak nazywa się technologia bezprzewodowego łączenia urządzeń z siecią lokalną przez fale radiowe?",
+   "answer": "Wi-Fi",
+   "accept": [
+    "wifi",
+    "wi fi",
+    "WLAN",
+    "sieć bezprzewodowa"
+   ],
+   "explanation": "Połączenie przewodowe w sieci lokalnej to zwykle Ethernet (kabel sieciowy).",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-068",
+   "type": "qa",
+   "question": "Na jakie mniejsze porcje dzielone są dane przesyłane przez Internet?",
+   "answer": "pakiety",
+   "accept": [
+    "pakiet",
+    "pakiety danych"
+   ],
+   "explanation": "Każdy pakiet ma adres nadawcy i odbiorcy; pakiety mogą płynąć różnymi trasami i są składane u odbiorcy.",
+   "category": "inf7_computer",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-069",
+   "type": "qa",
+   "question": "Jak nazywa się usługa Internetu, czyli zbiór powiązanych odnośnikami stron, przeglądanych w przeglądarce (skrót WWW)?",
+   "answer": "World Wide Web",
+   "accept": [
+    "www",
+    "sieć WWW",
+    "web"
+   ],
+   "explanation": "Internet to sieć (infrastruktura), a WWW to jedna z jego usług, obok poczty e-mail czy komunikatorów.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "inf7-pp-070",
+   "type": "qa",
+   "question": "Jaka jednostka informacji składa się z 8 bitów?",
+   "answer": "bajt",
+   "accept": [
+    "1 bajt",
+    "bajt (B)",
+    "B"
+   ],
+   "explanation": "1 KB = 1024 B (lub 1000 B), 1 MB ≈ 1000 KB, 1 GB ≈ 1000 MB.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "inf7-pp-071",
+   "type": "qa",
+   "question": "Jak nazywa się zbiór programów zarządzający komputerem i uruchamiający aplikacje, np. Windows, Linux lub Android?",
+   "answer": "system operacyjny",
+   "accept": [
+    "OS",
+    "system"
+   ],
+   "explanation": "System operacyjny zarządza sprzętem, plikami i aplikacjami.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "inf7-pp-072",
+   "type": "qa",
+   "question": "Jak nazywa się podzespół komputera wykonujący obliczenia i instrukcje programów (skrót CPU)?",
+   "answer": "procesor",
+   "accept": [
+    "CPU",
+    "cpu",
+    "procesor (CPU)"
+   ],
+   "explanation": "Pamięć RAM przechowuje dane programów podczas pracy, a dysk przechowuje je trwale.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "inf7-pp-073",
+   "type": "cloze",
+   "text": "Pamięć {{RAM}} to pamięć operacyjna, której zawartość znika po wyłączeniu komputera.",
+   "hint": "skrót od Random Access Memory",
+   "explanation": "Dane trwałe zapisuje się na dysku (HDD lub SSD), a nie w RAM.",
+   "category": "inf7_computer",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "inf7-pp-074",
+   "type": "qa",
+   "question": "Jaką cechę ma źródło informacji, któremu można zaufać, bo podaje autora, datę i sprawdzone fakty?",
+   "answer": "wiarygodność",
+   "accept": [
+    "wiarygodne",
+    "rzetelność",
+    "rzetelne",
+    "wiarygodne źródło"
+   ],
+   "explanation": "Wiarygodność ocenia się m.in. po autorze, dacie publikacji, odniesieniach do źródeł i porównaniu z innymi źródłami.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "inf7-pp-075",
+   "type": "qa",
+   "question": "Jak nazywa się nieprawdziwa informacja rozpowszechniana w sieci jako prawdziwa wiadomość?",
+   "answer": "fake news",
+   "accept": [
+    "fejk",
+    "fake",
+    "fałszywa wiadomość",
+    "dezinformacja"
+   ],
+   "explanation": "Fake newsy często mają sensacyjne nagłówki, brak autora i brak źródeł.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "inf7-pp-076",
+   "type": "qa",
+   "question": "Jaką czynność należy wykonać, aby sprawdzić informację znalezioną na jednej stronie internetowej?",
+   "answer": "porównać z innymi źródłami",
+   "accept": [
+    "sprawdzić w innych źródłach",
+    "porównać źródła",
+    "weryfikacja w innych źródłach",
+    "sprawdzić inne źródła"
+   ],
+   "explanation": "Informację potwierdzoną w kilku niezależnych, rzetelnych źródłach można uznać za bardziej wiarygodną.",
+   "category": "inf7_safety",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "inf7-pp-077",
+   "type": "cloze",
+   "text": "Materiały, z których każdy może bezpłatnie korzystać, a często też je zmieniać i rozpowszechniać, np. Wikipedia lub ZPE, to {{otwarte}} zasoby.",
+   "hint": "przeciwieństwo zamkniętych, płatnych",
+   "explanation": "Otwarte zasoby edukacyjne udostępnia się zwykle na licencjach Creative Commons.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "inf7-pp-078",
+   "type": "qa",
+   "question": "Jak nazywa się zbiór informacji o osobie w Internecie (profile, zdjęcia, wpisy), który tworzy jej wizerunek w sieci?",
+   "answer": "cyfrowa tożsamość",
+   "accept": [
+    "tożsamość cyfrowa",
+    "wizerunek w sieci",
+    "cyfrowy ślad"
+   ],
+   "explanation": "To, co publikujemy w sieci, zostaje tam na długo, dlatego trzeba dbać o swoją cyfrową tożsamość.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "inf7-pp-079",
+   "type": "qa",
+   "question": "Jak nazywa się prawo człowieka do decydowania o tym, kto ma dostęp do jego danych osobowych i życia osobistego?",
+   "answer": "prywatność",
+   "accept": [
+    "prawo do prywatności",
+    "ochrona prywatności"
+   ],
+   "explanation": "Nie udostępnia się w sieci adresu, numeru telefonu, haseł ani zdjęć innych osób bez ich zgody.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "inf7-pp-080",
+   "type": "qa",
+   "question": "Jak nazywa się przemoc z użyciem Internetu lub telefonu, np. obraźliwe wiadomości lub ośmieszające zdjęcia?",
+   "answer": "cyberprzemoc",
+   "accept": [
+    "cybernękanie",
+    "cyberbullying",
+    "hejt"
+   ],
+   "explanation": "Ofiara cyberprzemocy powinna zachować dowody (zrzuty ekranu) i powiedzieć o tym dorosłemu.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "inf7-pp-081",
+   "type": "qa",
+   "question": "Jak nazywa się ogół praw twórcy do jego dzieła, np. programu, zdjęcia, muzyki lub tekstu?",
+   "answer": "własność intelektualna",
+   "accept": [
+    "prawo autorskie",
+    "prawa autorskie"
+   ],
+   "explanation": "Kopiowanie cudzej pracy bez zgody i podania autora to naruszenie praw autorskich (plagiat).",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "inf7-pp-082",
+   "type": "qa",
+   "question": "Jaką cechę powinno mieć hasło, aby skutecznie chroniło konto?",
+   "answer": "silne",
+   "accept": [
+    "długie i złożone",
+    "długie",
+    "silne hasło",
+    "trudne do odgadnięcia",
+    "złożone"
+   ],
+   "explanation": "Silne hasło jest długie, zawiera litery, cyfry i znaki specjalne, nie jest nigdzie zapisane i nie powtarza się na innych kontach.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "inf7-pp-083",
+   "type": "qa",
+   "question": "Jak nazywa się licencja, na której program jest bezpłatny i bez ograniczeń czasowych, ale zwykle nie udostępnia kodu źródłowego?",
+   "answer": "freeware",
+   "accept": [
+    "free",
+    "darmowe oprogramowanie"
+   ],
+   "explanation": "Przykład: wiele darmowych przeglądarek i komunikatorów.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "inf7-pp-084",
+   "type": "qa",
+   "question": "Jak nazywa się model licencji, w którym program można bezpłatnie wypróbować, a pełne korzystanie wymaga zapłaty?",
+   "answer": "shareware",
+   "accept": [
+    "trial",
+    "wersja próbna"
+   ],
+   "explanation": "Odmianą są wersje trial (ograniczone czasowo) i demo (ograniczone funkcje).",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "inf7-pp-085",
+   "type": "qa",
+   "question": "Jak nazywa się oprogramowanie, którego kod źródłowy jest publicznie dostępny i każdy może go zmieniać i rozpowszechniać?",
+   "answer": "open source",
+   "accept": [
+    "otwarte oprogramowanie",
+    "wolne oprogramowanie",
+    "oprogramowanie otwarte",
+    "open-source"
+   ],
+   "explanation": "Przykłady: Linux, LibreOffice, GIMP, Firefox. Popularne licencje open source to GPL i MIT.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "inf7-pp-086",
+   "type": "qa",
+   "question": "Jak nazywa się licencja komercyjna, zgodnie z którą użytkownik płaci za program i nie może go kopiować ani modyfikować?",
+   "answer": "licencja własnościowa",
+   "accept": [
+    "własnościowa",
+    "komercyjna",
+    "licencja komercyjna",
+    "zamknięta"
+   ],
+   "explanation": "Dotyczy np. pakietu Microsoft Office czy gier kupowanych w sklepie.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "inf7-pp-087",
+   "type": "qa",
+   "question": "Jaka rodzina licencji (skrót CC) pozwala autorowi określić, na jakich warunkach inni mogą korzystać z jego zdjęć, muzyki lub tekstów w sieci?",
+   "answer": "Creative Commons",
+   "accept": [
+    "CC",
+    "cc",
+    "licencje CC"
+   ],
+   "explanation": "Np. CC BY wymaga podania autora, a oznaczenie NC zabrania użycia komercyjnego.",
+   "category": "inf7_safety",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  }
+ ]
+}
