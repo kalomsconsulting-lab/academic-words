@@ -305,7 +305,7 @@
       types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'bio7_other',
     },
     // Bez pola file: przedmiot startuje pusty, karty dochodzą z importu AI i materiałów wspólnych.
-    math_ib: { label: 'Mathematics', icon: '📐', tagline: 'Pojęcia, wzory i twierdzenia', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'mathib_other' },
+    math_ib: { label: 'Mathematics', icon: '📐', tagline: 'Pojęcia, wzory i twierdzenia', file: 'data/mathematics.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'mathib_other' },
     chemistry_ib: { label: 'Chemistry', icon: '🧪', tagline: 'Pojęcia, reakcje i fakty', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'chemib_other' },
     physics_ib: { label: 'Physics', icon: '⚛️', tagline: 'Pojęcia, prawa i jednostki', file: 'data/physics.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'physib_other' },
     history_ib: { label: 'History', icon: '📜', tagline: 'Wydarzenia, daty i pojęcia', file: 'data/history.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'histib_other' },

@@ -1,0 +1,1413 @@
+{
+ "version": 1,
+ "subject": "math_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum ogólnokształcącego i technikum, matematyka, zakres podstawowy (Dz.U. 2018 poz. 467); zakres klasy 1 wg typowego rozkładu materiału, uzupełniony o treści IB DP Mathematics AA (functions, statistics)",
+ "items": [
+  {
+   "id": "mathib-pp-001",
+   "type": "qa",
+   "question": "Which set of numbers contains 0, 1, 2, 3, ... and no negatives or fractions?",
+   "answer": "natural numbers",
+   "accept": [
+    "naturals",
+    "whole numbers",
+    "N"
+   ],
+   "explanation": "The natural numbers are the counting numbers; in Poland 0 is usually included.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mathib-pp-002",
+   "type": "cloze",
+   "text": "A number that can be written as a fraction p/q with integers p and q (q not 0) is called a {{rational}} number.",
+   "hint": "Q",
+   "explanation": "Every terminating or repeating decimal is rational, e.g. 0.75 = 3/4.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mathib-pp-003",
+   "type": "qa",
+   "question": "Is sqrt(2) a rational or an irrational number?",
+   "answer": "irrational",
+   "accept": [
+    "irrational number"
+   ],
+   "explanation": "sqrt(2) cannot be written as a fraction of two integers; its decimal expansion never repeats.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mathib-pp-004",
+   "type": "qa",
+   "question": "Write 2^-3 as a fraction.",
+   "answer": "1/8",
+   "accept": [
+    "1 / 8",
+    "0.125"
+   ],
+   "explanation": "a^-n = 1 / a^n, so 2^-3 = 1 / 2^3 = 1/8.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "mathib-pp-005",
+   "type": "cloze",
+   "text": "When multiplying powers with the same base you {{add}} the exponents: a^m * a^n = a^(m+n).",
+   "hint": "what do you do with the exponents?",
+   "explanation": "Example: 2^3 * 2^4 = 2^7.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "mathib-pp-006",
+   "type": "qa",
+   "question": "What is the value of the cube root of -27?",
+   "answer": "-3",
+   "accept": [
+    "- 3"
+   ],
+   "explanation": "Odd-degree roots of negative numbers exist: (-3)^3 = -27.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "mathib-pp-007",
+   "type": "qa",
+   "question": "Write sqrt(a) as a power of a.",
+   "answer": "a^(1/2)",
+   "accept": [
+    "a^1/2",
+    "a^0.5"
+   ],
+   "explanation": "The n-th root of a equals a^(1/n).",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "mathib-pp-008",
+   "type": "qa",
+   "question": "Simplify sqrt(50).",
+   "answer": "5 sqrt(2)",
+   "accept": [
+    "5sqrt(2)",
+    "5*sqrt(2)",
+    "5 sqrt 2",
+    "5 root 2"
+   ],
+   "explanation": "sqrt(50) = sqrt(25 * 2) = 5 sqrt(2).",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "mathib-pp-009",
+   "type": "cloze",
+   "text": "If a > 1, then x < y implies a^x < a^y: raising to a power with base greater than 1 is {{increasing}}.",
+   "hint": "monotonic in which direction?",
+   "explanation": "For a base between 0 and 1 the inequality reverses: (1/2)^2 > (1/2)^3.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "mathib-pp-010",
+   "type": "qa",
+   "question": "Which inequality describes the interval (-2, 5]?",
+   "answer": "-2<x<=5",
+   "accept": [
+    "-2 < x <= 5",
+    "-2 < x ≤ 5",
+    "x > -2 and x <= 5"
+   ],
+   "explanation": "A round bracket means the endpoint is excluded, a square bracket means it is included.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "mathib-pp-011",
+   "type": "qa",
+   "question": "What is |-7|?",
+   "answer": "7",
+   "accept": [],
+   "explanation": "The absolute value is the distance of a number from 0 on the number line.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "mathib-pp-012",
+   "type": "qa",
+   "question": "Solve |x + 4| = 5.",
+   "answer": "1 or -9",
+   "accept": [
+    "x = 1 or x = -9",
+    "-9 or 1",
+    "x = -9 or x = 1",
+    "1, -9",
+    "-9, 1"
+   ],
+   "explanation": "x + 4 = 5 gives x = 1; x + 4 = -5 gives x = -9.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "mathib-pp-013",
+   "type": "cloze",
+   "text": "The expression |x - 3| represents the {{distance}} between x and 3 on the number line.",
+   "hint": "geometric meaning of absolute value",
+   "explanation": "So |x - 3| < 2 means x lies in the interval (1, 5).",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "mathib-pp-014",
+   "type": "qa",
+   "question": "A price of 200 PLN is increased by 15%. What is the new price?",
+   "answer": "230 PLN",
+   "accept": [
+    "230",
+    "230 zł"
+   ],
+   "explanation": "200 * 1.15 = 230.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "mathib-pp-015",
+   "type": "qa",
+   "question": "A deposit of 1000 PLN earns 10% compound interest per year. How much is it worth after 2 years?",
+   "answer": "1210 PLN",
+   "accept": [
+    "1210",
+    "1210 zł"
+   ],
+   "explanation": "1000 * 1.1^2 = 1210; compound interest means interest is added to the capital each year.",
+   "category": "mathib_number",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "mathib-pp-016",
+   "type": "cloze",
+   "text": "The formula for compound interest is K_n = K_0 * (1 + p/100)^{{n}}, where n is the number of periods.",
+   "hint": "the exponent",
+   "explanation": "Each period multiplies the capital by the same factor.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "mathib-pp-017",
+   "type": "qa",
+   "question": "Expand (a + b)^2.",
+   "answer": "a^2+2ab+b^2",
+   "accept": [
+    "a^2 + 2ab + b^2"
+   ],
+   "explanation": "Square of a sum: (a + b)^2 = a^2 + 2ab + b^2.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-018",
+   "type": "qa",
+   "question": "Expand (a - b)^2.",
+   "answer": "a^2-2ab+b^2",
+   "accept": [
+    "a^2 - 2ab + b^2"
+   ],
+   "explanation": "Square of a difference: the middle term is negative.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-019",
+   "type": "qa",
+   "question": "Factorise a^2 - b^2.",
+   "answer": "(a-b)(a+b)",
+   "accept": [
+    "(a - b)(a + b)",
+    "(a + b)(a - b)",
+    "(a+b)(a-b)"
+   ],
+   "explanation": "Difference of two squares.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-020",
+   "type": "qa",
+   "question": "Expand (x + 3)^2.",
+   "answer": "x^2+6x+9",
+   "accept": [
+    "x^2 + 6x + 9"
+   ],
+   "explanation": "(x + 3)^2 = x^2 + 2 * 3 * x + 3^2.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-021",
+   "type": "qa",
+   "question": "Factorise x^2 - 25.",
+   "answer": "(x-5)(x+5)",
+   "accept": [
+    "(x - 5)(x + 5)",
+    "(x + 5)(x - 5)",
+    "(x+5)(x-5)"
+   ],
+   "explanation": "x^2 - 25 = x^2 - 5^2.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-022",
+   "type": "qa",
+   "question": "Calculate 101^2 - 99^2 without a calculator.",
+   "answer": "400",
+   "accept": [],
+   "explanation": "(101 - 99)(101 + 99) = 2 * 200 = 400.",
+   "category": "mathib_number",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-023",
+   "type": "qa",
+   "question": "Factorise 3x^2 + 6x by taking out the common factor.",
+   "answer": "3x(x+2)",
+   "accept": [
+    "3x(x + 2)",
+    "3x (x + 2)"
+   ],
+   "explanation": "The greatest common factor of 3x^2 and 6x is 3x.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "mathib-pp-024",
+   "type": "cloze",
+   "text": "Taking a common factor out of a sum is called {{factorising}}; it reverses expanding brackets.",
+   "hint": "the opposite of expanding",
+   "explanation": "Example: 5a + 5b = 5(a + b).",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "mathib-pp-025",
+   "type": "qa",
+   "question": "Expand (2x + 1)(x - 3).",
+   "answer": "2x^2-5x-3",
+   "accept": [
+    "2x^2 - 5x - 3"
+   ],
+   "explanation": "Multiply each term: 2x^2 - 6x + x - 3.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "mathib-pp-026",
+   "type": "qa",
+   "question": "What is the degree of the polynomial 4x^3 - x + 7?",
+   "answer": "3",
+   "accept": [
+    "three",
+    "third"
+   ],
+   "explanation": "The degree is the highest exponent of the variable.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "mathib-pp-027",
+   "type": "qa",
+   "question": "Solve 3x - 7 = 11.",
+   "answer": "x = 6",
+   "accept": [
+    "6"
+   ],
+   "explanation": "Add 7 to both sides, then divide by 3.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "mathib-pp-028",
+   "type": "qa",
+   "question": "What do we call a linear equation that has no solution, such as x + 1 = x + 2?",
+   "answer": "contradictory equation",
+   "accept": [
+    "contradiction",
+    "inconsistent equation",
+    "no solution"
+   ],
+   "explanation": "Simplifying gives 1 = 2, which is false for every x.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "mathib-pp-029",
+   "type": "qa",
+   "question": "What do we call an equation satisfied by every real number, such as 2(x + 1) = 2x + 2?",
+   "answer": "identity",
+   "accept": [
+    "identity equation",
+    "identical equation"
+   ],
+   "explanation": "After simplification both sides are the same expression.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "mathib-pp-030",
+   "type": "qa",
+   "question": "Solve the inequality 2x + 3 > 9.",
+   "answer": "x > 3",
+   "accept": [
+    "x>3",
+    "(3, infinity)"
+   ],
+   "explanation": "Subtract 3: 2x > 6; divide by 2: x > 3.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "mathib-pp-031",
+   "type": "cloze",
+   "text": "When you multiply or divide an inequality by a {{negative}} number you must reverse the inequality sign.",
+   "hint": "which sign of number?",
+   "explanation": "Example: -2x < 6 gives x > -3.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "mathib-pp-032",
+   "type": "qa",
+   "question": "What is the discriminant of ax^2 + bx + c = 0?",
+   "answer": "b^2 - 4ac",
+   "accept": [
+    "b^2-4ac",
+    "delta = b^2 - 4ac"
+   ],
+   "explanation": "Delta = b^2 - 4ac decides how many real roots the equation has.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "mathib-pp-033",
+   "type": "qa",
+   "question": "How many real solutions does a quadratic equation have when its discriminant is negative?",
+   "answer": "none",
+   "accept": [
+    "0",
+    "zero",
+    "no real solutions"
+   ],
+   "explanation": "Delta < 0: no real roots; Delta = 0: one root; Delta > 0: two roots.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "mathib-pp-034",
+   "type": "qa",
+   "question": "Solve x^2 - 5x + 6 = 0.",
+   "answer": "2 or 3",
+   "accept": [
+    "x = 2 or x = 3",
+    "3 or 2",
+    "2, 3",
+    "3, 2",
+    "x = 3 or x = 2"
+   ],
+   "explanation": "Delta = 25 - 24 = 1; x = (5 - 1)/2 = 2 or x = (5 + 1)/2 = 3.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "mathib-pp-035",
+   "type": "qa",
+   "question": "Solve (x - 1)(x + 4) = 0.",
+   "answer": "1 or -4",
+   "accept": [
+    "x = 1 or x = -4",
+    "-4 or 1",
+    "1, -4",
+    "-4, 1",
+    "x = -4 or x = 1"
+   ],
+   "explanation": "A product is zero when at least one factor is zero.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "mathib-pp-036",
+   "type": "qa",
+   "question": "Solve the system: x + y = 5, x - y = 1.",
+   "answer": "x=3, y=2",
+   "accept": [
+    "(3, 2)",
+    "x = 3, y = 2",
+    "3, 2",
+    "x = 3 and y = 2"
+   ],
+   "explanation": "Adding the equations gives 2x = 6, so x = 3 and y = 2.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "mathib-pp-037",
+   "type": "cloze",
+   "text": "A system of linear equations whose lines are parallel and distinct has no solution and is called {{inconsistent}}.",
+   "hint": "contradictory",
+   "explanation": "If the two equations describe the same line, the system has infinitely many solutions (dependent).",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "mathib-pp-038",
+   "type": "qa",
+   "question": "The sum of two numbers is 20 and their difference is 4. What is the larger number?",
+   "answer": "12",
+   "accept": [],
+   "explanation": "x + y = 20, x - y = 4 gives x = 12 and y = 8.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "mathib-pp-039",
+   "type": "cloze",
+   "text": "A function assigns to every element of the domain {{exactly one}} element of the codomain.",
+   "hint": "how many values for each argument?",
+   "explanation": "This is what makes the assignment unambiguous (a function).",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "mathib-pp-040",
+   "type": "qa",
+   "question": "What is the name of the set of all x-values for which a function is defined?",
+   "answer": "domain",
+   "accept": [
+    "the domain"
+   ],
+   "explanation": "For f(x) = 1/x the domain is all real numbers except 0.",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-041",
+   "type": "qa",
+   "question": "What is the name of the set of all values a function takes?",
+   "answer": "range",
+   "accept": [
+    "set of values",
+    "image"
+   ],
+   "explanation": "For f(x) = x^2 the range is [0, infinity).",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-042",
+   "type": "qa",
+   "question": "For f(x) = 3x - 2, calculate f(4).",
+   "answer": "10",
+   "accept": [],
+   "explanation": "f(4) = 3 * 4 - 2 = 10.",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "mathib-pp-043",
+   "type": "qa",
+   "question": "What is the domain of f(x) = 1 / (x - 2)?",
+   "answer": "x != 2",
+   "accept": [
+    "R \\ {2}",
+    "all reals except 2",
+    "x ≠ 2",
+    "R without 2",
+    "real numbers except 2",
+    "all real numbers except 2"
+   ],
+   "explanation": "The denominator cannot be zero.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-044",
+   "type": "qa",
+   "question": "What is the domain of f(x) = sqrt(x - 3)?",
+   "answer": "x >= 3",
+   "accept": [
+    "x>=3",
+    "[3, infinity)",
+    "x ≥ 3"
+   ],
+   "explanation": "The expression under a square root must be non-negative.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-045",
+   "type": "qa",
+   "question": "What is a zero of a function?",
+   "answer": "where f(x) = 0",
+   "accept": [
+    "x such that f(x) = 0",
+    "argument where f(x) = 0",
+    "x for which f(x) = 0",
+    "root"
+   ],
+   "explanation": "On the graph a zero is where the curve crosses or touches the x-axis.",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-046",
+   "type": "qa",
+   "question": "Find the zero of f(x) = 2x - 8.",
+   "answer": "4",
+   "accept": [
+    "x = 4"
+   ],
+   "explanation": "2x - 8 = 0 gives x = 4.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-047",
+   "type": "cloze",
+   "text": "A function is {{increasing}} on an interval if larger arguments give larger values: x1 < x2 implies f(x1) < f(x2).",
+   "hint": "going up",
+   "explanation": "A decreasing function does the opposite: x1 < x2 implies f(x1) > f(x2).",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-048",
+   "type": "qa",
+   "question": "At which point does the graph of a function cross the y-axis?",
+   "answer": "(0, f(0))",
+   "accept": [
+    "(0, f(0))",
+    "x = 0",
+    "where x = 0",
+    "(0, b)"
+   ],
+   "explanation": "The y-intercept is the value of the function at x = 0.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-049",
+   "type": "qa",
+   "question": "How many times can a vertical line cross the graph of a function?",
+   "answer": "at most once",
+   "accept": [
+    "once",
+    "one",
+    "at most one",
+    "0 or 1"
+   ],
+   "explanation": "The vertical line test: each argument has exactly one value.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "mathib-pp-050",
+   "type": "qa",
+   "question": "The graph of y = f(x) is shifted 3 units to the right. Write the formula of the new function.",
+   "answer": "f(x-3)",
+   "accept": [
+    "f(x - 3)",
+    "y = f(x - 3)",
+    "y = f(x-3)"
+   ],
+   "explanation": "A shift right by a corresponds to y = f(x - a).",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.12"
+  },
+  {
+   "id": "mathib-pp-051",
+   "type": "qa",
+   "question": "The graph of y = f(x) is shifted 2 units up. Write the formula of the new function.",
+   "answer": "f(x)+2",
+   "accept": [
+    "f(x) + 2",
+    "y = f(x) + 2",
+    "y = f(x)+2"
+   ],
+   "explanation": "A vertical shift by b corresponds to y = f(x) + b.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.12"
+  },
+  {
+   "id": "mathib-pp-052",
+   "type": "qa",
+   "question": "What is the largest value of f(x) = x^2 on the interval [-3, 2]?",
+   "answer": "9",
+   "accept": [],
+   "explanation": "On [-3, 2] the largest value is f(-3) = 9; the smallest is f(0) = 0.",
+   "category": "mathib_functions",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-053",
+   "type": "qa",
+   "question": "Write the general formula of a linear function.",
+   "answer": "ax + b",
+   "accept": [
+    "y = ax + b",
+    "f(x) = ax + b",
+    "ax+b",
+    "y = mx + c",
+    "f(x) = mx + c"
+   ],
+   "explanation": "a is the slope (gradient) and b is the y-intercept.",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mathib-pp-054",
+   "type": "qa",
+   "question": "In f(x) = ax + b, what does the coefficient a describe?",
+   "answer": "slope",
+   "accept": [
+    "gradient",
+    "steepness",
+    "slope of the line",
+    "direction"
+   ],
+   "explanation": "a = tan of the angle between the line and the x-axis.",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mathib-pp-055",
+   "type": "qa",
+   "question": "In f(x) = ax + b, what is the meaning of the coefficient b?",
+   "answer": "y-intercept",
+   "accept": [
+    "intercept",
+    "value at 0",
+    "f(0)",
+    "where it crosses the y-axis"
+   ],
+   "explanation": "The graph crosses the y-axis at the point (0, b).",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mathib-pp-056",
+   "type": "qa",
+   "question": "For which values of a is the linear function f(x) = ax + b decreasing?",
+   "answer": "a < 0",
+   "accept": [
+    "a<0",
+    "negative a",
+    "negative"
+   ],
+   "explanation": "a > 0: increasing; a = 0: constant; a < 0: decreasing.",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mathib-pp-057",
+   "type": "qa",
+   "question": "Find the zero of f(x) = -2x + 6.",
+   "answer": "3",
+   "accept": [
+    "x = 3"
+   ],
+   "explanation": "-2x + 6 = 0 gives x = 3.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "mathib-pp-058",
+   "type": "qa",
+   "question": "Find the slope of the line through the points (1, 2) and (3, 8).",
+   "answer": "3",
+   "accept": [
+    "a = 3"
+   ],
+   "explanation": "a = (8 - 2) / (3 - 1) = 6 / 2 = 3.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "mathib-pp-059",
+   "type": "qa",
+   "question": "Write the formula of the linear function with slope 2 passing through (0, -5).",
+   "answer": "2x - 5",
+   "accept": [
+    "y = 2x - 5",
+    "f(x) = 2x - 5",
+    "2x-5",
+    "y=2x-5"
+   ],
+   "explanation": "The point (0, -5) gives b = -5.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "mathib-pp-060",
+   "type": "qa",
+   "question": "When are the graphs of f(x) = ax + b and g(x) = cx + d parallel?",
+   "answer": "a = c",
+   "accept": [
+    "equal slopes",
+    "same slope",
+    "a = c and b != d",
+    "the same gradient"
+   ],
+   "explanation": "Parallel lines have the same slope; if also b = d they coincide.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "mathib-pp-061",
+   "type": "qa",
+   "question": "What is the sum of the interior angles of a triangle?",
+   "answer": "180 degrees",
+   "accept": [
+    "180",
+    "180°"
+   ],
+   "explanation": "This holds for every triangle.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "mathib-pp-062",
+   "type": "qa",
+   "question": "State Pythagoras' theorem for a right triangle with legs a, b and hypotenuse c.",
+   "answer": "a^2+b^2=c^2",
+   "accept": [
+    "a^2 + b^2 = c^2",
+    "c^2 = a^2 + b^2"
+   ],
+   "explanation": "The hypotenuse is the side opposite the right angle.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "mathib-pp-063",
+   "type": "qa",
+   "question": "A triangle has sides 5, 12 and 13. What type of triangle is it (by angles)?",
+   "answer": "right-angled",
+   "accept": [
+    "right triangle",
+    "right",
+    "right angled"
+   ],
+   "explanation": "5^2 + 12^2 = 169 = 13^2, so by the converse of Pythagoras it is right-angled.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "mathib-pp-064",
+   "type": "qa",
+   "question": "A triangle has sides 4, 5 and 7. Is it acute, right or obtuse?",
+   "answer": "obtuse",
+   "accept": [
+    "obtuse-angled",
+    "obtuse triangle"
+   ],
+   "explanation": "4^2 + 5^2 = 41 < 49 = 7^2, so the largest angle is greater than 90 degrees.",
+   "category": "mathib_geometry",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "mathib-pp-065",
+   "type": "cloze",
+   "text": "In any triangle, the longer side lies opposite the {{larger}} angle.",
+   "hint": "larger or smaller?",
+   "explanation": "So the hypotenuse, opposite the right angle, is the longest side of a right triangle.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "mathib-pp-066",
+   "type": "qa",
+   "question": "What is the measure of each interior angle of a regular hexagon?",
+   "answer": "120 degrees",
+   "accept": [
+    "120",
+    "120°"
+   ],
+   "explanation": "Sum of angles: (6 - 2) * 180 = 720; 720 / 6 = 120.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.3"
+  },
+  {
+   "id": "mathib-pp-067",
+   "type": "qa",
+   "question": "Calculate the area of a rhombus with diagonals 6 and 8.",
+   "answer": "24",
+   "accept": [],
+   "explanation": "Area = (d1 * d2) / 2 = 48 / 2 = 24.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.4"
+  },
+  {
+   "id": "mathib-pp-068",
+   "type": "qa",
+   "question": "An inscribed angle subtends the same arc as a central angle of 80 degrees. What is the inscribed angle?",
+   "answer": "40 degrees",
+   "accept": [
+    "40",
+    "40°"
+   ],
+   "explanation": "An inscribed angle is half the central angle on the same arc.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.5"
+  },
+  {
+   "id": "mathib-pp-069",
+   "type": "qa",
+   "question": "What is the measure of an inscribed angle subtending a diameter?",
+   "answer": "90 degrees",
+   "accept": [
+    "90",
+    "90°",
+    "right angle"
+   ],
+   "explanation": "Thales' circle theorem: an angle inscribed in a semicircle is a right angle.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.5"
+  },
+  {
+   "id": "mathib-pp-070",
+   "type": "qa",
+   "question": "What is the area of a sector with radius 6 and central angle 60 degrees?",
+   "answer": "6 pi",
+   "accept": [
+    "6π",
+    "6 π",
+    "6pi"
+   ],
+   "explanation": "60/360 * pi * 36 = 6 pi.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.6"
+  },
+  {
+   "id": "mathib-pp-071",
+   "type": "cloze",
+   "text": "Thales' theorem: if the arms of an angle are cut by two {{parallel}} lines, the segments on the arms are proportional.",
+   "hint": "how must the two lines be positioned?",
+   "explanation": "Example: a/b = c/d for the segments cut on the two arms.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.7"
+  },
+  {
+   "id": "mathib-pp-072",
+   "type": "qa",
+   "question": "Two triangles have all three pairs of corresponding angles equal. Are they congruent or similar?",
+   "answer": "similar",
+   "accept": [
+    "similar triangles"
+   ],
+   "explanation": "This is the AAA (or AA) similarity criterion; the sides are proportional, not necessarily equal.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.8"
+  },
+  {
+   "id": "mathib-pp-073",
+   "type": "qa",
+   "question": "Two similar figures have scale factor k = 3. What is the ratio of their areas?",
+   "answer": "9",
+   "accept": [
+    "9 : 1",
+    "9:1",
+    "1 : 9",
+    "k^2 = 9"
+   ],
+   "explanation": "Areas of similar figures are in the ratio k^2; perimeters in the ratio k.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.9"
+  },
+  {
+   "id": "mathib-pp-074",
+   "type": "qa",
+   "question": "What is the point where the three altitudes of a triangle meet called?",
+   "answer": "orthocentre",
+   "accept": [
+    "orthocenter"
+   ],
+   "explanation": "In an obtuse triangle the orthocentre lies outside the triangle.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.10"
+  },
+  {
+   "id": "mathib-pp-075",
+   "type": "qa",
+   "question": "What is the point where the three medians of a triangle meet called?",
+   "answer": "centroid",
+   "accept": [
+    "centre of gravity",
+    "center of gravity",
+    "center of mass",
+    "centre of mass"
+   ],
+   "explanation": "The centroid divides each median in the ratio 2 : 1 from the vertex.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.10"
+  },
+  {
+   "id": "mathib-pp-076",
+   "type": "qa",
+   "question": "Which point of a triangle is the centre of its inscribed circle?",
+   "answer": "incentre",
+   "accept": [
+    "intersection of angle bisectors",
+    "incenter",
+    "where the angle bisectors meet",
+    "angle bisectors"
+   ],
+   "explanation": "The incentre is equidistant from all three sides.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.10"
+  },
+  {
+   "id": "mathib-pp-077",
+   "type": "qa",
+   "question": "Which point of a triangle is the centre of its circumscribed circle?",
+   "answer": "circumcentre",
+   "accept": [
+    "intersection of perpendicular bisectors",
+    "circumcenter",
+    "where the perpendicular bisectors meet",
+    "perpendicular bisectors"
+   ],
+   "explanation": "The circumcentre is equidistant from all three vertices.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.10"
+  },
+  {
+   "id": "mathib-pp-078",
+   "type": "qa",
+   "question": "A chord of a circle has length 16 and the radius is 10. How far is the chord from the centre?",
+   "answer": "6",
+   "accept": [],
+   "explanation": "Half the chord (8), the distance d and the radius form a right triangle: d = sqrt(100 - 64) = 6.",
+   "category": "mathib_geometry",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "mathib-pp-079",
+   "type": "qa",
+   "question": "In a right triangle, sin of an acute angle equals which ratio?",
+   "answer": "opposite / hypotenuse",
+   "accept": [
+    "opposite over hypotenuse",
+    "opposite/hypotenuse",
+    "opposite divided by hypotenuse"
+   ],
+   "explanation": "Remember SOH-CAH-TOA.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "mathib-pp-080",
+   "type": "qa",
+   "question": "In a right triangle, tan of an acute angle equals which ratio?",
+   "answer": "opposite / adjacent",
+   "accept": [
+    "opposite over adjacent",
+    "opposite/adjacent",
+    "sin/cos"
+   ],
+   "explanation": "cos is adjacent / hypotenuse.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "mathib-pp-081",
+   "type": "qa",
+   "question": "What is sin 30 degrees?",
+   "answer": "1/2",
+   "accept": [
+    "0.5",
+    "0,5",
+    "1 / 2"
+   ],
+   "explanation": "In a 30-60-90 triangle the side opposite 30 degrees is half the hypotenuse.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "mathib-pp-082",
+   "type": "qa",
+   "question": "What is sin 60 degrees?",
+   "answer": "sqrt(3)/2",
+   "accept": [
+    "sqrt(3) / 2",
+    "sqrt 3 / 2",
+    "root 3 over 2",
+    "√3/2"
+   ],
+   "explanation": "The height of an equilateral triangle with side 1 is sqrt(3)/2.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "mathib-pp-083",
+   "type": "cloze",
+   "text": "The Pythagorean identity: sin^2 a + {{cos^2 a}} = 1 for every angle a.",
+   "hint": "the other trigonometric square",
+   "explanation": "It follows from Pythagoras' theorem applied to the unit circle.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "mathib-pp-084",
+   "type": "qa",
+   "question": "In a right triangle the hypotenuse is 10 and one acute angle is 30 degrees. How long is the side opposite that angle?",
+   "answer": "5",
+   "accept": [],
+   "explanation": "opposite = hypotenuse * sin 30 = 10 * 1/2 = 5.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.4"
+  },
+  {
+   "id": "mathib-pp-085",
+   "type": "qa",
+   "question": "For f(x) = x + 1 and g(x) = 2x, find (f o g)(x), i.e. f(g(x)).",
+   "answer": "2x + 1",
+   "accept": [
+    "2x+1",
+    "f(g(x)) = 2x + 1"
+   ],
+   "explanation": "Substitute g(x) into f: f(2x) = 2x + 1. Note g(f(x)) = 2x + 2 is different.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB 2.5"
+  },
+  {
+   "id": "mathib-pp-086",
+   "type": "cloze",
+   "text": "The composite function (f o g)(x) means apply {{g}} first and then f.",
+   "hint": "which function is applied first?",
+   "explanation": "(f o g)(x) = f(g(x)): the inner function g acts first.",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB 2.5"
+  },
+  {
+   "id": "mathib-pp-087",
+   "type": "qa",
+   "question": "What is the inverse function of f(x) = 2x + 1?",
+   "answer": "(x-1)/2",
+   "accept": [
+    "(x - 1)/2",
+    "f^-1(x) = (x - 1)/2",
+    "y = (x - 1)/2",
+    "(x - 1) / 2",
+    "x/2 - 1/2"
+   ],
+   "explanation": "Swap x and y in y = 2x + 1 and solve for y.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB 2.2"
+  },
+  {
+   "id": "mathib-pp-088",
+   "type": "cloze",
+   "text": "The graph of the inverse function f^-1 is the reflection of the graph of f in the line {{y = x}}.",
+   "hint": "the diagonal line",
+   "explanation": "The domain of f becomes the range of f^-1 and vice versa.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB 2.2"
+  },
+  {
+   "id": "mathib-pp-089",
+   "type": "qa",
+   "question": "What property must a function have to possess an inverse function?",
+   "answer": "one-to-one",
+   "accept": [
+    "injective",
+    "bijective",
+    "one to one",
+    "1-1"
+   ],
+   "explanation": "Each value must come from exactly one argument (horizontal line test).",
+   "category": "mathib_functions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB 2.2"
+  },
+  {
+   "id": "mathib-pp-090",
+   "type": "qa",
+   "question": "In sigma notation, such as the sum of k for k from 1 to 10, what does the symbol sigma tell you to do with the terms?",
+   "answer": "add them",
+   "accept": [
+    "add",
+    "sum",
+    "add them up",
+    "sum them",
+    "add up"
+   ],
+   "explanation": "Sigma (Greek capital S for sum) means add all the terms from the lower to the upper limit.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB 1.2"
+  },
+  {
+   "id": "mathib-pp-091",
+   "type": "qa",
+   "question": "Find the mean of the data set 3, 7, 8, 10.",
+   "answer": "7",
+   "accept": [],
+   "explanation": "(3 + 7 + 8 + 10) / 4 = 28 / 4 = 7.",
+   "category": "mathib_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mathib-pp-092",
+   "type": "qa",
+   "question": "Find the median of the data set 2, 9, 4, 7, 5.",
+   "answer": "5",
+   "accept": [],
+   "explanation": "Ordered: 2, 4, 5, 7, 9; the middle value is 5.",
+   "category": "mathib_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mathib-pp-093",
+   "type": "qa",
+   "question": "What is the range of the data set 4, 11, 7, 2, 15?",
+   "answer": "13",
+   "accept": [],
+   "explanation": "Range = maximum - minimum = 15 - 2 = 13.",
+   "category": "mathib_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB 4.3"
+  },
+  {
+   "id": "mathib-pp-094",
+   "type": "qa",
+   "question": "What is the name of the value below which 25% of the ordered data lie?",
+   "answer": "lower quartile",
+   "accept": [
+    "first quartile",
+    "Q1",
+    "the lower quartile"
+   ],
+   "explanation": "The upper quartile Q3 has 75% of the data below it; the median is Q2.",
+   "category": "mathib_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB 4.3"
+  },
+  {
+   "id": "mathib-pp-095",
+   "type": "qa",
+   "question": "How is the interquartile range calculated?",
+   "answer": "Q3 - Q1",
+   "accept": [
+    "Q3-Q1",
+    "upper quartile minus lower quartile",
+    "IQR = Q3 - Q1"
+   ],
+   "explanation": "The IQR measures the spread of the middle 50% of the data.",
+   "category": "mathib_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB 4.3"
+  },
+  {
+   "id": "mathib-pp-096",
+   "type": "qa",
+   "question": "Which measure of central tendency is most affected by an extreme value (outlier)?",
+   "answer": "mean",
+   "accept": [
+    "the mean",
+    "arithmetic mean",
+    "average"
+   ],
+   "explanation": "The median and mode are resistant to outliers; the mean is not.",
+   "category": "mathib_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB 4.3"
+  }
+ ]
+}

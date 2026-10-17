@@ -23,6 +23,7 @@ const ASSETS = [
   './data/computer-science.json',
   './data/history.json',
   './data/physics.json',
+  './data/mathematics.json',
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-192.png',
