@@ -1,0 +1,1556 @@
+{
+ "version": 1,
+ "subject": "polski_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, język polski, klasy VII–VIII (Dz.U. 2017 poz. 356 z późn. zm.); lektury obowiązkowe wg listy klas VII–VIII; zakres klasy 7 wg typowego rozkładu materiału",
+ "items": [
+  {
+   "id": "pol7-pp-001",
+   "type": "qa",
+   "question": "Kto jest autorem „Opowieści wigilijnej”?",
+   "answer": "Charles Dickens",
+   "accept": [
+    "Dickens",
+    "Karol Dickens"
+   ],
+   "explanation": "Angielski pisarz XIX wieku; akcja utworu rozgrywa się w Londynie w wigilię Bożego Narodzenia.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Opowieść wigilijna"
+  },
+  {
+   "id": "pol7-pp-002",
+   "type": "qa",
+   "question": "Jak nazywa się skąpy główny bohater „Opowieści wigilijnej”, który przechodzi przemianę?",
+   "answer": "Ebenezer Scrooge",
+   "accept": [
+    "Scrooge"
+   ],
+   "explanation": "Scrooge z bezdusznego skąpca staje się człowiekiem hojnym i życzliwym.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Opowieść wigilijna"
+  },
+  {
+   "id": "pol7-pp-003",
+   "type": "qa",
+   "question": "Ile duchów Bożego Narodzenia odwiedza Scrooge’a w „Opowieści wigilijnej”?",
+   "answer": "trzy",
+   "accept": [
+    "3",
+    "trzech"
+   ],
+   "explanation": "Duch Wigilijnej Przeszłości, Teraźniejszości i Przyszłości; wcześniej zjawia się jeszcze duch wspólnika Marleya.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Opowieść wigilijna"
+  },
+  {
+   "id": "pol7-pp-004",
+   "type": "cloze",
+   "text": "Zmarły wspólnik Scrooge’a, którego duch skuty łańcuchem ostrzega go przed losem skąpca, to Jacob {{Marley}}.",
+   "hint": "nazwisko wspólnika z szyldu kantoru",
+   "explanation": "Marley zapowiada wizytę trzech duchów.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Opowieść wigilijna"
+  },
+  {
+   "id": "pol7-pp-005",
+   "type": "qa",
+   "question": "Jak nazywa się ubogi kancelista zatrudniony u Scrooge’a, ojciec chorego Tima?",
+   "answer": "Bob Cratchit",
+   "accept": [
+    "Cratchit"
+   ],
+   "explanation": "Rodzina Cratchitów pokazuje, że szczęście nie zależy od pieniędzy; Scrooge w finale pomaga Timowi.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Opowieść wigilijna"
+  },
+  {
+   "id": "pol7-pp-006",
+   "type": "qa",
+   "question": "Kto napisał komedię „Zemsta”?",
+   "answer": "Aleksander Fredro",
+   "accept": [
+    "Fredro"
+   ],
+   "explanation": "Fredro to najwybitniejszy polski komediopisarz; „Zemsta” powstała w 1834 roku.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Zemsta"
+  },
+  {
+   "id": "pol7-pp-007",
+   "type": "qa",
+   "question": "Do jakiego gatunku literackiego należy „Zemsta” Fredry?",
+   "answer": "komedia",
+   "explanation": "Utwór dramatyczny ze szczęśliwym zakończeniem, pełen komizmu postaci, sytuacji i słowa.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Zemsta"
+  },
+  {
+   "id": "pol7-pp-008",
+   "type": "cloze",
+   "text": "Cześnik Raptusiewicz i Rejent Milczek spierają się w „Zemście” o naprawę {{muru}} granicznego dzielącego ich części zamku.",
+   "hint": "budowla dzieląca dziedziniec",
+   "explanation": "Spór o mur to zawiązanie akcji komedii.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Zemsta"
+  },
+  {
+   "id": "pol7-pp-009",
+   "type": "qa",
+   "question": "Jak nazywa się tchórzliwy samochwała w „Zemście”, który udaje odważnego rycerza?",
+   "answer": "Papkin",
+   "accept": [
+    "Józef Papkin"
+   ],
+   "explanation": "Papkin wygłasza np. słynne „Jestem Papkin, lew Północy”; stale chwali się fikcyjnymi czynami.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Zemsta"
+  },
+  {
+   "id": "pol7-pp-010",
+   "type": "cloze",
+   "text": "Zemsta Cześnika polega na doprowadzeniu do ślubu Wacława, syna Rejenta, z {{Klarą}}.",
+   "hint": "bratanica Cześnika",
+   "explanation": "Cześnik chce pokrzyżować plany Rejenta, a tymczasem spełnia marzenia zakochanych.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Zemsta"
+  },
+  {
+   "id": "pol7-pp-011",
+   "type": "qa",
+   "question": "Jakiego powiedzonka stale używa Cześnik Raptusiewicz w „Zemście”?",
+   "answer": "mocium panie",
+   "accept": [
+    "mocium panie!"
+   ],
+   "explanation": "Powtarzany zwrot to element komizmu językowego i cecha charakteryzująca postać.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Zemsta"
+  },
+  {
+   "id": "pol7-pp-012",
+   "type": "qa",
+   "question": "Kto jest autorem „Kamieni na szaniec”?",
+   "answer": "Aleksander Kamiński",
+   "accept": [
+    "Kamiński"
+   ],
+   "explanation": "Instruktor harcerski; książka powstała w 1943 roku, jeszcze w czasie okupacji.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Kamienie na szaniec"
+  },
+  {
+   "id": "pol7-pp-013",
+   "type": "cloze",
+   "text": "Tytuł „Kamienie na szaniec” pochodzi z wiersza „Testament mój” Juliusza {{Słowackiego}}.",
+   "hint": "autor „Balladyny”",
+   "explanation": "„A kiedy trzeba, na śmierć idą po kolei, jak kamienie przez Boga rzucane na szaniec”.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Kamienie na szaniec"
+  },
+  {
+   "id": "pol7-pp-014",
+   "type": "qa",
+   "question": "Jakie prawdziwe imię i nazwisko nosił Rudy z „Kamieni na szaniec”?",
+   "answer": "Jan Bytnar",
+   "accept": [
+    "Janek Bytnar",
+    "Bytnar"
+   ],
+   "explanation": "Pozostali bohaterowie: Alek (Aleksy Dawidowski) i Zośka (Tadeusz Zawadzki).",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Kamienie na szaniec"
+  },
+  {
+   "id": "pol7-pp-015",
+   "type": "cloze",
+   "text": "Odbicie Rudego z rąk gestapo 26 marca 1943 roku to akcja pod {{Arsenałem}}.",
+   "hint": "nazwa dawnej zbrojowni w Warszawie",
+   "explanation": "Rudy zmarł kilka dni po odbiciu wskutek tortur; Alek został śmiertelnie ranny w akcji.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Kamienie na szaniec"
+  },
+  {
+   "id": "pol7-pp-016",
+   "type": "qa",
+   "question": "Do jakiej konspiracyjnej organizacji harcerskiej należeli bohaterowie „Kamieni na szaniec”?",
+   "answer": "Szare Szeregi",
+   "explanation": "Szare Szeregi to kryptonim Związku Harcerstwa Polskiego działającego w podziemiu podczas II wojny światowej.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Kamienie na szaniec"
+  },
+  {
+   "id": "pol7-pp-017",
+   "type": "qa",
+   "question": "Kto jest autorem dramatu „Dziady” część II?",
+   "answer": "Adam Mickiewicz",
+   "accept": [
+    "Mickiewicz"
+   ],
+   "explanation": "Utwór powstał w 1823 roku i nawiązuje do ludowego obrzędu wywoływania duchów zmarłych.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Dziady cz. II"
+  },
+  {
+   "id": "pol7-pp-018",
+   "type": "qa",
+   "question": "Kto prowadzi obrzęd wywoływania duchów w „Dziadach” części II?",
+   "answer": "Guślarz",
+   "explanation": "Guślarz przywołuje duchy, pyta, czego im trzeba, i odprawia je.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Dziady cz. II"
+  },
+  {
+   "id": "pol7-pp-019",
+   "type": "qa",
+   "question": "Jak mają na imię dzieci, których duchy pojawiają się jako pierwsze w „Dziadach” części II?",
+   "answer": "Józio i Rózia",
+   "accept": [
+    "Józio, Rózia",
+    "Rózia i Józio"
+   ],
+   "explanation": "Duchy lekkie: „Kto nie doznał goryczy ni razu, ten nie dozna słodyczy w niebie”.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Dziady cz. II"
+  },
+  {
+   "id": "pol7-pp-020",
+   "type": "cloze",
+   "text": "Duch ciężki w „Dziadach” części II to Widmo złego {{pana}}, który za życia był okrutny dla poddanych.",
+   "hint": "dziedzic wsi",
+   "explanation": "Nauka: „Kto nie był ni razu człowiekiem, temu człowiek nic nie pomoże”.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Dziady cz. II"
+  },
+  {
+   "id": "pol7-pp-021",
+   "type": "qa",
+   "question": "Jak ma na imię pasterka z „Dziadów” części II, która za życia gardziła miłością i nie dotknęła ziemi?",
+   "answer": "Zosia",
+   "explanation": "Duch pośredni: „Kto nie dotknął ziemi ni razu, ten nigdy nie może być w niebie”.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Dziady cz. II"
+  },
+  {
+   "id": "pol7-pp-022",
+   "type": "qa",
+   "question": "Kto jest autorem „Małego Księcia”?",
+   "answer": "Antoine de Saint-Exupéry",
+   "accept": [
+    "Saint-Exupéry",
+    "de Saint-Exupéry",
+    "Antoine Saint-Exupery"
+   ],
+   "explanation": "Francuski pisarz i pilot; książka ukazała się w 1943 roku.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mały Książę"
+  },
+  {
+   "id": "pol7-pp-023",
+   "type": "qa",
+   "question": "Kim z zawodu jest narrator „Małego Księcia”?",
+   "answer": "pilot",
+   "accept": [
+    "lotnik",
+    "pilotem"
+   ],
+   "explanation": "Narrator spotyka chłopca na Saharze po awarii samolotu.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mały Książę"
+  },
+  {
+   "id": "pol7-pp-024",
+   "type": "qa",
+   "question": "Jakie zwierzę w „Małym Księciu” prosi, by je oswoić, i tłumaczy, czym jest przyjaźń?",
+   "answer": "lis",
+   "explanation": "Oswoić znaczy „stworzyć więzy”; lis uczy, że odpowiadamy za to, co oswoiliśmy.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mały Książę"
+  },
+  {
+   "id": "pol7-pp-025",
+   "type": "cloze",
+   "text": "Zdanie lisa: „Dobrze widzi się tylko {{sercem}}. Najważniejsze jest niewidoczne dla oczu”.",
+   "hint": "nie oczami",
+   "explanation": "Najsłynniejsza myśl książki: prawdziwa wartość rzeczy i ludzi jest niewidoczna.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mały Książę"
+  },
+  {
+   "id": "pol7-pp-026",
+   "type": "qa",
+   "question": "Jaki kwiat pielęgnuje Mały Książę na swojej planecie?",
+   "answer": "róża",
+   "accept": [
+    "różę"
+   ],
+   "explanation": "Róża jest kapryśna, ale dla Małego Księcia jedyna na świecie, bo o nią dbał.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mały Książę"
+  },
+  {
+   "id": "pol7-pp-027",
+   "type": "qa",
+   "question": "Jakie drzewa Mały Książę musi codziennie wyrywać na swojej planecie, zanim urosną?",
+   "answer": "baobaby",
+   "accept": [
+    "baobab"
+   ],
+   "explanation": "Baobaby to symbol zła, które trzeba usuwać, póki jest małe.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mały Książę"
+  },
+  {
+   "id": "pol7-pp-028",
+   "type": "qa",
+   "question": "Kto jest autorem dramatu „Balladyna”?",
+   "answer": "Juliusz Słowacki",
+   "accept": [
+    "Słowacki"
+   ],
+   "explanation": "Jeden z trzech wieszczów romantyzmu; „Balladyna” powstała w 1834 roku.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Balladyna"
+  },
+  {
+   "id": "pol7-pp-029",
+   "type": "qa",
+   "question": "Jak ma na imię siostra Balladyny?",
+   "answer": "Alina",
+   "explanation": "Łagodna i pracowita Alina zostaje zabita przez Balladynę w lesie.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Balladyna"
+  },
+  {
+   "id": "pol7-pp-030",
+   "type": "cloze",
+   "text": "Kirkor ma poślubić tę z sióstr, która pierwsza nazbiera dzban {{malin}}.",
+   "hint": "leśne owoce",
+   "explanation": "Balladyna, przegrywając wyścig, zabija Alinę i zabiera jej dzban.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Balladyna"
+  },
+  {
+   "id": "pol7-pp-031",
+   "type": "qa",
+   "question": "Jak nazywa się nimfa z jeziora Gopło, królowa świata fantastycznego w „Balladynie”?",
+   "answer": "Goplana",
+   "explanation": "Goplanie służą duszki Skierka i Chochlik; nimfa kocha się w Grabcu.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Balladyna"
+  },
+  {
+   "id": "pol7-pp-032",
+   "type": "qa",
+   "question": "W jaki sposób ginie Balladyna w finale dramatu Słowackiego?",
+   "answer": "od uderzenia pioruna",
+   "accept": [
+    "piorun",
+    "rażona piorunem",
+    "od pioruna"
+   ],
+   "explanation": "Jako królowa wydaje sprawiedliwe wyroki i w ten sposób skazuje samą siebie.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Balladyna"
+  },
+  {
+   "id": "pol7-pp-033",
+   "type": "qa",
+   "question": "Do jakiego gatunku dramatu należy „Balladyna” Słowackiego?",
+   "answer": "tragedia",
+   "accept": [
+    "dramat romantyczny",
+    "tragedia romantyczna"
+   ],
+   "explanation": "Bohaterka, dążąc do władzy, popełnia zbrodnie i ginie; utwór łączy tragedię z elementami baśni i ballady.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Balladyna"
+  },
+  {
+   "id": "pol7-pp-034",
+   "type": "qa",
+   "question": "Jak nazywa się wieś, w której Jan Kochanowski osiadł i pisał fraszki, pieśni i treny?",
+   "answer": "Czarnolas",
+   "explanation": "Fraszka „Na lipę” opisuje drzewo rosnące przed dworem w Czarnolesie.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+  },
+  {
+   "id": "pol7-pp-035",
+   "type": "qa",
+   "question": "Komu Jan Kochanowski poświęcił cykl „Trenów”?",
+   "answer": "córce Urszuli",
+   "accept": [
+    "Urszulce",
+    "Urszuli",
+    "Urszulka",
+    "zmarłej córce"
+   ],
+   "explanation": "Treny wyrażają ból ojca po śmierci małej Urszulki.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+  },
+  {
+   "id": "pol7-pp-036",
+   "type": "cloze",
+   "text": "Tren VIII Kochanowskiego zaczyna się słowami: „Wielkieś mi uczyniła {{pustki}} w domu moim, moja droga Orszulo, tym zniknieniem swoim”.",
+   "hint": "cisza po odejściu dziecka",
+   "explanation": "Poeta opisuje pusty dom, w którym brak śmiechu i zabawy Urszulki.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+  },
+  {
+   "id": "pol7-pp-037",
+   "type": "qa",
+   "question": "W jakiej epoce tworzył Jan Kochanowski?",
+   "answer": "renesans",
+   "accept": [
+    "odrodzenie",
+    "w renesansie"
+   ],
+   "explanation": "Kochanowski (1530–1584) to najwybitniejszy poeta polskiego renesansu.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+  },
+  {
+   "id": "pol7-pp-038",
+   "type": "qa",
+   "question": "Jakie wydarzenie historyczne opisuje „Reduta Ordona” Mickiewicza?",
+   "answer": "obrona Warszawy 1831",
+   "accept": [
+    "powstanie listopadowe",
+    "obrona Warszawy",
+    "szturm Warszawy 1831"
+   ],
+   "explanation": "Szturm wojsk rosyjskich na Warszawę we wrześniu 1831 roku, u schyłku powstania listopadowego.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Reduta Ordona"
+  },
+  {
+   "id": "pol7-pp-039",
+   "type": "cloze",
+   "text": "W finale „Reduty Ordona” dowódca wysadza w powietrze {{redutę}} razem z sobą i wrogami.",
+   "hint": "tytułowe umocnienie",
+   "explanation": "Prawdziwy Julian Ordon przeżył wybuch; wiersz tworzy legendę bohaterskiej ofiary.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Reduta Ordona"
+  },
+  {
+   "id": "pol7-pp-040",
+   "type": "qa",
+   "question": "Do jakiego gatunku należy „Świtezianka” Mickiewicza?",
+   "answer": "ballada",
+   "explanation": "Ballada łączy narrację, dialog i nastrojowość; pojawiają się w niej postacie fantastyczne.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Świtezianka"
+  },
+  {
+   "id": "pol7-pp-041",
+   "type": "cloze",
+   "text": "W „Świteziance” strzelec za złamanie {{przysięgi}} wierności zostaje wciągnięty w toń jeziora.",
+   "hint": "uroczysta obietnica",
+   "explanation": "Morał ballady: za zdradę i wiarołomstwo czeka kara.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Świtezianka"
+  },
+  {
+   "id": "pol7-pp-042",
+   "type": "qa",
+   "question": "Jak nazywa się dwór, w którym toczy się akcja „Pana Tadeusza”?",
+   "answer": "Soplicowo",
+   "explanation": "Dwór Sędziego Soplicy na Litwie, centrum polskiego obyczaju w epopei.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pan Tadeusz"
+  },
+  {
+   "id": "pol7-pp-043",
+   "type": "cloze",
+   "text": "Inwokacja „Pana Tadeusza” zaczyna się słowami: „{{Litwo}}! Ojczyzno moja! ty jesteś jak zdrowie”.",
+   "hint": "kraina, w której dorastał poeta",
+   "explanation": "Inwokacja to uroczysty zwrot do ojczyzny i Matki Boskiej na początku epopei.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pan Tadeusz"
+  },
+  {
+   "id": "pol7-pp-044",
+   "type": "qa",
+   "question": "Pod jakim nazwiskiem jako zakonnik ukrywa się Jacek Soplica w „Panu Tadeuszu”?",
+   "answer": "ksiądz Robak",
+   "accept": [
+    "Robak",
+    "bernardyn Robak"
+   ],
+   "explanation": "Jacek Soplica pokutuje za zabicie Stolnika i działa jako emisariusz przygotowujący powstanie.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pan Tadeusz"
+  },
+  {
+   "id": "pol7-pp-045",
+   "type": "qa",
+   "question": "Jakim gatunkiem literackim jest „Pan Tadeusz”?",
+   "answer": "epopeja",
+   "accept": [
+    "epopeja narodowa",
+    "epos",
+    "poemat epicki"
+   ],
+   "explanation": "Dwanaście ksiąg napisanych trzynastozgłoskowcem; pełny tytuł: „Pan Tadeusz, czyli ostatni zajazd na Litwie”.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pan Tadeusz"
+  },
+  {
+   "id": "pol7-pp-046",
+   "type": "qa",
+   "question": "W jakich latach rozgrywa się akcja „Pana Tadeusza”?",
+   "answer": "1811-1812",
+   "accept": [
+    "1811 i 1812",
+    "1811 1812"
+   ],
+   "explanation": "Akcja kończy się wiosną 1812 roku, gdy wojska Napoleona wkraczają na Litwę.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pan Tadeusz"
+  },
+  {
+   "id": "pol7-pp-047",
+   "type": "qa",
+   "question": "Kto jest autorem opowiadania „Artysta”, którego bohater Kogut postanawia zostać artystą?",
+   "answer": "Sławomir Mrożek",
+   "accept": [
+    "Mrożek"
+   ],
+   "explanation": "Krótkie, groteskowe opowiadanie o ambicjach niewspółmiernych do możliwości.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Artysta"
+  },
+  {
+   "id": "pol7-pp-048",
+   "type": "qa",
+   "question": "Jaką rolę chce odgrywać w cyrku Kogut, bohater „Artysty” Mrożka?",
+   "answer": "lwa",
+   "accept": [
+    "lew",
+    "rolę lwa"
+   ],
+   "explanation": "Kogut gardzi rolą koguta, choć tylko ją mógłby grać; utwór ośmiesza pychę i brak samokrytycyzmu.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Artysta"
+  },
+  {
+   "id": "pol7-pp-049",
+   "type": "qa",
+   "question": "Jak nazywa się główny bohater noweli „Latarnik” Sienkiewicza?",
+   "answer": "Skawiński",
+   "explanation": "Polski emigrant i tułacz, który po latach wędrówki znajduje spokój jako latarnik.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Latarnik"
+  },
+  {
+   "id": "pol7-pp-050",
+   "type": "qa",
+   "question": "Jaka książka sprawiła, że Skawiński zapomniał zapalić latarnię?",
+   "answer": "Pan Tadeusz",
+   "accept": [
+    "Pan Tadeusz Mickiewicza"
+   ],
+   "explanation": "Lektura „Pana Tadeusza” wywołuje wspomnienie ojczyzny; przez niezapaloną latarnię Skawiński traci posadę.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Latarnik"
+  },
+  {
+   "id": "pol7-pp-051",
+   "type": "cloze",
+   "text": "Skawiński pracuje jako latarnik w {{Aspinwall}} w Panamie.",
+   "hint": "dzisiejsze Colón",
+   "explanation": "Nowela ma jednego bohatera, jeden wątek i wyrazisty punkt kulminacyjny.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Latarnik"
+  },
+  {
+   "id": "pol7-pp-052",
+   "type": "qa",
+   "question": "Za panowania którego cesarza rozgrywa się akcja „Quo vadis” Sienkiewicza?",
+   "answer": "Nerona",
+   "accept": [
+    "Neron"
+   ],
+   "explanation": "Neron prześladuje chrześcijan, których obwinia o pożar Rzymu.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Quo vadis"
+  },
+  {
+   "id": "pol7-pp-053",
+   "type": "qa",
+   "question": "Jak ma na imię chrześcijanka, w której zakochuje się Marek Winicjusz w „Quo vadis”?",
+   "answer": "Ligia",
+   "accept": [
+    "Ligia Kallina"
+   ],
+   "explanation": "Ligii strzeże olbrzym Ursus; Winicjusz pod wpływem miłości przyjmuje chrześcijaństwo.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Quo vadis"
+  },
+  {
+   "id": "pol7-pp-054",
+   "type": "cloze",
+   "text": "„Quo vadis” to powieść {{historyczna}} o prześladowaniach pierwszych chrześcijan w Rzymie.",
+   "hint": "gatunek osadzony w przeszłości",
+   "explanation": "Sienkiewicz otrzymał Nagrodę Nobla w 1905 roku.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Quo vadis"
+  },
+  {
+   "id": "pol7-pp-055",
+   "type": "qa",
+   "question": "Jak nazywa się główny bohater „Syzyfowych prac” Żeromskiego?",
+   "answer": "Marcin Borowicz",
+   "accept": [
+    "Borowicz"
+   ],
+   "explanation": "Powieść pokazuje dojrzewanie Marcina i jego opór wobec rusyfikacji.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Syzyfowe prace"
+  },
+  {
+   "id": "pol7-pp-056",
+   "type": "cloze",
+   "text": "Akcja „Syzyfowych prac” toczy się w gimnazjum w {{Klerykowie}}, gdzie uczniowie są poddawani rusyfikacji.",
+   "hint": "fikcyjne miasto wzorowane na Kielcach",
+   "explanation": "Tytuł nawiązuje do mitu o Syzyfie: rusyfikacja okazuje się daremnym trudem.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Syzyfowe prace"
+  },
+  {
+   "id": "pol7-pp-057",
+   "type": "qa",
+   "question": "Jaki wiersz recytuje Bernard Zygier na lekcji polskiego w „Syzyfowych pracach”?",
+   "answer": "Reduta Ordona",
+   "accept": [
+    "Reduta Ordona Mickiewicza"
+   ],
+   "explanation": "Recytacja budzi w uczniach, także w Marcinie, uśpione uczucia patriotyczne.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Syzyfowe prace"
+  },
+  {
+   "id": "pol7-pp-058",
+   "type": "qa",
+   "question": "Która polska poetka otrzymała literacką Nagrodę Nobla w 1996 roku?",
+   "answer": "Wisława Szymborska",
+   "accept": [
+    "Szymborska"
+   ],
+   "explanation": "Autorka m.in. wierszy „Nic dwa razy”, „Kot w pustym mieszkaniu”.",
+   "category": "pol7_books",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: wiersze Wisławy Szymborskiej"
+  },
+  {
+   "id": "pol7-pp-059",
+   "type": "qa",
+   "question": "Jak nosi tytuł zbiór aforyzmów Stanisława Jerzego Leca?",
+   "answer": "Myśli nieuczesane",
+   "explanation": "Aforyzm to krótka, błyskotliwa myśl, np. „Gdy dotrzesz do dna, usłyszysz pukanie od spodu”.",
+   "category": "pol7_books",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: aforyzmy Leca"
+  },
+  {
+   "id": "pol7-pp-060",
+   "type": "qa",
+   "question": "Jakie są trzy rodzaje literackie?",
+   "answer": "epika, liryka, dramat",
+   "accept": [
+    "epika liryka dramat",
+    "liryka, epika, dramat"
+   ],
+   "explanation": "Każdy rodzaj ma inny sposób mówienia: narrator, podmiot liryczny lub dialogi postaci.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "pol7-pp-061",
+   "type": "qa",
+   "question": "Do jakiego rodzaju literackiego należy utwór, w którym narrator opowiada o wydarzeniach?",
+   "answer": "epika",
+   "explanation": "Epika to np. powieść, nowela, opowiadanie, epopeja.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "pol7-pp-062",
+   "type": "cloze",
+   "text": "Rodzaj literacki, w którym podmiot liryczny wyraża uczucia i przeżycia, to {{liryka}}.",
+   "hint": "wiersze",
+   "explanation": "Dramat natomiast jest przeznaczony na scenę i zbudowany z dialogów.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "pol7-pp-063",
+   "type": "qa",
+   "question": "Jak nazywa się krótki, żartobliwy utwór poetycki z puentą, np. „Na lipę” Kochanowskiego?",
+   "answer": "fraszka",
+   "explanation": "Fraszki bywają też refleksyjne, np. „Na zdrowie”.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "pol7-pp-064",
+   "type": "qa",
+   "question": "Jak nazywa się utwór żałobny wyrażający smutek po śmierci bliskiej osoby?",
+   "answer": "tren",
+   "explanation": "Kochanowski napisał 19 trenów po śmierci córki Urszulki.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "pol7-pp-065",
+   "type": "cloze",
+   "text": "Utwór dramatyczny o pogodnej tematyce, ze szczęśliwym zakończeniem i komizmem, to {{komedia}}.",
+   "hint": "np. „Zemsta”",
+   "explanation": "Przeciwieństwem komedii jest tragedia.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "pol7-pp-066",
+   "type": "qa",
+   "question": "Jaki gatunek łączy cechy epiki, liryki i dramatu, ma tematykę ludową i elementy fantastyki, np. „Świtezianka”?",
+   "answer": "ballada",
+   "explanation": "Ballady Mickiewicza zapoczątkowały polski romantyzm (1822).",
+   "category": "pol7_theory",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "pol7-pp-067",
+   "type": "qa",
+   "question": "Jak nazywa się rozbudowany utwór wierszowany o wydarzeniach przełomowych dla narodu, np. „Pan Tadeusz”?",
+   "answer": "epopeja",
+   "accept": [
+    "epos"
+   ],
+   "explanation": "Cechy epopei: inwokacja, wszechwiedzący narrator, szeroko opisane tło obyczajowe.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "pol7-pp-068",
+   "type": "cloze",
+   "text": "Gatunek dramatu, w którym bohater uwikłany w nierozwiązywalny konflikt ponosi klęskę, to {{tragedia}}.",
+   "hint": "np. „Balladyna”",
+   "explanation": "Tragedia wywodzi się ze starożytnej Grecji.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "pol7-pp-069",
+   "type": "qa",
+   "question": "Jak nazywa się utwór liryczny o budowie stroficznej, pierwotnie przeznaczony do śpiewu, uprawiany przez Kochanowskiego?",
+   "answer": "pieśń",
+   "explanation": "Np. pieśń „Czego chcesz od nas, Panie, za Twe hojne dary”.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "pol7-pp-070",
+   "type": "qa",
+   "question": "Jak nazywają się wskazówki autora dramatu dotyczące wyglądu sceny i zachowania postaci?",
+   "answer": "didaskalia",
+   "accept": [
+    "tekst poboczny"
+   ],
+   "explanation": "Didaskalia są zapisane zwykle kursywą lub w nawiasach, w odróżnieniu od tekstu głównego.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "pol7-pp-071",
+   "type": "cloze",
+   "text": "Dramat dzieli się na akty, a akty na {{sceny}}.",
+   "hint": "mniejsza część aktu",
+   "explanation": "Nowa scena zaczyna się zwykle, gdy na scenę wchodzi lub z niej wychodzi postać.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "pol7-pp-072",
+   "type": "qa",
+   "question": "Jak nazywa się dłuższa wypowiedź jednej postaci dramatu, wygłaszana zwykle w samotności?",
+   "answer": "monolog",
+   "explanation": "Rozmowa dwóch lub więcej postaci to dialog.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "pol7-pp-073",
+   "type": "qa",
+   "question": "Jak nazywa się nowo utworzony wyraz, np. stworzony przez poetę, taki jak u Leśmiana?",
+   "answer": "neologizm",
+   "explanation": "Neologizmy poetyckie nazywają rzeczy, dla których brak słów w języku.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "pol7-pp-074",
+   "type": "cloze",
+   "text": "Uroczysty zwrot do bóstwa lub muzy na początku utworu epickiego, np. w „Panu Tadeuszu”, to {{inwokacja}}.",
+   "hint": "„Litwo! Ojczyzno moja!”",
+   "explanation": "Inwokacja jest cechą epopei.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "pol7-pp-075",
+   "type": "qa",
+   "question": "Jak nazywa się motyw lub przedmiot o wieloznacznym, ukrytym znaczeniu, np. róża w „Małym Księciu”?",
+   "answer": "symbol",
+   "explanation": "Symbol dopuszcza wiele interpretacji, w przeciwieństwie do alegorii.",
+   "category": "pol7_theory",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "pol7-pp-076",
+   "type": "qa",
+   "question": "Jak nazywa się obrazowy motyw o jednym, umownym znaczeniu, np. lis jako chytrość w bajkach?",
+   "answer": "alegoria",
+   "explanation": "Alegorię odczytuje się jednoznacznie; jest częsta w bajkach i przypowieściach.",
+   "category": "pol7_theory",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "pol7-pp-077",
+   "type": "qa",
+   "question": "Jak nazywa się kategoria estetyczna wywołująca śmiech, obecna np. w „Zemście” Fredry?",
+   "answer": "komizm",
+   "explanation": "Wyróżniamy komizm postaci, sytuacji i słowny (językowy).",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.5"
+  },
+  {
+   "id": "pol7-pp-078",
+   "type": "qa",
+   "question": "Jak nazywa się ukryta drwina, gdy wypowiedź znaczy coś innego, niż mówi dosłownie?",
+   "answer": "ironia",
+   "explanation": "Np. „Pięknie posprzątałeś” o bałaganie; ironię rozpoznaje się z kontekstu.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.6"
+  },
+  {
+   "id": "pol7-pp-079",
+   "type": "cloze",
+   "text": "Teksty prasowe komentujące i oceniające aktualne wydarzenia to {{publicystyka}}.",
+   "hint": "felietony, komentarze",
+   "explanation": "Literatura piękna ma funkcję estetyczną, naukowa poznawczą, a publicystyka kształtuje opinie.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
+  },
+  {
+   "id": "pol7-pp-080",
+   "type": "qa",
+   "question": "Jaki gatunek dziennikarski ma formę rozmowy: dziennikarz zadaje pytania, a rozmówca odpowiada?",
+   "answer": "wywiad",
+   "explanation": "Wywiad ma zapis w formie pytań i odpowiedzi.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.5"
+  },
+  {
+   "id": "pol7-pp-081",
+   "type": "qa",
+   "question": "Jaki gatunek dziennikarski relacjonuje prawdziwe wydarzenia, których autor był świadkiem lub które zbadał?",
+   "answer": "reportaż",
+   "explanation": "Reportaż łączy fakty z żywą, obrazową narracją.",
+   "category": "pol7_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.5"
+  },
+  {
+   "id": "pol7-pp-082",
+   "type": "qa",
+   "question": "Jak nazywa się zjawisko, w którym wymowa głoski zmienia się pod wpływem sąsiedniej, np. „prośba” wymawiane „proźba”?",
+   "answer": "upodobnienie fonetyczne",
+   "accept": [
+    "upodobnienie"
+   ],
+   "explanation": "Upodobnienia tłumaczą rozbieżności między mową a pismem.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.1"
+  },
+  {
+   "id": "pol7-pp-083",
+   "type": "cloze",
+   "text": "W wyrazie „ławka” dźwięczne w wymawiamy jako bezdźwięczne f pod wpływem następnego k; to upodobnienie {{wsteczne}}.",
+   "hint": "kierunek: następna głoska wpływa na poprzednią",
+   "explanation": "Gdy głoska wcześniejsza wpływa na późniejszą (np. „twój” → „tfój”), to upodobnienie postępowe.",
+   "category": "pol7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1.1"
+  },
+  {
+   "id": "pol7-pp-084",
+   "type": "qa",
+   "question": "Jak nazywa się cząstka dodana do tematu słowotwórczego, która tworzy nowy wyraz, np. -ek w „domek”?",
+   "answer": "formant",
+   "explanation": "Formanty to przedrostki, przyrostki i wrostki; nadają wyrazom nowe znaczenie.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.2"
+  },
+  {
+   "id": "pol7-pp-085",
+   "type": "cloze",
+   "text": "Wyraz, od którego tworzymy wyraz pochodny, to wyraz {{podstawowy}}.",
+   "hint": "np. „dom” dla „domek”",
+   "explanation": "Wyraz pochodny = temat słowotwórczy + formant.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.2"
+  },
+  {
+   "id": "pol7-pp-086",
+   "type": "qa",
+   "question": "Jak nazywa się wspólna cząstka wyrazów pokrewnych, np. „dom” w: domek, domowy, zadomowić?",
+   "answer": "rdzeń",
+   "explanation": "Rdzeń może mieć oboczności, np. „ręk-/ręcz-” w: ręka, ręczny.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.2"
+  },
+  {
+   "id": "pol7-pp-087",
+   "type": "qa",
+   "question": "Jak nazywa się grupa wyrazów pokrewnych mających wspólny rdzeń?",
+   "answer": "rodzina wyrazów",
+   "accept": [
+    "rodzina wyrazow"
+   ],
+   "explanation": "Np. las, lasek, leśny, leśnik, zalesić.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.2"
+  },
+  {
+   "id": "pol7-pp-088",
+   "type": "qa",
+   "question": "Jak nazywa się wyraz powstały z połączenia dwóch tematów, np. „listonosz”, „samochód”?",
+   "answer": "wyraz złożony",
+   "accept": [
+    "złożenie",
+    "zlozenie"
+   ],
+   "explanation": "W złożeniach tematy łączy cząstka -o-, -i- lub -y-.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.3"
+  },
+  {
+   "id": "pol7-pp-089",
+   "type": "qa",
+   "question": "Jak nazywa się nieosobowa forma czasownika zakończona na -ąc, np. „czytając”?",
+   "answer": "imiesłów przysłówkowy współczesny",
+   "accept": [
+    "imiesłów współczesny",
+    "przysłówkowy współczesny"
+   ],
+   "explanation": "Nazywa czynność równoczesną z czynnością orzeczenia; jest nieodmienny.",
+   "category": "pol7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1.4"
+  },
+  {
+   "id": "pol7-pp-090",
+   "type": "cloze",
+   "text": "Imiesłów przysłówkowy zakończony na -wszy lub -łszy, np. „przeczytawszy”, to imiesłów przysłówkowy {{uprzedni}}.",
+   "hint": "czynność wcześniejsza",
+   "explanation": "Tworzy się go od czasowników dokonanych.",
+   "category": "pol7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1.4"
+  },
+  {
+   "id": "pol7-pp-091",
+   "type": "cloze",
+   "text": "Imiesłów przymiotnikowy zakończony na -ny, -ony, -ty, np. „napisany”, „umyty”, to imiesłów przymiotnikowy {{bierny}}.",
+   "hint": "przeciwieństwo czynnego (-ący)",
+   "explanation": "Imiesłowy przymiotnikowe odmieniają się jak przymiotniki.",
+   "category": "pol7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1.4"
+  },
+  {
+   "id": "pol7-pp-092",
+   "type": "qa",
+   "question": "Jak nazywa się wypowiedzenie typu „Idąc do szkoły, spotkałem kolegę”, w którym część z imiesłowem zastępuje zdanie?",
+   "answer": "imiesłowowy równoważnik zdania",
+   "accept": [
+    "równoważnik zdania",
+    "imiesłowowy równoważnik"
+   ],
+   "explanation": "Można go przekształcić w zdanie złożone: „Kiedy szedłem do szkoły, spotkałem kolegę”.",
+   "category": "pol7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1.4"
+  },
+  {
+   "id": "pol7-pp-093",
+   "type": "qa",
+   "question": "Jak nazywa się wypowiedzenie złożone z co najmniej trzech zdań składowych?",
+   "answer": "zdanie wielokrotnie złożone",
+   "accept": [
+    "wypowiedzenie wielokrotnie złożone",
+    "wielokrotnie złożone"
+   ],
+   "explanation": "Np. „Gdy wróciłem, zjadłem obiad i poszedłem spać” ma trzy zdania składowe.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.5"
+  },
+  {
+   "id": "pol7-pp-094",
+   "type": "qa",
+   "question": "Jak nazywa się dosłowne przytoczenie czyjejś wypowiedzi, np. Ania powiedziała: „Jestem zmęczona”?",
+   "answer": "mowa niezależna",
+   "explanation": "W mowie niezależnej przytoczenie ujmujemy w cudzysłów po dwukropku.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.6"
+  },
+  {
+   "id": "pol7-pp-095",
+   "type": "cloze",
+   "text": "Zdanie „Ania powiedziała, że jest zmęczona” to przykład mowy {{zależnej}}.",
+   "hint": "przytoczenie zdaniem podrzędnym",
+   "explanation": "Mowę niezależną przekształcamy na zależną za pomocą spójników: że, żeby, czy.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.6"
+  },
+  {
+   "id": "pol7-pp-096",
+   "type": "qa",
+   "question": "Na którą sylabę od końca pada akcent w większości polskich wyrazów?",
+   "answer": "przedostatnią",
+   "accept": [
+    "drugą od końca",
+    "druga od końca",
+    "na przedostatnią"
+   ],
+   "explanation": "Akcent w polszczyźnie jest stały, paroksytoniczny.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.7"
+  },
+  {
+   "id": "pol7-pp-097",
+   "type": "qa",
+   "question": "Na którą sylabę od końca pada akcent w wyrazach „matematyka”, „fizyka”, „muzyka”?",
+   "answer": "trzecią od końca",
+   "accept": [
+    "trzecia od końca",
+    "na trzecią od końca",
+    "trzecią"
+   ],
+   "explanation": "Wyjątki: wyrazy pochodzenia greckiego i łacińskiego na -yka/-ika oraz formy typu „czytaliśmy”.",
+   "category": "pol7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1.7"
+  },
+  {
+   "id": "pol7-pp-098",
+   "type": "cloze",
+   "text": "W formach trybu przypuszczającego typu „czytalibyśmy” akcent pada na {{czwartą}} sylabę od końca.",
+   "hint": "jeszcze dalej niż w „czytaliśmy”",
+   "explanation": "W „czytaliśmy” akcent pada na trzecią sylabę od końca.",
+   "category": "pol7_grammar",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.1.7"
+  },
+  {
+   "id": "pol7-pp-099",
+   "type": "qa",
+   "question": "Jak nazywa się wyraz, który wyszedł z użycia, np. „kajet”, „waćpan”?",
+   "answer": "archaizm",
+   "explanation": "Archaizmy w literaturze oddają koloryt dawnej epoki, np. w „Zemście”.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.1"
+  },
+  {
+   "id": "pol7-pp-100",
+   "type": "qa",
+   "question": "Jak nazywa się wyraz z mowy potocznej, niestosowny w sytuacji oficjalnej, np. „fajny”, „kasa”?",
+   "answer": "kolokwializm",
+   "explanation": "Kolokwializmy należą do słownictwa o ograniczonym zasięgu.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.1"
+  },
+  {
+   "id": "pol7-pp-101",
+   "type": "qa",
+   "question": "Jak nazywa się wyraz przejęty z innego języka, np. „komputer”, „weekend”?",
+   "answer": "zapożyczenie",
+   "accept": [
+    "wyraz zapożyczony"
+   ],
+   "explanation": "Przeciwieństwem zapożyczeń są wyrazy rodzime.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.1"
+  },
+  {
+   "id": "pol7-pp-102",
+   "type": "qa",
+   "question": "Podaj formę dopełniacza nazwiska „Fredro” (komedia kogo?).",
+   "answer": "Fredry",
+   "accept": [
+    "Aleksandra Fredry"
+   ],
+   "explanation": "Nazwiska męskie na -o odmieniają się jak rzeczowniki rodzaju żeńskiego: Fredro, Fredry, Fredrze.",
+   "category": "pol7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2.2"
+  },
+  {
+   "id": "pol7-pp-103",
+   "type": "qa",
+   "question": "Jak nazywają się wyrazy o jednakowym brzmieniu i pisowni, lecz różnym znaczeniu, np. „zamek” (budowla) i „zamek” (do drzwi)?",
+   "answer": "homonimy",
+   "accept": [
+    "homonim"
+   ],
+   "explanation": "Znaczenie homonimu rozpoznajemy z kontekstu.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.4"
+  },
+  {
+   "id": "pol7-pp-104",
+   "type": "qa",
+   "question": "Jakim stylem są pisane podania, regulaminy i pisma z urzędu?",
+   "answer": "urzędowy",
+   "accept": [
+    "styl urzędowy",
+    "urzędowym"
+   ],
+   "explanation": "Inne style: potoczny, artystyczny, naukowy, publicystyczny.",
+   "category": "pol7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.6"
+  },
+  {
+   "id": "pol7-pp-105",
+   "type": "qa",
+   "question": "Podaj wyraz pokrewny, w którym „ó” ze słowa „stół” wymienia się na „o”.",
+   "answer": "stoły",
+   "accept": [
+    "stołu",
+    "stołem"
+   ],
+   "explanation": "Piszemy „ó”, gdy wymienia się na o, e lub a (stół – stoły, siódmy – siedem).",
+   "category": "pol7_spelling",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.1"
+  },
+  {
+   "id": "pol7-pp-106",
+   "type": "qa",
+   "question": "Podaj wyraz pokrewny uzasadniający pisownię „rz” w słowie „morze” (rz wymienia się na r).",
+   "answer": "morski",
+   "accept": [
+    "morza"
+   ],
+   "explanation": "Piszemy „rz”, gdy wymienia się na r: morze – morski, rowerzysta – rower.",
+   "category": "pol7_spelling",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.1"
+  },
+  {
+   "id": "pol7-pp-107",
+   "type": "qa",
+   "question": "Na jaką głoskę wymienia się „ż” w parze wyrazów „może – mogę”?",
+   "answer": "g",
+   "accept": [
+    "na g"
+   ],
+   "explanation": "Piszemy „ż”, gdy wymienia się na g, dz, h, z, ź, s: może – mogę, książka – księga.",
+   "category": "pol7_spelling",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.1"
+  },
+  {
+   "id": "pol7-pp-108",
+   "type": "qa",
+   "question": "Jak piszemy „nie” z rzeczownikami i przymiotnikami w stopniu równym, np. „nie+porządek”, „nie+ładny”?",
+   "answer": "łącznie",
+   "accept": [
+    "razem"
+   ],
+   "explanation": "Nieporządek, nieładny; wyjątek: przeciwstawienie „nie ładny, lecz piękny”.",
+   "category": "pol7_spelling",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.4"
+  },
+  {
+   "id": "pol7-pp-109",
+   "type": "qa",
+   "question": "Jak piszemy „nie” z czasownikami i przymiotnikami w stopniu wyższym, np. „nie+czytam”, „nie+ładniejszy”?",
+   "answer": "rozdzielnie",
+   "accept": [
+    "osobno",
+    "oddzielnie"
+   ],
+   "explanation": "Nie czytam, nie ładniejszy; „nie” z czasownikami piszemy osobno (wyjątki: nienawidzić, niepokoić).",
+   "category": "pol7_spelling",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.4"
+  },
+  {
+   "id": "pol7-pp-110",
+   "type": "cloze",
+   "text": "Partykułę „nie” z imiesłowami przymiotnikowymi, np. „nieumyty”, „niepalący”, piszemy {{łącznie}}.",
+   "hint": "tak jak z przymiotnikami",
+   "explanation": "Od 1997 roku obowiązuje pisownia łączna „nie” z imiesłowami przymiotnikowymi.",
+   "category": "pol7_spelling",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4.4"
+  },
+  {
+   "id": "pol7-pp-111",
+   "type": "qa",
+   "question": "Jaki znak interpunkcyjny stawiamy po słowach wprowadzających cytat, np. Ania powiedziała: „Idę do domu”?",
+   "answer": "dwukropek",
+   "explanation": "Po dwukropku przytoczenie ujmujemy w cudzysłów.",
+   "category": "pol7_spelling",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.2"
+  },
+  {
+   "id": "pol7-pp-112",
+   "type": "qa",
+   "question": "W jaki znak interpunkcyjny ujmujemy dosłownie przytoczone cudze słowa?",
+   "answer": "cudzysłów",
+   "accept": [
+    "cudzysłow"
+   ],
+   "explanation": "Polski cudzysłów ma postać „ ” (dolny otwierający, górny zamykający).",
+   "category": "pol7_spelling",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.2"
+  },
+  {
+   "id": "pol7-pp-113",
+   "type": "cloze",
+   "text": "Pominięty fragment cytatu zaznaczamy {{wielokropkiem/wielokropek}} w nawiasie kwadratowym: […].",
+   "hint": "trzy kropki",
+   "explanation": "Własne uzupełnienia w cytacie również umieszczamy w nawiasie kwadratowym.",
+   "category": "pol7_spelling",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4.2"
+  },
+  {
+   "id": "pol7-pp-114",
+   "type": "qa",
+   "question": "Jak nazywa się forma wypowiedzi, w której autor stawia tezę i uzasadnia ją argumentami?",
+   "answer": "rozprawka",
+   "explanation": "Budowa rozprawki: wstęp z tezą, rozwinięcie z argumentami, zakończenie z wnioskiem.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "pol7-pp-115",
+   "type": "qa",
+   "question": "Jak nazywa się forma wypowiedzi, w której autor ocenia książkę, film lub spektakl?",
+   "answer": "recenzja",
+   "explanation": "Recenzja zawiera informacje o dziele, jego streszczenie oraz ocenę z uzasadnieniem.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "pol7-pp-116",
+   "type": "qa",
+   "question": "Jak nazywa się oficjalne pismo z prośbą skierowane do instytucji, np. o przyjęcie do szkoły?",
+   "answer": "podanie",
+   "explanation": "Podanie ma stały układ: dane nadawcy, miejscowość i data, adresat, treść prośby, podpis.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "pol7-pp-117",
+   "type": "cloze",
+   "text": "Dokument zawierający zwięzłe dane o wykształceniu i doświadczeniu zawodowym kandydata to {{CV/życiorys}}.",
+   "hint": "skrót z łaciny",
+   "explanation": "CV (curriculum vitae) ma układ punktowy; dołącza się je do listu motywacyjnego.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "pol7-pp-118",
+   "type": "qa",
+   "question": "Jak nazywa się pismo, w którym kandydat uzasadnia, dlaczego ubiega się o dane stanowisko?",
+   "answer": "list motywacyjny",
+   "explanation": "List motywacyjny ma formę oficjalnego listu i uzupełnia CV.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "pol7-pp-119",
+   "type": "qa",
+   "question": "Jak nazywa się wypowiedź ustna skierowana do zgromadzonych słuchaczy, np. podczas uroczystości szkolnej?",
+   "answer": "przemówienie",
+   "accept": [
+    "mowa"
+   ],
+   "explanation": "Przemówienie zaczyna się od zwrotu do słuchaczy i wykorzystuje środki retoryczne, np. pytania retoryczne.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "pol7-pp-120",
+   "type": "qa",
+   "question": "Jak nazywa się krótkie przedstawienie najważniejszych treści tekstu własnymi słowami, bez oceny?",
+   "answer": "streszczenie",
+   "explanation": "W streszczeniu pomijamy szczegóły, dialogi i opinie własne.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.2"
+  },
+  {
+   "id": "pol7-pp-121",
+   "type": "qa",
+   "question": "Jak nazywa się twierdzenie, którego autor rozprawki jest pewien i które udowadnia?",
+   "answer": "teza",
+   "explanation": "Teza pojawia się we wstępie, a w zakończeniu zostaje potwierdzona.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.4"
+  },
+  {
+   "id": "pol7-pp-122",
+   "type": "qa",
+   "question": "Jak nazywa się przypuszczenie, które autor rozprawki dopiero sprawdza w toku rozważań?",
+   "answer": "hipoteza",
+   "explanation": "Przy hipotezie tezę formułuje się dopiero w zakończeniu.",
+   "category": "pol7_writing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.4"
+  },
+  {
+   "id": "pol7-pp-123",
+   "type": "cloze",
+   "text": "W rozprawce twierdzenie uzasadniające tezę to {{argument}}, a konkretna sytuacja, która go ilustruje, to przykład.",
+   "hint": "dowód w dyskusji",
+   "explanation": "Przykład sam w sobie niczego nie dowodzi; wspiera argument.",
+   "category": "pol7_writing",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1.5"
+  }
+ ]
+}
