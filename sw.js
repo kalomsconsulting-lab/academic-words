@@ -1,11 +1,12 @@
 // Service worker: network-first (zawsze świeże pliki online), cache jako zapas offline.
 // Po zmianie listy plików podbij numer wersji.
-const CACHE = 'academic-words-v3';
+const CACHE = 'academic-words-v4';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
+  './ai-import.js',
   './config.js',
   './vocabulary.json',
   './manifest.json',

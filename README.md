@@ -10,6 +10,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 | `index.html` | szkielet strony |
 | `style.css` | wygląd (jasny/ciemny motyw, mobile-first) |
 | `app.js` | cała logika: ćwiczenia, powtórki SM-2, widoki |
+| `ai-import.js` | import z czatu AI: prompt do skopiowania i parser odpowiedzi (`window.AW_AI`) |
 | `vocabulary.json` | słownictwo (704 wpisy) |
 | `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
 
@@ -54,10 +55,16 @@ Są dwie drogi:
 
 ### W aplikacji (własne materiały)
 
-Trzy sposoby dodawania:
+Cztery sposoby dodawania:
 
-1. **Plik JSON**: tablica wpisów albo obiekt `{ "items": [...] }` w formacie z sekcji niżej. Pola `id` nie trzeba podawać. Brak `category` oznacza kategorię domyślną dla typu.
-2. **Wklejony tekst**: jeden wpis w linii, kolumny oddzielone `;` lub tabulatorem (wklejka z Excela działa). Typ i kategorię wybiera się z listy, domyślnie *Słowo AWL*:
+1. **Z czatu AI (Copilot), polecane**:
+   1. *Skopiuj prompt i otwórz Copilota*: prompt trafia do schowka, a Copilot otwiera się w nowej karcie. Gdy schowek jest niedostępny, prompt pojawia się zaznaczony w polu tekstowym (*Pokaż prompt*) do ręcznego skopiowania.
+   2. W czacie wklej prompt i dołącz handout (zdjęcie, PDF, Word albo tekst).
+   3. Skopiuj całą odpowiedź czatu i wklej ją w pole *Wklej odpowiedź czatu* (albo przyciskiem *Wklej ze schowka*). Parser (`AW_AI.parseReply`) sam wyłuska JSON z tekstu i bloków kodu, naprawi „inteligentne” cudzysłowy i końcowe przecinki, a błędne lub ucięte wpisy pokaże w podglądzie.
+
+   Gdy czat odpowie „CIĄG DALSZY”, poproś o resztę i kliknij *Dodaj kolejną część*: kolejne wklejenia dopisują wpisy do bieżącego podglądu (z wykrywaniem duplikatów między częściami), zamiast go zastępować. Prompt działa też w ChatGPT czy Claude.
+2. **Plik JSON**: tablica wpisów albo obiekt `{ "items": [...] }` w formacie z sekcji niżej. Pola `id` nie trzeba podawać. Brak `category` oznacza kategorię domyślną dla typu.
+3. **Wklejony tekst**: jeden wpis w linii, kolumny oddzielone `;` lub tabulatorem (wklejka z Excela działa). Typ i kategorię wybiera się z listy, domyślnie *Słowo AWL*:
    | Typ | Kolumny |
    |---|---|
    | `awl_word` | słowo ; po polsku ; zdanie przykładowe |
@@ -67,7 +74,7 @@ Trzy sposoby dodawania:
    | `style_rule` | reguła ; błędnie ; poprawnie |
 
    Kilka tłumaczeń oddziela się przecinkiem. Linie puste i zaczynające się od `#` są pomijane.
-3. **Formularz** do pojedynczego słowa, z polami zależnymi od typu.
+4. **Formularz** do pojedynczego słowa, z polami zależnymi od typu.
 
 Każdy import kończy się **podglądem**: wpisy z błędami (brak wymaganego pola, nieznany typ, kategoria, funkcja lub technika) są zablokowane, a duplikaty (to samo słowo już jest w słowniku, we własnych materiałach albo dwa razy w imporcie) są domyślnie odznaczone. Dopiero przycisk *Dodaj* zapisuje zaznaczone wpisy.
 

@@ -403,6 +403,10 @@ input.answer.bad { border-color: var(--bad); background: var(--bad-soft); }
 .back-link { display: inline-block; margin-bottom: 8px; font-weight: 700; font-size: .9rem; text-decoration: none; }
 .seg-full { display: flex; width: 100%; margin-bottom: 16px; }
 .seg-full button { flex: 1; padding: 9px 4px; white-space: nowrap; font-size: .9rem; }
+.btn.grow { flex: 1 1 auto; }
+.ai-steps { margin: 0 0 14px; padding-left: 1.3em; display: grid; gap: 4px; }
+.ai-prompt textarea { margin-top: 8px; min-height: 180px; background: var(--surface-2); }
+.pv-notes { display: grid; gap: 4px; margin-bottom: 10px; padding: 10px 12px; border-radius: 12px; background: var(--bad-soft); }
 .req { color: var(--bad); }
 .badge.mine { background: var(--accent-soft); color: var(--accent); }
 code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .85em; background: var(--surface-2); padding: 1px 5px; border-radius: 6px; }

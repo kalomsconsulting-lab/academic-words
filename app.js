@@ -1519,10 +1519,11 @@
     style_rule: ['rule', 'incorrect', 'correct'],
   };
 
-  let pending = null;   // podgląd importu: { source, rows: [{ item, errors, warnings, dup, checked, line }] }
+  // podgląd importu: { source, rows: [{ item, errors, warnings, dup, checked, line }], notes: [błędy parsera], parts, ai }
+  let pending = null;
   let lastAdded = null; // { source, ids } — komunikat po dodaniu
   const openPacks = new Set();
-  const matUi = { tab: 'paste', pasteType: 'awl_word', pasteCat: 'awl', pasteText: '', pasteSource: '', formType: 'awl_word', formCat: 'awl' };
+  const matUi = { tab: 'ai', aiText: '', aiSource: '', pasteType: 'awl_word', pasteCat: 'awl', pasteText: '', pasteSource: '', formType: 'awl_word', formCat: 'awl' };
 
   const fieldDef = (type, key) => (FIELDS[type] || []).find((f) => f.key === key);
   const dupKey = (it) => norm(it.informal || it.word || it.incorrect || it.rule || '');
@@ -1562,25 +1563,36 @@
     return w;
   }
 
-  function buildPending(raws, source) {
+  // opts.append: dopisz do bieżącego podglądu (kolejna część odpowiedzi czatu); opts.notes: błędy parsera.
+  function buildPending(raws, source, opts = {}) {
+    const prev = opts.append && pending ? pending : null;
     const seen = new Map();
     for (const it of VOCAB) {
       const k = dupKey(it);
       if (k && !seen.has(k)) seen.set(k, it._custom ? `już w Twoich materiałach („${it.source}”)` : 'już w słowniku');
     }
+    for (const r of prev ? prev.rows : []) {
+      const k = !r.errors.length && dupKey(r.item);
+      if (k && !seen.has(k)) seen.set(k, `powtórzone w tym imporcie (poz. ${r.line})`);
+    }
+    const offset = prev ? prev.rows.length : 0;
     const rows = raws.map((raw, i) => {
       const isObj = raw && typeof raw === 'object' && !Array.isArray(raw);
       const item = isObj ? cleanRaw(raw) : {};
       const errors = isObj ? itemErrors(item) : ['Wpis nie jest obiektem JSON'];
       const warnings = errors.length ? [] : itemWarnings(item);
       if (isObj && raw.__extra) warnings.push('Nadmiarowe kolumny pominięte');
-      const line = isObj && raw.__line ? raw.__line : i + 1;
+      const line = isObj && raw.__line ? raw.__line : offset + i + 1;
       const k = errors.length ? '' : dupKey(item);
       const dup = (k && seen.get(k)) || null;
       if (k && !dup) seen.set(k, `powtórzone w tym imporcie (poz. ${line})`);
       return { item, errors, warnings, dup, checked: !errors.length && !dup, line };
     });
-    pending = { source: source || 'ręcznie', rows };
+    const parts = prev ? prev.parts + 1 : 1;
+    const notes = (opts.notes || []).map((n) => (parts > 1 ? `Część ${parts}: ${n}` : n));
+    pending = prev
+      ? { ...prev, rows: [...prev.rows, ...rows], notes: [...prev.notes, ...notes], parts }
+      : { source: source || 'ręcznie', rows, notes, parts, ai: !!opts.ai };
     lastAdded = null;
   }
 
@@ -1637,17 +1649,33 @@
 
   function renderMaterials(view) {
     const panel = h('div');
+    const tabs = h('div');
     const previewCard = h('div', { class: 'card', id: 'mat-preview' });
     const manageCard = h('div', { class: 'card' });
-    const tabs = seg([['file', '📄 Plik JSON'], ['paste', '📋 Wklej'], ['form', '✏️ Słowo']], matUi.tab, (v) => { matUi.tab = v; drawPanel(); });
-    tabs.classList.add('seg-full');
+    if (matUi.tab === 'ai' && !window.AW_AI) matUi.tab = 'paste';
 
     const showPreview = () => { drawPreview(); previewCard.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
+    function drawTabs() {
+      const s = seg([['ai', '🤖 Czat AI'], ['file', '📄 JSON'], ['paste', '📋 Wklej'], ['form', '✏️ Słowo']], matUi.tab, (v) => { matUi.tab = v; drawPanel(); });
+      s.classList.add('seg-full');
+      tabs.replaceChildren(s);
+    }
     function drawPanel() {
-      panel.replaceChildren(matUi.tab === 'file' ? filePanel(showPreview) : matUi.tab === 'paste' ? pastePanel(showPreview) : formPanel(showPreview));
+      const make = { ai: aiPanel, file: filePanel, paste: pastePanel, form: formPanel }[matUi.tab];
+      panel.replaceChildren(make(showPreview));
+    }
+    // „Dodaj kolejną część”: wróć do pola odpowiedzi czatu, nowe wklejenie dopisze się do podglądu.
+    function morePart() {
+      matUi.tab = 'ai';
+      matUi.aiText = '';
+      drawTabs();
+      drawPanel();
+      const ta = document.getElementById('m-ai');
+      if (ta) { ta.scrollIntoView({ behavior: 'smooth', block: 'center' }); ta.focus({ preventScroll: true }); }
     }
 
     function drawPreview() {
+      if (matUi.tab === 'ai') drawPanel(); // przyciski panelu zależą od tego, czy jest podgląd z czatu
       if (!pending) {
         const ids = lastAdded ? lastAdded.ids : [];
         previewCard.classList.toggle('hidden', !ids.length);
@@ -1674,16 +1702,20 @@
       };
       addBtn.addEventListener('click', () => { commitPending(); drawPreview(); drawManage(); });
       updateBtn();
-      previewCard.replaceChildren(
+      previewCard.replaceChildren(h('div', null,
         h('h2', null, 'Podgląd przed zapisem'),
-        h('p', { class: 'muted small' }, 'Źródło: ', h('b', null, pending.source), ` · ${rows.length} ${plural(rows.length, 'wpis', 'wpisy', 'wpisów')}: `,
+        h('p', { class: 'muted small' }, 'Źródło: ', h('b', null, pending.source),
+          pending.parts > 1 ? ` · ${pending.parts} ${plural(pending.parts, 'część', 'części', 'części')}` : '',
+          ` · ${rows.length} ${plural(rows.length, 'wpis', 'wpisy', 'wpisów')}: `,
           `${nNew} ${plural(nNew, 'nowy', 'nowe', 'nowych')}, ${nDup} ${plural(nDup, 'duplikat', 'duplikaty', 'duplikatów')}, ${nErr} z błędami. `,
-          'Odznacz wpisy, których nie chcesz dodawać.'),
-        h('div', { class: 'pv-list' }, rows.map((r) => previewRow(r, updateBtn))),
+          rows.length ? 'Odznacz wpisy, których nie chcesz dodawać.' : ''),
+        pending.notes.length ? h('div', { class: 'pv-notes' }, pending.notes.map((n) => h('div', { class: 'pv-msg bad' }, '✗ ' + n))) : null,
+        rows.length ? h('div', { class: 'pv-list' }, rows.map((r) => previewRow(r, updateBtn))) : null,
         h('div', { class: 'row', style: 'margin-top:14px' },
           h('button', { class: 'btn btn-ghost', onClick: () => { pending = null; drawPreview(); } }, 'Anuluj'),
           h('div', { class: 'spacer' }),
-          addBtn));
+          pending.ai ? h('button', { class: 'btn', onClick: morePart }, '➕ Dodaj kolejną część') : null,
+          addBtn)));
     }
 
     function drawManage() {
@@ -1733,6 +1765,7 @@
       h('div', { class: 'card' }, tabs, panel),
       previewCard,
       manageCard);
+    drawTabs();
     drawPanel();
     drawPreview();
     drawManage();
@@ -1752,6 +1785,75 @@
         r.errors.map((e) => h('span', { class: 'pv-msg bad' }, '✗ ' + e)),
         r.dup ? h('span', { class: 'pv-msg warn' }, '⚠ Duplikat: ' + r.dup) : null,
         r.warnings.map((w) => h('span', { class: 'pv-msg' }, 'ℹ ' + w))));
+  }
+
+  // Import przez zewnętrzny czat AI: prompt i parser odpowiedzi z ai-import.js (window.AW_AI).
+  function aiPanel(onPreview) {
+    const AI = window.AW_AI;
+    if (!AI) return h('p', { class: 'muted small' }, 'Moduł importu z czatu AI nie wczytał się — odśwież stronę.');
+    const appending = !!(pending && pending.ai);
+
+    const promptBox = h('textarea', { id: 'm-ai-prompt', readonly: 'readonly', rows: '9', value: AI.prompt, 'aria-label': 'Prompt dla czatu AI' });
+    const promptDet = h('details', { class: 'ai-prompt' }, h('summary', null, 'Pokaż prompt'), promptBox);
+    const showPromptForCopy = () => {
+      promptDet.open = true;
+      promptBox.focus();
+      promptBox.select();
+      toast('Schowek niedostępny — prompt jest zaznaczony, skopiuj go ręcznie.');
+    };
+    const copyAndOpen = () => {
+      if (!navigator.clipboard || !navigator.clipboard.writeText) { showPromptForCopy(); return; }
+      const copying = navigator.clipboard.writeText(AI.prompt);
+      // window.open od razu, w obrębie kliknięcia — po await przeglądarki (zwłaszcza Safari) blokują nowe karty
+      const win = window.open(AI.copilotUrl, '_blank');
+      if (win) win.opener = null;
+      copying.then(
+        () => toast(win ? 'Prompt skopiowany — wklej go w Copilocie' : 'Prompt skopiowany. Otwórz Copilota linkiem w kroku 1.'),
+        showPromptForCopy);
+    };
+
+    const ta = h('textarea', { id: 'm-ai', rows: '7', spellcheck: 'false', value: matUi.aiText,
+      placeholder: 'Wklej tu całą odpowiedź czatu — razem z tekstem i blokami kodu, aplikacja sama wyłuska JSON.' });
+    ta.addEventListener('input', () => { matUi.aiText = ta.value; });
+    const run = (append) => {
+      const text = ta.value;
+      if (!text.trim()) { toast('Najpierw wklej odpowiedź czatu.'); ta.focus(); return; }
+      const { items, errors } = AI.parseReply(text);
+      buildPending(items, matUi.aiSource.trim() || `Czat AI ${today()}`, { append, notes: errors, ai: true });
+      matUi.aiText = '';
+      onPreview();
+    };
+    const fromClipboard = async () => {
+      const manual = 'wklej ręcznie (Ctrl+V albo przytrzymaj pole i wybierz „Wklej”).';
+      if (!navigator.clipboard || !navigator.clipboard.readText) { toast('Przeglądarka nie daje dostępu do schowka — ' + manual); ta.focus(); return; }
+      let text;
+      try { text = await navigator.clipboard.readText(); } catch (e) { toast('Brak zgody na odczyt schowka — ' + manual); ta.focus(); return; }
+      if (!text.trim()) { toast('Schowek jest pusty.'); return; }
+      ta.value = matUi.aiText = text;
+      run(appending);
+    };
+    const src = h('input', { type: 'text', id: 'm-aisrc', maxlength: '60', placeholder: `Czat AI ${today()}`, value: matUi.aiSource,
+      onInput: (e) => { matUi.aiSource = e.target.value; } });
+
+    return h('div', null,
+      h('h3', null, 'Z czatu AI (Copilot) ', h('span', { class: 'badge mine' }, 'polecane')),
+      h('ol', { class: 'ai-steps small' },
+        h('li', null, 'Skopiuj prompt i otwórz ', h('a', { href: AI.copilotUrl, target: '_blank', rel: 'noopener' }, 'Copilota'), ' (przycisk niżej).'),
+        h('li', null, 'Wklej prompt w czacie i dołącz handout: zdjęcie, PDF, plik Word albo jego tekst.'),
+        h('li', null, 'Skopiuj całą odpowiedź czatu i wklej ją poniżej. Jeśli czat napisze „CIĄG DALSZY”, poproś o resztę i dodaj ją jako kolejną część.')),
+      h('div', { class: 'row', style: 'margin-bottom:6px' },
+        h('button', { class: 'btn btn-primary grow', onClick: copyAndOpen }, '📋 Skopiuj prompt i otwórz Copilota')),
+      promptDet,
+      h('div', { class: 'field', style: 'margin-top:14px' },
+        h('label', { for: 'm-ai' }, appending ? `Wklej kolejną część odpowiedzi (część ${pending.parts + 1})` : 'Wklej odpowiedź czatu'), ta),
+      appending ? null : h('div', { class: 'field' },
+        h('label', { for: 'm-aisrc' }, 'Nazwa paczki ', h('span', { class: 'muted small', style: 'font-weight:500' }, '(opcjonalnie)')), src),
+      h('div', { class: 'row' },
+        h('button', { class: 'btn grow', onClick: fromClipboard }, '📥 Wklej ze schowka'),
+        appending
+          ? [h('button', { class: 'btn btn-primary grow', onClick: () => run(true) }, '➕ Dodaj kolejną część'),
+            h('button', { class: 'btn btn-ghost', onClick: () => run(false) }, 'Nowy podgląd')]
+          : h('button', { class: 'btn btn-primary grow', onClick: () => run(false) }, 'Podgląd →')));
   }
 
   function filePanel(onPreview) {
