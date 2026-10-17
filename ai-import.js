@@ -53,17 +53,32 @@ Zasady:
     cloze: { text: 'Zdanie z ukrytym {{kluczowym pojęciem}}.', hint: 'podpowiedź', explanation: 'Wyjaśnienie w jednym zdaniu.' },
   };
 
-  // Słówka do nauki języka (typ awl_word: słowo po angielsku + tłumaczenie + zdanie).
+  // Słówka do nauki języka (typ awl_word: słowo w języku obcym + tłumaczenie + zdanie).
+  // lang 'de-pl' = niemiecki, pozostałe = angielski.
+  const VOCAB_LANGS = {
+    en: {
+      inLang: 'po angielsku',
+      example: { word: 'healthy', polish: ['zdrowy'], example: 'Fruit and vegetables are healthy.', category: 'en7_health' },
+      word: 'słowo albo krótki zwrot po angielsku (np. "do the shopping", "be good at"), bez przedimka "a/the" przed rzeczownikiem',
+    },
+    de: {
+      inLang: 'po niemiecku',
+      // bez kategorii w przykładzie: dostaje pierwszą kategorię przedmiotu (Człowiek / Identities)
+      example: { word: 'freundlich', polish: ['przyjazny', 'miły'], example: 'Meine Schwester ist sehr freundlich.' },
+      word: 'słowo albo krótki zwrot po niemiecku (np. "einkaufen gehen", "Lust haben"); rzeczowniki z rodzajnikiem i wielką literą (np. "der Tisch"), czasowniki w bezokoliczniku',
+    },
+  };
   function vocabPrompt(subject, cats, card) {
+    const L = VOCAB_LANGS[subject.lang === 'de-pl' ? 'de' : 'en'];
     return `Wyciągnij z załączonego materiału z przedmiotu ${subject.label} słówka i zwroty do nauki i zwróć je jako JSON w bloku kodu.
 ${subject.audience ? `Poziom: ${subject.audience}.\n` : ''}
 Format: tablica obiektów:
-${card('awl_word', { word: 'healthy', polish: ['zdrowy'], example: 'Fruit and vegetables are healthy.', category: 'en7_health' })}
+${card('awl_word', L.example)}
 
 Zasady:
-- "word": słowo albo krótki zwrot po angielsku (np. "do the shopping", "be good at"), bez przedimka "a/the" przed rzeczownikiem.
+- "word": ${L.word}.
 - "polish": tłumaczenie po polsku, kilka znaczeń jako osobne elementy tablicy.
-- "example": jedno proste zdanie po angielsku, które zawiera dokładnie to słowo lub zwrot.
+- "example": jedno proste zdanie ${L.inLang}, które zawiera dokładnie to słowo lub zwrot.
 - Dozwolone kategorie${cats.length ? `: ${cats.map((c) => `${c.key} (${c.label})`).join(', ')}` : ' — pomiń pole "category"'}.
 - "difficulty": 1 (łatwe), 2 (średnie), 3 (trudne).
 - Bierz tylko słownictwo z materiału.
@@ -72,7 +87,7 @@ Zasady:
 - Jeśli słówek jest więcej niż 30, zwróć pierwsze 30 i napisz "CIĄG DALSZY", a resztę podaj, gdy poproszę.`;
   }
 
-  // Prompt dla przedmiotu: { id, label, categories: [{ key, label }], lang: 'en' | 'pl', vocab, audience }.
+  // Prompt dla przedmiotu: { id, label, categories: [{ key, label }], lang: 'en' | 'pl' | 'en-pl' | 'de-pl', vocab, audience }.
   // Academic English ma własny prompt (PROMPT), przedmioty językowe dostają słówka, pozostałe pytania i luki.
   function promptFor(subject) {
     if (!subject || subject.id === 'academic_english') return PROMPT;

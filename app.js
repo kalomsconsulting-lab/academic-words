@@ -58,6 +58,186 @@
     bio7_reproduction:{ subject: 'biologia_sp7', label: 'Rozmnażanie i rozwój', short: 'Rozwój', pl: 'rozmnażanie i dojrzewanie', icon: '👶' },
     bio7_health:      { subject: 'biologia_sp7', label: 'Zdrowie', short: 'Zdrowie', pl: 'homeostaza i zdrowie', icon: '🩺' },
     bio7_other:       { subject: 'biologia_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+
+    // ----- IB Pre-DP: przedmioty z planu lekcji (karty po angielsku, przedmioty polskie po polsku) -----
+    // Mathematics
+    mathib_number:    { subject: 'math_ib', label: 'Number & algebra', short: 'Algebra', pl: 'liczby i algebra', icon: '🔢' },
+    mathib_functions: { subject: 'math_ib', label: 'Functions', short: 'Functions', pl: 'funkcje', icon: '📈' },
+    mathib_geometry:  { subject: 'math_ib', label: 'Geometry & trigonometry', short: 'Geometry', pl: 'geometria i trygonometria', icon: '📐' },
+    mathib_stats:     { subject: 'math_ib', label: 'Statistics & probability', short: 'Statistics', pl: 'statystyka i prawdopodobieństwo', icon: '🎲' },
+    mathib_calculus:  { subject: 'math_ib', label: 'Calculus', short: 'Calculus', pl: 'rachunek różniczkowy', icon: '📉' },
+    mathib_other:     { subject: 'math_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // Chemistry
+    chemib_atoms:     { subject: 'chemistry_ib', label: 'Atomic structure', short: 'Atoms', pl: 'budowa atomu', icon: '⚛️' },
+    chemib_periodic:  { subject: 'chemistry_ib', label: 'Periodic table', short: 'Periodic', pl: 'układ okresowy', icon: '🧮' },
+    chemib_bonding:   { subject: 'chemistry_ib', label: 'Bonding & structure', short: 'Bonding', pl: 'wiązania i struktura', icon: '🔗' },
+    chemib_mole:      { subject: 'chemistry_ib', label: 'The mole & stoichiometry', short: 'Mole', pl: 'mol i stechiometria', icon: '⚖️' },
+    chemib_reactions: { subject: 'chemistry_ib', label: 'Reactions & energetics', short: 'Reactions', pl: 'reakcje i energetyka', icon: '🔥' },
+    chemib_acids:     { subject: 'chemistry_ib', label: 'Acids & bases', short: 'Acids', pl: 'kwasy i zasady', icon: '🧫' },
+    chemib_redox:     { subject: 'chemistry_ib', label: 'Redox', short: 'Redox', pl: 'utlenianie i redukcja', icon: '🔋' },
+    chemib_organic:   { subject: 'chemistry_ib', label: 'Organic chemistry', short: 'Organic', pl: 'chemia organiczna', icon: '🧴' },
+    chemib_skills:    { subject: 'chemistry_ib', label: 'Lab skills', short: 'Lab', pl: 'umiejętności laboratoryjne', icon: '🔬' },
+    chemib_other:     { subject: 'chemistry_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // Physics
+    physib_measure:   { subject: 'physics_ib', label: 'Measurements & uncertainties', short: 'Measurement', pl: 'pomiary i niepewności', icon: '📏' },
+    physib_motion:    { subject: 'physics_ib', label: 'Motion & forces', short: 'Mechanics', pl: 'ruch i siły', icon: '🚀' },
+    physib_energy:    { subject: 'physics_ib', label: 'Work, energy & power', short: 'Energy', pl: 'praca, energia i moc', icon: '⚡' },
+    physib_thermal:   { subject: 'physics_ib', label: 'Thermal physics', short: 'Thermal', pl: 'termodynamika', icon: '🌡️' },
+    physib_waves:     { subject: 'physics_ib', label: 'Waves', short: 'Waves', pl: 'fale', icon: '🌊' },
+    physib_electric:  { subject: 'physics_ib', label: 'Electricity & magnetism', short: 'Electricity', pl: 'elektryczność i magnetyzm', icon: '🧲' },
+    physib_nuclear:   { subject: 'physics_ib', label: 'Atomic & nuclear physics', short: 'Nuclear', pl: 'fizyka atomowa i jądrowa', icon: '☢️' },
+    physib_other:     { subject: 'physics_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // History
+    histib_skills:    { subject: 'history_ib', label: 'Sources & skills', short: 'Skills', pl: 'źródła i umiejętności', icon: '🔎' },
+    histib_early:     { subject: 'history_ib', label: 'Ancient & medieval', short: 'Medieval', pl: 'starożytność i średniowiecze', icon: '🏺' },
+    histib_modern:    { subject: 'history_ib', label: 'Early modern', short: 'Early modern', pl: 'nowożytność', icon: '⛵' },
+    histib_19c:       { subject: 'history_ib', label: '19th century', short: '19th c.', pl: 'XIX wiek', icon: '🏭' },
+    histib_wars:      { subject: 'history_ib', label: 'World wars', short: 'Wars', pl: 'wojny światowe', icon: '🪖' },
+    histib_states:    { subject: 'history_ib', label: 'Authoritarian states', short: 'Authoritarian', pl: 'państwa autorytarne', icon: '🏛️' },
+    histib_coldwar:   { subject: 'history_ib', label: 'Cold War', short: 'Cold War', pl: 'zimna wojna', icon: '🧊' },
+    histib_other:     { subject: 'history_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // History of Poland (po polsku)
+    hpl_piast:        { subject: 'historia_polski_ib', label: 'Polska Piastów', short: 'Piastowie', pl: 'X–XIV wiek', icon: '👑' },
+    hpl_jagiellon:    { subject: 'historia_polski_ib', label: 'Polska Jagiellonów', short: 'Jagiellonowie', pl: 'XIV–XVI wiek', icon: '🛡️' },
+    hpl_commonwealth: { subject: 'historia_polski_ib', label: 'Rzeczpospolita Obojga Narodów', short: 'Rzeczpospolita', pl: 'XVI–XVIII wiek', icon: '🏰' },
+    hpl_partitions:   { subject: 'historia_polski_ib', label: 'Rozbiory i XIX wiek', short: 'Zabory', pl: 'rozbiory, powstania, zabory', icon: '⛓️' },
+    hpl_ii_rp:        { subject: 'historia_polski_ib', label: 'II Rzeczpospolita', short: 'II RP', pl: '1918–1939', icon: '🦅' },
+    hpl_ww2:          { subject: 'historia_polski_ib', label: 'II wojna światowa', short: 'II wojna', pl: 'okupacja i Polskie Państwo Podziemne', icon: '🪖' },
+    hpl_prl:          { subject: 'historia_polski_ib', label: 'PRL', short: 'PRL', pl: '1944–1989', icon: '🏭' },
+    hpl_iii_rp:       { subject: 'historia_polski_ib', label: 'III Rzeczpospolita', short: 'III RP', pl: 'po 1989', icon: '🗳️' },
+    hpl_other:        { subject: 'historia_polski_ib', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Geography
+    geoib_skills:     { subject: 'geography_ib', label: 'Maps & skills', short: 'Maps', pl: 'mapy i umiejętności', icon: '🧭' },
+    geoib_population: { subject: 'geography_ib', label: 'Population', short: 'Population', pl: 'ludność', icon: '👥' },
+    geoib_urban:      { subject: 'geography_ib', label: 'Urbanisation', short: 'Urban', pl: 'urbanizacja', icon: '🏙️' },
+    geoib_climate:    { subject: 'geography_ib', label: 'Weather & climate', short: 'Climate', pl: 'pogoda i klimat', icon: '🌦️' },
+    geoib_landforms:  { subject: 'geography_ib', label: 'Landforms & hazards', short: 'Hazards', pl: 'rzeźba terenu i zagrożenia', icon: '🌋' },
+    geoib_water:      { subject: 'geography_ib', label: 'Water & rivers', short: 'Water', pl: 'woda i rzeki', icon: '💧' },
+    geoib_resources:  { subject: 'geography_ib', label: 'Resources & energy', short: 'Resources', pl: 'zasoby i energia', icon: '⛽' },
+    geoib_global:     { subject: 'geography_ib', label: 'Development & globalisation', short: 'Global', pl: 'rozwój i globalizacja', icon: '🌐' },
+    geoib_other:      { subject: 'geography_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // Polish (język polski w liceum)
+    plib_antiquity:   { subject: 'polski_ib', label: 'Antyk i Biblia', short: 'Antyk', pl: 'mitologia, Biblia, literatura antyczna', icon: '🏺' },
+    plib_medieval:    { subject: 'polski_ib', label: 'Średniowiecze', short: 'Średniowiecze', pl: 'literatura średniowieczna', icon: '🏰' },
+    plib_renaissance: { subject: 'polski_ib', label: 'Renesans', short: 'Renesans', pl: 'Kochanowski i humanizm', icon: '🎭' },
+    plib_baroque:     { subject: 'polski_ib', label: 'Barok', short: 'Barok', pl: 'literatura barokowa', icon: '🕯️' },
+    plib_enlight:     { subject: 'polski_ib', label: 'Oświecenie', short: 'Oświecenie', pl: 'Krasicki i literatura oświecenia', icon: '💡' },
+    plib_theory:      { subject: 'polski_ib', label: 'Teoria literatury', short: 'Teoria', pl: 'rodzaje, gatunki, środki stylistyczne', icon: '📚' },
+    plib_language:    { subject: 'polski_ib', label: 'Nauka o języku', short: 'Język', pl: 'gramatyka, stylistyka, retoryka', icon: '✍️' },
+    plib_other:       { subject: 'polski_ib', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Edukacja obywatelska (po polsku)
+    eo_society:       { subject: 'eo_ib', label: 'Społeczeństwo', short: 'Społeczeństwo', pl: 'grupy, społeczności, aktywność obywatelska', icon: '👥' },
+    eo_rights:        { subject: 'eo_ib', label: 'Prawa człowieka', short: 'Prawa', pl: 'wolności i prawa', icon: '🕊️' },
+    eo_state:         { subject: 'eo_ib', label: 'Państwo i ustrój RP', short: 'Ustrój', pl: 'Konstytucja, władze, wybory', icon: '🏛️' },
+    eo_local:         { subject: 'eo_ib', label: 'Samorząd', short: 'Samorząd', pl: 'gmina, powiat, województwo', icon: '🏘️' },
+    eo_law:           { subject: 'eo_ib', label: 'Prawo', short: 'Prawo', pl: 'prawo i sądy', icon: '⚖️' },
+    eo_media:         { subject: 'eo_ib', label: 'Media i informacja', short: 'Media', pl: 'media, dezinformacja', icon: '📰' },
+    eo_world:         { subject: 'eo_ib', label: 'Polska w Europie i świecie', short: 'UE i świat', pl: 'UE, NATO, ONZ', icon: '🌐' },
+    eo_other:         { subject: 'eo_ib', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Computer Science (od II semestru)
+    csib_systems:     { subject: 'cs_ib', label: 'Computer systems', short: 'Systems', pl: 'sprzęt i systemy', icon: '🖥️' },
+    csib_data:        { subject: 'cs_ib', label: 'Data representation', short: 'Data', pl: 'reprezentacja danych', icon: '0️⃣' },
+    csib_networks:    { subject: 'cs_ib', label: 'Networks', short: 'Networks', pl: 'sieci', icon: '🌐' },
+    csib_algorithms:  { subject: 'cs_ib', label: 'Algorithms', short: 'Algorithms', pl: 'algorytmy', icon: '🧩' },
+    csib_programming: { subject: 'cs_ib', label: 'Programming', short: 'Programming', pl: 'programowanie', icon: '⌨️' },
+    csib_databases:   { subject: 'cs_ib', label: 'Databases', short: 'Databases', pl: 'bazy danych', icon: '🗄️' },
+    csib_impacts:     { subject: 'cs_ib', label: 'Impacts & ethics', short: 'Ethics', pl: 'wpływ i etyka', icon: '🤝' },
+    csib_other:       { subject: 'cs_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // German B (słówka; podpis po polsku, pl = temat IB Language B)
+    deib_identities:  { subject: 'german_ib', label: 'Tożsamość', short: 'Tożsamość', pl: 'Identities', icon: '🧑' },
+    deib_experiences: { subject: 'german_ib', label: 'Doświadczenia', short: 'Doświadczenia', pl: 'Experiences', icon: '✈️' },
+    deib_ingenuity:   { subject: 'german_ib', label: 'Wynalazczość', short: 'Wynalazki', pl: 'Human ingenuity', icon: '💡' },
+    deib_social:      { subject: 'german_ib', label: 'Organizacja społeczna', short: 'Społeczeństwo', pl: 'Social organisation', icon: '🏛️' },
+    deib_planet:      { subject: 'german_ib', label: 'Wspólna planeta', short: 'Planeta', pl: 'Sharing the planet', icon: '🌍' },
+    deib_grammar:     { subject: 'german_ib', label: 'Gramatyka i zwroty', short: 'Gramatyka', pl: 'Grammatik', icon: '🧩' },
+    deib_other:       { subject: 'german_ib', label: 'Inne', short: 'Inne', pl: 'Sonstiges', icon: '📘' },
+
+    // ----- 7 klasa: przedmioty z planu lekcji (karty po polsku) -----
+    // Matematyka
+    mat7_numbers:     { subject: 'matematyka_sp7', label: 'Liczby i działania', short: 'Liczby', pl: 'działania, potęgi, pierwiastki', icon: '🔢' },
+    mat7_algebra:     { subject: 'matematyka_sp7', label: 'Wyrażenia algebraiczne', short: 'Wyrażenia', pl: 'jednomiany i sumy algebraiczne', icon: '✖️' },
+    mat7_equations:   { subject: 'matematyka_sp7', label: 'Równania', short: 'Równania', pl: 'równania i zadania tekstowe', icon: '🟰' },
+    mat7_percent:     { subject: 'matematyka_sp7', label: 'Procenty i proporcje', short: 'Procenty', pl: 'procenty, proporcjonalność', icon: '💯' },
+    mat7_geometry:    { subject: 'matematyka_sp7', label: 'Figury płaskie', short: 'Figury', pl: 'trójkąty, czworokąty, pola', icon: '📐' },
+    mat7_solids:      { subject: 'matematyka_sp7', label: 'Bryły', short: 'Bryły', pl: 'graniastosłupy i ostrosłupy', icon: '🧊' },
+    mat7_stats:       { subject: 'matematyka_sp7', label: 'Statystyka', short: 'Statystyka', pl: 'dane, wykresy, średnia', icon: '📊' },
+    mat7_other:       { subject: 'matematyka_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Fizyka
+    fiz7_intro:       { subject: 'fizyka_sp7', label: 'Pomiary', short: 'Pomiary', pl: 'wielkości fizyczne i jednostki', icon: '📏' },
+    fiz7_matter:      { subject: 'fizyka_sp7', label: 'Właściwości materii', short: 'Materia', pl: 'stany skupienia, gęstość', icon: '🧱' },
+    fiz7_pressure:    { subject: 'fizyka_sp7', label: 'Ciśnienie i hydrostatyka', short: 'Ciśnienie', pl: 'ciśnienie, prawo Pascala i Archimedesa', icon: '🎈' },
+    fiz7_motion:      { subject: 'fizyka_sp7', label: 'Ruch', short: 'Ruch', pl: 'prędkość, przyspieszenie', icon: '🚲' },
+    fiz7_forces:      { subject: 'fizyka_sp7', label: 'Siły i zasady dynamiki', short: 'Siły', pl: 'zasady dynamiki Newtona', icon: '🍎' },
+    fiz7_energy:      { subject: 'fizyka_sp7', label: 'Praca, moc, energia', short: 'Energia', pl: 'energia mechaniczna', icon: '⚡' },
+    fiz7_heat:        { subject: 'fizyka_sp7', label: 'Ciepło', short: 'Ciepło', pl: 'temperatura i przepływ ciepła', icon: '🌡️' },
+    fiz7_other:       { subject: 'fizyka_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Chemia
+    chem7_substances: { subject: 'chemia_sp7', label: 'Substancje i mieszaniny', short: 'Substancje', pl: 'właściwości, rozdzielanie mieszanin', icon: '🧂' },
+    chem7_atoms:      { subject: 'chemia_sp7', label: 'Budowa atomu i układ okresowy', short: 'Atom', pl: 'atomy, pierwiastki, izotopy', icon: '⚛️' },
+    chem7_bonding:    { subject: 'chemia_sp7', label: 'Wiązania chemiczne', short: 'Wiązania', pl: 'wiązania, wartościowość, wzory', icon: '🔗' },
+    chem7_reactions:  { subject: 'chemia_sp7', label: 'Reakcje chemiczne', short: 'Reakcje', pl: 'typy reakcji, równania, prawa', icon: '🔥' },
+    chem7_air:        { subject: 'chemia_sp7', label: 'Powietrze', short: 'Powietrze', pl: 'składniki powietrza, tlenki', icon: '💨' },
+    chem7_water:      { subject: 'chemia_sp7', label: 'Woda i roztwory', short: 'Roztwory', pl: 'rozpuszczalność, stężenie', icon: '💧' },
+    chem7_lab:        { subject: 'chemia_sp7', label: 'Pracownia chemiczna', short: 'Pracownia', pl: 'sprzęt i bezpieczeństwo', icon: '🔬' },
+    chem7_other:      { subject: 'chemia_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Polski
+    pol7_books:       { subject: 'polski_sp7', label: 'Lektury', short: 'Lektury', pl: 'treść, bohaterowie, motywy', icon: '📖' },
+    pol7_theory:      { subject: 'polski_sp7', label: 'Teoria literatury', short: 'Teoria', pl: 'rodzaje, gatunki, środki stylistyczne', icon: '🎭' },
+    pol7_grammar:     { subject: 'polski_sp7', label: 'Gramatyka', short: 'Gramatyka', pl: 'części mowy i zdania', icon: '🧩' },
+    pol7_spelling:    { subject: 'polski_sp7', label: 'Ortografia i interpunkcja', short: 'Ortografia', pl: 'pisownia i przecinki', icon: '✏️' },
+    pol7_writing:     { subject: 'polski_sp7', label: 'Formy wypowiedzi', short: 'Wypowiedzi', pl: 'rozprawka, charakterystyka, przemówienie', icon: '📝' },
+    pol7_other:       { subject: 'polski_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Historia (XIX wiek – 1939)
+    his7_napoleon:    { subject: 'historia_sp7', label: 'Epoka napoleońska', short: 'Napoleon', pl: 'Napoleon i Księstwo Warszawskie', icon: '🎖️' },
+    his7_vienna:      { subject: 'historia_sp7', label: 'Europa po kongresie wiedeńskim', short: 'Po 1815', pl: 'Święte Przymierze, Wiosna Ludów', icon: '🏛️' },
+    his7_uprisings:   { subject: 'historia_sp7', label: 'Powstania narodowe', short: 'Powstania', pl: 'listopadowe i styczniowe', icon: '⚔️' },
+    his7_partitions:  { subject: 'historia_sp7', label: 'Ziemie polskie pod zaborami', short: 'Zabory', pl: 'rusyfikacja, germanizacja, praca organiczna', icon: '⛓️' },
+    his7_industry:    { subject: 'historia_sp7', label: 'Przemiany XIX wieku', short: 'Przemysł', pl: 'rewolucja przemysłowa, nowe idee', icon: '🏭' },
+    his7_ww1:         { subject: 'historia_sp7', label: 'I wojna światowa', short: 'I wojna', pl: '1914–1918', icon: '🪖' },
+    his7_ii_rp:       { subject: 'historia_sp7', label: 'II Rzeczpospolita', short: 'II RP', pl: 'odzyskanie niepodległości, 1918–1939', icon: '🦅' },
+    his7_interwar:    { subject: 'historia_sp7', label: 'Świat międzywojenny', short: 'Międzywojnie', pl: 'totalitaryzmy, kryzys', icon: '🌐' },
+    his7_other:       { subject: 'historia_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Geografia (geografia Polski)
+    geo7_location:    { subject: 'geografia_sp7', label: 'Położenie i mapa Polski', short: 'Położenie', pl: 'granice, podział administracyjny', icon: '🧭' },
+    geo7_nature:      { subject: 'geografia_sp7', label: 'Środowisko przyrodnicze', short: 'Przyroda', pl: 'rzeźba, klimat, wody, gleby', icon: '🏔️' },
+    geo7_population:  { subject: 'geografia_sp7', label: 'Ludność i urbanizacja', short: 'Ludność', pl: 'demografia, migracje, miasta', icon: '👥' },
+    geo7_farming:     { subject: 'geografia_sp7', label: 'Rolnictwo', short: 'Rolnictwo', pl: 'uprawy i hodowla', icon: '🌾' },
+    geo7_industry:    { subject: 'geografia_sp7', label: 'Przemysł i energetyka', short: 'Przemysł', pl: 'surowce, elektrownie', icon: '🏭' },
+    geo7_services:    { subject: 'geografia_sp7', label: 'Usługi i transport', short: 'Usługi', pl: 'transport, turystyka, handel', icon: '🚆' },
+    geo7_regions:     { subject: 'geografia_sp7', label: 'Regiony Polski', short: 'Regiony', pl: 'relacje człowiek–środowisko', icon: '🗺️' },
+    geo7_other:       { subject: 'geografia_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Niemiecki (słówka; podpis po polsku, pl = temat po niemiecku)
+    de7_people:       { subject: 'niemiecki_sp7', label: 'Człowiek', short: 'Człowiek', pl: 'der Mensch', icon: '🧑' },
+    de7_family:       { subject: 'niemiecki_sp7', label: 'Rodzina i przyjaciele', short: 'Rodzina', pl: 'Familie und Freunde', icon: '👨‍👩‍👧' },
+    de7_home:         { subject: 'niemiecki_sp7', label: 'Dom', short: 'Dom', pl: 'Haus und Wohnung', icon: '🏠' },
+    de7_school:       { subject: 'niemiecki_sp7', label: 'Szkoła', short: 'Szkoła', pl: 'die Schule', icon: '🏫' },
+    de7_food:         { subject: 'niemiecki_sp7', label: 'Jedzenie', short: 'Jedzenie', pl: 'Essen und Trinken', icon: '🍎' },
+    de7_shopping:     { subject: 'niemiecki_sp7', label: 'Zakupy', short: 'Zakupy', pl: 'Einkaufen', icon: '🛒' },
+    de7_free_time:    { subject: 'niemiecki_sp7', label: 'Czas wolny i sport', short: 'Czas wolny', pl: 'Freizeit und Sport', icon: '⚽' },
+    de7_travel:       { subject: 'niemiecki_sp7', label: 'Podróże', short: 'Podróże', pl: 'Reisen', icon: '✈️' },
+    de7_health:       { subject: 'niemiecki_sp7', label: 'Zdrowie', short: 'Zdrowie', pl: 'Gesundheit', icon: '🩺' },
+    de7_nature:       { subject: 'niemiecki_sp7', label: 'Przyroda i pogoda', short: 'Przyroda', pl: 'Natur und Wetter', icon: '🌳' },
+    de7_grammar:      { subject: 'niemiecki_sp7', label: 'Gramatyka i zwroty', short: 'Gramatyka', pl: 'Grammatik', icon: '🧩' },
+    de7_other:        { subject: 'niemiecki_sp7', label: 'Inne', short: 'Inne', pl: 'Sonstiges', icon: '📘' },
+    // Informatyka
+    inf7_computer:    { subject: 'informatyka_sp7', label: 'Komputer i sieci', short: 'Komputer', pl: 'sprzęt, system, internet', icon: '🖥️' },
+    inf7_algorithms:  { subject: 'informatyka_sp7', label: 'Algorytmy', short: 'Algorytmy', pl: 'schematy blokowe, sortowanie', icon: '🧩' },
+    inf7_programming: { subject: 'informatyka_sp7', label: 'Programowanie', short: 'Programowanie', pl: 'Scratch, Python', icon: '⌨️' },
+    inf7_office:      { subject: 'informatyka_sp7', label: 'Dokumenty i arkusze', short: 'Biuro', pl: 'edytor tekstu, arkusz kalkulacyjny', icon: '📄' },
+    inf7_media:       { subject: 'informatyka_sp7', label: 'Grafika i multimedia', short: 'Multimedia', pl: 'grafika, prezentacje, wideo', icon: '🎨' },
+    inf7_safety:      { subject: 'informatyka_sp7', label: 'Bezpieczeństwo i prawo', short: 'Bezpieczeństwo', pl: 'cyberbezpieczeństwo, licencje', icon: '🔒' },
+    inf7_other:       { subject: 'informatyka_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Edukacja zdrowotna
+    ez7_physical:     { subject: 'edukacja_zdrowotna_sp7', label: 'Zdrowie fizyczne', short: 'Fizyczne', pl: 'sen, higiena, profilaktyka', icon: '💪' },
+    ez7_activity:     { subject: 'edukacja_zdrowotna_sp7', label: 'Aktywność fizyczna', short: 'Aktywność', pl: 'ruch i wypoczynek', icon: '🏃' },
+    ez7_nutrition:    { subject: 'edukacja_zdrowotna_sp7', label: 'Odżywianie', short: 'Odżywianie', pl: 'zdrowa dieta', icon: '🥗' },
+    ez7_mental:       { subject: 'edukacja_zdrowotna_sp7', label: 'Zdrowie psychiczne', short: 'Psychiczne', pl: 'emocje, stres', icon: '🧠' },
+    ez7_social:       { subject: 'edukacja_zdrowotna_sp7', label: 'Zdrowie społeczne', short: 'Społeczne', pl: 'relacje, komunikacja', icon: '🤝' },
+    ez7_puberty:      { subject: 'edukacja_zdrowotna_sp7', label: 'Dojrzewanie', short: 'Dojrzewanie', pl: 'zmiany w okresie dojrzewania', icon: '🌱' },
+    ez7_environment:  { subject: 'edukacja_zdrowotna_sp7', label: 'Środowisko i zdrowie', short: 'Środowisko', pl: 'zdrowie środowiskowe', icon: '🌍' },
+    ez7_addictions:   { subject: 'edukacja_zdrowotna_sp7', label: 'Uzależnienia i internet', short: 'Uzależnienia', pl: 'profilaktyka, higiena cyfrowa', icon: '📵' },
+    ez7_system:       { subject: 'edukacja_zdrowotna_sp7', label: 'Ochrona zdrowia', short: 'Pierwsza pomoc', pl: 'system ochrony zdrowia, pierwsza pomoc', icon: '🚑' },
+    ez7_other:        { subject: 'edukacja_zdrowotna_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
   };
 
   const TYPES = {
@@ -90,15 +270,55 @@
       label: 'Biologia', icon: '🫀', tagline: 'Biologia człowieka: pojęcia i procesy', file: 'data/biologia-7.json', lang: 'pl',
       types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'bio7_other',
     },
+    // Bez pola file: przedmiot startuje pusty, karty dochodzą z importu AI i materiałów wspólnych.
+    math_ib: { label: 'Mathematics', icon: '📐', tagline: 'Pojęcia, wzory i twierdzenia', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'mathib_other' },
+    chemistry_ib: { label: 'Chemistry', icon: '🧪', tagline: 'Pojęcia, reakcje i fakty', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'chemib_other' },
+    physics_ib: { label: 'Physics', icon: '⚛️', tagline: 'Pojęcia, prawa i jednostki', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'physib_other' },
+    history_ib: { label: 'History', icon: '📜', tagline: 'Wydarzenia, daty i pojęcia', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'histib_other' },
+    historia_polski_ib: { label: 'History of Poland', icon: '🏰', tagline: 'Historia Polski: daty, postacie, pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'hpl_other' },
+    geography_ib: { label: 'Geography', icon: '🗺️', tagline: 'Procesy, pojęcia i przykłady', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geoib_other' },
+    polski_ib: { label: 'Polish', icon: '📖', tagline: 'Epoki, lektury i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'plib_other' },
+    eo_ib: { label: 'Edukacja obywatelska', icon: '⚖️', tagline: 'Państwo, prawo i społeczeństwo', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'eo_other' },
+    cs_ib: { label: 'Computer Science', icon: '💻', tagline: 'Pojęcia i algorytmy (od II semestru)', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'csib_other' },
+    german_ib: {
+      label: 'German B', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', lang: 'de-pl', vocab: true,
+      types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'deib_other', typeLabels: { awl_word: 'Słówko' },
+    },
+    matematyka_sp7: { label: 'Matematyka', icon: '📐', tagline: 'Pojęcia, wzory i własności', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'mat7_other' },
+    fizyka_sp7: { label: 'Fizyka', icon: '⚛️', tagline: 'Wielkości, jednostki i prawa', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'fiz7_other' },
+    chemia_sp7: { label: 'Chemia', icon: '🧪', tagline: 'Pierwiastki, wzory i reakcje', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'chem7_other' },
+    polski_sp7: { label: 'Polski', icon: '📖', tagline: 'Lektury, gramatyka i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'pol7_other' },
+    historia_sp7: { label: 'Historia', icon: '📜', tagline: 'XIX wiek i dwudziestolecie: daty i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'his7_other' },
+    geografia_sp7: { label: 'Geografia', icon: '🗺️', tagline: 'Geografia Polski', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geo7_other' },
+    niemiecki_sp7: {
+      label: 'Niemiecki', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', lang: 'de-pl', vocab: true,
+      types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'de7_other', typeLabels: { awl_word: 'Słówko' },
+    },
+    informatyka_sp7: { label: 'Informatyka', icon: '💻', tagline: 'Pojęcia, algorytmy i programy', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'inf7_other' },
+    edukacja_zdrowotna_sp7: { label: 'Edukacja zdrowotna', icon: '🩺', tagline: 'Zdrowie fizyczne, psychiczne i społeczne', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'ez7_other' },
   };
+  // Nazwa języka obcego w poleceniach ćwiczeń ze słówkami („Napisz po …”).
+  const inLang = (subject) => ((SUBJECTS[subject] || {}).lang === 'de-pl' ? 'po niemiecku' : 'po angielsku');
   const DEFAULT_SUBJECT = 'academic_english';
   for (const c of Object.values(CATEGORIES)) c.subject = c.subject || DEFAULT_SUBJECT;
   const typeLabel = (type, subject) => ((SUBJECTS[subject] || {}).typeLabels || {})[type] || TYPES[type] || type;
 
   // Ścieżki nauki: konto widzi tylko przedmioty swojej ścieżki. audience trafia do promptu AI.
   const LEVELS = {
-    ib: { label: 'IB Pre-DP', subjects: ['academic_english', 'biology'], audience: 'uczeń IB Pre-DP (materiały po angielsku)' },
-    sp7: { label: '7 klasa szkoły podstawowej', subjects: ['english_sp7', 'biologia_sp7'], audience: 'uczeń 7 klasy polskiej szkoły podstawowej (podstawa programowa)' },
+    // Przedmioty z planów lekcji. Pierwsze są te z kartami bazowymi (pierwszy to domyślny przedmiot ścieżki),
+    // dalej przedmioty, które zapełniają się z importu AI.
+    ib: {
+      label: 'IB Pre-DP',
+      subjects: ['academic_english', 'biology', 'math_ib', 'chemistry_ib', 'physics_ib', 'history_ib', 'historia_polski_ib',
+        'geography_ib', 'polski_ib', 'german_ib', 'eo_ib', 'cs_ib'],
+      audience: 'uczeń IB Pre-DP (materiały po angielsku)',
+    },
+    sp7: {
+      label: '7 klasa szkoły podstawowej',
+      subjects: ['english_sp7', 'biologia_sp7', 'matematyka_sp7', 'polski_sp7', 'niemiecki_sp7', 'chemia_sp7', 'fizyka_sp7',
+        'historia_sp7', 'geografia_sp7', 'informatyka_sp7', 'edukacja_zdrowotna_sp7'],
+      audience: 'uczeń 7 klasy polskiej szkoły podstawowej (podstawa programowa)',
+    },
   };
   const DEFAULT_LEVEL = 'ib';
 
@@ -161,7 +381,7 @@
       left: (i) => i.word, right: (i) => FUNCTION_LABELS[i.function],
     },
     en_pl: {
-      label: 'Angielski → polski',
+      label: 'Słówko → polski',
       filter: (i) => (i.type === 'awl_word' || i.type === 'academic_verb') && i.polish.length > 0,
       left: (i) => i.word, right: (i) => i.polish[0],
     },
@@ -547,6 +767,7 @@
   // brak pliku innego przedmiotu (np. offline przed pierwszym pobraniem) daje tylko pusty przedmiot.
   async function loadVocab() {
     const loaded = await Promise.all(Object.entries(SUBJECTS).map(async ([key, subj]) => {
+      if (!subj.file) return { key, items: [], meta: {} };
       try {
         const res = await fetch(subj.file, { cache: 'no-cache' });
         if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -879,7 +1100,7 @@
         return { instruction: 'Co to znaczy po polsku?', prompt: it.word, context: it.example, answer: it.polish[0],
           options: opts(it.polish[0], distractors(it, (o) => o.polish[0], sameType, it.polish)) };
       }
-      return { instruction: it.subject === DEFAULT_SUBJECT ? 'Które słowo AWL to oznacza?' : 'Jak to jest po angielsku?', prompt: it.polish.join(', '), answer: it.word,
+      return { instruction: it.subject === DEFAULT_SUBJECT ? 'Które słowo AWL to oznacza?' : `Jak to jest ${inLang(it.subject)}?`, prompt: it.polish.join(', '), answer: it.word,
         options: opts(it.word, distractors(it, (o) => o.word, sameType, [it.word])) };
     }
     if (it.type === 'qa' || it.type === 'cloze') {
@@ -1080,7 +1301,7 @@
       return { instruction: 'Napisz angielski czasownik akademicki', prompt: it.polish.join(', '),
         context: `Funkcja: ${FUNCTION_LABELS[it.function]}. ${hint}`, accepted: [it.word], expected: it.word };
     }
-    return { instruction: it.subject === DEFAULT_SUBJECT ? 'Napisz angielskie słowo z AWL' : 'Napisz po angielsku', prompt: it.polish.join(', '), context: hint, accepted: [it.word], expected: it.word };
+    return { instruction: it.subject === DEFAULT_SUBJECT ? 'Napisz angielskie słowo z AWL' : `Napisz ${inLang(it.subject)}`, prompt: it.polish.join(', '), context: hint, accepted: [it.word], expected: it.word };
   }
 
   // Tytuł komunikatu dla zaliczonej odpowiedzi, która nie była idealna.
