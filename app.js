@@ -327,7 +327,7 @@
     chemia_sp7: { label: 'Chemia', icon: '🧪', tagline: 'Pierwiastki, wzory i reakcje', file: 'data/chemia-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'chem7_other' },
     polski_sp7: { label: 'Polski', icon: '📖', tagline: 'Lektury, gramatyka i pojęcia', file: 'data/polski-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'pol7_other' },
     historia_sp7: { label: 'Historia', icon: '📜', tagline: 'XIX wiek i dwudziestolecie: daty i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'his7_other' },
-    geografia_sp7: { label: 'Geografia', icon: '🗺️', tagline: 'Geografia Polski', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geo7_other' },
+    geografia_sp7: { label: 'Geografia', icon: '🗺️', tagline: 'Geografia Polski', file: 'data/geografia-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geo7_other' },
     niemiecki_sp7: {
       label: 'Niemiecki', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', file: 'data/niemiecki-7.json', lang: 'de-pl', vocab: true,
       types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'de7_other', typeLabels: { awl_word: 'Słówko' },

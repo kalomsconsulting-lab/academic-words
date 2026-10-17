@@ -1,0 +1,1449 @@
+{
+ "version": 1,
+ "subject": "geografia_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, geografia, klasy V–VIII (Dz.U. 2017 poz. 356 z późn. zm.); działy IX–XIII (geografia Polski) wg typowego rozkładu materiału klasy 7",
+ "items": [
+  {
+   "id": "geo7-pp-001",
+   "type": "qa",
+   "question": "Z iloma państwami graniczy Polska?",
+   "answer": "7",
+   "accept": [
+    "siedem",
+    "siedmioma",
+    "z siedmioma"
+   ],
+   "explanation": "Sąsiedzi Polski: Niemcy, Czechy, Słowacja, Ukraina, Białoruś, Litwa i Rosja (obwód królewiecki).",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "geo7-pp-002",
+   "type": "cloze",
+   "text": "Najdłuższą granicę lądową Polska ma z {{Czechami}} (ok. 800 km).",
+   "hint": "południowy sąsiad",
+   "explanation": "Kolejne pod względem długości są granice ze Słowacją, Ukrainą i Niemcami.",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "geo7-pp-003",
+   "type": "cloze",
+   "text": "Do morskich wód wewnętrznych Polski należą m.in. Zalew Szczeciński, część Zatoki Gdańskiej i Zalew {{Wiślany}}.",
+   "hint": "zalew przy ujściu największej polskiej rzeki",
+   "explanation": "Morskie wody wewnętrzne leżą po lądowej stronie linii podstawowej morza terytorialnego.",
+   "category": "geo7_location",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "geo7-pp-004",
+   "type": "qa",
+   "question": "Ile wynosi w przybliżeniu powierzchnia Polski?",
+   "answer": "ok. 313 tys. km2",
+   "accept": [
+    "313 tys. km2",
+    "312 700 km2",
+    "313000",
+    "312700",
+    "313 tys",
+    "312 tys. km2",
+    "około 313 tys. km²"
+   ],
+   "explanation": "Dokładnie ok. 312,7 tys. km²; Polska jest 9. co do wielkości państwem Europy.",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "geo7-pp-005",
+   "type": "qa",
+   "question": "Jaką szerokość geograficzną ma w przybliżeniu Warszawa?",
+   "answer": "ok. 52°N",
+   "accept": [
+    "52 N",
+    "52°N",
+    "52",
+    "około 52 N",
+    "52 stopnie N"
+   ],
+   "explanation": "Warszawa leży na ok. 52°N i 21°E.",
+   "category": "geo7_location",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "geo7-pp-006",
+   "type": "cloze",
+   "text": "Polska leży w całości na półkuli północnej i półkuli {{wschodniej}}.",
+   "hint": "względem południka 0°",
+   "explanation": "Cała Polska ma długość geograficzną wschodnią (ok. 14°E–24°E) i szerokość północną (ok. 49°N–55°N).",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "geo7-pp-007",
+   "type": "qa",
+   "question": "Jak nazywa się najdalej na północ wysunięty punkt Polski?",
+   "answer": "Jastrzębia Góra",
+   "accept": [
+    "przylądek Rozewie",
+    "Rozewie",
+    "Gwiazda Północy"
+   ],
+   "explanation": "Najdalej na północ wysunięty punkt lądu leży w Jastrzębiej Górze (dawniej wskazywano pobliski przylądek Rozewie).",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.3"
+  },
+  {
+   "id": "geo7-pp-008",
+   "type": "cloze",
+   "text": "Najdalej na południe wysunięty punkt Polski to szczyt {{Opołonek}} w Bieszczadach.",
+   "hint": "szczyt w Bieszczadach, ok. 49°N",
+   "explanation": "Opołonek (1028 m n.p.m.) leży na granicy z Ukrainą.",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.3"
+  },
+  {
+   "id": "geo7-pp-009",
+   "type": "qa",
+   "question": "Na zakolu której rzeki leży najdalej na wschód wysunięty punkt Polski (Zosin)?",
+   "answer": "Bugu",
+   "accept": [
+    "Bug",
+    "zakole Bugu",
+    "na Bugu"
+   ],
+   "explanation": "Najdalej na zachód wysunięty punkt leży na zakolu Odry koło Cedyni (Osinów Dolny).",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.3"
+  },
+  {
+   "id": "geo7-pp-010",
+   "type": "cloze",
+   "text": "Ze względu na rozciągłość równoleżnikową Polski (ok. 10°) różnica czasu słonecznego między wschodnim a zachodnim krańcem kraju wynosi około {{40}} minut.",
+   "hint": "1° długości geograficznej = 4 minuty",
+   "explanation": "Słońce góruje nad Zosinem ok. 40 minut wcześniej niż nad Osinowem Dolnym.",
+   "category": "geo7_location",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IX.3"
+  },
+  {
+   "id": "geo7-pp-011",
+   "type": "qa",
+   "question": "Ile województw ma Polska?",
+   "answer": "16",
+   "accept": [
+    "szesnaście"
+   ],
+   "explanation": "Obecny podział na 16 województw obowiązuje od reformy administracyjnej z 1999 r.",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.4"
+  },
+  {
+   "id": "geo7-pp-012",
+   "type": "cloze",
+   "text": "Województwo lubuskie ma dwie stolice: Gorzów Wielkopolski (siedziba wojewody) i {{Zielona Góra}} (siedziba sejmiku).",
+   "hint": "miasto winobrania",
+   "explanation": "Podobnie kujawsko-pomorskie: wojewoda urzęduje w Bydgoszczy, a sejmik w Toruniu.",
+   "category": "geo7_location",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.4"
+  },
+  {
+   "id": "geo7-pp-013",
+   "type": "qa",
+   "question": "Jakie miasto jest stolicą województwa warmińsko-mazurskiego?",
+   "answer": "Olsztyn",
+   "accept": [],
+   "explanation": "Olsztyn leży na Pojezierzu Olsztyńskim.",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.4"
+  },
+  {
+   "id": "geo7-pp-014",
+   "type": "qa",
+   "question": "Które województwo ma największą powierzchnię?",
+   "answer": "mazowieckie",
+   "accept": [
+    "województwo mazowieckie",
+    "Mazowsze"
+   ],
+   "explanation": "Mazowieckie jest też najludniejsze; najmniejsze powierzchniowo jest opolskie.",
+   "category": "geo7_location",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.4"
+  },
+  {
+   "id": "geo7-pp-015",
+   "type": "qa",
+   "question": "W której orogenezie wypiętrzyły się Tatry i cały łańcuch Karpat?",
+   "answer": "alpejskiej",
+   "accept": [
+    "alpejska",
+    "orogeneza alpejska"
+   ],
+   "explanation": "Orogeneza alpejska to najmłodsze fałdowanie (era kenozoiczna); powstały w niej także Alpy.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.5"
+  },
+  {
+   "id": "geo7-pp-016",
+   "type": "qa",
+   "question": "W której orogenezie powstały Sudety i Góry Świętokrzyskie?",
+   "answer": "hercyńskiej",
+   "accept": [
+    "hercyńska",
+    "waryscyjska",
+    "waryscyjskiej",
+    "orogeneza hercyńska"
+   ],
+   "explanation": "Są to góry stare (era paleozoiczna), niższe i bardziej zaokrąglone niż Karpaty.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.5"
+  },
+  {
+   "id": "geo7-pp-017",
+   "type": "cloze",
+   "text": "Rzeźbę młodoglacjalną z licznymi jeziorami na pojezierzach ukształtowało najmłodsze zlodowacenie – {{północnopolskie/bałtyckie/wisły}}.",
+   "hint": "zlodowacenie nazwane od północnej części kraju",
+   "explanation": "Starsze zlodowacenia (południowopolskie, środkowopolskie) objęły niemal całą Polskę, ale ich formy zostały zniszczone.",
+   "category": "geo7_nature",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.5"
+  },
+  {
+   "id": "geo7-pp-018",
+   "type": "qa",
+   "question": "Jak nazywa się wzgórze zbudowane z materiału osadzonego na czole lądolodu?",
+   "answer": "morena czołowa",
+   "accept": [
+    "morena"
+   ],
+   "explanation": "Wały moren czołowych widać np. na Pojezierzu Pomorskim (Wieżyca) i Mazurskim.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.5"
+  },
+  {
+   "id": "geo7-pp-019",
+   "type": "cloze",
+   "text": "Klimat Polski to klimat umiarkowany ciepły {{przejściowy}} – między morskim a kontynentalnym.",
+   "hint": "ani morski, ani kontynentalny",
+   "explanation": "Przejściowość wynika z napływu zarówno morskich, jak i kontynentalnych mas powietrza.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.6"
+  },
+  {
+   "id": "geo7-pp-020",
+   "type": "qa",
+   "question": "Który ciepły prąd morski łagodzi zimy w Europie, w tym w Polsce?",
+   "answer": "Prąd Północnoatlantycki",
+   "accept": [
+    "Prąd Zatokowy",
+    "Golfsztrom",
+    "Północnoatlantycki"
+   ],
+   "explanation": "Dzięki niemu zimy w Polsce są łagodniejsze niż na tej samej szerokości w Kanadzie.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.6"
+  },
+  {
+   "id": "geo7-pp-021",
+   "type": "qa",
+   "question": "Jakie masy powietrza najczęściej napływają nad Polskę?",
+   "answer": "polarne morskie",
+   "accept": [
+    "polarnomorskie",
+    "polarno-morskie",
+    "powietrze polarne morskie",
+    "polarne morskie znad Atlantyku"
+   ],
+   "explanation": "Napływają znad Atlantyku z zachodu; przynoszą latem ochłodzenie i deszcz, zimą ocieplenie.",
+   "category": "geo7_nature",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.6"
+  },
+  {
+   "id": "geo7-pp-022",
+   "type": "qa",
+   "question": "Ile wynosi w przybliżeniu średnia roczna temperatura powietrza w Polsce?",
+   "answer": "ok. 8°C",
+   "accept": [
+    "8",
+    "8 C",
+    "8°C",
+    "około 8",
+    "8 stopni",
+    "ok. 8 stopni",
+    "7-9"
+   ],
+   "explanation": "Najcieplej jest na Nizinie Śląskiej i w zachodniej Polsce, najchłodniej w górach i na Suwalszczyźnie.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.7"
+  },
+  {
+   "id": "geo7-pp-023",
+   "type": "qa",
+   "question": "Ile wynosi w przybliżeniu średnia roczna suma opadów w Polsce?",
+   "answer": "ok. 600 mm",
+   "accept": [
+    "600",
+    "600 mm",
+    "około 600",
+    "ok. 600"
+   ],
+   "explanation": "Najwięcej opadów jest w górach (ponad 1000 mm), najmniej na Kujawach (ok. 500 mm).",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.7"
+  },
+  {
+   "id": "geo7-pp-024",
+   "type": "cloze",
+   "text": "Okres wegetacyjny to część roku, gdy średnia dobowa temperatura przekracza {{5}}°C.",
+   "hint": "liczba jednocyfrowa",
+   "explanation": "W Polsce trwa od ok. 190 dni (Suwalszczyzna, góry) do ponad 220 dni (Nizina Śląska).",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.7"
+  },
+  {
+   "id": "geo7-pp-025",
+   "type": "qa",
+   "question": "Jaka instytucja prowadzi w Polsce pomiary meteorologiczne i opracowuje prognozy pogody?",
+   "answer": "IMGW",
+   "accept": [
+    "Instytut Meteorologii i Gospodarki Wodnej",
+    "IMGW-PIB"
+   ],
+   "explanation": "IMGW wydaje też ostrzeżenia hydrologiczne i meteorologiczne.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.8"
+  },
+  {
+   "id": "geo7-pp-026",
+   "type": "qa",
+   "question": "Jakie zjawisko pogodowe wiosną najbardziej zagraża sadom i uprawom w Polsce?",
+   "answer": "przymrozki",
+   "accept": [
+    "przymrozek",
+    "przymrozki wiosenne"
+   ],
+   "explanation": "Zmienność pogody wpływa też na transport (gołoledź, mgły) i turystykę (brak śniegu w górach).",
+   "category": "geo7_nature",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.8"
+  },
+  {
+   "id": "geo7-pp-027",
+   "type": "qa",
+   "question": "Ile wynosi średnie zasolenie wód Bałtyku?",
+   "answer": "ok. 7‰",
+   "accept": [
+    "7",
+    "7 promili",
+    "około 7",
+    "ok. 7"
+   ],
+   "explanation": "To znacznie mniej niż w oceanach (ok. 35‰); Bałtyk zasilają liczne rzeki, a wymiana wód z Morzem Północnym jest słaba.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.9"
+  },
+  {
+   "id": "geo7-pp-028",
+   "type": "cloze",
+   "text": "Bałtyk łączy się z Morzem Północnym przez Cieśniny {{Duńskie}}.",
+   "hint": "od nazwy państwa",
+   "explanation": "Wąskie i płytkie cieśniny ograniczają dopływ słonej wody oceanicznej.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.9"
+  },
+  {
+   "id": "geo7-pp-029",
+   "type": "qa",
+   "question": "Jak nazywa się nadmierne użyźnienie wód Bałtyku, prowadzące do zakwitów sinic i stref beztlenowych?",
+   "answer": "eutrofizacja",
+   "accept": [],
+   "explanation": "Przyczyną są nawozy spłukiwane z pól i ścieki dopływające rzekami.",
+   "category": "geo7_nature",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.9"
+  },
+  {
+   "id": "geo7-pp-030",
+   "type": "qa",
+   "question": "Która rzeka jest najdłuższą rzeką Polski?",
+   "answer": "Wisła",
+   "accept": [],
+   "explanation": "Wisła ma ok. 1047 km długości; Odra ok. 840 km (w Polsce ok. 740 km).",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.10"
+  },
+  {
+   "id": "geo7-pp-031",
+   "type": "qa",
+   "question": "Na którym szczycie bierze początek Wisła?",
+   "answer": "Barania Góra",
+   "accept": [
+    "na Baraniej Górze",
+    "Barania Góra w Beskidzie Śląskim"
+   ],
+   "explanation": "Źródła Wisły (Biała i Czarna Wisełka) leżą w Beskidzie Śląskim.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.10"
+  },
+  {
+   "id": "geo7-pp-032",
+   "type": "qa",
+   "question": "Który dopływ jest największym dopływem Odry?",
+   "answer": "Warta",
+   "accept": [],
+   "explanation": "Warta (ok. 800 km) wpada do Odry koło Kostrzyna.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.10"
+  },
+  {
+   "id": "geo7-pp-033",
+   "type": "qa",
+   "question": "Jak nazywa się obszar, z którego wody spływają do jednej rzeki głównej?",
+   "answer": "dorzecze",
+   "accept": [],
+   "explanation": "Dorzecza Wisły i Odry zajmują ok. 90% powierzchni Polski; prawie cały kraj należy do zlewiska Bałtyku.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.10"
+  },
+  {
+   "id": "geo7-pp-034",
+   "type": "cloze",
+   "text": "Najżyźniejsze gleby w Polsce to {{czarnoziemy}}, występujące m.in. na Wyżynie Lubelskiej i Płaskowyżu Głubczyckim.",
+   "hint": "od ciemnej barwy",
+   "explanation": "Powstały na lessach; zajmują tylko ok. 1% powierzchni kraju.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.11"
+  },
+  {
+   "id": "geo7-pp-035",
+   "type": "qa",
+   "question": "Jak nazywają się żyzne gleby powstałe z osadów rzecznych w dolinach rzek?",
+   "answer": "mady",
+   "accept": [
+    "mada"
+   ],
+   "explanation": "Występują np. na Żuławach Wiślanych.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.11"
+  },
+  {
+   "id": "geo7-pp-036",
+   "type": "cloze",
+   "text": "Gleby {{bielicowe}} powstają na piaskach pod lasami iglastymi i mają małą przydatność rolniczą.",
+   "hint": "od jasnej, wybielonej warstwy",
+   "explanation": "W Polsce najczęstsze są gleby brunatne, płowe i bielicowe.",
+   "category": "geo7_nature",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.11"
+  },
+  {
+   "id": "geo7-pp-037",
+   "type": "qa",
+   "question": "Jaki procent powierzchni Polski zajmują lasy?",
+   "answer": "ok. 30%",
+   "accept": [
+    "30",
+    "30%",
+    "około 30",
+    "ok. 30"
+   ],
+   "explanation": "Lesistość Polski to ok. 30%; najbardziej zalesione jest województwo lubuskie.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.12"
+  },
+  {
+   "id": "geo7-pp-038",
+   "type": "qa",
+   "question": "Jaki gatunek drzewa dominuje w polskich lasach?",
+   "answer": "sosna",
+   "accept": [
+    "sosna zwyczajna"
+   ],
+   "explanation": "Sosna rośnie na ponad połowie powierzchni lasów.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.12"
+  },
+  {
+   "id": "geo7-pp-039",
+   "type": "qa",
+   "question": "Jak nazywa się las iglasty rosnący na ubogich, piaszczystych glebach, zdominowany przez sosnę?",
+   "answer": "bór",
+   "accept": [
+    "bór sosnowy"
+   ],
+   "explanation": "Inne rodzaje lasów: grąd (liściasty, żyzne gleby), łęg (nadrzeczny), ols (bagienny z olszą).",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.12"
+  },
+  {
+   "id": "geo7-pp-040",
+   "type": "qa",
+   "question": "Ile parków narodowych jest w Polsce?",
+   "answer": "23",
+   "accept": [
+    "dwadzieścia trzy"
+   ],
+   "explanation": "Najstarsze to Białowieski i Pieniński, najmłodszy to Park Narodowy „Ujście Warty” (2001).",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.13"
+  },
+  {
+   "id": "geo7-pp-041",
+   "type": "qa",
+   "question": "Który park narodowy jest największy w Polsce?",
+   "answer": "Biebrzański",
+   "accept": [
+    "Biebrzański Park Narodowy"
+   ],
+   "explanation": "Chroni rozległe bagna w dolinie Biebrzy (woj. podlaskie).",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.13"
+  },
+  {
+   "id": "geo7-pp-042",
+   "type": "cloze",
+   "text": "Pojedyncze okazałe drzewo, głaz narzutowy lub skałka objęte ochroną to {{pomnik przyrody}}.",
+   "hint": "indywidualna forma ochrony",
+   "explanation": "Obszarowe formy ochrony to m.in. park narodowy, rezerwat przyrody i park krajobrazowy.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.13"
+  },
+  {
+   "id": "geo7-pp-043",
+   "type": "qa",
+   "question": "Jak nazywa się europejska sieć obszarów chronionych, obejmująca też tereny w Polsce?",
+   "answer": "Natura 2000",
+   "accept": [],
+   "explanation": "Chroni siedliska i gatunki ważne dla całej Unii Europejskiej.",
+   "category": "geo7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.13"
+  },
+  {
+   "id": "geo7-pp-044",
+   "type": "qa",
+   "question": "W którym zagłębiu wydobywa się w Polsce najwięcej węgla kamiennego?",
+   "answer": "Górnośląskim",
+   "accept": [
+    "GZW",
+    "Górnośląskie Zagłębie Węglowe",
+    "Górny Śląsk",
+    "na Górnym Śląsku"
+   ],
+   "explanation": "Węgiel kamienny wydobywa się też w Lubelskim Zagłębiu Węglowym (Bogdanka).",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.15"
+  },
+  {
+   "id": "geo7-pp-045",
+   "type": "qa",
+   "question": "Przy której miejscowości działa największa polska odkrywka węgla brunatnego?",
+   "answer": "Bełchatów",
+   "accept": [
+    "Bełchatowie",
+    "koło Bełchatowa"
+   ],
+   "explanation": "Węgiel brunatny wydobywa się odkrywkowo także w Turowie; zasila pobliskie elektrownie.",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.15"
+  },
+  {
+   "id": "geo7-pp-046",
+   "type": "qa",
+   "question": "W jakim regionie Polski wydobywa się rudy miedzi?",
+   "answer": "LGOM",
+   "accept": [
+    "Legnicko-Głogowski Okręg Miedziowy",
+    "okolice Lubina",
+    "Lubin",
+    "Dolny Śląsk",
+    "na Dolnym Śląsku"
+   ],
+   "explanation": "Kopalnie koło Lubina i Polkowic należą do koncernu KGHM.",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.15"
+  },
+  {
+   "id": "geo7-pp-047",
+   "type": "qa",
+   "question": "Ile wynosi w przybliżeniu średnia gęstość zaludnienia Polski?",
+   "answer": "ok. 120 os./km2",
+   "accept": [
+    "120",
+    "120 os/km2",
+    "około 120",
+    "ok. 120",
+    "120 osób na km2"
+   ],
+   "explanation": "Gęstość zaludnienia = liczba ludności : powierzchnia (ok. 37,5 mln : 312,7 tys. km²).",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "geo7-pp-048",
+   "type": "qa",
+   "question": "Które województwo ma największą gęstość zaludnienia?",
+   "answer": "śląskie",
+   "accept": [
+    "województwo śląskie"
+   ],
+   "explanation": "Najrzadziej zaludnione są podlaskie i warmińsko-mazurskie.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "geo7-pp-049",
+   "type": "qa",
+   "question": "Ile ludności liczy obecnie Polska (w przybliżeniu)?",
+   "answer": "ok. 38 mln",
+   "accept": [
+    "38",
+    "38 mln",
+    "37 mln",
+    "37,5 mln",
+    "38 milionów",
+    "około 38 mln",
+    "38000000"
+   ],
+   "explanation": "Liczba ludności Polski osiągnęła maksimum ok. 38,5 mln i od ok. 2012 r. powoli maleje.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "geo7-pp-050",
+   "type": "qa",
+   "question": "Ile mieszkańców liczyła Polska tuż po II wojnie światowej (1946 r.)?",
+   "answer": "ok. 24 mln",
+   "accept": [
+    "24",
+    "24 mln",
+    "około 24 mln",
+    "24 miliony"
+   ],
+   "explanation": "Straty wojenne i zmiana granic zmniejszyły ludność z ok. 35 mln (1939) do ok. 24 mln.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "geo7-pp-051",
+   "type": "cloze",
+   "text": "Gwałtowny wzrost liczby urodzeń po II wojnie światowej (lata 50.) nazywamy {{wyżem}} demograficznym.",
+   "hint": "przeciwieństwo niżu",
+   "explanation": "Kolejny wyż, tzw. echo powojennego, przypadł na lata 70. i początek 80.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "geo7-pp-052",
+   "type": "qa",
+   "question": "Jak nazywa się proces wzrostu udziału osób starszych w społeczeństwie?",
+   "answer": "starzenie się społeczeństwa",
+   "accept": [
+    "starzenie się",
+    "starzenie się ludności",
+    "starzenie"
+   ],
+   "explanation": "Na piramidzie wieku Polski widać go jako zwężającą się podstawę (mało dzieci) i rozszerzającą się górę.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "geo7-pp-053",
+   "type": "qa",
+   "question": "Jak nazywa się piramida wieku o wąskiej podstawie i szerokiej górze, typowa dla starzejącego się społeczeństwa?",
+   "answer": "regresywna",
+   "accept": [
+    "piramida regresywna",
+    "regresywny"
+   ],
+   "explanation": "Piramida progresywna ma szeroką podstawę (dużo dzieci), zastojowa – podobne liczebności roczników.",
+   "category": "geo7_population",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "geo7-pp-054",
+   "type": "qa",
+   "question": "Jak oblicza się przyrost naturalny?",
+   "answer": "urodzenia minus zgony",
+   "accept": [
+    "liczba urodzeń - liczba zgonów",
+    "urodzenia - zgony",
+    "urodzenia minus zgony"
+   ],
+   "explanation": "W Polsce od kilku lat zgonów jest więcej niż urodzeń, więc przyrost naturalny jest ujemny.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.4"
+  },
+  {
+   "id": "geo7-pp-055",
+   "type": "cloze",
+   "text": "Przyrost rzeczywisty = przyrost naturalny + saldo {{migracji}}.",
+   "hint": "przemieszczenia ludności",
+   "explanation": "Saldo migracji to różnica między liczbą imigrantów a liczbą emigrantów.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.4"
+  },
+  {
+   "id": "geo7-pp-056",
+   "type": "qa",
+   "question": "W pewnym roku urodziło się 300 tys. osób, zmarło 400 tys., a saldo migracji wyniosło +50 tys. Ile wyniósł przyrost rzeczywisty?",
+   "answer": "-50 tys.",
+   "accept": [
+    "-50000",
+    "-50 tys",
+    "minus 50 tys.",
+    "minus 50 tysięcy",
+    "-50"
+   ],
+   "explanation": "Przyrost naturalny: 300 - 400 = -100 tys.; przyrost rzeczywisty: -100 + 50 = -50 tys.",
+   "category": "geo7_population",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "X.4"
+  },
+  {
+   "id": "geo7-pp-057",
+   "type": "qa",
+   "question": "Jak nazywa się wyjazd ludności z własnego kraju na stałe?",
+   "answer": "emigracja",
+   "accept": [],
+   "explanation": "Przyjazd do kraju to imigracja.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.5"
+  },
+  {
+   "id": "geo7-pp-058",
+   "type": "qa",
+   "question": "Obywatele jakiego państwa stanowią obecnie najliczniejszą grupę imigrantów w Polsce?",
+   "answer": "Ukrainy",
+   "accept": [
+    "Ukraina",
+    "Ukraińcy"
+   ],
+   "explanation": "Przyjeżdżają głównie do pracy; po 2022 r. doszli uchodźcy wojenni.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.5"
+  },
+  {
+   "id": "geo7-pp-059",
+   "type": "cloze",
+   "text": "Po wstąpieniu Polski do Unii Europejskiej w {{2004}} r. nastąpiła fala emigracji zarobkowej, głównie do Wielkiej Brytanii, Niemiec i Irlandii.",
+   "hint": "rok rozszerzenia UE o 10 państw",
+   "explanation": "Skutki emigracji: ubytek młodych ludzi, ale też transfery pieniędzy do kraju.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.5"
+  },
+  {
+   "id": "geo7-pp-060",
+   "type": "qa",
+   "question": "Która mniejszość narodowa jest w Polsce najliczniejsza (według spisu powszechnego)?",
+   "answer": "niemiecka",
+   "accept": [
+    "Niemcy",
+    "mniejszość niemiecka"
+   ],
+   "explanation": "Mieszka głównie na Opolszczyźnie; inne mniejszości narodowe to m.in. Ukraińcy i Białorusini.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.6"
+  },
+  {
+   "id": "geo7-pp-061",
+   "type": "cloze",
+   "text": "Mniejszością etniczną zamieszkującą m.in. Kruszyniany i Bohoniki na Podlasiu, wyznającą islam, są {{Tatarzy}}.",
+   "hint": "ludność osiedlona przez królów polskich",
+   "explanation": "Pozostałe mniejszości etniczne w Polsce to Karaimi, Łemkowie i Romowie.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.6"
+  },
+  {
+   "id": "geo7-pp-062",
+   "type": "cloze",
+   "text": "Drugim pod względem liczby wiernych Kościołem w Polsce jest Kościół {{prawosławny}}, skupiony głównie na Podlasiu.",
+   "hint": "wyznanie wschodnie",
+   "explanation": "Zdecydowana większość mieszkańców Polski deklaruje wyznanie rzymskokatolickie.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.6"
+  },
+  {
+   "id": "geo7-pp-063",
+   "type": "qa",
+   "question": "W którym sektorze gospodarki pracuje w Polsce najwięcej osób?",
+   "answer": "w usługach",
+   "accept": [
+    "usługi",
+    "usługowym",
+    "sektor usług",
+    "w sektorze usług",
+    "III"
+   ],
+   "explanation": "W usługach pracuje ok. 60% zatrudnionych; w krajach wysoko rozwiniętych nawet 70–80%.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.7"
+  },
+  {
+   "id": "geo7-pp-064",
+   "type": "qa",
+   "question": "Do którego sektora gospodarki zalicza się przemysł i budownictwo?",
+   "answer": "II (przemysłowego)",
+   "accept": [
+    "II",
+    "drugiego",
+    "przemysłowego",
+    "sektor II",
+    "przemysłowy",
+    "2"
+   ],
+   "explanation": "Sektor I to rolnictwo, leśnictwo i rybołówstwo, sektor III to usługi.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.7"
+  },
+  {
+   "id": "geo7-pp-065",
+   "type": "qa",
+   "question": "Ile wynosi w przybliżeniu wskaźnik urbanizacji w Polsce?",
+   "answer": "ok. 60%",
+   "accept": [
+    "60",
+    "60%",
+    "około 60",
+    "ok. 60"
+   ],
+   "explanation": "Wskaźnik urbanizacji to odsetek ludności mieszkającej w miastach; w Polsce jest niższy niż w Europie Zachodniej.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.8"
+  },
+  {
+   "id": "geo7-pp-066",
+   "type": "qa",
+   "question": "Jak nazywa się zespół sąsiadujących, równorzędnych miast, np. na Górnym Śląsku?",
+   "answer": "konurbacja",
+   "accept": [
+    "konurbacja katowicka"
+   ],
+   "explanation": "Aglomeracja monocentryczna ma jedno dominujące miasto, np. Warszawa.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.8"
+  },
+  {
+   "id": "geo7-pp-067",
+   "type": "qa",
+   "question": "Które miasto jest największym miastem Polski?",
+   "answer": "Warszawa",
+   "accept": [],
+   "explanation": "Warszawa ma ok. 1,8 mln mieszkańców; kolejne są Kraków, Łódź i Wrocław.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.8"
+  },
+  {
+   "id": "geo7-pp-068",
+   "type": "cloze",
+   "text": "Do przyrodniczych warunków rozwoju rolnictwa należą klimat, ukształtowanie terenu, wody i {{gleby}}.",
+   "hint": "wierzchnia warstwa skorupy ziemskiej",
+   "explanation": "Warunki pozaprzyrodnicze to m.in. wielkość gospodarstw, mechanizacja, nawożenie i polityka rolna.",
+   "category": "geo7_farming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.9"
+  },
+  {
+   "id": "geo7-pp-069",
+   "type": "qa",
+   "question": "Czy wielkość gospodarstw rolnych to przyrodniczy czy pozaprzyrodniczy warunek rozwoju rolnictwa?",
+   "answer": "pozaprzyrodniczy",
+   "accept": [
+    "pozaprzyrodnicze",
+    "pozaprzyrodnicza"
+   ],
+   "explanation": "Warunki pozaprzyrodnicze zależą od człowieka: struktura agrarna, poziom mechanizacji, polityka państwa.",
+   "category": "geo7_farming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.9"
+  },
+  {
+   "id": "geo7-pp-070",
+   "type": "qa",
+   "question": "W której części Polski gospodarstwa rolne są najbardziej rozdrobnione?",
+   "answer": "na południowym wschodzie",
+   "accept": [
+    "południowy wschód",
+    "Małopolska",
+    "Podkarpacie",
+    "Małopolska i Podkarpacie",
+    "w Małopolsce",
+    "na Podkarpaciu"
+   ],
+   "explanation": "W Małopolsce i na Podkarpaciu dominują małe gospodarstwa; duże są na północy i zachodzie (po dawnych PGR-ach).",
+   "category": "geo7_farming",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.9"
+  },
+  {
+   "id": "geo7-pp-071",
+   "type": "qa",
+   "question": "Które zboże ma w Polsce największą powierzchnię upraw?",
+   "answer": "pszenica",
+   "accept": [],
+   "explanation": "Kolejne są pszenżyto, żyto i jęczmień; żyto uprawia się na słabszych glebach.",
+   "category": "geo7_farming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.10"
+  },
+  {
+   "id": "geo7-pp-072",
+   "type": "qa",
+   "question": "Jaką roślinę przemysłową uprawia się na żyznych glebach Kujaw i Wyżyny Lubelskiej do produkcji cukru?",
+   "answer": "burak cukrowy",
+   "accept": [
+    "buraki cukrowe",
+    "burak"
+   ],
+   "explanation": "Buraki cukrowe wymagają żyznych gleb, dlatego uprawia się je na czarnych ziemiach Kujaw.",
+   "category": "geo7_farming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.10"
+  },
+  {
+   "id": "geo7-pp-073",
+   "type": "qa",
+   "question": "Jakie zwierzęta gospodarskie hoduje się w Polsce najliczniej, zwłaszcza w Wielkopolsce i na Kujawach?",
+   "answer": "trzodę chlewną",
+   "accept": [
+    "trzoda chlewna",
+    "świnie"
+   ],
+   "explanation": "Bydło mleczne dominuje na Podlasiu i Mazowszu, drób na Mazowszu i w Wielkopolsce.",
+   "category": "geo7_farming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.10"
+  },
+  {
+   "id": "geo7-pp-074",
+   "type": "qa",
+   "question": "W produkcji jakich owoców Polska jest liderem w Europie (m.in. okolice Grójca)?",
+   "answer": "jabłek",
+   "accept": [
+    "jabłka"
+   ],
+   "explanation": "Polska jest też czołowym producentem porzeczek i malin.",
+   "category": "geo7_farming",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.10"
+  },
+  {
+   "id": "geo7-pp-075",
+   "type": "qa",
+   "question": "Jak nazywa się przekazywanie państwowych zakładów przemysłowych w ręce prywatne?",
+   "answer": "prywatyzacja",
+   "accept": [],
+   "explanation": "Po 1989 r. prywatyzacja i restrukturyzacja zmieniły strukturę przemysłu Polski.",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.11"
+  },
+  {
+   "id": "geo7-pp-076",
+   "type": "qa",
+   "question": "Jak nazywa się proces upadku i ograniczania przemysłu w regionie, np. włókiennictwa w Łodzi?",
+   "answer": "deindustrializacja",
+   "accept": [
+    "dezindustrializacja"
+   ],
+   "explanation": "Zakłady tradycyjnych gałęzi (górnictwo, hutnictwo, włókiennictwo) nie wytrzymały konkurencji rynkowej.",
+   "category": "geo7_industry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.11"
+  },
+  {
+   "id": "geo7-pp-077",
+   "type": "qa",
+   "question": "Jak nazywa się wydzielony obszar, na którym firmy inwestują na preferencyjnych warunkach (np. ulgi podatkowe)?",
+   "answer": "specjalna strefa ekonomiczna",
+   "accept": [
+    "SSE",
+    "strefa ekonomiczna"
+   ],
+   "explanation": "SSE przyciągnęły zagranicznych inwestorów, m.in. z branży motoryzacyjnej i elektronicznej.",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.11"
+  },
+  {
+   "id": "geo7-pp-078",
+   "type": "qa",
+   "question": "Do jakiego rodzaju usług zalicza się bankowość i ubezpieczenia?",
+   "answer": "finansowych",
+   "accept": [
+    "finansowe",
+    "usługi finansowe"
+   ],
+   "explanation": "Inne rodzaje usług: handel, transport, edukacja, ochrona zdrowia, turystyka, administracja.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.12"
+  },
+  {
+   "id": "geo7-pp-079",
+   "type": "qa",
+   "question": "Która autostrada łączy granicę zachodnią (Zgorzelec) ze wschodnią (Korczowa) przez Wrocław, Katowice i Kraków?",
+   "answer": "A4",
+   "accept": [
+    "autostrada A4"
+   ],
+   "explanation": "Autostrady A1 (północ–południe) i A2 (Świecko–Warszawa) to pozostałe główne trasy.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.12"
+  },
+  {
+   "id": "geo7-pp-080",
+   "type": "qa",
+   "question": "Jaki rodzaj transportu przewozi w Polsce najwięcej ładunków?",
+   "answer": "samochodowy",
+   "accept": [
+    "drogowy",
+    "transport samochodowy",
+    "transport drogowy"
+   ],
+   "explanation": "Transport kolejowy ma mniejszy udział, a wodny śródlądowy jest w Polsce marginalny.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.12"
+  },
+  {
+   "id": "geo7-pp-081",
+   "type": "qa",
+   "question": "W której miejscowości znajduje się zabytkowa kopalnia soli wpisana na listę UNESCO?",
+   "answer": "Wieliczka",
+   "accept": [
+    "Wieliczce",
+    "w Wieliczce"
+   ],
+   "explanation": "Na liście jest też kopalnia soli w Bochni.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.13"
+  },
+  {
+   "id": "geo7-pp-082",
+   "type": "qa",
+   "question": "W którym mieście stoi największy ceglany zamek krzyżacki, wpisany na listę UNESCO?",
+   "answer": "Malbork",
+   "accept": [
+    "Malborku",
+    "w Malborku"
+   ],
+   "explanation": "Zamek w Malborku był siedzibą wielkich mistrzów zakonu krzyżackiego.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.13"
+  },
+  {
+   "id": "geo7-pp-083",
+   "type": "qa",
+   "question": "Która puszcza jest jedynym polskim obiektem przyrodniczym na liście UNESCO?",
+   "answer": "Białowieska",
+   "accept": [
+    "Puszcza Białowieska"
+   ],
+   "explanation": "Chroni ostatni nizinny las pierwotny Europy i stado żubrów.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.13"
+  },
+  {
+   "id": "geo7-pp-084",
+   "type": "cloze",
+   "text": "Zbudowany w XVI w. jako renesansowe „miasto idealne” {{Zamość}} jest wpisany na listę UNESCO.",
+   "hint": "miasto na Lubelszczyźnie",
+   "explanation": "Na liście są też stare miasta Krakowa, Warszawy i Torunia.",
+   "category": "geo7_services",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.13"
+  },
+  {
+   "id": "geo7-pp-085",
+   "type": "qa",
+   "question": "Która polska firma stworzyła serię gier „Wiedźmin”, znaną na całym świecie?",
+   "answer": "CD Projekt",
+   "accept": [
+    "CD Projekt Red",
+    "CDProjekt"
+   ],
+   "explanation": "Przykłady polskich sukcesów: gry CD Projekt, autobusy Solaris, okna Fakro, kosmetyki Inglot.",
+   "category": "geo7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.14"
+  },
+  {
+   "id": "geo7-pp-086",
+   "type": "qa",
+   "question": "Jak nazywa się zbiornik gromadzący nadmiar wody w czasie wezbrania rzeki?",
+   "answer": "zbiornik retencyjny",
+   "accept": [
+    "retencyjny",
+    "zbiornik przeciwpowodziowy"
+   ],
+   "explanation": "Metody ochrony: wały, zbiorniki retencyjne, poldery, renaturyzacja rzek i zakaz zabudowy terenów zalewowych.",
+   "category": "geo7_regions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "geo7-pp-087",
+   "type": "cloze",
+   "text": "Zabudowa obszarów {{zalewowych}} w dolinach rzek zwiększa straty podczas powodzi, np. na Dolnym Śląsku i w Małopolsce.",
+   "hint": "tereny naturalnie zalewane przez rzekę",
+   "explanation": "Powódź z 1997 r. w dorzeczu Odry zalała m.in. część Wrocławia.",
+   "category": "geo7_regions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "geo7-pp-088",
+   "type": "qa",
+   "question": "Jak nazywa się obszar celowo zalewany podczas powodzi, by obniżyć falę wezbraniową?",
+   "answer": "polder",
+   "accept": [
+    "polder przeciwpowodziowy"
+   ],
+   "explanation": "Poldery i suche zbiorniki budowano po powodziach w 1997 i 2010 r.",
+   "category": "geo7_regions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "geo7-pp-089",
+   "type": "qa",
+   "question": "Z jakiego surowca Polska produkuje najwięcej energii elektrycznej?",
+   "answer": "z węgla",
+   "accept": [
+    "węgiel",
+    "węgla",
+    "węgiel kamienny i brunatny",
+    "z węgla kamiennego i brunatnego"
+   ],
+   "explanation": "Największa elektrownia to Bełchatów (węgiel brunatny) w województwie łódzkim.",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "geo7-pp-090",
+   "type": "qa",
+   "question": "Jakie odnawialne źródło energii rozwija się najsilniej w województwie pomorskim?",
+   "answer": "wiatr",
+   "accept": [
+    "energia wiatru",
+    "wiatrowa",
+    "elektrownie wiatrowe",
+    "farmy wiatrowe"
+   ],
+   "explanation": "Na wybrzeżu wieją silne wiatry; planowane są też farmy wiatrowe na Bałtyku.",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "geo7-pp-091",
+   "type": "qa",
+   "question": "Jak nazywa się przenoszenie się mieszkańców dużych miast na przedmieścia?",
+   "answer": "suburbanizacja",
+   "accept": [],
+   "explanation": "Wokół Warszawy i Krakowa pola zamieniają się w osiedla domów jednorodzinnych.",
+   "category": "geo7_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.3"
+  },
+  {
+   "id": "geo7-pp-092",
+   "type": "qa",
+   "question": "Jak nazywają się codzienne dojazdy do pracy i szkoły z przedmieść do dużego miasta?",
+   "answer": "migracje wahadłowe",
+   "accept": [
+    "wahadłowe",
+    "dojazdy wahadłowe"
+   ],
+   "explanation": "Powodują korki i obciążenie komunikacji w strefach podmiejskich.",
+   "category": "geo7_population",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.3"
+  },
+  {
+   "id": "geo7-pp-093",
+   "type": "cloze",
+   "text": "Odpływ młodych ludzi ze wsi (np. w województwie podlaskim) powoduje {{starzenie się}} ludności i wyludnianie wsi.",
+   "hint": "rośnie udział osób starszych",
+   "explanation": "Zostają głównie osoby starsze, zamykane są szkoły i sklepy.",
+   "category": "geo7_population",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.4"
+  },
+  {
+   "id": "geo7-pp-094",
+   "type": "cloze",
+   "text": "Likwidacja {{PGR-ów}} po 1989 r. spowodowała bezrobocie i odpływ ludności ze wsi województwa zachodniopomorskiego.",
+   "hint": "państwowe gospodarstwa rolne",
+   "explanation": "Mieszkańcy wsi popegeerowskich stracili pracę, a młodzi wyjechali do miast i za granicę.",
+   "category": "geo7_population",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.4"
+  },
+  {
+   "id": "geo7-pp-095",
+   "type": "qa",
+   "question": "Jaka gałąź przemysłu upadła w Łodzi po 1989 r.?",
+   "answer": "włókiennicza",
+   "accept": [
+    "włókienniczy",
+    "włókiennictwo",
+    "przemysł włókienniczy",
+    "tekstylny"
+   ],
+   "explanation": "Dawne fabryki zamieniono m.in. w centrum handlowe Manufaktura; wzrosło zatrudnienie w usługach i logistyce.",
+   "category": "geo7_industry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.5"
+  },
+  {
+   "id": "geo7-pp-096",
+   "type": "cloze",
+   "text": "Po 1989 r. w konurbacji katowickiej zamykano kopalnie i huty, a zatrudnienie przeniosło się do {{usług}}.",
+   "hint": "sektor III",
+   "explanation": "Restrukturyzacja górnictwa spowodowała bezrobocie, które złagodziły nowe inwestycje, np. w SSE.",
+   "category": "geo7_industry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.5"
+  },
+  {
+   "id": "geo7-pp-097",
+   "type": "qa",
+   "question": "Które miasta tworzą Trójmiasto?",
+   "answer": "Gdańsk, Gdynia, Sopot",
+   "accept": [
+    "Gdańsk Gdynia Sopot",
+    "Gdańsk, Gdynia i Sopot"
+   ],
+   "explanation": "Porty Gdańska i Gdyni przyciągnęły stocznie, rafinerię i terminale kontenerowe.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.6"
+  },
+  {
+   "id": "geo7-pp-098",
+   "type": "qa",
+   "question": "Który polski port morski ma największe przeładunki?",
+   "answer": "Gdańsk",
+   "accept": [
+    "port Gdańsk"
+   ],
+   "explanation": "Terminal kontenerowy w Gdańsku jest największy na Bałtyku; terminal LNG działa w Świnoujściu.",
+   "category": "geo7_services",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.6"
+  },
+  {
+   "id": "geo7-pp-099",
+   "type": "qa",
+   "question": "Która miejscowość u podnóża Tatr jest nazywana „zimową stolicą Polski”?",
+   "answer": "Zakopane",
+   "accept": [],
+   "explanation": "Małopolska przyciąga turystów zarówno przyrodą (Tatry, Pieniny), jak i zabytkami Krakowa i Wieliczki.",
+   "category": "geo7_regions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.7"
+  },
+  {
+   "id": "geo7-pp-100",
+   "type": "cloze",
+   "text": "Turystyka na Pobrzeżu Bałtyku ma charakter {{sezonowy}} – ruch koncentruje się w miesiącach letnich.",
+   "hint": "zależny od pory roku",
+   "explanation": "Kurorty nadmorskie to m.in. Kołobrzeg, Łeba, Sopot i Świnoujście.",
+   "category": "geo7_regions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.7"
+  },
+  {
+   "id": "geo7-pp-101",
+   "type": "qa",
+   "question": "Jak nazywa się urząd, który publikuje dane statystyczne o województwach, powiatach i gminach?",
+   "answer": "GUS",
+   "accept": [
+    "Główny Urząd Statystyczny"
+   ],
+   "explanation": "Inne źródła informacji o regionie: mapy tematyczne, strony urzędów, obserwacje terenowe.",
+   "category": "geo7_regions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "geo7-pp-102",
+   "type": "cloze",
+   "text": "Obszar wyróżniający się podobnymi cechami środowiska przyrodniczego lub gospodarki to {{region}} geograficzny.",
+   "hint": "np. Mazury, Podhale",
+   "explanation": "Położenie własnego regionu określa się na mapie Polski, np. w pasie pojezierzy lub wyżyn.",
+   "category": "geo7_regions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  }
+ ]
+}
