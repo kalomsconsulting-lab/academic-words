@@ -314,7 +314,7 @@
     polski_ib: { label: 'Polish', icon: '📖', tagline: 'Epoki, lektury i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'plib_other' },
     eo_ib: { label: 'Edukacja obywatelska', icon: '⚖️', tagline: 'Państwo, prawo i społeczeństwo', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'eo_other' },
     cs_ib: { label: 'Computer Science', icon: '💻', tagline: 'Pojęcia i algorytmy (od II semestru)', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'csib_other' },
-    english_ib: { label: 'English', icon: '🖋️', tagline: 'Literatura i analiza tekstów', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'enib_other' },
+    english_ib: { label: 'English', icon: '🖋️', tagline: 'Literatura i analiza tekstów', file: 'data/english.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'enib_other' },
     psychology_ib: { label: 'Psychology', icon: '🧠', tagline: 'Elective: podejścia, badania i pojęcia', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'psyib_other' },
     philosophy_ib: { label: 'Philosophy', icon: '🤔', tagline: 'Elective: pojęcia, argumenty i filozofowie', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'phiib_other' },
     business_ib: { label: 'Business & Management', icon: '💼', tagline: 'Elective: pojęcia, modele i przykłady', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'busib_other' },

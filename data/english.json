@@ -1,0 +1,1389 @@
+{
+ "version": 1,
+ "subject": "english_ib",
+ "updated": "2026-10-18",
+ "source": "IB Diploma Programme Language A: Language and Literature guide (first assessment 2021) – literary and non-literary terminology for Pre-DP; the Polish core curriculum for modern languages (III.1.P) contains no literary content",
+ "items": [
+  {
+   "id": "enib-pp-001",
+   "type": "qa",
+   "question": "Which figure of speech directly states that one thing is another, without using 'like' or 'as'?",
+   "answer": "metaphor",
+   "accept": [
+    "a metaphor"
+   ],
+   "explanation": "Example: 'The classroom was a zoo' – the classroom is not literally a zoo; the comparison is implied.",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-002",
+   "type": "qa",
+   "question": "Which figure of speech compares two things using 'like' or 'as'?",
+   "answer": "simile",
+   "accept": [
+    "a simile"
+   ],
+   "explanation": "Example: 'Her voice was as smooth as silk.'",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-003",
+   "type": "qa",
+   "question": "Which device gives human qualities or actions to a non-human thing or idea?",
+   "answer": "personification",
+   "accept": [],
+   "explanation": "Example: 'The wind whispered through the trees.'",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-004",
+   "type": "qa",
+   "question": "Which sound device repeats the same initial consonant sound in nearby words?",
+   "answer": "alliteration",
+   "accept": [],
+   "explanation": "Example: 'Peter Piper picked a peck of pickled peppers.'",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-005",
+   "type": "qa",
+   "question": "Which sound device repeats similar vowel sounds inside nearby words?",
+   "answer": "assonance",
+   "accept": [],
+   "explanation": "Example: 'The light of the fire is a sight' repeats the long 'i' sound.",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-006",
+   "type": "qa",
+   "question": "Which device uses words whose sound imitates their meaning, such as 'buzz' or 'crash'?",
+   "answer": "onomatopoeia",
+   "accept": [],
+   "explanation": "Example: 'The bacon sizzled in the pan.'",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-007",
+   "type": "qa",
+   "question": "Which device uses deliberate exaggeration for emphasis or effect?",
+   "answer": "hyperbole",
+   "accept": [
+    "exaggeration"
+   ],
+   "explanation": "Example: 'I've told you a million times.'",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-008",
+   "type": "qa",
+   "question": "Which device places two contradictory words side by side, as in 'deafening silence'?",
+   "answer": "oxymoron",
+   "accept": [
+    "an oxymoron"
+   ],
+   "explanation": "Other examples: 'bittersweet', 'living dead', 'open secret'.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-009",
+   "type": "qa",
+   "question": "Which device is a statement that seems self-contradictory but reveals a deeper truth?",
+   "answer": "paradox",
+   "accept": [
+    "a paradox"
+   ],
+   "explanation": "Example: 'The more you know, the more you realise you know nothing.' Unlike an oxymoron, it is a whole statement, not two words.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-010",
+   "type": "cloze",
+   "text": "When a speaker says the opposite of what they mean, for example 'Lovely weather!' during a storm, the device is {{verbal irony}}.",
+   "hint": "a type of irony",
+   "explanation": "Verbal irony is intentional; sarcasm is its harsher, mocking form.",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-011",
+   "type": "cloze",
+   "text": "When the outcome of events is the opposite of what was expected, for example a fire station burning down, the device is {{situational irony}}.",
+   "hint": "a type of irony",
+   "explanation": "Situational irony depends on events, not on what anyone says.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-012",
+   "type": "qa",
+   "question": "Which device uses an object, colour or image to stand for a larger abstract idea?",
+   "answer": "symbolism",
+   "accept": [
+    "symbol",
+    "a symbol"
+   ],
+   "explanation": "Example: a dove representing peace; a withered rose representing lost love.",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-013",
+   "type": "qa",
+   "question": "Which term describes language that appeals to the senses (sight, sound, smell, taste, touch)?",
+   "answer": "imagery",
+   "accept": [
+    "sensory imagery"
+   ],
+   "explanation": "Example: 'the sharp tang of salt on cracked lips' appeals to taste and touch.",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-014",
+   "type": "qa",
+   "question": "Which device places two contrasting ideas, characters or images next to each other to highlight their differences?",
+   "answer": "juxtaposition",
+   "accept": [],
+   "explanation": "Example: describing a lavish banquet immediately after a scene of starving children.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-015",
+   "type": "qa",
+   "question": "Which device gives an early hint or clue about events that will happen later in a story?",
+   "answer": "foreshadowing",
+   "accept": [],
+   "explanation": "Example: a character casually mentioning that the old bridge is unsafe, long before it collapses.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-016",
+   "type": "qa",
+   "question": "Which device is a brief, indirect reference to a well-known person, event or text, such as calling someone 'a real Romeo'?",
+   "answer": "allusion",
+   "accept": [
+    "an allusion"
+   ],
+   "explanation": "Allusions rely on the reader recognising the reference; they are a form of intertextuality.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-017",
+   "type": "qa",
+   "question": "Which device replaces a harsh or unpleasant expression with a milder one, such as 'passed away' for 'died'?",
+   "answer": "euphemism",
+   "accept": [
+    "a euphemism"
+   ],
+   "explanation": "Euphemisms are common in political and corporate language, e.g. 'downsizing' for sacking staff.",
+   "category": "enib_devices",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-018",
+   "type": "qa",
+   "question": "Which device names something by a closely associated thing, as in 'the Crown' for the monarchy or 'the press' for journalists?",
+   "answer": "metonymy",
+   "accept": [],
+   "explanation": "Compare synecdoche, where a part stands for the whole.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-019",
+   "type": "qa",
+   "question": "Which device uses a part to represent the whole, as in 'all hands on deck' meaning all sailors?",
+   "answer": "synecdoche",
+   "accept": [],
+   "explanation": "Another example: 'nice wheels' for a car.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-020",
+   "type": "qa",
+   "question": "Which term describes a recurring image, idea or phrase that develops a theme throughout a text?",
+   "answer": "motif",
+   "accept": [
+    "a motif"
+   ],
+   "explanation": "Example: repeated references to blood in Macbeth; a motif is recurring, a symbol may appear once.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-021",
+   "type": "cloze",
+   "text": "When the weather or landscape mirrors a character's emotions, for example a storm raging during an argument, the device is called {{pathetic fallacy}}.",
+   "hint": "a kind of personification of nature",
+   "explanation": "The term was coined by John Ruskin; it is a specific form of personification.",
+   "category": "enib_devices",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB devices"
+  },
+  {
+   "id": "enib-pp-022",
+   "type": "qa",
+   "question": "What is the name for a group of lines in a poem, separated from other groups by a blank line?",
+   "answer": "stanza",
+   "accept": [
+    "a stanza",
+    "verse"
+   ],
+   "explanation": "Stanzas are the poetic equivalent of paragraphs.",
+   "category": "enib_poetry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-023",
+   "type": "qa",
+   "question": "What do we call two consecutive rhyming lines of poetry?",
+   "answer": "couplet",
+   "accept": [
+    "a couplet",
+    "rhyming couplet"
+   ],
+   "explanation": "Shakespearean sonnets end with a rhyming couplet.",
+   "category": "enib_poetry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-024",
+   "type": "qa",
+   "question": "What is a four-line stanza called?",
+   "answer": "quatrain",
+   "accept": [
+    "a quatrain"
+   ],
+   "explanation": "Many ballads and sonnets are built from quatrains.",
+   "category": "enib_poetry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-025",
+   "type": "cloze",
+   "text": "The pattern of rhymes at the ends of lines, written with letters such as ABAB or AABB, is called the {{rhyme scheme}}.",
+   "hint": "two words",
+   "explanation": "Each new rhyming sound gets the next letter of the alphabet.",
+   "category": "enib_poetry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-026",
+   "type": "qa",
+   "question": "In a four-line stanza where line 1 rhymes with line 3 and line 2 rhymes with line 4, what is the rhyme scheme?",
+   "answer": "ABAB",
+   "accept": [
+    "abab",
+    "a b a b"
+   ],
+   "explanation": "Alternate rhyme (ABAB) is the most common quatrain scheme.",
+   "category": "enib_poetry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-027",
+   "type": "qa",
+   "question": "What is the term for the regular pattern of stressed and unstressed syllables in a line of poetry?",
+   "answer": "meter",
+   "accept": [
+    "metre",
+    "the meter",
+    "the metre"
+   ],
+   "explanation": "Meter is measured in feet, e.g. the iamb (unstressed-stressed).",
+   "category": "enib_poetry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-028",
+   "type": "cloze",
+   "text": "A line of five iambs (ten syllables alternating unstressed and stressed), the most common meter in English verse, is called {{iambic pentameter}}.",
+   "hint": "the meter of Shakespeare's sonnets",
+   "explanation": "Example: 'Shall I compare thee to a summer's day?'",
+   "category": "enib_poetry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-029",
+   "type": "qa",
+   "question": "How many lines does a sonnet have?",
+   "answer": "14",
+   "accept": [
+    "fourteen",
+    "14 lines",
+    "fourteen lines"
+   ],
+   "explanation": "A Shakespearean sonnet has three quatrains and a couplet; a Petrarchan sonnet has an octave and a sestet.",
+   "category": "enib_poetry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-030",
+   "type": "qa",
+   "question": "What is the term for the turn in thought or argument in a sonnet, often at line 9 or before the final couplet?",
+   "answer": "volta",
+   "accept": [
+    "the volta",
+    "turn"
+   ],
+   "explanation": "In a Petrarchan sonnet the volta comes between the octave and the sestet.",
+   "category": "enib_poetry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-031",
+   "type": "qa",
+   "question": "What is the term for a line of poetry that runs on into the next line without punctuation at the end?",
+   "answer": "enjambment",
+   "accept": [
+    "enjambement",
+    "run-on line"
+   ],
+   "explanation": "Enjambment can create speed, surprise or a sense of overflow; the opposite is an end-stopped line.",
+   "category": "enib_poetry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-032",
+   "type": "qa",
+   "question": "What is the term for a strong pause in the middle of a line of poetry, usually marked by punctuation?",
+   "answer": "caesura",
+   "accept": [
+    "a caesura"
+   ],
+   "explanation": "Example: 'To be, or not to be || that is the question.'",
+   "category": "enib_poetry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-033",
+   "type": "cloze",
+   "text": "Poetry that has no regular rhyme scheme or meter is called {{free verse}}.",
+   "hint": "two words",
+   "explanation": "Much modern poetry is written in free verse; it still uses line breaks and rhythm deliberately.",
+   "category": "enib_poetry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-034",
+   "type": "cloze",
+   "text": "Unrhymed iambic pentameter, used by Shakespeare for most dialogue in his plays, is called {{blank verse}}.",
+   "hint": "not 'free verse'",
+   "explanation": "Blank verse has meter but no rhyme; free verse has neither.",
+   "category": "enib_poetry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-035",
+   "type": "qa",
+   "question": "What is the term for a line or group of lines repeated at regular intervals in a poem or song, usually at the end of each stanza?",
+   "answer": "refrain",
+   "accept": [
+    "a refrain",
+    "chorus"
+   ],
+   "explanation": "Example: 'Nevermore' in Poe's 'The Raven'.",
+   "category": "enib_poetry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-036",
+   "type": "qa",
+   "question": "What is the term for the voice that tells the story in a work of prose fiction?",
+   "answer": "narrator",
+   "accept": [
+    "the narrator"
+   ],
+   "explanation": "The narrator is not the same as the author; it is a constructed voice.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-037",
+   "type": "cloze",
+   "text": "A story told by a character using the pronoun 'I' is written in the {{first person}}.",
+   "hint": "first / second / third",
+   "explanation": "First-person narration gives intimacy but limits what the reader can know.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-038",
+   "type": "cloze",
+   "text": "A third-person narrator who knows the thoughts and feelings of all characters is called {{omniscient}}.",
+   "hint": "all-knowing",
+   "explanation": "Compare third-person limited, which stays inside one character's mind.",
+   "category": "enib_prose",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-039",
+   "type": "cloze",
+   "text": "A third-person narrator who presents events through the thoughts of only one character is called third-person {{limited}}.",
+   "hint": "restricted to one mind",
+   "explanation": "Example: the Harry Potter novels mostly follow Harry's perspective in the third person.",
+   "category": "enib_prose",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-040",
+   "type": "qa",
+   "question": "What do we call a narrator whose account the reader cannot fully trust, because of bias, limited knowledge or deliberate deception?",
+   "answer": "unreliable narrator",
+   "accept": [
+    "an unreliable narrator",
+    "unreliable"
+   ],
+   "explanation": "Example: a narrator who is a child, mentally unstable, or hiding a crime.",
+   "category": "enib_prose",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-041",
+   "type": "qa",
+   "question": "What is the term for the sequence of connected events in a story?",
+   "answer": "plot",
+   "accept": [
+    "the plot"
+   ],
+   "explanation": "Freytag's pyramid divides plot into exposition, rising action, climax, falling action and resolution.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-042",
+   "type": "qa",
+   "question": "What is the term for the opening part of a plot that introduces characters, setting and background?",
+   "answer": "exposition",
+   "accept": [
+    "the exposition"
+   ],
+   "explanation": "Exposition answers who, where and when before the conflict develops.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-043",
+   "type": "qa",
+   "question": "What is the term for the point of greatest tension in a plot, where the main conflict comes to a head?",
+   "answer": "climax",
+   "accept": [
+    "the climax"
+   ],
+   "explanation": "After the climax comes the falling action and resolution.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-044",
+   "type": "qa",
+   "question": "What is the term (from French) for the final part of a narrative in which the conflicts are resolved and loose ends are tied up?",
+   "answer": "denouement",
+   "accept": [
+    "dénouement",
+    "resolution"
+   ],
+   "explanation": "Literally 'untying' in French.",
+   "category": "enib_prose",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-045",
+   "type": "qa",
+   "question": "What is the term for the methods a writer uses to create and reveal a character's personality?",
+   "answer": "characterisation",
+   "accept": [
+    "characterization"
+   ],
+   "explanation": "Direct characterisation tells us ('she was cruel'); indirect characterisation shows us through speech, actions, appearance and others' reactions.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-046",
+   "type": "qa",
+   "question": "What is the term for the main character of a story, whose goals drive the plot?",
+   "answer": "protagonist",
+   "accept": [
+    "the protagonist",
+    "main character"
+   ],
+   "explanation": "The protagonist is not necessarily a hero or a good person.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-047",
+   "type": "qa",
+   "question": "What is the term for the character or force that opposes the protagonist?",
+   "answer": "antagonist",
+   "accept": [
+    "the antagonist"
+   ],
+   "explanation": "An antagonist can be a person, society, nature or even the protagonist's own flaw.",
+   "category": "enib_prose",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-048",
+   "type": "qa",
+   "question": "What is the term for a scene that interrupts the present action to show events from an earlier time?",
+   "answer": "flashback",
+   "accept": [
+    "a flashback",
+    "analepsis"
+   ],
+   "explanation": "The opposite, a jump forward in time, is a flash-forward (prolepsis).",
+   "category": "enib_prose",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-049",
+   "type": "cloze",
+   "text": "A narrative technique that presents a character's thoughts as a continuous, unedited flow, as in Joyce or Woolf, is called {{stream of consciousness}}.",
+   "hint": "three words",
+   "explanation": "It often ignores conventional grammar and punctuation to imitate the mind at work.",
+   "category": "enib_prose",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-050",
+   "type": "cloze",
+   "text": "A story that begins in the middle of the action, rather than at the chronological start, begins {{in medias res}}.",
+   "hint": "Latin phrase",
+   "explanation": "Homer's Iliad and many thrillers open this way; earlier events are supplied later.",
+   "category": "enib_prose",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-051",
+   "type": "qa",
+   "question": "What is the term for a major division of a play, usually made up of several scenes?",
+   "answer": "act",
+   "accept": [
+    "an act"
+   ],
+   "explanation": "Shakespeare's plays have five acts; many modern plays have two or three.",
+   "category": "enib_drama",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-052",
+   "type": "qa",
+   "question": "What is the term for a subdivision of an act, usually marked by a change of place, time or characters?",
+   "answer": "scene",
+   "accept": [
+    "a scene"
+   ],
+   "explanation": "Scenes are referred to by act and number, e.g. Act 3, Scene 1.",
+   "category": "enib_drama",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-053",
+   "type": "qa",
+   "question": "What is the term for a speech in which a character, alone on stage, speaks their thoughts aloud?",
+   "answer": "soliloquy",
+   "accept": [
+    "a soliloquy"
+   ],
+   "explanation": "Example: Hamlet's 'To be, or not to be'. Unlike a monologue, no other character hears it.",
+   "category": "enib_drama",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-054",
+   "type": "qa",
+   "question": "What is the term for a brief remark a character makes to the audience that other characters on stage are not supposed to hear?",
+   "answer": "aside",
+   "accept": [
+    "an aside"
+   ],
+   "explanation": "Asides create complicity between character and audience.",
+   "category": "enib_drama",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-055",
+   "type": "qa",
+   "question": "What is the term for a long speech delivered by one character to other characters on stage?",
+   "answer": "monologue",
+   "accept": [
+    "a monologue"
+   ],
+   "explanation": "Compare soliloquy (alone on stage) and dialogue (two or more speakers).",
+   "category": "enib_drama",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-056",
+   "type": "cloze",
+   "text": "Instructions in a play script, often in italics or brackets, that tell actors how to move or speak are called {{stage directions}}.",
+   "hint": "two words",
+   "explanation": "Example: '[Exit, pursued by a bear]' in The Winter's Tale.",
+   "category": "enib_drama",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-057",
+   "type": "cloze",
+   "text": "When the audience knows something important that a character on stage does not, the effect is called {{dramatic irony}}.",
+   "hint": "a type of irony",
+   "explanation": "Example: the audience knows Juliet is only asleep while Romeo believes she is dead.",
+   "category": "enib_drama",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-058",
+   "type": "qa",
+   "question": "What is the Greek term for the fatal flaw or error of judgement that leads to a tragic hero's downfall?",
+   "answer": "hamartia",
+   "accept": [],
+   "explanation": "Example: Macbeth's ambition, Othello's jealousy.",
+   "category": "enib_drama",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-059",
+   "type": "qa",
+   "question": "What is the Greek term for the release of pity and fear that, according to Aristotle, tragedy produces in its audience?",
+   "answer": "catharsis",
+   "accept": [],
+   "explanation": "Aristotle discusses catharsis in his Poetics.",
+   "category": "enib_drama",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-060",
+   "type": "qa",
+   "question": "What is the term for the group of performers in Greek drama who comment on the action, often speaking in unison?",
+   "answer": "chorus",
+   "accept": [
+    "the chorus"
+   ],
+   "explanation": "A modern equivalent is the Chorus who opens Romeo and Juliet.",
+   "category": "enib_drama",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-061",
+   "type": "qa",
+   "question": "Which non-literary text type is a newspaper article that expresses the opinion of the paper's editors rather than reporting facts?",
+   "answer": "editorial",
+   "accept": [
+    "an editorial",
+    "leader"
+   ],
+   "explanation": "An opinion piece by an outside writer is an op-ed (opposite the editorial page).",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-062",
+   "type": "cloze",
+   "text": "A newspaper text that reports recent events objectively, answering who, what, where, when and why in the opening paragraph, is a {{news report}}.",
+   "hint": "not an editorial",
+   "explanation": "The opening paragraph of a news report is called the lead (or lede).",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-063",
+   "type": "qa",
+   "question": "What is the term for the large-print title at the top of a newspaper article?",
+   "answer": "headline",
+   "accept": [
+    "the headline"
+   ],
+   "explanation": "Headlines use compressed grammar, puns and strong verbs to attract readers.",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-064",
+   "type": "qa",
+   "question": "What is the term for the line in an article that names its author?",
+   "answer": "byline",
+   "accept": [
+    "the byline"
+   ],
+   "explanation": "Example: 'By Jane Smith, Environment Correspondent'.",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-065",
+   "type": "qa",
+   "question": "What is the term for the short text printed beneath a photograph or image that explains it?",
+   "answer": "caption",
+   "accept": [
+    "a caption"
+   ],
+   "explanation": "Captions anchor the meaning of an image and can steer how the reader interprets it.",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-066",
+   "type": "qa",
+   "question": "Which text type combines charts, icons and short text to present data visually?",
+   "answer": "infographic",
+   "accept": [
+    "an infographic"
+   ],
+   "explanation": "Infographics are analysed for layout, colour, hierarchy and how data is framed.",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-067",
+   "type": "qa",
+   "question": "Which non-literary text type is written to persuade people to buy a product or service, often combining image, slogan and logo?",
+   "answer": "advertisement",
+   "accept": [
+    "advert",
+    "ad",
+    "an advertisement"
+   ],
+   "explanation": "Key features: target audience, slogan, brand image, persuasive and emotive language.",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-068",
+   "type": "qa",
+   "question": "Which text type is a factual, first-person account of part of the author's own life, focused on particular experiences or themes?",
+   "answer": "memoir",
+   "accept": [
+    "a memoir"
+   ],
+   "explanation": "A memoir is narrower than an autobiography, which covers a whole life.",
+   "category": "enib_nonlit",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-069",
+   "type": "qa",
+   "question": "What is the term for a short, memorable phrase used in advertising or politics, such as 'Just Do It'?",
+   "answer": "slogan",
+   "accept": [
+    "a slogan",
+    "tagline"
+   ],
+   "explanation": "Slogans often use alliteration, imperatives or rhythm to be memorable.",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-070",
+   "type": "cloze",
+   "text": "Text types such as speeches, advertisements, articles, letters, blogs and memoirs, which are not fiction, poetry or drama, are called {{non-literary}} texts.",
+   "hint": "opposite of literary",
+   "explanation": "IB English A: Language and Literature studies both literary works and non-literary bodies of work.",
+   "category": "enib_nonlit",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-071",
+   "type": "cloze",
+   "text": "The visual arrangement of text, images, headings and white space on a page is called the {{layout}}.",
+   "hint": "design term",
+   "explanation": "Layout is a key feature in analysing advertisements, websites and infographics.",
+   "category": "enib_nonlit",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-072",
+   "type": "qa",
+   "question": "Which of Aristotle's three appeals persuades by establishing the speaker's credibility and character?",
+   "answer": "ethos",
+   "accept": [],
+   "explanation": "Example: 'As a doctor with twenty years' experience, I can tell you...'",
+   "category": "enib_rhetoric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-073",
+   "type": "qa",
+   "question": "Which of Aristotle's three appeals persuades by stirring the audience's emotions?",
+   "answer": "pathos",
+   "accept": [],
+   "explanation": "Example: describing a single suffering child to argue for famine relief.",
+   "category": "enib_rhetoric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-074",
+   "type": "qa",
+   "question": "Which of Aristotle's three appeals persuades through logic, reasoning and evidence?",
+   "answer": "logos",
+   "accept": [],
+   "explanation": "Example: statistics, cause-and-effect reasoning, expert data.",
+   "category": "enib_rhetoric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-075",
+   "type": "qa",
+   "question": "What is the term for a question asked for effect, to which no answer is expected?",
+   "answer": "rhetorical question",
+   "accept": [
+    "a rhetorical question"
+   ],
+   "explanation": "Example: 'How much longer must we wait?'",
+   "category": "enib_rhetoric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-076",
+   "type": "qa",
+   "question": "Which device repeats the same word or phrase at the beginning of successive clauses or sentences?",
+   "answer": "anaphora",
+   "accept": [],
+   "explanation": "Example: 'We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields...'",
+   "category": "enib_rhetoric",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-077",
+   "type": "qa",
+   "question": "Which device groups words or ideas in threes for rhythm and emphasis, as in 'liberty, equality, fraternity'?",
+   "answer": "tricolon",
+   "accept": [
+    "rule of three",
+    "the rule of three"
+   ],
+   "explanation": "Also known as the rule of three; e.g. 'veni, vidi, vici'.",
+   "category": "enib_rhetoric",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-078",
+   "type": "qa",
+   "question": "Which device sets two opposite ideas against each other in a balanced structure, as in 'Ask not what your country can do for you; ask what you can do for your country'?",
+   "answer": "antithesis",
+   "accept": [],
+   "explanation": "Antithesis uses parallel grammar to sharpen the contrast.",
+   "category": "enib_rhetoric",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-079",
+   "type": "cloze",
+   "text": "A speaker who asks a question and then immediately answers it ('What do we want? Justice.') is using {{hypophora}}.",
+   "hint": "not a rhetorical question",
+   "explanation": "Unlike a rhetorical question, hypophora supplies the answer.",
+   "category": "enib_rhetoric",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-080",
+   "type": "cloze",
+   "text": "Pronouns such as 'we', 'us' and 'our', used by a speaker to create a sense of unity with the audience, are called {{inclusive}} pronouns.",
+   "hint": "they include the audience",
+   "explanation": "Example: 'Together we can build a better future.'",
+   "category": "enib_rhetoric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-081",
+   "type": "qa",
+   "question": "What is the grammatical mood of a verb used to give commands or instructions, common in advertising slogans like 'Just Do It'?",
+   "answer": "imperative",
+   "accept": [
+    "the imperative",
+    "imperative mood"
+   ],
+   "explanation": "Imperatives address the reader directly and create urgency.",
+   "category": "enib_rhetoric",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-082",
+   "type": "qa",
+   "question": "What is the term for emotionally charged words chosen to provoke a reaction, such as 'slaughter' instead of 'killing'?",
+   "answer": "emotive language",
+   "accept": [
+    "loaded language"
+   ],
+   "explanation": "Emotive language is a key tool of pathos.",
+   "category": "enib_rhetoric",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-083",
+   "type": "cloze",
+   "text": "The sentence, usually at the end of an introduction, that states the central argument of an analytical essay is the {{thesis statement}}.",
+   "hint": "two words",
+   "explanation": "A thesis should be arguable and specific, e.g. 'The poem uses fragmented syntax to convey grief.'",
+   "category": "enib_analysis",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-084",
+   "type": "qa",
+   "question": "In the PEE (or PEEL) paragraph structure, what do the letters P, E and E stand for?",
+   "answer": "point evidence explanation",
+   "accept": [
+    "point, evidence, explanation",
+    "point evidence explain",
+    "point, evidence, explain"
+   ],
+   "explanation": "PEEL adds a final L: link back to the question or thesis.",
+   "category": "enib_analysis",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-085",
+   "type": "qa",
+   "question": "What is the term for the writer's attitude towards the subject or audience, as revealed through word choice and style?",
+   "answer": "tone",
+   "accept": [
+    "the tone"
+   ],
+   "explanation": "Examples: ironic, nostalgic, bitter, playful. Tone belongs to the writer; mood is what the reader feels.",
+   "category": "enib_analysis",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-086",
+   "type": "qa",
+   "question": "What is the term for the feeling or atmosphere that a text creates in the reader?",
+   "answer": "mood",
+   "accept": [
+    "the mood",
+    "atmosphere"
+   ],
+   "explanation": "Mood is created through setting, imagery and pacing, e.g. a tense or melancholy mood.",
+   "category": "enib_analysis",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-087",
+   "type": "qa",
+   "question": "What is the term for a writer's choice of words?",
+   "answer": "diction",
+   "accept": [
+    "word choice"
+   ],
+   "explanation": "Diction can be formal, colloquial, archaic, technical, etc.",
+   "category": "enib_analysis",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-088",
+   "type": "qa",
+   "question": "What is the term for the way words are arranged into phrases and sentences, including sentence length and order?",
+   "answer": "syntax",
+   "accept": [
+    "sentence structure"
+   ],
+   "explanation": "Short, abrupt sentences can create tension; long, flowing ones can suggest calm or confusion.",
+   "category": "enib_analysis",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-089",
+   "type": "cloze",
+   "text": "The literal, dictionary meaning of a word is its denotation; the emotional or cultural associations it carries are its {{connotation}}.",
+   "hint": "opposite of denotation",
+   "explanation": "'Home' and 'house' share a denotation but 'home' connotes warmth and belonging.",
+   "category": "enib_analysis",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-090",
+   "type": "cloze",
+   "text": "Reading a short passage very carefully, examining word choice, imagery, structure and sound in detail, is called {{close reading}}.",
+   "hint": "two words",
+   "explanation": "Close reading is the core skill assessed in IB Paper 1 guided textual analysis.",
+   "category": "enib_analysis",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-091",
+   "type": "qa",
+   "question": "In textual analysis, what is the term for the point of view or position from which a text presents its subject?",
+   "answer": "perspective",
+   "accept": [
+    "point of view"
+   ],
+   "explanation": "Perspective is one of the seven central concepts of IB English A: Language and Literature.",
+   "category": "enib_analysis",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-092",
+   "type": "cloze",
+   "text": "When quoting in an essay, a short quotation woven smoothly into your own sentence is called an {{embedded}} quotation.",
+   "hint": "integrated",
+   "explanation": "Example: The speaker describes the city as 'a wound that will not heal', suggesting lasting trauma.",
+   "category": "enib_analysis",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Readers writers and texts"
+  },
+  {
+   "id": "enib-pp-093",
+   "type": "cloze",
+   "text": "The level of formality of language chosen for a particular audience and situation is called {{register}}.",
+   "hint": "formal / informal",
+   "explanation": "A legal contract and a text message to a friend use very different registers.",
+   "category": "enib_texts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-094",
+   "type": "qa",
+   "question": "What is the term for a category of text with shared conventions, such as sonnet, tragedy, memoir or news report?",
+   "answer": "genre",
+   "accept": [
+    "a genre"
+   ],
+   "explanation": "Writers can follow, bend or subvert genre conventions.",
+   "category": "enib_texts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-095",
+   "type": "qa",
+   "question": "What is the term for the group of readers or viewers a text is designed for?",
+   "answer": "audience",
+   "accept": [
+    "target audience",
+    "the audience"
+   ],
+   "explanation": "Audience shapes register, vocabulary, text type and tone.",
+   "category": "enib_texts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-096",
+   "type": "qa",
+   "question": "What is the term for the reason a text was created, such as to inform, persuade, entertain or instruct?",
+   "answer": "purpose",
+   "accept": [
+    "the purpose"
+   ],
+   "explanation": "Purpose, audience and text type are always considered together in analysis.",
+   "category": "enib_texts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-097",
+   "type": "cloze",
+   "text": "The circumstances in which a text was written (time, place, author's situation) are its context of {{production}}; the circumstances in which it is read are its context of reception.",
+   "hint": "the opposite of reception",
+   "explanation": "A 1940s wartime poster is read differently today than when it was produced.",
+   "category": "enib_texts",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-098",
+   "type": "qa",
+   "question": "What is the term for specialised vocabulary used by a particular profession or group, such as medical or legal terms?",
+   "answer": "jargon",
+   "accept": [],
+   "explanation": "Jargon signals expertise and group membership but can exclude outsiders.",
+   "category": "enib_texts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-099",
+   "type": "qa",
+   "question": "What is the term for informal, everyday language used in casual speech, such as 'gonna' or 'kids'?",
+   "answer": "colloquial language",
+   "accept": [
+    "colloquialism",
+    "colloquial"
+   ],
+   "explanation": "Colloquial language creates a relaxed, conversational register.",
+   "category": "enib_texts",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Time and space"
+  },
+  {
+   "id": "enib-pp-100",
+   "type": "qa",
+   "question": "What is the term for a work that imitates the style of another work or author in order to mock it?",
+   "answer": "parody",
+   "accept": [
+    "a parody"
+   ],
+   "explanation": "A parody is a comic imitation; a pastiche imitates a style respectfully, without mockery.",
+   "category": "enib_texts",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Intertextuality"
+  },
+  {
+   "id": "enib-pp-101",
+   "type": "qa",
+   "question": "What is the term for writing that uses humour, irony or exaggeration to criticise people, politics or society?",
+   "answer": "satire",
+   "accept": [],
+   "explanation": "Example: Swift's 'A Modest Proposal'; satire aims to expose and correct folly.",
+   "category": "enib_texts",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Intertextuality"
+  },
+  {
+   "id": "enib-pp-102",
+   "type": "cloze",
+   "text": "The way texts refer to, echo or depend on other texts, for example through allusion, parody or adaptation, is called {{intertextuality}}.",
+   "hint": "the third IB area of exploration",
+   "explanation": "'Intertextuality: connecting texts' is one of the three areas of exploration in IB English A.",
+   "category": "enib_texts",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Intertextuality"
+  },
+  {
+   "id": "enib-pp-103",
+   "type": "qa",
+   "question": "How many areas of exploration does the IB English A: Language and Literature course have?",
+   "answer": "3",
+   "accept": [
+    "three"
+   ],
+   "explanation": "They are: Readers, writers and texts; Time and space; Intertextuality: connecting texts.",
+   "category": "enib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB concepts"
+  },
+  {
+   "id": "enib-pp-104",
+   "type": "cloze",
+   "text": "The IB area of exploration that focuses on how texts relate to the historical and cultural contexts in which they are produced and received is called 'Time and {{space}}'.",
+   "hint": "one word",
+   "explanation": "The other two areas are 'Readers, writers and texts' and 'Intertextuality: connecting texts'.",
+   "category": "enib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB concepts"
+  },
+  {
+   "id": "enib-pp-105",
+   "type": "qa",
+   "question": "Identity, culture, creativity, communication, perspective, transformation and representation are the seven central ... of IB English A. Which word completes the phrase?",
+   "answer": "concepts",
+   "accept": [
+    "central concepts"
+   ],
+   "explanation": "The seven concepts guide discussion across all three areas of exploration.",
+   "category": "enib_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB concepts"
+  }
+ ]
+}
