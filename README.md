@@ -191,7 +191,7 @@ Konfiguracja jednorazowa w panelu Supabase:
    <p>Twój kod logowania: <strong>{{ .Token }}</strong></p>
    ```
 3. **Adres strony:** *Authentication → URL Configuration* → *Site URL* = `https://kalomsconsulting-lab.github.io/academic-words/`; ten sam adres dodaj w *Redirect URLs* (oraz `http://localhost:8765` do testów).
-4. *(opcjonalnie)* Gdy wszyscy już się zalogują: *Authentication → Sign In / Providers* → wyłącz *Allow new users to sign up*.
+4. **Konta tylko na zaproszenie** (zalecane): uruchom [`supabase/invites.sql`](supabase/invites.sql) i włącz hook — opis w sekcji *Zaproszenia* niżej. *Allow new users to sign up* zostaje wtedy włączone (o dostępie decyduje hook).
 
 Adres projektu i klucz `publishable` są w [`config.js`](config.js). Klucz jest publiczny z założenia, a dane chronią reguły RLS (każdy widzi tylko swój wiersz). Pusty klucz oznacza, że aplikacja działa wyłącznie lokalnie.
 
@@ -208,13 +208,34 @@ Materiały dodane z opcją *👥 Dla wszystkich* są w osobnej tabeli `shared_it
 - Czytać może każdy (także bez logowania), dodawać zalogowany, usuwać tylko autor (reguły RLS w `shared.sql`). Edycji nie ma: poprawka to usunięcie i ponowne dodanie.
 - Aplikacja pobiera wspólne materiały przy starcie i po powrocie do aplikacji, a ostatnią listę trzyma w `localStorage` (`awv:shared`), więc działają offline.
 - Autor jest podpisany imieniem z *Ustawień* (albo początkiem adresu e-mail).
-- **Uwaga:** przy włączonej rejestracji każdy, kto zaloguje się e-mailem, może publikować dla wszystkich. Gdy konta są już założone, wyłącz *Allow new users to sign up* (wyżej, punkt 4). Treści nieodpowiednie usuniesz w panelu Supabase: *Table Editor → shared_items*.
+- **Uwaga:** przy włączonej rejestracji każdy, kto zaloguje się e-mailem, może publikować dla wszystkich. Dlatego warto włączyć konta tylko na zaproszenie (sekcja *Zaproszenia*). Treści nieodpowiednie usuniesz w panelu Supabase: *Table Editor → shared_items*.
+
+## Zaproszenia (konta tylko dla zaproszonych)
+
+Administrator zaprasza osoby z poziomu aplikacji: *Ustawienia → ✉️ Zaproszenia* (karta widoczna tylko dla administratora). Konto może założyć wyłącznie adres z listy; obce adresy dostają komunikat „Ten adres nie ma zaproszenia…”. Istniejące konta logują się bez zmian.
+
+Konfiguracja jednorazowa w panelu Supabase:
+
+1. *SQL Editor → New query* → wklej [`supabase/invites.sql`](supabase/invites.sql) → *Run*. (Ostrzeżenie o „destructive operations” dotyczy linii `drop policy if exists` — nie usuwają danych.)
+2. *Authentication → Auth Hooks* → *Before User Created* → typ *Postgres* → schemat `public`, funkcja `hook_before_user_created` → zapisz.
+3. *Authentication → Sign In / Providers*: *Allow new users to sign up* musi być **włączone**.
+4. Nadaj sobie rolę administratora: w *SQL Editor* uruchom (z adresem, którym logujesz się w aplikacji):
+   ```sql
+   insert into public.app_admins (user_id) select id from auth.users where lower(email) = 'twoj@adres.pl' on conflict do nothing;
+   ```
+   Po odświeżeniu aplikacji w Ustawieniach pojawi się karta *Zaproszenia*.
+
+Jak zaprosić:
+- Wpisz e-mail (i opcjonalnie imię) → *Zaproś*. Potem *✉️ Wyślij e-mail* (otwiera Twoją pocztę z gotową wiadomością), *📤 Udostępnij* (telefon: SMS, WhatsApp…) albo *📋 Kopiuj*.
+- Wiadomość zawiera link `…?zaproszenie=<adres>#/settings`: aplikacja otwiera się na logowaniu z wpisanym adresem; wystarczy *Wyślij kod* i wpisać kod z e-maila.
+- Lista pokazuje status: ⏳ czeka na pierwsze logowanie / ✅ konto od… (z datą ostatniego logowania). *Wycofaj zaproszenie* blokuje założenie konta; usunięcie z listy osoby, która ma już konto, nie usuwa konta (to robi się w *Authentication → Users*).
+- Uwaga: konto dodane ręcznie w *Authentication → Users → Add user* też przechodzi przez hook, więc najpierw dodaj adres do listy zaproszeń.
 
 ## Widok rodzica
 
 Rodzic widzi postęp dzieci, a każde dziecko uczy się na własnym koncie (własny e-mail albo alias rodzica, np. `rodzic+zosia@gmail.com`).
 
-Konfiguracja jednorazowa: w panelu Supabase *SQL Editor → New query* → wklej [`supabase/family.sql`](supabase/family.sql) → *Run* (po `schema.sql`). Jeśli rejestracja nowych użytkowników jest wyłączona, włącz ją na czas zakładania kont dzieci albo dodaj je w *Authentication → Add user*.
+Konfiguracja jednorazowa: w panelu Supabase *SQL Editor → New query* → wklej [`supabase/family.sql`](supabase/family.sql) → *Run* (po `schema.sql`). Przy kontach na zaproszenie administrator najpierw zaprasza adres dziecka (np. alias `rodzic+zosia@gmail.com`), potem dziecko loguje się i wpisuje kod rodziny.
 
 Połączenie kont:
 1. **Rodzic:** *Ustawienia → Rodzina → Utwórz kod rodziny* (albo przy pierwszym uruchomieniu *Jestem rodzicem*). Pojawia się zakładka **Rodzina**.

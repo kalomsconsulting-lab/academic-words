@@ -519,3 +519,11 @@ details > summary { cursor: pointer; font-weight: 600; }
 
 /* Mały przycisk (widok rodziny) */
 .btn.btn-sm { min-height: 34px; padding: 6px 12px; font-size: .85rem; border-radius: 10px; }
+
+/* ===== Zaproszenia ===== */
+.invite-form { display: grid; gap: 8px; margin: 10px 0 4px; }
+@media (min-width: 640px) { .invite-form { grid-template-columns: 2fr 1fr auto; } }
+.invite-body { border-top: 1px solid var(--border); padding: 12px 0; }
+.invite-body textarea { margin-top: 10px; min-height: 160px; }
+.invite-actions .btn { flex: 1 1 auto; }
+.invite-hello { background: var(--primary-soft); border-radius: 12px; padding: 10px 12px; font-weight: 600; }

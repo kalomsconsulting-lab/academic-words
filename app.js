@@ -2022,6 +2022,8 @@
     renderSyncCard(syncCard);
     const familyCard = h('div', { class: 'card', id: 'family-card' });
     renderFamilyCard(familyCard);
+    const invitesCard = h('div', { class: 'card', id: 'invites-card' });
+    renderInvitesCard(invitesCard);
     view.replaceChildren(
       h('h1', null, 'Ustawienia'),
       h('div', { class: 'card' },
@@ -2053,6 +2055,7 @@
           : 'Dodaj własne karty z czatu AI, pliku JSON, wklejonego tekstu albo pojedynczo.'),
         h('a', { class: 'btn btn-primary', href: '#/materials' }, '➕ Dodaj / zarządzaj materiałami')),
       syncCard,
+      invitesCard,
       familyCard,
       h('div', { class: 'card' },
         h('h2', null, 'Dane i postęp'),
@@ -2689,7 +2692,9 @@
   // localStorage pozostaje lokalną kopią — aplikacja działa offline, a zmiany wysyłamy w tle.
   // ===================================================================
   const CFG = window.AW_CONFIG || {};
-  const sync = { client: null, user: null, status: 'off', error: '', lastSync: null, timer: null, busy: false, again: false, email: '' };
+  const sync = { client: null, user: null, status: 'off', error: '', lastSync: null, timer: null, busy: false, again: false, email: '',
+    admin: false,     // administrator (supabase/invites.sql): widzi kartę Zaproszenia
+    inviteEmail: '' }; // adres z linku zaproszenia (?zaproszenie=…), wpisywany przy logowaniu
 
   // Łączy dwa stany: dla każdego słowa wygrywa nowszy wpis, dni nauki — większa liczba odpowiedzi.
   function mergeStates(local, remote) {
@@ -2788,6 +2793,12 @@
   }
 
   async function initSync() {
+    const inviteQs = new URLSearchParams(location.search);
+    if (inviteQs.has('zaproszenie')) {
+      sync.inviteEmail = inviteQs.get('zaproszenie').trim().toLowerCase();
+      inviteQs.delete('zaproszenie');
+      history.replaceState(null, '', location.pathname + (inviteQs.toString() ? '?' + inviteQs : '') + location.hash);
+    }
     if (!CFG.supabaseUrl || !CFG.supabaseAnonKey) { sync.status = 'off'; return; }
     if (!window.supabase) { sync.status = 'unavailable'; refreshSyncUi(); return; }
     sync.client = window.supabase.createClient(CFG.supabaseUrl, CFG.supabaseAnonKey, {
@@ -2797,10 +2808,12 @@
       const prev = sync.user && sync.user.id;
       sync.user = session ? session.user : null;
       if (!sync.user || sync.user.id !== family.loadedFor) { family.loadedFor = null; family.error = ''; }
+      if (!sync.user || sync.user.id !== prev) { sync.admin = false; invites.list = null; }
       sync.status = sync.user ? (sync.status === 'off' || sync.status === 'loggedout' ? 'ok' : sync.status) : 'loggedout';
       // wywołania Supabase poza callbackiem (zalecenie biblioteki)
       if (sync.user && sync.user.id !== prev) {
         setTimeout(() => syncNow(), 0);
+        setTimeout(() => checkAdmin(), 0);
         // konto z kodem rodziny = rodzic: włącz zakładkę Rodzina (i pomiń wybór ścieżki)
         setTimeout(() => loadFamily().then(() => { if (state.settings.parentMode && currentRoute !== 'session') route(); }), 0);
       }
@@ -2828,6 +2841,8 @@
     // karta Rodzina zależy tylko od zalogowanego konta — nie przerysowuj jej przy każdej zmianie statusu
     const fam = document.getElementById('family-card');
     if (fam && fam.dataset.user !== String(sync.user ? sync.user.id : '')) renderFamilyCard(fam);
+    const inv = document.getElementById('invites-card');
+    if (inv && inv.dataset.admin !== String(sync.admin)) renderInvitesCard(inv);
   }
 
   function syncStatusText() {
@@ -2870,18 +2885,26 @@
     const msg = h('div', { class: 'muted small', style: 'min-height:1.5em' });
     const fail = (e) => { msg.textContent = '⚠️ ' + ((e && e.message) || e); };
     if (!sync.email) {
-      const email = h('input', { type: 'text', inputmode: 'email', autocomplete: 'email', placeholder: 'adres e-mail', 'aria-label': 'Adres e-mail' });
+      const email = h('input', { type: 'text', inputmode: 'email', autocomplete: 'email', placeholder: 'adres e-mail', 'aria-label': 'Adres e-mail',
+        value: sync.inviteEmail });
       const send = async () => {
         const v = email.value.trim();
         if (!/^\S+@\S+\.\S+$/.test(v)) { fail('Podaj poprawny adres e-mail.'); return; }
         msg.textContent = 'Wysyłam kod…';
         const { error } = await sync.client.auth.signInWithOtp({ email: v, options: { shouldCreateUser: true, emailRedirectTo: location.origin + location.pathname } });
-        if (error) { fail(error.message); return; }
+        if (error) {
+          // rejestracja wyłączona w panelu Supabase — komunikat biblioteki jest po angielsku
+          fail(/signups? not allowed|signup.*disabled/i.test(error.message)
+            ? 'Ten adres nie ma jeszcze konta w Study Cards. Poproś administratora o zaproszenie.' : error.message);
+          return;
+        }
         sync.email = v;
         renderSyncCard(card);
       };
       email.addEventListener('keydown', (e) => { if (e.key === 'Enter') send(); });
-      card.replaceChildren(title,
+      card.replaceChildren();
+      put(card, title,
+        sync.inviteEmail ? h('p', { class: 'invite-hello' }, '🎉 Masz zaproszenie! Adres jest już wpisany — kliknij „Wyślij kod”, a potem wpisz kod z e-maila.') : null,
         h('p', { class: 'muted small' }, 'Zaloguj się tym samym e-mailem na telefonie i komputerze — postęp będzie wspólny. Bez hasła: dostaniesz kod w mailu.'),
         h('div', { class: 'field' }, email),
         h('button', { class: 'btn btn-primary', onClick: send }, 'Wyślij kod'),
@@ -2960,6 +2983,112 @@
   }
 
   // Karta „Rodzina” w Ustawieniach: kod dla rodzica i dołączanie dla dziecka.
+  // ===================================================================
+  // Zaproszenia (supabase/invites.sql): konto może założyć tylko adres z listy zaproszeń.
+  // Administrator dodaje adres i wysyła link (e-mailem albo komunikatorem); link wpisuje adres przy logowaniu.
+  // ===================================================================
+  const invites = { list: null, error: '', open: '' };
+
+  async function checkAdmin() {
+    if (!sync.client || !sync.user) return;
+    const { data, error } = await sync.client.rpc('is_admin');
+    sync.admin = !error && data === true; // brak funkcji (invites.sql nieuruchomione) = brak karty
+    refreshSyncUi();
+  }
+
+  async function loadInvites() {
+    const { data, error } = await sync.client.rpc('list_invites');
+    invites.error = error ? error.message : '';
+    invites.list = error ? [] : data || [];
+  }
+
+  const inviteLink = (email) => `${location.origin}${location.pathname}?zaproszenie=${encodeURIComponent(email)}#/settings`;
+  function inviteMessage(inv) {
+    return {
+      subject: 'Zaproszenie do Study Cards',
+      body: `Cześć${inv.name ? ' ' + inv.name : ''}!\n\n` +
+        'Zapraszam Cię do Study Cards — aplikacji do nauki z fiszkami i powtórkami.\n\n' +
+        `1. Otwórz link: ${inviteLink(inv.email)}\n` +
+        `2. Twój adres (${inv.email}) będzie już wpisany — kliknij „Wyślij kod”.\n` +
+        '3. Wpisz kod z e-maila i gotowe.\n\n' +
+        'Na telefonie: menu przeglądarki → „Dodaj do ekranu głównego”, żeby mieć aplikację pod ręką.\n',
+    };
+  }
+
+  function renderInvitesCard(card) {
+    card.dataset.admin = String(sync.admin);
+    card.classList.toggle('hidden', !sync.admin);
+    if (!sync.admin) { card.replaceChildren(); return; }
+    const title = h('h2', null, '✉️ Zaproszenia');
+    if (invites.list === null) {
+      card.replaceChildren(title, h('p', { class: 'muted small' }, 'Wczytuję…'));
+      loadInvites().then(() => renderInvitesCard(card));
+      return;
+    }
+    const msg = h('div', { class: 'muted small', style: 'min-height:1.5em' }, invites.error ? '⚠️ ' + invites.error : '');
+    const emailIn = h('input', { type: 'text', inputmode: 'email', autocomplete: 'off', placeholder: 'adres e-mail', 'aria-label': 'E-mail osoby zapraszanej' });
+    const nameIn = h('input', { type: 'text', maxlength: '30', placeholder: 'imię (opcjonalnie)', 'aria-label': 'Imię osoby zapraszanej' });
+    const add = async () => {
+      const email = emailIn.value.trim().toLowerCase();
+      if (!/^\S+@\S+\.\S+$/.test(email)) { msg.textContent = '⚠️ Podaj poprawny adres e-mail.'; emailIn.focus(); return; }
+      msg.textContent = 'Dodaję…';
+      const { error } = await sync.client.from('invites').insert({ email, name: nameIn.value.trim() || null });
+      if (error && error.code !== '23505') { msg.textContent = '⚠️ ' + error.message; return; }
+      invites.open = email; // od razu pokaż przyciski wysyłki
+      await loadInvites();
+      renderInvitesCard(card);
+      toast(error ? 'Ten adres już jest na liście' : 'Dodano — teraz wyślij zaproszenie');
+    };
+    emailIn.addEventListener('keydown', (e) => { if (e.key === 'Enter') add(); });
+
+    const rows = invites.list.map((inv) => {
+      const m = inviteMessage(inv);
+      const full = `${m.body}`;
+      const textBox = h('textarea', { readonly: 'readonly', rows: '7', class: 'hidden', 'aria-label': 'Treść zaproszenia', value: full });
+      const copy = async () => {
+        try { await navigator.clipboard.writeText(full); toast('Zaproszenie skopiowane — wklej je w SMS lub komunikatorze'); }
+        catch (e) { textBox.classList.remove('hidden'); textBox.focus(); textBox.select(); toast('Schowek niedostępny — zaznaczony tekst skopiuj ręcznie.'); }
+      };
+      const share = async () => {
+        try { await navigator.share({ title: m.subject, text: full }); } catch (e) { if (e && e.name !== 'AbortError') copy(); }
+      };
+      const remove = async () => {
+        const what = inv.joined_at
+          ? `Usunąć ${inv.email} z listy zaproszeń? Konto zostaje i działa dalej.`
+          : `Wycofać zaproszenie dla ${inv.email}? Ten adres nie będzie mógł założyć konta.`;
+        if (!confirm(what)) return;
+        const { error } = await sync.client.from('invites').delete().eq('email', inv.email);
+        if (error) { msg.textContent = '⚠️ ' + error.message; return; }
+        await loadInvites();
+        renderInvitesCard(card);
+      };
+      const status = inv.joined_at
+        ? `✅ konto od ${fmtDate(inv.joined_at)}${inv.last_sign_in_at ? ` · ostatnio ${fmtDate(inv.last_sign_in_at)}` : ''}`
+        : `⏳ czeka na pierwsze logowanie · zaproszono ${fmtDate(inv.invited_at)}`;
+      const actions = inv.joined_at ? null : h('div', { class: 'row invite-actions' },
+        h('a', { class: 'btn btn-primary', href: `mailto:${inv.email}?subject=${encodeURIComponent(m.subject)}&body=${encodeURIComponent(m.body)}` }, '✉️ Wyślij e-mail'),
+        navigator.share ? h('button', { class: 'btn', onClick: share }, '📤 Udostępnij') : null,
+        h('button', { class: 'btn', onClick: copy }, '📋 Kopiuj'));
+      const det = h('details', { class: 'pack', open: invites.open === inv.email },
+        h('summary', null,
+          h('span', { class: 'pack-name' }, inv.name ? `${inv.name} · ${inv.email}` : inv.email),
+          h('span', { class: 'muted small' }, status)),
+        h('div', { class: 'invite-body' },
+          actions, textBox,
+          h('div', { class: 'row', style: 'margin-top:8px' },
+            h('div', { class: 'spacer' }),
+            h('button', { class: 'btn btn-ghost', onClick: remove }, inv.joined_at ? 'Usuń z listy' : 'Wycofaj zaproszenie'))));
+      det.addEventListener('toggle', () => { if (det.open) invites.open = inv.email; else if (invites.open === inv.email) invites.open = ''; });
+      return det;
+    });
+
+    card.replaceChildren(title,
+      h('p', { class: 'muted small' }, 'Konto w aplikacji może założyć tylko osoba z tej listy. Dodaj adres, a potem wyślij zaproszenie e-mailem lub komunikatorem — link sam wpisze adres przy logowaniu.'),
+      h('div', { class: 'invite-form' }, emailIn, nameIn, h('button', { class: 'btn btn-primary', onClick: add }, '➕ Zaproś')),
+      msg,
+      ...(rows.length ? rows : [h('p', { class: 'muted small' }, 'Lista jest pusta.')]));
+  }
+
   function renderFamilyCard(card) {
     card.dataset.user = sync.user ? sync.user.id : '';
     const title = h('h2', null, '👪 Rodzina');
