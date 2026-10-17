@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Academic Words</title>
-  <meta name="description" content="Nauka formalnego słownictwa do Academic Writing (IB).">
+  <title>Study Cards</title>
+  <meta name="description" content="Nauka z fiszek i powtórek: Academic English, biologia i kolejne przedmioty.">
   <meta name="theme-color" content="#16a34a">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Academic Words">
+  <meta name="apple-mobile-web-app-title" content="Study Cards">
   <link rel="stylesheet" href="style.css">
   <script>
     // Apply saved theme before first paint to avoid a flash.
@@ -23,18 +23,28 @@
 </head>
 <body>
   <div class="app">
+    <header class="topbar">
+      <div class="topbar-brand">
+        <img src="icons/icon.svg" alt="" width="28" height="28">
+        <span>Study Cards</span>
+      </div>
+      <div class="subj-switch" id="subj-switch"></div>
+    </header>
     <nav class="nav" aria-label="Nawigacja główna">
       <div class="nav-brand">
         <img src="icons/icon.svg" alt="" width="36" height="36">
-        <span>Academic Words</span>
+        <span>Study Cards</span>
       </div>
-      <a href="#/dashboard" data-route="dashboard"><span class="nav-ico" aria-hidden="true">🏠</span><span>Panel</span></a>
+      <div class="nav-subjects" id="nav-subjects"></div>
+      <div class="nav-heading nav-section" id="nav-section"></div>
+      <a href="#/dashboard" data-route="dashboard"><span class="nav-ico" aria-hidden="true">🏠</span><span>Dziś</span></a>
       <a href="#/learn" data-route="learn"><span class="nav-ico" aria-hidden="true">🎯</span><span>Nauka</span></a>
-      <a href="#/browse" data-route="browse"><span class="nav-ico" aria-hidden="true">📖</span><span>Słownik</span></a>
-      <a href="#/settings" data-route="settings"><span class="nav-ico" aria-hidden="true">⚙️</span><span>Ustawienia</span></a>
+      <a href="#/browse" data-route="browse"><span class="nav-ico" aria-hidden="true">📖</span><span>Karty</span></a>
+      <a href="#/materials" data-route="materials"><span class="nav-ico" aria-hidden="true">➕</span><span class="lbl-short">Dodaj</span><span class="lbl-long">Dodaj materiały</span></a>
+      <a href="#/settings" data-route="settings" class="nav-settings"><span class="nav-ico" aria-hidden="true">⚙️</span><span>Ustawienia</span></a>
     </nav>
     <main id="view" class="view" tabindex="-1">
-      <div class="loading">Ładowanie słownictwa…</div>
+      <div class="loading">Ładowanie…</div>
     </main>
   </div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>

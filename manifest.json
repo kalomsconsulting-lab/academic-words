@@ -1,7 +1,7 @@
 {
-  "name": "Academic Words — formalny angielski",
-  "short_name": "Academic Words",
-  "description": "Nauka formalnego słownictwa do Academic Writing (IB).",
+  "name": "Study Cards — fiszki i powtórki",
+  "short_name": "Study Cards",
+  "description": "Nauka z fiszek i powtórek: Academic English, biologia i kolejne przedmioty.",
   "lang": "pl",
   "start_url": "./",
   "scope": "./",

@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <rect width="512" height="512" rx="112" fill="#16a34a"/>
-  <path d="M96 150c0-12 10-22 22-22h104c30 0 34 18 34 34v236c-6-12-18-20-34-20H118c-12 0-22-10-22-22z" fill="#ffffff"/>
-  <path d="M416 150c0-12-10-22-22-22H290c-30 0-34 18-34 34v236c6-12 18-20 34-20h104c12 0 22-10 22-22z" fill="#dcfce7"/>
-  <text x="176" y="300" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="120" fill="#16a34a">A</text>
-  <text x="336" y="300" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="110" fill="#7c3aed">a</text>
+  <rect x="120" y="112" width="232" height="296" rx="32" fill="#ede9fe" transform="rotate(-12 236 260)"/>
+  <g transform="rotate(8 276 252)">
+    <rect x="160" y="104" width="232" height="296" rx="32" fill="#ffffff"/>
+    <path d="M222 258l38 38 82-92" fill="none" stroke="#16a34a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>

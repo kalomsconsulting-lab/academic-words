@@ -1,4 +1,4 @@
-/* Academic Words — import materiałów przez zewnętrzny czat AI (Copilot, ChatGPT, Claude…).
+/* Study Cards — import materiałów przez zewnętrzny czat AI (Copilot, ChatGPT, Claude…).
  * Samodzielny moduł bez zależności: prompt do skopiowania + tolerancyjny parser odpowiedzi.
  * Użycie w aplikacji: window.AW_AI.promptFor(przedmiot), window.AW_AI.copilotUrl, window.AW_AI.parseReply(text). */
 'use strict';

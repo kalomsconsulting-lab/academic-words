@@ -1,4 +1,4 @@
-/* Academic Words — nauka formalnego słownictwa do Academic Writing.
+/* Study Cards — nauka z fiszek i powtórek SRS: Academic English, biologia i kolejne przedmioty.
  * Vanilla JS, bez build stepu. Postęp w localStorage. */
 'use strict';
 (function () {
@@ -1318,19 +1318,56 @@
     route();
   }
 
-  // Przełącznik przedmiotu; withCounts: liczba kart do zrobienia dziś przy każdym przedmiocie.
-  function subjectPicker(withCounts) {
+  // Ile kart z przedmiotu czeka dziś (powtórki + nowe w ramach limitu).
+  function todoCount(subject) {
+    const c = srsCounts(subjectPool(subject), subject);
+    return c.due + c.newToday;
+  }
+
+  function subjectItem(key, todo, onPick) {
+    const subj = SUBJECTS[key];
+    const active = key === currentSubject();
+    return h('button', { class: 'subj-item' + (active ? ' active' : ''), 'aria-current': active ? 'true' : null, onClick: onPick },
+      h('span', { class: 'subj-ico', 'aria-hidden': 'true' }, subj.icon),
+      h('span', { class: 'subj-name' }, subj.label),
+      todo ? h('span', { class: 'chip-count', title: 'Do zrobienia dziś' }, String(todo)) : null);
+  }
+
+  // Menu: lista przedmiotów w menu bocznym (desktop) i rozwijany przełącznik w górnym pasku (telefon).
+  function renderNav() {
     const cur = currentSubject();
-    return h('div', { class: 'chips subject-picker', role: 'group', 'aria-label': 'Przedmiot' },
-      Object.entries(SUBJECTS).map(([k, subj]) => {
-        let badge = null;
-        if (withCounts) {
-          const c = srsCounts(subjectPool(k), k);
-          if (c.due + c.newToday) badge = h('span', { class: 'chip-count', title: 'Do zrobienia dziś' }, String(c.due + c.newToday));
-        }
-        return h('button', { class: 'chip' + (k === cur ? ' active' : ''), 'aria-pressed': String(k === cur), onClick: () => setSubject(k) },
-          `${subj.icon} ${subj.label}`, badge);
-      }));
+    const subj = SUBJECTS[cur];
+    const todo = Object.fromEntries(Object.keys(SUBJECTS).map((k) => [k, todoCount(k)]));
+
+    const list = document.getElementById('nav-subjects');
+    list.replaceChildren(h('div', { class: 'nav-heading' }, 'Przedmioty'),
+      ...Object.keys(SUBJECTS).map((k) => subjectItem(k, todo[k], () => setSubject(k))));
+    document.getElementById('nav-section').textContent = `${subj.icon} ${subj.label}`;
+
+    const sw = document.getElementById('subj-switch');
+    sw.classList.remove('open');
+    const others = Object.keys(SUBJECTS).filter((k) => k !== cur).reduce((n, k) => n + todo[k], 0);
+    const btn = h('button', { class: 'subj-btn', 'aria-haspopup': 'true', 'aria-expanded': 'false', title: 'Zmień przedmiot',
+      onClick: (e) => { e.stopPropagation(); const open = sw.classList.toggle('open'); btn.setAttribute('aria-expanded', String(open)); } },
+      h('span', { 'aria-hidden': 'true' }, subj.icon), h('span', { class: 'name' }, subj.label),
+      others ? h('span', { class: 'subj-dot', title: `W innych przedmiotach czeka dziś ${others} ${plural(others, 'karta', 'karty', 'kart')}` }) : null,
+      h('span', { class: 'caret', 'aria-hidden': 'true' }, '▾'));
+    sw.replaceChildren(btn, h('div', { class: 'subj-menu', role: 'menu' },
+      h('div', { class: 'subj-menu-title' }, 'Przedmiot'),
+      ...Object.keys(SUBJECTS).map((k) => subjectItem(k, todo[k], () => { sw.classList.remove('open'); setSubject(k); }))));
+  }
+  document.addEventListener('click', (e) => {
+    const sw = document.getElementById('subj-switch');
+    if (sw && !sw.contains(e.target)) sw.classList.remove('open');
+  });
+
+  // Na panelu: przypomnienie o kartach na dziś w pozostałych przedmiotach (kliknięcie przełącza przedmiot).
+  function otherSubjectsHint() {
+    const rest = Object.keys(SUBJECTS).filter((k) => k !== currentSubject()).map((k) => [k, todoCount(k)]).filter(([, n]) => n);
+    if (!rest.length) return null;
+    return h('div', { class: 'chips', style: 'margin:-4px 0 16px' },
+      h('span', { class: 'muted small', style: 'align-self:center' }, 'Na dziś także:'),
+      rest.map(([k, n]) => h('button', { class: 'chip', onClick: () => setSubject(k) }, `${SUBJECTS[k].icon} ${SUBJECTS[k].label} · ${n}`)));
   }
 
   function renderDashboard(view) {
@@ -1371,7 +1408,7 @@
             ? h('a', { href: '#/settings', class: 'small' }, '☁️ Włącz synchronizację między urządzeniami')
             : null),
         st ? h('div', { class: 'streak', title: 'Dni nauki z rzędu' }, `🔥 ${st} ${plural(st, 'dzień', 'dni', 'dni')}`) : null),
-      subjectPicker(true),
+      otherSubjectsHint(),
       pool.length ? null : h('div', { class: 'card' },
         h('h2', null, `${subj.icon} ${subj.label}: jeszcze brak kart`),
         h('p', { class: 'muted small' }, 'Dodaj materiały z lekcji. Najszybciej przez czat AI: wklejasz handout, a czat przygotowuje karty.'),
@@ -1457,7 +1494,6 @@
 
     view.replaceChildren(
       h('h1', null, 'Nauka'),
-      subjectPicker(false),
       h('div', { class: 'card' },
         h('div', { class: 'field' }, h('span', { class: 'label' }, 'Tryb'),
           seg([['quick', '⚡ Szybka sesja'], ['srs', '🧠 Powtórki SRS']], cfg.mode, (v) => { cfg.mode = v; persist(); })),
@@ -1601,8 +1637,7 @@
       options.map(([v, l]) => h('option', { value: v }, l)));
 
     view.replaceChildren(
-      h('h1', null, 'Słownik'),
-      subjectPicker(false),
+      h('h1', null, 'Karty'),
       h('div', { class: 'filters' },
         search,
         sel('category', [['all', 'Wszystkie kategorie'], ...(subjectPool().some((it) => it._custom) ? [['custom', '⭐ Moje materiały']] : []),
@@ -1642,7 +1677,7 @@
         h('h2', null, '📚 Moje materiały'),
         h('p', { class: 'muted small' }, state.customItems.length
           ? `Masz ${state.customItems.length} ${plural(state.customItems.length, 'własny wpis', 'własne wpisy', 'własnych wpisów')}. Synchronizują się razem z postępem.`
-          : 'Dodaj własne słownictwo z pliku JSON, wklejonego tekstu albo pojedynczo — bez edytowania vocabulary.json.'),
+          : 'Dodaj własne karty z czatu AI, pliku JSON, wklejonego tekstu albo pojedynczo.'),
         h('a', { class: 'btn btn-primary', href: '#/materials' }, '➕ Dodaj / zarządzaj materiałami')),
       syncCard,
       h('div', { class: 'card' },
@@ -1657,7 +1692,7 @@
       h('div', { class: 'card' },
         h('h2', null, 'O aplikacji'),
         h('p', { class: 'muted small' },
-          `Słownik: ${VOCAB.length} wpisów${VOCAB_META.updated ? ` (aktualizacja ${VOCAB_META.updated})` : ''}. `,
+          `Karty: ${VOCAB.length}${VOCAB_META.updated ? ` (aktualizacja ${VOCAB_META.updated})` : ''}. `,
           'Aplikacja działa offline po pierwszym uruchomieniu i można ją zainstalować na telefonie („Dodaj do ekranu głównego”).'),
         h('dl', { class: 'kv small' }, Object.entries(SUBJECTS).flatMap(([sk, subj]) => subj.types
           .map((k) => [k, VOCAB.filter((i) => i.subject === sk && i.type === k).length]).filter(([, n]) => n)
@@ -1665,8 +1700,8 @@
   }
 
   function exportProgress() {
-    const blob = new Blob([JSON.stringify({ app: 'academic-words', exported: new Date().toISOString(), state }, null, 1)], { type: 'application/json' });
-    const a = h('a', { href: URL.createObjectURL(blob), download: `academic-words-postep-${today()}.json` });
+    const blob = new Blob([JSON.stringify({ app: 'study-cards', exported: new Date().toISOString(), state }, null, 1)], { type: 'application/json' });
+    const a = h('a', { href: URL.createObjectURL(blob), download: `study-cards-postep-${today()}.json` });
     document.body.append(a);
     a.click();
     setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
@@ -1788,7 +1823,7 @@
     const seen = new Map();
     for (const it of VOCAB) {
       const k = dupKey(it);
-      if (k && !seen.has(k)) seen.set(k, it._custom ? `już w Twoich materiałach („${it.source}”)` : 'już w słowniku');
+      if (k && !seen.has(k)) seen.set(k, it._custom ? `już w Twoich materiałach („${it.source}”)` : 'już jest w kartach');
     }
     for (const r of prev ? prev.rows : []) {
       const k = !r.errors.length && dupKey(r.item);
@@ -1873,8 +1908,9 @@
     const previewCard = h('div', { class: 'card', id: 'mat-preview' });
     const manageCard = h('div', { class: 'card' });
     if (matUi.tab === 'ai' && !window.AW_AI) matUi.tab = 'paste';
-    if (!matUi.subject) setMatSubject(currentSubject());
-    const subjSel = h('select', { id: 'm-subject', onChange: (e) => { setMatSubject(e.target.value); drawPanel(); } },
+    // Materiały dodaje się do przedmiotu wybranego w menu; zmiana tutaj przełącza przedmiot w całej aplikacji.
+    if (matUi.subject !== currentSubject()) setMatSubject(currentSubject());
+    const subjSel = h('select', { id: 'm-subject', onChange: (e) => setSubject(e.target.value) },
       optionEls(Object.fromEntries(Object.entries(SUBJECTS).map(([k, sj]) => [k, `${sj.icon} ${sj.label}`])), matUi.subject));
 
     const showPreview = () => { drawPreview(); previewCard.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
@@ -1905,7 +1941,7 @@
         if (ids.length) {
           previewCard.replaceChildren(
             h('h2', null, `✅ Dodano ${ids.length} ${plural(ids.length, 'wpis', 'wpisy', 'wpisów')}`),
-            h('p', { class: 'muted small' }, `Paczka „${lastAdded.source}”. Nowe słowa są już w słowniku, w sesjach i w powtórkach (jako nowe, przed resztą słownika).`),
+            h('p', { class: 'muted small' }, `Paczka „${lastAdded.source}”. Nowe karty są już w Kartach, w sesjach i w powtórkach (jako nowe, przed resztą).`),
             h('div', { class: 'row' },
               h('button', { class: 'btn btn-primary', onClick: () => learnItems(ids) }, '🎯 Ucz się ich teraz'),
               h('button', { class: 'btn btn-ghost', onClick: () => { lastAdded = null; drawPreview(); } }, 'Zamknij')));
@@ -1950,7 +1986,7 @@
       }
       const title = h('h2', null, `📚 Moje materiały${state.customItems.length ? ` (${state.customItems.length})` : ''}`);
       if (!groups.size) {
-        manageCard.replaceChildren(title, h('p', { class: 'muted small' }, 'Nie masz jeszcze własnych materiałów. Dodane wpisy trafią do sesji, powtórek i statystyk kategorii tak jak reszta słownika.'));
+        manageCard.replaceChildren(title, h('p', { class: 'muted small' }, 'Nie masz jeszcze własnych materiałów. Dodane wpisy trafią do sesji, powtórek i statystyk kategorii tak jak pozostałe karty.'));
         return;
       }
       const del = (ids, what) => { if (removeCustom(ids, what)) { drawManage(); drawPreview(); } };
@@ -1982,7 +2018,6 @@
     }
 
     view.replaceChildren(
-      h('a', { class: 'back-link', href: '#/settings' }, '← Ustawienia'),
       h('h1', null, 'Dodaj materiały'),
       h('p', { class: 'muted' }, 'Nowe karty bez edytowania plików aplikacji. Każdy import kończy się podglądem, a dopiero potem zapisem.'),
       h('div', { class: 'card' },
@@ -2418,7 +2453,7 @@
   // ===================================================================
   let currentRoute = '';
   const ROUTES = { dashboard: renderDashboard, learn: renderLearn, browse: renderBrowse, settings: renderSettings, session: renderSessionView, summary: renderSummary, materials: renderMaterials };
-  const NAV_FOR = { session: 'learn', summary: 'learn', materials: 'settings' };
+  const NAV_FOR = { session: 'learn', summary: 'learn' };
 
   function route() {
     const name = (location.hash.replace(/^#\/?/, '') || 'dashboard').split('?')[0];
@@ -2430,6 +2465,7 @@
     view.classList.remove('flash-ok', 'flash-bad');
     document.body.classList.toggle('in-session', key === 'session');
     document.querySelectorAll('.nav a').forEach((a) => a.classList.toggle('active', a.dataset.route === (NAV_FOR[key] || key)));
+    if (key !== 'session') renderNav();
     ROUTES[key](view);
     window.scrollTo(0, 0);
   }

@@ -1,6 +1,7 @@
-# Academic Words
+# Study Cards
 
-Aplikacja do nauki formalnego słownictwa do **Academic Writing** (IB Pre-DP), w stylu Duolingo.
+Aplikacja do nauki z fiszek i powtórek SRS, w stylu Duolingo. Przedmioty: **Academic English** (formalne słownictwo do Academic Writing, IB Pre-DP) i **Biology**; kolejne dodaje się w kodzie (sekcja *Przedmioty*).
+Dawniej *Academic Words*; adres strony i repozytorium zostały bez zmian, żeby zainstalowane aplikacje działały dalej.
 Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Postęp zapisuje się w `localStorage`. Działa offline i można ją zainstalować na telefonie (PWA).
 
 ## Co jest w środku
@@ -26,7 +27,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 
 ## Przedmioty
 
-Aplikacja obsługuje kilka przedmiotów: **Academic English** i **Biology**. Przełącznik przedmiotu jest na Panelu, w Nauce i w Słowniku; przy każdym przedmiocie Panel pokazuje, ile kart jest do zrobienia dziś.
+Aplikacja obsługuje kilka przedmiotów: **Academic English** i **Biology**. Menu boczne (na komputerze) ma listę przedmiotów z liczbą kart do zrobienia dziś, a pod nią sekcję wybranego przedmiotu: *Dziś*, *Nauka*, *Karty*, *Dodaj materiały*; *Ustawienia* są na dole. Na telefonie przedmiot zmienia się przyciskiem w górnym pasku, a dolny pasek ma te same pozycje. Panel *Dziś* przypomina o kartach czekających w innych przedmiotach.
 
 - Każdy przedmiot ma własne kategorie, statystyki i dzienny limit nowych kart (ustawienie *Nowe słowa dziennie* działa osobno w każdym przedmiocie). Powtórki SRS i sesje biorą karty tylko z wybranego przedmiotu.
 - Rejestr przedmiotów to `SUBJECTS` w `app.js` (plik z kartami bazowymi, dozwolone typy, domyślna kategoria). Kategorie przedmiotu to wpisy w `CATEGORIES` z polem `subject` (Academic English ich nie podaje, to przedmiot domyślny).
@@ -62,7 +63,7 @@ git push
 
 Są dwie drogi:
 
-- **W aplikacji** (bez edytowania plików i bez pusha): *Ustawienia → Moje materiały* albo *Panel → Dodaj własne materiały*. Słowa trafiają do Twojego postępu i synchronizują się między urządzeniami.
+- **W aplikacji** (bez edytowania plików i bez pusha): *Dodaj materiały* w menu. Karty trafiają do Twojego postępu i synchronizują się między urządzeniami.
 - **Przez `vocabulary.json`**: słowa trafiają do wszystkich użytkowników aplikacji.
 
 ### W aplikacji (własne materiały)
@@ -94,12 +95,12 @@ Każdy import kończy się **podglądem**: wpisy z błędami (brak wymaganego po
 
 Szczegóły techniczne:
 - Wpisy trafiają do `state.customItems` z `id` `c-<znacznik czasu>-<nr>`, polem `source` (nazwa pliku, nazwa paczki albo „ręcznie”) i `addedAt`. Przechodzą tę samą walidację co `vocabulary.json` (`itemErrors()` / `prepareItem()` w `app.js`).
-- Nowe słowa od razu są w słowniku, sesjach i statystykach kategorii. Powtórki SRS wprowadzają je jako *nowe* przed resztą słownika (w ramach dziennego limitu nowych słów). Filtr *⭐ Moje materiały* jest w Nauce, Słowniku i na Panelu.
+- Nowe karty od razu są w Kartach, sesjach i statystykach kategorii. Powtórki SRS wprowadzają je jako *nowe* przed resztą (w ramach dziennego limitu nowych słów). Filtr *⭐ Moje materiały* jest w Nauce, Kartach i na panelu *Dziś*.
 - *Moje materiały* grupują wpisy według źródła. Można usunąć pojedynczy wpis albo całą paczkę. Usunięcie kasuje też postęp tych słów i zapisuje id w `state.deletedCustom` (tombstones), więc synchronizacja nie przywróci ich z innego urządzenia.
 
 ### Przez vocabulary.json
 
-1. Wrzuć handout (.doc/.docx lub zdjęcie) do Claude z prośbą: *„Wyciągnij słownictwo do vocabulary.json w formacie appki Academic Words”* i dołącz przykładowy wpis z sekcji niżej.
+1. Wrzuć handout (.doc/.docx lub zdjęcie) do Claude z prośbą: *„Wyciągnij słownictwo do vocabulary.json w formacie appki Study Cards”* i dołącz przykładowy wpis z sekcji niżej.
 2. Dopisz nowe wpisy na końcu tablicy `items` w `vocabulary.json`. Każdy `id` musi być unikalny (np. kolejny `r037`, `av042`, `awl571`, `sr008`, `h013`).
 3. Zmień pole `updated` na dzisiejszą datę, zrób commit i push — GitHub Pages odświeży stronę, a nowe słowa pojawią się w aplikacji (postęp nauki zostaje).
 
@@ -166,7 +167,7 @@ Konfiguracja jednorazowa w panelu Supabase:
 1. **Tabela:** *SQL Editor → New query* → wklej [`supabase/schema.sql`](supabase/schema.sql) → *Run*.
 2. **Kod w mailu:** *Authentication → Emails* → szablony **Magic Link** i **Confirm signup**: dodaj do treści kod, np.
    ```html
-   <h2>Academic Words</h2>
+   <h2>Study Cards</h2>
    <p>Twój kod logowania: <strong>{{ .Token }}</strong></p>
    ```
 3. **Adres strony:** *Authentication → URL Configuration* → *Site URL* = `https://kalomsconsulting-lab.github.io/academic-words/`; ten sam adres dodaj w *Redirect URLs* (oraz `http://localhost:8765` do testów).
