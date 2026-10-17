@@ -311,7 +311,7 @@
     history_ib: { label: 'History', icon: '📜', tagline: 'Wydarzenia, daty i pojęcia', file: 'data/history.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'histib_other' },
     historia_polski_ib: { label: 'History of Poland', icon: '🏰', tagline: 'Historia Polski: daty, postacie, pojęcia', file: 'data/historia-polski.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'hpl_other' },
     geography_ib: { label: 'Geography', icon: '🗺️', tagline: 'Procesy, pojęcia i przykłady', file: 'data/geography.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geoib_other' },
-    polski_ib: { label: 'Polish', icon: '📖', tagline: 'Epoki, lektury i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'plib_other' },
+    polski_ib: { label: 'Polish', icon: '📖', tagline: 'Epoki, lektury i pojęcia', file: 'data/polski.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'plib_other' },
     eo_ib: { label: 'Edukacja obywatelska', icon: '⚖️', tagline: 'Państwo, prawo i społeczeństwo', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'eo_other' },
     cs_ib: { label: 'Computer Science', icon: '💻', tagline: 'Pojęcia i algorytmy (od II semestru)', file: 'data/computer-science.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'csib_other' },
     english_ib: { label: 'English', icon: '🖋️', tagline: 'Literatura i analiza tekstów', file: 'data/english.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'enib_other' },

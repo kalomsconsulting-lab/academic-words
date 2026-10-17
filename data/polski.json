@@ -1,0 +1,1506 @@
+{
+ "version": 1,
+ "subject": "polski_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, język polski, zakres podstawowy (Dz.U. 2018 poz. 467 ze zm., wykaz lektur po zmianach z 2024 r.); zakres klasy 1: Biblia, antyk, średniowiecze, renesans, barok, oświecenie",
+ "items": [
+  {
+   "id": "plib-pp-001",
+   "type": "qa",
+   "question": "Co znaczy greckie słowo „biblia”, od którego pochodzi nazwa Biblii?",
+   "answer": "księgi",
+   "accept": [
+    "księga",
+    "zwoje"
+   ],
+   "explanation": "Greckie „biblia” to liczba mnoga od „biblion” – „księga”; Biblia to zbiór ksiąg Starego i Nowego Testamentu.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Biblia"
+  },
+  {
+   "id": "plib-pp-002",
+   "type": "qa",
+   "question": "Jak nazywa się pierwsza księga Starego Testamentu, opisująca stworzenie świata i dzieje pierwszych ludzi?",
+   "answer": "Księga Rodzaju",
+   "accept": [
+    "Genesis",
+    "Rodzaju",
+    "Genezis",
+    "Księga Genesis"
+   ],
+   "explanation": "Księga Rodzaju (Genesis) zawiera m.in. opis stworzenia świata, raju, potopu i wieży Babel.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Biblia"
+  },
+  {
+   "id": "plib-pp-003",
+   "type": "qa",
+   "question": "Który bohater biblijny mimo utraty majątku, dzieci i zdrowia nie wyrzekł się Boga?",
+   "answer": "Hiob",
+   "accept": [
+    "Job"
+   ],
+   "explanation": "Księga Hioba podejmuje problem niezawinionego cierpienia; Hiob jest wzorem cierpliwości i wierności Bogu.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Biblia"
+  },
+  {
+   "id": "plib-pp-004",
+   "type": "qa",
+   "question": "Z której księgi biblijnej pochodzą słowa „marność nad marnościami i wszystko marność”?",
+   "answer": "Księga Koheleta",
+   "accept": [
+    "Kohelet",
+    "Koheleta",
+    "Eklezjastes",
+    "Księga Eklezjastesa",
+    "Eklezjastesa"
+   ],
+   "explanation": "Kohelet (Eklezjasta) rozważa przemijanie i nietrwałość ludzkich dążeń; stąd motyw vanitas.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Biblia"
+  },
+  {
+   "id": "plib-pp-005",
+   "type": "qa",
+   "question": "Jak nazywa się biblijny poemat miłosny o Oblubieńcu i Oblubienicy, odczytywany także alegorycznie?",
+   "answer": "Pieśń nad Pieśniami",
+   "accept": [
+    "Pieśń nad pieśniami"
+   ],
+   "explanation": "W odczytaniu alegorycznym Oblubieniec i Oblubienica to Bóg i Izrael albo Chrystus i Kościół.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Biblia"
+  },
+  {
+   "id": "plib-pp-006",
+   "type": "cloze",
+   "text": "Tradycja biblijna przypisuje autorstwo wielu psalmów królowi {{Dawidowi/Dawid}}.",
+   "hint": "drugi król Izraela",
+   "explanation": "Psalm to pieśń modlitewna (pochwalna, błagalna, dziękczynna) z Księgi Psalmów.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Biblia"
+  },
+  {
+   "id": "plib-pp-007",
+   "type": "qa",
+   "question": "Jak nazywa się ostatnia księga Nowego Testamentu, przypisywana św. Janowi, zawierająca wizje końca świata?",
+   "answer": "Apokalipsa",
+   "accept": [
+    "Apokalipsa św. Jana",
+    "Objawienie",
+    "Objawienie św. Jana",
+    "Księga Objawienia"
+   ],
+   "explanation": "Greckie „apokalypsis” znaczy „odsłonięcie, objawienie”; stąd motywy czterech jeźdźców, Bestii i Sądu Ostatecznego.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Biblia"
+  },
+  {
+   "id": "plib-pp-008",
+   "type": "qa",
+   "question": "Który tytan wykradł bogom ogień i podarował go ludziom?",
+   "answer": "Prometeusz",
+   "accept": [],
+   "explanation": "Za karę Zeus przykuł Prometeusza do skały Kaukazu; postawa poświęcenia dla ludzi to prometeizm.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mitologia"
+  },
+  {
+   "id": "plib-pp-009",
+   "type": "qa",
+   "question": "Który bohater mitologiczny zginął, gdy słońce stopiło wosk w jego skrzydłach?",
+   "answer": "Ikar",
+   "accept": [],
+   "explanation": "Ikar, syn Dedala, wzleciał zbyt wysoko mimo ostrzeżeń ojca; symbol marzycielstwa i lekkomyślności.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mitologia"
+  },
+  {
+   "id": "plib-pp-010",
+   "type": "qa",
+   "question": "Jak nazywał się mityczny śpiewak, który zszedł do Hadesu, by odzyskać żonę Eurydykę?",
+   "answer": "Orfeusz",
+   "accept": [],
+   "explanation": "Orfeusz stracił Eurydykę ponownie, bo wbrew zakazowi obejrzał się za siebie przed wyjściem z podziemi.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mitologia"
+  },
+  {
+   "id": "plib-pp-011",
+   "type": "cloze",
+   "text": "Syzyf został skazany na wieczne wtaczanie na górę {{głazu/kamienia}}, który zawsze stacza się z powrotem.",
+   "hint": "ciężki przedmiot",
+   "explanation": "Stąd frazeologizm „syzyfowa praca” – daremny, niekończący się wysiłek.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Mitologia"
+  },
+  {
+   "id": "plib-pp-012",
+   "type": "qa",
+   "question": "Gniew którego bohatera jest głównym tematem „Iliady” Homera?",
+   "answer": "Achilles",
+   "accept": [
+    "Achillesa"
+   ],
+   "explanation": "„Iliada” zaczyna się od słów o gniewie Achillesa, obrażonego przez Agamemnona.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Iliada"
+  },
+  {
+   "id": "plib-pp-013",
+   "type": "qa",
+   "question": "Który obrońca Troi ginie w pojedynku z Achillesem w „Iliadzie”?",
+   "answer": "Hektor",
+   "accept": [
+    "Hektora"
+   ],
+   "explanation": "Achilles mści w ten sposób śmierć przyjaciela Patroklosa; ciało Hektora wykupuje jego ojciec Priam.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Iliada"
+  },
+  {
+   "id": "plib-pp-014",
+   "type": "qa",
+   "question": "Jakim wierszem (metrum) napisana jest „Iliada”?",
+   "answer": "heksametr",
+   "accept": [
+    "heksametrem",
+    "heksametr daktyliczny"
+   ],
+   "explanation": "Heksametr to sześciostopowy wiersz antyczny, typowy dla eposu.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Iliada"
+  },
+  {
+   "id": "plib-pp-015",
+   "type": "qa",
+   "question": "Jak nazywa się rozbudowane, wielowersowe porównanie charakterystyczne dla stylu Homera?",
+   "answer": "porównanie homeryckie",
+   "accept": [],
+   "explanation": "Drugi człon porównania rozrasta się w samodzielny obraz, np. wojownik porównany do lwa atakującego stado.",
+   "category": "plib_antiquity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Iliada"
+  },
+  {
+   "id": "plib-pp-016",
+   "type": "qa",
+   "question": "Kto w „Antygonie” Sofoklesa zakazuje pochowania Polinejkesa?",
+   "answer": "Kreon",
+   "accept": [
+    "Kreona"
+   ],
+   "explanation": "Kreon, nowy władca Teb, uznaje Polinejkesa za zdrajcę i pod karą śmierci zabrania jego pogrzebu.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Antygona"
+  },
+  {
+   "id": "plib-pp-017",
+   "type": "qa",
+   "question": "Jak miał na imię brat Antygony, którego pochowała wbrew zakazowi Kreona?",
+   "answer": "Polinejkes",
+   "accept": [
+    "Polinik",
+    "Polinejk",
+    "Polinejkesa"
+   ],
+   "explanation": "Polinejkes i Eteokles zginęli w bratobójczej walce o tron Teb; pochowano tylko Eteoklesa.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Antygona"
+  },
+  {
+   "id": "plib-pp-018",
+   "type": "qa",
+   "question": "Jak nazywa się narzeczony Antygony, syn Kreona?",
+   "answer": "Hajmon",
+   "accept": [
+    "Haimon",
+    "Hemon"
+   ],
+   "explanation": "Hajmon bezskutecznie broni Antygony przed ojcem, a po jej śmierci odbiera sobie życie.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Antygona"
+  },
+  {
+   "id": "plib-pp-019",
+   "type": "qa",
+   "question": "Która siostra Antygony odmawia udziału w pogrzebie brata?",
+   "answer": "Ismena",
+   "accept": [],
+   "explanation": "Ismena boi się złamać zakaz Kreona; później chce dzielić karę z siostrą, ale Antygona odrzuca jej pomoc.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Antygona"
+  },
+  {
+   "id": "plib-pp-020",
+   "type": "cloze",
+   "text": "Istotą konfliktu w „Antygonie” jest spór między prawem boskim a prawem {{państwowym/ludzkim/stanowionym}}.",
+   "hint": "prawo ustanowione przez władcę",
+   "explanation": "Obie racje są częściowo słuszne i nie da się ich pogodzić – to źródło tragizmu.",
+   "category": "plib_antiquity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Antygona"
+  },
+  {
+   "id": "plib-pp-021",
+   "type": "qa",
+   "question": "Jaka łacińska sentencja Horacego znaczy „chwytaj dzień”?",
+   "answer": "carpe diem",
+   "accept": [],
+   "explanation": "Wezwanie do korzystania z chwili, bo przyszłość jest niepewna; nawiązuje do niego Kochanowski.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Horacy"
+  },
+  {
+   "id": "plib-pp-022",
+   "type": "cloze",
+   "text": "Przekonanie Horacego, że poezja zapewni mu nieśmiertelność, wyraża formuła {{non omnis moriar}}.",
+   "hint": "„nie wszystek umrę”",
+   "explanation": "Pochodzi z pieśni „Exegi monumentum” („wybudowałem pomnik trwalszy niż ze spiżu”).",
+   "category": "plib_antiquity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Horacy"
+  },
+  {
+   "id": "plib-pp-023",
+   "type": "qa",
+   "question": "Jak po łacinie nazywa się głoszona przez Horacego zasada umiaru, „złoty środek”?",
+   "answer": "aurea mediocritas",
+   "accept": [
+    "złoty środek"
+   ],
+   "explanation": "Łączy stoicki spokój z epikurejskim umiarkowanym korzystaniem z życia.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Horacy"
+  },
+  {
+   "id": "plib-pp-024",
+   "type": "qa",
+   "question": "Jak nazywa się topos ukazujący świat jako teatr, a ludzi jako aktorów grających narzucone role?",
+   "answer": "theatrum mundi",
+   "accept": [
+    "teatr świata"
+   ],
+   "explanation": "Topos antyczny, popularny w baroku; w literaturze polskiej np. u Kochanowskiego („Człowiek boże igrzysko”).",
+   "category": "plib_antiquity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.10"
+  },
+  {
+   "id": "plib-pp-025",
+   "type": "qa",
+   "question": "Jak nazywa się motyw przemijania i marności dóbr doczesnych, wywodzący się ze słów Koheleta?",
+   "answer": "vanitas",
+   "accept": [
+    "marność"
+   ],
+   "explanation": "Łacińskie „vanitas vanitatum” – „marność nad marnościami”; motyw szczególnie żywy w baroku.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.10"
+  },
+  {
+   "id": "plib-pp-026",
+   "type": "qa",
+   "question": "Jak nazywa się topos idyllicznej krainy szczęścia i spokoju, nazwanej od górzystego regionu Grecji?",
+   "answer": "Arkadia",
+   "accept": [
+    "arkadia"
+   ],
+   "explanation": "Arkadię opiewał Wergiliusz w „Bukolikach”; w literaturze oznacza krainę beztroskiego życia na łonie natury.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.10"
+  },
+  {
+   "id": "plib-pp-027",
+   "type": "qa",
+   "question": "Jak nazywa się według Arystotelesa oczyszczenie z uczuć litości i trwogi, którego doznaje widz tragedii?",
+   "answer": "katharsis",
+   "accept": [
+    "catharsis",
+    "katarsis",
+    "katarsa"
+   ],
+   "explanation": "Pojęcie z „Poetyki” Arystotelesa; tragedia ma budzić litość i trwogę, a przez to oczyszczać.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
+  },
+  {
+   "id": "plib-pp-028",
+   "type": "qa",
+   "question": "Który starożytny kierunek filozoficzny zalecał spokój ducha, życie zgodne z rozumem i obojętność wobec zmiennego losu?",
+   "answer": "stoicyzm",
+   "accept": [
+    "stoicy"
+   ],
+   "explanation": "Założony przez Zenona z Kition; ideałem jest mędrzec niewzruszony wobec szczęścia i nieszczęścia.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
+  },
+  {
+   "id": "plib-pp-029",
+   "type": "qa",
+   "question": "Który starożytny kierunek filozoficzny za cel życia uznawał przyjemność rozumianą jako brak cierpienia?",
+   "answer": "epikureizm",
+   "accept": [
+    "epikurejczycy",
+    "epikureizm Epikura"
+   ],
+   "explanation": "Epikur: szczęście to spokój i brak bólu, a nie wyuzdane używanie.",
+   "category": "plib_antiquity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
+  },
+  {
+   "id": "plib-pp-030",
+   "type": "cloze",
+   "text": "Według Platona świat rzeczy materialnych jest tylko niedoskonałym odbiciem wiecznych {{idei}}.",
+   "hint": "doskonałe, niezmienne wzorce",
+   "explanation": "Idealizm Platona ilustruje alegoria jaskini z dialogu „Państwo”.",
+   "category": "plib_antiquity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
+  },
+  {
+   "id": "plib-pp-031",
+   "type": "qa",
+   "question": "Jak nazywa się najstarsza polska pieśń religijna, śpiewana przez rycerstwo przed bitwą pod Grunwaldem?",
+   "answer": "Bogurodzica",
+   "accept": [],
+   "explanation": "Najstarszy zachowany zapis pochodzi z początku XV w.; pełniła funkcję hymnu dynastycznego i bojowego.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Bogurodzica"
+  },
+  {
+   "id": "plib-pp-032",
+   "type": "qa",
+   "question": "Do kogo skierowana jest pierwsza strofa „Bogurodzicy”?",
+   "answer": "Maryja",
+   "accept": [
+    "do Maryi",
+    "Matka Boska",
+    "Matka Boża",
+    "do Matki Boskiej",
+    "Bogurodzica"
+   ],
+   "explanation": "Druga strofa zwraca się do Chrystusa za pośrednictwem Jana Chrzciciela.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Bogurodzica"
+  },
+  {
+   "id": "plib-pp-033",
+   "type": "cloze",
+   "text": "Układ postaci w „Bogurodzicy” (Chrystus, Maryja, Jan Chrzciciel jako pośrednicy) nawiązuje do motywu ikonograficznego {{deesis}}.",
+   "hint": "z greckiego „prośba, modlitwa”",
+   "explanation": "Deesis to bizantyjskie przedstawienie Chrystusa między Maryją a Janem Chrzcicielem.",
+   "category": "plib_medieval",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Bogurodzica"
+  },
+  {
+   "id": "plib-pp-034",
+   "type": "qa",
+   "question": "Kto jest osobą mówiącą w „Lamencie świętokrzyskim”?",
+   "answer": "Maryja",
+   "accept": [
+    "Matka Boska",
+    "Matka Boża",
+    "Maria",
+    "Matka Boska pod krzyżem",
+    "Matka Jezusa"
+   ],
+   "explanation": "Maryja stojąca pod krzyżem skarży się na cierpienie syna i własną bezradność; motyw Stabat Mater.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Lament świętokrzyski"
+  },
+  {
+   "id": "plib-pp-035",
+   "type": "cloze",
+   "text": "W „Lamencie świętokrzyskim” Maryja zwraca się do innych {{matek}}, by nie doświadczyły takiego bólu jak ona.",
+   "hint": "kobiety mające dzieci",
+   "explanation": "Utwór pokazuje Maryję jako cierpiącą, ludzką matkę, a nie tylko królową niebios.",
+   "category": "plib_medieval",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Lament świętokrzyski"
+  },
+  {
+   "id": "plib-pp-036",
+   "type": "qa",
+   "question": "Jak nazywa się średniowieczny motyw tańca śmierci, do którego nawiązuje „Rozmowa Mistrza Polikarpa ze Śmiercią”?",
+   "answer": "danse macabre",
+   "accept": [
+    "taniec śmierci"
+   ],
+   "explanation": "Śmierć porywa do tańca ludzi wszystkich stanów – papieża, króla, chłopa.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Rozmowa Mistrza Polikarpa ze Śmiercią"
+  },
+  {
+   "id": "plib-pp-037",
+   "type": "cloze",
+   "text": "W „Rozmowie Mistrza Polikarpa ze Śmiercią” Śmierć jest ukazana jako rozkładające się ciało kobiety z {{kosą}} w ręku.",
+   "hint": "narzędzie żniwiarza",
+   "explanation": "Groteskowy, naturalistyczny obraz miał przerażać i przypominać o kruchości życia.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Rozmowa Mistrza Polikarpa ze Śmiercią"
+  },
+  {
+   "id": "plib-pp-038",
+   "type": "cloze",
+   "text": "Średniowieczne wezwanie „pamiętaj o śmierci”, wyrażone w „Rozmowie Mistrza Polikarpa ze Śmiercią”, to po łacinie {{memento mori}}.",
+   "hint": "dwa łacińskie słowa",
+   "explanation": "Śmierć jest powszechna i dotyka wszystkich niezależnie od stanu i majątku.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Rozmowa Mistrza Polikarpa ze Śmiercią"
+  },
+  {
+   "id": "plib-pp-039",
+   "type": "qa",
+   "question": "Na dworze którego władcy służył Roland, bohater „Pieśni o Rolandzie”?",
+   "answer": "Karola Wielkiego",
+   "accept": [
+    "Karol Wielki",
+    "cesarz Karol Wielki"
+   ],
+   "explanation": "Roland dowodzi tylną strażą armii Karola Wielkiego wracającej z Hiszpanii.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pieśń o Rolandzie"
+  },
+  {
+   "id": "plib-pp-040",
+   "type": "qa",
+   "question": "Jak nazywał się miecz Rolanda?",
+   "answer": "Durendal",
+   "accept": [
+    "Durandal"
+   ],
+   "explanation": "Umierając, Roland próbuje zniszczyć miecz, by nie trafił w ręce pogan.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pieśń o Rolandzie"
+  },
+  {
+   "id": "plib-pp-041",
+   "type": "cloze",
+   "text": "„Pieśń o Rolandzie” to francuski epos rycerski z gatunku {{chanson de geste}} – pieśni o bohaterskich czynach.",
+   "hint": "nazwa francuska",
+   "explanation": "Roland jest wzorem idealnego rycerza: wiernego Bogu, władcy i ojczyźnie.",
+   "category": "plib_medieval",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pieśń o Rolandzie"
+  },
+  {
+   "id": "plib-pp-042",
+   "type": "qa",
+   "question": "Jak nazywa się średniowieczny pogląd stawiający Boga w centrum świata i życia człowieka?",
+   "answer": "teocentryzm",
+   "accept": [],
+   "explanation": "Z teocentryzmu wynika uniwersalizm (łacina, Kościół) i anonimowość twórców.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.8"
+  },
+  {
+   "id": "plib-pp-043",
+   "type": "qa",
+   "question": "Jak nazywa się literatura propagująca wzorce osobowe – idealnego rycerza, władcy, świętego?",
+   "answer": "literatura parenetyczna",
+   "accept": [
+    "parenetyczna",
+    "pareneza",
+    "parenetyka"
+   ],
+   "explanation": "Pareneza (gr. „zachęta”) – np. Roland jako wzór rycerza, św. Aleksy jako wzór ascety.",
+   "category": "plib_medieval",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.8"
+  },
+  {
+   "id": "plib-pp-044",
+   "type": "qa",
+   "question": "Jak nazywa się prąd umysłowy renesansu stawiający w centrum zainteresowania człowieka?",
+   "answer": "humanizm",
+   "accept": [],
+   "explanation": "Hasło humanizmu: „Człowiekiem jestem i nic, co ludzkie, nie jest mi obce” (Terencjusz).",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.8"
+  },
+  {
+   "id": "plib-pp-045",
+   "type": "cloze",
+   "text": "W Pieśni IX ks. I („Chcemy sobie być radzi?”) Kochanowski radzi cieszyć się chwilą i nie dociekać przyszłości – to horacjańskie {{carpe diem}}.",
+   "hint": "łacińskie „chwytaj dzień”",
+   "explanation": "Pieśń łączy epikurejską radość życia ze stoickim spokojem wobec Fortuny.",
+   "category": "plib_renaissance",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pieśni Kochanowskiego"
+  },
+  {
+   "id": "plib-pp-046",
+   "type": "qa",
+   "question": "Jakie wydarzenie jest tematem Pieśni V ks. II Kochanowskiego, „Pieśni o spustoszeniu Podola”?",
+   "answer": "najazd Tatarów na Podole",
+   "accept": [
+    "najazd tatarski",
+    "najazd Tatarów",
+    "spustoszenie Podola przez Tatarów",
+    "najazd Tatarów na Podole w 1575"
+   ],
+   "explanation": "Poeta wzywa szlachtę do ofiarności na obronę kraju i gani jej bierność.",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pieśni Kochanowskiego"
+  },
+  {
+   "id": "plib-pp-047",
+   "type": "cloze",
+   "text": "Pieśń V ks. II kończy gorzka przestroga: „Nową przypowieść Polak sobie kupi, że i przed szkodą, i po szkodzie {{głupi}}”.",
+   "hint": "przeciwieństwo mądrego",
+   "explanation": "Kochanowski przewiduje, że Polacy nie wyciągną wniosków z klęski.",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Pieśni Kochanowskiego"
+  },
+  {
+   "id": "plib-pp-048",
+   "type": "qa",
+   "question": "Jaki gatunek liryczny, wyrażający żal po zmarłym, uprawiał Kochanowski w cyklu poświęconym córce Urszulce?",
+   "answer": "tren",
+   "accept": [
+    "treny"
+   ],
+   "explanation": "Tren wywodzi się z antycznej poezji żałobnej; Kochanowski poświęcił go nie bohaterowi, lecz dziecku.",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Treny"
+  },
+  {
+   "id": "plib-pp-049",
+   "type": "cloze",
+   "text": "W Trenie IX Kochanowski zwraca się z gorzką ironią do {{Mądrości}}, która miała chronić przed cierpieniem, ale zawiodła.",
+   "hint": "cnota stoików",
+   "explanation": "„Kupić by cię, Mądrości, za drogie pieniądze” – kryzys stoickiego ideału.",
+   "category": "plib_renaissance",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Treny"
+  },
+  {
+   "id": "plib-pp-050",
+   "type": "cloze",
+   "text": "Tren X wyraża zwątpienie poety w życie pozagrobowe: „Gdzieśkolwiek jest, jeśliś jest, lituj mej {{żałości}}”.",
+   "hint": "smutek, rozpacz",
+   "explanation": "Seria pytań o miejsce pobytu Urszulki kończy się wyznaniem niepewności wiary.",
+   "category": "plib_renaissance",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Treny"
+  },
+  {
+   "id": "plib-pp-051",
+   "type": "cloze",
+   "text": "Tren XI rozpoczyna się okrzykiem „{{Fraszka}} cnota!”, wyrażającym załamanie renesansowego światopoglądu.",
+   "hint": "błahostka, drobiazg",
+   "explanation": "Słowa przypisane Brutusowi: cnota nie chroni przed nieszczęściem.",
+   "category": "plib_renaissance",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Treny"
+  },
+  {
+   "id": "plib-pp-052",
+   "type": "qa",
+   "question": "Kto przepowiada Makbetowi, że zostanie królem Szkocji?",
+   "answer": "trzy wiedźmy",
+   "accept": [
+    "wiedźmy",
+    "czarownice",
+    "trzy czarownice"
+   ],
+   "explanation": "Przepowiednia rozbudza ambicję Makbeta; „Makbet” to tragedia Szekspira o władzy i zbrodni.",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Makbet"
+  },
+  {
+   "id": "plib-pp-053",
+   "type": "qa",
+   "question": "Którego króla Szkocji zabija Makbet, by zdobyć tron?",
+   "answer": "Duncan",
+   "accept": [
+    "Dunkan",
+    "Dunkana",
+    "król Duncan",
+    "Duncana"
+   ],
+   "explanation": "Makbet morduje Duncana we własnym zamku, gdy ten jest jego gościem.",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Makbet"
+  },
+  {
+   "id": "plib-pp-054",
+   "type": "qa",
+   "question": "Kto w „Makbecie” namawia męża do zabójstwa króla, a potem popada w obłęd i lunatykuje, myjąc ręce?",
+   "answer": "Lady Makbet",
+   "accept": [
+    "Lady Macbeth"
+   ],
+   "explanation": "Lady Makbet jest początkowo silniejsza od męża; wyrzuty sumienia prowadzą ją do śmierci.",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Makbet"
+  },
+  {
+   "id": "plib-pp-055",
+   "type": "cloze",
+   "text": "Wiedźmy przepowiadają, że Makbet będzie bezpieczny, dopóki las {{Birnam}} nie ruszy na Dunzynan.",
+   "hint": "nazwa lasu",
+   "explanation": "Wojska Malkolma maskują się gałęziami i przepowiednia wypełnia się dosłownie.",
+   "category": "plib_renaissance",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Makbet"
+  },
+  {
+   "id": "plib-pp-056",
+   "type": "qa",
+   "question": "Kto zabija Makbeta w finale tragedii?",
+   "answer": "Makduf",
+   "accept": [
+    "Macduff",
+    "Makduff",
+    "Macduf"
+   ],
+   "explanation": "Makduf „nie został zrodzony z kobiety” (wyjęty z łona matki), więc nie chroni przed nim przepowiednia.",
+   "category": "plib_renaissance",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Makbet"
+  },
+  {
+   "id": "plib-pp-057",
+   "type": "qa",
+   "question": "Jak nazywa się wyszukany, zaskakujący pomysł poetycki, na którym opiera się barokowy konceptyzm?",
+   "answer": "koncept",
+   "accept": [],
+   "explanation": "Koncept miał zadziwiać odbiorcę, np. zestawienie zakochanego z trupem u Morsztyna.",
+   "category": "plib_baroque",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.8"
+  },
+  {
+   "id": "plib-pp-058",
+   "type": "qa",
+   "question": "Jak nazywa się nurt poezji barokowej skupiony na kunsztownej formie, konceptach i miłości dworskiej (J.A. Morsztyn)?",
+   "answer": "marinizm",
+   "accept": [
+    "nurt dworski",
+    "poezja dworska"
+   ],
+   "explanation": "Od nazwiska włoskiego poety Giambattisty Marina; w Polsce reprezentował go Jan Andrzej Morsztyn.",
+   "category": "plib_baroque",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: poezja baroku"
+  },
+  {
+   "id": "plib-pp-059",
+   "type": "qa",
+   "question": "Do której księgi biblijnej nawiązuje Daniel Naborowski w wierszu „Marność”?",
+   "answer": "Księga Koheleta",
+   "accept": [
+    "Kohelet",
+    "Koheleta",
+    "Eklezjastes"
+   ],
+   "explanation": "Naborowski („Marność”, „Krótkość żywota”) łączy motyw vanitas z pogodną radą, by żyć uczciwie i bez lęku.",
+   "category": "plib_baroque",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: poezja baroku"
+  },
+  {
+   "id": "plib-pp-060",
+   "type": "qa",
+   "question": "Jaki gatunek liryczny uprawiał Mikołaj Sęp Szarzyński, pisząc o wojnie człowieka „z szatanem, światem i ciałem”?",
+   "answer": "sonet",
+   "accept": [
+    "sonety"
+   ],
+   "explanation": "„Sonet IV. O wojnie naszej…” pokazuje człowieka rozdartego między pokusami świata a Bogiem.",
+   "category": "plib_baroque",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: poezja baroku"
+  },
+  {
+   "id": "plib-pp-061",
+   "type": "qa",
+   "question": "Jak nazywa się tytułowy skąpiec w komedii Moliera?",
+   "answer": "Harpagon",
+   "accept": [],
+   "explanation": "Imię Harpagona stało się synonimem skąpca; chciwość niszczy jego relacje z dziećmi.",
+   "category": "plib_baroque",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Skąpiec"
+  },
+  {
+   "id": "plib-pp-062",
+   "type": "qa",
+   "question": "Co Harpagon zakopał w ogrodzie i czego kradzież doprowadza go do rozpaczy?",
+   "answer": "szkatułkę z pieniędzmi",
+   "accept": [
+    "szkatułka",
+    "szkatułkę",
+    "pieniądze",
+    "szkatułkę ze złotem",
+    "szkatułka z pieniędzmi"
+   ],
+   "explanation": "Szkatułkę kradnie służący Strzałka; Harpagon w monologu rozpacza jak po stracie bliskiej osoby.",
+   "category": "plib_baroque",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Skąpiec"
+  },
+  {
+   "id": "plib-pp-063",
+   "type": "qa",
+   "question": "Jaki gatunek dramatu reprezentuje „Skąpiec” Moliera?",
+   "answer": "komedia",
+   "accept": [
+    "komedia charakterów",
+    "komedia obyczajowa"
+   ],
+   "explanation": "Komedia charakterów – ośmiesza jedną dominującą wadę bohatera, tu skąpstwo.",
+   "category": "plib_baroque",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Skąpiec"
+  },
+  {
+   "id": "plib-pp-064",
+   "type": "cloze",
+   "text": "Harpagon chce poślubić Mariannę, w której kocha się jego syn {{Kleant}}.",
+   "hint": "imię syna Harpagona",
+   "explanation": "Konflikt ojca i syna o tę samą kobietę to jedno ze źródeł komizmu w „Skąpcu”.",
+   "category": "plib_baroque",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Skąpiec"
+  },
+  {
+   "id": "plib-pp-065",
+   "type": "qa",
+   "question": "Jak nazywa się satyra Ignacego Krasickiego, w której szlachcic tłumaczy swoje picie kolejnymi okazjami?",
+   "answer": "Pijaństwo",
+   "accept": [
+    "„Pijaństwo”"
+   ],
+   "explanation": "Bohater po wywodzie o szkodliwości alkoholu idzie… napić się – komizm i dydaktyzm satyry.",
+   "category": "plib_enlight",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: satyry Krasickiego"
+  },
+  {
+   "id": "plib-pp-066",
+   "type": "qa",
+   "question": "Do kogo zwraca się Krasicki w satyrze „Do króla”, pozornie go krytykując, a w istocie ośmieszając jego przeciwników?",
+   "answer": "do Stanisława Augusta Poniatowskiego",
+   "accept": [
+    "Stanisław August Poniatowski",
+    "Stanisław August",
+    "Poniatowski",
+    "król Stanisław August",
+    "do Stanisława Augusta"
+   ],
+   "explanation": "Zarzuty (młody, Polak, mądry, łagodny) to w rzeczywistości pochwały; to przykład ironii.",
+   "category": "plib_enlight",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: satyry Krasickiego"
+  },
+  {
+   "id": "plib-pp-067",
+   "type": "cloze",
+   "text": "„Hymn do miłości ojczyzny” Krasickiego rozpoczyna apostrofa: „Święta miłości kochanej {{ojczyzny}}”.",
+   "hint": "kraj rodzinny",
+   "explanation": "Utwór pełnił funkcję hymnu Szkoły Rycerskiej; głosi gotowość do ofiary za ojczyznę.",
+   "category": "plib_enlight",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Hymn do miłości ojczyzny"
+  },
+  {
+   "id": "plib-pp-068",
+   "type": "qa",
+   "question": "Z jakiego większego utworu Krasickiego pochodzi „Hymn do miłości ojczyzny”?",
+   "answer": "Monachomachia",
+   "accept": [
+    "Monachomachii",
+    "z Monachomachii"
+   ],
+   "explanation": "Podniosły hymn został umieszczony w poemacie heroikomicznym ośmieszającym zakonników.",
+   "category": "plib_enlight",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "lektura: Hymn do miłości ojczyzny"
+  },
+  {
+   "id": "plib-pp-069",
+   "type": "qa",
+   "question": "Jak nazywa się główny nurt literatury oświecenia, nawiązujący do antyku i głoszący ład, rozum i dydaktyzm?",
+   "answer": "klasycyzm",
+   "accept": [],
+   "explanation": "Obok klasycyzmu w polskim oświeceniu rozwijały się sentymentalizm i rokoko.",
+   "category": "plib_enlight",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.8"
+  },
+  {
+   "id": "plib-pp-070",
+   "type": "qa",
+   "question": "Jaka epoka literacka następuje po renesansie?",
+   "answer": "barok",
+   "accept": [],
+   "explanation": "Kolejność: starożytność, średniowiecze, renesans, barok, oświecenie, romantyzm, pozytywizm, Młoda Polska.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "plib-pp-071",
+   "type": "qa",
+   "question": "Jak nazywa się epoka literatury polskiej obejmująca w przybliżeniu lata 1890–1918?",
+   "answer": "Młoda Polska",
+   "accept": [
+    "modernizm",
+    "neoromantyzm"
+   ],
+   "explanation": "Po Młodej Polsce następuje dwudziestolecie międzywojenne (1918–1939).",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "plib-pp-072",
+   "type": "qa",
+   "question": "Do której epoki literackiej należy twórczość Jana Kochanowskiego?",
+   "answer": "renesans",
+   "accept": [
+    "odrodzenie"
+   ],
+   "explanation": "Kochanowski (1530–1584) jest najwybitniejszym poetą polskiego renesansu.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.1"
+  },
+  {
+   "id": "plib-pp-073",
+   "type": "qa",
+   "question": "Jak nazywa się konwencja literacka przedstawiająca świat zgodnie z prawdopodobieństwem, bez zjawisk nadprzyrodzonych?",
+   "answer": "realizm",
+   "accept": [],
+   "explanation": "Elementy realizmu to np. wierny obraz obyczajów i tła społecznego.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "plib-pp-074",
+   "type": "cloze",
+   "text": "Konwencja, w której obrazy i przedmioty zastępują wieloznaczne, trudne do wyrażenia wprost treści, to {{symbolizm}}.",
+   "hint": "od słowa „symbol”",
+   "explanation": "Elementy symbolizmu występują np. w „Weselu” Wyspiańskiego.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.2"
+  },
+  {
+   "id": "plib-pp-075",
+   "type": "qa",
+   "question": "Jak nazywa się rozbudowany utwór epicki wierszem o losach bohaterów na tle przełomowych wydarzeń, np. „Iliada”?",
+   "answer": "epos",
+   "accept": [
+    "epopeja"
+   ],
+   "explanation": "Cechy eposu: inwokacja, heksametr, porównania homeryckie, obecność bogów, obiektywny narrator.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "plib-pp-076",
+   "type": "qa",
+   "question": "Jaki gatunek liryczny w podniosłym stylu sławi wybitną osobę, ideę lub wydarzenie?",
+   "answer": "oda",
+   "accept": [],
+   "explanation": "Oda wywodzi się z antyku (Pindar, Horacy); w Polsce np. „Oda do młodości” Mickiewicza.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "plib-pp-077",
+   "type": "cloze",
+   "text": "Antyczny gatunek dramatyczny, w którym bohater staje wobec nierozwiązywalnego konfliktu i ponosi klęskę, to {{tragedia}}.",
+   "hint": "np. „Antygona”",
+   "explanation": "Cechy tragedii antycznej: zasada trzech jedności, chór, fatum, brak scen zbiorowych.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "plib-pp-078",
+   "type": "qa",
+   "question": "Jak nazywa się utwór liryczny złożony z 14 wersów: dwóch strof czterowersowych i dwóch trzywersowych?",
+   "answer": "sonet",
+   "accept": [],
+   "explanation": "Strofy czterowersowe są opisowe, trzywersowe – refleksyjne; sonet uprawiali Petrarka, Sęp Szarzyński, Mickiewicz.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "plib-pp-079",
+   "type": "qa",
+   "question": "Jaki gatunek literacki ośmiesza i piętnuje wady ludzi, obyczaje lub instytucje?",
+   "answer": "satyra",
+   "accept": [],
+   "explanation": "Satyra nie proponuje wzorca pozytywnego, tylko krytykuje; mistrzem gatunku w Polsce był Krasicki.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "plib-pp-080",
+   "type": "qa",
+   "question": "Jaki gatunek przedstawia wyidealizowane życie pasterzy na łonie natury?",
+   "answer": "sielanka",
+   "accept": [
+    "idylla",
+    "bukolika",
+    "ekloga"
+   ],
+   "explanation": "Twórcą sielanki był Teokryt; w Polsce uprawiał ją Szymonowic, a w oświeceniu Karpiński.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "plib-pp-081",
+   "type": "qa",
+   "question": "Jak nazywa się środek stylistyczny zestawiający sprzeczne pojęcia, np. „gorący lód”?",
+   "answer": "oksymoron",
+   "accept": [],
+   "explanation": "Oksymoron to ulubiony środek poezji barokowej.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "plib-pp-082",
+   "type": "qa",
+   "question": "Jak nazywa się omówienie, czyli zastąpienie nazwy opisem, np. „autor Trenów” zamiast „Kochanowski”?",
+   "answer": "peryfraza",
+   "accept": [
+    "omówienie"
+   ],
+   "explanation": "Peryfraza wzbogaca styl lub pozwala uniknąć powtórzeń.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "plib-pp-083",
+   "type": "qa",
+   "question": "Jak nazywa się celowa przesada, np. „czekam na ciebie całe wieki”?",
+   "answer": "hiperbola",
+   "accept": [
+    "wyolbrzymienie",
+    "przesadnia"
+   ],
+   "explanation": "Hiperbola wzmacnia ekspresję wypowiedzi.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "plib-pp-084",
+   "type": "qa",
+   "question": "Jak nazywa się zestawienie przeciwstawnych znaczeniowo członów wypowiedzi, np. „lepiej z mądrym zgubić, niż z głupim znaleźć”?",
+   "answer": "antyteza",
+   "accept": [
+    "przeciwstawienie"
+   ],
+   "explanation": "Antyteza to środek składniowy, uwydatnia kontrast.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "plib-pp-085",
+   "type": "qa",
+   "question": "Jak nazywa się przeniesienie części zdania z jednego wersu do następnego?",
+   "answer": "przerzutnia",
+   "accept": [],
+   "explanation": "Przerzutnia zaburza rytm i uwydatnia przeniesione słowo.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.4"
+  },
+  {
+   "id": "plib-pp-086",
+   "type": "qa",
+   "question": "Jak nazywa się obraz lub postać mająca oprócz dosłownego ustalone, umowne znaczenie, np. kościotrup z kosą jako śmierć?",
+   "answer": "alegoria",
+   "accept": [],
+   "explanation": "Alegoria jest jednoznaczna; np. bajki Krasickiego są alegoryczne.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.5"
+  },
+  {
+   "id": "plib-pp-087",
+   "type": "cloze",
+   "text": "W przeciwieństwie do jednoznacznej alegorii {{symbol}} jest wieloznaczny i otwarty na różne interpretacje.",
+   "hint": "np. chochoł w „Weselu”",
+   "explanation": "Symbol sugeruje znaczenia, alegoria je wskazuje.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.5"
+  },
+  {
+   "id": "plib-pp-088",
+   "type": "qa",
+   "question": "Jak nazywa się drwina, w której rzeczywisty sens wypowiedzi jest sprzeczny z jej dosłownym znaczeniem?",
+   "answer": "ironia",
+   "accept": [],
+   "explanation": "Ironia wymaga od odbiorcy rozpoznania ukrytej intencji, np. w satyrze „Do króla”.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.6"
+  },
+  {
+   "id": "plib-pp-089",
+   "type": "qa",
+   "question": "Jak nazywa się kategoria estetyczna polegająca na nierozwiązywalnym konflikcie, w którym każdy wybór bohatera prowadzi do klęski?",
+   "answer": "tragizm",
+   "accept": [],
+   "explanation": "Tragizm jest istotą tragedii antycznej, np. losu Antygony.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.6"
+  },
+  {
+   "id": "plib-pp-090",
+   "type": "qa",
+   "question": "Jak nazywa się podniosły, uroczysty, pełen powagi ton wypowiedzi?",
+   "answer": "patos",
+   "accept": [],
+   "explanation": "Patos cechuje np. „Bogurodzicę” i „Hymn do miłości ojczyzny”.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.6"
+  },
+  {
+   "id": "plib-pp-091",
+   "type": "qa",
+   "question": "Jak nazywa się narrator, który jest uczestnikiem wydarzeń i opowiada o nich w pierwszej osobie?",
+   "answer": "narrator pierwszoosobowy",
+   "accept": [
+    "pierwszoosobowy",
+    "narrator-bohater",
+    "narracja pierwszoosobowa"
+   ],
+   "explanation": "Przeciwieństwem jest narrator trzecioosobowy, często wszechwiedzący.",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.9"
+  },
+  {
+   "id": "plib-pp-092",
+   "type": "cloze",
+   "text": "Osoba mówiąca w wierszu, której nie należy utożsamiać z autorem, to {{podmiot liryczny}}.",
+   "hint": "inaczej „ja” liryczne",
+   "explanation": "Podmiot liryczny może być ujawniony (liryka bezpośrednia) lub ukryty (liryka pośrednia).",
+   "category": "plib_theory",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1.9"
+  },
+  {
+   "id": "plib-pp-093",
+   "type": "qa",
+   "question": "Jak nazywa się dział gramatyki zajmujący się odmianą wyrazów?",
+   "answer": "fleksja",
+   "accept": [],
+   "explanation": "Fleksja obejmuje deklinację (odmianę przez przypadki) i koniugację (odmianę czasownika).",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.1"
+  },
+  {
+   "id": "plib-pp-094",
+   "type": "qa",
+   "question": "Jak nazywa się zdanie złożone, w którym jedno zdanie składowe jest określeniem drugiego?",
+   "answer": "zdanie złożone podrzędnie",
+   "accept": [
+    "podrzędnie złożone",
+    "złożone podrzędnie",
+    "podrzędne"
+   ],
+   "explanation": "Np. „Wiem, że przyjdziesz”; w zdaniu współrzędnie złożonym składowe są równorzędne.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.2"
+  },
+  {
+   "id": "plib-pp-095",
+   "type": "qa",
+   "question": "Jak nazywa się zmiana typowego szyku wyrazów w zdaniu, stosowana np. w celu uwydatnienia znaczenia?",
+   "answer": "inwersja",
+   "accept": [
+    "szyk przestawny"
+   ],
+   "explanation": "Inwersja jest częsta w poezji, np. „Cnotę skarbem nazywam”.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1.4"
+  },
+  {
+   "id": "plib-pp-096",
+   "type": "qa",
+   "question": "Jak nazywa się celowe naśladowanie w tekście cech innego stylu, np. języka dawnego lub gwary?",
+   "answer": "stylizacja",
+   "accept": [],
+   "explanation": "Styl to indywidualny sposób pisania; stylizacja to świadome nadawanie tekstowi cudzych cech stylowych.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.1"
+  },
+  {
+   "id": "plib-pp-097",
+   "type": "qa",
+   "question": "Jak nazywa się stylizacja polegająca na wprowadzeniu do tekstu dawnych form językowych?",
+   "answer": "archaizacja",
+   "accept": [],
+   "explanation": "Archaizację stosował np. Sienkiewicz w „Trylogii”; inne rodzaje: dialektyzacja, kolokwializacja, stylizacja biblijna.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.3"
+  },
+  {
+   "id": "plib-pp-098",
+   "type": "qa",
+   "question": "Jaki styl funkcjonalny cechują bezosobowość, szablonowe formuły i zwroty typu „niniejszym zaświadcza się”?",
+   "answer": "styl urzędowy",
+   "accept": [
+    "urzędowy",
+    "urzędowo-kancelaryjny",
+    "styl urzędowo-kancelaryjny"
+   ],
+   "explanation": "Style funkcjonalne: potoczny, urzędowy, naukowy, publicystyczny, artystyczny.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.2"
+  },
+  {
+   "id": "plib-pp-099",
+   "type": "qa",
+   "question": "Jak nazywa się wyraz lub zwrot pochodzący z Biblii i utrwalony w języku, np. „umywać ręce”, „syn marnotrawny”?",
+   "answer": "biblizm",
+   "accept": [
+    "biblizmy"
+   ],
+   "explanation": "„Umywać ręce” nawiązuje do Piłata, „syn marnotrawny” do przypowieści z Ewangelii św. Łukasza.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.6"
+  },
+  {
+   "id": "plib-pp-100",
+   "type": "qa",
+   "question": "Co oznacza mitologizm „pięta achillesowa”?",
+   "answer": "słaby punkt",
+   "accept": [
+    "czuły punkt",
+    "słabość",
+    "słaba strona",
+    "słabe miejsce"
+   ],
+   "explanation": "Tetyda zanurzyła Achillesa w Styksie, trzymając go za piętę, która pozostała jedynym wrażliwym miejscem.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2.6"
+  },
+  {
+   "id": "plib-pp-101",
+   "type": "qa",
+   "question": "Jak nazywa się w akcie komunikacji ten, kto tworzy i wysyła komunikat?",
+   "answer": "nadawca",
+   "accept": [],
+   "explanation": "Składowe aktu komunikacji: nadawca, odbiorca, komunikat, kod, kontekst, kontakt.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3.2"
+  },
+  {
+   "id": "plib-pp-102",
+   "type": "qa",
+   "question": "Jak nazywa się w akcie komunikacji system znaków (np. język), w którym sformułowano komunikat?",
+   "answer": "kod",
+   "accept": [],
+   "explanation": "Nadawca i odbiorca muszą znać ten sam kod, by komunikacja była skuteczna.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3.2"
+  },
+  {
+   "id": "plib-pp-103",
+   "type": "qa",
+   "question": "Jaką funkcję pełni tekst, którego celem jest wpłynięcie na odbiorcę i nakłonienie go do czegoś?",
+   "answer": "impresywna",
+   "accept": [
+    "funkcja impresywna",
+    "perswazyjna",
+    "funkcja perswazyjna",
+    "konatywna"
+   ],
+   "explanation": "Inne funkcje: informatywna, ekspresywna, poetycka.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3.3"
+  },
+  {
+   "id": "plib-pp-104",
+   "type": "qa",
+   "question": "Jak nazywa się ukryte, nieuczciwe wpływanie na odbiorcę, który nie jest świadomy zamiarów nadawcy?",
+   "answer": "manipulacja",
+   "accept": [
+    "manipulacja językowa"
+   ],
+   "explanation": "W odróżnieniu od perswazji manipulacja ukrywa prawdziwy cel nadawcy.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3.8"
+  },
+  {
+   "id": "plib-pp-105",
+   "type": "cloze",
+   "text": "Partykułę „nie” z rzeczownikami, przymiotnikami i przysłówkami w stopniu równym piszemy {{łącznie}}, np. „niepokój”, „niemiły”.",
+   "hint": "razem czy osobno?",
+   "explanation": "Wyjątek: przeciwstawienie, np. „nie miły, lecz wstrętny”.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.1"
+  },
+  {
+   "id": "plib-pp-106",
+   "type": "qa",
+   "question": "Jak piszemy partykułę „nie” z czasownikami – łącznie czy rozdzielnie?",
+   "answer": "rozdzielnie",
+   "accept": [
+    "osobno",
+    "oddzielnie"
+   ],
+   "explanation": "Np. „nie wiem”, „nie poszedł”; wyjątki to czasowniki bez formy bez „nie”, np. „nienawidzić”.",
+   "category": "plib_language",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4.1"
+  },
+  {
+   "id": "plib-pp-107",
+   "type": "qa",
+   "question": "Jakie zakończenie ma dopełniacz rzeczownika „Francja”: -ji, -ii czy -i?",
+   "answer": "-ji",
+   "accept": [
+    "ji",
+    "Francji"
+   ],
+   "explanation": "Po spółgłoskach c, s, z piszemy -ji (Francji, Rosji); po innych spółgłoskach -ii (Anglii); po samogłoskach -i (Mai).",
+   "category": "plib_language",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4.1"
+  },
+  {
+   "id": "plib-pp-108",
+   "type": "qa",
+   "question": "Czy w skrócie „dr” (doktor) stawiamy kropkę?",
+   "answer": "nie",
+   "accept": [
+    "nie stawiamy",
+    "bez kropki"
+   ],
+   "explanation": "Skrót zawierający ostatnią literę wyrazu piszemy bez kropki (dr, mgr, nr); „prof.” ma kropkę.",
+   "category": "plib_language",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4.1"
+  },
+  {
+   "id": "plib-pp-109",
+   "type": "qa",
+   "question": "Jak nazywa się nieuczciwy argument atakujący osobę rozmówcy zamiast jej poglądów?",
+   "answer": "ad personam",
+   "accept": [
+    "argument ad personam",
+    "ad hominem",
+    "argument ad hominem"
+   ],
+   "explanation": "Argumenty pozamerytoryczne odwołują się też do litości, niewiedzy, groźby lub autorytetu.",
+   "category": "plib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.5"
+  },
+  {
+   "id": "plib-pp-110",
+   "type": "qa",
+   "question": "Jak nazywa się zdanie wyrażające stanowisko autora, którego dowodzi on w wypowiedzi argumentacyjnej?",
+   "answer": "teza",
+   "accept": [],
+   "explanation": "Hipoteza to przypuszczenie, które dopiero sprawdzamy; tezę popieramy argumentami i przykładami.",
+   "category": "plib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.1"
+  },
+  {
+   "id": "plib-pp-111",
+   "type": "qa",
+   "question": "Jak nazywa się pytanie, na które nie oczekuje się odpowiedzi, stosowane dla wzmocnienia wypowiedzi?",
+   "answer": "pytanie retoryczne",
+   "accept": [],
+   "explanation": "Inne środki retoryczne: wykrzyknienie, wyliczenie, powtórzenie, apostrofa, inwersja.",
+   "category": "plib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.4"
+  }
+ ]
+}

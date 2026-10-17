@@ -25,6 +25,7 @@ const ASSETS = [
   './data/physics.json',
   './data/mathematics.json',
   './data/fizyka-7.json',
+  './data/polski.json',
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-192.png',
