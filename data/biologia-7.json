@@ -1,7 +1,8 @@
 {
  "version": 1,
  "subject": "biologia_sp7",
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego: biologia, szkoła podstawowa (Dz.U. 2017 poz. 356 z późn. zm.), dział III Organizm człowieka",
  "items": [
   {
    "id": "bio7-001",
@@ -44,14 +45,16 @@
    "question": "Jak nazywa się zewnętrzna warstwa skóry?",
    "answer": "naskórek",
    "category": "bio7_skin",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.1.2"
   },
   {
    "id": "bio7-006",
    "type": "cloze",
    "text": "Pod wpływem promieni słonecznych w skórze powstaje witamina {{D}}.",
    "category": "bio7_skin",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.1.1"
   },
   {
    "id": "bio7-007",
@@ -63,7 +66,8 @@
    ],
    "explanation": "Pot chłodzi ciało i usuwa część zbędnych substancji.",
    "category": "bio7_skin",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.1.2"
   },
   {
    "id": "bio7-008",
@@ -71,7 +75,8 @@
    "question": "Jak nazywa się ruchome połączenie kości?",
    "answer": "staw",
    "category": "bio7_movement",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.2.3"
   },
   {
    "id": "bio7-009",
@@ -82,14 +87,16 @@
     "około 206"
    ],
    "category": "bio7_movement",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.2.1"
   },
   {
    "id": "bio7-010",
    "type": "cloze",
    "text": "Mięśnie łączą się z kośćmi za pomocą {{ścięgien / ścięgna}}.",
    "category": "bio7_movement",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.2.3"
   },
   {
    "id": "bio7-011",
@@ -102,14 +109,16 @@
    ],
    "explanation": "Za elastyczność kości odpowiada białko osseina.",
    "category": "bio7_movement",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.2.2"
   },
   {
    "id": "bio7-012",
    "type": "cloze",
    "text": "Mięśnie działające przeciwstawnie, np. biceps i triceps, to mięśnie {{antagonistyczne}}.",
    "category": "bio7_movement",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.2.3"
   },
   {
    "id": "bio7-013",
@@ -120,7 +129,8 @@
     "jelicie cienkim"
    ],
    "category": "bio7_digestion",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.3.1"
   },
   {
    "id": "bio7-014",
@@ -129,14 +139,16 @@
    "answer": "wątroba",
    "explanation": "Żółć rozbija tłuszcze na drobne kropelki (emulguje je).",
    "category": "bio7_digestion",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.3.1"
   },
   {
    "id": "bio7-015",
    "type": "cloze",
    "text": "Trawienie skrobi zaczyna się w {{jamie ustnej}} dzięki amylazie ślinowej.",
    "category": "bio7_digestion",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.3.1"
   },
   {
    "id": "bio7-016",
@@ -147,14 +159,16 @@
     "aminokwas"
    ],
    "category": "bio7_digestion",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.3.3"
   },
   {
    "id": "bio7-017",
    "type": "cloze",
    "text": "W soku żołądkowym znajduje się kwas {{solny}}, który zabija bakterie.",
    "category": "bio7_digestion",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.3.1"
   },
   {
    "id": "bio7-018",
@@ -165,7 +179,8 @@
     "K"
    ],
    "category": "bio7_digestion",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.3.3"
   },
   {
    "id": "bio7-019",
@@ -176,7 +191,8 @@
     "tętnica"
    ],
    "category": "bio7_circulation",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.4.1"
   },
   {
    "id": "bio7-020",
@@ -188,14 +204,16 @@
    ],
    "explanation": "Serce ma też dwa przedsionki.",
    "category": "bio7_circulation",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.4.1"
   },
   {
    "id": "bio7-021",
    "type": "cloze",
    "text": "Tlen we krwi przenoszą {{czerwone krwinki / erytrocyty}}.",
    "category": "bio7_circulation",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.4.3"
   },
   {
    "id": "bio7-022",
@@ -206,14 +224,16 @@
     "trombocyty"
    ],
    "category": "bio7_circulation",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.4.3"
   },
   {
    "id": "bio7-023",
    "type": "cloze",
    "text": "Najcieńsze naczynia, w których zachodzi wymiana substancji między krwią a tkankami, to {{naczynia włosowate}}.",
    "category": "bio7_circulation",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.4.1"
   },
   {
    "id": "bio7-024",
@@ -224,7 +244,8 @@
     "przeciwciało"
    ],
    "category": "bio7_immune",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.5.2"
   },
   {
    "id": "bio7-025",
@@ -232,7 +253,8 @@
    "text": "Szczepionka wywołuje odporność {{czynną sztuczną / sztuczną czynną}}.",
    "explanation": "Organizm sam wytwarza przeciwciała po kontakcie z osłabionym antygenem.",
    "category": "bio7_immune",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.5.3"
   },
   {
    "id": "bio7-026",
@@ -243,7 +265,8 @@
     "uczulenie"
    ],
    "category": "bio7_immune",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.5.5"
   },
   {
    "id": "bio7-027",
@@ -251,7 +274,8 @@
    "question": "Jak nazywa się mięsień oddzielający klatkę piersiową od jamy brzusznej?",
    "answer": "przepona",
    "category": "bio7_breathing",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.6.2"
   },
   {
    "id": "bio7-028",
@@ -259,14 +283,16 @@
    "text": "Wymiana gazowa w płucach zachodzi w {{pęcherzykach płucnych}}.",
    "hint": "płuca",
    "category": "bio7_breathing",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.6.3"
   },
   {
    "id": "bio7-029",
    "type": "cloze",
    "text": "W krtani znajdują się {{struny głosowe / fałdy głosowe}}, dzięki którym wydajemy dźwięki.",
    "category": "bio7_breathing",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.6.1"
   },
   {
    "id": "bio7-030",
@@ -277,7 +303,8 @@
     "CO2"
    ],
    "category": "bio7_breathing",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.6.3"
   },
   {
    "id": "bio7-031",
@@ -289,7 +316,8 @@
     "w mitochondriach"
    ],
    "category": "bio7_breathing",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.6.3"
   },
   {
    "id": "bio7-032",
@@ -300,14 +328,16 @@
     "nerki"
    ],
    "category": "bio7_excretion",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.7.2"
   },
   {
    "id": "bio7-033",
    "type": "cloze",
    "text": "Mocz z nerek spływa do pęcherza moczowego przez {{moczowody / moczowód}}.",
    "category": "bio7_excretion",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.7.2"
   },
   {
    "id": "bio7-034",
@@ -315,7 +345,8 @@
    "question": "Jak nazywa się podstawowa jednostka budowy i funkcji nerki?",
    "answer": "nefron",
    "category": "bio7_excretion",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.7.2"
   },
   {
    "id": "bio7-035",
@@ -323,14 +354,16 @@
    "question": "Jak nazywa się komórka nerwowa?",
    "answer": "neuron",
    "category": "bio7_nervous",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.8.1"
   },
   {
    "id": "bio7-036",
    "type": "cloze",
    "text": "Ośrodkowy układ nerwowy tworzą mózgowie i {{rdzeń kręgowy}}.",
    "category": "bio7_nervous",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.8.1"
   },
   {
    "id": "bio7-037",
@@ -341,7 +374,8 @@
     "odruch bezwarunkowy"
    ],
    "category": "bio7_nervous",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.8.2"
   },
   {
    "id": "bio7-038",
@@ -349,7 +383,8 @@
    "question": "Która część mózgowia odpowiada za koordynację ruchów i równowagę?",
    "answer": "móżdżek",
    "category": "bio7_nervous",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.8.1"
   },
   {
    "id": "bio7-039",
@@ -360,14 +395,16 @@
     "siatkówce"
    ],
    "category": "bio7_senses",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.9.1"
   },
   {
    "id": "bio7-040",
    "type": "cloze",
    "text": "Krótkowzroczność koryguje się okularami z soczewkami {{rozpraszającymi / wklęsłymi}}.",
    "category": "bio7_senses",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.9.2"
   },
   {
    "id": "bio7-041",
@@ -379,7 +416,8 @@
     "w uchu wewnętrznym"
    ],
    "category": "bio7_senses",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.9.6"
   },
   {
    "id": "bio7-042",
@@ -387,7 +425,8 @@
    "question": "Który hormon obniża poziom glukozy we krwi?",
    "answer": "insulina",
    "category": "bio7_hormones",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.10.1"
   },
   {
    "id": "bio7-043",
@@ -399,21 +438,24 @@
     "rdzeń nadnerczy"
    ],
    "category": "bio7_hormones",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.10.1"
   },
   {
    "id": "bio7-044",
    "type": "cloze",
    "text": "Niedobór insuliny prowadzi do choroby zwanej {{cukrzycą / cukrzyca}}.",
    "category": "bio7_hormones",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.10.1"
   },
   {
    "id": "bio7-045",
    "type": "cloze",
    "text": "Hormon wzrostu wydziela {{przysadka mózgowa / przysadka}}.",
    "category": "bio7_hormones",
-   "difficulty": 2
+   "difficulty": 2,
+   "pp": "III.10.1"
   },
   {
    "id": "bio7-046",
@@ -425,14 +467,16 @@
     "jajowodzie"
    ],
    "category": "bio7_reproduction",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.11.3"
   },
   {
    "id": "bio7-047",
    "type": "cloze",
    "text": "Męskie gamety, czyli {{plemniki}}, powstają w jądrach.",
    "category": "bio7_reproduction",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.11.1"
   },
   {
    "id": "bio7-048",
@@ -443,7 +487,8 @@
     "okres dojrzewania"
    ],
    "category": "bio7_reproduction",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.11.5"
   },
   {
    "id": "bio7-049",
@@ -455,7 +500,8 @@
     "40 tygodni"
    ],
    "category": "bio7_reproduction",
-   "difficulty": 1
+   "difficulty": 1,
+   "pp": "III.11.4"
   },
   {
    "id": "bio7-050",
@@ -476,6 +522,603 @@
    ],
    "category": "bio7_health",
    "difficulty": 1
+  },
+  {
+   "id": "bio7-pp-001",
+   "type": "qa",
+   "question": "Jak nazywa się warstwa skóry leżąca pod naskórkiem, zawierająca naczynia krwionośne i receptory?",
+   "answer": "skóra właściwa",
+   "accept": [
+    "skora wlasciwa"
+   ],
+   "explanation": "Pod skórą właściwą leży tkanka podskórna z komórkami tłuszczowymi.",
+   "category": "bio7_skin",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.2"
+  },
+  {
+   "id": "bio7-pp-002",
+   "type": "cloze",
+   "text": "Barwnik skóry chroniący przed promieniowaniem UV to {{melanina}}.",
+   "hint": "nadaje skórze ciemniejszy odcień",
+   "explanation": "Melanina pochłania promieniowanie UV i ogranicza jego wnikanie w głąb skóry.",
+   "category": "bio7_skin",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.1"
+  },
+  {
+   "id": "bio7-pp-003",
+   "type": "qa",
+   "question": "Jak nazywa się złośliwy nowotwór skóry rozwijający się z komórek barwnikowych?",
+   "answer": "czerniak",
+   "explanation": "Czerniak może powstać ze znamienia, które zmienia kształt, kolor lub wielkość.",
+   "category": "bio7_skin",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.4"
+  },
+  {
+   "id": "bio7-pp-004",
+   "type": "cloze",
+   "text": "Nadmierna ekspozycja na promieniowanie {{UV}} zwiększa ryzyko nowotworów skóry.",
+   "hint": "promieniowanie słoneczne i z solarium",
+   "explanation": "Profilaktyka: kremy z filtrem, unikanie słońca w południe, rezygnacja z solarium.",
+   "category": "bio7_skin",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.5"
+  },
+  {
+   "id": "bio7-pp-005",
+   "type": "qa",
+   "question": "Jaką chorobę skóry wywołują grzyby, np. między palcami stóp?",
+   "answer": "grzybica",
+   "accept": [
+    "grzybica skóry",
+    "grzybice"
+   ],
+   "explanation": "Profilaktyka: własne obuwie i ręcznik, osuszanie stóp, klapki na basenie.",
+   "category": "bio7_skin",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.4"
+  },
+  {
+   "id": "bio7-pp-006",
+   "type": "qa",
+   "question": "Do której części szkieletu należą czaszka, kręgosłup i klatka piersiowa?",
+   "answer": "szkielet osiowy",
+   "accept": [
+    "osiowy"
+   ],
+   "explanation": "Pozostałe części to szkielet kończyn i ich obręczy (barkowej i miednicznej).",
+   "category": "bio7_movement",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "bio7-pp-007",
+   "type": "cloze",
+   "text": "Elastyczność kości zapewnia białko {{osseina}}.",
+   "hint": "składnik organiczny kości",
+   "explanation": "Po wypaleniu kości (usunięciu osseiny) staje się ona krucha.",
+   "category": "bio7_movement",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2.2"
+  },
+  {
+   "id": "bio7-pp-008",
+   "type": "qa",
+   "question": "Jak nazywa się boczne skrzywienie kręgosłupa?",
+   "answer": "skolioza",
+   "explanation": "Profilaktyka: prawidłowa postawa, plecak na obu ramionach, aktywność fizyczna.",
+   "category": "bio7_movement",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2.5"
+  },
+  {
+   "id": "bio7-pp-009",
+   "type": "cloze",
+   "text": "Regularna aktywność fizyczna wzmacnia mięśnie i zwiększa {{gęstość / masę}} kości.",
+   "explanation": "Ruch zapobiega osteoporozie i wadom postawy.",
+   "category": "bio7_movement",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2.4"
+  },
+  {
+   "id": "bio7-pp-010",
+   "type": "qa",
+   "question": "Które zęby służą do odgryzania kęsów pokarmu?",
+   "answer": "siekacze",
+   "explanation": "Kły rozrywają pokarm, a zęby przedtrzonowe i trzonowe go rozcierają.",
+   "category": "bio7_digestion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3.2"
+  },
+  {
+   "id": "bio7-pp-011",
+   "type": "cloze",
+   "text": "Próchnicę powodują bakterie rozkładające resztki pokarmu i wytwarzające {{kwasy}}, które niszczą szkliwo.",
+   "explanation": "Profilaktyka: mycie zębów po posiłkach, ograniczenie słodyczy, kontrola u dentysty.",
+   "category": "bio7_digestion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3.2"
+  },
+  {
+   "id": "bio7-pp-012",
+   "type": "qa",
+   "question": "Jaki składnik pokarmowy jest głównym źródłem energii dla organizmu?",
+   "answer": "cukry",
+   "accept": [
+    "węglowodany",
+    "cukry (węglowodany)"
+   ],
+   "explanation": "Źródła: pieczywo, kasze, makarony, ziemniaki, owoce.",
+   "category": "bio7_digestion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3.3"
+  },
+  {
+   "id": "bio7-pp-013",
+   "type": "qa",
+   "question": "Jaki składnik pokarmowy, nietrawiony przez człowieka, pobudza ruchy jelit?",
+   "answer": "błonnik",
+   "explanation": "Znajduje się w warzywach, owocach i pełnoziarnistych produktach zbożowych.",
+   "category": "bio7_digestion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3.4"
+  },
+  {
+   "id": "bio7-pp-014",
+   "type": "qa",
+   "question": "Jak nazywa się zaburzenie odżywiania polegające na celowym głodzeniu się?",
+   "answer": "anoreksja",
+   "accept": [
+    "jadłowstręt psychiczny"
+   ],
+   "explanation": "Bulimia to napady objadania się i prowokowanie wymiotów.",
+   "category": "bio7_digestion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3.5"
+  },
+  {
+   "id": "bio7-pp-015",
+   "type": "cloze",
+   "text": "Wirusowe zapalenie wątroby typu A (WZW A) szerzy się drogą {{pokarmową}}, dlatego ważne jest mycie rąk i owoców.",
+   "explanation": "WZW B i WZW C przenoszą się przez krew; przed WZW A i B chronią szczepienia.",
+   "category": "bio7_digestion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3.6"
+  },
+  {
+   "id": "bio7-pp-016",
+   "type": "qa",
+   "question": "Jak nazywa się część serca, do której krew wpływa z żył?",
+   "answer": "przedsionek",
+   "accept": [
+    "przedsionki"
+   ],
+   "explanation": "Z przedsionków krew przepływa przez zastawki do komór.",
+   "category": "bio7_circulation",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4.1"
+  },
+  {
+   "id": "bio7-pp-017",
+   "type": "cloze",
+   "text": "Obieg {{mały / płucny}} prowadzi krew z prawej komory do płuc i z powrotem do lewego przedsionka.",
+   "explanation": "Obieg duży zaczyna się w lewej komorze i prowadzi krew do wszystkich narządów ciała.",
+   "category": "bio7_circulation",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4.2"
+  },
+  {
+   "id": "bio7-pp-018",
+   "type": "qa",
+   "question": "Jak nazywa się płynny składnik krwi, w którym zawieszone są komórki krwi?",
+   "answer": "osocze",
+   "explanation": "Osocze to głównie woda z rozpuszczonymi białkami, solami i składnikami odżywczymi.",
+   "category": "bio7_circulation",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4.3"
+  },
+  {
+   "id": "bio7-pp-019",
+   "type": "qa",
+   "question": "Ile grup krwi wyróżnia się w układzie ABO?",
+   "answer": "cztery",
+   "accept": [
+    "4",
+    "A, B, AB, 0"
+   ],
+   "explanation": "Grupy: A, B, AB i 0; dodatkowo czynnik Rh+ lub Rh−.",
+   "category": "bio7_circulation",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4.4"
+  },
+  {
+   "id": "bio7-pp-020",
+   "type": "cloze",
+   "text": "Odkładanie się cholesterolu w ścianach tętnic i ich zwężanie to {{miażdżyca}}.",
+   "explanation": "Miażdżyca zwiększa ryzyko zawału serca; profilaktyka to dieta i ruch.",
+   "category": "bio7_circulation",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4.7"
+  },
+  {
+   "id": "bio7-pp-021",
+   "type": "qa",
+   "question": "Jakie prawidłowe ciśnienie tętnicze krwi podaje się dla zdrowego dorosłego (w mm Hg)?",
+   "answer": "120/80",
+   "accept": [
+    "120 na 80",
+    "120 80"
+   ],
+   "explanation": "Pomiar wykonuje się w spoczynku, na siedząco, z mankietem na wysokości serca.",
+   "category": "bio7_circulation",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4.5"
+  },
+  {
+   "id": "bio7-pp-022",
+   "type": "qa",
+   "question": "Jak nazywają się narządy układu limfatycznego, w których namnażają się limfocyty i zatrzymywane są drobnoustroje?",
+   "answer": "węzły chłonne",
+   "accept": [
+    "węzeł chłonny"
+   ],
+   "explanation": "Leżą m.in. na szyi, pod pachami i w pachwinach; powiększają się podczas infekcji.",
+   "category": "bio7_immune",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5.1"
+  },
+  {
+   "id": "bio7-pp-023",
+   "type": "cloze",
+   "text": "Odporność, którą mamy od urodzenia (np. skóra, łzy, kwas żołądkowy), to odporność {{wrodzona}}.",
+   "explanation": "Odporność nabyta powstaje w ciągu życia po kontakcie z antygenem lub po szczepieniu.",
+   "category": "bio7_immune",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5.2"
+  },
+  {
+   "id": "bio7-pp-024",
+   "type": "qa",
+   "question": "Jak nazywa się przeniesienie narządu od dawcy do biorcy?",
+   "answer": "przeszczep",
+   "accept": [
+    "transplantacja"
+   ],
+   "explanation": "Po przeszczepie biorca przyjmuje leki osłabiające odporność, by organizm nie odrzucił narządu.",
+   "category": "bio7_immune",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5.4"
+  },
+  {
+   "id": "bio7-pp-025",
+   "type": "qa",
+   "question": "Jaki wirus wywołuje AIDS, niszcząc limfocyty?",
+   "answer": "HIV",
+   "explanation": "AIDS to zaburzenie odporności; organizm nie radzi sobie nawet z łagodnymi zakażeniami.",
+   "category": "bio7_immune",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5.6"
+  },
+  {
+   "id": "bio7-pp-026",
+   "type": "cloze",
+   "text": "Szczepionka zawiera osłabione lub zabite drobnoustroje albo ich fragmenty, czyli {{antygeny}}.",
+   "explanation": "Organizm wytwarza przeciwciała i komórki pamięci bez przechodzenia choroby.",
+   "category": "bio7_immune",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5.3"
+  },
+  {
+   "id": "bio7-pp-027",
+   "type": "qa",
+   "question": "Jak nazywa się część układu oddechowego, która jest wspólną drogą pokarmu i powietrza?",
+   "answer": "gardło",
+   "explanation": "Z gardła powietrze trafia do krtani, a pokarm do przełyku.",
+   "category": "bio7_breathing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6.1"
+  },
+  {
+   "id": "bio7-pp-028",
+   "type": "cloze",
+   "text": "Podczas wdechu przepona {{kurczy się / obniża się}}, a klatka piersiowa się powiększa.",
+   "explanation": "Przy wydechu przepona się rozkurcza i unosi, a powietrze jest wypychane z płuc.",
+   "category": "bio7_breathing",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.6.2"
+  },
+  {
+   "id": "bio7-pp-029",
+   "type": "qa",
+   "question": "Jaka choroba zakaźna płuc jest wywoływana przez prątki?",
+   "answer": "gruźlica",
+   "explanation": "Profilaktyka: szczepienie BCG, unikanie kontaktu z chorymi.",
+   "category": "bio7_breathing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6.5"
+  },
+  {
+   "id": "bio7-pp-030",
+   "type": "cloze",
+   "text": "Substancje zawarte w dymie tytoniowym, w tym {{substancje smoliste}}, zwiększają ryzyko raka płuca.",
+   "explanation": "Palenie bierne, czyli wdychanie dymu innych osób, także szkodzi.",
+   "category": "bio7_breathing",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.6.4"
+  },
+  {
+   "id": "bio7-pp-031",
+   "type": "qa",
+   "question": "Jaki główny produkt rozkładu białek jest wydalany z moczem?",
+   "answer": "mocznik",
+   "explanation": "Powstaje w wątrobie z amoniaku i jest usuwany przez nerki.",
+   "category": "bio7_excretion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.7.1"
+  },
+  {
+   "id": "bio7-pp-032",
+   "type": "qa",
+   "question": "Jak nazywa się choroba polegająca na tworzeniu się złogów (kamieni) w nerkach?",
+   "answer": "kamica nerkowa",
+   "accept": [
+    "kamica"
+   ],
+   "explanation": "Profilaktyka: picie dużej ilości wody, ograniczenie soli.",
+   "category": "bio7_excretion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.7.3"
+  },
+  {
+   "id": "bio7-pp-033",
+   "type": "cloze",
+   "text": "Obecność {{glukozy / cukru}} w moczu może świadczyć o cukrzycy.",
+   "explanation": "Badanie moczu wykrywa też białko, krew i bakterie przy zakażeniach dróg moczowych.",
+   "category": "bio7_excretion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.7.4"
+  },
+  {
+   "id": "bio7-pp-034",
+   "type": "qa",
+   "question": "Z jakich elementów składa się obwodowy układ nerwowy?",
+   "answer": "nerwy",
+   "accept": [
+    "nerwy i zwoje nerwowe",
+    "nerwy obwodowe"
+   ],
+   "explanation": "Nerwy przewodzą impulsy między ośrodkowym układem nerwowym a narządami.",
+   "category": "bio7_nervous",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.8.1"
+  },
+  {
+   "id": "bio7-pp-035",
+   "type": "cloze",
+   "text": "Droga, jaką pokonuje impuls nerwowy od receptora do efektora, to {{łuk odruchowy}}.",
+   "explanation": "Elementy: receptor, neuron czuciowy, ośrodek (rdzeń kręgowy), neuron ruchowy, efektor.",
+   "category": "bio7_nervous",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.8.2"
+  },
+  {
+   "id": "bio7-pp-036",
+   "type": "qa",
+   "question": "Jak nazywa się odruch nabyty w ciągu życia, np. ślinienie na widok jedzenia?",
+   "answer": "warunkowy",
+   "accept": [
+    "odruch warunkowy"
+   ],
+   "explanation": "Odruchy bezwarunkowe (np. kolanowy, mruganie) są wrodzone.",
+   "category": "bio7_nervous",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.8.2"
+  },
+  {
+   "id": "bio7-pp-037",
+   "type": "qa",
+   "question": "Jaki element oka zmienia kształt, aby ostro widzieć przedmioty bliskie i dalekie?",
+   "answer": "soczewka",
+   "explanation": "Zmiana kształtu soczewki to akomodacja.",
+   "category": "bio7_senses",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.9.1"
+  },
+  {
+   "id": "bio7-pp-038",
+   "type": "cloze",
+   "text": "Dalekowzroczność koryguje się okularami z soczewkami {{skupiającymi / wypukłymi}}.",
+   "explanation": "Przy dalekowzroczności obraz powstaje za siatkówką.",
+   "category": "bio7_senses",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.9.2"
+  },
+  {
+   "id": "bio7-pp-039",
+   "type": "qa",
+   "question": "Jak nazywa się spiralnie zwinięty narząd w uchu wewnętrznym zawierający receptory słuchu?",
+   "answer": "ślimak",
+   "explanation": "Drgania z błony bębenkowej przenoszą kosteczki słuchowe: młoteczek, kowadełko i strzemiączko.",
+   "category": "bio7_senses",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.9.3"
+  },
+  {
+   "id": "bio7-pp-040",
+   "type": "qa",
+   "question": "Gdzie znajdują się receptory zmysłu węchu?",
+   "answer": "jama nosowa",
+   "accept": [
+    "w jamie nosowej",
+    "nabłonek węchowy",
+    "nos"
+   ],
+   "explanation": "Receptory smaku leżą w kubkach smakowych na języku, a receptory dotyku w skórze.",
+   "category": "bio7_senses",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.9.6"
+  },
+  {
+   "id": "bio7-pp-041",
+   "type": "qa",
+   "question": "Który hormon trzustki podnosi poziom glukozy we krwi, działając przeciwstawnie do insuliny?",
+   "answer": "glukagon",
+   "explanation": "Glukagon uwalnia glukozę z glikogenu zmagazynowanego w wątrobie.",
+   "category": "bio7_hormones",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.10.2"
+  },
+  {
+   "id": "bio7-pp-042",
+   "type": "qa",
+   "question": "W którym narządzie żeńskiego układu rozrodczego powstają komórki jajowe?",
+   "answer": "jajnik",
+   "accept": [
+    "jajniki"
+   ],
+   "explanation": "Jajniki wytwarzają też hormony: estrogeny i progesteron.",
+   "category": "bio7_reproduction",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.11.1"
+  },
+  {
+   "id": "bio7-pp-043",
+   "type": "cloze",
+   "text": "Uwolnienie dojrzałej komórki jajowej z jajnika to {{owulacja / jajeczkowanie}}.",
+   "explanation": "Owulacja następuje w połowie cyklu miesiączkowego, około 14. dnia.",
+   "category": "bio7_reproduction",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.11.2"
+  },
+  {
+   "id": "bio7-pp-044",
+   "type": "qa",
+   "question": "Jak nazywa się komórka powstała z połączenia plemnika i komórki jajowej?",
+   "answer": "zygota",
+   "explanation": "Etapy rozwoju przedurodzeniowego: zygota, zarodek, płód.",
+   "category": "bio7_reproduction",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.11.4"
+  },
+  {
+   "id": "bio7-pp-045",
+   "type": "qa",
+   "question": "Jak nazywa się narząd łączący płód z organizmem matki, przez który przechodzą substancje odżywcze i tlen?",
+   "answer": "łożysko",
+   "explanation": "Przez łożysko do płodu przenikają także alkohol i nikotyna, które uszkadzają jego rozwój.",
+   "category": "bio7_reproduction",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.11.4"
+  },
+  {
+   "id": "bio7-pp-046",
+   "type": "qa",
+   "question": "Która substancja zawarta w tytoniu, także w e-papierosach, uzależnia?",
+   "answer": "nikotyna",
+   "explanation": "Nikotyna pobudza układ nerwowy i szybko uzależnia.",
+   "category": "bio7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.8.5"
+  },
+  {
+   "id": "bio7-pp-047",
+   "type": "cloze",
+   "text": "Nadużywanie {{kofeiny}} (kawa, napoje energetyczne) powoduje bezsenność i kołatanie serca.",
+   "explanation": "Podstawa wymienia alkohol, nikotynę i kofeinę jako substancje szkodliwe dla układu nerwowego.",
+   "category": "bio7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.8.5"
+  },
+  {
+   "id": "bio7-pp-048",
+   "type": "qa",
+   "question": "Jak nazywa się stosowanie niedozwolonych środków w celu poprawy wyników sportowych?",
+   "answer": "doping",
+   "explanation": "Środki dopingujące uszkadzają serce, wątrobę i układ nerwowy.",
+   "category": "bio7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.8.5"
+  },
+  {
+   "id": "bio7-pp-049",
+   "type": "cloze",
+   "text": "Nowe substancje psychoaktywne o nieznanym składzie, sprzedawane jako „produkty kolekcjonerskie”, to {{dopalacze}}.",
+   "explanation": "Zażycie dopalaczy może spowodować zatrucie, uszkodzenie mózgu, a nawet śmierć.",
+   "category": "bio7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.8.5"
+  },
+  {
+   "id": "bio7-pp-050",
+   "type": "qa",
+   "question": "Jaka bakteryjna choroba przenoszona drogą płciową jest wywoływana przez krętka bladego?",
+   "answer": "kiła",
+   "explanation": "Inne choroby przenoszone drogą płciową: rzeżączka, AIDS, WZW B.",
+   "category": "bio7_health",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.11.6"
+  },
+  {
+   "id": "bio7-pp-051",
+   "type": "cloze",
+   "text": "Podstawą profilaktyki chorób przenoszonych drogą płciową jest stosowanie {{prezerwatywy}} i wierność jednemu partnerowi.",
+   "explanation": "Ważne są też badania kontrolne i szczepienie przeciw WZW B.",
+   "category": "bio7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.11.6"
   }
  ]
 }
