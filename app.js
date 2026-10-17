@@ -319,7 +319,7 @@
     philosophy_ib: { label: 'Philosophy', icon: '🤔', tagline: 'Elective: pojęcia, argumenty i filozofowie', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'phiib_other' },
     business_ib: { label: 'Business & Management', icon: '💼', tagline: 'Elective: pojęcia, modele i przykłady', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'busib_other' },
     german_ib: {
-      label: 'German B', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', lang: 'de-pl', vocab: true,
+      label: 'German B', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', file: 'data/german.json', lang: 'de-pl', vocab: true,
       types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'deib_other', typeLabels: { awl_word: 'Słówko' },
     },
     matematyka_sp7: { label: 'Matematyka', icon: '📐', tagline: 'Pojęcia, wzory i własności', file: 'data/matematyka-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'mat7_other' },

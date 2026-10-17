@@ -1,0 +1,1291 @@
+{
+ "version": 1,
+ "subject": "german_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, język obcy nowożytny, wariant III.2 (drugi język, kontynuacja ze szkoły podstawowej; Dz.U. 2018 poz. 467), wymaganie I (14 tematów) i VI (reagowanie ustne), pogrupowane wg 5 tematów IB Language B; słownictwo A2 (Pre-DP 1) oraz gramatyka A2 (Perfekt, czasowniki modalne, Dativ/Akkusativ, szyk) jako dodatek z przewodnika IB",
+ "items": [
+  {
+   "id": "deib-pp-001",
+   "type": "awl_word",
+   "word": "die Persönlichkeit",
+   "polish": [
+    "osobowość"
+   ],
+   "example": "Sie hat eine starke Persönlichkeit.",
+   "explanation": "Cechy charakteru: der Charakter, die Eigenschaft.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-002",
+   "type": "awl_word",
+   "word": "selbstbewusst",
+   "polish": [
+    "pewny siebie"
+   ],
+   "example": "Lena ist sehr selbstbewusst und spricht gern vor der Klasse.",
+   "explanation": "Przeciwieństwo: schüchtern.",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-003",
+   "type": "awl_word",
+   "word": "schüchtern",
+   "polish": [
+    "nieśmiały"
+   ],
+   "example": "Mein kleiner Bruder ist schüchtern und redet wenig.",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-004",
+   "type": "awl_word",
+   "word": "ehrlich",
+   "polish": [
+    "uczciwy",
+    "szczery"
+   ],
+   "example": "Ein guter Freund ist immer ehrlich.",
+   "explanation": "Rzeczownik: die Ehrlichkeit.",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-005",
+   "type": "awl_word",
+   "word": "zuverlässig",
+   "polish": [
+    "niezawodny",
+    "solidny"
+   ],
+   "example": "Tom ist zuverlässig, er kommt nie zu spät.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-006",
+   "type": "awl_word",
+   "word": "fleißig",
+   "polish": [
+    "pilny",
+    "pracowity"
+   ],
+   "example": "Meine Schwester ist fleißig und lernt jeden Tag.",
+   "explanation": "Przeciwieństwo: faul (leniwy).",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-007",
+   "type": "awl_word",
+   "word": "das Gefühl",
+   "polish": [
+    "uczucie"
+   ],
+   "example": "Ich habe ein gutes Gefühl vor der Prüfung.",
+   "explanation": "Liczba mnoga: die Gefühle.",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-008",
+   "type": "awl_word",
+   "word": "stolz (auf)",
+   "polish": [
+    "dumny (z)"
+   ],
+   "example": "Meine Eltern sind stolz auf mich.",
+   "explanation": "Łączy się z biernikiem: stolz auf + Akkusativ.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-009",
+   "type": "awl_word",
+   "word": "die Kindheit",
+   "polish": [
+    "dzieciństwo"
+   ],
+   "example": "In meiner Kindheit habe ich in Krakau gewohnt.",
+   "explanation": "Okresy życia: die Kindheit, die Jugend, das Alter.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-010",
+   "type": "awl_word",
+   "word": "der Jugendliche",
+   "polish": [
+    "nastolatek",
+    "młody człowiek"
+   ],
+   "example": "Viele Jugendliche verbringen viel Zeit online.",
+   "explanation": "Odmienia się jak przymiotnik: ein Jugendlicher, die Jugendlichen.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-011",
+   "type": "awl_word",
+   "word": "die Herkunft",
+   "polish": [
+    "pochodzenie"
+   ],
+   "example": "Meine Familie ist polnischer Herkunft.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-012",
+   "type": "awl_word",
+   "word": "geboren",
+   "polish": [
+    "urodzony"
+   ],
+   "example": "Ich bin 2011 in Warschau geboren.",
+   "explanation": "„Ich bin … geboren” = urodziłem się.",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "deib-pp-013",
+   "type": "awl_word",
+   "word": "die Beziehung",
+   "polish": [
+    "związek",
+    "relacja"
+   ],
+   "example": "Ich habe eine gute Beziehung zu meinen Eltern.",
+   "explanation": "Beziehung zu + Dativ.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-014",
+   "type": "awl_word",
+   "word": "sich verstehen (mit)",
+   "polish": [
+    "rozumieć się (z kimś)",
+    "dogadywać się"
+   ],
+   "example": "Ich verstehe mich gut mit meiner Schwester.",
+   "explanation": "Czasownik zwrotny; mit + Dativ.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-015",
+   "type": "awl_word",
+   "word": "sich streiten",
+   "polish": [
+    "kłócić się"
+   ],
+   "example": "Meine Brüder streiten sich oft um den Computer.",
+   "explanation": "Perfekt: hat sich gestritten; rzeczownik: der Streit.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-016",
+   "type": "awl_word",
+   "word": "die Freundschaft",
+   "polish": [
+    "przyjaźń"
+   ],
+   "example": "Unsere Freundschaft ist mir sehr wichtig.",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-017",
+   "type": "awl_word",
+   "word": "sich kümmern um",
+   "polish": [
+    "troszczyć się o",
+    "opiekować się"
+   ],
+   "example": "Ich kümmere mich am Wochenende um meine Oma.",
+   "explanation": "um + Akkusativ.",
+   "category": "deib_identities",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-018",
+   "type": "awl_word",
+   "word": "verheiratet",
+   "polish": [
+    "żonaty",
+    "zamężna"
+   ],
+   "example": "Meine Tante ist seit zehn Jahren verheiratet.",
+   "explanation": "Stan cywilny: ledig (wolny), verheiratet, geschieden (rozwiedziony).",
+   "category": "deib_identities",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-019",
+   "type": "awl_word",
+   "word": "die Sehenswürdigkeit",
+   "polish": [
+    "zabytek",
+    "atrakcja turystyczna"
+   ],
+   "example": "Das Brandenburger Tor ist die bekannteste Sehenswürdigkeit Berlins.",
+   "category": "deib_experiences",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-020",
+   "type": "awl_word",
+   "word": "besichtigen",
+   "polish": [
+    "zwiedzać"
+   ],
+   "example": "Wir haben gestern das Schloss besichtigt.",
+   "explanation": "Perfekt: hat besichtigt (bez ge-, czasownik na -igen).",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-021",
+   "type": "awl_word",
+   "word": "die Jugendherberge",
+   "polish": [
+    "schronisko młodzieżowe"
+   ],
+   "example": "Auf der Klassenfahrt schlafen wir in einer Jugendherberge.",
+   "category": "deib_experiences",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-022",
+   "type": "awl_word",
+   "word": "die Unterkunft",
+   "polish": [
+    "nocleg",
+    "zakwaterowanie"
+   ],
+   "example": "Wir suchen eine günstige Unterkunft in München.",
+   "category": "deib_experiences",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-023",
+   "type": "awl_word",
+   "word": "buchen",
+   "polish": [
+    "rezerwować"
+   ],
+   "example": "Ich habe das Zimmer online gebucht.",
+   "explanation": "Synonim: reservieren.",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-024",
+   "type": "awl_word",
+   "word": "die Fahrkarte",
+   "polish": [
+    "bilet (na przejazd)"
+   ],
+   "example": "Ich kaufe die Fahrkarte am Automaten.",
+   "explanation": "Bilet do kina/teatru to die Eintrittskarte.",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-025",
+   "type": "awl_word",
+   "word": "umsteigen",
+   "polish": [
+    "przesiadać się"
+   ],
+   "example": "In Hannover müssen wir umsteigen.",
+   "explanation": "Czasownik rozdzielnie złożony: ich steige um; Perfekt: ist umgestiegen.",
+   "category": "deib_experiences",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-026",
+   "type": "awl_word",
+   "word": "die Abfahrt",
+   "polish": [
+    "odjazd"
+   ],
+   "example": "Die Abfahrt des Zuges ist um 9.15 Uhr.",
+   "explanation": "Przeciwieństwo: die Ankunft (przyjazd).",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-027",
+   "type": "awl_word",
+   "word": "das Gepäck",
+   "polish": [
+    "bagaż"
+   ],
+   "example": "Mein Gepäck ist zu schwer.",
+   "explanation": "Rzeczownik niepoliczalny, bez liczby mnogiej.",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-028",
+   "type": "awl_word",
+   "word": "der Ausflug",
+   "polish": [
+    "wycieczka"
+   ],
+   "example": "Am Samstag machen wir einen Ausflug in die Berge.",
+   "explanation": "einen Ausflug machen = robić wycieczkę.",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "deib-pp-029",
+   "type": "awl_word",
+   "word": "die Ausstellung",
+   "polish": [
+    "wystawa"
+   ],
+   "example": "Im Museum gibt es eine neue Ausstellung über Ägypten.",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "deib-pp-030",
+   "type": "awl_word",
+   "word": "die Tradition",
+   "polish": [
+    "tradycja"
+   ],
+   "example": "Das Oktoberfest ist eine bayerische Tradition.",
+   "explanation": "Synonim: der Brauch (zwyczaj).",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "deib-pp-031",
+   "type": "awl_word",
+   "word": "das Erlebnis",
+   "polish": [
+    "przeżycie",
+    "przygoda"
+   ],
+   "example": "Die Reise nach Wien war ein tolles Erlebnis.",
+   "explanation": "Czasownik: erleben (przeżyć).",
+   "category": "deib_experiences",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "deib-pp-032",
+   "type": "awl_word",
+   "word": "feiern",
+   "polish": [
+    "świętować",
+    "obchodzić"
+   ],
+   "example": "Wir feiern Silvester bei meinen Großeltern.",
+   "explanation": "Rzeczownik: die Feier (uroczystość).",
+   "category": "deib_experiences",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-033",
+   "type": "awl_word",
+   "word": "die Erfindung",
+   "polish": [
+    "wynalazek"
+   ],
+   "example": "Das Internet ist eine wichtige Erfindung.",
+   "explanation": "Czasownik: erfinden, osoba: der Erfinder.",
+   "category": "deib_ingenuity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-034",
+   "type": "awl_word",
+   "word": "erfinden",
+   "polish": [
+    "wynaleźć"
+   ],
+   "example": "Wer hat das Telefon erfunden?",
+   "explanation": "Czasownik nieregularny: erfindet, erfand, hat erfunden.",
+   "category": "deib_ingenuity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-035",
+   "type": "awl_word",
+   "word": "die Entdeckung",
+   "polish": [
+    "odkrycie"
+   ],
+   "example": "Die Entdeckung des Penicillins hat viele Leben gerettet.",
+   "explanation": "Czasownik: entdecken.",
+   "category": "deib_ingenuity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-036",
+   "type": "awl_word",
+   "word": "die Wissenschaft",
+   "polish": [
+    "nauka"
+   ],
+   "example": "Die Wissenschaft sucht Antworten auf viele Fragen.",
+   "explanation": "Naukowiec: der Wissenschaftler.",
+   "category": "deib_ingenuity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-037",
+   "type": "awl_word",
+   "word": "das Gerät",
+   "polish": [
+    "urządzenie"
+   ],
+   "example": "Das Gerät funktioniert nicht, bitte starte es neu.",
+   "category": "deib_ingenuity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-038",
+   "type": "awl_word",
+   "word": "herunterladen",
+   "polish": [
+    "pobierać (z internetu)"
+   ],
+   "example": "Ich lade die App auf mein Handy herunter.",
+   "explanation": "Czasownik rozdzielnie złożony; Perfekt: hat heruntergeladen.",
+   "category": "deib_ingenuity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-039",
+   "type": "awl_word",
+   "word": "der Bildschirm",
+   "polish": [
+    "ekran"
+   ],
+   "example": "Mein Bildschirm ist kaputt.",
+   "category": "deib_ingenuity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-040",
+   "type": "awl_word",
+   "word": "die Technik",
+   "polish": [
+    "technika"
+   ],
+   "example": "Ich interessiere mich für moderne Technik.",
+   "category": "deib_ingenuity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "deib-pp-041",
+   "type": "awl_word",
+   "word": "das soziale Netzwerk",
+   "polish": [
+    "portal społecznościowy",
+    "sieć społecznościowa"
+   ],
+   "example": "Viele Jugendliche nutzen soziale Netzwerke jeden Tag.",
+   "category": "deib_ingenuity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "deib-pp-042",
+   "type": "awl_word",
+   "word": "die Nachrichten",
+   "polish": [
+    "wiadomości (w mediach)"
+   ],
+   "example": "Ich sehe jeden Abend die Nachrichten im Fernsehen.",
+   "explanation": "Liczba mnoga; pojedyncza die Nachricht = wiadomość (np. SMS).",
+   "category": "deib_ingenuity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "deib-pp-043",
+   "type": "awl_word",
+   "word": "die Sendung",
+   "polish": [
+    "program (telewizyjny, radiowy)",
+    "audycja"
+   ],
+   "example": "Meine Lieblingssendung läuft um 20 Uhr.",
+   "category": "deib_ingenuity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "deib-pp-044",
+   "type": "awl_word",
+   "word": "die Zeitschrift",
+   "polish": [
+    "czasopismo"
+   ],
+   "example": "Ich lese gern Zeitschriften über Sport.",
+   "explanation": "die Zeitung = gazeta.",
+   "category": "deib_ingenuity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "deib-pp-045",
+   "type": "awl_word",
+   "word": "die Prüfung",
+   "polish": [
+    "egzamin",
+    "sprawdzian"
+   ],
+   "example": "Morgen habe ich eine Prüfung in Mathe.",
+   "explanation": "eine Prüfung bestehen = zdać egzamin.",
+   "category": "deib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "deib-pp-046",
+   "type": "awl_word",
+   "word": "bestehen",
+   "polish": [
+    "zdać (egzamin)"
+   ],
+   "example": "Ich habe die Prüfung bestanden!",
+   "explanation": "Perfekt: hat bestanden; nie zdać = durchfallen.",
+   "category": "deib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "deib-pp-047",
+   "type": "awl_word",
+   "word": "die Note",
+   "polish": [
+    "ocena",
+    "stopień"
+   ],
+   "example": "In Deutschland ist die Eins die beste Note.",
+   "explanation": "Skala ocen w Niemczech: 1 (sehr gut) do 6 (ungenügend).",
+   "category": "deib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "deib-pp-048",
+   "type": "awl_word",
+   "word": "der Stundenplan",
+   "polish": [
+    "plan lekcji"
+   ],
+   "example": "Nach dem Stundenplan haben wir montags Deutsch.",
+   "category": "deib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "deib-pp-049",
+   "type": "awl_word",
+   "word": "das Abitur",
+   "polish": [
+    "matura"
+   ],
+   "example": "Mein Bruder macht nächstes Jahr das Abitur.",
+   "category": "deib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "deib-pp-050",
+   "type": "awl_word",
+   "word": "die Ausbildung",
+   "polish": [
+    "wykształcenie",
+    "kształcenie zawodowe"
+   ],
+   "example": "Nach der Schule macht er eine Ausbildung als Mechaniker.",
+   "category": "deib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "deib-pp-051",
+   "type": "awl_word",
+   "word": "das Praktikum",
+   "polish": [
+    "praktyka (zawodowa)",
+    "staż"
+   ],
+   "example": "Im Sommer mache ich ein Praktikum in einer Firma.",
+   "explanation": "Liczba mnoga: die Praktika.",
+   "category": "deib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "deib-pp-052",
+   "type": "awl_word",
+   "word": "der Nebenjob",
+   "polish": [
+    "praca dorywcza"
+   ],
+   "example": "Viele Schüler haben einen Nebenjob am Wochenende.",
+   "category": "deib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "deib-pp-053",
+   "type": "awl_word",
+   "word": "verdienen",
+   "polish": [
+    "zarabiać"
+   ],
+   "example": "Als Kellner verdient man nicht viel.",
+   "category": "deib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "deib-pp-054",
+   "type": "awl_word",
+   "word": "sich bewerben um",
+   "polish": [
+    "ubiegać się o",
+    "aplikować"
+   ],
+   "example": "Ich bewerbe mich um einen Job im Café.",
+   "explanation": "Rzeczownik: die Bewerbung (podanie o pracę).",
+   "category": "deib_social",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "deib-pp-055",
+   "type": "awl_word",
+   "word": "die Ernährung",
+   "polish": [
+    "odżywianie",
+    "dieta"
+   ],
+   "example": "Gesunde Ernährung ist wichtig für den Körper.",
+   "explanation": "sich gesund ernähren = zdrowo się odżywiać.",
+   "category": "deib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "deib-pp-056",
+   "type": "awl_word",
+   "word": "das Medikament",
+   "polish": [
+    "lekarstwo"
+   ],
+   "example": "Nimm das Medikament dreimal am Tag.",
+   "explanation": "Apteka: die Apotheke.",
+   "category": "deib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "deib-pp-057",
+   "type": "awl_word",
+   "word": "sich erholen",
+   "polish": [
+    "odpoczywać",
+    "regenerować się"
+   ],
+   "example": "Im Urlaub habe ich mich gut erholt.",
+   "explanation": "Czasownik zwrotny; Perfekt: hat sich erholt.",
+   "category": "deib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "deib-pp-058",
+   "type": "awl_word",
+   "word": "die Gesellschaft",
+   "polish": [
+    "społeczeństwo"
+   ],
+   "example": "Die Gesellschaft verändert sich schnell.",
+   "category": "deib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.14"
+  },
+  {
+   "id": "deib-pp-059",
+   "type": "awl_word",
+   "word": "die Umwelt",
+   "polish": [
+    "środowisko (naturalne)"
+   ],
+   "example": "Wir müssen die Umwelt schützen.",
+   "explanation": "Ochrona środowiska: der Umweltschutz.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-060",
+   "type": "awl_word",
+   "word": "der Umweltschutz",
+   "polish": [
+    "ochrona środowiska"
+   ],
+   "example": "Umweltschutz ist ein wichtiges Thema in der Schule.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-061",
+   "type": "awl_word",
+   "word": "die Verschmutzung",
+   "polish": [
+    "zanieczyszczenie"
+   ],
+   "example": "Die Verschmutzung der Flüsse ist ein großes Problem.",
+   "explanation": "Czasownik: verschmutzen.",
+   "category": "deib_planet",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-062",
+   "type": "awl_word",
+   "word": "der Müll",
+   "polish": [
+    "śmieci",
+    "odpady"
+   ],
+   "example": "Wir trennen zu Hause den Müll.",
+   "explanation": "Müll trennen = segregować śmieci.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-063",
+   "type": "awl_word",
+   "word": "recyceln",
+   "polish": [
+    "przetwarzać",
+    "poddawać recyklingowi"
+   ],
+   "example": "Papier und Glas kann man recyceln.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-064",
+   "type": "awl_word",
+   "word": "der Klimawandel",
+   "polish": [
+    "zmiana klimatu"
+   ],
+   "example": "Der Klimawandel ist eine Gefahr für die Erde.",
+   "category": "deib_planet",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-065",
+   "type": "awl_word",
+   "word": "schützen",
+   "polish": [
+    "chronić"
+   ],
+   "example": "Wir sollten die Tiere im Wald schützen.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-066",
+   "type": "awl_word",
+   "word": "die Energie",
+   "polish": [
+    "energia"
+   ],
+   "example": "Solarenergie ist eine saubere Energie.",
+   "explanation": "erneuerbare Energie = energia odnawialna.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-067",
+   "type": "awl_word",
+   "word": "die Jahreszeit",
+   "polish": [
+    "pora roku"
+   ],
+   "example": "Der Herbst ist meine liebste Jahreszeit.",
+   "explanation": "Pory roku: der Frühling, der Sommer, der Herbst, der Winter.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-068",
+   "type": "awl_word",
+   "word": "das Gewitter",
+   "polish": [
+    "burza"
+   ],
+   "example": "Gestern gab es ein starkes Gewitter mit Blitz und Donner.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-069",
+   "type": "awl_word",
+   "word": "die Landschaft",
+   "polish": [
+    "krajobraz"
+   ],
+   "example": "Die Landschaft in den Alpen ist wunderschön.",
+   "category": "deib_planet",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-070",
+   "type": "awl_word",
+   "word": "aussterben",
+   "polish": [
+    "wymierać"
+   ],
+   "example": "Viele Tierarten sterben aus.",
+   "explanation": "Czasownik rozdzielnie złożony; Perfekt: ist ausgestorben.",
+   "category": "deib_planet",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.13"
+  },
+  {
+   "id": "deib-pp-071",
+   "type": "cloze",
+   "text": "Ich habe gestern Fußball {{gespielt}}.",
+   "hint": "Partizip II od „spielen”",
+   "explanation": "Perfekt czasowników regularnych: haben + ge- + temat + -t.",
+   "category": "deib_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-072",
+   "type": "cloze",
+   "text": "Er hat das Buch schon {{gelesen}}.",
+   "hint": "Partizip II od „lesen”",
+   "explanation": "Czasowniki nieregularne: ge- + temat (często zmieniony) + -en: gelesen, gegessen, getrunken.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-073",
+   "type": "cloze",
+   "text": "Wir {{sind}} am Wochenende nach Berlin gefahren.",
+   "hint": "haben czy sein?",
+   "explanation": "Czasowniki ruchu i zmiany stanu (fahren, gehen, kommen, aufstehen) tworzą Perfekt z „sein”.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-074",
+   "type": "cloze",
+   "text": "Sie ist um sieben Uhr {{aufgestanden}}.",
+   "hint": "Partizip II od „aufstehen”",
+   "explanation": "Czasowniki rozdzielnie złożone: przedrostek + ge + temat: aufgestanden, eingekauft.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-075",
+   "type": "cloze",
+   "text": "Ich habe den Film im Kino {{gesehen}}.",
+   "hint": "Partizip II od „sehen”",
+   "explanation": "sehen – sah – hat gesehen.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-076",
+   "type": "cloze",
+   "text": "Gestern {{war}} ich den ganzen Tag zu Hause.",
+   "hint": "Präteritum od „sein”, 1. osoba",
+   "explanation": "Präteritum: ich war, du warst, er war, wir waren; „haben”: ich hatte.",
+   "category": "deib_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-077",
+   "type": "cloze",
+   "text": "Ich {{kann}} sehr gut schwimmen.",
+   "hint": "czasownik modalny: umieć",
+   "explanation": "können: ich kann, du kannst, er kann; bezokolicznik na końcu zdania.",
+   "category": "deib_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-078",
+   "type": "cloze",
+   "text": "Du {{musst}} heute die Hausaufgaben machen.",
+   "hint": "czasownik modalny: musieć, 2. osoba",
+   "explanation": "müssen: ich muss, du musst, er muss, wir müssen.",
+   "category": "deib_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-079",
+   "type": "cloze",
+   "text": "Hier {{darf}} man nicht parken.",
+   "hint": "czasownik modalny: mieć pozwolenie",
+   "explanation": "dürfen: ich darf, du darfst, er/man darf; „nicht dürfen” = nie wolno.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-080",
+   "type": "cloze",
+   "text": "Ich gehe mit {{meinem}} Bruder ins Kino.",
+   "hint": "mit + Dativ, rodzaj męski",
+   "explanation": "Przyimki z celownikiem: mit, nach, aus, zu, von, bei, seit.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-081",
+   "type": "cloze",
+   "text": "Das Geschenk ist für {{meinen}} Vater.",
+   "hint": "für + Akkusativ, rodzaj męski",
+   "explanation": "Przyimki z biernikiem: für, durch, gegen, ohne, um.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-082",
+   "type": "cloze",
+   "text": "Das Buch liegt auf {{dem}} Tisch.",
+   "hint": "Wo? – Dativ",
+   "explanation": "Przyimki zmienne (auf, in, an, unter…): na pytanie „wo?” celownik, na pytanie „wohin?” biernik.",
+   "category": "deib_grammar",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-083",
+   "type": "cloze",
+   "text": "Ich lege das Buch auf {{den}} Tisch.",
+   "hint": "Wohin? – Akkusativ",
+   "explanation": "Ruch w kierunku (wohin?) = Akkusativ: auf den Tisch, in die Schule.",
+   "category": "deib_grammar",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-084",
+   "type": "cloze",
+   "text": "Kannst du {{mir}} bitte helfen?",
+   "hint": "zaimek osobowy w celowniku, 1. osoba",
+   "explanation": "„helfen” łączy się z celownikiem: mir, dir, ihm, ihr, uns, euch, ihnen.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-085",
+   "type": "cloze",
+   "text": "Ich bleibe zu Hause, {{weil}} ich krank bin.",
+   "hint": "spójnik „ponieważ”",
+   "explanation": "Po „weil” czasownik odmieniony stoi na końcu zdania podrzędnego.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-086",
+   "type": "cloze",
+   "text": "Ich glaube, {{dass}} er morgen kommt.",
+   "hint": "spójnik „że”",
+   "explanation": "Po „dass” szyk końcowy: czasownik na końcu zdania.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-087",
+   "type": "cloze",
+   "text": "Mein Bruder ist {{älter}} als ich.",
+   "hint": "Komparativ od „alt”",
+   "explanation": "Stopień wyższy: -er, często z przegłosem: alt – älter, groß – größer; porównanie z „als”.",
+   "category": "deib_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-088",
+   "type": "cloze",
+   "text": "Der Mount Everest ist der {{höchste}} Berg der Welt.",
+   "hint": "Superlativ od „hoch”",
+   "explanation": "Stopień najwyższy z rodzajnikiem: der/die/das + -ste: hoch – höher – am höchsten / der höchste.",
+   "category": "deib_grammar",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB grammar"
+  },
+  {
+   "id": "deib-pp-089",
+   "type": "awl_word",
+   "word": "Könnten Sie das bitte wiederholen?",
+   "polish": [
+    "Czy mógłby Pan/Pani to powtórzyć?"
+   ],
+   "example": "Entschuldigung, könnten Sie das bitte wiederholen? Ich habe es nicht verstanden.",
+   "explanation": "Zwrot podtrzymujący rozmowę; „könnten” to grzeczna forma od „können”.",
+   "category": "deib_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "deib-pp-090",
+   "type": "awl_word",
+   "word": "Ich bin der Meinung, dass …",
+   "polish": [
+    "Jestem zdania, że …",
+    "Uważam, że …"
+   ],
+   "example": "Ich bin der Meinung, dass Sport sehr wichtig ist.",
+   "explanation": "Po „dass” czasownik stoi na końcu zdania.",
+   "category": "deib_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.4"
+  },
+  {
+   "id": "deib-pp-091",
+   "type": "awl_word",
+   "word": "Herzlichen Glückwunsch zum Geburtstag!",
+   "polish": [
+    "Wszystkiego najlepszego z okazji urodzin!"
+   ],
+   "example": "Herzlichen Glückwunsch zum Geburtstag, Anna! Alles Gute!",
+   "explanation": "Inne życzenia: Frohe Weihnachten!, Frohes neues Jahr!",
+   "category": "deib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.6"
+  },
+  {
+   "id": "deib-pp-092",
+   "type": "awl_word",
+   "word": "Hast du Lust, … zu …?",
+   "polish": [
+    "Masz ochotę …?"
+   ],
+   "example": "Hast du Lust, am Samstag ins Kino zu gehen?",
+   "explanation": "Zaproszenie; odpowiedź: Ja, gern! / Tut mir leid, ich habe keine Zeit.",
+   "category": "deib_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.7"
+  },
+  {
+   "id": "deib-pp-093",
+   "type": "awl_word",
+   "word": "Du solltest …",
+   "polish": [
+    "Powinieneś …"
+   ],
+   "example": "Du solltest mehr schlafen und weniger am Handy sein.",
+   "explanation": "Udzielanie rady; „sollte” to Konjunktiv II od „sollen”.",
+   "category": "deib_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.9"
+  },
+  {
+   "id": "deib-pp-094",
+   "type": "awl_word",
+   "word": "Darf ich …?",
+   "polish": [
+    "Czy mogę …?"
+   ],
+   "example": "Darf ich das Fenster öffnen?",
+   "explanation": "Pytanie o pozwolenie; odpowiedź: Ja, natürlich. / Nein, leider nicht.",
+   "category": "deib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.10"
+  },
+  {
+   "id": "deib-pp-095",
+   "type": "cloze",
+   "text": "Heute ist der {{dritte}} Oktober.",
+   "hint": "liczebnik porządkowy 3.",
+   "explanation": "Daty: der erste, der zweite, der dritte, der siebte, der zwanzigste; „am dritten Oktober” = 3 października.",
+   "category": "deib_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "deib-pp-096",
+   "type": "cloze",
+   "text": "Das Fahrrad kostet {{zweihundertfünfzig}} Euro.",
+   "hint": "liczba 250",
+   "explanation": "Liczby trzycyfrowe: setki + dziesiątki, np. 250 = zweihundertfünfzig, 21 = einundzwanzig.",
+   "category": "deib_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  }
+ ]
+}
