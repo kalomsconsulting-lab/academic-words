@@ -498,7 +498,7 @@ details > summary { cursor: pointer; font-weight: 600; }
 .pack > summary::-webkit-details-marker { display: none; }
 .pack > summary::before { content: '▸'; color: var(--muted); }
 .pack[open] > summary::before { content: '▾'; }
-.pack-name { flex: 1; min-width: 0; font-weight: 700; overflow-wrap: anywhere; }
+.pack-name { flex: 1 1 12em; min-width: 0; font-weight: 700; overflow-wrap: anywhere; }
 .pack-items { border-top: 1px solid var(--border); }
 .pack-item { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--border); }
 .pack-item .txt { flex: 1; min-width: 0; overflow-wrap: anywhere; }

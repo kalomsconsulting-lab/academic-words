@@ -7,6 +7,7 @@
   // Stałe
   // ===================================================================
   const STORAGE_KEY = 'awv:v1';
+  const SHARED_KEY = 'awv:shared'; // kopia wspólnych materiałów z Supabase (działa offline)
 
   const CATEGORIES = {
     phrasal_verbs:    { label: 'Phrasal verbs', short: 'Phrasal verbs', pl: 'czasowniki frazowe', icon: '🔗' },
@@ -477,7 +478,8 @@
     const it = { ...raw, difficulty: Math.min(3, Math.max(1, Number(raw.difficulty) || 1)) };
     it.subject = subjectOf(raw);
     if (!catOf(it.category, it.subject)) it.category = defaultCat(it.type, it.subject);
-    it._custom = String(it.id).startsWith('c-');
+    it._shared = String(it.id).startsWith('s-');                 // wspólne: widoczne dla wszystkich
+    it._custom = it._shared || String(it.id).startsWith('c-');  // dodane w aplikacji (prywatne lub wspólne)
     switch (it.type) {
       case 'qa':
         it.question = String(it.question).trim();
@@ -539,6 +541,7 @@
   }
 
   let BASE_ITEMS = [];
+  let SHARED = (() => { try { return JSON.parse(localStorage.getItem(SHARED_KEY) || '[]'); } catch (e) { return []; } })();
 
   // Pliki wszystkich przedmiotów. Bez słownictwa domyślnego przedmiotu aplikacja nie startuje,
   // brak pliku innego przedmiotu (np. offline przed pierwszym pobraniem) daje tylko pusty przedmiot.
@@ -566,7 +569,7 @@
   // Scala słownik z własnymi materiałami — wołane też po dodaniu/usunięciu i po synchronizacji.
   function rebuildVocab() {
     const gone = state.deletedCustom || {};
-    VOCAB = [...BASE_ITEMS, ...state.customItems.filter((c) => !gone[c.id])].map(prepareItem).filter(Boolean);
+    VOCAB = [...BASE_ITEMS, ...state.customItems, ...SHARED].filter((c) => !gone[c.id]).map(prepareItem).filter(Boolean);
     BY_ID.clear();
     MC_POOL.clear();
     for (const it of VOCAB) {
@@ -1484,11 +1487,11 @@
 
     const chips = h('div', { class: 'chips' });
     const drawChips = () => chips.replaceChildren(
-      ...[['all', 'Wszystkie'], ...(mine.length ? [['custom', '⭐ Moje']] : []), ...catsOf(currentSubject()).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
+      ...[['all', 'Wszystkie'], ...(mine.length ? [['custom', '⭐ Dodane']] : []), ...catsOf(currentSubject()).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
         h('button', { class: 'chip' + (quickCat === k ? ' active' : ''), onClick: () => { quickCat = k; drawChips(); } }, label)));
     drawChips();
 
-    const catRows = [...catsOf(currentSubject()), ['custom', { label: 'Moje materiały', pl: 'własne wpisy', icon: '⭐' }]].map(([key, c]) => {
+    const catRows = [...catsOf(currentSubject()), ['custom', { label: 'Dodane materiały', pl: 'własne i wspólne', icon: '⭐' }]].map(([key, c]) => {
       const items = key === 'custom' ? mine : pool.filter((it) => it.category === key);
       if (!items.length) return null;
       const s = statsFor(items);
@@ -1580,7 +1583,7 @@
     cfg.category = validCat(cfg.category, subjectPool());
     const catSelect = h('select', { id: 'f-cat', value: cfg.category, onChange: (e) => { cfg.category = e.target.value; persist(); } },
       h('option', { value: 'all' }, 'Wszystkie kategorie'),
-      hasMine ? h('option', { value: 'custom' }, '⭐ Moje materiały') : null,
+      hasMine ? h('option', { value: 'custom' }, '⭐ Dodane materiały') : null,
       catsOf(currentSubject()).map(([k, c]) => h('option', { value: k }, `${c.icon} ${c.label}`)));
     const diffSelect = h('select', { id: 'f-diff', value: String(cfg.difficulty), onChange: (e) => { cfg.difficulty = e.target.value; persist(); } },
       h('option', { value: 'all' }, 'Wszystkie poziomy'),
@@ -1658,7 +1661,8 @@
     const badges = h('div', { class: 'word-badges' },
       it.type === 'academic_verb' ? h('span', { class: 'badge' }, FUNCTION_LABELS[it.function]) : null,
       it.type === 'awl_word' && it.awl_group ? h('span', { class: 'badge' }, `AWL ${it.awl_group}`) : null,
-      it._custom ? h('span', { class: 'badge mine', title: it.source }, '⭐ Moje') : null,
+      it._shared ? h('span', { class: 'badge mine', title: `${it.source} — od ${it.author}` }, '👥 Wspólne')
+        : it._custom ? h('span', { class: 'badge mine', title: it.source }, '⭐ Moje') : null,
       it.type === 'hedging' ? h('span', { class: 'badge', title: TECHNIQUES[it.technique] }, (TECHNIQUE_DEFS[it.technique] || {}).en || it.technique) : null,
       h('span', { class: 'badge', title: DIFFICULTY[it.difficulty] }, '●'.repeat(it.difficulty) + '○'.repeat(3 - it.difficulty)),
       h('span', { class: 'badge ' + st }, STATUS_LABELS[st]));
@@ -1742,7 +1746,7 @@
       h('h1', null, 'Karty'),
       h('div', { class: 'filters' },
         search,
-        sel('category', [['all', 'Wszystkie kategorie'], ...(subjectPool().some((it) => it._custom) ? [['custom', '⭐ Moje materiały']] : []),
+        sel('category', [['all', 'Wszystkie kategorie'], ...(subjectPool().some((it) => it._custom) ? [['custom', '⭐ Dodane materiały']] : []),
           ...catsOf(currentSubject()).map(([k, c]) => [k, c.label])], 'Kategoria'),
         sel('type', [['all', 'Wszystkie typy'], ...SUBJECTS[currentSubject()].types.map((t) => [t, typeLabel(t, currentSubject())])], 'Typ'),
         sel('sort', [['alpha', 'A → Z'], ['difficulty', 'Poziom ↑'], ['difficulty_desc', 'Poziom ↓'], ['status', 'Status (nowe najpierw)']], 'Sortowanie')),
@@ -1872,7 +1876,7 @@
   let pending = null;
   let lastAdded = null; // { source, ids } — komunikat po dodaniu
   const openPacks = new Set();
-  const matUi = { tab: 'ai', subject: null, aiText: '', aiSource: '', pasteText: '', pasteSource: '' };
+  const matUi = { tab: 'ai', visibility: 'private', subject: null, aiText: '', aiSource: '', pasteText: '', pasteSource: '' };
   // Przedmiot w widoku materiałów (domyślnie bieżący) i zależne od niego typ i kategoria w panelach.
   function setMatSubject(subject) {
     const subj = SUBJECTS[subject];
@@ -1933,7 +1937,10 @@
     const seen = new Map();
     for (const it of VOCAB) {
       const k = dupKey(it);
-      if (k && !seen.has(k)) seen.set(k, it._custom ? `już w Twoich materiałach („${it.source}”)` : 'już jest w kartach');
+      if (k && !seen.has(k)) {
+        seen.set(k, it._shared ? `już we wspólnych materiałach („${it.source}”, od ${it.author})`
+          : it._custom ? `już w Twoich materiałach („${it.source}”)` : 'już jest w kartach');
+      }
     }
     for (const r of prev ? prev.rows : []) {
       const k = !r.errors.length && dupKey(r.item);
@@ -1975,23 +1982,41 @@
     return out;
   }
 
-  function commitPending() {
+  // Zapis podglądu: prywatnie (state.customItems, id "c-…") albo dla wszystkich (tabela shared_items, id "s-…").
+  async function commitPending(shared) {
     const rows = pending.rows.filter((r) => r.checked && !r.errors.length);
-    if (!rows.length) return;
+    if (!rows.length) return false;
     const stamp = Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
     const addedAt = new Date().toISOString();
-    const added = rows.map((r, i) => ({ ...r.item, id: `c-${stamp}-${i}`, source: pending.source, addedAt }));
-    state.customItems = [...state.customItems, ...added];
-    save();
+    const source = pending.source;
+    const added = rows.map((r, i) => ({ ...r.item, id: `${shared ? 's' : 'c'}-${stamp}-${i}`, source, addedAt }));
+    if (shared) {
+      if (!canShare()) { toast('Udostępnianie wymaga zalogowania (Ustawienia → Synchronizacja).'); return false; }
+      const author = state.settings.name.trim() || (sync.user.email || '').split('@')[0];
+      const recs = added.map(({ id, source: src, addedAt: _a, ...item }) => ({ id, item, source: src, author_name: author }));
+      const { error } = await sync.client.from('shared_items').insert(recs);
+      if (error) { toast('Nie udało się udostępnić: ' + error.message); return false; }
+      setShared([...SHARED, ...recs.map((r) => sharedFromRow({ ...r, author_id: sync.user.id, created_at: addedAt }))]);
+    } else {
+      state.customItems = [...state.customItems, ...added];
+      save();
+    }
     rebuildVocab();
-    lastAdded = { source: pending.source, ids: added.map((a) => a.id) };
+    lastAdded = { source, ids: added.map((a) => a.id), shared };
     pending = null;
-    toast(`Dodano ${added.length} ${plural(added.length, 'wpis', 'wpisy', 'wpisów')} ✅`);
+    toast(`Dodano ${added.length} ${plural(added.length, 'wpis', 'wpisy', 'wpisów')}${shared ? ' dla wszystkich' : ''} ✅`);
+    return true;
   }
 
-  function removeCustom(ids, what) {
-    if (!confirm(`Usunąć ${what}? Postęp nauki tych słów też zostanie usunięty (również na innych urządzeniach po synchronizacji).`)) return false;
+  async function removeCustom(ids, what, shared) {
+    const where = shared ? 'Zniknie u wszystkich użytkowników. ' : '';
+    if (!confirm(`Usunąć ${what}? ${where}Postęp nauki tych słów też zostanie usunięty (również na innych urządzeniach po synchronizacji).`)) return false;
     const del = new Set(ids);
+    if (shared) {
+      const { error } = await sync.client.from('shared_items').delete().in('id', ids);
+      if (error) { toast('Nie udało się usunąć: ' + error.message); return false; }
+      setShared(SHARED.filter((c) => !del.has(c.id)));
+    }
     const ts = Date.now();
     state.deletedCustom = { ...state.deletedCustom };
     for (const id of del) { state.deletedCustom[id] = ts; delete state.progress[id]; }
@@ -2001,6 +2026,27 @@
     rebuildVocab();
     toast('Usunięto');
     return true;
+  }
+
+  // ----- Wspólne materiały (Supabase, tabela shared_items): czyta każdy, dodaje zalogowany, usuwa tylko autor.
+  const canShare = () => !!(sync.client && sync.user);
+  const sharedFromRow = (r) => ({ ...r.item, id: r.id, source: r.source, addedAt: r.created_at, author: r.author_name || 'ktoś', authorId: r.author_id });
+  function setShared(list) {
+    SHARED = list;
+    try { localStorage.setItem(SHARED_KEY, JSON.stringify(list)); } catch (e) { /* tylko kopia offline */ }
+  }
+
+  async function loadShared() {
+    if (!sync.client || !navigator.onLine) return;
+    const { data, error } = await sync.client.from('shared_items')
+      .select('id, item, source, author_id, author_name, created_at').order('created_at');
+    if (error) { sync.sharedError = error.message; return; } // np. tabela jeszcze nie założona — zostaje kopia lokalna
+    sync.sharedError = '';
+    const before = SHARED.map((c) => c.id).join();
+    setShared(data.map(sharedFromRow));
+    if (SHARED.map((c) => c.id).join() === before) return;
+    rebuildVocab();
+    if (['dashboard', 'browse', 'settings'].includes(currentRoute) || (currentRoute === 'materials' && !pending)) route();
   }
 
   function learnItems(ids) {
@@ -2051,7 +2097,8 @@
         if (ids.length) {
           previewCard.replaceChildren(
             h('h2', null, `✅ Dodano ${ids.length} ${plural(ids.length, 'wpis', 'wpisy', 'wpisów')}`),
-            h('p', { class: 'muted small' }, `Paczka „${lastAdded.source}”. Nowe karty są już w Kartach, w sesjach i w powtórkach (jako nowe, przed resztą).`),
+            h('p', { class: 'muted small' }, `Paczka „${lastAdded.source}” ${lastAdded.shared ? '(👥 dla wszystkich)' : '(🔒 tylko dla Ciebie)'}. `,
+              'Nowe karty są już w Kartach, w sesjach i w powtórkach (jako nowe, przed resztą).'),
             h('div', { class: 'row' },
               h('button', { class: 'btn btn-primary', onClick: () => learnItems(ids) }, '🎯 Ucz się ich teraz'),
               h('button', { class: 'btn btn-ghost', onClick: () => { lastAdded = null; drawPreview(); } }, 'Zamknij')));
@@ -2069,8 +2116,25 @@
         addBtn.textContent = `Dodaj (${n})`;
         addBtn.disabled = !n;
       };
-      addBtn.addEventListener('click', () => { commitPending(); drawPreview(); drawManage(); });
+      addBtn.addEventListener('click', async () => {
+        addBtn.disabled = true;
+        if (await commitPending(matUi.visibility === 'shared')) { drawPreview(); drawManage(); } else updateBtn();
+      });
       updateBtn();
+      if (!canShare()) matUi.visibility = 'private';
+      const visHint = h('p', { class: 'muted small', style: 'margin:6px 0 0' });
+      const drawVisHint = () => {
+        visHint.textContent = !canShare()
+          ? 'Udostępnianie wszystkim wymaga zalogowania (Ustawienia → Synchronizacja).'
+          : matUi.visibility === 'shared'
+            ? 'Wpisy zobaczą wszyscy użytkownici aplikacji. Usunąć je możesz tylko Ty.'
+            : 'Wpisy będą widoczne tylko na Twoim koncie.';
+      };
+      drawVisHint();
+      const vis = seg([['private', '🔒 Tylko dla mnie'], ['shared', '👥 Dla wszystkich']], matUi.visibility, (v) => { matUi.visibility = v; drawVisHint(); });
+      vis.classList.add('seg-full');
+      vis.style.marginBottom = '0';
+      if (!canShare()) vis.querySelectorAll('button').forEach((b) => { if (!b.classList.contains('active')) b.disabled = true; });
       previewCard.replaceChildren(h('div', null,
         h('h2', null, 'Podgląd przed zapisem'),
         h('p', { class: 'muted small' }, 'Źródło: ', h('b', null, pending.source),
@@ -2080,6 +2144,7 @@
           rows.length ? 'Odznacz wpisy, których nie chcesz dodawać.' : ''),
         pending.notes.length ? h('div', { class: 'pv-notes' }, pending.notes.map((n) => h('div', { class: 'pv-msg bad' }, '✗ ' + n))) : null,
         rows.length ? h('div', { class: 'pv-list' }, rows.map((r) => previewRow(r, updateBtn))) : null,
+        h('div', { class: 'field', style: 'margin:14px 0 0' }, h('span', { class: 'label' }, 'Dla kogo?'), vis, visHint),
         h('div', { class: 'row', style: 'margin-top:14px' },
           h('button', { class: 'btn btn-ghost', onClick: () => { pending = null; drawPreview(); } }, 'Anuluj'),
           h('div', { class: 'spacer' }),
@@ -2088,27 +2153,36 @@
     }
 
     function drawManage() {
-      const groups = new Map();
-      for (const c of state.customItems) {
-        const k = c.source || 'bez nazwy';
-        if (!groups.has(k)) groups.set(k, []);
-        groups.get(k).push(c);
-      }
-      const title = h('h2', null, `📚 Moje materiały${state.customItems.length ? ` (${state.customItems.length})` : ''}`);
+      const me = sync.user && sync.user.id;
+      const groups = new Map(); // klucz: widoczność + źródło (+ autor dla wspólnych)
+      const add = (c, shared) => {
+        const k = shared ? `s|${c.authorId}|${c.source}` : `c|${c.source || 'bez nazwy'}`;
+        if (!groups.has(k)) groups.set(k, { key: k, src: c.source || 'bez nazwy', shared, author: c.author, mine: !shared || c.authorId === me, items: [] });
+        groups.get(k).items.push(c);
+      };
+      state.customItems.forEach((c) => add(c, false));
+      // wspólne z innych ścieżek nauki (np. Biologia 7 klasy dla ucznia IB) nie są tu potrzebne
+      const visibleShared = SHARED.filter((c) => c.authorId === me || levelSubjects().includes(subjectOf(c)));
+      visibleShared.forEach((c) => add(c, true));
+      const total = state.customItems.length + visibleShared.length;
+      const title = h('h2', null, `📚 Dodane materiały${total ? ` (${total})` : ''}`);
       if (!groups.size) {
-        manageCard.replaceChildren(title, h('p', { class: 'muted small' }, 'Nie masz jeszcze własnych materiałów. Dodane wpisy trafią do sesji, powtórek i statystyk kategorii tak jak pozostałe karty.'));
+        manageCard.replaceChildren(title, h('p', { class: 'muted small' }, 'Nie ma jeszcze dodanych materiałów. Dodane wpisy trafią do sesji, powtórek i statystyk kategorii tak jak pozostałe karty.'));
         return;
       }
-      const del = (ids, what) => { if (removeCustom(ids, what)) { drawManage(); drawPreview(); } };
+      const del = async (ids, what, shared) => { if (await removeCustom(ids, what, shared)) { drawManage(); drawPreview(); } };
+      const list = [...groups.values()].sort((a, b) => b.mine - a.mine);
       manageCard.replaceChildren(title,
-        h('p', { class: 'muted small' }, 'Pogrupowane według źródła. Usunięcie kasuje też postęp nauki tych słów.'),
-        ...[...groups].map(([src, items]) => {
+        h('p', { class: 'muted small' }, '🔒 tylko Twoje · 👥 wspólne dla wszystkich (usunąć może tylko autor). Usunięcie kasuje też postęp nauki tych słów.'),
+        ...list.map((g) => {
+          const { src, items, shared } = g;
           const latest = items.reduce((m, c) => (c.addedAt > m ? c.addedAt : m), '');
           const n = items.length;
-          const det = h('details', { class: 'pack', open: openPacks.has(src) },
+          const who = shared ? (g.mine ? '👥 Twoje, dla wszystkich' : `👥 od ${g.author}`) : '🔒 tylko Ty';
+          const det = h('details', { class: 'pack', open: openPacks.has(g.key) },
             h('summary', null,
               h('span', { class: 'pack-name' }, src),
-              h('span', { class: 'muted small' }, `${n} ${plural(n, 'wpis', 'wpisy', 'wpisów')} · ${fmtDate(latest)}`)),
+              h('span', { class: 'muted small' }, `${who} · ${n} ${plural(n, 'wpis', 'wpisy', 'wpisów')} · ${fmtDate(latest)}`)),
             h('div', { class: 'pack-items' }, items.map((c) => {
               const it = BY_ID.get(c.id);
               const label = it ? it._label : textKey(c);
@@ -2116,13 +2190,13 @@
                 h('div', { class: 'txt' },
                   h('b', null, label), it && it._answer ? h('span', { class: 'muted' }, ' — ' + it._answer) : null,
                   h('div', { class: 'pv-meta' }, `${SUBJECTS[subjectOf(c)].icon} ${typeLabel(c.type, subjectOf(c))} · ${(CATEGORIES[it ? it.category : c.category] || {}).label || '—'} · ${it ? STATUS_LABELS[statusOf(it)] : '—'}`)),
-                h('button', { class: 'icon-btn', title: 'Usuń wpis', 'aria-label': `Usuń: ${label}`, onClick: () => del([c.id], `wpis „${label}”`) }, '🗑'));
+                g.mine ? h('button', { class: 'icon-btn', title: 'Usuń wpis', 'aria-label': `Usuń: ${label}`, onClick: () => del([c.id], `wpis „${label}”`, shared) }, '🗑') : null);
             })),
             h('div', { class: 'row pack-actions' },
               h('button', { class: 'btn', onClick: () => learnItems(items.map((c) => c.id)) }, '🎯 Ucz się'),
               h('div', { class: 'spacer' }),
-              h('button', { class: 'btn btn-danger', onClick: () => del(items.map((c) => c.id), `całą paczkę „${src}” (${n} ${plural(n, 'wpis', 'wpisy', 'wpisów')})`) }, 'Usuń paczkę')));
-          det.addEventListener('toggle', () => (det.open ? openPacks.add(src) : openPacks.delete(src)));
+              g.mine ? h('button', { class: 'btn btn-danger', onClick: () => del(items.map((c) => c.id), `całą paczkę „${src}” (${n} ${plural(n, 'wpis', 'wpisy', 'wpisów')})`, shared) }, 'Usuń paczkę') : null));
+          det.addEventListener('toggle', () => (det.open ? openPacks.add(g.key) : openPacks.delete(g.key)));
           return det;
         }));
     }
@@ -2474,6 +2548,7 @@
       if (currentRoute === 'dashboard' || currentRoute === 'family') route();
     });
     await sync.client.auth.getSession();
+    loadShared().catch(() => {});
     // posprzątaj adres po kliknięciu linku z e-maila (?code=… / ?error=…)
     const qs = new URLSearchParams(location.search);
     if (qs.has('code') || qs.has('error')) {
@@ -2483,7 +2558,7 @@
     window.addEventListener('online', () => sync.dirty && syncNow());
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState === 'hidden' && sync.dirty) syncNow();
-      if (document.visibilityState === 'visible') syncNow(); // nauka mogła się odbyć na innym urządzeniu
+      if (document.visibilityState === 'visible') { syncNow(); loadShared().catch(() => {}); } // zmiany z innych urządzeń i od innych osób
     });
   }
 

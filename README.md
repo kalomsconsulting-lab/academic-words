@@ -79,8 +79,10 @@ git push
 
 Są dwie drogi:
 
-- **W aplikacji** (bez edytowania plików i bez pusha): *Dodaj materiały* w menu. Karty trafiają do Twojego postępu i synchronizują się między urządzeniami.
-- **Przez `vocabulary.json`**: słowa trafiają do wszystkich użytkowników aplikacji.
+- **W aplikacji** (bez edytowania plików i bez pusha): *Dodaj materiały* w menu. Przed zapisem wybierasz, dla kogo są karty:
+  - **🔒 Tylko dla mnie**: trafiają do Twojego konta i synchronizują się między Twoimi urządzeniami;
+  - **👥 Dla wszystkich**: widzą je wszyscy użytkownicy aplikacji (w swoich ścieżkach nauki), także bez logowania. Wymaga zalogowania i jednorazowego założenia tabeli [`supabase/shared.sql`](supabase/shared.sql) (sekcja *Wspólne materiały* niżej).
+- **Przez `vocabulary.json`** (i pliki w `data/`): karty wbudowane w aplikację, dla wszystkich, zmiana wymaga pusha.
 
 ### W aplikacji (własne materiały)
 
@@ -107,12 +109,12 @@ Na górze widoku wybiera się przedmiot, do którego trafią karty. Cztery sposo
    Kilka tłumaczeń oddziela się przecinkiem. Linie puste i zaczynające się od `#` są pomijane.
 4. **Formularz** do pojedynczego słowa, z polami zależnymi od typu.
 
-Każdy import kończy się **podglądem**: wpisy z błędami (brak wymaganego pola, nieznany typ, kategoria, funkcja lub technika) są zablokowane, a duplikaty (to samo słowo już jest w słowniku, we własnych materiałach albo dwa razy w imporcie) są domyślnie odznaczone. Dopiero przycisk *Dodaj* zapisuje zaznaczone wpisy.
+Każdy import kończy się **podglądem**: wpisy z błędami (brak wymaganego pola, nieznany typ, kategoria, funkcja lub technika) są zablokowane, a duplikaty (to samo słowo już jest w kartach, we własnych lub wspólnych materiałach albo dwa razy w imporcie) są domyślnie odznaczone. Pod listą wybiera się *Dla kogo?* (🔒 / 👥), a dopiero przycisk *Dodaj* zapisuje zaznaczone wpisy.
 
 Szczegóły techniczne:
-- Wpisy trafiają do `state.customItems` z `id` `c-<znacznik czasu>-<nr>`, polem `source` (nazwa pliku, nazwa paczki albo „ręcznie”) i `addedAt`. Przechodzą tę samą walidację co `vocabulary.json` (`itemErrors()` / `prepareItem()` w `app.js`).
-- Nowe karty od razu są w Kartach, sesjach i statystykach kategorii. Powtórki SRS wprowadzają je jako *nowe* przed resztą (w ramach dziennego limitu nowych słów). Filtr *⭐ Moje materiały* jest we Własnej sesji, Kartach i na panelu *Dziś*.
-- *Moje materiały* grupują wpisy według źródła. Można usunąć pojedynczy wpis albo całą paczkę. Usunięcie kasuje też postęp tych słów i zapisuje id w `state.deletedCustom` (tombstones), więc synchronizacja nie przywróci ich z innego urządzenia.
+- Prywatne wpisy trafiają do `state.customItems` z `id` `c-<znacznik czasu>-<nr>`, wspólne do tabeli `shared_items` z `id` `s-…` (plus `author_name`, `author_id`). Oba rodzaje mają pole `source` (nazwa pliku, nazwa paczki albo „ręcznie”) i datę dodania, i przechodzą tę samą walidację co `vocabulary.json` (`itemErrors()` / `prepareItem()` w `app.js`).
+- Nowe karty od razu są w Kartach, sesjach i statystykach kategorii. Powtórki SRS wprowadzają je jako *nowe* przed resztą (w ramach dziennego limitu nowych słów). Filtr *⭐ Dodane materiały* (prywatne i wspólne) jest we Własnej sesji, Kartach i na panelu *Dziś*; wspólne karty mają znaczek *👥 Wspólne*.
+- *Dodane materiały* grupują wpisy według źródła: 🔒 Twoje prywatne, 👥 Twoje wspólne i 👥 wspólne innych osób (z ich ścieżki nauki). Usuwać można własne paczki i wpisy; cudzych wspólnych nie. Usunięcie kasuje też postęp tych słów i zapisuje id w `state.deletedCustom` (tombstones), więc synchronizacja nie przywróci ich z innego urządzenia. Usunięcie wspólnej paczki znika u wszystkich przy ich następnym otwarciu aplikacji (postęp innych osób dla tych kart zostaje w ich danych, ale nigdzie się nie liczy).
 
 ### Przez vocabulary.json
 
@@ -196,6 +198,15 @@ Warto wiedzieć:
 - Darmowy projekt jest wstrzymywany po ok. tygodniu bez ruchu. Aplikacja działa wtedy dalej lokalnie, a projekt wznawia się przyciskiem *Restore* w panelu Supabase.
 - Łączenie danych: dla każdego słowa wygrywa nowszy wpis, więc nauka na dwóch urządzeniach się nie nadpisuje. *Resetuj postęp* czyści też dane w chmurze.
 - Własne materiały są sumowane z obu urządzeń, a usunięte (tombstones w `deletedCustom`) wygrywają z kopią z drugiego urządzenia.
+
+## Wspólne materiały
+
+Materiały dodane z opcją *👥 Dla wszystkich* są w osobnej tabeli `shared_items`. Konfiguracja jednorazowa: *SQL Editor → New query* → wklej [`supabase/shared.sql`](supabase/shared.sql) → *Run*. Do tego czasu opcja *Dla wszystkich* zgłosi błąd, a reszta aplikacji działa normalnie.
+
+- Czytać może każdy (także bez logowania), dodawać zalogowany, usuwać tylko autor (reguły RLS w `shared.sql`). Edycji nie ma: poprawka to usunięcie i ponowne dodanie.
+- Aplikacja pobiera wspólne materiały przy starcie i po powrocie do aplikacji, a ostatnią listę trzyma w `localStorage` (`awv:shared`), więc działają offline.
+- Autor jest podpisany imieniem z *Ustawień* (albo początkiem adresu e-mail).
+- **Uwaga:** przy włączonej rejestracji każdy, kto zaloguje się e-mailem, może publikować dla wszystkich. Gdy konta są już założone, wyłącz *Allow new users to sign up* (wyżej, punkt 4). Treści nieodpowiednie usuniesz w panelu Supabase: *Table Editor → shared_items*.
 
 ## Widok rodzica
 
