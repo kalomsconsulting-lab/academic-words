@@ -309,7 +309,7 @@
     chemistry_ib: { label: 'Chemistry', icon: '🧪', tagline: 'Pojęcia, reakcje i fakty', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'chemib_other' },
     physics_ib: { label: 'Physics', icon: '⚛️', tagline: 'Pojęcia, prawa i jednostki', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'physib_other' },
     history_ib: { label: 'History', icon: '📜', tagline: 'Wydarzenia, daty i pojęcia', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'histib_other' },
-    historia_polski_ib: { label: 'History of Poland', icon: '🏰', tagline: 'Historia Polski: daty, postacie, pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'hpl_other' },
+    historia_polski_ib: { label: 'History of Poland', icon: '🏰', tagline: 'Historia Polski: daty, postacie, pojęcia', file: 'data/historia-polski.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'hpl_other' },
     geography_ib: { label: 'Geography', icon: '🗺️', tagline: 'Procesy, pojęcia i przykłady', file: 'data/geography.json', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geoib_other' },
     polski_ib: { label: 'Polish', icon: '📖', tagline: 'Epoki, lektury i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'plib_other' },
     eo_ib: { label: 'Edukacja obywatelska', icon: '⚖️', tagline: 'Państwo, prawo i społeczeństwo', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'eo_other' },

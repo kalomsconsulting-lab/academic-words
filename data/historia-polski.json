@@ -1,0 +1,1171 @@
+{
+ "version": 1,
+ "subject": "historia_polski_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum ogólnokształcącego i technikum, historia, zakres podstawowy (Dz.U. 2018 poz. 467, zm. Dz.U. 2024 poz. 996; tekst wg zpe.gov.pl 2025/2026), działy IX, X, XII, XIII: Polska Piastów i początki Jagiellonów (klasa 1)",
+ "items": [
+  {
+   "id": "hpl-pp-001",
+   "type": "qa",
+   "question": "Który władca Polan przyjął chrzest w 966 roku?",
+   "answer": "Mieszko I",
+   "accept": [
+    "Mieszko",
+    "Mieszko Pierwszy"
+   ],
+   "explanation": "Chrzest Mieszka I uznaje się za symboliczny początek państwa polskiego i jego wejście do kręgu kultury łacińskiej.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-002",
+   "type": "qa",
+   "question": "W którym roku Mieszko I przyjął chrzest?",
+   "answer": "966",
+   "accept": [
+    "966 r.",
+    "rok 966"
+   ],
+   "explanation": "Chrzest w obrządku łacińskim wiązał się z małżeństwem Mieszka z czeską księżniczką Dobrawą.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-003",
+   "type": "qa",
+   "question": "Jak miała na imię czeska księżniczka, żona Mieszka I, związana z przyjęciem chrztu?",
+   "answer": "Dobrawa",
+   "accept": [
+    "Dąbrówka",
+    "Dobrava"
+   ],
+   "explanation": "Małżeństwo z Dobrawą (965) poprzedziło chrzest Mieszka I; Czechy były już krajem chrześcijańskim.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-004",
+   "type": "cloze",
+   "text": "Plemię, z którego wywodziło się państwo Mieszka I, to {{Polanie}}.",
+   "hint": "nazwa od pola",
+   "explanation": "Polanie zamieszkiwali Wielkopolskę; ich głównymi grodami były Gniezno i Poznań.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-005",
+   "type": "cloze",
+   "text": "Dokument z ok. 991 roku, w którym Mieszko I oddał swoje państwo pod opiekę papieża, to {{Dagome iudex}}.",
+   "hint": "nazwa od pierwszych słów",
+   "explanation": "Dagome iudex opisuje granice państwa Mieszka I u schyłku jego panowania.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-006",
+   "type": "qa",
+   "question": "Który misjonarz zginął w 997 roku podczas misji do Prusów i został pierwszym polskim świętym?",
+   "answer": "św. Wojciech",
+   "accept": [
+    "Wojciech",
+    "święty Wojciech",
+    "Adalbert"
+   ],
+   "explanation": "Bolesław Chrobry wykupił ciało Wojciecha i złożył je w Gnieźnie; kult świętego wzmocnił pozycję Polski w Europie.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-007",
+   "type": "qa",
+   "question": "W którym roku odbył się zjazd gnieźnieński?",
+   "answer": "1000",
+   "accept": [
+    "1000 r.",
+    "rok 1000"
+   ],
+   "explanation": "Cesarz Otton III przybył do grobu św. Wojciecha i spotkał się z Bolesławem Chrobrym.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-008",
+   "type": "qa",
+   "question": "Który cesarz przybył w 1000 roku na zjazd gnieźnieński?",
+   "answer": "Otton III",
+   "accept": [
+    "Otto III",
+    "Otton Trzeci"
+   ],
+   "explanation": "Otton III uznał Chrobrego za samodzielnego władcę i zgodził się na utworzenie polskiej metropolii kościelnej.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-009",
+   "type": "cloze",
+   "text": "Na zjeździe gnieźnieńskim w 1000 roku utworzono polską metropolię kościelną, czyli arcybiskupstwo w {{Gnieźnie}}.",
+   "hint": "stolica Polan",
+   "explanation": "Własna metropolia (z biskupstwami w Krakowie, Wrocławiu i Kołobrzegu) uniezależniła Kościół polski od arcybiskupów niemieckich.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-010",
+   "type": "qa",
+   "question": "Który władca został w 1025 roku pierwszym koronowanym królem Polski?",
+   "answer": "Bolesław Chrobry",
+   "accept": [
+    "Chrobry",
+    "Bolesław I Chrobry",
+    "Bolesław I"
+   ],
+   "explanation": "Koronacja w 1025 roku, tuż przed śmiercią Chrobrego, potwierdziła pełną suwerenność państwa polskiego.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-011",
+   "type": "qa",
+   "question": "W którym roku odbyła się koronacja Bolesława Chrobrego na króla Polski?",
+   "answer": "1025",
+   "accept": [
+    "1025 r.",
+    "rok 1025"
+   ],
+   "explanation": "W tym samym roku koronowany został także jego syn Mieszko II.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "hpl-pp-012",
+   "type": "qa",
+   "question": "Jak nazywał się pokój z 1018 roku kończący wojny Bolesława Chrobrego z Niemcami, na mocy którego Polska zatrzymała Milsko i Łużyce?",
+   "answer": "pokój w Budziszynie",
+   "accept": [
+    "Budziszyn",
+    "pokój budziszyński"
+   ],
+   "explanation": "Po pokoju w Budziszynie Chrobry wyruszył na Kijów i odzyskał Grody Czerwieńskie.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "hpl-pp-013",
+   "type": "cloze",
+   "text": "Po wyprawie Bolesława Chrobrego na Kijów w 1018 roku Polska przyłączyła {{Grody Czerwieńskie}}.",
+   "hint": "obszar na pograniczu z Rusią",
+   "explanation": "Grody Czerwieńskie wielokrotnie przechodziły z rąk polskich w ruskie.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "hpl-pp-014",
+   "type": "qa",
+   "question": "Który władca odbudował państwo polskie po kryzysie lat 30. XI wieku i przeniósł główny ośrodek władzy do Krakowa?",
+   "answer": "Kazimierz Odnowiciel",
+   "accept": [
+    "Kazimierz I Odnowiciel",
+    "Odnowiciel",
+    "Kazimierz I"
+   ],
+   "explanation": "Po najeździe czeskiego Brzetysława (1038) Gniezno i Poznań były zniszczone, więc Kraków stał się siedzibą władcy.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "hpl-pp-015",
+   "type": "qa",
+   "question": "Który czeski książę najechał Polskę w 1038 roku i złupił Gniezno?",
+   "answer": "Brzetysław I",
+   "accept": [
+    "Brzetysław",
+    "Brzetysław I czeski"
+   ],
+   "explanation": "Najazd Brzetysława nałożył się na bunt ludowy i reakcję pogańską po śmierci Mieszka II.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "hpl-pp-016",
+   "type": "qa",
+   "question": "Który władca koronował się na króla w 1076 roku, a potem popadł w konflikt z biskupem Stanisławem?",
+   "answer": "Bolesław Śmiały",
+   "accept": [
+    "Bolesław II Śmiały",
+    "Bolesław Szczodry",
+    "Bolesław II"
+   ],
+   "explanation": "Po skazaniu biskupa Stanisława na śmierć (1079) Bolesław Śmiały musiał uciekać na Węgry.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "hpl-pp-017",
+   "type": "qa",
+   "question": "Którą dzielnicę przyłączył do Polski Bolesław Krzywousty w wyniku wojen z lat 1116–1123?",
+   "answer": "Pomorze",
+   "accept": [
+    "Pomorze Gdańskie i Zachodnie",
+    "Pomorze Gdańskie",
+    "Pomorze Zachodnie"
+   ],
+   "explanation": "Pomorze Gdańskie zostało włączone do Polski, a Pomorze Zachodnie uznało zwierzchność Krzywoustego.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "hpl-pp-018",
+   "type": "qa",
+   "question": "Który władca Polski obronił kraj przed najazdem cesarza Henryka V w 1109 roku (obrona Głogowa)?",
+   "answer": "Bolesław Krzywousty",
+   "accept": [
+    "Bolesław III Krzywousty",
+    "Krzywousty",
+    "Bolesław III"
+   ],
+   "explanation": "Obrona Głogowa i walki na Psim Polu opisał Gall Anonim w swojej kronice.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "hpl-pp-019",
+   "type": "qa",
+   "question": "W którym roku zmarł Bolesław Krzywousty, a jego statut (tzw. testament) podzielił Polskę na dzielnice?",
+   "answer": "1138",
+   "accept": [
+    "1138 r.",
+    "rok 1138"
+   ],
+   "explanation": "Statut Krzywoustego otwiera okres rozbicia dzielnicowego, trwający do początku XIV wieku.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-020",
+   "type": "cloze",
+   "text": "Zasada ustanowiona w statucie Krzywoustego, według której władzę zwierzchnią sprawował najstarszy z rodu Piastów, to zasada {{senioratu}}.",
+   "hint": "od łacińskiego senior = starszy",
+   "explanation": "Senior otrzymywał dzielnicę senioralną z Krakowem i miał zwierzchność nad młodszymi książętami (juniorami).",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-021",
+   "type": "qa",
+   "question": "Które miasto było stolicą dzielnicy senioralnej według statutu Bolesława Krzywoustego?",
+   "answer": "Kraków",
+   "accept": [],
+   "explanation": "Dzielnica senioralna obejmowała m.in. ziemię krakowską, sieradzko-łęczycką i zwierzchność nad Pomorzem.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-022",
+   "type": "qa",
+   "question": "Który syn Bolesława Krzywoustego jako pierwszy senior został wygnany z kraju przez młodszych braci?",
+   "answer": "Władysław Wygnaniec",
+   "accept": [
+    "Władysław II Wygnaniec",
+    "Wygnaniec",
+    "Władysław II"
+   ],
+   "explanation": "Wygnanie Władysława (1146) pokazało, że zasada senioratu nie powstrzyma walk między książętami.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-023",
+   "type": "cloze",
+   "text": "Prawo zwalniające dobra kościelne lub rycerskie od świadczeń na rzecz księcia i od sądownictwa jego urzędników to {{immunitet}}.",
+   "hint": "łac. immunitas",
+   "explanation": "Nadawanie immunitetów osłabiało władzę książąt dzielnicowych, a wzmacniało Kościół i możnych.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-024",
+   "type": "qa",
+   "question": "Który książę mazowiecki sprowadził w 1226 roku Krzyżaków do ziemi chełmińskiej?",
+   "answer": "Konrad Mazowiecki",
+   "accept": [
+    "Konrad I Mazowiecki",
+    "Konrad"
+   ],
+   "explanation": "Krzyżacy mieli bronić Mazowsza przed pogańskimi Prusami, a z czasem zbudowali własne państwo nad Bałtykiem.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-025",
+   "type": "qa",
+   "question": "W którym roku Konrad Mazowiecki sprowadził Krzyżaków do Polski?",
+   "answer": "1226",
+   "accept": [
+    "1226 r.",
+    "rok 1226"
+   ],
+   "explanation": "Zakon krzyżacki otrzymał ziemię chełmińską jako bazę do podboju Prusów.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-026",
+   "type": "qa",
+   "question": "W której bitwie w 1241 roku zginął Henryk Pobożny, walcząc z Mongołami?",
+   "answer": "pod Legnicą",
+   "accept": [
+    "Legnica",
+    "bitwa pod Legnicą"
+   ],
+   "explanation": "Najazd mongolski przerwał budowę silnego władztwa Henryków śląskich i spustoszył Małopolskę i Śląsk.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-027",
+   "type": "cloze",
+   "text": "Jednym z zewnętrznych skutków rozbicia dzielnicowego była utrata w 1308 roku {{Pomorza Gdańskiego}} na rzecz Krzyżaków.",
+   "hint": "ziemia nad Bałtykiem",
+   "explanation": "Krzyżacy, wezwani na pomoc przeciw Brandenburczykom, sami zajęli Gdańsk i całe Pomorze Gdańskie.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "hpl-pp-028",
+   "type": "cloze",
+   "text": "Zakładanie wsi lub miasta na nowych zasadach prawnych w okresie rozbicia dzielnicowego nazywano {{lokacją}}.",
+   "hint": "łac. locatio",
+   "explanation": "Lokacja wymagała dokumentu lokacyjnego wydanego przez pana gruntowego.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "hpl-pp-029",
+   "type": "qa",
+   "question": "Jak nazywano osobę organizującą lokację wsi lub miasta i sprowadzającą osadników?",
+   "answer": "zasadźca",
+   "accept": [],
+   "explanation": "Zasadźca zostawał po lokacji sołtysem (we wsi) lub wójtem (w mieście).",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "hpl-pp-030",
+   "type": "qa",
+   "question": "Jak nazywał się dziedziczny urzędnik stojący na czele wsi lokowanej na prawie niemieckim?",
+   "answer": "sołtys",
+   "accept": [],
+   "explanation": "Sołtys sądził chłopów w drobnych sprawach i zbierał czynsz dla pana.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "hpl-pp-031",
+   "type": "qa",
+   "question": "Jak nazywał się urzędnik stojący na czele miasta lokowanego na prawie niemieckim?",
+   "answer": "wójt",
+   "accept": [],
+   "explanation": "Wójt przewodniczył ławie miejskiej; z czasem miasta wykupywały wójtostwa.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "hpl-pp-032",
+   "type": "cloze",
+   "text": "Najczęściej stosowany w Polsce wzorzec prawa niemieckiego, oparty na prawie miasta Magdeburg, to prawo {{magdeburskie}}.",
+   "hint": "od miasta nad Łabą",
+   "explanation": "Odmianą prawa magdeburskiego było prawo średzkie (od Środy Śląskiej).",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "hpl-pp-033",
+   "type": "cloze",
+   "text": "Okres zwolnienia nowych osadników od czynszu i innych świadczeń, zwykle kilkuletni, nazywano {{wolnizną}}.",
+   "hint": "od słowa wolny",
+   "explanation": "Wolnizna pozwalała osadnikom zagospodarować otrzymany łan ziemi.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "hpl-pp-034",
+   "type": "cloze",
+   "text": "Nowy system uprawy ziemi, upowszechniony w czasie kolonizacji, polegający na podziale pola na trzy części (ozimina, jare, ugór), to {{trójpolówka}}.",
+   "hint": "trzy pola",
+   "explanation": "Trójpolówka zwiększyła plony w porównaniu z dawną gospodarką żarową i dwupolówką.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "hpl-pp-035",
+   "type": "qa",
+   "question": "Który władca koronował się w 1295 roku na króla Polski jako pierwszy po okresie rozbicia dzielnicowego?",
+   "answer": "Przemysł II",
+   "accept": [
+    "Przemysł",
+    "Przemysław II"
+   ],
+   "explanation": "Przemysł II, książę wielkopolski i pomorski, zginął zamordowany już w 1296 roku.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "hpl-pp-036",
+   "type": "qa",
+   "question": "Który czeski król został koronowany na króla Polski w 1300 roku?",
+   "answer": "Wacław II",
+   "accept": [
+    "Wacław II czeski",
+    "Wacław"
+   ],
+   "explanation": "Rządy Wacława II (1300–1305) zjednoczyły większość ziem polskich pod obcym panowaniem.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "hpl-pp-037",
+   "type": "qa",
+   "question": "Który władca koronował się w 1320 roku w Krakowie, kończąc rozbicie dzielnicowe?",
+   "answer": "Władysław Łokietek",
+   "accept": [
+    "Łokietek",
+    "Władysław I Łokietek",
+    "Władysław I"
+   ],
+   "explanation": "Koronacja Łokietka na Wawelu w 1320 roku uznawana jest za koniec rozbicia dzielnicowego.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "hpl-pp-038",
+   "type": "qa",
+   "question": "W którym roku odbyła się koronacja Władysława Łokietka na króla Polski?",
+   "answer": "1320",
+   "accept": [
+    "1320 r.",
+    "rok 1320"
+   ],
+   "explanation": "Od tej koronacji Kraków, a nie Gniezno, był miejscem koronacji królów polskich.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "hpl-pp-039",
+   "type": "qa",
+   "question": "Który arcybiskup gnieźnieński (koniec XIII w.) wspierał zjednoczenie Polski i koronację Przemysła II?",
+   "answer": "Jakub Świnka",
+   "accept": [
+    "arcybiskup Jakub Świnka",
+    "Świnka"
+   ],
+   "explanation": "Jakub Świnka nakazywał głoszenie kazań po polsku i bronił jedności polskiej prowincji kościelnej.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "hpl-pp-040",
+   "type": "cloze",
+   "text": "Jedność ziem polskich w czasie rozbicia dzielnicowego podtrzymywała wspólna prowincja kościelna, czyli metropolia {{gnieźnieńska}}.",
+   "hint": "od miasta Gniezno",
+   "explanation": "Wszystkie biskupstwa polskie podlegały arcybiskupowi gnieźnieńskiemu, niezależnie od podziału na księstwa.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "hpl-pp-041",
+   "type": "qa",
+   "question": "Kult którego biskupa krakowskiego, kanonizowanego w 1253 roku, stał się symbolem przyszłego zjednoczenia Polski?",
+   "answer": "św. Stanisława",
+   "accept": [
+    "Stanisław",
+    "święty Stanisław",
+    "św. Stanisław",
+    "Stanisław ze Szczepanowa"
+   ],
+   "explanation": "Według legendy poćwiartowane ciało biskupa zrosło się, tak jak miała zrosnąć się podzielona Polska.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "hpl-pp-042",
+   "type": "qa",
+   "question": "Kto był ostatnim królem Polski z dynastii Piastów?",
+   "answer": "Kazimierz Wielki",
+   "accept": [
+    "Kazimierz III Wielki",
+    "Kazimierz III"
+   ],
+   "explanation": "Kazimierz Wielki panował w latach 1333–1370; po jego śmierci tron objął Ludwik Węgierski.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-043",
+   "type": "qa",
+   "question": "W którym roku zmarł Kazimierz Wielki, ostatni Piast na tronie polskim?",
+   "answer": "1370",
+   "accept": [
+    "1370 r.",
+    "rok 1370"
+   ],
+   "explanation": "Śmierć Kazimierza Wielkiego zakończyła panowanie dynastii Piastów w Polsce.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-044",
+   "type": "cloze",
+   "text": "Kazimierz Wielki przyłączył do Polski w 1340 roku {{Ruś Halicką}}, rozszerzając państwo na wschód.",
+   "hint": "ziemia ze Lwowem",
+   "explanation": "Przyłączenie Rusi Halicko-Włodzimierskiej otworzyło Polsce drogę do handlu ze Wschodem.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-045",
+   "type": "qa",
+   "question": "Jak nazywa się pokój z 1343 roku, w którym Kazimierz Wielki zrzekł się Pomorza Gdańskiego na rzecz Krzyżaków, odzyskując Kujawy i ziemię dobrzyńską?",
+   "answer": "pokój w Kaliszu",
+   "accept": [
+    "pokój kaliski",
+    "Kalisz"
+   ],
+   "explanation": "Pokój kaliski na kilkadziesiąt lat ustabilizował stosunki polsko-krzyżackie.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-046",
+   "type": "qa",
+   "question": "W którym roku Kazimierz Wielki założył Akademię Krakowską?",
+   "answer": "1364",
+   "accept": [
+    "1364 r.",
+    "rok 1364"
+   ],
+   "explanation": "Akademia Krakowska była drugim po Pradze uniwersytetem w Europie Środkowej.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-047",
+   "type": "cloze",
+   "text": "Uniwersytet założony przez Kazimierza Wielkiego w 1364 roku to {{Akademia Krakowska}}.",
+   "hint": "dzisiejszy Uniwersytet Jagielloński",
+   "explanation": "Uczelnia kształciła głównie prawników potrzebnych państwu; odnowiona została w 1400 roku przez Jagiełłę.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-048",
+   "type": "cloze",
+   "text": "Zbiory praw wydane przez Kazimierza Wielkiego dla Małopolski i Wielkopolski to statuty {{wiślicko-piotrkowskie}}.",
+   "hint": "od Wiślicy i Piotrkowa",
+   "explanation": "Statuty ujednolicały prawo sądowe w obu głównych dzielnicach państwa.",
+   "category": "hpl_piast",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-049",
+   "type": "qa",
+   "question": "Dokończ znane powiedzenie o Kazimierzu Wielkim: „Zastał Polskę drewnianą, a zostawił…”",
+   "answer": "murowaną",
+   "accept": [
+    "murowana"
+   ],
+   "explanation": "Kazimierz Wielki wzniósł kilkadziesiąt zamków i otoczył murami wiele miast.",
+   "category": "hpl_piast",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "hpl-pp-050",
+   "type": "cloze",
+   "text": "Forma ustroju, w której władza króla jest ograniczona przez reprezentację stanów (zwłaszcza szlachty i duchowieństwa), to monarchia {{stanowa}}.",
+   "hint": "od słowa stan",
+   "explanation": "W Polsce monarchia stanowa ukształtowała się w XIV–XV wieku dzięki przywilejom szlacheckim.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-051",
+   "type": "qa",
+   "question": "Wymień stan społeczny, który w Polsce XIV–XV wieku zdobył najwięcej przywilejów i uzyskał dominującą pozycję polityczną.",
+   "answer": "szlachta",
+   "accept": [
+    "stan szlachecki",
+    "rycerstwo"
+   ],
+   "explanation": "Pozostałe stany to duchowieństwo, mieszczaństwo i chłopi.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-052",
+   "type": "qa",
+   "question": "Jak nazywa się przywilej wydany przez Ludwika Węgierskiego w 1374 roku, który obniżył podatek z łanu kmiecego do 2 groszy?",
+   "answer": "przywilej koszycki",
+   "accept": [
+    "Koszyce",
+    "koszycki",
+    "przywilej w Koszycach"
+   ],
+   "explanation": "Ludwik wydał go, by zapewnić tron polski jednej ze swoich córek.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-053",
+   "type": "qa",
+   "question": "W którym roku wydano przywilej koszycki?",
+   "answer": "1374",
+   "accept": [
+    "1374 r.",
+    "rok 1374"
+   ],
+   "explanation": "Przywilej koszycki uznaje się za pierwszy generalny przywilej dla całej szlachty polskiej.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-054",
+   "type": "cloze",
+   "text": "Przywilej jedlneńsko-krakowski (1430–1433) gwarantował szlachcie nietykalność osobistą, wyrażoną zasadą {{neminem captivabimus}}.",
+   "hint": "łac. „nikogo nie uwięzimy” (bez wyroku sądowego)",
+   "explanation": "Władysław Jagiełło wydał go, aby zapewnić sukcesję tronu swoim synom.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-055",
+   "type": "qa",
+   "question": "Jak nazywają się przywileje z 1454 roku, w których Kazimierz Jagiellończyk zobowiązał się nie zwoływać pospolitego ruszenia bez zgody sejmików?",
+   "answer": "cerekwicko-nieszawskie",
+   "accept": [
+    "przywileje cerekwicko-nieszawskie",
+    "nieszawskie",
+    "przywilej nieszawski"
+   ],
+   "explanation": "Przywileje te król wydał na początku wojny trzynastoletniej, potrzebując poparcia szlachty.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-056",
+   "type": "cloze",
+   "text": "Lokalne zgromadzenia szlachty danej ziemi, które od XV wieku decydowały o podatkach i pospolitym ruszeniu, to {{sejmiki}}.",
+   "hint": "małe sejmy",
+   "explanation": "Przywileje nieszawskie (1454) uzależniły nowe podatki i pospolite ruszenie od zgody sejmików.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-057",
+   "type": "qa",
+   "question": "Jak nazywało się ogólnopolskie zgromadzenie stanowe, które od 1493 roku obradowało w dwóch izbach: senacie i izbie poselskiej?",
+   "answer": "sejm walny",
+   "accept": [
+    "sejm",
+    "sejm dwuizbowy"
+   ],
+   "explanation": "Sejm walny z 1493 roku w Piotrkowie uznaje się za początek polskiego parlamentaryzmu dwuizbowego.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "hpl-pp-058",
+   "type": "qa",
+   "question": "Który król Węgier objął tron polski w 1370 roku po śmierci Kazimierza Wielkiego, tworząc unię personalną polsko-węgierską?",
+   "answer": "Ludwik Węgierski",
+   "accept": [
+    "Ludwik Andegaweński",
+    "Ludwik I Wielki",
+    "Ludwik"
+   ],
+   "explanation": "Unia personalna polsko-węgierska trwała do śmierci Ludwika w 1382 roku.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-059",
+   "type": "qa",
+   "question": "Która córka Ludwika Węgierskiego została w 1384 roku koronowana na króla Polski?",
+   "answer": "Jadwiga",
+   "accept": [
+    "Jadwiga Andegaweńska",
+    "św. Jadwiga"
+   ],
+   "explanation": "Jadwigę koronowano na „króla”, a nie królową, by podkreślić jej samodzielną władzę.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-060",
+   "type": "qa",
+   "question": "W którym roku zawarto unię w Krewie między Polską a Litwą?",
+   "answer": "1385",
+   "accept": [
+    "1385 r.",
+    "rok 1385"
+   ],
+   "explanation": "Jagiełło zobowiązał się przyjąć chrzest, poślubić Jadwigę i przyłączyć Litwę do Polski.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-061",
+   "type": "cloze",
+   "text": "Akt z 1385 roku, w którym wielki książę litewski Jagiełło zobowiązał się przyjąć chrzest i poślubić Jadwigę, to unia w {{Krewie}}.",
+   "hint": "miejscowość na Litwie",
+   "explanation": "Unia w Krewie zapoczątkowała związek Polski i Litwy trwający do końca XVIII wieku.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-062",
+   "type": "qa",
+   "question": "Jakie imię chrzestne przyjął w 1386 roku wielki książę litewski Jagiełło?",
+   "answer": "Władysław",
+   "accept": [
+    "Władysław Jagiełło"
+   ],
+   "explanation": "Po chrzcie i ślubie z Jadwigą Jagiełło został koronowany na króla Polski jako Władysław II.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-063",
+   "type": "qa",
+   "question": "Który wielki książę litewski, stryjeczny brat Jagiełły, dowodził wojskami litewskimi pod Grunwaldem?",
+   "answer": "Witold",
+   "accept": [
+    "Witold Kiejstutowicz",
+    "Vytautas"
+   ],
+   "explanation": "Witold otrzymał dożywotnią władzę na Litwie na mocy ugody w Ostrowie (1392) i unii wileńsko-radomskiej (1401).",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-064",
+   "type": "qa",
+   "question": "Jak nazywa się unia polsko-litewska z 1413 roku, w której bojarzy litewscy zostali przyjęci do polskich rodów herbowych?",
+   "answer": "unia w Horodle",
+   "accept": [
+    "Horodło",
+    "unia horodelska"
+   ],
+   "explanation": "Unia w Horodle przewidywała wspólne zjazdy i wprowadziła na Litwie urzędy wojewodów i kasztelanów.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-065",
+   "type": "qa",
+   "question": "Który król Polski i Węgier zginął w 1444 roku w bitwie z Turkami pod Warną?",
+   "answer": "Władysław Warneńczyk",
+   "accept": [
+    "Władysław III Warneńczyk",
+    "Warneńczyk",
+    "Władysław III"
+   ],
+   "explanation": "Władysław III był królem Węgier od 1440 roku; jego śmierć zakończyła drugą unię polsko-węgierską.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.3"
+  },
+  {
+   "id": "hpl-pp-066",
+   "type": "qa",
+   "question": "W którym roku Krzyżacy zajęli Gdańsk i Pomorze Gdańskie?",
+   "answer": "1308",
+   "accept": [
+    "1308 r.",
+    "rok 1308"
+   ],
+   "explanation": "Zajęcie Pomorza odcięło Polskę od Bałtyku i stało się główną przyczyną konfliktów polsko-krzyżackich.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-067",
+   "type": "qa",
+   "question": "W którym roku rozegrała się bitwa pod Grunwaldem?",
+   "answer": "1410",
+   "accept": [
+    "1410 r.",
+    "rok 1410",
+    "15 lipca 1410"
+   ],
+   "explanation": "Wojska polsko-litewskie pod wodzą Jagiełły pokonały Krzyżaków 15 lipca 1410 roku.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-068",
+   "type": "qa",
+   "question": "Który wielki mistrz krzyżacki zginął w bitwie pod Grunwaldem?",
+   "answer": "Ulrich von Jungingen",
+   "accept": [
+    "Ulryk von Jungingen",
+    "von Jungingen",
+    "Jungingen"
+   ],
+   "explanation": "Śmierć wielkiego mistrza i większości dowódców zakonu była najcięższą klęską Krzyżaków w ich dziejach.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-069",
+   "type": "qa",
+   "question": "Jak nazywa się pokój z 1411 roku kończący wielką wojnę z zakonem krzyżackim po Grunwaldzie?",
+   "answer": "I pokój toruński",
+   "accept": [
+    "pierwszy pokój toruński",
+    "pokój toruński",
+    "pokój w Toruniu 1411"
+   ],
+   "explanation": "Polska odzyskała ziemię dobrzyńską, a Litwa Żmudź (dożywotnio dla Jagiełły i Witolda); Pomorze zostało przy zakonie.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-070",
+   "type": "cloze",
+   "text": "Organizacja stanów pruskich (miast i rycerstwa) założona w 1440 roku przeciw rządom Krzyżaków to Związek {{Pruski}}.",
+   "hint": "od nazwy krainy",
+   "explanation": "W 1454 roku Związek Pruski wypowiedział posłuszeństwo zakonowi i poddał Prusy królowi polskiemu.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-071",
+   "type": "qa",
+   "question": "Jak nazywa się wojna Polski z zakonem krzyżackim toczona w latach 1454–1466?",
+   "answer": "wojna trzynastoletnia",
+   "accept": [
+    "trzynastoletnia"
+   ],
+   "explanation": "Wojnę rozpoczęła inkorporacja Prus do Polski przez Kazimierza Jagiellończyka na prośbę Związku Pruskiego.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-072",
+   "type": "qa",
+   "question": "W którym roku zawarto II pokój toruński kończący wojnę trzynastoletnią?",
+   "answer": "1466",
+   "accept": [
+    "1466 r.",
+    "rok 1466"
+   ],
+   "explanation": "Polska odzyskała Pomorze Gdańskie, ziemię chełmińską, Malbork, Elbląg i Warmię.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-073",
+   "type": "cloze",
+   "text": "Na mocy II pokoju toruńskiego (1466) ziemie odzyskane przez Polskę nazwano Prusami {{Królewskimi}}, a resztę państwa zakonnego – Prusami Zakonnymi.",
+   "hint": "podlegały królowi",
+   "explanation": "Prusy Zakonne ze stolicą w Królewcu stały się lennem Polski.",
+   "category": "hpl_jagiellon",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-074",
+   "type": "qa",
+   "question": "Który król Polski prowadził wojnę trzynastoletnią i zawarł II pokój toruński?",
+   "answer": "Kazimierz Jagiellończyk",
+   "accept": [
+    "Kazimierz IV Jagiellończyk",
+    "Jagiellończyk",
+    "Kazimierz IV"
+   ],
+   "explanation": "Kazimierz Jagiellończyk, syn Jagiełły, panował w latach 1447–1492.",
+   "category": "hpl_jagiellon",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.4"
+  },
+  {
+   "id": "hpl-pp-075",
+   "type": "qa",
+   "question": "Kto jest autorem najstarszej polskiej kroniki, spisanej po łacinie na początku XII wieku na dworze Bolesława Krzywoustego?",
+   "answer": "Gall Anonim",
+   "accept": [
+    "Anonim zwany Gallem",
+    "Gall"
+   ],
+   "explanation": "Kronika Galla Anonima opisuje dzieje Piastów od legendarnych początków do czasów Krzywoustego.",
+   "category": "hpl_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "hpl-pp-076",
+   "type": "qa",
+   "question": "Który biskup krakowski napisał na przełomie XII i XIII wieku „Kronikę polską”, zawierającą m.in. legendę o Kraku i Wandzie?",
+   "answer": "Wincenty Kadłubek",
+   "accept": [
+    "Kadłubek",
+    "mistrz Wincenty",
+    "Wincenty zwany Kadłubkiem"
+   ],
+   "explanation": "Kronika Kadłubka była podstawowym źródłem wiedzy o dziejach Polski aż do czasów Długosza.",
+   "category": "hpl_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "hpl-pp-077",
+   "type": "qa",
+   "question": "Który kronikarz XV wieku napisał „Roczniki, czyli kroniki sławnego Królestwa Polskiego”?",
+   "answer": "Jan Długosz",
+   "accept": [
+    "Długosz"
+   ],
+   "explanation": "Długosz był kanonikiem krakowskim i wychowawcą synów Kazimierza Jagiellończyka.",
+   "category": "hpl_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "hpl-pp-078",
+   "type": "cloze",
+   "text": "Najstarsza zachowana polska pieśń religijna, śpiewana przez rycerstwo przed bitwą pod Grunwaldem, to {{Bogurodzica}}.",
+   "hint": "hymn do Matki Bożej",
+   "explanation": "Bogurodzica pełniła w XV wieku rolę hymnu Królestwa Polskiego.",
+   "category": "hpl_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.3"
+  },
+  {
+   "id": "hpl-pp-079",
+   "type": "cloze",
+   "text": "Językiem liturgii, nauki i dokumentów w średniowiecznej Polsce, łączącym ją z kulturą Zachodu, była {{łacina}}.",
+   "hint": "język Kościoła rzymskiego",
+   "explanation": "Przyjęcie chrześcijaństwa w obrządku łacińskim włączyło Polskę do zachodniego kręgu cywilizacyjnego.",
+   "category": "hpl_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.3"
+  },
+  {
+   "id": "hpl-pp-080",
+   "type": "qa",
+   "question": "Jak nazywa się styl w architekturze średniowiecznej, charakteryzujący się grubymi murami, małymi oknami i półkolistymi łukami?",
+   "answer": "romański",
+   "accept": [
+    "styl romański",
+    "romanizm"
+   ],
+   "explanation": "Przykłady w Polsce: kolegiata w Tumie pod Łęczycą, krypta św. Leonarda na Wawelu, Drzwi Gnieźnieńskie.",
+   "category": "hpl_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.4"
+  },
+  {
+   "id": "hpl-pp-081",
+   "type": "qa",
+   "question": "Jak nazywa się styl w architekturze, charakteryzujący się ostrymi łukami, sklepieniami żebrowymi i dużymi oknami z witrażami?",
+   "answer": "gotycki",
+   "accept": [
+    "styl gotycki",
+    "gotyk"
+   ],
+   "explanation": "Gotyk w Polsce to m.in. kościół Mariacki w Krakowie, zamek w Malborku i katedra na Wawelu.",
+   "category": "hpl_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.4"
+  },
+  {
+   "id": "hpl-pp-082",
+   "type": "qa",
+   "question": "Kto wyrzeźbił w latach 1477–1489 późnogotycki ołtarz główny w kościele Mariackim w Krakowie?",
+   "answer": "Wit Stwosz",
+   "accept": [
+    "Veit Stoss",
+    "Stwosz"
+   ],
+   "explanation": "Ołtarz Wita Stwosza to jedno z najwybitniejszych dzieł gotyckiej rzeźby w Europie.",
+   "category": "hpl_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.4"
+  },
+  {
+   "id": "hpl-pp-083",
+   "type": "cloze",
+   "text": "Romański zabytek z XII wieku przedstawiający w 18 scenach życie i męczeństwo św. Wojciecha to Drzwi {{Gnieźnieńskie}}.",
+   "hint": "w katedrze w Gnieźnie",
+   "explanation": "Brązowe drzwi katedry gnieźnieńskiej są najcenniejszym zabytkiem sztuki romańskiej w Polsce.",
+   "category": "hpl_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.4"
+  },
+  {
+   "id": "hpl-pp-084",
+   "type": "cloze",
+   "text": "Uniwersalny charakter kultury zachodniego średniowiecza wynikał z jedności religijnej Europy, określanej łacińskim terminem {{christianitas}}.",
+   "hint": "łac. chrześcijaństwo jako wspólnota",
+   "explanation": "Christianitas łączyła ludy Zachodu wspólną wiarą, łaciną, etosem rycerskim i sztuką.",
+   "category": "hpl_other",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.1"
+  }
+ ]
+}
