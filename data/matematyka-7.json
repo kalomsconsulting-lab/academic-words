@@ -1,0 +1,1734 @@
+{
+ "version": 1,
+ "subject": "matematyka_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, matematyka, klasy VII–VIII (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996); zakres klasy 7 wg typowego rozkładu materiału",
+ "items": [
+  {
+   "id": "mat7-pp-001",
+   "type": "qa",
+   "question": "Zapisz iloczyn 3 · 3 · 3 · 3 w postaci potęgi.",
+   "answer": "3^4",
+   "accept": [
+    "3 do potęgi 4",
+    "3⁴",
+    "trzy do czwartej"
+   ],
+   "explanation": "Potęga to skrócony zapis iloczynu jednakowych czynników: 3 jest podstawą, a 4 wykładnikiem.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mat7-pp-002",
+   "type": "cloze",
+   "text": "W potędze 2^5 liczba 2 to {{podstawa}} potęgi, a liczba 5 to wykładnik.",
+   "hint": "nazwa liczby, którą mnożymy",
+   "explanation": "Podstawa mówi, co mnożymy, a wykładnik, ile razy.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mat7-pp-003",
+   "type": "qa",
+   "question": "Jak nazywa się liczba 5 w zapisie 2^5?",
+   "answer": "wykładnik",
+   "accept": [
+    "wykładnik potęgi"
+   ],
+   "explanation": "Wykładnik mówi, ile razy podstawa występuje jako czynnik.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mat7-pp-004",
+   "type": "qa",
+   "question": "Ile wynosi (-2)^3?",
+   "answer": "-8",
+   "accept": [
+    "- 8"
+   ],
+   "explanation": "Nieparzysta potęga liczby ujemnej jest ujemna: (-2) · (-2) · (-2) = -8.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mat7-pp-005",
+   "type": "cloze",
+   "text": "Mnożąc potęgi o tej samej podstawie, wykładniki {{dodajemy}}: 2^3 · 2^4 = 2^7.",
+   "hint": "co robimy z wykładnikami",
+   "explanation": "a^m · a^n = a^(m+n).",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "mat7-pp-006",
+   "type": "cloze",
+   "text": "Dzieląc potęgi o tej samej podstawie, wykładniki {{odejmujemy}}: 7^9 : 7^4 = 7^5.",
+   "hint": "co robimy z wykładnikami",
+   "explanation": "a^m : a^n = a^(m-n).",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "mat7-pp-007",
+   "type": "qa",
+   "question": "Zapisz w postaci jednej potęgi: 3^2 · 3^5.",
+   "answer": "3^7",
+   "accept": [
+    "3⁷",
+    "3 do potęgi 7"
+   ],
+   "explanation": "Ta sama podstawa, więc wykładniki dodajemy: 2 + 5 = 7.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "mat7-pp-008",
+   "type": "qa",
+   "question": "Zapisz w postaci jednej potęgi: 2^4 · 5^4.",
+   "answer": "10^4",
+   "accept": [
+    "10⁴",
+    "10 do potęgi 4",
+    "10000",
+    "10 000"
+   ],
+   "explanation": "Potęgi o jednakowych wykładnikach mnożymy, mnożąc podstawy: (2 · 5)^4 = 10^4.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "mat7-pp-009",
+   "type": "cloze",
+   "text": "Podnosząc potęgę do potęgi, wykładniki {{mnożymy}}: (5^2)^3 = 5^6.",
+   "hint": "co robimy z wykładnikami",
+   "explanation": "(a^m)^n = a^(m·n).",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "mat7-pp-010",
+   "type": "cloze",
+   "text": "W notacji wykładniczej a · 10^k liczba a spełnia warunek 1 ≤ a < {{10}}, a k jest liczbą całkowitą.",
+   "hint": "górna granica dla a",
+   "explanation": "Np. 4,5 · 10^7, ale nie 45 · 10^6.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "mat7-pp-011",
+   "type": "qa",
+   "question": "Zapisz liczbę 45 000 000 w notacji wykładniczej.",
+   "answer": "4,5 · 10^7",
+   "accept": [
+    "4,5·10^7",
+    "4,5 * 10^7",
+    "4.5 · 10^7",
+    "4.5*10^7",
+    "4,5 x 10^7"
+   ],
+   "explanation": "Przecinek przesuwamy o 7 miejsc w lewo, więc wykładnik to 7.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "mat7-pp-012",
+   "type": "qa",
+   "question": "Jaką liczbę zapisano jako 3,2 · 10^(-3)?",
+   "answer": "0,0032",
+   "accept": [
+    "0.0032"
+   ],
+   "explanation": "Ujemny wykładnik oznacza dzielenie przez 10^3, czyli przesunięcie przecinka o 3 miejsca w lewo.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "mat7-pp-013",
+   "type": "qa",
+   "question": "Zapisz liczbę 0,00071 w notacji wykładniczej.",
+   "answer": "7,1 · 10^(-4)",
+   "accept": [
+    "7,1·10^-4",
+    "7,1 · 10^-4",
+    "7.1 · 10^-4",
+    "7.1*10^-4",
+    "7,1 * 10^(-4)"
+   ],
+   "explanation": "Przecinek przesuwamy o 4 miejsca w prawo, więc wykładnik to -4.",
+   "category": "mat7_numbers",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "mat7-pp-014",
+   "type": "qa",
+   "question": "Ile wynosi √144?",
+   "answer": "12",
+   "explanation": "12 · 12 = 144.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mat7-pp-015",
+   "type": "qa",
+   "question": "Ile wynosi ∛125 (pierwiastek sześcienny ze 125)?",
+   "answer": "5",
+   "explanation": "5 · 5 · 5 = 125.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mat7-pp-016",
+   "type": "cloze",
+   "text": "Pierwiastek kwadratowy z liczby 81 to {{9}}, bo 9 · 9 = 81.",
+   "explanation": "Pierwiastek kwadratowy z a to nieujemna liczba, która podniesiona do kwadratu daje a.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mat7-pp-017",
+   "type": "qa",
+   "question": "Ile wynosi ∛(-8) (pierwiastek sześcienny z -8)?",
+   "answer": "-2",
+   "accept": [
+    "- 2"
+   ],
+   "explanation": "(-2) · (-2) · (-2) = -8; pierwiastek sześcienny z liczby ujemnej istnieje.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mat7-pp-018",
+   "type": "qa",
+   "question": "Między jakimi kolejnymi liczbami całkowitymi leży √50?",
+   "answer": "7 i 8",
+   "accept": [
+    "między 7 a 8",
+    "7 a 8",
+    "7, 8"
+   ],
+   "explanation": "49 < 50 < 64, czyli √49 < √50 < √64.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "mat7-pp-019",
+   "type": "qa",
+   "question": "Między jakimi kolejnymi liczbami całkowitymi leży ∛30?",
+   "answer": "3 i 4",
+   "accept": [
+    "między 3 a 4",
+    "3 a 4",
+    "3, 4"
+   ],
+   "explanation": "27 < 30 < 64, czyli ∛27 < ∛30 < ∛64.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "mat7-pp-020",
+   "type": "qa",
+   "question": "Która liczba jest większa: √10 czy 3?",
+   "answer": "√10",
+   "accept": [
+    "pierwiastek z 10",
+    "sqrt(10)",
+    "√10 jest większa"
+   ],
+   "explanation": "3 = √9, a √9 < √10.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "mat7-pp-021",
+   "type": "qa",
+   "question": "Ile wynosi √(4 · 25)?",
+   "answer": "10",
+   "explanation": "Pierwiastek z iloczynu to iloczyn pierwiastków: √4 · √25 = 2 · 5 = 10.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "mat7-pp-022",
+   "type": "qa",
+   "question": "Wyłącz czynnik przed znak pierwiastka: √12.",
+   "answer": "2√3",
+   "accept": [
+    "2 √3",
+    "2*√3",
+    "2 pierwiastek z 3",
+    "2√(3)"
+   ],
+   "explanation": "√12 = √(4 · 3) = √4 · √3 = 2√3.",
+   "category": "mat7_numbers",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "mat7-pp-023",
+   "type": "qa",
+   "question": "Włącz czynnik pod znak pierwiastka: 3√2.",
+   "answer": "√18",
+   "accept": [
+    "pierwiastek z 18",
+    "sqrt(18)"
+   ],
+   "explanation": "3√2 = √9 · √2 = √(9 · 2) = √18.",
+   "category": "mat7_numbers",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "mat7-pp-024",
+   "type": "qa",
+   "question": "Ile wynosi √2 · √8?",
+   "answer": "4",
+   "explanation": "Pierwiastki tego samego stopnia mnożymy, mnożąc liczby pod pierwiastkiem: √(2 · 8) = √16 = 4.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "mat7-pp-025",
+   "type": "qa",
+   "question": "Zapisz wyrażeniem algebraicznym: liczba o 5 większa od x.",
+   "answer": "x + 5",
+   "accept": [
+    "x+5",
+    "5 + x",
+    "5+x"
+   ],
+   "explanation": "Większa o 5, więc dodajemy 5.",
+   "category": "mat7_algebra",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "mat7-pp-026",
+   "type": "qa",
+   "question": "Zapisz wyrażeniem algebraicznym: połowa sumy liczb a i b.",
+   "answer": "(a + b)/2",
+   "accept": [
+    "(a+b)/2",
+    "(a + b) : 2",
+    "(a+b):2",
+    "0,5(a+b)"
+   ],
+   "explanation": "Najpierw suma w nawiasie, potem dzielenie przez 2.",
+   "category": "mat7_algebra",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "mat7-pp-027",
+   "type": "qa",
+   "question": "Oblicz wartość wyrażenia 3x - 2 dla x = 4.",
+   "answer": "10",
+   "explanation": "3 · 4 - 2 = 12 - 2 = 10.",
+   "category": "mat7_algebra",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "mat7-pp-028",
+   "type": "qa",
+   "question": "Oblicz wartość wyrażenia a^2 + b dla a = 3 i b = -1.",
+   "answer": "8",
+   "explanation": "3^2 + (-1) = 9 - 1 = 8.",
+   "category": "mat7_algebra",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "mat7-pp-029",
+   "type": "qa",
+   "question": "Bartek zebrał n kasztanów, a Grześ 7 razy więcej. Ile kasztanów zebrał Grześ?",
+   "answer": "7n",
+   "accept": [
+    "7 · n",
+    "7*n",
+    "7 n"
+   ],
+   "explanation": "7 razy więcej, więc mnożymy przez 7.",
+   "category": "mat7_algebra",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "mat7-pp-030",
+   "type": "qa",
+   "question": "Zapisz wyrażeniem: obwód prostokąta o bokach a i b.",
+   "answer": "2a + 2b",
+   "accept": [
+    "2a+2b",
+    "2(a + b)",
+    "2(a+b)",
+    "2 · (a + b)"
+   ],
+   "explanation": "Prostokąt ma dwa boki długości a i dwa długości b.",
+   "category": "mat7_algebra",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "mat7-pp-031",
+   "type": "qa",
+   "question": "Towar kosztował x zł i podrożał o 20%. Zapisz wyrażeniem nową cenę.",
+   "answer": "1,2x",
+   "accept": [
+    "1,2 x",
+    "1.2x",
+    "x + 0,2x",
+    "x+0,2x",
+    "120% x"
+   ],
+   "explanation": "Nowa cena to 100% + 20% = 120% ceny, czyli 1,2 · x.",
+   "category": "mat7_algebra",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "mat7-pp-032",
+   "type": "cloze",
+   "text": "Iloczyn liczby i zmiennych, np. 5x^2 albo -3ab, nazywamy {{jednomianem}}.",
+   "hint": "nazwa pojedynczego składnika sumy algebraicznej",
+   "explanation": "Sumę jednomianów nazywamy sumą algebraiczną.",
+   "category": "mat7_algebra",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "mat7-pp-033",
+   "type": "qa",
+   "question": "Jak nazywamy jednomiany różniące się tylko współczynnikiem liczbowym, np. 3x i -5x?",
+   "answer": "jednomiany podobne",
+   "accept": [
+    "podobne",
+    "wyrazy podobne"
+   ],
+   "explanation": "Jednomiany podobne można dodawać, sumując współczynniki.",
+   "category": "mat7_algebra",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "mat7-pp-034",
+   "type": "qa",
+   "question": "Jaki jest współczynnik liczbowy jednomianu -4ab?",
+   "answer": "-4",
+   "accept": [
+    "- 4"
+   ],
+   "explanation": "Współczynnik to liczba stojąca przed zmiennymi.",
+   "category": "mat7_algebra",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "mat7-pp-035",
+   "type": "qa",
+   "question": "Uprość: 3x + 5x - 2x.",
+   "answer": "6x",
+   "explanation": "Dodajemy współczynniki jednomianów podobnych: 3 + 5 - 2 = 6.",
+   "category": "mat7_algebra",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "mat7-pp-036",
+   "type": "qa",
+   "question": "Uprość: (2x + 3) + (x - 5).",
+   "answer": "3x - 2",
+   "accept": [
+    "3x-2"
+   ],
+   "explanation": "Opuszczamy nawiasy i redukujemy wyrazy podobne: 2x + x = 3x, 3 - 5 = -2.",
+   "category": "mat7_algebra",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "mat7-pp-037",
+   "type": "qa",
+   "question": "Uprość: (4a - 1) - (a - 3).",
+   "answer": "3a + 2",
+   "accept": [
+    "3a+2"
+   ],
+   "explanation": "Odejmując sumę w nawiasie, zmieniamy znaki jej wyrazów: 4a - 1 - a + 3 = 3a + 2.",
+   "category": "mat7_algebra",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "mat7-pp-038",
+   "type": "cloze",
+   "text": "Odejmując sumę algebraiczną w nawiasie, zmieniamy {{znaki}} wszystkich jej wyrazów na przeciwne.",
+   "hint": "co zmieniamy",
+   "explanation": "-(a - b) = -a + b.",
+   "category": "mat7_algebra",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "mat7-pp-039",
+   "type": "qa",
+   "question": "Wykonaj mnożenie: 3(2x - 4).",
+   "answer": "6x - 12",
+   "accept": [
+    "6x-12"
+   ],
+   "explanation": "Mnożymy każdy wyraz sumy przez 3.",
+   "category": "mat7_algebra",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "mat7-pp-040",
+   "type": "qa",
+   "question": "Wykonaj mnożenie: -2x(x + 5).",
+   "answer": "-2x^2 - 10x",
+   "accept": [
+    "-2x²-10x",
+    "-2x^2-10x",
+    "-2x² - 10x",
+    "-10x - 2x^2"
+   ],
+   "explanation": "Jednomian mnożymy przez każdy wyraz sumy: -2x · x = -2x^2, -2x · 5 = -10x.",
+   "category": "mat7_algebra",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "mat7-pp-041",
+   "type": "qa",
+   "question": "Wykonaj mnożenie: (x + 2)(x + 3).",
+   "answer": "x^2 + 5x + 6",
+   "accept": [
+    "x²+5x+6",
+    "x^2+5x+6",
+    "x² + 5x + 6"
+   ],
+   "explanation": "x · x + x · 3 + 2 · x + 2 · 3 = x^2 + 3x + 2x + 6.",
+   "category": "mat7_algebra",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "mat7-pp-042",
+   "type": "qa",
+   "question": "Wykonaj mnożenie: (a - 1)(a + 1).",
+   "answer": "a^2 - 1",
+   "accept": [
+    "a²-1",
+    "a^2-1",
+    "a² - 1"
+   ],
+   "explanation": "a^2 + a - a - 1 = a^2 - 1.",
+   "category": "mat7_algebra",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "mat7-pp-043",
+   "type": "cloze",
+   "text": "Jeden procent to {{setna}} część całości.",
+   "hint": "jaka część",
+   "explanation": "1% = 1/100 = 0,01.",
+   "category": "mat7_percent",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "mat7-pp-044",
+   "type": "qa",
+   "question": "Jaki procent całości stanowi 1/4?",
+   "answer": "25%",
+   "accept": [
+    "25"
+   ],
+   "explanation": "1/4 = 25/100 = 25%.",
+   "category": "mat7_percent",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "mat7-pp-045",
+   "type": "qa",
+   "question": "Zapisz ułamek 3/5 w procentach.",
+   "answer": "60%",
+   "accept": [
+    "60"
+   ],
+   "explanation": "3/5 = 60/100 = 60%.",
+   "category": "mat7_percent",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "mat7-pp-046",
+   "type": "qa",
+   "question": "Oblicz 15% liczby 200.",
+   "answer": "30",
+   "explanation": "0,15 · 200 = 30.",
+   "category": "mat7_percent",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "mat7-pp-047",
+   "type": "qa",
+   "question": "Jakim procentem liczby 80 jest liczba 20?",
+   "answer": "25%",
+   "accept": [
+    "25"
+   ],
+   "explanation": "20/80 = 1/4 = 25%.",
+   "category": "mat7_percent",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "mat7-pp-048",
+   "type": "qa",
+   "question": "Znajdź liczbę, której 20% wynosi 14.",
+   "answer": "70",
+   "explanation": "14 : 0,2 = 70.",
+   "category": "mat7_percent",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mat7-pp-049",
+   "type": "qa",
+   "question": "Cena 200 zł wzrosła o 10%, a potem spadła o 10%. Ile wynosi teraz?",
+   "answer": "198 zł",
+   "accept": [
+    "198"
+   ],
+   "explanation": "200 · 1,1 = 220, a 220 · 0,9 = 198: obniżka liczona jest od wyższej ceny.",
+   "category": "mat7_percent",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mat7-pp-050",
+   "type": "cloze",
+   "text": "Dwie kolejne podwyżki o 10% to łącznie podwyżka o {{21}}%, a nie o 20%.",
+   "hint": "policz 1,1 · 1,1",
+   "explanation": "1,1 · 1,1 = 1,21, czyli wzrost o 21%.",
+   "category": "mat7_percent",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mat7-pp-051",
+   "type": "qa",
+   "question": "Cena po obniżce o 20% wynosi 120 zł. Ile wynosiła przed obniżką?",
+   "answer": "150 zł",
+   "accept": [
+    "150"
+   ],
+   "explanation": "120 zł to 80% ceny, więc cena to 120 : 0,8 = 150.",
+   "category": "mat7_percent",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mat7-pp-052",
+   "type": "qa",
+   "question": "Czy liczba 3 jest rozwiązaniem równania 2x + 1 = 7?",
+   "answer": "tak",
+   "explanation": "2 · 3 + 1 = 7, więc równość jest prawdziwa.",
+   "category": "mat7_equations",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "mat7-pp-053",
+   "type": "cloze",
+   "text": "Liczba, która po podstawieniu do równania daje prawdziwą równość, to {{rozwiązanie}} równania.",
+   "hint": "inaczej: pierwiastek równania",
+   "explanation": "Sprawdzamy rozwiązanie przez podstawienie.",
+   "category": "mat7_equations",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "mat7-pp-054",
+   "type": "cloze",
+   "text": "Równania, które mają ten sam zbiór rozwiązań, nazywamy {{równoważnymi}}.",
+   "explanation": "Dodając do obu stron tę samą liczbę, otrzymujemy równanie równoważne.",
+   "category": "mat7_equations",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "mat7-pp-055",
+   "type": "qa",
+   "question": "Rozwiąż równanie: x + 7 = 12.",
+   "answer": "x = 5",
+   "accept": [
+    "5"
+   ],
+   "explanation": "Od obu stron odejmujemy 7.",
+   "category": "mat7_equations",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "mat7-pp-056",
+   "type": "qa",
+   "question": "Rozwiąż równanie: 3x - 4 = 11.",
+   "answer": "x = 5",
+   "accept": [
+    "5"
+   ],
+   "explanation": "3x = 15, więc x = 5.",
+   "category": "mat7_equations",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "mat7-pp-057",
+   "type": "cloze",
+   "text": "Przenosząc wyraz na drugą stronę równania, zmieniamy jego {{znak}} na przeciwny.",
+   "explanation": "To skrót od dodania lub odjęcia tego wyrazu od obu stron.",
+   "category": "mat7_equations",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "mat7-pp-058",
+   "type": "qa",
+   "question": "Rozwiąż równanie: 2(x + 3) = 10.",
+   "answer": "x = 2",
+   "accept": [
+    "2"
+   ],
+   "explanation": "2x + 6 = 10, więc 2x = 4.",
+   "category": "mat7_equations",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.3"
+  },
+  {
+   "id": "mat7-pp-059",
+   "type": "qa",
+   "question": "Rozwiąż równanie: 3(x - 1) = 2x + 4.",
+   "answer": "x = 7",
+   "accept": [
+    "7"
+   ],
+   "explanation": "3x - 3 = 2x + 4, czyli x = 7.",
+   "category": "mat7_equations",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VI.3"
+  },
+  {
+   "id": "mat7-pp-060",
+   "type": "qa",
+   "question": "Ile rozwiązań ma równanie x + 1 = x + 2?",
+   "answer": "zero",
+   "accept": [
+    "0",
+    "brak",
+    "nie ma rozwiązań",
+    "żadnego"
+   ],
+   "explanation": "Po uproszczeniu zostaje 1 = 2, czyli równość fałszywa: równanie sprzeczne.",
+   "category": "mat7_equations",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VI.3"
+  },
+  {
+   "id": "mat7-pp-061",
+   "type": "qa",
+   "question": "Suma trzech kolejnych liczb naturalnych wynosi 36. Jaka jest najmniejsza z nich?",
+   "answer": "11",
+   "explanation": "x + (x + 1) + (x + 2) = 36, czyli 3x + 3 = 36, x = 11.",
+   "category": "mat7_equations",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.4"
+  },
+  {
+   "id": "mat7-pp-062",
+   "type": "qa",
+   "question": "Ojciec jest 4 razy starszy od syna, razem mają 40 lat. Ile lat ma syn?",
+   "answer": "8",
+   "accept": [
+    "8 lat"
+   ],
+   "explanation": "x + 4x = 40, więc x = 8.",
+   "category": "mat7_equations",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VI.4"
+  },
+  {
+   "id": "mat7-pp-063",
+   "type": "qa",
+   "question": "Po podwyżce o 25% cena wynosi 50 zł. Ułóż równanie i podaj cenę sprzed podwyżki.",
+   "answer": "40 zł",
+   "accept": [
+    "40"
+   ],
+   "explanation": "1,25x = 50, więc x = 40.",
+   "category": "mat7_equations",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VI.4"
+  },
+  {
+   "id": "mat7-pp-064",
+   "type": "qa",
+   "question": "Ze wzoru na prędkość v = s/t wyznacz drogę s.",
+   "answer": "s = v · t",
+   "accept": [
+    "s = vt",
+    "vt",
+    "v · t",
+    "v*t",
+    "s=v*t"
+   ],
+   "explanation": "Obie strony mnożymy przez t.",
+   "category": "mat7_equations",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.5"
+  },
+  {
+   "id": "mat7-pp-065",
+   "type": "qa",
+   "question": "Ze wzoru na pole prostokąta P = a · b wyznacz bok b.",
+   "answer": "b = P/a",
+   "accept": [
+    "P/a",
+    "P : a",
+    "b = P : a",
+    "b=P/a"
+   ],
+   "explanation": "Obie strony dzielimy przez a.",
+   "category": "mat7_equations",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VI.5"
+  },
+  {
+   "id": "mat7-pp-066",
+   "type": "cloze",
+   "text": "Jeśli dwukrotny wzrost jednej wielkości powoduje dwukrotny wzrost drugiej, to wielkości te są wprost {{proporcjonalne}}.",
+   "explanation": "Ich iloraz jest stały.",
+   "category": "mat7_percent",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "mat7-pp-067",
+   "type": "qa",
+   "question": "Czy liczba kupionych biletów w tej samej cenie i łączna kwota do zapłaty są wprost proporcjonalne?",
+   "answer": "tak",
+   "explanation": "Dwa razy więcej biletów to dwa razy większa kwota.",
+   "category": "mat7_percent",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "mat7-pp-068",
+   "type": "qa",
+   "question": "5 zeszytów kosztuje 15 zł. Ile kosztuje 8 takich zeszytów?",
+   "answer": "24 zł",
+   "accept": [
+    "24"
+   ],
+   "explanation": "Jeden zeszyt kosztuje 3 zł, więc 8 · 3 = 24.",
+   "category": "mat7_percent",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "mat7-pp-069",
+   "type": "qa",
+   "question": "Samochód jedzie 90 km w 1 godzinę. Ile km przejedzie w 2,5 godziny przy tej samej prędkości?",
+   "answer": "225 km",
+   "accept": [
+    "225"
+   ],
+   "explanation": "90 · 2,5 = 225.",
+   "category": "mat7_percent",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "mat7-pp-070",
+   "type": "qa",
+   "question": "Podziel 120 zł w stosunku 1 : 2. Ile wynosi większa część?",
+   "answer": "80 zł",
+   "accept": [
+    "80"
+   ],
+   "explanation": "120 : 3 = 40 na jedną część, większa to 2 · 40 = 80.",
+   "category": "mat7_percent",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.3"
+  },
+  {
+   "id": "mat7-pp-071",
+   "type": "qa",
+   "question": "Podziel liczbę 60 w stosunku 2 : 3. Ile wynosi mniejsza część?",
+   "answer": "24",
+   "explanation": "60 : 5 = 12, mniejsza część to 2 · 12 = 24.",
+   "category": "mat7_percent",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VII.3"
+  },
+  {
+   "id": "mat7-pp-072",
+   "type": "qa",
+   "question": "Jaką własność mają kąty wierzchołkowe?",
+   "answer": "są równe",
+   "accept": [
+    "równe",
+    "mają równe miary",
+    "sa rowne"
+   ],
+   "explanation": "Kąty wierzchołkowe powstają przy przecięciu dwóch prostych i leżą naprzeciw siebie.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "mat7-pp-073",
+   "type": "qa",
+   "question": "Ile wynosi suma miar kątów przyległych?",
+   "answer": "180°",
+   "accept": [
+    "180",
+    "180 stopni"
+   ],
+   "explanation": "Kąty przyległe mają wspólne ramię, a pozostałe ramiona tworzą prostą.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "mat7-pp-074",
+   "type": "cloze",
+   "text": "Dwie proste na płaszczyźnie, które nie mają żadnego punktu wspólnego, nazywamy {{równoległymi}}.",
+   "explanation": "Proste przecinające się mają dokładnie jeden punkt wspólny.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "mat7-pp-075",
+   "type": "qa",
+   "question": "Pod jakim kątem przecinają się proste prostopadłe?",
+   "answer": "90°",
+   "accept": [
+    "90",
+    "90 stopni",
+    "prostym",
+    "pod kątem prostym"
+   ],
+   "explanation": "Proste prostopadłe tworzą cztery kąty proste.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.2"
+  },
+  {
+   "id": "mat7-pp-076",
+   "type": "qa",
+   "question": "Jaką własność mają kąty naprzemianległe przy dwóch prostych równoległych?",
+   "answer": "są równe",
+   "accept": [
+    "równe",
+    "mają równe miary"
+   ],
+   "explanation": "Kąty naprzemianległe leżą po przeciwnych stronach prostej przecinającej.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.3"
+  },
+  {
+   "id": "mat7-pp-077",
+   "type": "qa",
+   "question": "Podaj skróty trzech cech przystawania trójkątów.",
+   "answer": "BBB, BKB, KBK",
+   "accept": [
+    "bbb bkb kbk",
+    "BBB BKB KBK",
+    "bbb, bkb, kbk"
+   ],
+   "explanation": "Bok-bok-bok, bok-kąt-bok, kąt-bok-kąt.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.4"
+  },
+  {
+   "id": "mat7-pp-078",
+   "type": "cloze",
+   "text": "Cecha przystawania {{BKB}}: dwa boki i kąt między nimi w jednym trójkącie są równe odpowiednim bokom i kątowi w drugim.",
+   "hint": "bok, kąt, bok",
+   "explanation": "Kąt musi leżeć między tymi dwoma bokami.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.4"
+  },
+  {
+   "id": "mat7-pp-079",
+   "type": "qa",
+   "question": "Czy istnieje trójkąt o bokach 2 cm, 3 cm i 6 cm?",
+   "answer": "nie",
+   "explanation": "2 + 3 < 6, więc nierówność trójkąta nie jest spełniona.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.5"
+  },
+  {
+   "id": "mat7-pp-080",
+   "type": "cloze",
+   "text": "W każdym trójkącie suma długości dwóch boków jest {{większa}} od długości trzeciego boku.",
+   "explanation": "To nierówność trójkąta; równość AB + BC = AC oznacza, że punkt B leży na odcinku AC.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.5"
+  },
+  {
+   "id": "mat7-pp-081",
+   "type": "qa",
+   "question": "Ile wynosi suma miar kątów wewnętrznych trójkąta?",
+   "answer": "180°",
+   "accept": [
+    "180",
+    "180 stopni"
+   ],
+   "explanation": "Dotyczy każdego trójkąta.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.6"
+  },
+  {
+   "id": "mat7-pp-082",
+   "type": "qa",
+   "question": "Ile wynosi miara każdego kąta trójkąta równobocznego?",
+   "answer": "60°",
+   "accept": [
+    "60",
+    "60 stopni"
+   ],
+   "explanation": "180° : 3 = 60°.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.6"
+  },
+  {
+   "id": "mat7-pp-083",
+   "type": "qa",
+   "question": "W trójkącie równoramiennym kąt między ramionami ma 40°. Ile ma każdy kąt przy podstawie?",
+   "answer": "70°",
+   "accept": [
+    "70",
+    "70 stopni"
+   ],
+   "explanation": "Kąty przy podstawie są równe: (180 - 40) : 2 = 70.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.6"
+  },
+  {
+   "id": "mat7-pp-084",
+   "type": "qa",
+   "question": "Podaj twierdzenie Pitagorasa dla trójkąta prostokątnego o przyprostokątnych a, b i przeciwprostokątnej c.",
+   "answer": "a^2 + b^2 = c^2",
+   "accept": [
+    "a² + b² = c²",
+    "a^2+b^2=c^2",
+    "a²+b²=c²",
+    "c^2 = a^2 + b^2"
+   ],
+   "explanation": "Suma kwadratów przyprostokątnych równa się kwadratowi przeciwprostokątnej.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.7"
+  },
+  {
+   "id": "mat7-pp-085",
+   "type": "cloze",
+   "text": "W trójkącie prostokątnym najdłuższy bok, leżący naprzeciw kąta prostego, to {{przeciwprostokątna}}.",
+   "explanation": "Pozostałe dwa boki to przyprostokątne.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.7"
+  },
+  {
+   "id": "mat7-pp-086",
+   "type": "qa",
+   "question": "Przyprostokątne trójkąta prostokątnego mają 6 cm i 8 cm. Ile ma przeciwprostokątna?",
+   "answer": "10 cm",
+   "accept": [
+    "10"
+   ],
+   "explanation": "36 + 64 = 100, a √100 = 10.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.7"
+  },
+  {
+   "id": "mat7-pp-087",
+   "type": "qa",
+   "question": "Przeciwprostokątna ma 13 cm, a jedna przyprostokątna 5 cm. Ile ma druga przyprostokątna?",
+   "answer": "12 cm",
+   "accept": [
+    "12"
+   ],
+   "explanation": "169 - 25 = 144, a √144 = 12.",
+   "category": "mat7_geometry",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "VIII.7"
+  },
+  {
+   "id": "mat7-pp-088",
+   "type": "qa",
+   "question": "Jak nazywamy wielokąt, który ma wszystkie boki równe i wszystkie kąty równe?",
+   "answer": "wielokąt foremny",
+   "accept": [
+    "foremny"
+   ],
+   "explanation": "Np. trójkąt równoboczny i kwadrat.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.1"
+  },
+  {
+   "id": "mat7-pp-089",
+   "type": "qa",
+   "question": "Podaj wzór na pole trójkąta o podstawie a i wysokości h.",
+   "answer": "P = a · h / 2",
+   "accept": [
+    "ah/2",
+    "a·h/2",
+    "a*h/2",
+    "1/2 a h",
+    "(a·h)/2",
+    "P = ah/2",
+    "a h / 2"
+   ],
+   "explanation": "Wysokość musi być prostopadła do wybranej podstawy.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-090",
+   "type": "qa",
+   "question": "Podaj wzór na pole równoległoboku o podstawie a i wysokości h.",
+   "answer": "P = a · h",
+   "accept": [
+    "ah",
+    "a·h",
+    "a*h",
+    "a h",
+    "P = ah"
+   ],
+   "explanation": "Podstawa razy wysokość opuszczona na tę podstawę.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-091",
+   "type": "qa",
+   "question": "Podaj wzór na pole rombu o przekątnych d1 i d2.",
+   "answer": "P = d1 · d2 / 2",
+   "accept": [
+    "d1·d2/2",
+    "d1*d2/2",
+    "(d1·d2)/2",
+    "1/2 d1 d2",
+    "d1 d2 / 2",
+    "P = d1d2/2"
+   ],
+   "explanation": "Przekątne rombu są prostopadłe, stąd połowa ich iloczynu.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-092",
+   "type": "qa",
+   "question": "Podaj wzór na pole trapezu o podstawach a i b oraz wysokości h.",
+   "answer": "P = (a + b) · h / 2",
+   "accept": [
+    "(a+b)h/2",
+    "(a+b)·h/2",
+    "(a+b)*h/2",
+    "1/2 (a+b) h",
+    "(a + b) h / 2"
+   ],
+   "explanation": "Połowa sumy podstaw razy wysokość.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-093",
+   "type": "qa",
+   "question": "Oblicz pole trójkąta o podstawie 10 cm i wysokości 4 cm.",
+   "answer": "20 cm^2",
+   "accept": [
+    "20",
+    "20 cm2",
+    "20 cm²"
+   ],
+   "explanation": "10 · 4 / 2 = 20.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-094",
+   "type": "qa",
+   "question": "Trójkąt prostokątny ma boki 5 cm, 12 cm i 13 cm. Ile wynosi jego pole?",
+   "answer": "30 cm^2",
+   "accept": [
+    "30",
+    "30 cm2",
+    "30 cm²"
+   ],
+   "explanation": "Przyprostokątne to 5 i 12: 5 · 12 / 2 = 30.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-095",
+   "type": "qa",
+   "question": "Jak zaznaczamy na osi liczbowej, że liczba 1,5 należy do zbioru x ≥ 1,5?",
+   "answer": "zamalowanym kółkiem",
+   "accept": [
+    "zamalowane kółko",
+    "pełne kółko",
+    "zamalowany punkt",
+    "pełnym kółkiem"
+   ],
+   "explanation": "Dla x > 1,5 kółko byłoby puste, bo 1,5 nie należy do zbioru.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "mat7-pp-096",
+   "type": "qa",
+   "question": "Jak nazywa się pozioma oś układu współrzędnych?",
+   "answer": "oś x",
+   "accept": [
+    "oś odciętych",
+    "x",
+    "OX",
+    "os x"
+   ],
+   "explanation": "Pionowa oś to oś y (oś rzędnych).",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "mat7-pp-097",
+   "type": "cloze",
+   "text": "Punkt o współrzędnych (4, 0) leży na osi {{x}}.",
+   "explanation": "Punkty na osi x mają drugą współrzędną równą 0.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "mat7-pp-098",
+   "type": "qa",
+   "question": "Jak nazywamy punkt, którego obie współrzędne są liczbami całkowitymi?",
+   "answer": "punkt kratowy",
+   "accept": [
+    "kratowy"
+   ],
+   "explanation": "Punkty kratowe leżą w węzłach kratki układu współrzędnych.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "mat7-pp-099",
+   "type": "qa",
+   "question": "W której ćwiartce układu współrzędnych leży punkt (-3, 2)?",
+   "answer": "w drugiej",
+   "accept": [
+    "II",
+    "druga",
+    "2",
+    "drugiej",
+    "w II"
+   ],
+   "explanation": "Pierwsza współrzędna ujemna, druga dodatnia: ćwiartka II (lewa górna).",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.3"
+  },
+  {
+   "id": "mat7-pp-100",
+   "type": "qa",
+   "question": "Jak nazywa się graniastosłup, którego ściany boczne są prostokątami prostopadłymi do podstaw?",
+   "answer": "graniastosłup prosty",
+   "accept": [
+    "prosty"
+   ],
+   "explanation": "Krawędzie boczne graniastosłupa prostego są prostopadłe do podstaw.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "mat7-pp-101",
+   "type": "qa",
+   "question": "Jak nazywa się graniastosłup prosty, którego podstawą jest wielokąt foremny?",
+   "answer": "graniastosłup prawidłowy",
+   "accept": [
+    "prawidłowy"
+   ],
+   "explanation": "Np. graniastosłup prawidłowy trójkątny ma w podstawie trójkąt równoboczny.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "mat7-pp-102",
+   "type": "qa",
+   "question": "Ile ścian ma graniastosłup trójkątny?",
+   "answer": "5",
+   "accept": [
+    "pięć"
+   ],
+   "explanation": "Dwie podstawy i trzy ściany boczne.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "mat7-pp-103",
+   "type": "qa",
+   "question": "Ile krawędzi ma graniastosłup o podstawie sześciokąta?",
+   "answer": "18",
+   "explanation": "Krawędzi jest 3n: po 6 w każdej podstawie i 6 bocznych.",
+   "category": "mat7_solids",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "mat7-pp-104",
+   "type": "qa",
+   "question": "Jak nazywa się bryła, która ma jedną podstawę, a jej ściany boczne są trójkątami o wspólnym wierzchołku?",
+   "answer": "ostrosłup",
+   "explanation": "Wspólny wierzchołek ścian bocznych to wierzchołek ostrosłupa.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "mat7-pp-105",
+   "type": "qa",
+   "question": "Jak nazywa się ostrosłup, którego wszystkie cztery ściany są trójkątami równobocznymi?",
+   "answer": "czworościan foremny",
+   "accept": [
+    "czworościan"
+   ],
+   "explanation": "Czworościan foremny jest ostrosłupem prawidłowym trójkątnym o wszystkich krawędziach równych.",
+   "category": "mat7_solids",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.1"
+  },
+  {
+   "id": "mat7-pp-106",
+   "type": "qa",
+   "question": "Podaj wzór na objętość graniastosłupa o polu podstawy Pp i wysokości H.",
+   "answer": "V = Pp · H",
+   "accept": [
+    "Pp·H",
+    "Pp*H",
+    "Pp H",
+    "V = Pp H",
+    "pole podstawy razy wysokość"
+   ],
+   "explanation": "Objętość to pole podstawy razy wysokość.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-107",
+   "type": "qa",
+   "question": "Podaj wzór na objętość prostopadłościanu o krawędziach a, b, c.",
+   "answer": "V = a · b · c",
+   "accept": [
+    "abc",
+    "a·b·c",
+    "a*b*c",
+    "V = abc",
+    "a b c"
+   ],
+   "explanation": "Pole podstawy a · b razy wysokość c.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-108",
+   "type": "qa",
+   "question": "Oblicz objętość sześcianu o krawędzi 3 cm.",
+   "answer": "27 cm^3",
+   "accept": [
+    "27",
+    "27 cm3",
+    "27 cm³"
+   ],
+   "explanation": "3 · 3 · 3 = 27.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-109",
+   "type": "qa",
+   "question": "Oblicz pole powierzchni całkowitej sześcianu o krawędzi 2 cm.",
+   "answer": "24 cm^2",
+   "accept": [
+    "24",
+    "24 cm2",
+    "24 cm²"
+   ],
+   "explanation": "Sześć ścian po 4 cm^2: 6 · 4 = 24.",
+   "category": "mat7_solids",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-110",
+   "type": "cloze",
+   "text": "Pole powierzchni całkowitej graniastosłupa to suma pól dwóch podstaw i pola powierzchni {{bocznej}}.",
+   "explanation": "Pc = 2 · Pp + Pb.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-111",
+   "type": "qa",
+   "question": "Graniastosłup prosty ma podstawę o polu 12 cm^2 i wysokość 5 cm. Ile wynosi jego objętość?",
+   "answer": "60 cm^3",
+   "accept": [
+    "60",
+    "60 cm3",
+    "60 cm³"
+   ],
+   "explanation": "12 · 5 = 60.",
+   "category": "mat7_solids",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-112",
+   "type": "qa",
+   "question": "Ile jest liczb naturalnych od 1 do 30 podzielnych przez 7?",
+   "answer": "4",
+   "accept": [
+    "cztery"
+   ],
+   "explanation": "To liczby 7, 14, 21 i 28.",
+   "category": "mat7_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "mat7-pp-113",
+   "type": "cloze",
+   "text": "Prawdopodobieństwo zdarzenia to liczba wyników sprzyjających podzielona przez liczbę {{wszystkich}} możliwych wyników.",
+   "explanation": "Wyniki muszą być jednakowo prawdopodobne, np. ścianki uczciwej kostki.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mat7-pp-114",
+   "type": "qa",
+   "question": "Rzucamy raz monetą. Jakie jest prawdopodobieństwo wyrzucenia orła?",
+   "answer": "1/2",
+   "accept": [
+    "0,5",
+    "0.5",
+    "50%"
+   ],
+   "explanation": "Dwa możliwe wyniki, jeden sprzyjający.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mat7-pp-115",
+   "type": "qa",
+   "question": "Rzucamy raz sześcienną kostką. Jakie jest prawdopodobieństwo wyrzucenia szóstki?",
+   "answer": "1/6",
+   "explanation": "Sześć możliwych wyników, jeden sprzyjający.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mat7-pp-116",
+   "type": "qa",
+   "question": "W pudełku są 3 kule białe i 7 czarnych. Jakie jest prawdopodobieństwo wylosowania białej?",
+   "answer": "3/10",
+   "accept": [
+    "0,3",
+    "0.3",
+    "30%"
+   ],
+   "explanation": "Trzy kule sprzyjające spośród dziesięciu.",
+   "category": "mat7_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mat7-pp-117",
+   "type": "qa",
+   "question": "Jakie jest prawdopodobieństwo zdarzenia pewnego?",
+   "answer": "1",
+   "accept": [
+    "100%"
+   ],
+   "explanation": "Np. wyrzucenie kostką liczby mniejszej niż 7.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mat7-pp-118",
+   "type": "qa",
+   "question": "Jak nazywa się diagram, na którym dane przedstawia się jako wycinki koła?",
+   "answer": "diagram kołowy",
+   "accept": [
+    "kołowy"
+   ],
+   "explanation": "Całe koło odpowiada 100% danych.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.1"
+  },
+  {
+   "id": "mat7-pp-119",
+   "type": "qa",
+   "question": "Na diagramie kołowym całe koło (360°) odpowiada 100%. Ile stopni odpowiada 25%?",
+   "answer": "90°",
+   "accept": [
+    "90",
+    "90 stopni"
+   ],
+   "explanation": "25% z 360° to 90°.",
+   "category": "mat7_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.1"
+  },
+  {
+   "id": "mat7-pp-120",
+   "type": "qa",
+   "question": "Jaki diagram najlepiej pokazuje, jaką część całości stanowi każda z kategorii?",
+   "answer": "kołowy",
+   "accept": [
+    "diagram kołowy"
+   ],
+   "explanation": "Wycinki koła od razu pokazują udziały procentowe.",
+   "category": "mat7_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "mat7-pp-121",
+   "type": "qa",
+   "question": "Jaki wykres stosuje się do pokazania zmian wielkości w czasie, np. temperatury w ciągu dnia?",
+   "answer": "liniowy",
+   "accept": [
+    "wykres liniowy"
+   ],
+   "explanation": "Punkty połączone linią pokazują, jak wielkość rośnie lub maleje.",
+   "category": "mat7_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XIII.2"
+  },
+  {
+   "id": "mat7-pp-122",
+   "type": "cloze",
+   "text": "Średnia arytmetyczna to suma liczb podzielona przez ich {{liczbę}}.",
+   "hint": "ile ich jest",
+   "explanation": "Np. średnia liczb 2, 4, 9 to 15 : 3 = 5.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.3"
+  },
+  {
+   "id": "mat7-pp-123",
+   "type": "qa",
+   "question": "Oblicz średnią arytmetyczną liczb 4, 7 i 10.",
+   "answer": "7",
+   "explanation": "(4 + 7 + 10) : 3 = 21 : 3 = 7.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.3"
+  },
+  {
+   "id": "mat7-pp-124",
+   "type": "qa",
+   "question": "Oceny Kasi to 4, 5, 5 i 2. Jaką ocenę musi dostać za piątym razem, żeby mieć średnią 4?",
+   "answer": "4",
+   "explanation": "Suma pięciu ocen ma wynosić 20, a 4 + 5 + 5 + 2 = 16, więc brakuje 4.",
+   "category": "mat7_stats",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "XIII.3"
+  }
+ ]
+}

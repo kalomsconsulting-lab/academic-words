@@ -1,6 +1,6 @@
 // Service worker: network-first (zawsze świeże pliki online), cache jako zapas offline.
 // Po zmianie listy plików podbij numer wersji.
-const CACHE = 'study-cards-v7';
+const CACHE = 'study-cards-v8';
 const ASSETS = [
   './',
   './index.html',
@@ -12,6 +12,7 @@ const ASSETS = [
   './data/biology.json',
   './data/angielski-7.json',
   './data/biologia-7.json',
+  './data/matematyka-7.json',
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-192.png',
