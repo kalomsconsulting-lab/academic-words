@@ -13,9 +13,10 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 | `app.js` | cała logika: ćwiczenia, powtórki SM-2, widoki |
 | `ai-import.js` | import z czatu AI: prompt do skopiowania i parser odpowiedzi (`window.AW_AI`) |
 | `vocabulary.json` | słownictwo Academic English (704 wpisy) |
-| `data/biology.json` | karty bazowe z biologii IB (56 przykładowych: pytania i zdania z luką, po kilka w każdej kategorii) |
-| `data/angielski-7.json`, `data/biologia-7.json` | karty bazowe dla 7 klasy (52 słówka, 51 kart z biologii po polsku) |
-| `data/matematyka-7.json` | Matematyka 7 klasy: 124 karty z podstawy programowej (znaczek 📘, pole `pp`) |
+| `data/biology.json` | karty bazowe z biologii IB (132: pytania i zdania z luką, 109 z numerem `pp`) |
+| `data/angielski-7.json`, `data/biologia-7.json` | karty bazowe dla 7 klasy (113 słówek, 102 karty z biologii po polsku; większość z `pp`) |
+| `data/*-7.json` (matematyka, chemia, fizyka, polski, historia, geografia, informatyka, niemiecki, edukacja-zdrowotna) | karty bazowe 7 klasy z podstawy programowej (znaczek 📘, pole `pp`), ok. 90–125 na przedmiot |
+| `data/chemistry.json`, `physics.json`, `mathematics.json`, `history.json`, `historia-polski.json`, `geography.json`, `polski.json`, `edukacja-obywatelska.json`, `computer-science.json`, `english.json`, `psychology.json`, `german.json` | karty bazowe IB Pre-DP 1 z podstawy programowej liceum (klasa 1) i przewodników IB, ok. 85–120 na przedmiot |
 | `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
 
 **Starter pack (`vocabulary.json`):**
@@ -36,7 +37,7 @@ Przedmioty są pogrupowane w **ścieżki** (`LEVELS` w `app.js`), a konto widzi 
 | IB Pre-DP (`ib`) | Academic English, Biology, English, Mathematics, Chemistry, Physics, History, Geography, Computer Science, Psychology (karty po angielsku); History of Poland, Polish, Edukacja obywatelska (po polsku); German B (słówka DE↔PL) |
 | 7 klasa szkoły podstawowej (`sp7`) | Angielski (słówka EN↔PL), Niemiecki (słówka DE↔PL), Biologia, Matematyka, Polski, Chemia, Fizyka, Historia, Geografia, Informatyka, Edukacja zdrowotna (karty po polsku) |
 
-Lista przedmiotów pochodzi z planów lekcji (Pre-DP1 R w 2. SLO STO i 7B w SP 112, rok 2026/27). Pominięte są przedmioty bez treści do zapamiętania: WF, basen, godzina wychowawcza / Homeroom, religia, etyka, muzyka, plastyka, dziedzictwo kulturowe, Art. Electives idą trymestrami: teraz Psychology, a Philosophy (`philosophy_ib`) i Business & Management (`business_ib`) mają gotowe działy i trzeba je tylko dopisać do `LEVELS.ib.subjects`, gdy się zaczną. Każdy przedmiot ma własne działy (`CATEGORIES` z polem `subject`). Karty bazowe (plik w `data/`) mają Academic English, Biology, Angielski, Biologia i Matematyka; pozostałe przedmioty nie mają pola `file` i zapełniają się z importu AI i wspólnych materiałów.
+Lista przedmiotów pochodzi z planów lekcji (Pre-DP1 R w 2. SLO STO i 7B w SP 112, rok 2026/27). Pominięte są przedmioty bez treści do zapamiętania: WF, basen, godzina wychowawcza / Homeroom, religia, etyka, muzyka, plastyka, dziedzictwo kulturowe, Art. Electives idą trymestrami: teraz Psychology, a Philosophy (`philosophy_ib`) i Business & Management (`business_ib`) mają gotowe działy i trzeba je tylko dopisać do `LEVELS.ib.subjects`, gdy się zaczną. Każdy przedmiot ma własne działy (`CATEGORIES` z polem `subject`). Karty bazowe (plik w `data/`) mają wszystkie przedmioty z planów lekcji (łącznie ok. 2500 kart z podstaw programowych); tylko electives Philosophy i Business & Management nie mają pola `file` i zapełniłyby się z importu AI i wspólnych materiałów.
 
 Nowe konto przy pierwszym uruchomieniu wybiera ścieżkę (można ją zmienić w *Ustawieniach*). Ścieżka zapisuje się w `settings.level` i synchronizuje z kontem. Stan sprzed wprowadzenia ścieżek, który ma już postęp, jest automatycznie przypisany do IB. Prompt czatu AI dostaje poziom ucznia i język kart z przedmiotu (`lang`), a przedmiot językowy (`vocab: true`) dostaje prompt na słówka.
 

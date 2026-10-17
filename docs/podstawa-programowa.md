@@ -9,7 +9,9 @@ Oznaczenie w danych: każda karta z tego zadania ma `"source": "Podstawa program
 (np. `"VIII.7"`, dla treści z przewodników IB np. `"IB A2.1"`); w aplikacji dostaje znaczek 📘 i filtr. Identyfikatory:
 `<przedmiot>-pp-<nr>`.
 
-**Stan:** zrobiony pilot Matematyka 7 (`data/matematyka-7.json`, 124 karty). Pozostałe przedmioty czekają na akceptację.
+**Stan (2026-10-18):** zrobione wszystkie 24 przedmioty (łącznie 2476 kart z `pp` w 24 plikach `data/`), każdy w osobnym
+commicie. Rzeczywiste liczby i odstępstwa od tabel poniżej są w sekcji *Wynik* na końcu. Tabele przedmiotów zostawiono
+w wersji z kroku 1 (plan); tam, gdzie wykonawca ustalił inne numery wymagań, jest to opisane w *Wyniku*.
 
 ## Które podstawy obowiązują w 2026/27
 
@@ -814,3 +816,76 @@ Do decyzji:
 4. Brakujące kategorie: chemia LO „roztwory”, fizyka LO „grawitacja”, historia LO i SP „Europa XIX w.”, polski
    „retoryka”, niemiecki SP „praca”, „kultura”. Dodać działy czy zostawić w `*_other` / najbliższej kategorii?
 5. Dla przedmiotów IB po angielsku potrzebny jest drugi przebieg researchu z pobraniem tekstów podstawy (numery `pp`).
+
+---
+
+# Wynik (po wygenerowaniu kart)
+
+| Ścieżka | Przedmiot | Plik | Kart z `pp` (w pliku) | Źródło zweryfikowane |
+|---|---|---|---|---|
+| sp7 | Matematyka | matematyka-7.json | 124 | podstawaprogramowa.pl + rozkład GWO |
+| sp7 | Biologia | biologia-7.json | 96 (102) | zpe.gov.pl; 45 istniejących kart dostało `pp`, 51 nowych |
+| sp7 | Angielski II.1 | angielski-7.json | 111 (113) | zpe.gov.pl; 13 tematów (brak „życia społecznego” w bieżącym tekście); 50 istniejących z `pp`, 61 nowych |
+| sp7 | Niemiecki II.2 | niemiecki-7.json | 98 | zpe.gov.pl; 12 tematów, gramatyka `pp: "I"` |
+| sp7 | Chemia | chemia-7.json | 102 | zpe.gov.pl, działy I–V |
+| sp7 | Fizyka | fizyka-7.json | 104 | zpe.gov.pl, działy I–V |
+| sp7 | Geografia | geografia-7.json | 102 | zpe.gov.pl, działy IX–XIII |
+| sp7 | Informatyka | informatyka-7.json | 87 | zpe.gov.pl, działy I–V (klasy VII–VIII) |
+| sp7 | Polski | polski-7.json | 123 | zpe.gov.pl; numery poprawione (patrz niżej) |
+| sp7 | Historia | historia-7.json | 112 | zpe.gov.pl; „XVIIII” to literówka = XVIII, numery z tabeli poprawne |
+| sp7 | Edukacja zdrowotna | edukacja-zdrowotna-7.json | 111 | PDF Dz.U. 2026 poz. 958, numeracja zgodna |
+| ib | Biology | biology.json | 109 (132) | zpe.gov.pl/szkola-ponadpodstawowa; 33 istniejące z `pp`, 76 nowych |
+| ib | Chemistry | chemistry.json | 115 | zpe.gov.pl/szkola-ponadpodstawowa |
+| ib | Physics | physics.json | 90 | zpe.gov.pl/szkola-ponadpodstawowa |
+| ib | Mathematics | mathematics.json | 96 | zpe.gov.pl/szkola-ponadpodstawowa |
+| ib | History | history.json | 98 | zpe.gov.pl/szkola-ponadpodstawowa (działy I–XIII) |
+| ib | History of Poland | historia-polski.json | 84 | zpe.gov.pl/szkola-ponadpodstawowa; numery po 2024 inne niż w tabeli (niżej) |
+| ib | Geography | geography.json | 98 | podstawaprogramowa.pl (ZP I–V) |
+| ib | Polish | polski.json | 111 | zpe.gov.pl/szkola-ponadpodstawowa; lista lektur po 2024 inna niż w tabeli (niżej) |
+| ib | Edukacja obywatelska | edukacja-obywatelska.json | 119 | PDF Dz.U. 2025 poz. 382, cały zakres I–VII |
+| ib | Computer Science | computer-science.json | 96 | zpe.gov.pl/szkola-ponadpodstawowa |
+| ib | English | english.json | 105 | tylko IB English A LangLit (obszary + pojęcia) |
+| ib | Psychology | psychology.json | 89 | IB DP Psychology guide 2027 (struktura z TSM) |
+| ib | German B | german.json | 96 | podstawaprogramowa.pl, wariant III.2 (14 tematów) |
+| ib | Academic English | vocabulary.json | 0 | pominięty zgodnie z planem |
+
+Właściwe adresy ZPE dla liceum: `https://zpe.gov.pl/podstawa-programowa/szkola-ponadpodstawowa/<przedmiot>` (slug
+`liceum-technikum` z tabel wyżej daje 404).
+
+## Ustalenia wykonawców, które zmieniają tabele z kroku 1
+
+- **Polski 7:** I.1.4 = neologizm, inwokacja, symbol, alegoria; komizm I.1.5, ironia I.1.6; gatunki dziennikarskie I.2.5;
+  wyrazy złożone II.1.3, imiesłowy II.1.4, zdania wielokrotnie złożone II.1.5, mowa zależna II.1.6, akcent II.1.7; odmiana
+  nazw własnych II.2.2; ortografia II.4.1 (wymiany), II.4.2 (cytowanie), II.4.4 („nie”); formy wypowiedzi III.2.1,
+  teza/hipoteza III.1.4, argument a przykład III.1.5.
+- **History of Poland (po cięciach 2024):** IX ma tylko punkty 1–2 (brak IX.3–4), X ma 1–3 (brak osobnego punktu
+  o zagrożeniach zewnętrznych), XII ma 1–4 (brak XII.5), XIII.1 dotyczy też Polski (christianitas).
+- **Polish (lektury obowiązkowe ZP po 2024, klasa 1):** Mitologia, Antygona, Makbet, Skąpiec, Biblia, Iliada (fragm.),
+  Lament świętokrzyski, Rozmowa Mistrza Polikarpa, Pieśń o Rolandzie, Horacy, Bogurodzica, Kochanowski (pieśni, treny
+  IX–XI), wybrane wiersze baroku, Krasicki (Hymn, satyra). Poza listą obowiązkową (bez kart `lektura:`): Odyseja, Dante,
+  Legenda o św. Aleksym, Kwiatki, Gall Anonim, Pasek, Karpiński, Odprawa posłów greckich, Skarga, Romeo i Julia.
+  Użyto też I.1.8 (cechy epok).
+- **Angielski 7:** w bieżącym tekście ZPE wariant II.1 ma 13 tematów; `en7_society` zostaje bez `pp`.
+- **Biology / Chemistry / Physics / CS (zakres podstawowy liceum)** nie zawierają części treści z tabel: organelle poza
+  jądrem i mitochondriami, fotosynteza, replikacja/transkrypcja, taksonomia (Biology); cząstki atomu, izotopy, masa atomowa,
+  wydajność (Chemistry); pęd (Physics); sprzęt, reprezentacja danych, LAN/WAN, złożoność, SQL, AI (CS). Takie karty mają
+  `pp` w formie `IB …` (np. `IB A2.2`, `IB S1.2`, `IB A.2`, `IB A1`). Jeśli klasa realizuje zakres rozszerzony, można je
+  przemapować na numery ZR.
+- **Mathematics:** trygonometria w trójkącie prostokątnym (VII.1–2, VII.4), średnia i mediana (XII.2) są w polskiej
+  podstawie; `IB` dostały tylko funkcje złożone/odwrotne, notacja sigma, kwartyle i IQR.
+- **Geography:** skala i odwzorowania nie występują wprost w ZP liceum (przypisane do I.2–I.3); Ziemia we wszechświecie
+  w `geoib_global` pasuje słabo do etykiety kategorii.
+- **Psychology (guide 2027):** nazwy obszarów to „research methodology”, „human development”, „health and well-being”;
+  pominięte konteksty „human relationships” i „learning and cognition” (brak kategorii).
+- **German B:** przyjęto wariant III.2; tematy I.2, I.6, I.10 bez kart (nie mają odpowiednika w 5 tematach IB).
+- **Edukacja obywatelska:** mimo że podstawa formalnie przewiduje przedmiot od klasy II, zrobiono cały zakres I–VII (119 kart),
+  bo jest w planie Pre-DP 1.
+
+## Kategorie, których brakuje (karty trafiły do `*_other` lub najbliższej)
+
+chemia LO „roztwory” (→ `chemib_mole`), fizyka LO „grawitacja” (→ `physib_motion`), historia SP „Europa XIX w.”
+(→ `his7_vienna`), polski LO „retoryka” (→ `plib_other`), historia Polski „kultura średniowiecza” (→ `hpl_other`),
+niemiecki SP „praca”, „kultura” (→ `de7_other`), informatyka SP „wyszukiwanie w sieci” (→ `inf7_other`), geografia SP
+„osiągnięcia Polaków” (→ `geo7_other`), edukacja zdrowotna „ochrona zdrowia” (`ez7_system` użyte dla szczepień
+i krwiodawstwa), psychologia „koncepcje i IA” (→ `psyib_other`).
+
