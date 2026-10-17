@@ -338,6 +338,8 @@
   // Nazwa języka obcego w poleceniach ćwiczeń ze słówkami („Napisz po …”).
   const inLang = (subject) => ((SUBJECTS[subject] || {}).lang === 'de-pl' ? 'po niemiecku' : 'po angielsku');
   const DEFAULT_SUBJECT = 'academic_english';
+  // Karty bazowe wygenerowane z podstawy programowej mają source = PP_SOURCE i pp = numer wymagania (np. „VI.3.2”).
+  const PP_SOURCE = 'Podstawa programowa';
   for (const c of Object.values(CATEGORIES)) c.subject = c.subject || DEFAULT_SUBJECT;
   const typeLabel = (type, subject) => ((SUBJECTS[subject] || {}).typeLabels || {})[type] || TYPES[type] || type;
 
@@ -739,6 +741,7 @@
     if (!catOf(it.category, it.subject)) it.category = defaultCat(it.type, it.subject);
     it._shared = String(it.id).startsWith('s-');                 // wspólne: widoczne dla wszystkich
     it._custom = it._shared || String(it.id).startsWith('c-');  // dodane w aplikacji (prywatne lub wspólne)
+    it._pp = it.source === PP_SOURCE;                            // karta bazowa z podstawy programowej (pole pp = numer wymagania)
     switch (it.type) {
       case 'qa':
         it.question = String(it.question).trim();
@@ -839,6 +842,8 @@
   }
 
   const subjectPool = (subject = currentSubject()) => VOCAB.filter((it) => it.subject === subject);
+  // Filtr „pp” w kategoriach (Dziś, Własna sesja, Karty): karty z podstawy programowej; „custom”: dodane materiały.
+  const inCat = (it, cat) => cat === 'all' || it.category === cat || (cat === 'custom' && it._custom) || (cat === 'pp' && it._pp);
 
   // ===================================================================
   // Postęp i powtórki (SM-2)
@@ -904,7 +909,7 @@
   // ===================================================================
   function filterPool(cfg) {
     return subjectPool().filter((it) =>
-      (cfg.category === 'all' || it.category === cfg.category || (cfg.category === 'custom' && it._custom)) &&
+      inCat(it, cfg.category) &&
       (cfg.difficulty === 'all' || String(it.difficulty) === String(cfg.difficulty)));
   }
 
@@ -1642,6 +1647,7 @@
   // Kategoria zapisana w ustawieniach może pochodzić z innego przedmiotu.
   function validCat(cat, pool) {
     if (cat === 'custom') return pool.some((it) => it._custom) ? cat : 'all';
+    if (cat === 'pp') return pool.some((it) => it._pp) ? cat : 'all';
     return cat === 'all' || catOf(cat, currentSubject()) ? cat : 'all';
   }
 
@@ -1743,16 +1749,18 @@
     const { due, newToday } = srsCounts(pool);
     const overall = statsFor(pool);
     const mine = pool.filter((it) => it._custom);
+    const fromPP = pool.filter((it) => it._pp);
     let quickCat = validCat(state.settings.lastConfig.category || 'all', pool);
 
     const chips = h('div', { class: 'chips' });
     const drawChips = () => chips.replaceChildren(
-      ...[['all', 'Wszystkie'], ...(mine.length ? [['custom', '⭐ Dodane']] : []), ...catsOf(currentSubject()).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
+      ...[['all', 'Wszystkie'], ...(fromPP.length ? [['pp', '📘 Podstawa']] : []), ...(mine.length ? [['custom', '⭐ Dodane']] : []), ...catsOf(currentSubject()).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
         h('button', { class: 'chip' + (quickCat === k ? ' active' : ''), onClick: () => { quickCat = k; drawChips(); } }, label)));
     drawChips();
 
-    const catRows = [...catsOf(currentSubject()), ['custom', { label: 'Dodane materiały', pl: 'własne i wspólne', icon: '⭐' }]].map(([key, c]) => {
-      const items = key === 'custom' ? mine : pool.filter((it) => it.category === key);
+    const catRows = [...catsOf(currentSubject()), ['pp', { label: 'Podstawa programowa', pl: 'wymagania z podstawy', icon: '📘' }],
+      ['custom', { label: 'Dodane materiały', pl: 'własne i wspólne', icon: '⭐' }]].map(([key, c]) => {
+      const items = key === 'custom' ? mine : key === 'pp' ? fromPP : pool.filter((it) => it.category === key);
       if (!items.length) return null;
       const s = statsFor(items);
       return h('button', { class: 'cat-row', onClick: () => startSession({ mode: 'quick', category: key, difficulty: 'all', exercise: 'mix' }) },
@@ -1840,9 +1848,11 @@
     }
 
     const hasMine = subjectPool().some((it) => it._custom);
+    const hasPP = subjectPool().some((it) => it._pp);
     cfg.category = validCat(cfg.category, subjectPool());
     const catSelect = h('select', { id: 'f-cat', value: cfg.category, onChange: (e) => { cfg.category = e.target.value; persist(); } },
       h('option', { value: 'all' }, 'Wszystkie kategorie'),
+      hasPP ? h('option', { value: 'pp' }, '📘 Podstawa programowa') : null,
       hasMine ? h('option', { value: 'custom' }, '⭐ Dodane materiały') : null,
       catsOf(currentSubject()).map(([k, c]) => h('option', { value: k }, `${c.icon} ${c.label}`)));
     const diffSelect = h('select', { id: 'f-diff', value: String(cfg.difficulty), onChange: (e) => { cfg.difficulty = e.target.value; persist(); } },
@@ -1922,7 +1932,8 @@
       it.type === 'academic_verb' ? h('span', { class: 'badge' }, FUNCTION_LABELS[it.function]) : null,
       it.type === 'awl_word' && it.awl_group ? h('span', { class: 'badge' }, `AWL ${it.awl_group}`) : null,
       it._shared ? h('span', { class: 'badge mine', title: `${it.source} — od ${it.author}` }, '👥 Wspólne')
-        : it._custom ? h('span', { class: 'badge mine', title: it.source }, '⭐ Moje') : null,
+        : it._custom ? h('span', { class: 'badge mine', title: it.source }, '⭐ Moje')
+        : it._pp ? h('span', { class: 'badge pp', title: it.pp ? `Wymaganie ${it.pp} z podstawy programowej` : PP_SOURCE }, '📘 Podstawa programowa') : null,
       it.type === 'hedging' ? h('span', { class: 'badge', title: TECHNIQUES[it.technique] }, (TECHNIQUE_DEFS[it.technique] || {}).en || it.technique) : null,
       h('span', { class: 'badge', title: DIFFICULTY[it.difficulty] }, '●'.repeat(it.difficulty) + '○'.repeat(3 - it.difficulty)),
       h('span', { class: 'badge ' + st }, STATUS_LABELS[st]));
@@ -1977,7 +1988,7 @@
       const q = bs.q.trim().toLowerCase();
       const rank = { new: 0, learning: 1, mastered: 2 };
       const out = subjectPool().filter((it) =>
-        (bs.category === 'all' || it.category === bs.category || (bs.category === 'custom' && it._custom)) &&
+        inCat(it, bs.category) &&
         (bs.type === 'all' || it.type === bs.type) &&
         (!q || it._search.includes(searchKey(q))));
       const alpha = (a, b) => a._label.localeCompare(b._label, 'en', { sensitivity: 'base' });
@@ -2006,7 +2017,8 @@
       h('h1', null, 'Karty'),
       h('div', { class: 'filters' },
         search,
-        sel('category', [['all', 'Wszystkie kategorie'], ...(subjectPool().some((it) => it._custom) ? [['custom', '⭐ Dodane materiały']] : []),
+        sel('category', [['all', 'Wszystkie kategorie'], ...(subjectPool().some((it) => it._pp) ? [['pp', '📘 Podstawa programowa']] : []),
+          ...(subjectPool().some((it) => it._custom) ? [['custom', '⭐ Dodane materiały']] : []),
           ...catsOf(currentSubject()).map(([k, c]) => [k, c.label])], 'Kategoria'),
         sel('type', [['all', 'Wszystkie typy'], ...SUBJECTS[currentSubject()].types.map((t) => [t, typeLabel(t, currentSubject())])], 'Typ'),
         sel('sort', [['alpha', 'A → Z'], ['difficulty', 'Poziom ↑'], ['difficulty_desc', 'Poziom ↓'], ['status', 'Status (nowe najpierw)']], 'Sortowanie')),
@@ -2814,6 +2826,7 @@
       if (sync.user && sync.user.id !== prev) {
         setTimeout(() => syncNow(), 0);
         setTimeout(() => checkAdmin(), 0);
+        setTimeout(() => loadShared().catch(() => {}), 0); // wspólne materiały czytają tylko zalogowani
         // konto z kodem rodziny = rodzic: włącz zakładkę Rodzina (i pomiń wybór ścieżki)
         setTimeout(() => loadFamily().then(() => { if (state.settings.parentMode && currentRoute !== 'session') route(); }), 0);
       }

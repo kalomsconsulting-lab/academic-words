@@ -83,7 +83,7 @@ Są dwie drogi:
 
 - **W aplikacji** (bez edytowania plików i bez pusha): *Dodaj materiały* w menu. Przed zapisem wybierasz, dla kogo są karty:
   - **🔒 Tylko dla mnie**: trafiają do Twojego konta i synchronizują się między Twoimi urządzeniami;
-  - **👥 Dla wszystkich**: widzą je wszyscy użytkownicy aplikacji (w swoich ścieżkach nauki), także bez logowania. Wymaga zalogowania i jednorazowego założenia tabeli [`supabase/shared.sql`](supabase/shared.sql) (sekcja *Wspólne materiały* niżej).
+  - **👥 Dla wszystkich**: widzą je wszyscy zalogowani użytkownicy aplikacji (w swoich ścieżkach nauki). Wymaga zalogowania i jednorazowego założenia tabeli [`supabase/shared.sql`](supabase/shared.sql) (sekcja *Wspólne materiały* niżej).
 - **Przez `vocabulary.json`** (i pliki w `data/`): karty wbudowane w aplikację, dla wszystkich, zmiana wymaga pusha.
 
 ### W aplikacji (własne materiały)
@@ -205,7 +205,7 @@ Warto wiedzieć:
 
 Materiały dodane z opcją *👥 Dla wszystkich* są w osobnej tabeli `shared_items`. Konfiguracja jednorazowa: *SQL Editor → New query* → wklej [`supabase/shared.sql`](supabase/shared.sql) → *Run*. Do tego czasu opcja *Dla wszystkich* zgłosi błąd, a reszta aplikacji działa normalnie.
 
-- Czytać może każdy (także bez logowania), dodawać zalogowany, usuwać tylko autor (reguły RLS w `shared.sql`). Edycji nie ma: poprawka to usunięcie i ponowne dodanie.
+- Czytać i dodawać może każdy zalogowany, usuwać tylko autor (reguły RLS w `shared.sql`). Edycji nie ma: poprawka to usunięcie i ponowne dodanie.
 - Aplikacja pobiera wspólne materiały przy starcie i po powrocie do aplikacji, a ostatnią listę trzyma w `localStorage` (`awv:shared`), więc działają offline.
 - Autor jest podpisany imieniem z *Ustawień* (albo początkiem adresu e-mail).
 - **Uwaga:** przy włączonej rejestracji każdy, kto zaloguje się e-mailem, może publikować dla wszystkich. Dlatego warto włączyć konta tylko na zaproszenie (sekcja *Zaproszenia*). Treści nieodpowiednie usuniesz w panelu Supabase: *Table Editor → shared_items*.
