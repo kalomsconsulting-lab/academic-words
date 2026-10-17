@@ -32,22 +32,16 @@ python -m http.server 8765
 
 Potem otwórz http://localhost:8765.
 
-## Publikacja na GitHub Pages
+## Publikacja (GitHub Pages)
 
-1. **Utwórz repozytorium** na https://github.com/new — np. nazwa `academic-words`, widoczność *Public* (darmowe GitHub Pages wymaga publicznego repo). Nie zaznaczaj „Add a README”.
-2. **Wypchnij kod** (repozytorium lokalne jest już zainicjowane z pierwszym commitem):
+Aplikacja: **https://kalomsconsulting-lab.github.io/academic-words/**
+Repozytorium: https://github.com/kalomsconsulting-lab/academic-words (Pages: gałąź `main`, folder `/ (root)`).
 
-   ```bash
-   git remote add origin https://github.com/TWOJ-LOGIN/academic-words.git
-   git push -u origin main
-   ```
+Każdy `git push` na `main` publikuje nową wersję po 1–2 minutach. Zainstalowana aplikacja pobierze ją przy następnym uruchomieniu z internetem.
 
-3. **Włącz Pages:** w repozytorium *Settings → Pages → Build and deployment → Source: Deploy from a branch*, wybierz gałąź `main` i folder `/ (root)`, kliknij *Save*.
-4. Po 1–2 minutach aplikacja będzie pod adresem:
-
-   **`https://TWOJ-LOGIN.github.io/academic-words/`**
-
-   (adres widać też na górze strony *Settings → Pages*).
+```bash
+git push
+```
 
 **Instalacja na telefonie:** otwórz adres w Chrome (Android) → menu → *Zainstaluj aplikację* / *Dodaj do ekranu głównego*. Na iPhonie: Safari → *Udostępnij* → *Do ekranu początkowego*.
 
@@ -105,7 +99,7 @@ Konfiguracja jednorazowa w panelu Supabase:
    <h2>Academic Words</h2>
    <p>Twój kod logowania: <strong>{{ .Token }}</strong></p>
    ```
-3. **Adres strony:** *Authentication → URL Configuration* → *Site URL* = adres aplikacji na GitHub Pages; ten sam adres dodaj w *Redirect URLs* (oraz `http://localhost:8765` do testów).
+3. **Adres strony:** *Authentication → URL Configuration* → *Site URL* = `https://kalomsconsulting-lab.github.io/academic-words/`; ten sam adres dodaj w *Redirect URLs* (oraz `http://localhost:8765` do testów).
 4. *(opcjonalnie)* Gdy wszyscy już się zalogują: *Authentication → Sign In / Providers* → wyłącz *Allow new users to sign up*.
 
 Adres projektu i klucz `publishable` są w [`config.js`](config.js). Klucz jest publiczny z założenia, a dane chronią reguły RLS (każdy widzi tylko swój wiersz). Pusty klucz oznacza, że aplikacja działa wyłącznie lokalnie.
