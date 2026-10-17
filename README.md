@@ -10,7 +10,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 | `index.html` | szkielet strony |
 | `style.css` | wygląd (jasny/ciemny motyw, mobile-first) |
 | `app.js` | cała logika: ćwiczenia, powtórki SM-2, widoki |
-| `vocabulary.json` | słownictwo (666 wpisów) |
+| `vocabulary.json` | słownictwo (704 wpisy) |
 | `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
 
 **Starter pack (`vocabulary.json`):**
@@ -83,7 +83,7 @@ Kategorie: `phrasal_verbs`, `informal_phrases`, `academic_verbs`, `connectors`, 
 
 Wskazówki:
 - `function` czasownika: `claim`, `agreement`, `disagreement`, `recommendation`.
-- `technique` hedgingu: `removing_questions`, `modal_verbs`, `adverbs`, `impersonal_constructions`.
+- `technique` hedgingu: `removing_questions`, `modal_verbs`, `adverbs`, `impersonal_constructions`, `tentative_verbs` (seem, appear, tend, suggest), `probability` (likely, possible).
 - Ćwiczenie „luki” działa, gdy zdanie przykładowe (`example_formal` / `example`) zawiera jedno z formalnych wyrażeń lub słowo (także w odmianie, np. *analyse → analysed*).
 - Słowa bez polskiego tłumaczenia pojawiają się tylko jako fiszki.
 

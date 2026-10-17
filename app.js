@@ -45,6 +45,8 @@
     modal_verbs: 'Czasowniki modalne',
     adverbs: 'Przysłówki',
     impersonal_constructions: 'Konstrukcje bezosobowe',
+    tentative_verbs: 'Czasowniki osłabiające (seem, appear, tend, suggest)',
+    probability: 'Wyrażenia prawdopodobieństwa (likely, possible)',
   };
 
   const DIFFICULTY = { 1: 'Podstawowy', 2: 'Średni', 3: 'Zaawansowany' };
@@ -616,7 +618,7 @@
       const correct = TECHNIQUES[it.technique] || it.technique;
       return { instruction: 'Jaką technikę hedgingu zastosowano?', prompt: `„${it.informal}”`, sentence: true,
         context: `→ „${it.formal}”`, answer: correct,
-        options: opts(correct, Object.values(TECHNIQUES).filter((t) => t !== correct)) };
+        options: opts(correct, shuffle(Object.values(TECHNIQUES).filter((t) => t !== correct)).slice(0, 3)) };
     }
     return null;
   }

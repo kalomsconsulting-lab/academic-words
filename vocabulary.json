@@ -125,11 +125,14 @@
    "type": "replacement",
    "informal": "like",
    "formal": [
-    "such as"
+    "such as",
+    "including"
    ],
    "polish": [
     "taki jak",
-    "na przykład"
+    "na przykład",
+    "takie jak",
+    "w tym"
    ],
    "example_informal": "He discussed issues like famine.",
    "example_formal": "He discussed issues such as famine and drought.",
@@ -191,11 +194,14 @@
    "type": "replacement",
    "informal": "carried out",
    "formal": [
-    "conducted"
+    "conducted",
+    "performed",
+    "undertook"
    ],
    "polish": [
     "przeprowadzony",
-    "przeprowadzili"
+    "przeprowadzili",
+    "wykonali"
    ],
    "example_informal": "They carried out the experiment in 2023.",
    "example_formal": "The experiment was conducted in 2023.",
@@ -8367,6 +8373,506 @@
    "awl_group": 10,
    "category": "awl",
    "difficulty": 3
+  },
+  {
+   "id": "h2-r001",
+   "type": "replacement",
+   "informal": "looks at",
+   "formal": [
+    "examines",
+    "investigates",
+    "researches"
+   ],
+   "polish": [
+    "bada",
+    "analizuje"
+   ],
+   "example_informal": "The study looks at the effects of social media on teenagers.",
+   "example_formal": "The study examines the effects of social media on teenagers.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r002",
+   "type": "replacement",
+   "informal": "good",
+   "formal": [
+    "positive",
+    "favourable",
+    "encouraging"
+   ],
+   "polish": [
+    "pozytywny",
+    "korzystny"
+   ],
+   "example_informal": "The experiment produced good results.",
+   "example_formal": "The experiment produced positive results.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r003",
+   "type": "replacement",
+   "informal": "a lot of",
+   "formal": [
+    "many",
+    "numerous",
+    "a considerable number of"
+   ],
+   "polish": [
+    "wielu",
+    "liczny"
+   ],
+   "example_informal": "A lot of students participated in the survey.",
+   "example_formal": "Numerous students participated in the survey.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r004",
+   "type": "replacement",
+   "informal": "led to",
+   "formal": [
+    "contributed to",
+    "resulted in",
+    "gave rise to"
+   ],
+   "polish": [
+    "przyczyniło się do",
+    "spowodowało"
+   ],
+   "example_informal": "Several factors led to the decline in attendance.",
+   "example_formal": "Several factors contributed to the decline in attendance.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r005",
+   "type": "replacement",
+   "informal": "found out",
+   "formal": [
+    "discovered",
+    "determined",
+    "established"
+   ],
+   "polish": [
+    "odkryli",
+    "ustalili"
+   ],
+   "example_informal": "The researchers found out that the treatment was ineffective.",
+   "example_formal": "The researchers determined that the treatment was ineffective.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r006",
+   "type": "replacement",
+   "informal": "gave",
+   "formal": [
+    "provided",
+    "issued",
+    "allocated"
+   ],
+   "polish": [
+    "zapewnił",
+    "przydzielił"
+   ],
+   "example_informal": "The government gave financial assistance to the organisation.",
+   "example_formal": "The government provided financial assistance to the organisation.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r008",
+   "type": "replacement",
+   "informal": "enough",
+   "formal": [
+    "sufficient",
+    "adequate"
+   ],
+   "polish": [
+    "wystarczający",
+    "odpowiedni"
+   ],
+   "example_informal": "The university does not have enough funding to support the project.",
+   "example_formal": "The university does not have sufficient funding to support the project.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r009",
+   "type": "replacement",
+   "informal": "looked at",
+   "formal": [
+    "considered",
+    "studied",
+    "analysed"
+   ],
+   "polish": [
+    "rozważyli",
+    "przeanalizowali"
+   ],
+   "example_informal": "The researchers looked at the impact of air pollution.",
+   "example_formal": "The researchers analysed the impact of air pollution.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r010",
+   "type": "replacement",
+   "informal": "came up with",
+   "formal": [
+    "devised",
+    "proposed"
+   ],
+   "polish": [
+    "opracowali",
+    "zaproponowali"
+   ],
+   "example_informal": "The committee came up with several possible solutions.",
+   "example_formal": "The committee proposed several possible solutions.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r011",
+   "type": "replacement",
+   "informal": "went up",
+   "formal": [
+    "increased",
+    "rose"
+   ],
+   "polish": [
+    "wzrosła",
+    "zwiększyła się"
+   ],
+   "example_informal": "The number of university applicants went up significantly.",
+   "example_formal": "The number of university applicants increased significantly.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r013",
+   "type": "replacement",
+   "informal": "deal with",
+   "formal": [
+    "address",
+    "confront",
+    "tackle"
+   ],
+   "polish": [
+    "zająć się",
+    "zmierzyć się z"
+   ],
+   "example_informal": "The government needs to deal with the problem of overcrowding.",
+   "example_formal": "The government needs to address the problem of overcrowding.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r014",
+   "type": "replacement",
+   "informal": "points out",
+   "formal": [
+    "reveals",
+    "highlights",
+    "indicates"
+   ],
+   "polish": [
+    "ujawnia",
+    "podkreśla"
+   ],
+   "example_informal": "The study points out several weaknesses in the existing system.",
+   "example_formal": "The study reveals several weaknesses in the existing system.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r015",
+   "type": "replacement",
+   "informal": "gave up",
+   "formal": [
+    "resigned",
+    "withdrew",
+    "abandoned"
+   ],
+   "polish": [
+    "zrezygnowali",
+    "wycofali się"
+   ],
+   "example_informal": "The participants gave up halfway through the experiment.",
+   "example_formal": "The participants withdrew halfway through the experiment.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r016",
+   "type": "replacement",
+   "informal": "put forward",
+   "formal": [
+    "proposed",
+    "advanced",
+    "suggested"
+   ],
+   "polish": [
+    "zaproponowali",
+    "wysunęli"
+   ],
+   "example_informal": "The researchers put forward an alternative explanation.",
+   "example_formal": "The researchers proposed an alternative explanation.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r017",
+   "type": "replacement",
+   "informal": "bring about",
+   "formal": [
+    "cause",
+    "generate",
+    "produce"
+   ],
+   "polish": [
+    "spowodować",
+    "wywołać"
+   ],
+   "example_informal": "The new policy may bring about significant changes.",
+   "example_formal": "The new policy may cause significant changes.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r018",
+   "type": "replacement",
+   "informal": "put off",
+   "formal": [
+    "postpone",
+    "defer",
+    "discourage"
+   ],
+   "polish": [
+    "przełożyć",
+    "odwieść"
+   ],
+   "example_informal": "They decided to put off the meeting until next week.",
+   "example_formal": "They decided to postpone the meeting until next week.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-r019",
+   "type": "replacement",
+   "informal": "take into account",
+   "formal": [
+    "consider",
+    "acknowledge"
+   ],
+   "polish": [
+    "rozważyć",
+    "uwzględnić"
+   ],
+   "example_informal": "We need to take into account all the relevant factors.",
+   "example_formal": "We need to consider all the relevant factors.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "h2-h001",
+   "type": "hedging",
+   "informal": "Social media causes anxiety among young people.",
+   "formal": "Social media might cause anxiety among young people.",
+   "technique": "modal_verbs",
+   "polish": "Użycie czasownika modalnego 'might' zamiast kategorycznego stwierdzenia",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h002",
+   "type": "hedging",
+   "informal": "The character represents the author's political views.",
+   "formal": "The character seems to represent the author's political views.",
+   "technique": "tentative_verbs",
+   "polish": "Użycie 'seems to' zamiast kategorycznego stwierdzenia",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h003",
+   "type": "hedging",
+   "informal": "This policy will reduce unemployment.",
+   "formal": "This policy is likely to reduce unemployment.",
+   "technique": "probability",
+   "polish": "Użycie 'is likely to' zamiast pewnego 'will'",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h004",
+   "type": "hedging",
+   "informal": "The results prove that the treatment is effective.",
+   "formal": "The results suggest that the treatment is effective.",
+   "technique": "tentative_verbs",
+   "polish": "Użycie 'suggest' zamiast kategorycznego 'prove'",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h005",
+   "type": "hedging",
+   "informal": "Economic inequality creates social instability.",
+   "formal": "Economic inequality tends to create social instability.",
+   "technique": "tentative_verbs",
+   "polish": "Użycie 'tends to' zamiast kategorycznego stwierdzenia",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h006",
+   "type": "hedging",
+   "informal": "The poem is about the loss of national identity.",
+   "formal": "The poem seems to explore the loss of national identity.",
+   "technique": "tentative_verbs",
+   "polish": "Użycie 'seems to explore' zamiast kategorycznego 'is about'",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h007",
+   "type": "hedging",
+   "informal": "The decline in attendance is caused by increased tuition fees.",
+   "formal": "The decline in attendance appears to be caused by increased tuition fees.",
+   "technique": "tentative_verbs",
+   "polish": "Użycie 'appears to be' zamiast kategorycznego 'is'",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h008",
+   "type": "hedging",
+   "informal": "Technology makes students less independent.",
+   "formal": "Technology may make students less independent.",
+   "technique": "modal_verbs",
+   "polish": "Użycie 'may' zamiast kategorycznego stwierdzenia",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-h009",
+   "type": "hedging",
+   "informal": "Why do students perform poorly in examinations?",
+   "formal": "Several factors may explain differences in academic performance.",
+   "technique": "removing_questions",
+   "polish": "Usunięcie pytania retorycznego — rozpoczęcie od stwierdzenia",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr001",
+   "type": "style_rule",
+   "rule": "Nie dziel bezokoliczników (avoid split infinitives)",
+   "incorrect": "The researchers attempted to carefully analyse the data.",
+   "correct": "The researchers attempted to analyse the data carefully.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr002",
+   "type": "style_rule",
+   "rule": "Nie dziel bezokoliczników (avoid split infinitives)",
+   "incorrect": "The government needs to urgently address the housing shortage.",
+   "correct": "The government urgently needs to address the housing shortage.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr003",
+   "type": "style_rule",
+   "rule": "Nie dziel bezokoliczników (avoid split infinitives)",
+   "incorrect": "The purpose of the study is to clearly demonstrate the relationship between the variables.",
+   "correct": "The purpose of the study is to demonstrate the relationship between the variables clearly.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr004",
+   "type": "style_rule",
+   "rule": "Nie dziel bezokoliczników (avoid split infinitives)",
+   "incorrect": "The committee decided to fully support the proposed changes.",
+   "correct": "The committee decided to support the proposed changes fully.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr005",
+   "type": "style_rule",
+   "rule": "Nie kończ zdania przyimkiem (avoid ending with a preposition)",
+   "incorrect": "This is an issue that researchers have not yet found a solution to.",
+   "correct": "This is an issue for which researchers have not yet found a solution.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr006",
+   "type": "style_rule",
+   "rule": "Nie kończ zdania przyimkiem (avoid ending with a preposition)",
+   "incorrect": "The theory provides a useful framework that the study is based on.",
+   "correct": "The theory provides a useful framework on which the study is based.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr007",
+   "type": "style_rule",
+   "rule": "Nie kończ zdania przyimkiem (avoid ending with a preposition)",
+   "incorrect": "These are the factors that the researchers were particularly interested in.",
+   "correct": "These are the factors in which the researchers were particularly interested.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr008",
+   "type": "style_rule",
+   "rule": "Nie kończ zdania przyimkiem (avoid ending with a preposition)",
+   "incorrect": "The article discusses several problems that modern societies must deal with.",
+   "correct": "The article discusses several problems with which modern societies must deal.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr009",
+   "type": "style_rule",
+   "rule": "Przysłówek w pozycji środkowej (adverb in mid position)",
+   "incorrect": "The findings suggest that the treatment is effective strongly.",
+   "correct": "The findings strongly suggest that the treatment is effective.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr010",
+   "type": "style_rule",
+   "rule": "Przysłówek w pozycji środkowej (adverb in mid position)",
+   "incorrect": "The authors argue that the results are reliable generally.",
+   "correct": "The authors argue that the results are generally reliable.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr011",
+   "type": "style_rule",
+   "rule": "Przysłówek w pozycji środkowej (adverb in mid position)",
+   "incorrect": "The new approach can improve students' performance considerably.",
+   "correct": "The new approach can considerably improve students' performance.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h2-sr012",
+   "type": "style_rule",
+   "rule": "Przysłówek w pozycji środkowej (adverb in mid position)",
+   "incorrect": "The evidence supports the original hypothesis partially.",
+   "correct": "The evidence partially supports the original hypothesis.",
+   "category": "style_rules",
+   "difficulty": 2
   }
  ]
 }
