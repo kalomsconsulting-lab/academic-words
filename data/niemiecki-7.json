@@ -1,0 +1,1360 @@
+{
+ "version": 1,
+ "subject": "niemiecki_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, język obcy nowożytny, wariant II.2 (drugi język, klasy VII–VIII, Dz.U. 2017 poz. 356 ze zm.); słownictwo pierwszego roku nauki (klasa 7, poziom A1) oraz gramatyka A1 jako dodatek",
+ "items": [
+  {
+   "id": "de7-pp-001",
+   "type": "awl_word",
+   "word": "Ich heiße …",
+   "polish": [
+    "nazywam się …"
+   ],
+   "example": "Hallo! Ich heiße Anna und ich bin zwölf Jahre alt.",
+   "explanation": "Zwrot do przedstawiania się; odpowiedź na pytanie „Wie heißt du?”.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-002",
+   "type": "awl_word",
+   "word": "der Name",
+   "polish": [
+    "imię i nazwisko",
+    "nazwisko"
+   ],
+   "example": "Mein Name ist Paul Schmidt.",
+   "explanation": "„Wie ist dein Name?” to inny sposób zapytania o imię.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-003",
+   "type": "awl_word",
+   "word": "wohnen",
+   "polish": [
+    "mieszkać"
+   ],
+   "example": "Ich wohne in Krakau.",
+   "explanation": "„Wo wohnst du?” – „Ich wohne in …”.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-004",
+   "type": "awl_word",
+   "word": "alt",
+   "polish": [
+    "stary",
+    "mający … lat"
+   ],
+   "example": "Wie alt bist du? – Ich bin dreizehn Jahre alt.",
+   "explanation": "Wiek wyrażamy zwrotem „… Jahre alt sein”.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-005",
+   "type": "awl_word",
+   "word": "die Haare",
+   "polish": [
+    "włosy"
+   ],
+   "example": "Meine Schwester hat lange, blonde Haare.",
+   "explanation": "W znaczeniu „włosy na głowie” używa się liczby mnogiej „die Haare”.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-006",
+   "type": "awl_word",
+   "word": "die Augen",
+   "polish": [
+    "oczy"
+   ],
+   "example": "Ich habe braune Augen.",
+   "explanation": "Liczba pojedyncza: das Auge.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-007",
+   "type": "awl_word",
+   "word": "groß",
+   "polish": [
+    "duży",
+    "wysoki"
+   ],
+   "example": "Mein Bruder ist sehr groß.",
+   "explanation": "Przeciwieństwo: klein (mały, niski).",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-008",
+   "type": "awl_word",
+   "word": "nett",
+   "polish": [
+    "miły"
+   ],
+   "example": "Unsere Lehrerin ist sehr nett.",
+   "explanation": "Cecha charakteru; przeciwieństwo: unfreundlich.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-009",
+   "type": "awl_word",
+   "word": "lustig",
+   "polish": [
+    "wesoły",
+    "zabawny"
+   ],
+   "example": "Mein Freund Max ist sehr lustig.",
+   "explanation": "Przeciwieństwo: langweilig (nudny).",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-010",
+   "type": "awl_word",
+   "word": "müde",
+   "polish": [
+    "zmęczony"
+   ],
+   "example": "Ich bin heute sehr müde.",
+   "explanation": "Uczucia i samopoczucie: müde, glücklich, traurig.",
+   "category": "de7_people",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-011",
+   "type": "awl_word",
+   "word": "die Familie",
+   "polish": [
+    "rodzina"
+   ],
+   "example": "Meine Familie ist groß.",
+   "explanation": "„die Familie” to rzeczownik rodzaju żeńskiego; liczba mnoga: die Familien.",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-012",
+   "type": "awl_word",
+   "word": "die Mutter",
+   "polish": [
+    "matka",
+    "mama"
+   ],
+   "example": "Meine Mutter heißt Monika.",
+   "explanation": "Potocznie: die Mama. Liczba mnoga: die Mütter.",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-013",
+   "type": "awl_word",
+   "word": "der Vater",
+   "polish": [
+    "ojciec",
+    "tata"
+   ],
+   "example": "Mein Vater arbeitet als Arzt.",
+   "explanation": "Potocznie: der Papa. Liczba mnoga: die Väter.",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-014",
+   "type": "awl_word",
+   "word": "die Geschwister",
+   "polish": [
+    "rodzeństwo"
+   ],
+   "example": "Hast du Geschwister? – Ja, einen Bruder und eine Schwester.",
+   "explanation": "Wyraz występuje tylko w liczbie mnogiej.",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-015",
+   "type": "awl_word",
+   "word": "die Großeltern",
+   "polish": [
+    "dziadkowie"
+   ],
+   "example": "Meine Großeltern wohnen auf dem Land.",
+   "explanation": "die Oma (babcia) + der Opa (dziadek) = die Großeltern.",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-016",
+   "type": "awl_word",
+   "word": "der Freund",
+   "polish": [
+    "przyjaciel",
+    "kolega"
+   ],
+   "example": "Tom ist mein bester Freund.",
+   "explanation": "Forma żeńska: die Freundin.",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-017",
+   "type": "awl_word",
+   "word": "der Geburtstag",
+   "polish": [
+    "urodziny"
+   ],
+   "example": "Wann hast du Geburtstag? – Am dritten Mai.",
+   "explanation": "Życzenia: „Alles Gute zum Geburtstag!”.",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-018",
+   "type": "awl_word",
+   "word": "Weihnachten",
+   "polish": [
+    "Boże Narodzenie"
+   ],
+   "example": "Zu Weihnachten bekomme ich Geschenke.",
+   "explanation": "„Frohe Weihnachten!” – Wesołych Świąt!",
+   "category": "de7_family",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-019",
+   "type": "awl_word",
+   "word": "das Haus",
+   "polish": [
+    "dom"
+   ],
+   "example": "Wir wohnen in einem kleinen Haus.",
+   "explanation": "Dom jako budynek; liczba mnoga: die Häuser.",
+   "category": "de7_home",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-020",
+   "type": "awl_word",
+   "word": "die Wohnung",
+   "polish": [
+    "mieszkanie"
+   ],
+   "example": "Unsere Wohnung hat drei Zimmer.",
+   "explanation": "Nie mylić z „das Haus” (dom jako budynek).",
+   "category": "de7_home",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-021",
+   "type": "awl_word",
+   "word": "das Zimmer",
+   "polish": [
+    "pokój"
+   ],
+   "example": "Mein Zimmer ist klein, aber gemütlich.",
+   "explanation": "Złożenia: das Kinderzimmer, das Wohnzimmer, das Schlafzimmer.",
+   "category": "de7_home",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-022",
+   "type": "awl_word",
+   "word": "die Küche",
+   "polish": [
+    "kuchnia"
+   ],
+   "example": "In der Küche kochen wir das Essen.",
+   "explanation": "Pomieszczenie w domu; „der Herd” to kuchenka.",
+   "category": "de7_home",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-023",
+   "type": "awl_word",
+   "word": "das Bad",
+   "polish": [
+    "łazienka"
+   ],
+   "example": "Das Bad ist neben der Küche.",
+   "explanation": "Także: das Badezimmer.",
+   "category": "de7_home",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-024",
+   "type": "awl_word",
+   "word": "der Tisch",
+   "polish": [
+    "stół"
+   ],
+   "example": "Das Buch liegt auf dem Tisch.",
+   "explanation": "Złożenie: der Schreibtisch (biurko).",
+   "category": "de7_home",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-025",
+   "type": "awl_word",
+   "word": "das Bett",
+   "polish": [
+    "łóżko"
+   ],
+   "example": "Ich gehe um zehn Uhr ins Bett.",
+   "explanation": "Zwrot „ins Bett gehen” – iść spać.",
+   "category": "de7_home",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-026",
+   "type": "awl_word",
+   "word": "aufräumen",
+   "polish": [
+    "sprzątać",
+    "posprzątać"
+   ],
+   "example": "Ich muss heute mein Zimmer aufräumen.",
+   "explanation": "Czasownik rozdzielnie złożony: Ich räume mein Zimmer auf.",
+   "category": "de7_home",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "de7-pp-027",
+   "type": "awl_word",
+   "word": "die Schule",
+   "polish": [
+    "szkoła"
+   ],
+   "example": "Die Schule beginnt um acht Uhr.",
+   "explanation": "„in die Schule gehen” – chodzić do szkoły.",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-028",
+   "type": "awl_word",
+   "word": "die Klasse",
+   "polish": [
+    "klasa"
+   ],
+   "example": "Ich gehe in die siebte Klasse.",
+   "explanation": "Sala lekcyjna to das Klassenzimmer.",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-029",
+   "type": "awl_word",
+   "word": "der Lehrer",
+   "polish": [
+    "nauczyciel"
+   ],
+   "example": "Unser Lehrer erklärt alles sehr gut.",
+   "explanation": "Forma żeńska: die Lehrerin.",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-030",
+   "type": "awl_word",
+   "word": "das Fach",
+   "polish": [
+    "przedmiot szkolny",
+    "przedmiot"
+   ],
+   "example": "Mein Lieblingsfach ist Mathe.",
+   "explanation": "Liczba mnoga: die Fächer; das Lieblingsfach = ulubiony przedmiot.",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-031",
+   "type": "awl_word",
+   "word": "die Hausaufgabe",
+   "polish": [
+    "zadanie domowe",
+    "praca domowa"
+   ],
+   "example": "Ich mache meine Hausaufgaben nach dem Mittagessen.",
+   "explanation": "Zwykle w liczbie mnogiej: die Hausaufgaben machen.",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-032",
+   "type": "awl_word",
+   "word": "das Heft",
+   "polish": [
+    "zeszyt"
+   ],
+   "example": "Schreib den Satz in dein Heft!",
+   "explanation": "Przybory szkolne: das Heft, das Buch, der Bleistift.",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-033",
+   "type": "awl_word",
+   "word": "der Bleistift",
+   "polish": [
+    "ołówek"
+   ],
+   "example": "Ich zeichne mit dem Bleistift.",
+   "explanation": "Inne przybory: der Kuli (długopis), das Lineal (linijka).",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-034",
+   "type": "awl_word",
+   "word": "die Pause",
+   "polish": [
+    "przerwa"
+   ],
+   "example": "In der Pause esse ich ein Brötchen.",
+   "explanation": "Także przerwa w pracy lub treningu.",
+   "category": "de7_school",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "de7-pp-035",
+   "type": "awl_word",
+   "word": "das Frühstück",
+   "polish": [
+    "śniadanie"
+   ],
+   "example": "Zum Frühstück esse ich Müsli.",
+   "explanation": "Posiłki: das Frühstück, das Mittagessen, das Abendessen.",
+   "category": "de7_food",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-036",
+   "type": "awl_word",
+   "word": "das Brot",
+   "polish": [
+    "chleb"
+   ],
+   "example": "Ich kaufe frisches Brot beim Bäcker.",
+   "explanation": "das Brötchen = bułka.",
+   "category": "de7_food",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-037",
+   "type": "awl_word",
+   "word": "der Apfel",
+   "polish": [
+    "jabłko"
+   ],
+   "example": "Ein Apfel am Tag ist gesund.",
+   "explanation": "Liczba mnoga: die Äpfel (z przegłosem).",
+   "category": "de7_food",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-038",
+   "type": "awl_word",
+   "word": "die Milch",
+   "polish": [
+    "mleko"
+   ],
+   "example": "Trinkst du Milch zum Frühstück?",
+   "explanation": "Rzeczownik niepoliczalny, bez liczby mnogiej.",
+   "category": "de7_food",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-039",
+   "type": "awl_word",
+   "word": "der Käse",
+   "polish": [
+    "ser"
+   ],
+   "example": "Ich mag Brot mit Käse.",
+   "explanation": "Uwaga na rodzaj: der Käse (męski).",
+   "category": "de7_food",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-040",
+   "type": "awl_word",
+   "word": "das Gemüse",
+   "polish": [
+    "warzywa"
+   ],
+   "example": "Gemüse ist sehr gesund.",
+   "explanation": "Rzeczownik zbiorowy w liczbie pojedynczej; das Obst = owoce.",
+   "category": "de7_food",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-041",
+   "type": "awl_word",
+   "word": "essen",
+   "polish": [
+    "jeść"
+   ],
+   "example": "Was isst du gern? – Ich esse gern Pizza.",
+   "explanation": "Czasownik nieregularny: ich esse, du isst, er isst.",
+   "category": "de7_food",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-042",
+   "type": "awl_word",
+   "word": "das Restaurant",
+   "polish": [
+    "restauracja"
+   ],
+   "example": "Am Sonntag gehen wir ins Restaurant.",
+   "explanation": "Lokale gastronomiczne: das Restaurant, das Café, die Pizzeria.",
+   "category": "de7_food",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "de7-pp-043",
+   "type": "awl_word",
+   "word": "kaufen",
+   "polish": [
+    "kupować",
+    "kupić"
+   ],
+   "example": "Ich kaufe ein neues T-Shirt.",
+   "explanation": "Czasownik regularny; einkaufen = robić zakupy.",
+   "category": "de7_shopping",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "de7-pp-044",
+   "type": "awl_word",
+   "word": "der Supermarkt",
+   "polish": [
+    "supermarket"
+   ],
+   "example": "Im Supermarkt gibt es alles.",
+   "explanation": "Liczba mnoga: die Supermärkte.",
+   "category": "de7_shopping",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "de7-pp-045",
+   "type": "awl_word",
+   "word": "die Bäckerei",
+   "polish": [
+    "piekarnia"
+   ],
+   "example": "In der Bäckerei kaufe ich Brötchen.",
+   "explanation": "der Bäcker = piekarz.",
+   "category": "de7_shopping",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "de7-pp-046",
+   "type": "awl_word",
+   "word": "kosten",
+   "polish": [
+    "kosztować"
+   ],
+   "example": "Was kostet das T-Shirt? – Es kostet zehn Euro.",
+   "explanation": "„Wie viel kostet das?” – Ile to kosztuje?",
+   "category": "de7_shopping",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "de7-pp-047",
+   "type": "awl_word",
+   "word": "das Geld",
+   "polish": [
+    "pieniądze"
+   ],
+   "example": "Ich habe nicht genug Geld.",
+   "explanation": "W niemieckim rzeczownik w liczbie pojedynczej.",
+   "category": "de7_shopping",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "de7-pp-048",
+   "type": "awl_word",
+   "word": "teuer",
+   "polish": [
+    "drogi"
+   ],
+   "example": "Das Handy ist zu teuer.",
+   "explanation": "Przeciwieństwo: billig (tani).",
+   "category": "de7_shopping",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "de7-pp-049",
+   "type": "awl_word",
+   "word": "billig",
+   "polish": [
+    "tani"
+   ],
+   "example": "Die Äpfel sind heute billig.",
+   "explanation": "Synonim: günstig; przeciwieństwo: teuer.",
+   "category": "de7_shopping",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "de7-pp-050",
+   "type": "awl_word",
+   "word": "das Hobby",
+   "polish": [
+    "hobby"
+   ],
+   "example": "Mein Hobby ist Musik.",
+   "explanation": "Liczba mnoga: die Hobbys.",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-051",
+   "type": "awl_word",
+   "word": "Musik hören",
+   "polish": [
+    "słuchać muzyki"
+   ],
+   "example": "Ich höre gern Musik.",
+   "explanation": "Czasownik hören + rzeczownik Musik bez rodzajnika.",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-052",
+   "type": "awl_word",
+   "word": "lesen",
+   "polish": [
+    "czytać"
+   ],
+   "example": "Ich lese gern Comics.",
+   "explanation": "Czasownik nieregularny: ich lese, du liest, er liest.",
+   "category": "de7_free_time",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-053",
+   "type": "awl_word",
+   "word": "die Uhr",
+   "polish": [
+    "zegar",
+    "godzina"
+   ],
+   "example": "Wie spät ist es? – Es ist acht Uhr.",
+   "explanation": "„um … Uhr” = o godzinie …; „Wie spät ist es?” = Która godzina?",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-054",
+   "type": "awl_word",
+   "word": "der Montag",
+   "polish": [
+    "poniedziałek"
+   ],
+   "example": "Am Montag habe ich Deutsch.",
+   "explanation": "Dni tygodnia są rodzaju męskiego; „am Montag” = w poniedziałek.",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-055",
+   "type": "awl_word",
+   "word": "das Wochenende",
+   "polish": [
+    "weekend"
+   ],
+   "example": "Am Wochenende schlafe ich lange.",
+   "explanation": "„am Wochenende” = w weekend.",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "de7-pp-056",
+   "type": "awl_word",
+   "word": "Fußball spielen",
+   "polish": [
+    "grać w piłkę nożną"
+   ],
+   "example": "Ich spiele jeden Tag Fußball.",
+   "explanation": "Gry i sporty: spielen + nazwa bez rodzajnika (Tennis, Basketball).",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.10"
+  },
+  {
+   "id": "de7-pp-057",
+   "type": "awl_word",
+   "word": "schwimmen",
+   "polish": [
+    "pływać"
+   ],
+   "example": "Im Sommer schwimme ich im See.",
+   "explanation": "das Schwimmbad = pływalnia.",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.10"
+  },
+  {
+   "id": "de7-pp-058",
+   "type": "awl_word",
+   "word": "das Fahrrad",
+   "polish": [
+    "rower"
+   ],
+   "example": "Ich fahre mit dem Fahrrad zur Schule.",
+   "explanation": "„Fahrrad fahren” = jeździć na rowerze; potocznie das Rad.",
+   "category": "de7_free_time",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.10"
+  },
+  {
+   "id": "de7-pp-059",
+   "type": "awl_word",
+   "word": "der Zug",
+   "polish": [
+    "pociąg"
+   ],
+   "example": "Der Zug nach Berlin fährt um neun Uhr.",
+   "explanation": "Liczba mnoga: die Züge; der Bahnhof = dworzec.",
+   "category": "de7_travel",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "de7-pp-060",
+   "type": "awl_word",
+   "word": "der Bus",
+   "polish": [
+    "autobus"
+   ],
+   "example": "Ich fahre mit dem Bus in die Stadt.",
+   "explanation": "„mit dem Bus fahren” = jechać autobusem.",
+   "category": "de7_travel",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "de7-pp-061",
+   "type": "awl_word",
+   "word": "das Auto",
+   "polish": [
+    "samochód"
+   ],
+   "example": "Mein Vater fährt ein rotes Auto.",
+   "explanation": "Liczba mnoga: die Autos.",
+   "category": "de7_travel",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "de7-pp-062",
+   "type": "awl_word",
+   "word": "fahren",
+   "polish": [
+    "jechać"
+   ],
+   "example": "Wir fahren im Sommer nach Deutschland.",
+   "explanation": "Czasownik nieregularny: ich fahre, du fährst, er fährt.",
+   "category": "de7_travel",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "de7-pp-063",
+   "type": "awl_word",
+   "word": "die Reise",
+   "polish": [
+    "podróż"
+   ],
+   "example": "Gute Reise!",
+   "explanation": "reisen = podróżować; „Gute Reise!” = Szczęśliwej podróży!",
+   "category": "de7_travel",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "de7-pp-064",
+   "type": "awl_word",
+   "word": "links",
+   "polish": [
+    "w lewo",
+    "na lewo"
+   ],
+   "example": "Gehen Sie hier links!",
+   "explanation": "Orientacja w terenie: links, rechts, geradeaus.",
+   "category": "de7_travel",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "de7-pp-065",
+   "type": "awl_word",
+   "word": "das Hotel",
+   "polish": [
+    "hotel"
+   ],
+   "example": "Wir wohnen in einem kleinen Hotel am Meer.",
+   "explanation": "Liczba mnoga: die Hotels.",
+   "category": "de7_travel",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "de7-pp-066",
+   "type": "awl_word",
+   "word": "krank",
+   "polish": [
+    "chory"
+   ],
+   "example": "Ich bin krank und bleibe zu Hause.",
+   "explanation": "Przeciwieństwo: gesund (zdrowy).",
+   "category": "de7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "de7-pp-067",
+   "type": "awl_word",
+   "word": "gesund",
+   "polish": [
+    "zdrowy"
+   ],
+   "example": "Obst und Gemüse sind gesund.",
+   "explanation": "die Gesundheit = zdrowie.",
+   "category": "de7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "de7-pp-068",
+   "type": "awl_word",
+   "word": "der Arzt",
+   "polish": [
+    "lekarz"
+   ],
+   "example": "Ich gehe heute zum Arzt.",
+   "explanation": "Forma żeńska: die Ärztin; „zum Arzt gehen” = iść do lekarza.",
+   "category": "de7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "de7-pp-069",
+   "type": "awl_word",
+   "word": "die Kopfschmerzen",
+   "polish": [
+    "ból głowy"
+   ],
+   "example": "Ich habe Kopfschmerzen.",
+   "explanation": "der Kopf (głowa) + die Schmerzen (bóle); także Bauchschmerzen, Zahnschmerzen.",
+   "category": "de7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "de7-pp-070",
+   "type": "awl_word",
+   "word": "das Fieber",
+   "polish": [
+    "gorączka"
+   ],
+   "example": "Er hat hohes Fieber.",
+   "explanation": "„Fieber haben” = mieć gorączkę.",
+   "category": "de7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "de7-pp-071",
+   "type": "awl_word",
+   "word": "Gute Besserung!",
+   "polish": [
+    "Szybkiego powrotu do zdrowia!",
+    "Zdrowiej szybko!"
+   ],
+   "example": "Du bist krank? Gute Besserung!",
+   "explanation": "Zwrot grzecznościowy dla chorego.",
+   "category": "de7_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.11"
+  },
+  {
+   "id": "de7-pp-072",
+   "type": "awl_word",
+   "word": "das Wetter",
+   "polish": [
+    "pogoda"
+   ],
+   "example": "Wie ist das Wetter heute?",
+   "explanation": "Pytanie o pogodę: „Wie ist das Wetter?”.",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-073",
+   "type": "awl_word",
+   "word": "die Sonne",
+   "polish": [
+    "słońce"
+   ],
+   "example": "Die Sonne scheint.",
+   "explanation": "sonnig = słonecznie.",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-074",
+   "type": "awl_word",
+   "word": "regnen",
+   "polish": [
+    "padać (o deszczu)"
+   ],
+   "example": "Es regnet heute den ganzen Tag.",
+   "explanation": "Czasownik bezosobowy: „Es regnet”; der Regen = deszcz.",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-075",
+   "type": "awl_word",
+   "word": "der Schnee",
+   "polish": [
+    "śnieg"
+   ],
+   "example": "Im Winter liegt viel Schnee.",
+   "explanation": "Es schneit = pada śnieg.",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-076",
+   "type": "awl_word",
+   "word": "kalt",
+   "polish": [
+    "zimny",
+    "zimno"
+   ],
+   "example": "Heute ist es sehr kalt.",
+   "explanation": "Przeciwieństwo: warm (ciepło), heiß (gorąco).",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-077",
+   "type": "awl_word",
+   "word": "der Sommer",
+   "polish": [
+    "lato"
+   ],
+   "example": "Im Sommer fahren wir ans Meer.",
+   "explanation": "Pory roku: der Frühling, der Sommer, der Herbst, der Winter.",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-078",
+   "type": "awl_word",
+   "word": "der Hund",
+   "polish": [
+    "pies"
+   ],
+   "example": "Mein Hund heißt Rex.",
+   "explanation": "Liczba mnoga: die Hunde; die Katze = kot.",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-079",
+   "type": "awl_word",
+   "word": "der Baum",
+   "polish": [
+    "drzewo"
+   ],
+   "example": "Im Garten steht ein großer Baum.",
+   "explanation": "Liczba mnoga: die Bäume.",
+   "category": "de7_nature",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "de7-pp-080",
+   "type": "awl_word",
+   "word": "der Beruf",
+   "polish": [
+    "zawód"
+   ],
+   "example": "Was bist du von Beruf? – Ich bin Lehrerin.",
+   "explanation": "Nazwę zawodu podajemy bez rodzajnika: „Ich bin Arzt”.",
+   "category": "de7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "de7-pp-081",
+   "type": "awl_word",
+   "word": "arbeiten",
+   "polish": [
+    "pracować"
+   ],
+   "example": "Meine Mutter arbeitet in einem Büro.",
+   "explanation": "die Arbeit = praca; „arbeiten als …” = pracować jako …",
+   "category": "de7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "de7-pp-082",
+   "type": "awl_word",
+   "word": "der Koch",
+   "polish": [
+    "kucharz"
+   ],
+   "example": "Mein Onkel ist Koch in einem Restaurant.",
+   "explanation": "Forma żeńska: die Köchin; kochen = gotować.",
+   "category": "de7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "de7-pp-083",
+   "type": "awl_word",
+   "word": "das Büro",
+   "polish": [
+    "biuro"
+   ],
+   "example": "Mein Vater arbeitet im Büro.",
+   "explanation": "Liczba mnoga: die Büros.",
+   "category": "de7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "de7-pp-084",
+   "type": "awl_word",
+   "word": "das Kino",
+   "polish": [
+    "kino"
+   ],
+   "example": "Gehen wir heute ins Kino?",
+   "explanation": "„ins Kino gehen” = iść do kina; der Film = film.",
+   "category": "de7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "de7-pp-085",
+   "type": "awl_word",
+   "word": "das Konzert",
+   "polish": [
+    "koncert"
+   ],
+   "example": "Am Samstag gehe ich ins Konzert.",
+   "explanation": "Liczba mnoga: die Konzerte.",
+   "category": "de7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "de7-pp-086",
+   "type": "awl_word",
+   "word": "das Fest",
+   "polish": [
+    "święto",
+    "uroczystość"
+   ],
+   "example": "Das Oktoberfest ist ein großes Fest in München.",
+   "explanation": "feiern = świętować; das Festival = festiwal.",
+   "category": "de7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.9"
+  },
+  {
+   "id": "de7-pp-087",
+   "type": "cloze",
+   "text": "Rodzajnik określony dla rzeczownika rodzaju żeńskiego: {{die}} Frau.",
+   "hint": "der / die / das?",
+   "explanation": "Rodzajniki określone: der (męski), die (żeński), das (nijaki).",
+   "category": "de7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-088",
+   "type": "cloze",
+   "text": "Rodzajnik określony dla rzeczownika rodzaju nijakiego: {{das}} Kind.",
+   "hint": "der / die / das?",
+   "explanation": "Rodzaj rzeczownika trzeba zapamiętać razem ze słowem.",
+   "category": "de7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-089",
+   "type": "cloze",
+   "text": "Rodzajnik nieokreślony: Das ist {{ein}} Hund.",
+   "hint": "ein / eine?",
+   "explanation": "Rodzajnik nieokreślony: ein (męski i nijaki), eine (żeński).",
+   "category": "de7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-090",
+   "type": "cloze",
+   "text": "Czasownik „sein” (być): Ich {{bin}} Schüler.",
+   "hint": "1. osoba liczby pojedynczej",
+   "explanation": "Odmiana: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+   "category": "de7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-091",
+   "type": "cloze",
+   "text": "Czasownik „sein”: Du {{bist}} sehr nett.",
+   "hint": "2. osoba liczby pojedynczej",
+   "explanation": "Odmiana: ich bin, du bist, er ist.",
+   "category": "de7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-092",
+   "type": "cloze",
+   "text": "Czasownik „haben” (mieć): Er {{hat}} einen Bruder.",
+   "hint": "3. osoba liczby pojedynczej",
+   "explanation": "Odmiana: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie haben.",
+   "category": "de7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-093",
+   "type": "cloze",
+   "text": "Czasownik regularny, 2. osoba: Du {{spielst}} Fußball.",
+   "hint": "spielen + końcówka -st",
+   "explanation": "Końcówki czasu teraźniejszego: -e, -st, -t, -en, -t, -en.",
+   "category": "de7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-094",
+   "type": "cloze",
+   "text": "Przeczenie czasownika: Ich tanze {{nicht}}.",
+   "hint": "nicht czy kein?",
+   "explanation": "„nicht” przeczy czasownikowi lub przymiotnikowi.",
+   "category": "de7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-095",
+   "type": "cloze",
+   "text": "Przeczenie rzeczownika: Ich habe {{keinen}} Hund.",
+   "hint": "kein w bierniku rodzaju męskiego",
+   "explanation": "„kein” przeczy rzeczownikowi; biernik: keinen (m.), keine (ż.), kein (n.).",
+   "category": "de7_grammar",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-096",
+   "type": "cloze",
+   "text": "Pytanie rozstrzygające (ja/nein): {{Wohnst}} du in Berlin?",
+   "hint": "czasownik na pierwszym miejscu",
+   "explanation": "W pytaniu bez słowa pytającego czasownik stoi na początku zdania.",
+   "category": "de7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  },
+  {
+   "id": "de7-pp-097",
+   "type": "cloze",
+   "text": "Liczebniki: eins, zwei, drei, vier, {{fünf}}, sechs, sieben, acht, neun, zehn.",
+   "hint": "liczba 5",
+   "explanation": "Liczby 1–10 należy znać na pamięć; 11 = elf, 12 = zwölf.",
+   "category": "de7_grammar",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "de7-pp-098",
+   "type": "cloze",
+   "text": "Zaimek osobowy zastępujący „die Lehrerin”: {{sie}} ist nett.",
+   "hint": "zaimek 3. osoby rodzaju żeńskiego",
+   "explanation": "Zaimki: er (der), sie (die), es (das); „Sie” wielką literą = pan/pani.",
+   "category": "de7_grammar",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I"
+  }
+ ]
+}
