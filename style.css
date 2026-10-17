@@ -138,6 +138,11 @@ body.in-session .view { padding-bottom: 24px; }
 }
 .subj-btn .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .subj-btn .caret { color: var(--muted); font-size: .8rem; }
+body.no-level .nav-subjects, body.no-level .nav-section, body.no-level .subj-switch,
+body.no-level .nav a[data-route="learn"], body.no-level .nav a[data-route="browse"], body.no-level .nav a[data-route="materials"] { display: none !important; }
+.level-card { text-align: left; cursor: pointer; font: inherit; color: inherit; width: 100%; }
+.level-card:hover { border-color: var(--primary); }
+.level-card h2 { margin: 0 0 6px; }
 .subj-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
 .subj-menu {
   position: absolute; right: 0; top: calc(100% + 6px); min-width: 250px;

@@ -1,0 +1,598 @@
+{
+ "version": 1,
+ "subject": "english_sp7",
+ "updated": "2026-10-17",
+ "items": [
+  {
+   "id": "en7-001",
+   "type": "awl_word",
+   "word": "tall",
+   "polish": [
+    "wysoki"
+   ],
+   "example": "My brother is very tall.",
+   "category": "en7_people",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-002",
+   "type": "awl_word",
+   "word": "curly",
+   "polish": [
+    "kręcony"
+   ],
+   "example": "She has long curly hair.",
+   "category": "en7_people",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-003",
+   "type": "awl_word",
+   "word": "friendly",
+   "polish": [
+    "przyjazny",
+    "życzliwy"
+   ],
+   "example": "Our new neighbours are very friendly.",
+   "category": "en7_people",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-004",
+   "type": "awl_word",
+   "word": "lazy",
+   "polish": [
+    "leniwy"
+   ],
+   "example": "Don't be lazy and do your homework!",
+   "category": "en7_people",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-005",
+   "type": "awl_word",
+   "word": "confident",
+   "polish": [
+    "pewny siebie"
+   ],
+   "example": "Tom is confident when he speaks in public.",
+   "category": "en7_people",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-006",
+   "type": "awl_word",
+   "word": "wardrobe",
+   "polish": [
+    "szafa"
+   ],
+   "example": "I keep my clothes in the wardrobe.",
+   "category": "en7_home",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-007",
+   "type": "awl_word",
+   "word": "cooker",
+   "polish": [
+    "kuchenka"
+   ],
+   "example": "The soup is on the cooker.",
+   "category": "en7_home",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-008",
+   "type": "awl_word",
+   "word": "do the washing-up",
+   "polish": [
+    "zmywać naczynia"
+   ],
+   "example": "I do the washing-up after dinner.",
+   "category": "en7_home",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-009",
+   "type": "awl_word",
+   "word": "neighbour",
+   "polish": [
+    "sąsiad",
+    "sąsiadka"
+   ],
+   "example": "Our neighbour has a big dog.",
+   "category": "en7_home",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-010",
+   "type": "awl_word",
+   "word": "subject",
+   "polish": [
+    "przedmiot szkolny",
+    "przedmiot"
+   ],
+   "example": "My favourite subject is biology.",
+   "category": "en7_school",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-011",
+   "type": "awl_word",
+   "word": "timetable",
+   "polish": [
+    "plan lekcji"
+   ],
+   "example": "Check the timetable before you go to school.",
+   "category": "en7_school",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-012",
+   "type": "awl_word",
+   "word": "pass an exam",
+   "polish": [
+    "zdać egzamin"
+   ],
+   "example": "I hope to pass an exam in June.",
+   "category": "en7_school",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-013",
+   "type": "awl_word",
+   "word": "fail",
+   "polish": [
+    "oblać",
+    "nie zdać"
+   ],
+   "example": "He didn't study, so he will fail the test.",
+   "category": "en7_school",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-014",
+   "type": "awl_word",
+   "word": "earn",
+   "polish": [
+    "zarabiać"
+   ],
+   "example": "Doctors earn a lot of money.",
+   "category": "en7_work",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-015",
+   "type": "awl_word",
+   "word": "nurse",
+   "polish": [
+    "pielęgniarka",
+    "pielęgniarz"
+   ],
+   "example": "The nurse works at the hospital.",
+   "category": "en7_work",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-016",
+   "type": "awl_word",
+   "word": "salary",
+   "polish": [
+    "pensja",
+    "wynagrodzenie"
+   ],
+   "example": "She is happy with her salary.",
+   "category": "en7_work",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-017",
+   "type": "awl_word",
+   "word": "cousin",
+   "polish": [
+    "kuzyn",
+    "kuzynka"
+   ],
+   "example": "My cousin lives in London.",
+   "category": "en7_family",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-018",
+   "type": "awl_word",
+   "word": "get on well with",
+   "polish": [
+    "dobrze się dogadywać z"
+   ],
+   "example": "I get on well with my sister.",
+   "category": "en7_family",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-019",
+   "type": "awl_word",
+   "word": "grandparents",
+   "polish": [
+    "dziadkowie"
+   ],
+   "example": "We visit our grandparents every Sunday.",
+   "category": "en7_family",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-020",
+   "type": "awl_word",
+   "word": "tasty",
+   "polish": [
+    "smaczny"
+   ],
+   "example": "This pizza is really tasty.",
+   "category": "en7_food",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-021",
+   "type": "awl_word",
+   "word": "boil",
+   "polish": [
+    "gotować",
+    "zagotować"
+   ],
+   "example": "Boil the water for the pasta.",
+   "category": "en7_food",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-022",
+   "type": "awl_word",
+   "word": "fry",
+   "polish": [
+    "smażyć"
+   ],
+   "example": "Mum likes to fry fish.",
+   "category": "en7_food",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-023",
+   "type": "awl_word",
+   "word": "slice",
+   "polish": [
+    "plasterek",
+    "kromka",
+    "kawałek"
+   ],
+   "example": "Can I have a slice of bread?",
+   "category": "en7_food",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-024",
+   "type": "awl_word",
+   "word": "vegetarian",
+   "polish": [
+    "wegetarianin",
+    "wegetariański"
+   ],
+   "example": "My sister is vegetarian, so she doesn't eat meat.",
+   "category": "en7_food",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-025",
+   "type": "awl_word",
+   "word": "cheap",
+   "polish": [
+    "tani"
+   ],
+   "example": "These shoes are cheap.",
+   "category": "en7_shopping",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-026",
+   "type": "awl_word",
+   "word": "expensive",
+   "polish": [
+    "drogi"
+   ],
+   "example": "The new phone is very expensive.",
+   "category": "en7_shopping",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-027",
+   "type": "awl_word",
+   "word": "receipt",
+   "polish": [
+    "paragon"
+   ],
+   "example": "Keep the receipt in case you want to return it.",
+   "category": "en7_shopping",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-028",
+   "type": "awl_word",
+   "word": "try on",
+   "polish": [
+    "przymierzać"
+   ],
+   "example": "Can I try on this jacket?",
+   "category": "en7_shopping",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-029",
+   "type": "awl_word",
+   "word": "luggage",
+   "polish": [
+    "bagaż"
+   ],
+   "example": "Our luggage is in the car.",
+   "category": "en7_travel",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-030",
+   "type": "awl_word",
+   "word": "book",
+   "polish": [
+    "rezerwować",
+    "zarezerwować"
+   ],
+   "example": "We need to book a hotel room.",
+   "category": "en7_travel",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-031",
+   "type": "awl_word",
+   "word": "sightseeing",
+   "polish": [
+    "zwiedzanie"
+   ],
+   "example": "We went sightseeing in Rome.",
+   "category": "en7_travel",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-032",
+   "type": "awl_word",
+   "word": "passport",
+   "polish": [
+    "paszport"
+   ],
+   "example": "Don't forget your passport!",
+   "category": "en7_travel",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-033",
+   "type": "awl_word",
+   "word": "exhibition",
+   "polish": [
+    "wystawa"
+   ],
+   "example": "There is a new exhibition at the museum.",
+   "category": "en7_culture",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-034",
+   "type": "awl_word",
+   "word": "audience",
+   "polish": [
+    "publiczność",
+    "widownia"
+   ],
+   "example": "The audience loved the concert.",
+   "category": "en7_culture",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-035",
+   "type": "awl_word",
+   "word": "novel",
+   "polish": [
+    "powieść"
+   ],
+   "example": "I am reading a novel by J.K. Rowling.",
+   "category": "en7_culture",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-036",
+   "type": "awl_word",
+   "word": "win",
+   "polish": [
+    "wygrywać",
+    "wygrać"
+   ],
+   "example": "Our team wants to win the match.",
+   "category": "en7_sport",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-037",
+   "type": "awl_word",
+   "word": "referee",
+   "polish": [
+    "sędzia"
+   ],
+   "example": "The referee stopped the game.",
+   "category": "en7_sport",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-038",
+   "type": "awl_word",
+   "word": "score a goal",
+   "polish": [
+    "strzelić gola"
+   ],
+   "example": "I want to score a goal in the next match.",
+   "category": "en7_sport",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-039",
+   "type": "awl_word",
+   "word": "competition",
+   "polish": [
+    "zawody",
+    "konkurs"
+   ],
+   "example": "She took part in a swimming competition.",
+   "category": "en7_sport",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-040",
+   "type": "awl_word",
+   "word": "headache",
+   "polish": [
+    "ból głowy"
+   ],
+   "example": "I have a terrible headache.",
+   "category": "en7_health",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-041",
+   "type": "awl_word",
+   "word": "sore throat",
+   "polish": [
+    "ból gardła"
+   ],
+   "example": "I can't sing because I have a sore throat.",
+   "category": "en7_health",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-042",
+   "type": "awl_word",
+   "word": "healthy",
+   "polish": [
+    "zdrowy"
+   ],
+   "example": "Fruit and vegetables are healthy.",
+   "category": "en7_health",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-043",
+   "type": "awl_word",
+   "word": "medicine",
+   "polish": [
+    "lekarstwo",
+    "lek"
+   ],
+   "example": "Take this medicine twice a day.",
+   "category": "en7_health",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-044",
+   "type": "awl_word",
+   "word": "download",
+   "polish": [
+    "pobierać",
+    "ściągać"
+   ],
+   "example": "You can download the app for free.",
+   "category": "en7_science",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-045",
+   "type": "awl_word",
+   "word": "invent",
+   "polish": [
+    "wynaleźć"
+   ],
+   "example": "Who invented the telephone?",
+   "category": "en7_science",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-046",
+   "type": "awl_word",
+   "word": "screen",
+   "polish": [
+    "ekran"
+   ],
+   "example": "The screen of my phone is broken.",
+   "category": "en7_science",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-047",
+   "type": "awl_word",
+   "word": "environment",
+   "polish": [
+    "środowisko"
+   ],
+   "example": "We should protect the environment.",
+   "category": "en7_nature",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-048",
+   "type": "awl_word",
+   "word": "pollution",
+   "polish": [
+    "zanieczyszczenie"
+   ],
+   "example": "Air pollution is a big problem in cities.",
+   "category": "en7_nature",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-049",
+   "type": "awl_word",
+   "word": "recycle",
+   "polish": [
+    "poddawać recyklingowi",
+    "przetwarzać"
+   ],
+   "example": "We recycle paper and plastic.",
+   "category": "en7_nature",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-050",
+   "type": "awl_word",
+   "word": "weather forecast",
+   "polish": [
+    "prognoza pogody"
+   ],
+   "example": "The weather forecast says it will rain.",
+   "category": "en7_nature",
+   "difficulty": 1
+  },
+  {
+   "id": "en7-051",
+   "type": "awl_word",
+   "word": "crime",
+   "polish": [
+    "przestępstwo"
+   ],
+   "example": "The police are investigating the crime.",
+   "category": "en7_society",
+   "difficulty": 2
+  },
+  {
+   "id": "en7-052",
+   "type": "awl_word",
+   "word": "volunteer",
+   "polish": [
+    "wolontariusz",
+    "wolontariuszka"
+   ],
+   "example": "She works as a volunteer at an animal shelter.",
+   "category": "en7_society",
+   "difficulty": 2
+  }
+ ]
+}

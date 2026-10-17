@@ -26,6 +26,37 @@
     bio_ecology:      { subject: 'biology', label: 'Ecology', short: 'Ecology', pl: 'ekologia', icon: '🌍' },
     bio_skills:       { subject: 'biology', label: 'Skills & experiments', short: 'Skills', pl: 'umiejętności i doświadczenia', icon: '🔬' },
     bio_general:      { subject: 'biology', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // Angielski, 7 klasa: tematy z podstawy programowej (podpis = nazwa po angielsku)
+    en7_people:       { subject: 'english_sp7', label: 'Człowiek', short: 'Człowiek', pl: 'people', icon: '🧑' },
+    en7_home:         { subject: 'english_sp7', label: 'Dom', short: 'Dom', pl: 'house & home', icon: '🏠' },
+    en7_school:       { subject: 'english_sp7', label: 'Szkoła', short: 'Szkoła', pl: 'school', icon: '🏫' },
+    en7_work:         { subject: 'english_sp7', label: 'Praca', short: 'Praca', pl: 'jobs & work', icon: '💼' },
+    en7_family:       { subject: 'english_sp7', label: 'Rodzina i przyjaciele', short: 'Rodzina', pl: 'family & friends', icon: '👨‍👩‍👧' },
+    en7_food:         { subject: 'english_sp7', label: 'Jedzenie', short: 'Jedzenie', pl: 'food', icon: '🍎' },
+    en7_shopping:     { subject: 'english_sp7', label: 'Zakupy i usługi', short: 'Zakupy', pl: 'shopping & services', icon: '🛒' },
+    en7_travel:       { subject: 'english_sp7', label: 'Podróże', short: 'Podróże', pl: 'travel & tourism', icon: '✈️' },
+    en7_culture:      { subject: 'english_sp7', label: 'Kultura', short: 'Kultura', pl: 'culture', icon: '🎬' },
+    en7_sport:        { subject: 'english_sp7', label: 'Sport', short: 'Sport', pl: 'sport', icon: '⚽' },
+    en7_health:       { subject: 'english_sp7', label: 'Zdrowie', short: 'Zdrowie', pl: 'health', icon: '🩺' },
+    en7_science:      { subject: 'english_sp7', label: 'Nauka i technika', short: 'Technika', pl: 'science & technology', icon: '💻' },
+    en7_nature:       { subject: 'english_sp7', label: 'Przyroda', short: 'Przyroda', pl: 'the natural world', icon: '🌳' },
+    en7_society:      { subject: 'english_sp7', label: 'Społeczeństwo', short: 'Społeczeństwo', pl: 'society', icon: '🏛️' },
+    en7_other:        { subject: 'english_sp7', label: 'Inne', short: 'Inne', pl: 'other', icon: '📘' },
+    // Biologia, 7 klasa: działy (biologia człowieka)
+    bio7_body:        { subject: 'biologia_sp7', label: 'Organizm człowieka', short: 'Organizm', pl: 'tkanki, narządy, układy', icon: '🧍' },
+    bio7_skin:        { subject: 'biologia_sp7', label: 'Skóra', short: 'Skóra', pl: 'powłoka ciała', icon: '✋' },
+    bio7_movement:    { subject: 'biologia_sp7', label: 'Układ ruchu', short: 'Ruch', pl: 'szkielet i mięśnie', icon: '🦴' },
+    bio7_digestion:   { subject: 'biologia_sp7', label: 'Układ pokarmowy', short: 'Pokarmowy', pl: 'odżywianie i trawienie', icon: '🍽️' },
+    bio7_circulation: { subject: 'biologia_sp7', label: 'Układ krwionośny', short: 'Krwionośny', pl: 'krew, serce, naczynia', icon: '🫀' },
+    bio7_immune:      { subject: 'biologia_sp7', label: 'Układ odpornościowy', short: 'Odporność', pl: 'odporność organizmu', icon: '🛡️' },
+    bio7_breathing:   { subject: 'biologia_sp7', label: 'Układ oddechowy', short: 'Oddechowy', pl: 'oddychanie', icon: '🫁' },
+    bio7_excretion:   { subject: 'biologia_sp7', label: 'Układ moczowy', short: 'Moczowy', pl: 'wydalanie', icon: '💧' },
+    bio7_nervous:     { subject: 'biologia_sp7', label: 'Układ nerwowy', short: 'Nerwowy', pl: 'mózg i nerwy', icon: '🧠' },
+    bio7_senses:      { subject: 'biologia_sp7', label: 'Narządy zmysłów', short: 'Zmysły', pl: 'wzrok, słuch i inne', icon: '👁️' },
+    bio7_hormones:    { subject: 'biologia_sp7', label: 'Układ hormonalny', short: 'Hormony', pl: 'gruczoły i hormony', icon: '⚗️' },
+    bio7_reproduction:{ subject: 'biologia_sp7', label: 'Rozmnażanie i rozwój', short: 'Rozwój', pl: 'rozmnażanie i dojrzewanie', icon: '👶' },
+    bio7_health:      { subject: 'biologia_sp7', label: 'Zdrowie', short: 'Zdrowie', pl: 'homeostaza i zdrowie', icon: '🩺' },
+    bio7_other:       { subject: 'biologia_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
   };
 
   const TYPES = {
@@ -39,18 +70,36 @@
   };
 
   // Przedmioty: plik ze słownictwem bazowym, dozwolone typy wpisów, kategoria dla wpisów bez kategorii.
+  // lang: język kart (do promptu AI), typeLabels: nazwy typów w tym przedmiocie, gdy inne niż w TYPES.
   const SUBJECTS = {
     academic_english: {
-      label: 'Academic English', icon: '🎓', tagline: 'Formalny angielski do Academic Writing', file: 'vocabulary.json',
+      label: 'Academic English', icon: '🎓', tagline: 'Formalny angielski do Academic Writing', file: 'vocabulary.json', lang: 'en',
       types: ['awl_word', 'replacement', 'academic_verb', 'hedging', 'style_rule', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'style_rules',
     },
     biology: {
-      label: 'Biology', icon: '🧬', tagline: 'Biologia: pojęcia, procesy i fakty', file: 'data/biology.json',
+      label: 'Biology', icon: '🧬', tagline: 'Biologia: pojęcia, procesy i fakty', file: 'data/biology.json', lang: 'en',
       types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'bio_general',
+    },
+    english_sp7: {
+      label: 'Angielski', icon: '🔤', tagline: 'Słówka i zwroty z angielskiego', file: 'data/angielski-7.json', lang: 'en-pl', vocab: true,
+      types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'en7_other',
+      typeLabels: { awl_word: 'Słówko' },
+    },
+    biologia_sp7: {
+      label: 'Biologia', icon: '🫀', tagline: 'Biologia człowieka: pojęcia i procesy', file: 'data/biologia-7.json', lang: 'pl',
+      types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'bio7_other',
     },
   };
   const DEFAULT_SUBJECT = 'academic_english';
   for (const c of Object.values(CATEGORIES)) c.subject = c.subject || DEFAULT_SUBJECT;
+  const typeLabel = (type, subject) => ((SUBJECTS[subject] || {}).typeLabels || {})[type] || TYPES[type] || type;
+
+  // Ścieżki nauki: konto widzi tylko przedmioty swojej ścieżki. audience trafia do promptu AI.
+  const LEVELS = {
+    ib: { label: 'IB Pre-DP', subjects: ['academic_english', 'biology'], audience: 'uczeń IB Pre-DP (materiały po angielsku)' },
+    sp7: { label: '7 klasa szkoły podstawowej', subjects: ['english_sp7', 'biologia_sp7'], audience: 'uczeń 7 klasy polskiej szkoły podstawowej (podstawa programowa)' },
+  };
+  const DEFAULT_LEVEL = 'ib';
 
   const FUNCTION_LABELS = {
     claim: 'Twierdzenie (claim)',
@@ -207,6 +256,7 @@
       settings: {
         theme: 'system',
         name: '',
+        level: null,      // ścieżka nauki (LEVELS); null = nowe konto, pytamy przy starcie
         subject: DEFAULT_SUBJECT,
         newPerDay: 10,
         sessionSize: 12,
@@ -221,9 +271,12 @@
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return base;
       const s = JSON.parse(raw);
+      const settings = { ...base.settings, ...(s.settings || {}), lastConfig: { ...base.settings.lastConfig, ...((s.settings || {}).lastConfig || {}) } };
+      // Stan sprzed ścieżek należał do ucznia IB.
+      if (!settings.level && Object.keys(s.progress || {}).length) settings.level = DEFAULT_LEVEL;
       return {
         ...base, ...s,
-        settings: { ...base.settings, ...(s.settings || {}), lastConfig: { ...base.settings.lastConfig, ...((s.settings || {}).lastConfig || {}) } },
+        settings,
         progress: s.progress || {},
         daily: s.daily || {},
         customItems: s.customItems || [],
@@ -266,7 +319,9 @@
     log.newItems++;
   }
 
-  const currentSubject = () => (SUBJECTS[state.settings.subject] ? state.settings.subject : DEFAULT_SUBJECT);
+  const currentLevel = () => (LEVELS[state.settings.level] ? state.settings.level : DEFAULT_LEVEL);
+  const levelSubjects = () => LEVELS[currentLevel()].subjects;
+  const currentSubject = () => (levelSubjects().includes(state.settings.subject) ? state.settings.subject : levelSubjects()[0]);
   const subjectOf = (raw) => (raw.subject && SUBJECTS[raw.subject] ? raw.subject
     : CATEGORIES[raw.category] ? CATEGORIES[raw.category].subject : DEFAULT_SUBJECT);
   const catsOf = (subject) => Object.entries(CATEGORIES).filter(([, c]) => c.subject === subject);
@@ -366,7 +421,7 @@
       { key: 'word', label: 'Słowo', req: true, ph: 'significant' },
       { key: 'polish', label: 'Po polsku', list: ',', hint: 'kilka oddziel przecinkiem', ph: 'istotny, znaczący' },
       { key: 'example', label: 'Zdanie przykładowe', ph: 'The results were statistically significant.' },
-      { key: 'awl_group', label: 'Grupa AWL', num: true, hint: '1–10, opcjonalnie', ph: '1' },
+      { key: 'awl_group', label: 'Grupa AWL', num: true, hint: '1–10, opcjonalnie', ph: '1', only: DEFAULT_SUBJECT },
     ],
     hedging: [
       { key: 'informal', label: 'Zdanie zbyt pewne', req: true, ph: 'This proves that…' },
@@ -820,7 +875,7 @@
         return { instruction: 'Co to znaczy po polsku?', prompt: it.word, context: it.example, answer: it.polish[0],
           options: opts(it.polish[0], distractors(it, (o) => o.polish[0], sameType, it.polish)) };
       }
-      return { instruction: 'Które słowo AWL to oznacza?', prompt: it.polish.join(', '), answer: it.word,
+      return { instruction: it.subject === DEFAULT_SUBJECT ? 'Które słowo AWL to oznacza?' : 'Jak to jest po angielsku?', prompt: it.polish.join(', '), answer: it.word,
         options: opts(it.word, distractors(it, (o) => o.word, sameType, [it.word])) };
     }
     if (it.type === 'qa' || it.type === 'cloze') {
@@ -869,7 +924,7 @@
         };
       case 'awl_word':
         return {
-          label: it.awl_group ? `AWL · grupa ${it.awl_group}` : 'Słowo akademickie', text: it.word, expected: it.polish.join(', ') || '—',
+          label: it.awl_group ? `AWL · grupa ${it.awl_group}` : it.subject === DEFAULT_SUBJECT ? 'Słowo akademickie' : 'Słówko', text: it.word, expected: it.polish.join(', ') || '—',
           back: [h('div', { class: 'main' }, it.word), kv([['Po polsku', it.polish.join(', ') || '(brak tłumaczenia)']]), ex('good', '✓', it.example)],
         };
       case 'style_rule':
@@ -1021,7 +1076,7 @@
       return { instruction: 'Napisz angielski czasownik akademicki', prompt: it.polish.join(', '),
         context: `Funkcja: ${FUNCTION_LABELS[it.function]}. ${hint}`, accepted: [it.word], expected: it.word };
     }
-    return { instruction: 'Napisz angielskie słowo z AWL', prompt: it.polish.join(', '), context: hint, accepted: [it.word], expected: it.word };
+    return { instruction: it.subject === DEFAULT_SUBJECT ? 'Napisz angielskie słowo z AWL' : 'Napisz po angielsku', prompt: it.polish.join(', '), context: hint, accepted: [it.word], expected: it.word };
   }
 
   // Tytuł komunikatu dla zaliczonej odpowiedzi, która nie była idealna.
@@ -1326,6 +1381,31 @@
     return cat === 'all' || catOf(cat, currentSubject()) ? cat : 'all';
   }
 
+  function setLevel(level) {
+    if (!LEVELS[level]) return;
+    state.settings.level = level;
+    state.settings.subject = LEVELS[level].subjects[0];
+    state.settings.lastConfig.category = 'all';
+    browseState.category = 'all';
+    browseState.type = 'all';
+    save();
+    route();
+  }
+
+  // Nowe konto: wybór ścieżki przed pierwszą nauką.
+  function renderOnboarding(view) {
+    view.replaceChildren(
+      h('div', { class: 'hero' }, h('div', null, h('h1', null, 'Witaj w Study Cards! 👋'),
+        h('div', { class: 'muted' }, 'Wybierz, czego się uczysz. Zmienisz to później w Ustawieniach.'))),
+      h('div', { class: 'grid grid-2' }, Object.entries(LEVELS).map(([k, lv]) =>
+        h('button', { class: 'card level-card', onClick: () => setLevel(k) },
+          h('h2', null, lv.label),
+          h('div', { class: 'muted small' }, lv.subjects.map((sk) => `${SUBJECTS[sk].icon} ${SUBJECTS[sk].label}`).join(' · '))))),
+      sync.client && !sync.user
+        ? h('p', { class: 'muted small' }, 'Masz już konto na innym urządzeniu? ', h('a', { href: '#/settings' }, 'Zaloguj się w Ustawieniach'), ', a ścieżka i postęp wczytają się same.')
+        : null);
+  }
+
   function setSubject(key) {
     if (key === currentSubject()) return;
     state.settings.subject = key;
@@ -1355,16 +1435,16 @@
   function renderNav() {
     const cur = currentSubject();
     const subj = SUBJECTS[cur];
-    const todo = Object.fromEntries(Object.keys(SUBJECTS).map((k) => [k, todoCount(k)]));
+    const todo = Object.fromEntries(levelSubjects().map((k) => [k, todoCount(k)]));
 
     const list = document.getElementById('nav-subjects');
     list.replaceChildren(h('div', { class: 'nav-heading' }, 'Przedmioty'),
-      ...Object.keys(SUBJECTS).map((k) => subjectItem(k, todo[k], () => setSubject(k))));
+      ...levelSubjects().map((k) => subjectItem(k, todo[k], () => setSubject(k))));
     document.getElementById('nav-section').textContent = `${subj.icon} ${subj.label}`;
 
     const sw = document.getElementById('subj-switch');
     sw.classList.remove('open');
-    const others = Object.keys(SUBJECTS).filter((k) => k !== cur).reduce((n, k) => n + todo[k], 0);
+    const others = levelSubjects().filter((k) => k !== cur).reduce((n, k) => n + todo[k], 0);
     const btn = h('button', { class: 'subj-btn', 'aria-haspopup': 'true', 'aria-expanded': 'false', title: 'Zmień przedmiot',
       onClick: (e) => { e.stopPropagation(); const open = sw.classList.toggle('open'); btn.setAttribute('aria-expanded', String(open)); } },
       h('span', { 'aria-hidden': 'true' }, subj.icon), h('span', { class: 'name' }, subj.label),
@@ -1372,7 +1452,7 @@
       h('span', { class: 'caret', 'aria-hidden': 'true' }, '▾'));
     sw.replaceChildren(btn, h('div', { class: 'subj-menu', role: 'menu' },
       h('div', { class: 'subj-menu-title' }, 'Przedmiot'),
-      ...Object.keys(SUBJECTS).map((k) => subjectItem(k, todo[k], () => { sw.classList.remove('open'); setSubject(k); }))));
+      ...levelSubjects().map((k) => subjectItem(k, todo[k], () => { sw.classList.remove('open'); setSubject(k); }))));
   }
   document.addEventListener('click', (e) => {
     const sw = document.getElementById('subj-switch');
@@ -1381,7 +1461,7 @@
 
   // Na panelu: przypomnienie o kartach na dziś w pozostałych przedmiotach (kliknięcie przełącza przedmiot).
   function otherSubjectsHint() {
-    const rest = Object.keys(SUBJECTS).filter((k) => k !== currentSubject()).map((k) => [k, todoCount(k)]).filter(([, n]) => n);
+    const rest = levelSubjects().filter((k) => k !== currentSubject()).map((k) => [k, todoCount(k)]).filter(([, n]) => n);
     if (!rest.length) return null;
     return h('div', { class: 'chips', style: 'margin:-4px 0 16px' },
       h('span', { class: 'muted small', style: 'align-self:center' }, 'Na dziś także:'),
@@ -1660,7 +1740,7 @@
         search,
         sel('category', [['all', 'Wszystkie kategorie'], ...(subjectPool().some((it) => it._custom) ? [['custom', '⭐ Moje materiały']] : []),
           ...catsOf(currentSubject()).map(([k, c]) => [k, c.label])], 'Kategoria'),
-        sel('type', [['all', 'Wszystkie typy'], ...SUBJECTS[currentSubject()].types.map((t) => [t, TYPES[t]])], 'Typ'),
+        sel('type', [['all', 'Wszystkie typy'], ...SUBJECTS[currentSubject()].types.map((t) => [t, typeLabel(t, currentSubject())])], 'Typ'),
         sel('sort', [['alpha', 'A → Z'], ['difficulty', 'Poziom ↑'], ['difficulty_desc', 'Poziom ↓'], ['status', 'Status (nowe najpierw)']], 'Sortowanie')),
       countEl, list, more);
     draw();
@@ -1679,6 +1759,11 @@
         h('div', { class: 'setting' },
           h('div', { class: 'txt' }, h('b', null, 'Motyw'), h('span', { class: 'muted small' }, 'Jasny, ciemny lub zgodny z systemem')),
           seg([['system', 'Systemowy'], ['light', '☀️ Jasny'], ['dark', '🌙 Ciemny']], state.settings.theme, (v) => { state.settings.theme = v; save(); applyTheme(); })),
+        h('div', { class: 'setting' },
+          h('div', { class: 'txt' }, h('b', null, 'Ścieżka nauki'), h('span', { class: 'muted small' }, 'Decyduje, jakie przedmioty widzisz w menu')),
+          h('select', { 'aria-label': 'Ścieżka nauki', value: state.settings.level || '', onChange: (e) => { setLevel(e.target.value); toast('Zapisano'); } },
+            state.settings.level ? null : h('option', { value: '' }, '— wybierz —'),
+            Object.entries(LEVELS).map(([k, lv]) => h('option', { value: k }, lv.label)))),
         h('div', { class: 'setting' },
           h('div', { class: 'txt' }, h('b', null, 'Imię'), h('span', { class: 'muted small' }, 'Do powitania na panelu')),
           h('input', { type: 'text', value: state.settings.name, maxlength: '30', placeholder: 'np. Tymon', 'aria-label': 'Imię',
@@ -1710,11 +1795,11 @@
       h('div', { class: 'card' },
         h('h2', null, 'O aplikacji'),
         h('p', { class: 'muted small' },
-          `Karty: ${VOCAB.length}${VOCAB_META.updated ? ` (aktualizacja ${VOCAB_META.updated})` : ''}. `,
+          `Karty w Twojej ścieżce: ${VOCAB.filter((i) => levelSubjects().includes(i.subject)).length}${VOCAB_META.updated ? ` (aktualizacja ${VOCAB_META.updated})` : ''}. `,
           'Aplikacja działa offline po pierwszym uruchomieniu i można ją zainstalować na telefonie („Dodaj do ekranu głównego”).'),
-        h('dl', { class: 'kv small' }, Object.entries(SUBJECTS).flatMap(([sk, subj]) => subj.types
+        h('dl', { class: 'kv small' }, levelSubjects().flatMap((sk) => SUBJECTS[sk].types
           .map((k) => [k, VOCAB.filter((i) => i.subject === sk && i.type === k).length]).filter(([, n]) => n)
-          .map(([k, n]) => [h('dt', null, `${subj.icon} ${TYPES[k]}`), h('dd', null, String(n))])))));
+          .map(([k, n]) => [h('dt', null, `${SUBJECTS[sk].icon} ${typeLabel(k, sk)}`), h('dd', null, String(n))])))));
   }
 
   function exportProgress() {
@@ -1918,7 +2003,7 @@
 
   const optionEls = (dict, value) => Object.entries(dict).map(([k, l]) => h('option', { value: k, selected: k === value }, l));
   const catOptions = (value) => catsOf(matUi.subject).map(([k, c]) => h('option', { value: k, selected: k === value }, `${c.icon} ${c.label}`));
-  const typeOptions = (value) => optionEls(Object.fromEntries(SUBJECTS[matUi.subject].types.map((t) => [t, TYPES[t]])), value);
+  const typeOptions = (value) => optionEls(Object.fromEntries(SUBJECTS[matUi.subject].types.map((t) => [t, typeLabel(t, matUi.subject)])), value);
 
   function renderMaterials(view) {
     const panel = h('div');
@@ -1929,7 +2014,7 @@
     // Materiały dodaje się do przedmiotu wybranego w menu; zmiana tutaj przełącza przedmiot w całej aplikacji.
     if (matUi.subject !== currentSubject()) setMatSubject(currentSubject());
     const subjSel = h('select', { id: 'm-subject', onChange: (e) => setSubject(e.target.value) },
-      optionEls(Object.fromEntries(Object.entries(SUBJECTS).map(([k, sj]) => [k, `${sj.icon} ${sj.label}`])), matUi.subject));
+      optionEls(Object.fromEntries(levelSubjects().map((k) => [k, `${SUBJECTS[k].icon} ${SUBJECTS[k].label}`])), matUi.subject));
 
     const showPreview = () => { drawPreview(); previewCard.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
     function drawTabs() {
@@ -2023,7 +2108,7 @@
               return h('div', { class: 'pack-item' },
                 h('div', { class: 'txt' },
                   h('b', null, label), it && it._answer ? h('span', { class: 'muted' }, ' — ' + it._answer) : null,
-                  h('div', { class: 'pv-meta' }, `${SUBJECTS[subjectOf(c)].icon} ${TYPES[c.type] || c.type} · ${(CATEGORIES[it ? it.category : c.category] || {}).label || '—'} · ${it ? STATUS_LABELS[statusOf(it)] : '—'}`)),
+                  h('div', { class: 'pv-meta' }, `${SUBJECTS[subjectOf(c)].icon} ${typeLabel(c.type, subjectOf(c))} · ${(CATEGORIES[it ? it.category : c.category] || {}).label || '—'} · ${it ? STATUS_LABELS[statusOf(it)] : '—'}`)),
                 h('button', { class: 'icon-btn', title: 'Usuń wpis', 'aria-label': `Usuń: ${label}`, onClick: () => del([c.id], `wpis „${label}”`) }, '🗑'));
             })),
             h('div', { class: 'row pack-actions' },
@@ -2059,7 +2144,7 @@
       cb,
       h('span', { class: 'pv-body' },
         h('span', null, h('b', null, label), p && p._answer ? h('span', { class: 'muted' }, ' — ' + p._answer) : null),
-        h('span', { class: 'pv-meta' }, `poz. ${r.line} · ${TYPES[r.item.type] || r.item.type || 'brak typu'} · ${cat ? cat.label : r.item.category || '—'}`),
+        h('span', { class: 'pv-meta' }, `poz. ${r.line} · ${r.item.type ? typeLabel(r.item.type, subjectOf(r.item)) : 'brak typu'} · ${cat ? cat.label : r.item.category || '—'}`),
         r.errors.map((e) => h('span', { class: 'pv-msg bad' }, '✗ ' + e)),
         r.dup ? h('span', { class: 'pv-msg warn' }, '⚠ Duplikat: ' + r.dup) : null,
         r.warnings.map((w) => h('span', { class: 'pv-msg' }, 'ℹ ' + w))));
@@ -2071,7 +2156,8 @@
     if (!AI) return h('p', { class: 'muted small' }, 'Moduł importu z czatu AI nie wczytał się — odśwież stronę.');
     const appending = !!(pending && pending.ai);
     const prompt = AI.promptFor({
-      id: matUi.subject, label: SUBJECTS[matUi.subject].label,
+      id: matUi.subject, label: SUBJECTS[matUi.subject].label, lang: SUBJECTS[matUi.subject].lang,
+      vocab: !!SUBJECTS[matUi.subject].vocab, audience: LEVELS[currentLevel()].audience,
       categories: catsOf(matUi.subject).map(([key, c]) => ({ key, label: c.label })),
     });
 
@@ -2156,7 +2242,9 @@
       };
       reader.readAsText(file);
     } });
-    const sample = JSON.stringify({ items: matUi.subject === DEFAULT_SUBJECT ? [
+    const sample = JSON.stringify({ items: SUBJECTS[matUi.subject].vocab ? [
+      { type: 'awl_word', word: 'healthy', polish: ['zdrowy'], example: 'Fruit and vegetables are healthy.', category: 'en7_health', difficulty: 1 },
+    ] : matUi.subject === DEFAULT_SUBJECT ? [
       { type: 'awl_word', word: 'significant', polish: ['istotny'], example: 'The results were statistically significant.', category: 'awl', difficulty: 1 },
       { type: 'replacement', informal: 'find out', formal: ['investigate', 'determine'], polish: ['zbadać'], category: 'phrasal_verbs' },
     ] : [
@@ -2218,7 +2306,7 @@
     function draw() {
       const type = matUi.formType;
       const inputs = {};
-      const fields = FIELDS[type].map((f) => {
+      const fields = FIELDS[type].filter((f) => !f.only || f.only === matUi.subject).map((f) => {
         const id = 'mf-' + f.key;
         const ctl = f.options
           ? h('select', { id }, optionEls(f.options))
@@ -2236,6 +2324,7 @@
       const go = () => {
         const raw = { type, subject: matUi.subject, category: catSel.value, difficulty: Number(diffSel.value) };
         for (const f of FIELDS[type]) {
+          if (!inputs[f.key]) continue;
           const v = inputs[f.key].value.trim();
           if (v) raw[f.key] = parseField(type, f.key, v);
         }
@@ -2286,7 +2375,9 @@
       }
     }
     const remoteNewer = (remote.settingsTs || 0) > (local.settingsTs || 0);
-    const settings = remoteNewer ? { ...local.settings, ...remote.settings, theme: local.settings.theme } : local.settings;
+    const settings = remoteNewer ? { ...local.settings, ...remote.settings, theme: local.settings.theme } : { ...local.settings };
+    // ścieżka: wybrana na którymkolwiek urządzeniu; postęp sprzed ścieżek należał do ucznia IB
+    if (!settings.level) settings.level = (remote.settings || {}).level || (Object.keys(progress).length ? DEFAULT_LEVEL : null);
     // Usunięte własne materiały: suma tombstones z obu stron wygrywa nad sumą wpisów i ich postępem.
     const deletedCustom = { ...(remote.deletedCustom || {}) };
     for (const [id, t] of Object.entries(local.deletedCustom || {})) deletedCustom[id] = Math.max(t, deletedCustom[id] || 0);
@@ -2323,6 +2414,7 @@
       const before = JSON.stringify(state.progress);
       const customFp = () => state.customItems.map((c) => c.id).join();
       const customBefore = customFp();
+      const levelBefore = state.settings.level;
       if (data && data.state) {
         state = mergeStates(state, data.state);
         lastSettingsFp = settingsFp();
@@ -2339,7 +2431,8 @@
       sync.lastSync = new Date();
       if (manual) toast('Zsynchronizowano ☁️');
       // odśwież widok, jeśli z chmury przyszły nowe dane (nie w trakcie sesji)
-      if ((JSON.stringify(state.progress) !== before || customChanged) && (currentRoute === 'dashboard' || currentRoute === 'browse')) route();
+      if (state.settings.level !== levelBefore && currentRoute !== 'session') route();
+      else if ((JSON.stringify(state.progress) !== before || customChanged) && (currentRoute === 'dashboard' || currentRoute === 'browse')) route();
       else if (customChanged && currentRoute === 'materials' && !pending) route();
     } catch (e) {
       sync.status = 'error';
@@ -2483,8 +2576,12 @@
     view.classList.remove('flash-ok', 'flash-bad');
     document.body.classList.toggle('in-session', key === 'session');
     document.querySelectorAll('.nav a').forEach((a) => a.classList.toggle('active', a.dataset.route === (NAV_FOR[key] || key)));
+    // Bez wybranej ścieżki: tylko ekran wyboru (i Ustawienia, żeby można było się zalogować).
+    const onboarding = !state.settings.level && key !== 'settings';
+    document.body.classList.toggle('no-level', !state.settings.level);
     if (key !== 'session') renderNav();
-    ROUTES[key](view);
+    if (onboarding) renderOnboarding(view);
+    else ROUTES[key](view);
     window.scrollTo(0, 0);
   }
 

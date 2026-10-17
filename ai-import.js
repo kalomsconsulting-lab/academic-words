@@ -37,22 +37,54 @@ Zasady:
       cloze: { text: 'Enzymes speed up reactions by lowering the {{activation energy}}.', hint: 'energy',
         explanation: 'The enzyme stabilises the transition state, so less energy is needed.', category: 'bio_molecules' },
     },
+    biologia_sp7: {
+      qa: { question: 'Który narząd pompuje krew w organizmie człowieka?', answer: 'serce',
+        explanation: 'Serce kurczy się rytmicznie i tłoczy krew do naczyń krwionośnych.', category: 'bio7_circulation' },
+      cloze: { text: 'Wymiana gazowa w płucach zachodzi w {{pęcherzykach płucnych}}.', hint: 'płuca',
+        explanation: 'Tlen przechodzi z pęcherzyków do krwi, a dwutlenek węgla odwrotnie.', category: 'bio7_breathing' },
+    },
   };
   const GENERIC_EXAMPLE = {
     qa: { question: 'What is …?', answer: 'short answer', accept: ['other correct form'], explanation: 'One-sentence explanation.' },
     cloze: { text: 'A sentence with the {{key term}} hidden.', hint: 'hint', explanation: 'One-sentence explanation.' },
   };
+  const GENERIC_EXAMPLE_PL = {
+    qa: { question: 'Jak nazywa się …?', answer: 'krótka odpowiedź', accept: ['inna poprawna forma'], explanation: 'Wyjaśnienie w jednym zdaniu.' },
+    cloze: { text: 'Zdanie z ukrytym {{kluczowym pojęciem}}.', hint: 'podpowiedź', explanation: 'Wyjaśnienie w jednym zdaniu.' },
+  };
 
-  // Prompt ogólny (pytania i luki) dla przedmiotu: { id, label, categories: [{ key, label }] }.
+  // Słówka do nauki języka (typ awl_word: słowo po angielsku + tłumaczenie + zdanie).
+  function vocabPrompt(subject, cats, card) {
+    return `Wyciągnij z załączonego materiału z przedmiotu ${subject.label} słówka i zwroty do nauki i zwróć je jako JSON w bloku kodu.
+${subject.audience ? `Poziom: ${subject.audience}.\n` : ''}
+Format: tablica obiektów:
+${card('awl_word', { word: 'healthy', polish: ['zdrowy'], example: 'Fruit and vegetables are healthy.', category: 'en7_health' })}
+
+Zasady:
+- "word": słowo albo krótki zwrot po angielsku (np. "do the shopping", "be good at"), bez przedimka "a/the" przed rzeczownikiem.
+- "polish": tłumaczenie po polsku, kilka znaczeń jako osobne elementy tablicy.
+- "example": jedno proste zdanie po angielsku, które zawiera dokładnie to słowo lub zwrot.
+- Dozwolone kategorie${cats.length ? `: ${cats.map((c) => `${c.key} (${c.label})`).join(', ')}` : ' — pomiń pole "category"'}.
+- "difficulty": 1 (łatwe), 2 (średnie), 3 (trudne).
+- Bierz tylko słownictwo z materiału.
+- Nie dodawaj pola "id".
+- Używaj zwykłych cudzysłowów ", bez przecinka po ostatnim elemencie.
+- Jeśli słówek jest więcej niż 30, zwróć pierwsze 30 i napisz "CIĄG DALSZY", a resztę podaj, gdy poproszę.`;
+  }
+
+  // Prompt dla przedmiotu: { id, label, categories: [{ key, label }], lang: 'en' | 'pl', vocab, audience }.
+  // Academic English ma własny prompt (PROMPT), przedmioty językowe dostają słówka, pozostałe pytania i luki.
   function promptFor(subject) {
     if (!subject || subject.id === 'academic_english') return PROMPT;
-    const ex = EXAMPLES[subject.id] || GENERIC_EXAMPLE;
+    const pl = subject.lang === 'pl';
+    const ex = EXAMPLES[subject.id] || (pl ? GENERIC_EXAMPLE_PL : GENERIC_EXAMPLE);
     const cats = subject.categories || [];
     const cat = cats.length ? cats[0].key : undefined;
     const card = (type, fields) => `{ ${Object.entries({ type, ...fields, category: fields.category || cat, difficulty: 1 })
       .filter(([, v]) => v !== undefined).map(([k, v]) => `"${k}": ${JSON.stringify(v)}`).join(', ')} }`;
+    if (subject.vocab) return vocabPrompt(subject, cats, card);
     return `Na podstawie załączonego materiału z przedmiotu ${subject.label} przygotuj karty do nauki z fiszek i zwróć je jako JSON w bloku kodu.
-
+${subject.audience ? `Poziom: ${subject.audience}. Pytania mają odpowiadać temu poziomowi.\n` : ''}
 Format: tablica obiektów. Użyj dwóch typów:
 
 1. Pytanie i odpowiedź:
@@ -62,15 +94,16 @@ ${card('qa', ex.qa)}
 ${card('cloze', ex.cloze)}
 
 Zasady:
-- Karty po angielsku, tak jak w materiale. Bez tłumaczeń na polski.
+- ${pl ? 'Karty po polsku, poprawną polszczyzną (z polskimi znakami).' : 'Karty po angielsku, tak jak w materiale. Bez tłumaczeń na polski.'}
 - Jedna informacja na kartę. Pytaj o definicje, funkcje, różnice, przyczyny i skutki, etapy procesów, przykłady.
 - "answer" krótko: najlepiej 1–4 słowa (pojęcie, nazwa, liczba), bo uczeń wpisuje je z pamięci. Dłuższy komentarz daj do "explanation" (jedno zdanie).
 - "accept" (opcjonalnie): inne poprawne formy odpowiedzi, np. liczba mnoga, skrót, synonim.
-- W "cloze" dokładnie jedna luka. Ukrywaj kluczowe pojęcie, nigdy słowa typu "the", "is", "and". Inne poprawne formy wpisz w luce po "/": {{ATP / adenosine triphosphate}}.
+- W "cloze" dokładnie jedna luka. Ukrywaj kluczowe pojęcie, nigdy słowa typu "the", "is", "and". Inne poprawne formy wpisz w luce po "/": ${pl ? '{{tlen / O2}}' : '{{ATP / adenosine triphosphate}}'}.
 - Mniej więcej 60% kart "qa" i 40% "cloze".
 - Dozwolone kategorie${cats.length ? `: ${cats.map((c) => `${c.key} (${c.label})`).join(', ')}` : ' — pomiń pole "category"'}.
 - "difficulty": 1 (łatwe), 2 (średnie), 3 (trudne).
 - Używaj tylko informacji z materiału, nie dopisuj faktów spoza niego.
+- Nie przepisuj długich fragmentów materiału: pytania i zdania formułuj własnymi słowami.
 - Nie dodawaj pola "id".
 - Używaj zwykłych cudzysłowów ", bez przecinka po ostatnim elemencie.
 - Jeśli kart jest więcej niż 25, zwróć pierwsze 25 i napisz "CIĄG DALSZY", a resztę podaj, gdy poproszę.`;

@@ -13,7 +13,8 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 | `app.js` | cała logika: ćwiczenia, powtórki SM-2, widoki |
 | `ai-import.js` | import z czatu AI: prompt do skopiowania i parser odpowiedzi (`window.AW_AI`) |
 | `vocabulary.json` | słownictwo Academic English (704 wpisy) |
-| `data/biology.json` | karty bazowe z biologii (56 przykładowych: pytania i zdania z luką, po kilka w każdej kategorii) |
+| `data/biology.json` | karty bazowe z biologii IB (56 przykładowych: pytania i zdania z luką, po kilka w każdej kategorii) |
+| `data/angielski-7.json`, `data/biologia-7.json` | karty bazowe dla 7 klasy (52 słówka, 51 kart z biologii po polsku) |
 | `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
 
 **Starter pack (`vocabulary.json`):**
@@ -27,14 +28,29 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 
 ## Przedmioty
 
-Aplikacja obsługuje kilka przedmiotów: **Academic English** i **Biology**. Menu boczne (na komputerze) ma listę przedmiotów z liczbą kart do zrobienia dziś, a pod nią sekcję wybranego przedmiotu: *Dziś*, *Własna sesja*, *Karty*, *Dodaj materiały*; *Ustawienia* są na dole. Na telefonie przedmiot zmienia się przyciskiem w górnym pasku, a dolny pasek ma te same pozycje. Panel *Dziś* przypomina o kartach czekających w innych przedmiotach.
+Przedmioty są pogrupowane w **ścieżki** (`LEVELS` w `app.js`), a konto widzi tylko przedmioty swojej ścieżki:
+
+| Ścieżka | Przedmioty |
+|---|---|
+| IB Pre-DP (`ib`) | Academic English, Biology (karty po angielsku) |
+| 7 klasa szkoły podstawowej (`sp7`) | Angielski (słówka EN↔PL), Biologia (biologia człowieka, karty po polsku) |
+
+Nowe konto przy pierwszym uruchomieniu wybiera ścieżkę (można ją zmienić w *Ustawieniach*). Ścieżka zapisuje się w `settings.level` i synchronizuje z kontem. Stan sprzed wprowadzenia ścieżek, który ma już postęp, jest automatycznie przypisany do IB. Prompt czatu AI dostaje poziom ucznia i język kart z przedmiotu (`lang`), a przedmiot językowy (`vocab: true`) dostaje prompt na słówka.
+
+Menu boczne (na komputerze) ma listę przedmiotów z liczbą kart do zrobienia dziś, a pod nią sekcję wybranego przedmiotu: *Dziś*, *Własna sesja*, *Karty*, *Dodaj materiały*; *Ustawienia* są na dole. Na telefonie przedmiot zmienia się przyciskiem w górnym pasku, a dolny pasek ma te same pozycje. Panel *Dziś* przypomina o kartach czekających w innych przedmiotach.
 
 - Każdy przedmiot ma własne kategorie, statystyki i dzienny limit nowych kart (ustawienie *Nowe słowa dziennie* działa osobno w każdym przedmiocie). Powtórki SRS i sesje biorą karty tylko z wybranego przedmiotu.
 - Rejestr przedmiotów to `SUBJECTS` w `app.js` (plik z kartami bazowymi, dozwolone typy, domyślna kategoria). Kategorie przedmiotu to wpisy w `CATEGORIES` z polem `subject` (Academic English ich nie podaje, to przedmiot domyślny).
 - Nowy przedmiot: dopisz go do `SUBJECTS`, dodaj jego kategorie do `CATEGORIES` (klucze z prefiksem, np. `chem_…`), utwórz plik `data/<przedmiot>.json` i dodaj go do listy `ASSETS` w `sw.js` (z podbiciem wersji cache). Prompt czatu AI zbuduje się sam z nazwy i kategorii; przykładowe karty dla promptu można dopisać w `EXAMPLES` w `ai-import.js`.
 - Wpisy bez pola `subject` należą do przedmiotu wynikającego z kategorii, a bez kategorii do Academic English, więc dotychczasowe słownictwo i postęp działają bez migracji.
 
-**Kategorie biologii:** `bio_cells` (Cells), `bio_molecules` (Molecules & metabolism), `bio_genetics` (Genetics & evolution), `bio_human` (Human physiology), `bio_plants` (Plants), `bio_ecology` (Ecology), `bio_skills` (Skills & experiments), `bio_general` (Other, domyślna).
+**Kategorie Biology (IB):** `bio_cells` (Cells), `bio_molecules` (Molecules & metabolism), `bio_genetics` (Genetics & evolution), `bio_human` (Human physiology), `bio_plants` (Plants), `bio_ecology` (Ecology), `bio_skills` (Skills & experiments), `bio_general` (Other, domyślna).
+
+**Kategorie Angielskiego (7 klasa):** tematy z podstawy programowej z prefiksem `en7_` (`people`, `home`, `school`, `work`, `family`, `food`, `shopping`, `travel`, `culture`, `sport`, `health`, `science`, `nature`, `society`, `other`). Typ `awl_word` wyświetla się tu jako *Słówko*.
+
+**Kategorie Biologii (7 klasa):** działy z prefiksem `bio7_` (`body`, `skin`, `movement`, `digestion`, `circulation`, `immune`, `breathing`, `excretion`, `nervous`, `senses`, `hormones`, `reproduction`, `health`, `other`).
+
+**Polskie znaki w odpowiedziach:** odpowiedź wpisana bez polskich liter (np. „zoladek” zamiast „żołądek”) jest zaliczana z przypomnieniem; wyszukiwanie też ich nie wymaga.
 
 ## Uruchomienie lokalnie
 
