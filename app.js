@@ -40,14 +40,17 @@
     recommendation: 'wyrażania rekomendacji',
   };
 
-  const TECHNIQUES = {
-    removing_questions: 'Usuwanie pytań retorycznych',
-    modal_verbs: 'Czasowniki modalne',
-    adverbs: 'Przysłówki',
-    impersonal_constructions: 'Konstrukcje bezosobowe',
-    tentative_verbs: 'Czasowniki osłabiające (seem, appear, tend, suggest)',
-    probability: 'Wyrażenia prawdopodobieństwa (likely, possible)',
+  // Techniki hedgingu: nazwa angielska (jak w materiałach IB), polska i przykładowe słowa.
+  const TECHNIQUE_DEFS = {
+    removing_questions: { en: 'Removing rhetorical questions', pl: 'usuwanie pytań retorycznych' },
+    modal_verbs: { en: 'Modal verbs', pl: 'czasowniki modalne', ex: 'may, might, could' },
+    adverbs: { en: 'Adverbs', pl: 'przysłówki', ex: 'arguably, generally, possibly' },
+    impersonal_constructions: { en: 'Impersonal constructions', pl: 'konstrukcje bezosobowe', ex: 'It is believed that…' },
+    tentative_verbs: { en: 'Tentative verbs', pl: 'czasowniki osłabiające', ex: 'seem, appear, tend, suggest' },
+    probability: { en: 'Probability expressions', pl: 'wyrażenia prawdopodobieństwa', ex: 'likely, possible' },
   };
+  const TECHNIQUES = Object.fromEntries(Object.entries(TECHNIQUE_DEFS).map(([k, d]) =>
+    [k, `${d.en} — ${d.pl}${d.ex ? ` (${d.ex})` : ''}`]));
 
   const DIFFICULTY = { 1: 'Podstawowy', 2: 'Średni', 3: 'Zaawansowany' };
 
@@ -1257,7 +1260,7 @@
     const badges = h('div', { class: 'word-badges' },
       it.type === 'academic_verb' ? h('span', { class: 'badge' }, FUNCTION_LABELS[it.function]) : null,
       it.type === 'awl_word' ? h('span', { class: 'badge' }, `AWL ${it.awl_group}`) : null,
-      it.type === 'hedging' ? h('span', { class: 'badge' }, TECHNIQUES[it.technique] || it.technique) : null,
+      it.type === 'hedging' ? h('span', { class: 'badge', title: TECHNIQUES[it.technique] }, (TECHNIQUE_DEFS[it.technique] || {}).en || it.technique) : null,
       h('span', { class: 'badge', title: DIFFICULTY[it.difficulty] }, '●'.repeat(it.difficulty) + '○'.repeat(3 - it.difficulty)),
       h('span', { class: 'badge ' + st }, STATUS_LABELS[st]));
     const ex = (cls, mark, text) => text ? h('div', { class: 'ex ' + cls }, mark + ' ' + text) : null;

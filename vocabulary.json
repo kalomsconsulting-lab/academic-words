@@ -1186,7 +1186,7 @@
    "informal": "Industrial sites cause vast amounts of pollution, so why do we still use them?",
    "formal": "The question surrounding the continued use of industrial sites, given their vast pollution production, still remains.",
    "technique": "removing_questions",
-   "polish": "Usuwanie pytań retorycznych",
+   "polish": "Removing rhetorical questions — usuwanie pytań retorycznych",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1196,7 +1196,7 @@
    "informal": "Why do so many teenagers ignore the risks of smoking?",
    "formal": "The reasons why many teenagers ignore the risks of smoking remain unclear.",
    "technique": "removing_questions",
-   "polish": "Usuwanie pytań retorycznych",
+   "polish": "Removing rhetorical questions — usuwanie pytań retorycznych",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1206,7 +1206,7 @@
    "informal": "Isn't it obvious that we need more green spaces in cities?",
    "formal": "There is a strong case for increasing the number of green spaces in cities.",
    "technique": "removing_questions",
-   "polish": "Usuwanie pytań retorycznych",
+   "polish": "Removing rhetorical questions — usuwanie pytań retorycznych",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1216,7 +1216,7 @@
    "informal": "This proves that social media causes depression.",
    "formal": "This may indicate that social media could contribute to depression.",
    "technique": "modal_verbs",
-   "polish": "Czasowniki modalne (may, might, could)",
+   "polish": "Modal verbs — czasowniki modalne (may, might, could)",
    "category": "hedging",
    "difficulty": 1
   },
@@ -1226,7 +1226,7 @@
    "informal": "The new law will reduce crime.",
    "formal": "The new law might lead to a reduction in crime rates.",
    "technique": "modal_verbs",
-   "polish": "Czasowniki modalne (may, might, could)",
+   "polish": "Modal verbs — czasowniki modalne (may, might, could)",
    "category": "hedging",
    "difficulty": 1
   },
@@ -1236,7 +1236,7 @@
    "informal": "Video games make children violent.",
    "formal": "Video games may contribute to aggressive behaviour in some children.",
    "technique": "modal_verbs",
-   "polish": "Czasowniki modalne (may, might, could)",
+   "polish": "Modal verbs — czasowniki modalne (may, might, could)",
    "category": "hedging",
    "difficulty": 1
   },
@@ -1246,7 +1246,7 @@
    "informal": "Climate change is the biggest problem we face.",
    "formal": "Climate change is arguably the most significant challenge facing humanity.",
    "technique": "adverbs",
-   "polish": "Przysłówki (arguably, generally, possibly)",
+   "polish": "Adverbs — przysłówki (arguably, generally, possibly)",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1256,7 +1256,7 @@
    "informal": "Exercise improves mental health.",
    "formal": "Regular exercise generally appears to improve mental health.",
    "technique": "adverbs",
-   "polish": "Przysłówki (arguably, generally, possibly)",
+   "polish": "Adverbs — przysłówki (arguably, generally, possibly)",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1266,7 +1266,7 @@
    "informal": "Students who sleep less get worse grades.",
    "formal": "Students who sleep less often tend to achieve somewhat lower grades.",
    "technique": "adverbs",
-   "polish": "Przysłówki (arguably, generally, possibly)",
+   "polish": "Adverbs — przysłówki (arguably, generally, possibly)",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1276,7 +1276,7 @@
    "informal": "I think that renewable energy is the future.",
    "formal": "It is widely believed that renewable energy will play a central role in the future.",
    "technique": "impersonal_constructions",
-   "polish": "Konstrukcje bezosobowe (It is believed that…)",
+   "polish": "Impersonal constructions — konstrukcje bezosobowe (It is believed that…)",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1286,7 +1286,7 @@
    "informal": "Everyone knows that fast food is unhealthy.",
    "formal": "It is generally accepted that fast food can be detrimental to health.",
    "technique": "impersonal_constructions",
-   "polish": "Konstrukcje bezosobowe (It is believed that…)",
+   "polish": "Impersonal constructions — konstrukcje bezosobowe (It is believed that…)",
    "category": "hedging",
    "difficulty": 2
   },
@@ -1296,7 +1296,7 @@
    "informal": "We found that the results were wrong.",
    "formal": "It was found that the results were inaccurate.",
    "technique": "impersonal_constructions",
-   "polish": "Konstrukcje bezosobowe (It is believed that…)",
+   "polish": "Impersonal constructions — konstrukcje bezosobowe (It is believed that…)",
    "category": "hedging",
    "difficulty": 1
   },
