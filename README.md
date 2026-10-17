@@ -1,0 +1,104 @@
+# Academic Words
+
+Aplikacja do nauki formalnego słownictwa do **Academic Writing** (IB Pre-DP), w stylu Duolingo.
+Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Postęp zapisuje się w `localStorage`. Działa offline i można ją zainstalować na telefonie (PWA).
+
+## Co jest w środku
+
+| Plik | Rola |
+|---|---|
+| `index.html` | szkielet strony |
+| `style.css` | wygląd (jasny/ciemny motyw, mobile-first) |
+| `app.js` | cała logika: ćwiczenia, powtórki SM-2, widoki |
+| `vocabulary.json` | słownictwo (666 wpisów) |
+| `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
+
+**Starter pack (`vocabulary.json`):**
+- 36 zamian informal → formal (handout „Academic Style”: wyrażenia, phrasal verbs, łączniki)
+- 41 czasowników akademickich w 4 funkcjach (claim / agreement / disagreement / recommendation)
+- 7 reguł stylu, 12 przykładów hedgingu (4 techniki)
+- 570 słów z Academic Word List (grupy 1–10), wszystkie z polskim tłumaczeniem i zdaniem przykładowym
+
+**Tryby nauki:** fiszki (ze swipe), quiz (4 odpowiedzi), wpisywanie (tolerancja literówek), dopasowywanie par, uzupełnianie luk.
+**Sesje:** szybka (10–15 słów, mix ćwiczeń) albo inteligentne powtórki (algorytm SM-2 + limit nowych słów dziennie).
+
+## Uruchomienie lokalnie
+
+Przeglądarka nie wczyta `vocabulary.json` z pliku otwartego bezpośrednio (`file://`), potrzebny jest prosty serwer:
+
+```bash
+python -m http.server 8765
+```
+
+Potem otwórz http://localhost:8765.
+
+## Publikacja na GitHub Pages
+
+1. **Utwórz repozytorium** na https://github.com/new — np. nazwa `academic-words`, widoczność *Public* (darmowe GitHub Pages wymaga publicznego repo). Nie zaznaczaj „Add a README”.
+2. **Wypchnij kod** (repozytorium lokalne jest już zainicjowane z pierwszym commitem):
+
+   ```bash
+   git remote add origin https://github.com/TWOJ-LOGIN/academic-words.git
+   git push -u origin main
+   ```
+
+3. **Włącz Pages:** w repozytorium *Settings → Pages → Build and deployment → Source: Deploy from a branch*, wybierz gałąź `main` i folder `/ (root)`, kliknij *Save*.
+4. Po 1–2 minutach aplikacja będzie pod adresem:
+
+   **`https://TWOJ-LOGIN.github.io/academic-words/`**
+
+   (adres widać też na górze strony *Settings → Pages*).
+
+**Instalacja na telefonie:** otwórz adres w Chrome (Android) → menu → *Zainstaluj aplikację* / *Dodaj do ekranu głównego*. Na iPhonie: Safari → *Udostępnij* → *Do ekranu początkowego*.
+
+## Dodawanie nowego słownictwa
+
+1. Wrzuć handout (.doc/.docx lub zdjęcie) do Claude z prośbą: *„Wyciągnij słownictwo do vocabulary.json w formacie appki Academic Words”* i dołącz przykładowy wpis z sekcji niżej.
+2. Dopisz nowe wpisy na końcu tablicy `items` w `vocabulary.json`. Każdy `id` musi być unikalny (np. kolejny `r037`, `av042`, `awl571`, `sr008`, `h013`).
+3. Zmień pole `updated` na dzisiejszą datę, zrób commit i push — GitHub Pages odświeży stronę, a nowe słowa pojawią się w aplikacji (postęp nauki zostaje).
+
+### Format wpisów
+
+Wspólne pola: `id`, `type`, `category`, `difficulty` (1–3).
+Kategorie: `phrasal_verbs`, `informal_phrases`, `academic_verbs`, `connectors`, `hedging`, `awl`, `style_rules`, `noun_phrases`.
+
+```json
+{ "id": "r001", "type": "replacement", "informal": "find out",
+  "formal": ["investigate", "determine"], "polish": ["zbadać", "ustalić"],
+  "example_informal": "We need to find out what happened.",
+  "example_formal": "Further research is needed to determine the cause.",
+  "category": "phrasal_verbs", "difficulty": 1 }
+
+{ "id": "av001", "type": "academic_verb", "word": "advocate", "polish": ["popierać"],
+  "function": "recommendation", "example": "Several researchers advocate a more cautious approach.",
+  "category": "academic_verbs", "difficulty": 2 }
+
+{ "id": "awl001", "type": "awl_word", "word": "significant", "polish": ["istotny"],
+  "example": "The results were statistically significant.", "awl_group": 1,
+  "category": "awl", "difficulty": 1 }
+
+{ "id": "sr001", "type": "style_rule", "rule": "Nie dziel bezokoliczników",
+  "incorrect": "I was told to always keep a good look out.",
+  "correct": "I was always told to keep a good look out.",
+  "category": "style_rules", "difficulty": 2 }
+
+{ "id": "h001", "type": "hedging", "informal": "This proves that…", "formal": "This may indicate that…",
+  "technique": "modal_verbs", "polish": "Czasowniki modalne",
+  "category": "hedging", "difficulty": 1 }
+```
+
+Wskazówki:
+- `function` czasownika: `claim`, `agreement`, `disagreement`, `recommendation`.
+- `technique` hedgingu: `removing_questions`, `modal_verbs`, `adverbs`, `impersonal_constructions`.
+- Ćwiczenie „luki” działa, gdy zdanie przykładowe (`example_formal` / `example`) zawiera jedno z formalnych wyrażeń lub słowo (także w odmianie, np. *analyse → analysed*).
+- Słowa bez polskiego tłumaczenia pojawiają się tylko jako fiszki.
+
+## Postęp i dane
+
+- **Status słowa** liczony z 10 ostatnich odpowiedzi: < 60% poprawnych = *nowe*, 60–90% = *w nauce*, > 90% (min. 3 odpowiedzi) = *opanowane*.
+- **Przeniesienie na inne urządzenie:** *Ustawienia → Eksportuj postęp*, a na drugim urządzeniu *Importuj postęp*.
+- Wyczyszczenie danych przeglądarki usuwa postęp — warto co jakiś czas zrobić eksport.
+
+## Rozbudowa (pomysły)
+
+Architektura jest przygotowana pod: ręczne dodawanie słów (`state.customItems` jest już scalane ze słownikiem), nowe typy ćwiczeń (rejestr `RENDERERS` w `app.js`), synchronizację (cały stan to jeden obiekt JSON), wymowę (Web Speech API), import .docx i OCR.

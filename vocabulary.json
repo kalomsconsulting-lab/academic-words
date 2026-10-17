@@ -1,0 +1,8372 @@
+{
+ "version": 1,
+ "updated": "2026-10-17",
+ "items": [
+  {
+   "id": "r001",
+   "type": "replacement",
+   "informal": "Research shows",
+   "formal": [
+    "Research demonstrates",
+    "Research indicates",
+    "Research reveals"
+   ],
+   "polish": [
+    "badania wykazują",
+    "badania pokazują"
+   ],
+   "example_informal": "Research shows that sleep helps memory.",
+   "example_formal": "Research demonstrates that sleep enhances memory consolidation.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r002",
+   "type": "replacement",
+   "informal": "have been found",
+   "formal": [
+    "have been identified"
+   ],
+   "polish": [
+    "zostały zidentyfikowane",
+    "stwierdzono"
+   ],
+   "example_informal": "Three problems have been found.",
+   "example_formal": "Three problems have been identified in the current design.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r003",
+   "type": "replacement",
+   "informal": "bad",
+   "formal": [
+    "detrimental",
+    "adverse"
+   ],
+   "polish": [
+    "szkodliwy",
+    "niekorzystny"
+   ],
+   "example_informal": "The changes he made were bad.",
+   "example_formal": "The changes he made were detrimental to the company.",
+   "category": "informal_phrases",
+   "difficulty": 2
+  },
+  {
+   "id": "r004",
+   "type": "replacement",
+   "informal": "lots of people think",
+   "formal": [
+    "a considerable number of people believe",
+    "a considerable number of people contend"
+   ],
+   "polish": [
+    "wiele osób uważa"
+   ],
+   "example_informal": "Lots of people think social media is harmful.",
+   "example_formal": "A considerable number of people believe that social media is harmful.",
+   "category": "informal_phrases",
+   "difficulty": 2
+  },
+  {
+   "id": "r005",
+   "type": "replacement",
+   "informal": "many",
+   "formal": [
+    "numerous",
+    "several"
+   ],
+   "polish": [
+    "liczne",
+    "wiele",
+    "kilka"
+   ],
+   "example_informal": "There were many reasons for this.",
+   "example_formal": "There were numerous reasons for this decision.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r006",
+   "type": "replacement",
+   "informal": "tried to prove",
+   "formal": [
+    "attempted to demonstrate",
+    "attempted to verify"
+   ],
+   "polish": [
+    "próbowali udowodnić"
+   ],
+   "example_informal": "Scientists have tried to prove it.",
+   "example_formal": "Scientists have attempted to demonstrate the existence of dark matter.",
+   "category": "informal_phrases",
+   "difficulty": 2
+  },
+  {
+   "id": "r007",
+   "type": "replacement",
+   "informal": "was given",
+   "formal": [
+    "was donated",
+    "was allocated"
+   ],
+   "polish": [
+    "został przekazany",
+    "został przeznaczony"
+   ],
+   "example_informal": "£100,000 was given to charity.",
+   "example_formal": "£100,000 was donated to charity last year.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r008",
+   "type": "replacement",
+   "informal": "like",
+   "formal": [
+    "such as"
+   ],
+   "polish": [
+    "taki jak",
+    "na przykład"
+   ],
+   "example_informal": "He discussed issues like famine.",
+   "example_formal": "He discussed issues such as famine and drought.",
+   "category": "connectors",
+   "difficulty": 1
+  },
+  {
+   "id": "r009",
+   "type": "replacement",
+   "informal": "has got to",
+   "formal": [
+    "is required to",
+    "must"
+   ],
+   "polish": [
+    "musi",
+    "jest zobowiązany"
+   ],
+   "example_informal": "She has got to find alternatives.",
+   "example_formal": "She is required to identify alternative solutions.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r010",
+   "type": "replacement",
+   "informal": "do not have enough",
+   "formal": [
+    "possess insufficient"
+   ],
+   "polish": [
+    "nie posiadają wystarczających",
+    "mają niewystarczające"
+   ],
+   "example_informal": "We do not have enough resources.",
+   "example_formal": "We possess insufficient resources to complete the project.",
+   "category": "informal_phrases",
+   "difficulty": 2
+  },
+  {
+   "id": "r011",
+   "type": "replacement",
+   "informal": "think about",
+   "formal": [
+    "consider",
+    "contemplate"
+   ],
+   "polish": [
+    "rozważać",
+    "zastanawiać się nad"
+   ],
+   "example_informal": "We should think about other options.",
+   "example_formal": "It is necessary to consider alternative options.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r012",
+   "type": "replacement",
+   "informal": "carried out",
+   "formal": [
+    "conducted"
+   ],
+   "polish": [
+    "przeprowadzony",
+    "przeprowadzili"
+   ],
+   "example_informal": "They carried out the experiment in 2023.",
+   "example_formal": "The experiment was conducted in 2023.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r013",
+   "type": "replacement",
+   "informal": "got worse",
+   "formal": [
+    "deteriorated"
+   ],
+   "polish": [
+    "pogorszył się"
+   ],
+   "example_informal": "The patient's condition got worse.",
+   "example_formal": "The patient's condition deteriorated rapidly.",
+   "category": "phrasal_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "r014",
+   "type": "replacement",
+   "informal": "find out",
+   "formal": [
+    "determine",
+    "investigate"
+   ],
+   "polish": [
+    "ustalić",
+    "zbadać"
+   ],
+   "example_informal": "We need to find out what happened.",
+   "example_formal": "Further research is needed to determine the cause.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r015",
+   "type": "replacement",
+   "informal": "looked into",
+   "formal": [
+    "examined",
+    "investigated"
+   ],
+   "polish": [
+    "zbadał",
+    "przeanalizował"
+   ],
+   "example_informal": "The committee looked into the evidence.",
+   "example_formal": "The committee examined the evidence carefully.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r016",
+   "type": "replacement",
+   "informal": "going up",
+   "formal": [
+    "increasing",
+    "rising"
+   ],
+   "polish": [
+    "rosnący",
+    "wzrastający"
+   ],
+   "example_informal": "Temperatures are going up.",
+   "example_formal": "Global temperatures are increasing steadily.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r017",
+   "type": "replacement",
+   "informal": "going on",
+   "formal": [
+    "continuing",
+    "persisting"
+   ],
+   "polish": [
+    "trwający",
+    "utrzymujący się"
+   ],
+   "example_informal": "The argument is still going on.",
+   "example_formal": "The debate is continuing among scientists.",
+   "category": "phrasal_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "r018",
+   "type": "replacement",
+   "informal": "broken down",
+   "formal": [
+    "divided",
+    "categorised"
+   ],
+   "polish": [
+    "podzielony",
+    "skategoryzowany"
+   ],
+   "example_informal": "The data were broken down into groups.",
+   "example_formal": "The data were divided into three groups.",
+   "category": "phrasal_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "r019",
+   "type": "replacement",
+   "informal": "get by",
+   "formal": [
+    "survive",
+    "subsist"
+   ],
+   "polish": [
+    "przetrwać",
+    "utrzymać się"
+   ],
+   "example_informal": "Many families get by on very little money.",
+   "example_formal": "Many families survive on a minimal income.",
+   "category": "phrasal_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "r020",
+   "type": "replacement",
+   "informal": "showed up",
+   "formal": [
+    "attended",
+    "appeared"
+   ],
+   "polish": [
+    "przybył",
+    "pojawił się"
+   ],
+   "example_informal": "Two hundred people showed up at the conference.",
+   "example_formal": "Over two hundred delegates attended the conference.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r021",
+   "type": "replacement",
+   "informal": "help out",
+   "formal": [
+    "assist"
+   ],
+   "polish": [
+    "pomagać",
+    "wspierać"
+   ],
+   "example_informal": "Volunteers help out the staff.",
+   "example_formal": "Volunteers assist the staff during emergencies.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r022",
+   "type": "replacement",
+   "informal": "set up",
+   "formal": [
+    "establish"
+   ],
+   "polish": [
+    "założyć",
+    "ustanowić"
+   ],
+   "example_informal": "The government wants to set up a research centre.",
+   "example_formal": "The government aims to establish a new research centre.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r023",
+   "type": "replacement",
+   "informal": "cut down",
+   "formal": [
+    "reduce"
+   ],
+   "polish": [
+    "ograniczyć",
+    "zmniejszyć"
+   ],
+   "example_informal": "Factories must cut down their emissions.",
+   "example_formal": "Factories must reduce their carbon emissions.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r024",
+   "type": "replacement",
+   "informal": "get rid of",
+   "formal": [
+    "eliminate"
+   ],
+   "polish": [
+    "wyeliminować",
+    "pozbyć się"
+   ],
+   "example_informal": "We want to get rid of unnecessary costs.",
+   "example_formal": "The new policy aims to eliminate unnecessary costs.",
+   "category": "phrasal_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "r025",
+   "type": "replacement",
+   "informal": "bring up",
+   "formal": [
+    "mention",
+    "raise"
+   ],
+   "polish": [
+    "poruszyć (temat)",
+    "wspomnieć"
+   ],
+   "example_informal": "Several people brought up the funding problem.",
+   "example_formal": "Several participants raised concerns about funding.",
+   "category": "phrasal_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "r026",
+   "type": "replacement",
+   "informal": "come up with",
+   "formal": [
+    "create",
+    "devise"
+   ],
+   "polish": [
+    "wymyślić",
+    "opracować"
+   ],
+   "example_informal": "The team came up with a new solution.",
+   "example_formal": "The team devised an innovative solution.",
+   "category": "phrasal_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "r027",
+   "type": "replacement",
+   "informal": "go up and down",
+   "formal": [
+    "fluctuate"
+   ],
+   "polish": [
+    "wahać się",
+    "zmieniać się"
+   ],
+   "example_informal": "Oil prices go up and down a lot.",
+   "example_formal": "Oil prices fluctuate considerably over time.",
+   "category": "phrasal_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "r028",
+   "type": "replacement",
+   "informal": "got (results)",
+   "formal": [
+    "obtained"
+   ],
+   "polish": [
+    "uzyskał",
+    "otrzymał"
+   ],
+   "example_informal": "The researchers got encouraging results.",
+   "example_formal": "The researchers obtained encouraging results.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r029",
+   "type": "replacement",
+   "informal": "one of the things that will happen",
+   "formal": [
+    "one of the consequences"
+   ],
+   "polish": [
+    "jedna z konsekwencji"
+   ],
+   "example_informal": "One of the things that will happen is soil erosion.",
+   "example_formal": "One of the consequences of deforestation is soil erosion.",
+   "category": "noun_phrases",
+   "difficulty": 2
+  },
+  {
+   "id": "r030",
+   "type": "replacement",
+   "informal": "sort of negative",
+   "formal": [
+    "somewhat negative",
+    "rather unfavourable"
+   ],
+   "polish": [
+    "nieco negatywny",
+    "raczej niekorzystny"
+   ],
+   "example_informal": "The response was sort of negative.",
+   "example_formal": "The public response was somewhat negative.",
+   "category": "informal_phrases",
+   "difficulty": 2
+  },
+  {
+   "id": "r031",
+   "type": "replacement",
+   "informal": "up in the air",
+   "formal": [
+    "uncertain",
+    "undetermined"
+   ],
+   "polish": [
+    "niepewny",
+    "nierozstrzygnięty"
+   ],
+   "example_informal": "The future of the project is up in the air.",
+   "example_formal": "The future of the project remains uncertain.",
+   "category": "informal_phrases",
+   "difficulty": 2
+  },
+  {
+   "id": "r032",
+   "type": "replacement",
+   "informal": "get together",
+   "formal": [
+    "collaborate",
+    "cooperate"
+   ],
+   "polish": [
+    "współpracować"
+   ],
+   "example_informal": "The two universities get together on research.",
+   "example_formal": "The two universities collaborate on climate research.",
+   "category": "informal_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r033",
+   "type": "replacement",
+   "informal": "not many",
+   "formal": [
+    "few",
+    "a limited number of"
+   ],
+   "polish": [
+    "niewiele",
+    "ograniczona liczba"
+   ],
+   "example_informal": "Not many studies have looked at this.",
+   "example_formal": "Few studies have examined this issue.",
+   "category": "noun_phrases",
+   "difficulty": 1
+  },
+  {
+   "id": "r034",
+   "type": "replacement",
+   "informal": "And (at the start of a sentence)",
+   "formal": [
+    "In addition",
+    "Moreover",
+    "Furthermore"
+   ],
+   "polish": [
+    "ponadto",
+    "co więcej"
+   ],
+   "example_informal": "And the costs are rising.",
+   "example_formal": "Furthermore, the costs are rising.",
+   "category": "connectors",
+   "difficulty": 1
+  },
+  {
+   "id": "r035",
+   "type": "replacement",
+   "informal": "But (at the start of a sentence)",
+   "formal": [
+    "However"
+   ],
+   "polish": [
+    "jednak",
+    "jednakże"
+   ],
+   "example_informal": "But the evidence is not clear.",
+   "example_formal": "However, the evidence remains inconclusive.",
+   "category": "connectors",
+   "difficulty": 1
+  },
+  {
+   "id": "r036",
+   "type": "replacement",
+   "informal": "Or (at the start of a sentence)",
+   "formal": [
+    "Alternatively"
+   ],
+   "polish": [
+    "alternatywnie",
+    "ewentualnie"
+   ],
+   "example_informal": "Or we could analyse the data statistically.",
+   "example_formal": "Alternatively, the data could be analysed statistically.",
+   "category": "connectors",
+   "difficulty": 1
+  },
+  {
+   "id": "av001",
+   "type": "academic_verb",
+   "word": "argue",
+   "polish": [
+    "argumentować",
+    "twierdzić"
+   ],
+   "function": "claim",
+   "example": "Smith argues that education reduces inequality.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av002",
+   "type": "academic_verb",
+   "word": "insist",
+   "polish": [
+    "upierać się",
+    "nalegać"
+   ],
+   "function": "claim",
+   "example": "The author insists that the data are reliable.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av003",
+   "type": "academic_verb",
+   "word": "assert",
+   "polish": [
+    "stanowczo twierdzić"
+   ],
+   "function": "claim",
+   "example": "The report asserts that the policy has failed.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av004",
+   "type": "academic_verb",
+   "word": "observe",
+   "polish": [
+    "zauważać",
+    "obserwować"
+   ],
+   "function": "claim",
+   "example": "Jones observes that the trend began in the 1990s.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av005",
+   "type": "academic_verb",
+   "word": "believe",
+   "polish": [
+    "uważać",
+    "wierzyć"
+   ],
+   "function": "claim",
+   "example": "Many economists believe that inflation will fall.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av006",
+   "type": "academic_verb",
+   "word": "claim",
+   "polish": [
+    "twierdzić"
+   ],
+   "function": "claim",
+   "example": "The company claims that its product is environmentally friendly.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av007",
+   "type": "academic_verb",
+   "word": "report",
+   "polish": [
+    "donosić",
+    "informować"
+   ],
+   "function": "claim",
+   "example": "The study reports a significant decline in biodiversity.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av008",
+   "type": "academic_verb",
+   "word": "emphasise",
+   "polish": [
+    "podkreślać"
+   ],
+   "function": "claim",
+   "example": "The author emphasises the importance of early education.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av009",
+   "type": "academic_verb",
+   "word": "suggest",
+   "polish": [
+    "sugerować"
+   ],
+   "function": "claim",
+   "example": "The evidence suggests that the drug is effective.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av010",
+   "type": "academic_verb",
+   "word": "acknowledge",
+   "polish": [
+    "przyznawać",
+    "uznawać"
+   ],
+   "function": "agreement",
+   "example": "The author acknowledges the limitations of the study.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av011",
+   "type": "academic_verb",
+   "word": "endorse",
+   "polish": [
+    "popierać",
+    "aprobować"
+   ],
+   "function": "agreement",
+   "example": "The committee endorsed the new proposal.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av012",
+   "type": "academic_verb",
+   "word": "admire",
+   "polish": [
+    "podziwiać"
+   ],
+   "function": "agreement",
+   "example": "Critics admire the clarity of her argument.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av013",
+   "type": "academic_verb",
+   "word": "extol",
+   "polish": [
+    "wychwalać"
+   ],
+   "function": "agreement",
+   "example": "The article extols the benefits of a plant-based diet.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av014",
+   "type": "academic_verb",
+   "word": "agree",
+   "polish": [
+    "zgadzać się"
+   ],
+   "function": "agreement",
+   "example": "Most experts agree that the climate is changing.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av015",
+   "type": "academic_verb",
+   "word": "praise",
+   "polish": [
+    "chwalić"
+   ],
+   "function": "agreement",
+   "example": "Reviewers praised the originality of the research.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av016",
+   "type": "academic_verb",
+   "word": "concur",
+   "polish": [
+    "zgadzać się (formalnie)"
+   ],
+   "function": "agreement",
+   "example": "Other researchers concur with this interpretation.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av017",
+   "type": "academic_verb",
+   "word": "reaffirm",
+   "polish": [
+    "ponownie potwierdzać"
+   ],
+   "function": "agreement",
+   "example": "The minister reaffirmed the government's commitment to reform.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av018",
+   "type": "academic_verb",
+   "word": "corroborate",
+   "polish": [
+    "potwierdzać",
+    "uwiarygadniać"
+   ],
+   "function": "agreement",
+   "example": "Later studies corroborate these findings.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av019",
+   "type": "academic_verb",
+   "word": "support",
+   "polish": [
+    "popierać",
+    "wspierać"
+   ],
+   "function": "agreement",
+   "example": "The data support the original hypothesis.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av020",
+   "type": "academic_verb",
+   "word": "verify",
+   "polish": [
+    "weryfikować",
+    "potwierdzać"
+   ],
+   "function": "agreement",
+   "example": "Further experiments verified the results.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av021",
+   "type": "academic_verb",
+   "word": "complain",
+   "polish": [
+    "narzekać",
+    "skarżyć się"
+   ],
+   "function": "disagreement",
+   "example": "Residents complain that the new law is unfair.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av022",
+   "type": "academic_verb",
+   "word": "disavow",
+   "polish": [
+    "wypierać się",
+    "odżegnywać się"
+   ],
+   "function": "disagreement",
+   "example": "The scientist later disavowed his earlier claims.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av023",
+   "type": "academic_verb",
+   "word": "complicate",
+   "polish": [
+    "komplikować"
+   ],
+   "function": "disagreement",
+   "example": "These new findings complicate the traditional view.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av024",
+   "type": "academic_verb",
+   "word": "question",
+   "polish": [
+    "kwestionować"
+   ],
+   "function": "disagreement",
+   "example": "Several historians question the accuracy of this account.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av025",
+   "type": "academic_verb",
+   "word": "contend",
+   "polish": [
+    "utrzymywać (wbrew innym)"
+   ],
+   "function": "disagreement",
+   "example": "Critics contend that the policy is ineffective.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av026",
+   "type": "academic_verb",
+   "word": "refute",
+   "polish": [
+    "obalać",
+    "odpierać"
+   ],
+   "function": "disagreement",
+   "example": "The author refutes the claim that poverty is inevitable.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av027",
+   "type": "academic_verb",
+   "word": "contradict",
+   "polish": [
+    "przeczyć",
+    "zaprzeczać"
+   ],
+   "function": "disagreement",
+   "example": "These results contradict earlier studies.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av028",
+   "type": "academic_verb",
+   "word": "reject",
+   "polish": [
+    "odrzucać"
+   ],
+   "function": "disagreement",
+   "example": "The panel rejected the proposal.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av029",
+   "type": "academic_verb",
+   "word": "deny",
+   "polish": [
+    "zaprzeczać"
+   ],
+   "function": "disagreement",
+   "example": "The company denies any wrongdoing.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av030",
+   "type": "academic_verb",
+   "word": "renounce",
+   "polish": [
+    "wyrzekać się"
+   ],
+   "function": "disagreement",
+   "example": "He renounced his earlier position on the issue.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av031",
+   "type": "academic_verb",
+   "word": "repudiate",
+   "polish": [
+    "odrzucać",
+    "wypierać się"
+   ],
+   "function": "disagreement",
+   "example": "The government repudiated the allegations.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av032",
+   "type": "academic_verb",
+   "word": "advocate",
+   "polish": [
+    "popierać",
+    "promować"
+   ],
+   "function": "recommendation",
+   "example": "Several researchers advocate a more cautious approach.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av033",
+   "type": "academic_verb",
+   "word": "implore",
+   "polish": [
+    "błagać",
+    "usilnie prosić"
+   ],
+   "function": "recommendation",
+   "example": "The report implores governments to act immediately.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av034",
+   "type": "academic_verb",
+   "word": "call for",
+   "polish": [
+    "wzywać do"
+   ],
+   "function": "recommendation",
+   "example": "Experts call for stricter regulations.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av035",
+   "type": "academic_verb",
+   "word": "plead",
+   "polish": [
+    "apelować",
+    "błagać"
+   ],
+   "function": "recommendation",
+   "example": "Activists plead for greater protection of endangered species.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av036",
+   "type": "academic_verb",
+   "word": "demand",
+   "polish": [
+    "żądać"
+   ],
+   "function": "recommendation",
+   "example": "Protesters demand an end to the policy.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av037",
+   "type": "academic_verb",
+   "word": "recommend",
+   "polish": [
+    "zalecać",
+    "rekomendować"
+   ],
+   "function": "recommendation",
+   "example": "The authors recommend further research in this area.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av038",
+   "type": "academic_verb",
+   "word": "encourage",
+   "polish": [
+    "zachęcać"
+   ],
+   "function": "recommendation",
+   "example": "The guidelines encourage schools to promote physical activity.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "av039",
+   "type": "academic_verb",
+   "word": "urge",
+   "polish": [
+    "nalegać",
+    "wzywać"
+   ],
+   "function": "recommendation",
+   "example": "Scientists urge policymakers to reduce emissions.",
+   "category": "academic_verbs",
+   "difficulty": 2
+  },
+  {
+   "id": "av040",
+   "type": "academic_verb",
+   "word": "exhort",
+   "polish": [
+    "nawoływać",
+    "gorąco zachęcać"
+   ],
+   "function": "recommendation",
+   "example": "The speaker exhorted the audience to take action.",
+   "category": "academic_verbs",
+   "difficulty": 3
+  },
+  {
+   "id": "av041",
+   "type": "academic_verb",
+   "word": "warn",
+   "polish": [
+    "ostrzegać"
+   ],
+   "function": "recommendation",
+   "example": "Doctors warn that obesity rates are rising.",
+   "category": "academic_verbs",
+   "difficulty": 1
+  },
+  {
+   "id": "sr001",
+   "type": "style_rule",
+   "rule": "Nie dziel bezokoliczników (split infinitives) — przysłówek nie stoi między „to” a czasownikiem.",
+   "incorrect": "I was told to always keep a good look out.",
+   "correct": "I was always told to keep a good look out.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "sr002",
+   "type": "style_rule",
+   "rule": "Nie kończ zdania przyimkiem.",
+   "incorrect": "This is the person I spoke to.",
+   "correct": "This is the person to whom I spoke.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "sr003",
+   "type": "style_rule",
+   "rule": "Nie zaczynaj zdania od „And” — użyj In addition / Moreover / Furthermore.",
+   "incorrect": "And the costs are rising.",
+   "correct": "Furthermore, the costs are rising.",
+   "category": "style_rules",
+   "difficulty": 1
+  },
+  {
+   "id": "sr004",
+   "type": "style_rule",
+   "rule": "Nie zaczynaj zdania od „But” — użyj However.",
+   "incorrect": "But the results were inconclusive.",
+   "correct": "However, the results were inconclusive.",
+   "category": "style_rules",
+   "difficulty": 1
+  },
+  {
+   "id": "sr005",
+   "type": "style_rule",
+   "rule": "Nie zaczynaj zdania od „Or” — użyj Alternatively.",
+   "incorrect": "Or the government could raise taxes.",
+   "correct": "Alternatively, the government could raise taxes.",
+   "category": "style_rules",
+   "difficulty": 1
+  },
+  {
+   "id": "sr006",
+   "type": "style_rule",
+   "rule": "Unikaj „etc.” i „and so on” — użyj „include” i „and” przed ostatnim elementem.",
+   "incorrect": "Renewable sources are wind, solar, etc.",
+   "correct": "Renewable sources include wind, solar and hydroelectric power.",
+   "category": "style_rules",
+   "difficulty": 1
+  },
+  {
+   "id": "sr007",
+   "type": "style_rule",
+   "rule": "Stawiaj przysłówki w środkowej pozycji (przed czasownikiem głównym, po posiłkowym).",
+   "incorrect": "Researchers have found similar results often.",
+   "correct": "Researchers have often found similar results.",
+   "category": "style_rules",
+   "difficulty": 2
+  },
+  {
+   "id": "h001",
+   "type": "hedging",
+   "informal": "Industrial sites cause vast amounts of pollution, so why do we still use them?",
+   "formal": "The question surrounding the continued use of industrial sites, given their vast pollution production, still remains.",
+   "technique": "removing_questions",
+   "polish": "Usuwanie pytań retorycznych",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h002",
+   "type": "hedging",
+   "informal": "Why do so many teenagers ignore the risks of smoking?",
+   "formal": "The reasons why many teenagers ignore the risks of smoking remain unclear.",
+   "technique": "removing_questions",
+   "polish": "Usuwanie pytań retorycznych",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h003",
+   "type": "hedging",
+   "informal": "Isn't it obvious that we need more green spaces in cities?",
+   "formal": "There is a strong case for increasing the number of green spaces in cities.",
+   "technique": "removing_questions",
+   "polish": "Usuwanie pytań retorycznych",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h004",
+   "type": "hedging",
+   "informal": "This proves that social media causes depression.",
+   "formal": "This may indicate that social media could contribute to depression.",
+   "technique": "modal_verbs",
+   "polish": "Czasowniki modalne (may, might, could)",
+   "category": "hedging",
+   "difficulty": 1
+  },
+  {
+   "id": "h005",
+   "type": "hedging",
+   "informal": "The new law will reduce crime.",
+   "formal": "The new law might lead to a reduction in crime rates.",
+   "technique": "modal_verbs",
+   "polish": "Czasowniki modalne (may, might, could)",
+   "category": "hedging",
+   "difficulty": 1
+  },
+  {
+   "id": "h006",
+   "type": "hedging",
+   "informal": "Video games make children violent.",
+   "formal": "Video games may contribute to aggressive behaviour in some children.",
+   "technique": "modal_verbs",
+   "polish": "Czasowniki modalne (may, might, could)",
+   "category": "hedging",
+   "difficulty": 1
+  },
+  {
+   "id": "h007",
+   "type": "hedging",
+   "informal": "Climate change is the biggest problem we face.",
+   "formal": "Climate change is arguably the most significant challenge facing humanity.",
+   "technique": "adverbs",
+   "polish": "Przysłówki (arguably, generally, possibly)",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h008",
+   "type": "hedging",
+   "informal": "Exercise improves mental health.",
+   "formal": "Regular exercise generally appears to improve mental health.",
+   "technique": "adverbs",
+   "polish": "Przysłówki (arguably, generally, possibly)",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h009",
+   "type": "hedging",
+   "informal": "Students who sleep less get worse grades.",
+   "formal": "Students who sleep less often tend to achieve somewhat lower grades.",
+   "technique": "adverbs",
+   "polish": "Przysłówki (arguably, generally, possibly)",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h010",
+   "type": "hedging",
+   "informal": "I think that renewable energy is the future.",
+   "formal": "It is widely believed that renewable energy will play a central role in the future.",
+   "technique": "impersonal_constructions",
+   "polish": "Konstrukcje bezosobowe (It is believed that…)",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h011",
+   "type": "hedging",
+   "informal": "Everyone knows that fast food is unhealthy.",
+   "formal": "It is generally accepted that fast food can be detrimental to health.",
+   "technique": "impersonal_constructions",
+   "polish": "Konstrukcje bezosobowe (It is believed that…)",
+   "category": "hedging",
+   "difficulty": 2
+  },
+  {
+   "id": "h012",
+   "type": "hedging",
+   "informal": "We found that the results were wrong.",
+   "formal": "It was found that the results were inaccurate.",
+   "technique": "impersonal_constructions",
+   "polish": "Konstrukcje bezosobowe (It is believed that…)",
+   "category": "hedging",
+   "difficulty": 1
+  },
+  {
+   "id": "awl001",
+   "type": "awl_word",
+   "word": "analyse",
+   "polish": [
+    "analizować"
+   ],
+   "example": "Researchers analysed the data from 500 participants.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl002",
+   "type": "awl_word",
+   "word": "approach",
+   "polish": [
+    "podejście"
+   ],
+   "example": "This approach has several advantages.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl003",
+   "type": "awl_word",
+   "word": "area",
+   "polish": [
+    "obszar",
+    "dziedzina"
+   ],
+   "example": "Psychology is a rapidly developing area of research.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl004",
+   "type": "awl_word",
+   "word": "assess",
+   "polish": [
+    "oceniać"
+   ],
+   "example": "Teachers assess students' progress every term.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl005",
+   "type": "awl_word",
+   "word": "assume",
+   "polish": [
+    "zakładać"
+   ],
+   "example": "Many people assume that technology always improves life.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl006",
+   "type": "awl_word",
+   "word": "authority",
+   "polish": [
+    "władza",
+    "autorytet"
+   ],
+   "example": "Local authorities are responsible for waste collection.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl007",
+   "type": "awl_word",
+   "word": "available",
+   "polish": [
+    "dostępny"
+   ],
+   "example": "Little information is available on this topic.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl008",
+   "type": "awl_word",
+   "word": "benefit",
+   "polish": [
+    "korzyść"
+   ],
+   "example": "The benefits of exercise are well documented.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl009",
+   "type": "awl_word",
+   "word": "concept",
+   "polish": [
+    "pojęcie",
+    "koncepcja"
+   ],
+   "example": "The concept of justice varies across cultures.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl010",
+   "type": "awl_word",
+   "word": "consist",
+   "polish": [
+    "składać się"
+   ],
+   "example": "The sample consisted of 200 students.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl011",
+   "type": "awl_word",
+   "word": "constitute",
+   "polish": [
+    "stanowić"
+   ],
+   "example": "Women constitute half of the workforce.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl012",
+   "type": "awl_word",
+   "word": "context",
+   "polish": [
+    "kontekst"
+   ],
+   "example": "The poem must be read in its historical context.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl013",
+   "type": "awl_word",
+   "word": "contract",
+   "polish": [
+    "umowa",
+    "kontrakt"
+   ],
+   "example": "Both parties signed the contract.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl014",
+   "type": "awl_word",
+   "word": "create",
+   "polish": [
+    "tworzyć"
+   ],
+   "example": "The policy aims to create new jobs.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl015",
+   "type": "awl_word",
+   "word": "data",
+   "polish": [
+    "dane"
+   ],
+   "example": "The data were collected through interviews.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl016",
+   "type": "awl_word",
+   "word": "define",
+   "polish": [
+    "definiować"
+   ],
+   "example": "It is difficult to define intelligence precisely.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl017",
+   "type": "awl_word",
+   "word": "derive",
+   "polish": [
+    "pochodzić",
+    "wywodzić się"
+   ],
+   "example": "Many English words derive from Latin.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl018",
+   "type": "awl_word",
+   "word": "distribute",
+   "polish": [
+    "rozprowadzać",
+    "dystrybuować"
+   ],
+   "example": "Food was distributed to the refugees.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl019",
+   "type": "awl_word",
+   "word": "economy",
+   "polish": [
+    "gospodarka"
+   ],
+   "example": "The economy grew by 3% last year.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl020",
+   "type": "awl_word",
+   "word": "environment",
+   "polish": [
+    "środowisko"
+   ],
+   "example": "Pollution damages the natural environment.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl021",
+   "type": "awl_word",
+   "word": "establish",
+   "polish": [
+    "ustanawiać",
+    "zakładać"
+   ],
+   "example": "The university was established in 1816.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl022",
+   "type": "awl_word",
+   "word": "estimate",
+   "polish": [
+    "szacować"
+   ],
+   "example": "It is estimated that 10% of species are endangered.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl023",
+   "type": "awl_word",
+   "word": "evident",
+   "polish": [
+    "oczywisty",
+    "widoczny"
+   ],
+   "example": "It is evident that the policy has failed.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl024",
+   "type": "awl_word",
+   "word": "export",
+   "polish": [
+    "eksport"
+   ],
+   "example": "Coffee is the country's main export.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl025",
+   "type": "awl_word",
+   "word": "factor",
+   "polish": [
+    "czynnik"
+   ],
+   "example": "Diet is an important factor in health.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl026",
+   "type": "awl_word",
+   "word": "finance",
+   "polish": [
+    "finanse",
+    "finansować"
+   ],
+   "example": "The project was financed by the EU.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl027",
+   "type": "awl_word",
+   "word": "formula",
+   "polish": [
+    "wzór",
+    "formuła"
+   ],
+   "example": "The formula calculates the average speed.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl028",
+   "type": "awl_word",
+   "word": "function",
+   "polish": [
+    "funkcja"
+   ],
+   "example": "The main function of the heart is to pump blood.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl029",
+   "type": "awl_word",
+   "word": "identify",
+   "polish": [
+    "identyfikować"
+   ],
+   "example": "The study identified three key problems.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl030",
+   "type": "awl_word",
+   "word": "income",
+   "polish": [
+    "dochód"
+   ],
+   "example": "Average income has risen steadily.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl031",
+   "type": "awl_word",
+   "word": "indicate",
+   "polish": [
+    "wskazywać"
+   ],
+   "example": "The results indicate a clear trend.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl032",
+   "type": "awl_word",
+   "word": "individual",
+   "polish": [
+    "jednostka",
+    "indywidualny"
+   ],
+   "example": "Each individual has the right to vote.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl033",
+   "type": "awl_word",
+   "word": "interpret",
+   "polish": [
+    "interpretować"
+   ],
+   "example": "The data can be interpreted in different ways.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl034",
+   "type": "awl_word",
+   "word": "involve",
+   "polish": [
+    "obejmować",
+    "angażować"
+   ],
+   "example": "The job involves a lot of travel.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl035",
+   "type": "awl_word",
+   "word": "issue",
+   "polish": [
+    "kwestia",
+    "problem"
+   ],
+   "example": "Climate change is a global issue.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl036",
+   "type": "awl_word",
+   "word": "labour",
+   "polish": [
+    "praca",
+    "siła robocza"
+   ],
+   "example": "The factory relies on cheap labour.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl037",
+   "type": "awl_word",
+   "word": "legal",
+   "polish": [
+    "prawny",
+    "legalny"
+   ],
+   "example": "The company faced legal action.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl038",
+   "type": "awl_word",
+   "word": "legislate",
+   "polish": [
+    "stanowić prawo"
+   ],
+   "example": "Parliament legislated to protect workers' rights.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl039",
+   "type": "awl_word",
+   "word": "major",
+   "polish": [
+    "główny",
+    "poważny"
+   ],
+   "example": "Unemployment is a major problem.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl040",
+   "type": "awl_word",
+   "word": "method",
+   "polish": [
+    "metoda"
+   ],
+   "example": "This method produces reliable results.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl041",
+   "type": "awl_word",
+   "word": "occur",
+   "polish": [
+    "występować",
+    "zdarzać się"
+   ],
+   "example": "Earthquakes occur frequently in this region.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl042",
+   "type": "awl_word",
+   "word": "percent",
+   "polish": [
+    "procent"
+   ],
+   "example": "Sixty percent of respondents agreed.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl043",
+   "type": "awl_word",
+   "word": "period",
+   "polish": [
+    "okres"
+   ],
+   "example": "The study covered a period of ten years.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl044",
+   "type": "awl_word",
+   "word": "policy",
+   "polish": [
+    "polityka",
+    "strategia"
+   ],
+   "example": "The government introduced a new energy policy.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl045",
+   "type": "awl_word",
+   "word": "principle",
+   "polish": [
+    "zasada"
+   ],
+   "example": "Equality is a fundamental principle of democracy.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl046",
+   "type": "awl_word",
+   "word": "proceed",
+   "polish": [
+    "przystępować",
+    "kontynuować"
+   ],
+   "example": "The researchers proceeded to the second stage.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl047",
+   "type": "awl_word",
+   "word": "process",
+   "polish": [
+    "proces"
+   ],
+   "example": "Learning a language is a gradual process.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl048",
+   "type": "awl_word",
+   "word": "require",
+   "polish": [
+    "wymagać"
+   ],
+   "example": "The course requires regular attendance.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl049",
+   "type": "awl_word",
+   "word": "research",
+   "polish": [
+    "badania"
+   ],
+   "example": "Further research is required.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl050",
+   "type": "awl_word",
+   "word": "respond",
+   "polish": [
+    "odpowiadać",
+    "reagować"
+   ],
+   "example": "Patients responded well to the treatment.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl051",
+   "type": "awl_word",
+   "word": "role",
+   "polish": [
+    "rola"
+   ],
+   "example": "Parents play a key role in education.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl052",
+   "type": "awl_word",
+   "word": "section",
+   "polish": [
+    "sekcja",
+    "część"
+   ],
+   "example": "The first section describes the method.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl053",
+   "type": "awl_word",
+   "word": "sector",
+   "polish": [
+    "sektor"
+   ],
+   "example": "The public sector employs many graduates.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl054",
+   "type": "awl_word",
+   "word": "significant",
+   "polish": [
+    "istotny",
+    "znaczący"
+   ],
+   "example": "The results were statistically significant.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl055",
+   "type": "awl_word",
+   "word": "similar",
+   "polish": [
+    "podobny"
+   ],
+   "example": "The two studies reached similar conclusions.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl056",
+   "type": "awl_word",
+   "word": "source",
+   "polish": [
+    "źródło"
+   ],
+   "example": "The internet is a major source of information.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl057",
+   "type": "awl_word",
+   "word": "specific",
+   "polish": [
+    "konkretny",
+    "szczegółowy"
+   ],
+   "example": "The essay focuses on a specific period.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl058",
+   "type": "awl_word",
+   "word": "structure",
+   "polish": [
+    "struktura"
+   ],
+   "example": "The structure of the essay is clear.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl059",
+   "type": "awl_word",
+   "word": "theory",
+   "polish": [
+    "teoria"
+   ],
+   "example": "Darwin's theory changed biology.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl060",
+   "type": "awl_word",
+   "word": "vary",
+   "polish": [
+    "różnić się"
+   ],
+   "example": "Prices vary from region to region.",
+   "awl_group": 1,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl061",
+   "type": "awl_word",
+   "word": "achieve",
+   "polish": [
+    "osiągać"
+   ],
+   "example": "Students achieved higher scores this year.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl062",
+   "type": "awl_word",
+   "word": "acquire",
+   "polish": [
+    "nabywać",
+    "zdobywać"
+   ],
+   "example": "Children acquire language naturally.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl063",
+   "type": "awl_word",
+   "word": "administrate",
+   "polish": [
+    "administrować",
+    "zarządzać"
+   ],
+   "example": "Two staff members administrate the scholarship programme.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl064",
+   "type": "awl_word",
+   "word": "affect",
+   "polish": [
+    "wpływać"
+   ],
+   "example": "Stress can affect sleep quality.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl065",
+   "type": "awl_word",
+   "word": "appropriate",
+   "polish": [
+    "odpowiedni",
+    "właściwy"
+   ],
+   "example": "Formal language is appropriate in essays.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl066",
+   "type": "awl_word",
+   "word": "aspect",
+   "polish": [
+    "aspekt"
+   ],
+   "example": "This aspect of the problem is often ignored.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl067",
+   "type": "awl_word",
+   "word": "assist",
+   "polish": [
+    "pomagać",
+    "asystować"
+   ],
+   "example": "Volunteers assisted the elderly residents.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl068",
+   "type": "awl_word",
+   "word": "category",
+   "polish": [
+    "kategoria"
+   ],
+   "example": "The responses were divided into four categories.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl069",
+   "type": "awl_word",
+   "word": "chapter",
+   "polish": [
+    "rozdział"
+   ],
+   "example": "The second chapter discusses the results.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl070",
+   "type": "awl_word",
+   "word": "commission",
+   "polish": [
+    "komisja",
+    "zlecać"
+   ],
+   "example": "The government commissioned an independent report.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl071",
+   "type": "awl_word",
+   "word": "community",
+   "polish": [
+    "społeczność"
+   ],
+   "example": "The local community opposed the plan.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl072",
+   "type": "awl_word",
+   "word": "complex",
+   "polish": [
+    "złożony",
+    "skomplikowany"
+   ],
+   "example": "The causes of war are complex.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl073",
+   "type": "awl_word",
+   "word": "compute",
+   "polish": [
+    "obliczać"
+   ],
+   "example": "The software computes the average automatically.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl074",
+   "type": "awl_word",
+   "word": "conclude",
+   "polish": [
+    "wnioskować",
+    "kończyć"
+   ],
+   "example": "The authors concluded that more research was needed.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl075",
+   "type": "awl_word",
+   "word": "conduct",
+   "polish": [
+    "przeprowadzać"
+   ],
+   "example": "The survey was conducted online.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl076",
+   "type": "awl_word",
+   "word": "consequent",
+   "polish": [
+    "wynikający",
+    "następujący"
+   ],
+   "example": "The drought and the consequent food shortage affected millions.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl077",
+   "type": "awl_word",
+   "word": "construct",
+   "polish": [
+    "budować",
+    "konstruować"
+   ],
+   "example": "A new bridge was constructed in 2020.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl078",
+   "type": "awl_word",
+   "word": "consume",
+   "polish": [
+    "konsumować",
+    "zużywać"
+   ],
+   "example": "Developed countries consume most of the world's energy.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl079",
+   "type": "awl_word",
+   "word": "credit",
+   "polish": [
+    "kredyt",
+    "uznanie"
+   ],
+   "example": "Small businesses struggle to obtain credit.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl080",
+   "type": "awl_word",
+   "word": "culture",
+   "polish": [
+    "kultura"
+   ],
+   "example": "Music is an important part of culture.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl081",
+   "type": "awl_word",
+   "word": "design",
+   "polish": [
+    "projekt",
+    "projektować"
+   ],
+   "example": "The experiment was carefully designed.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl082",
+   "type": "awl_word",
+   "word": "distinct",
+   "polish": [
+    "odrębny",
+    "wyraźny"
+   ],
+   "example": "There are two distinct groups in the sample.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl083",
+   "type": "awl_word",
+   "word": "element",
+   "polish": [
+    "element"
+   ],
+   "example": "Trust is a key element of any relationship.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl084",
+   "type": "awl_word",
+   "word": "equate",
+   "polish": [
+    "utożsamiać",
+    "zrównywać"
+   ],
+   "example": "Many people equate success with wealth.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl085",
+   "type": "awl_word",
+   "word": "evaluate",
+   "polish": [
+    "oceniać"
+   ],
+   "example": "The study evaluates the effectiveness of the programme.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl086",
+   "type": "awl_word",
+   "word": "feature",
+   "polish": [
+    "cecha"
+   ],
+   "example": "A key feature of the design is its simplicity.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl087",
+   "type": "awl_word",
+   "word": "final",
+   "polish": [
+    "ostateczny",
+    "końcowy"
+   ],
+   "example": "The final decision has not been made.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl088",
+   "type": "awl_word",
+   "word": "focus",
+   "polish": [
+    "skupiać się",
+    "koncentrować się"
+   ],
+   "example": "The essay focuses on economic causes.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl089",
+   "type": "awl_word",
+   "word": "impact",
+   "polish": [
+    "wpływ"
+   ],
+   "example": "Tourism has a significant impact on the environment.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl090",
+   "type": "awl_word",
+   "word": "injure",
+   "polish": [
+    "ranić"
+   ],
+   "example": "Several people were injured in the accident.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl091",
+   "type": "awl_word",
+   "word": "institute",
+   "polish": [
+    "instytut"
+   ],
+   "example": "She works at a research institute.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl092",
+   "type": "awl_word",
+   "word": "invest",
+   "polish": [
+    "inwestować"
+   ],
+   "example": "The company invested heavily in technology.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl093",
+   "type": "awl_word",
+   "word": "item",
+   "polish": [
+    "pozycja",
+    "przedmiot"
+   ],
+   "example": "Each item on the list was checked.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl094",
+   "type": "awl_word",
+   "word": "journal",
+   "polish": [
+    "czasopismo naukowe"
+   ],
+   "example": "The article was published in a scientific journal.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl095",
+   "type": "awl_word",
+   "word": "maintain",
+   "polish": [
+    "utrzymywać",
+    "twierdzić"
+   ],
+   "example": "It is important to maintain a healthy diet.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl096",
+   "type": "awl_word",
+   "word": "normal",
+   "polish": [
+    "normalny"
+   ],
+   "example": "Blood pressure returned to normal levels.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl097",
+   "type": "awl_word",
+   "word": "obtain",
+   "polish": [
+    "uzyskiwać"
+   ],
+   "example": "The researchers obtained permission from the school.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl098",
+   "type": "awl_word",
+   "word": "participate",
+   "polish": [
+    "uczestniczyć"
+   ],
+   "example": "Over 300 students participated in the study.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl099",
+   "type": "awl_word",
+   "word": "perceive",
+   "polish": [
+    "postrzegać"
+   ],
+   "example": "Teenagers often perceive risk differently.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl100",
+   "type": "awl_word",
+   "word": "positive",
+   "polish": [
+    "pozytywny"
+   ],
+   "example": "The results were largely positive.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl101",
+   "type": "awl_word",
+   "word": "potential",
+   "polish": [
+    "potencjał",
+    "potencjalny"
+   ],
+   "example": "The project has great potential.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl102",
+   "type": "awl_word",
+   "word": "previous",
+   "polish": [
+    "poprzedni"
+   ],
+   "example": "Previous studies reached different conclusions.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl103",
+   "type": "awl_word",
+   "word": "primary",
+   "polish": [
+    "główny",
+    "podstawowy"
+   ],
+   "example": "The primary aim of the study is to test the theory.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl104",
+   "type": "awl_word",
+   "word": "purchase",
+   "polish": [
+    "zakup",
+    "kupować"
+   ],
+   "example": "The museum purchased the painting in 1990.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl105",
+   "type": "awl_word",
+   "word": "range",
+   "polish": [
+    "zakres"
+   ],
+   "example": "The survey covered a wide range of topics.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl106",
+   "type": "awl_word",
+   "word": "region",
+   "polish": [
+    "region"
+   ],
+   "example": "The region has a mild climate.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl107",
+   "type": "awl_word",
+   "word": "regulate",
+   "polish": [
+    "regulować"
+   ],
+   "example": "The government regulates the banking sector.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl108",
+   "type": "awl_word",
+   "word": "relevant",
+   "polish": [
+    "istotny",
+    "adekwatny"
+   ],
+   "example": "Only relevant sources should be cited.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl109",
+   "type": "awl_word",
+   "word": "reside",
+   "polish": [
+    "mieszkać",
+    "rezydować"
+   ],
+   "example": "Most participants reside in urban areas.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl110",
+   "type": "awl_word",
+   "word": "resource",
+   "polish": [
+    "zasób"
+   ],
+   "example": "Water is a limited resource.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl111",
+   "type": "awl_word",
+   "word": "restrict",
+   "polish": [
+    "ograniczać"
+   ],
+   "example": "The new law restricts the sale of alcohol.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl112",
+   "type": "awl_word",
+   "word": "secure",
+   "polish": [
+    "zabezpieczać",
+    "bezpieczny"
+   ],
+   "example": "The company secured funding for the project.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl113",
+   "type": "awl_word",
+   "word": "seek",
+   "polish": [
+    "szukać",
+    "dążyć"
+   ],
+   "example": "Many graduates seek employment abroad.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl114",
+   "type": "awl_word",
+   "word": "select",
+   "polish": [
+    "wybierać"
+   ],
+   "example": "Participants were selected at random.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl115",
+   "type": "awl_word",
+   "word": "site",
+   "polish": [
+    "miejsce",
+    "teren"
+   ],
+   "example": "The site was chosen for its location.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl116",
+   "type": "awl_word",
+   "word": "strategy",
+   "polish": [
+    "strategia"
+   ],
+   "example": "The company developed a new marketing strategy.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl117",
+   "type": "awl_word",
+   "word": "survey",
+   "polish": [
+    "ankieta",
+    "badanie"
+   ],
+   "example": "A survey of 1,000 adults was carried out.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl118",
+   "type": "awl_word",
+   "word": "text",
+   "polish": [
+    "tekst"
+   ],
+   "example": "Students analysed the text in groups.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl119",
+   "type": "awl_word",
+   "word": "tradition",
+   "polish": [
+    "tradycja"
+   ],
+   "example": "The festival is an old tradition.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl120",
+   "type": "awl_word",
+   "word": "transfer",
+   "polish": [
+    "przenosić",
+    "przekazywać"
+   ],
+   "example": "Data are transferred securely.",
+   "awl_group": 2,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl121",
+   "type": "awl_word",
+   "word": "alternative",
+   "polish": [
+    "alternatywa"
+   ],
+   "example": "Solar power is an alternative to fossil fuels.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl122",
+   "type": "awl_word",
+   "word": "circumstance",
+   "polish": [
+    "okoliczność"
+   ],
+   "example": "Under these circumstances, the decision was reasonable.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl123",
+   "type": "awl_word",
+   "word": "comment",
+   "polish": [
+    "komentarz",
+    "komentować"
+   ],
+   "example": "The minister refused to comment on the report.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl124",
+   "type": "awl_word",
+   "word": "compensate",
+   "polish": [
+    "rekompensować"
+   ],
+   "example": "Workers were compensated for their losses.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl125",
+   "type": "awl_word",
+   "word": "component",
+   "polish": [
+    "składnik",
+    "element"
+   ],
+   "example": "Vocabulary is a key component of language learning.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl126",
+   "type": "awl_word",
+   "word": "consent",
+   "polish": [
+    "zgoda"
+   ],
+   "example": "Participants gave written consent.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl127",
+   "type": "awl_word",
+   "word": "considerable",
+   "polish": [
+    "znaczny"
+   ],
+   "example": "The project required considerable effort.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl128",
+   "type": "awl_word",
+   "word": "constant",
+   "polish": [
+    "stały"
+   ],
+   "example": "The temperature was kept constant.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl129",
+   "type": "awl_word",
+   "word": "constrain",
+   "polish": [
+    "ograniczać"
+   ],
+   "example": "Research is often constrained by limited funding.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl130",
+   "type": "awl_word",
+   "word": "contribute",
+   "polish": [
+    "przyczyniać się"
+   ],
+   "example": "Many factors contribute to obesity.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl131",
+   "type": "awl_word",
+   "word": "convene",
+   "polish": [
+    "zwoływać",
+    "zbierać się"
+   ],
+   "example": "The committee convened to discuss the proposal.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl132",
+   "type": "awl_word",
+   "word": "coordinate",
+   "polish": [
+    "koordynować"
+   ],
+   "example": "The project is coordinated by the university.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl133",
+   "type": "awl_word",
+   "word": "core",
+   "polish": [
+    "rdzeń",
+    "podstawowy"
+   ],
+   "example": "Mathematics is a core subject.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl134",
+   "type": "awl_word",
+   "word": "corporate",
+   "polish": [
+    "korporacyjny"
+   ],
+   "example": "Corporate taxes were reduced.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl135",
+   "type": "awl_word",
+   "word": "correspond",
+   "polish": [
+    "odpowiadać",
+    "korespondować"
+   ],
+   "example": "The results correspond to earlier findings.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl136",
+   "type": "awl_word",
+   "word": "criteria",
+   "polish": [
+    "kryteria"
+   ],
+   "example": "The selection criteria were clearly defined.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl137",
+   "type": "awl_word",
+   "word": "deduce",
+   "polish": [
+    "wydedukować",
+    "wywnioskować"
+   ],
+   "example": "From the evidence, we can deduce the cause.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl138",
+   "type": "awl_word",
+   "word": "demonstrate",
+   "polish": [
+    "wykazywać",
+    "demonstrować"
+   ],
+   "example": "The experiment demonstrates the effect of light on plants.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl139",
+   "type": "awl_word",
+   "word": "document",
+   "polish": [
+    "dokument",
+    "dokumentować"
+   ],
+   "example": "The changes were carefully documented.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl140",
+   "type": "awl_word",
+   "word": "dominate",
+   "polish": [
+    "dominować"
+   ],
+   "example": "A few companies dominate the market.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl141",
+   "type": "awl_word",
+   "word": "emphasis",
+   "polish": [
+    "nacisk"
+   ],
+   "example": "The course places emphasis on writing skills.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl142",
+   "type": "awl_word",
+   "word": "ensure",
+   "polish": [
+    "zapewniać"
+   ],
+   "example": "Teachers must ensure that students understand.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl143",
+   "type": "awl_word",
+   "word": "exclude",
+   "polish": [
+    "wykluczać"
+   ],
+   "example": "Incomplete responses were excluded from the analysis.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl144",
+   "type": "awl_word",
+   "word": "framework",
+   "polish": [
+    "ramy"
+   ],
+   "example": "The study uses a theoretical framework.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl145",
+   "type": "awl_word",
+   "word": "fund",
+   "polish": [
+    "fundusz",
+    "finansować"
+   ],
+   "example": "The research was funded by the government.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl146",
+   "type": "awl_word",
+   "word": "illustrate",
+   "polish": [
+    "ilustrować"
+   ],
+   "example": "The graph illustrates the rise in temperature.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl147",
+   "type": "awl_word",
+   "word": "immigrate",
+   "polish": [
+    "imigrować"
+   ],
+   "example": "Many families immigrated to Canada.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl148",
+   "type": "awl_word",
+   "word": "imply",
+   "polish": [
+    "sugerować",
+    "implikować"
+   ],
+   "example": "The results imply that diet affects mood.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl149",
+   "type": "awl_word",
+   "word": "initial",
+   "polish": [
+    "początkowy"
+   ],
+   "example": "Initial results were promising.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl150",
+   "type": "awl_word",
+   "word": "instance",
+   "polish": [
+    "przypadek",
+    "przykład"
+   ],
+   "example": "In this instance, the rule does not apply.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl151",
+   "type": "awl_word",
+   "word": "interact",
+   "polish": [
+    "wchodzić w interakcje"
+   ],
+   "example": "Children interact with their peers at school.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl152",
+   "type": "awl_word",
+   "word": "justify",
+   "polish": [
+    "uzasadniać"
+   ],
+   "example": "The author justifies her choice of method.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl153",
+   "type": "awl_word",
+   "word": "layer",
+   "polish": [
+    "warstwa"
+   ],
+   "example": "The ozone layer protects the Earth.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl154",
+   "type": "awl_word",
+   "word": "link",
+   "polish": [
+    "związek",
+    "łączyć"
+   ],
+   "example": "There is a strong link between smoking and cancer.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl155",
+   "type": "awl_word",
+   "word": "locate",
+   "polish": [
+    "lokalizować",
+    "umiejscawiać"
+   ],
+   "example": "The school is located in the city centre.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl156",
+   "type": "awl_word",
+   "word": "maximise",
+   "polish": [
+    "maksymalizować"
+   ],
+   "example": "Companies aim to maximise profits.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl157",
+   "type": "awl_word",
+   "word": "minor",
+   "polish": [
+    "drobny",
+    "mniejszy"
+   ],
+   "example": "Only minor changes were made.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl158",
+   "type": "awl_word",
+   "word": "negate",
+   "polish": [
+    "negować",
+    "niweczyć"
+   ],
+   "example": "The side effects may negate the benefits.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl159",
+   "type": "awl_word",
+   "word": "outcome",
+   "polish": [
+    "wynik",
+    "rezultat"
+   ],
+   "example": "The outcome of the election was unexpected.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl160",
+   "type": "awl_word",
+   "word": "partner",
+   "polish": [
+    "partner"
+   ],
+   "example": "The two countries are major trading partners.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl161",
+   "type": "awl_word",
+   "word": "philosophy",
+   "polish": [
+    "filozofia"
+   ],
+   "example": "Her philosophy of education is student-centred.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl162",
+   "type": "awl_word",
+   "word": "physical",
+   "polish": [
+    "fizyczny"
+   ],
+   "example": "Physical activity improves mental health.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl163",
+   "type": "awl_word",
+   "word": "proportion",
+   "polish": [
+    "proporcja",
+    "część"
+   ],
+   "example": "A large proportion of students work part-time.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl164",
+   "type": "awl_word",
+   "word": "publish",
+   "polish": [
+    "publikować"
+   ],
+   "example": "The results were published in 2021.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl165",
+   "type": "awl_word",
+   "word": "react",
+   "polish": [
+    "reagować"
+   ],
+   "example": "People react differently to stress.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl166",
+   "type": "awl_word",
+   "word": "register",
+   "polish": [
+    "rejestrować"
+   ],
+   "example": "All participants registered online.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl167",
+   "type": "awl_word",
+   "word": "rely",
+   "polish": [
+    "polegać"
+   ],
+   "example": "Many students rely on online sources.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl168",
+   "type": "awl_word",
+   "word": "remove",
+   "polish": [
+    "usuwać"
+   ],
+   "example": "The outliers were removed from the data.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl169",
+   "type": "awl_word",
+   "word": "scheme",
+   "polish": [
+    "program",
+    "plan"
+   ],
+   "example": "The government launched a new recycling scheme.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl170",
+   "type": "awl_word",
+   "word": "sequence",
+   "polish": [
+    "sekwencja",
+    "kolejność"
+   ],
+   "example": "The events are described in chronological sequence.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl171",
+   "type": "awl_word",
+   "word": "sex",
+   "polish": [
+    "płeć"
+   ],
+   "example": "Participants were grouped by age and sex.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl172",
+   "type": "awl_word",
+   "word": "shift",
+   "polish": [
+    "zmiana",
+    "przesunięcie"
+   ],
+   "example": "There has been a shift towards online learning.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl173",
+   "type": "awl_word",
+   "word": "specify",
+   "polish": [
+    "określać",
+    "precyzować"
+   ],
+   "example": "The contract specifies the delivery date.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl174",
+   "type": "awl_word",
+   "word": "sufficient",
+   "polish": [
+    "wystarczający"
+   ],
+   "example": "There is sufficient evidence to support the claim.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl175",
+   "type": "awl_word",
+   "word": "task",
+   "polish": [
+    "zadanie"
+   ],
+   "example": "Each group was given a different task.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl176",
+   "type": "awl_word",
+   "word": "technical",
+   "polish": [
+    "techniczny"
+   ],
+   "example": "The report contains technical terms.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl177",
+   "type": "awl_word",
+   "word": "technique",
+   "polish": [
+    "technika",
+    "metoda"
+   ],
+   "example": "This technique is widely used in research.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl178",
+   "type": "awl_word",
+   "word": "technology",
+   "polish": [
+    "technologia"
+   ],
+   "example": "Technology has transformed education.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl179",
+   "type": "awl_word",
+   "word": "valid",
+   "polish": [
+    "ważny",
+    "uzasadniony"
+   ],
+   "example": "The argument is logically valid.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl180",
+   "type": "awl_word",
+   "word": "volume",
+   "polish": [
+    "objętość",
+    "tom"
+   ],
+   "example": "The volume of traffic has increased.",
+   "awl_group": 3,
+   "category": "awl",
+   "difficulty": 1
+  },
+  {
+   "id": "awl181",
+   "type": "awl_word",
+   "word": "access",
+   "polish": [
+    "dostęp"
+   ],
+   "example": "Many villages lack access to clean water.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl182",
+   "type": "awl_word",
+   "word": "adequate",
+   "polish": [
+    "odpowiedni",
+    "wystarczający"
+   ],
+   "example": "The school lacks adequate facilities.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl183",
+   "type": "awl_word",
+   "word": "annual",
+   "polish": [
+    "roczny"
+   ],
+   "example": "The annual report was published in May.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl184",
+   "type": "awl_word",
+   "word": "apparent",
+   "polish": [
+    "widoczny",
+    "pozorny"
+   ],
+   "example": "It soon became apparent that the plan had failed.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl185",
+   "type": "awl_word",
+   "word": "approximate",
+   "polish": [
+    "przybliżony"
+   ],
+   "example": "The approximate cost is £5,000.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl186",
+   "type": "awl_word",
+   "word": "attitude",
+   "polish": [
+    "postawa",
+    "nastawienie"
+   ],
+   "example": "Attitudes towards smoking have changed.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl187",
+   "type": "awl_word",
+   "word": "attribute",
+   "polish": [
+    "przypisywać",
+    "cecha"
+   ],
+   "example": "The decline is attributed to climate change.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl188",
+   "type": "awl_word",
+   "word": "civil",
+   "polish": [
+    "cywilny",
+    "obywatelski"
+   ],
+   "example": "The country was divided by civil war.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl189",
+   "type": "awl_word",
+   "word": "code",
+   "polish": [
+    "kod",
+    "kodeks"
+   ],
+   "example": "All staff must follow the code of conduct.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl190",
+   "type": "awl_word",
+   "word": "commit",
+   "polish": [
+    "zobowiązywać się",
+    "popełniać"
+   ],
+   "example": "The government is committed to reducing poverty.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl191",
+   "type": "awl_word",
+   "word": "communicate",
+   "polish": [
+    "komunikować się"
+   ],
+   "example": "Animals communicate in many ways.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl192",
+   "type": "awl_word",
+   "word": "concentrate",
+   "polish": [
+    "koncentrować się",
+    "skupiać"
+   ],
+   "example": "Students find it hard to concentrate in the afternoon.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl193",
+   "type": "awl_word",
+   "word": "confer",
+   "polish": [
+    "nadawać",
+    "naradzać się"
+   ],
+   "example": "The university conferred an honorary degree on her.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl194",
+   "type": "awl_word",
+   "word": "contrast",
+   "polish": [
+    "kontrast"
+   ],
+   "example": "In contrast, the second group improved.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl195",
+   "type": "awl_word",
+   "word": "cycle",
+   "polish": [
+    "cykl"
+   ],
+   "example": "The water cycle is essential for life.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl196",
+   "type": "awl_word",
+   "word": "debate",
+   "polish": [
+    "debata"
+   ],
+   "example": "There is an ongoing debate about nuclear energy.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl197",
+   "type": "awl_word",
+   "word": "despite",
+   "polish": [
+    "pomimo"
+   ],
+   "example": "Despite the rain, the event was a success.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl198",
+   "type": "awl_word",
+   "word": "dimension",
+   "polish": [
+    "wymiar"
+   ],
+   "example": "The problem has a social dimension.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl199",
+   "type": "awl_word",
+   "word": "domestic",
+   "polish": [
+    "krajowy",
+    "domowy"
+   ],
+   "example": "Domestic demand has fallen.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl200",
+   "type": "awl_word",
+   "word": "emerge",
+   "polish": [
+    "wyłaniać się",
+    "pojawiać się"
+   ],
+   "example": "New evidence has emerged.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl201",
+   "type": "awl_word",
+   "word": "error",
+   "polish": [
+    "błąd"
+   ],
+   "example": "The error was corrected in the final version.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl202",
+   "type": "awl_word",
+   "word": "ethnic",
+   "polish": [
+    "etniczny"
+   ],
+   "example": "The city has a large ethnic minority population.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl203",
+   "type": "awl_word",
+   "word": "goal",
+   "polish": [
+    "cel"
+   ],
+   "example": "The main goal is to reduce emissions.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl204",
+   "type": "awl_word",
+   "word": "grant",
+   "polish": [
+    "przyznawać",
+    "grant"
+   ],
+   "example": "The team was granted additional funding.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl205",
+   "type": "awl_word",
+   "word": "hence",
+   "polish": [
+    "stąd",
+    "dlatego"
+   ],
+   "example": "The data were incomplete; hence, the results are uncertain.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl206",
+   "type": "awl_word",
+   "word": "hypothesis",
+   "polish": [
+    "hipoteza"
+   ],
+   "example": "The results support the hypothesis.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl207",
+   "type": "awl_word",
+   "word": "implement",
+   "polish": [
+    "wdrażać"
+   ],
+   "example": "The new policy was implemented in 2022.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl208",
+   "type": "awl_word",
+   "word": "implicate",
+   "polish": [
+    "wplątywać",
+    "obciążać"
+   ],
+   "example": "Several officials were implicated in the scandal.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl209",
+   "type": "awl_word",
+   "word": "impose",
+   "polish": [
+    "nakładać",
+    "narzucać"
+   ],
+   "example": "The government imposed a tax on sugar.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl210",
+   "type": "awl_word",
+   "word": "integrate",
+   "polish": [
+    "integrować"
+   ],
+   "example": "Immigrants need support to integrate into society.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl211",
+   "type": "awl_word",
+   "word": "internal",
+   "polish": [
+    "wewnętrzny"
+   ],
+   "example": "The company conducted an internal review.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl212",
+   "type": "awl_word",
+   "word": "investigate",
+   "polish": [
+    "badać"
+   ],
+   "example": "Police are investigating the incident.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl213",
+   "type": "awl_word",
+   "word": "job",
+   "polish": [
+    "praca",
+    "zadanie"
+   ],
+   "example": "Automation may replace many jobs.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl214",
+   "type": "awl_word",
+   "word": "label",
+   "polish": [
+    "etykieta",
+    "oznaczać"
+   ],
+   "example": "Food labels must list all ingredients.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl215",
+   "type": "awl_word",
+   "word": "mechanism",
+   "polish": [
+    "mechanizm"
+   ],
+   "example": "The mechanism of the disease is not fully understood.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl216",
+   "type": "awl_word",
+   "word": "obvious",
+   "polish": [
+    "oczywisty"
+   ],
+   "example": "The answer is not obvious.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl217",
+   "type": "awl_word",
+   "word": "occupy",
+   "polish": [
+    "zajmować"
+   ],
+   "example": "Students occupied the building in protest.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl218",
+   "type": "awl_word",
+   "word": "option",
+   "polish": [
+    "opcja"
+   ],
+   "example": "Renting is the only option for many young people.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl219",
+   "type": "awl_word",
+   "word": "output",
+   "polish": [
+    "produkcja",
+    "wynik"
+   ],
+   "example": "Industrial output fell by 5%.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl220",
+   "type": "awl_word",
+   "word": "overall",
+   "polish": [
+    "ogólny",
+    "ogólnie"
+   ],
+   "example": "Overall, the results were positive.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl221",
+   "type": "awl_word",
+   "word": "parallel",
+   "polish": [
+    "równoległy",
+    "analogia"
+   ],
+   "example": "There are clear parallels between the two cases.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl222",
+   "type": "awl_word",
+   "word": "parameter",
+   "polish": [
+    "parametr"
+   ],
+   "example": "The study was conducted within strict parameters.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl223",
+   "type": "awl_word",
+   "word": "phase",
+   "polish": [
+    "faza",
+    "etap"
+   ],
+   "example": "The first phase of the project is complete.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl224",
+   "type": "awl_word",
+   "word": "predict",
+   "polish": [
+    "przewidywać"
+   ],
+   "example": "Experts predict a rise in unemployment.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl225",
+   "type": "awl_word",
+   "word": "principal",
+   "polish": [
+    "główny"
+   ],
+   "example": "The principal cause of the fire is unknown.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl226",
+   "type": "awl_word",
+   "word": "prior",
+   "polish": [
+    "wcześniejszy"
+   ],
+   "example": "No prior knowledge is required.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl227",
+   "type": "awl_word",
+   "word": "professional",
+   "polish": [
+    "profesjonalista",
+    "zawodowy"
+   ],
+   "example": "Teachers are trained professionals.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl228",
+   "type": "awl_word",
+   "word": "project",
+   "polish": [
+    "projekt"
+   ],
+   "example": "The project was completed on time.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl229",
+   "type": "awl_word",
+   "word": "promote",
+   "polish": [
+    "promować",
+    "wspierać"
+   ],
+   "example": "The campaign promotes healthy eating.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl230",
+   "type": "awl_word",
+   "word": "regime",
+   "polish": [
+    "reżim",
+    "system"
+   ],
+   "example": "The regime collapsed in 1989.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl231",
+   "type": "awl_word",
+   "word": "resolve",
+   "polish": [
+    "rozwiązywać"
+   ],
+   "example": "The conflict was resolved peacefully.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl232",
+   "type": "awl_word",
+   "word": "retain",
+   "polish": [
+    "zachowywać",
+    "zatrzymywać"
+   ],
+   "example": "The company struggles to retain staff.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl233",
+   "type": "awl_word",
+   "word": "series",
+   "polish": [
+    "seria"
+   ],
+   "example": "The study consists of a series of experiments.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl234",
+   "type": "awl_word",
+   "word": "statistic",
+   "polish": [
+    "statystyka"
+   ],
+   "example": "Statistics show a decline in crime.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl235",
+   "type": "awl_word",
+   "word": "status",
+   "polish": [
+    "status"
+   ],
+   "example": "The social status of teachers varies.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl236",
+   "type": "awl_word",
+   "word": "stress",
+   "polish": [
+    "podkreślać",
+    "stres"
+   ],
+   "example": "The author stresses the need for change.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl237",
+   "type": "awl_word",
+   "word": "subsequent",
+   "polish": [
+    "późniejszy",
+    "następny"
+   ],
+   "example": "Subsequent studies confirmed the findings.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl238",
+   "type": "awl_word",
+   "word": "sum",
+   "polish": [
+    "suma"
+   ],
+   "example": "A large sum was spent on research.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl239",
+   "type": "awl_word",
+   "word": "summary",
+   "polish": [
+    "streszczenie"
+   ],
+   "example": "The report begins with a summary.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl240",
+   "type": "awl_word",
+   "word": "undertake",
+   "polish": [
+    "podejmować się"
+   ],
+   "example": "The university will undertake a major study.",
+   "awl_group": 4,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl241",
+   "type": "awl_word",
+   "word": "academy",
+   "polish": [
+    "akademia"
+   ],
+   "example": "She studied at the Royal Academy of Music.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl242",
+   "type": "awl_word",
+   "word": "adjust",
+   "polish": [
+    "dostosowywać się"
+   ],
+   "example": "Students need time to adjust to university life.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl243",
+   "type": "awl_word",
+   "word": "alter",
+   "polish": [
+    "zmieniać"
+   ],
+   "example": "The results altered our understanding.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl244",
+   "type": "awl_word",
+   "word": "amend",
+   "polish": [
+    "poprawiać",
+    "nowelizować"
+   ],
+   "example": "The law was amended in 2019.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl245",
+   "type": "awl_word",
+   "word": "aware",
+   "polish": [
+    "świadomy"
+   ],
+   "example": "Many people are not aware of the risks.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl246",
+   "type": "awl_word",
+   "word": "capacity",
+   "polish": [
+    "zdolność",
+    "pojemność"
+   ],
+   "example": "The stadium has a capacity of 50,000.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl247",
+   "type": "awl_word",
+   "word": "challenge",
+   "polish": [
+    "wyzwanie"
+   ],
+   "example": "Climate change is a major challenge.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl248",
+   "type": "awl_word",
+   "word": "clause",
+   "polish": [
+    "klauzula",
+    "zdanie podrzędne"
+   ],
+   "example": "The contract contains a confidentiality clause.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl249",
+   "type": "awl_word",
+   "word": "compound",
+   "polish": [
+    "związek chemiczny",
+    "złożony"
+   ],
+   "example": "Water is a chemical compound.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl250",
+   "type": "awl_word",
+   "word": "conflict",
+   "polish": [
+    "konflikt"
+   ],
+   "example": "The conflict lasted for ten years.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl251",
+   "type": "awl_word",
+   "word": "consult",
+   "polish": [
+    "konsultować się"
+   ],
+   "example": "Patients should consult a doctor.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl252",
+   "type": "awl_word",
+   "word": "contact",
+   "polish": [
+    "kontakt",
+    "kontaktować się"
+   ],
+   "example": "Researchers contacted all participants by email.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl253",
+   "type": "awl_word",
+   "word": "decline",
+   "polish": [
+    "spadek",
+    "spadać"
+   ],
+   "example": "There has been a decline in birth rates.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl254",
+   "type": "awl_word",
+   "word": "discrete",
+   "polish": [
+    "odrębny",
+    "oddzielny"
+   ],
+   "example": "The process consists of discrete stages.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl255",
+   "type": "awl_word",
+   "word": "draft",
+   "polish": [
+    "wersja robocza",
+    "szkic"
+   ],
+   "example": "The first draft of the essay was too long.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl256",
+   "type": "awl_word",
+   "word": "enable",
+   "polish": [
+    "umożliwiać"
+   ],
+   "example": "Technology enables students to learn remotely.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl257",
+   "type": "awl_word",
+   "word": "energy",
+   "polish": [
+    "energia"
+   ],
+   "example": "Renewable energy is becoming cheaper.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl258",
+   "type": "awl_word",
+   "word": "enforce",
+   "polish": [
+    "egzekwować"
+   ],
+   "example": "The police enforce the law.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl259",
+   "type": "awl_word",
+   "word": "entity",
+   "polish": [
+    "podmiot",
+    "byt"
+   ],
+   "example": "The company is a separate legal entity.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl260",
+   "type": "awl_word",
+   "word": "equivalent",
+   "polish": [
+    "odpowiednik",
+    "równoważny"
+   ],
+   "example": "The salary is equivalent to £30,000.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl261",
+   "type": "awl_word",
+   "word": "evolve",
+   "polish": [
+    "ewoluować"
+   ],
+   "example": "Languages evolve over time.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl262",
+   "type": "awl_word",
+   "word": "expand",
+   "polish": [
+    "rozszerzać"
+   ],
+   "example": "The company plans to expand into Asia.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl263",
+   "type": "awl_word",
+   "word": "expose",
+   "polish": [
+    "narażać",
+    "odsłaniać"
+   ],
+   "example": "Children are exposed to advertising.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl264",
+   "type": "awl_word",
+   "word": "external",
+   "polish": [
+    "zewnętrzny"
+   ],
+   "example": "External factors influenced the decision.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl265",
+   "type": "awl_word",
+   "word": "facilitate",
+   "polish": [
+    "ułatwiać"
+   ],
+   "example": "Technology can facilitate learning.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl266",
+   "type": "awl_word",
+   "word": "fundamental",
+   "polish": [
+    "podstawowy",
+    "fundamentalny"
+   ],
+   "example": "Education is a fundamental right.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl267",
+   "type": "awl_word",
+   "word": "generate",
+   "polish": [
+    "generować",
+    "wytwarzać"
+   ],
+   "example": "Wind turbines generate electricity.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl268",
+   "type": "awl_word",
+   "word": "generation",
+   "polish": [
+    "pokolenie"
+   ],
+   "example": "The younger generation uses social media more.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl269",
+   "type": "awl_word",
+   "word": "image",
+   "polish": [
+    "obraz",
+    "wizerunek"
+   ],
+   "example": "The company wants to improve its image.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl270",
+   "type": "awl_word",
+   "word": "liberal",
+   "polish": [
+    "liberalny"
+   ],
+   "example": "The country has liberal immigration laws.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl271",
+   "type": "awl_word",
+   "word": "licence",
+   "polish": [
+    "licencja",
+    "pozwolenie"
+   ],
+   "example": "A licence is required to sell alcohol.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl272",
+   "type": "awl_word",
+   "word": "logic",
+   "polish": [
+    "logika"
+   ],
+   "example": "The logic of the argument is clear.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl273",
+   "type": "awl_word",
+   "word": "margin",
+   "polish": [
+    "margines"
+   ],
+   "example": "The party won by a narrow margin.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl274",
+   "type": "awl_word",
+   "word": "medical",
+   "polish": [
+    "medyczny"
+   ],
+   "example": "She received medical treatment.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl275",
+   "type": "awl_word",
+   "word": "mental",
+   "polish": [
+    "umysłowy",
+    "psychiczny"
+   ],
+   "example": "Mental health is as important as physical health.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl276",
+   "type": "awl_word",
+   "word": "modify",
+   "polish": [
+    "modyfikować"
+   ],
+   "example": "The design was modified after testing.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl277",
+   "type": "awl_word",
+   "word": "monitor",
+   "polish": [
+    "monitorować"
+   ],
+   "example": "Doctors monitor patients closely.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl278",
+   "type": "awl_word",
+   "word": "network",
+   "polish": [
+    "sieć"
+   ],
+   "example": "The country has an extensive rail network.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl279",
+   "type": "awl_word",
+   "word": "notion",
+   "polish": [
+    "pojęcie",
+    "idea"
+   ],
+   "example": "The notion of free will is controversial.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl280",
+   "type": "awl_word",
+   "word": "objective",
+   "polish": [
+    "cel",
+    "obiektywny"
+   ],
+   "example": "The main objective is to improve literacy.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl281",
+   "type": "awl_word",
+   "word": "orient",
+   "polish": [
+    "ukierunkowywać"
+   ],
+   "example": "The course is oriented towards practical skills.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl282",
+   "type": "awl_word",
+   "word": "perspective",
+   "polish": [
+    "perspektywa"
+   ],
+   "example": "From a historical perspective, this is unusual.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl283",
+   "type": "awl_word",
+   "word": "precise",
+   "polish": [
+    "dokładny",
+    "precyzyjny"
+   ],
+   "example": "Precise measurements are essential.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl284",
+   "type": "awl_word",
+   "word": "prime",
+   "polish": [
+    "główny",
+    "najważniejszy"
+   ],
+   "example": "Safety is the prime concern.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl285",
+   "type": "awl_word",
+   "word": "psychology",
+   "polish": [
+    "psychologia"
+   ],
+   "example": "Psychology studies human behaviour.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl286",
+   "type": "awl_word",
+   "word": "pursue",
+   "polish": [
+    "dążyć",
+    "kontynuować"
+   ],
+   "example": "She pursued a career in medicine.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl287",
+   "type": "awl_word",
+   "word": "ratio",
+   "polish": [
+    "stosunek",
+    "proporcja"
+   ],
+   "example": "The student-teacher ratio is 20 to 1.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl288",
+   "type": "awl_word",
+   "word": "reject",
+   "polish": [
+    "odrzucać"
+   ],
+   "example": "The proposal was rejected.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl289",
+   "type": "awl_word",
+   "word": "revenue",
+   "polish": [
+    "przychód"
+   ],
+   "example": "Tax revenue increased last year.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl290",
+   "type": "awl_word",
+   "word": "stable",
+   "polish": [
+    "stabilny"
+   ],
+   "example": "The economy remains stable.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl291",
+   "type": "awl_word",
+   "word": "style",
+   "polish": [
+    "styl"
+   ],
+   "example": "Academic writing requires a formal style.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl292",
+   "type": "awl_word",
+   "word": "substitute",
+   "polish": [
+    "zastępować",
+    "substytut"
+   ],
+   "example": "Honey can be substituted for sugar.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl293",
+   "type": "awl_word",
+   "word": "sustain",
+   "polish": [
+    "podtrzymywać",
+    "utrzymywać"
+   ],
+   "example": "The planet cannot sustain this level of consumption.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl294",
+   "type": "awl_word",
+   "word": "symbol",
+   "polish": [
+    "symbol"
+   ],
+   "example": "The dove is a symbol of peace.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl295",
+   "type": "awl_word",
+   "word": "target",
+   "polish": [
+    "cel"
+   ],
+   "example": "The government missed its emissions target.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl296",
+   "type": "awl_word",
+   "word": "transit",
+   "polish": [
+    "tranzyt",
+    "przewóz"
+   ],
+   "example": "Goods were damaged in transit.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl297",
+   "type": "awl_word",
+   "word": "trend",
+   "polish": [
+    "trend",
+    "tendencja"
+   ],
+   "example": "There is a growing trend towards remote work.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl298",
+   "type": "awl_word",
+   "word": "version",
+   "polish": [
+    "wersja"
+   ],
+   "example": "The final version was submitted on time.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl299",
+   "type": "awl_word",
+   "word": "welfare",
+   "polish": [
+    "dobrobyt",
+    "opieka społeczna"
+   ],
+   "example": "The state is responsible for public welfare.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl300",
+   "type": "awl_word",
+   "word": "whereas",
+   "polish": [
+    "podczas gdy"
+   ],
+   "example": "Some students prefer exams, whereas others prefer coursework.",
+   "awl_group": 5,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl301",
+   "type": "awl_word",
+   "word": "abstract",
+   "polish": [
+    "abstrakcyjny",
+    "streszczenie"
+   ],
+   "example": "Justice is an abstract concept.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl302",
+   "type": "awl_word",
+   "word": "accurate",
+   "polish": [
+    "dokładny"
+   ],
+   "example": "The measurements were accurate.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl303",
+   "type": "awl_word",
+   "word": "acknowledge",
+   "polish": [
+    "przyznawać",
+    "uznawać"
+   ],
+   "example": "The author acknowledges the study's limitations.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl304",
+   "type": "awl_word",
+   "word": "aggregate",
+   "polish": [
+    "łączny",
+    "zbiorczy"
+   ],
+   "example": "Aggregate demand fell during the recession.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl305",
+   "type": "awl_word",
+   "word": "allocate",
+   "polish": [
+    "przydzielać",
+    "przeznaczać"
+   ],
+   "example": "Funds were allocated to schools.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl306",
+   "type": "awl_word",
+   "word": "assign",
+   "polish": [
+    "przydzielać",
+    "przypisywać"
+   ],
+   "example": "Each student was assigned a topic.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl307",
+   "type": "awl_word",
+   "word": "attach",
+   "polish": [
+    "załączać",
+    "przywiązywać"
+   ],
+   "example": "Great importance is attached to education.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl308",
+   "type": "awl_word",
+   "word": "author",
+   "polish": [
+    "autor"
+   ],
+   "example": "The author presents a convincing argument.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl309",
+   "type": "awl_word",
+   "word": "bond",
+   "polish": [
+    "więź",
+    "obligacja"
+   ],
+   "example": "There is a strong bond between mother and child.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl310",
+   "type": "awl_word",
+   "word": "brief",
+   "polish": [
+    "krótki",
+    "zwięzły"
+   ],
+   "example": "The report gives a brief overview.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl311",
+   "type": "awl_word",
+   "word": "capable",
+   "polish": [
+    "zdolny"
+   ],
+   "example": "Machines are capable of learning.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl312",
+   "type": "awl_word",
+   "word": "cite",
+   "polish": [
+    "cytować",
+    "przytaczać"
+   ],
+   "example": "All sources must be cited correctly.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl313",
+   "type": "awl_word",
+   "word": "cooperate",
+   "polish": [
+    "współpracować"
+   ],
+   "example": "The two countries agreed to cooperate.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl314",
+   "type": "awl_word",
+   "word": "discriminate",
+   "polish": [
+    "dyskryminować",
+    "rozróżniać"
+   ],
+   "example": "It is illegal to discriminate on the basis of gender.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl315",
+   "type": "awl_word",
+   "word": "display",
+   "polish": [
+    "wyświetlać",
+    "wystawiać"
+   ],
+   "example": "The results are displayed in Table 2.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl316",
+   "type": "awl_word",
+   "word": "diverse",
+   "polish": [
+    "zróżnicowany"
+   ],
+   "example": "London has a diverse population.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl317",
+   "type": "awl_word",
+   "word": "domain",
+   "polish": [
+    "dziedzina",
+    "domena"
+   ],
+   "example": "Language is a key domain of human cognition.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl318",
+   "type": "awl_word",
+   "word": "edit",
+   "polish": [
+    "redagować",
+    "edytować"
+   ],
+   "example": "The text was edited for clarity.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl319",
+   "type": "awl_word",
+   "word": "enhance",
+   "polish": [
+    "wzmacniać",
+    "poprawiać"
+   ],
+   "example": "Music can enhance concentration.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl320",
+   "type": "awl_word",
+   "word": "estate",
+   "polish": [
+    "majątek",
+    "posiadłość"
+   ],
+   "example": "He left his estate to charity.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl321",
+   "type": "awl_word",
+   "word": "exceed",
+   "polish": [
+    "przekraczać"
+   ],
+   "example": "Demand exceeded supply.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl322",
+   "type": "awl_word",
+   "word": "expert",
+   "polish": [
+    "ekspert"
+   ],
+   "example": "Experts disagree on the causes.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl323",
+   "type": "awl_word",
+   "word": "explicit",
+   "polish": [
+    "wyraźny",
+    "jednoznaczny"
+   ],
+   "example": "The instructions were explicit.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl324",
+   "type": "awl_word",
+   "word": "federal",
+   "polish": [
+    "federalny"
+   ],
+   "example": "The federal government sets national policy.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl325",
+   "type": "awl_word",
+   "word": "fee",
+   "polish": [
+    "opłata"
+   ],
+   "example": "University tuition fees have risen.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl326",
+   "type": "awl_word",
+   "word": "flexible",
+   "polish": [
+    "elastyczny"
+   ],
+   "example": "Many employees prefer flexible working hours.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl327",
+   "type": "awl_word",
+   "word": "furthermore",
+   "polish": [
+    "ponadto"
+   ],
+   "example": "Furthermore, the costs are rising.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl328",
+   "type": "awl_word",
+   "word": "gender",
+   "polish": [
+    "płeć kulturowa"
+   ],
+   "example": "Gender equality is a key goal.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl329",
+   "type": "awl_word",
+   "word": "ignorance",
+   "polish": [
+    "niewiedza",
+    "ignorancja"
+   ],
+   "example": "Prejudice often stems from ignorance.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl330",
+   "type": "awl_word",
+   "word": "incentive",
+   "polish": [
+    "zachęta",
+    "bodziec"
+   ],
+   "example": "Tax incentives encourage investment.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl331",
+   "type": "awl_word",
+   "word": "incidence",
+   "polish": [
+    "częstość występowania"
+   ],
+   "example": "The incidence of diabetes is rising.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl332",
+   "type": "awl_word",
+   "word": "incorporate",
+   "polish": [
+    "włączać",
+    "uwzględniać"
+   ],
+   "example": "The design incorporates recycled materials.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl333",
+   "type": "awl_word",
+   "word": "index",
+   "polish": [
+    "indeks",
+    "wskaźnik"
+   ],
+   "example": "The price index rose by 2%.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl334",
+   "type": "awl_word",
+   "word": "inhibit",
+   "polish": [
+    "hamować"
+   ],
+   "example": "Fear can inhibit learning.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl335",
+   "type": "awl_word",
+   "word": "initiate",
+   "polish": [
+    "inicjować"
+   ],
+   "example": "The government initiated a reform programme.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl336",
+   "type": "awl_word",
+   "word": "input",
+   "polish": [
+    "wkład",
+    "dane wejściowe"
+   ],
+   "example": "The project benefited from student input.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl337",
+   "type": "awl_word",
+   "word": "instruct",
+   "polish": [
+    "instruować",
+    "polecać"
+   ],
+   "example": "Participants were instructed to read the text.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl338",
+   "type": "awl_word",
+   "word": "intelligence",
+   "polish": [
+    "inteligencja",
+    "wywiad"
+   ],
+   "example": "Intelligence is difficult to measure.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl339",
+   "type": "awl_word",
+   "word": "interval",
+   "polish": [
+    "odstęp",
+    "przerwa"
+   ],
+   "example": "Measurements were taken at regular intervals.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl340",
+   "type": "awl_word",
+   "word": "lecture",
+   "polish": [
+    "wykład"
+   ],
+   "example": "The lecture focused on climate policy.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl341",
+   "type": "awl_word",
+   "word": "migrate",
+   "polish": [
+    "migrować"
+   ],
+   "example": "Many birds migrate south in winter.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl342",
+   "type": "awl_word",
+   "word": "minimum",
+   "polish": [
+    "minimum"
+   ],
+   "example": "The minimum wage was increased.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl343",
+   "type": "awl_word",
+   "word": "ministry",
+   "polish": [
+    "ministerstwo"
+   ],
+   "example": "The Ministry of Education published new guidelines.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl344",
+   "type": "awl_word",
+   "word": "motive",
+   "polish": [
+    "motyw",
+    "pobudka"
+   ],
+   "example": "The motive for the crime remains unclear.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl345",
+   "type": "awl_word",
+   "word": "neutral",
+   "polish": [
+    "neutralny"
+   ],
+   "example": "Academic writing should use a neutral tone.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl346",
+   "type": "awl_word",
+   "word": "nevertheless",
+   "polish": [
+    "niemniej jednak"
+   ],
+   "example": "The task was difficult; nevertheless, they succeeded.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl347",
+   "type": "awl_word",
+   "word": "overseas",
+   "polish": [
+    "za granicą",
+    "zagraniczny"
+   ],
+   "example": "Many students study overseas.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl348",
+   "type": "awl_word",
+   "word": "precede",
+   "polish": [
+    "poprzedzać"
+   ],
+   "example": "A period of calm preceded the storm.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl349",
+   "type": "awl_word",
+   "word": "presume",
+   "polish": [
+    "zakładać",
+    "przypuszczać"
+   ],
+   "example": "It is presumed that the data are accurate.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl350",
+   "type": "awl_word",
+   "word": "rational",
+   "polish": [
+    "racjonalny"
+   ],
+   "example": "Consumers do not always make rational decisions.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl351",
+   "type": "awl_word",
+   "word": "recover",
+   "polish": [
+    "odzyskiwać",
+    "wracać do zdrowia"
+   ],
+   "example": "The economy recovered slowly.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl352",
+   "type": "awl_word",
+   "word": "reveal",
+   "polish": [
+    "ujawniać"
+   ],
+   "example": "The survey revealed surprising results.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl353",
+   "type": "awl_word",
+   "word": "scope",
+   "polish": [
+    "zakres"
+   ],
+   "example": "This issue is beyond the scope of the essay.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl354",
+   "type": "awl_word",
+   "word": "subsidy",
+   "polish": [
+    "dotacja",
+    "subwencja"
+   ],
+   "example": "Farmers receive government subsidies.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl355",
+   "type": "awl_word",
+   "word": "tape",
+   "polish": [
+    "taśma",
+    "nagrywać"
+   ],
+   "example": "The interviews were recorded on tape.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl356",
+   "type": "awl_word",
+   "word": "trace",
+   "polish": [
+    "śledzić",
+    "ślad"
+   ],
+   "example": "The origins of the tradition can be traced to the 15th century.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl357",
+   "type": "awl_word",
+   "word": "transform",
+   "polish": [
+    "przekształcać"
+   ],
+   "example": "The internet has transformed communication.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl358",
+   "type": "awl_word",
+   "word": "transport",
+   "polish": [
+    "transport"
+   ],
+   "example": "Public transport reduces pollution.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl359",
+   "type": "awl_word",
+   "word": "underlie",
+   "polish": [
+    "leżeć u podstaw"
+   ],
+   "example": "Several factors underlie the problem.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl360",
+   "type": "awl_word",
+   "word": "utilise",
+   "polish": [
+    "wykorzystywać"
+   ],
+   "example": "The space is utilised for storage.",
+   "awl_group": 6,
+   "category": "awl",
+   "difficulty": 2
+  },
+  {
+   "id": "awl361",
+   "type": "awl_word",
+   "word": "adapt",
+   "polish": [
+    "przystosowywać się"
+   ],
+   "example": "Species adapt to their environment.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl362",
+   "type": "awl_word",
+   "word": "adult",
+   "polish": [
+    "dorosły"
+   ],
+   "example": "Adults learn languages differently from children.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl363",
+   "type": "awl_word",
+   "word": "advocate",
+   "polish": [
+    "popierać",
+    "orędownik"
+   ],
+   "example": "Many doctors advocate a balanced diet.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl364",
+   "type": "awl_word",
+   "word": "aid",
+   "polish": [
+    "pomoc"
+   ],
+   "example": "The country receives foreign aid.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl365",
+   "type": "awl_word",
+   "word": "channel",
+   "polish": [
+    "kanał",
+    "kierować"
+   ],
+   "example": "Funds were channelled into education.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl366",
+   "type": "awl_word",
+   "word": "chemical",
+   "polish": [
+    "substancja chemiczna",
+    "chemiczny"
+   ],
+   "example": "The river was polluted by chemicals.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl367",
+   "type": "awl_word",
+   "word": "classic",
+   "polish": [
+    "klasyczny"
+   ],
+   "example": "This is a classic example of market failure.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl368",
+   "type": "awl_word",
+   "word": "comprehensive",
+   "polish": [
+    "wszechstronny",
+    "kompleksowy"
+   ],
+   "example": "The report provides a comprehensive analysis.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl369",
+   "type": "awl_word",
+   "word": "comprise",
+   "polish": [
+    "składać się z"
+   ],
+   "example": "The committee comprises five members.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl370",
+   "type": "awl_word",
+   "word": "confirm",
+   "polish": [
+    "potwierdzać"
+   ],
+   "example": "The results confirm the hypothesis.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl371",
+   "type": "awl_word",
+   "word": "contrary",
+   "polish": [
+    "przeciwny"
+   ],
+   "example": "Contrary to expectations, sales increased.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl372",
+   "type": "awl_word",
+   "word": "convert",
+   "polish": [
+    "przekształcać",
+    "przerabiać"
+   ],
+   "example": "The factory was converted into flats.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl373",
+   "type": "awl_word",
+   "word": "couple",
+   "polish": [
+    "para",
+    "kilka"
+   ],
+   "example": "A couple of studies support this view.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl374",
+   "type": "awl_word",
+   "word": "decade",
+   "polish": [
+    "dekada"
+   ],
+   "example": "Prices have doubled in the last decade.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl375",
+   "type": "awl_word",
+   "word": "definite",
+   "polish": [
+    "określony",
+    "pewny"
+   ],
+   "example": "There is no definite answer.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl376",
+   "type": "awl_word",
+   "word": "deny",
+   "polish": [
+    "zaprzeczać"
+   ],
+   "example": "The minister denied the allegations.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl377",
+   "type": "awl_word",
+   "word": "differentiate",
+   "polish": [
+    "rozróżniać"
+   ],
+   "example": "It is important to differentiate between fact and opinion.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl378",
+   "type": "awl_word",
+   "word": "dispose",
+   "polish": [
+    "pozbywać się"
+   ],
+   "example": "Waste must be disposed of safely.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl379",
+   "type": "awl_word",
+   "word": "dynamic",
+   "polish": [
+    "dynamiczny"
+   ],
+   "example": "The market is highly dynamic.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl380",
+   "type": "awl_word",
+   "word": "eliminate",
+   "polish": [
+    "eliminować"
+   ],
+   "example": "The aim is to eliminate poverty.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl381",
+   "type": "awl_word",
+   "word": "empirical",
+   "polish": [
+    "empiryczny"
+   ],
+   "example": "There is little empirical evidence for this claim.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl382",
+   "type": "awl_word",
+   "word": "equip",
+   "polish": [
+    "wyposażać"
+   ],
+   "example": "Schools are equipped with computers.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl383",
+   "type": "awl_word",
+   "word": "extract",
+   "polish": [
+    "wydobywać",
+    "fragment"
+   ],
+   "example": "Oil is extracted from the ground.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl384",
+   "type": "awl_word",
+   "word": "file",
+   "polish": [
+    "plik",
+    "akta"
+   ],
+   "example": "The data are stored in a secure file.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl385",
+   "type": "awl_word",
+   "word": "finite",
+   "polish": [
+    "skończony",
+    "ograniczony"
+   ],
+   "example": "Fossil fuels are a finite resource.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl386",
+   "type": "awl_word",
+   "word": "foundation",
+   "polish": [
+    "fundament",
+    "fundacja"
+   ],
+   "example": "Trust is the foundation of a good relationship.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl387",
+   "type": "awl_word",
+   "word": "globe",
+   "polish": [
+    "kula ziemska",
+    "świat"
+   ],
+   "example": "Tourists from across the globe visit the city.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl388",
+   "type": "awl_word",
+   "word": "grade",
+   "polish": [
+    "ocena",
+    "stopień"
+   ],
+   "example": "Her grades improved significantly.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl389",
+   "type": "awl_word",
+   "word": "guarantee",
+   "polish": [
+    "gwarantować"
+   ],
+   "example": "Hard work does not guarantee success.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl390",
+   "type": "awl_word",
+   "word": "hierarchy",
+   "polish": [
+    "hierarchia"
+   ],
+   "example": "The company has a strict hierarchy.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl391",
+   "type": "awl_word",
+   "word": "identical",
+   "polish": [
+    "identyczny"
+   ],
+   "example": "The two samples were identical.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl392",
+   "type": "awl_word",
+   "word": "ideology",
+   "polish": [
+    "ideologia"
+   ],
+   "example": "Political ideology influences voting behaviour.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl393",
+   "type": "awl_word",
+   "word": "infer",
+   "polish": [
+    "wnioskować"
+   ],
+   "example": "We can infer from the data that the policy worked.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl394",
+   "type": "awl_word",
+   "word": "innovate",
+   "polish": [
+    "wprowadzać innowacje"
+   ],
+   "example": "Companies must innovate to survive.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl395",
+   "type": "awl_word",
+   "word": "insert",
+   "polish": [
+    "wstawiać"
+   ],
+   "example": "Insert the correct word into the gap.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl396",
+   "type": "awl_word",
+   "word": "intervene",
+   "polish": [
+    "interweniować"
+   ],
+   "example": "The government intervened to stabilise prices.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl397",
+   "type": "awl_word",
+   "word": "isolate",
+   "polish": [
+    "izolować"
+   ],
+   "example": "The virus was isolated in the laboratory.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl398",
+   "type": "awl_word",
+   "word": "media",
+   "polish": [
+    "media"
+   ],
+   "example": "The media influence public opinion.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl399",
+   "type": "awl_word",
+   "word": "mode",
+   "polish": [
+    "tryb",
+    "sposób"
+   ],
+   "example": "Cycling is an efficient mode of transport.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl400",
+   "type": "awl_word",
+   "word": "paradigm",
+   "polish": [
+    "paradygmat"
+   ],
+   "example": "The discovery led to a paradigm shift.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl401",
+   "type": "awl_word",
+   "word": "phenomenon",
+   "polish": [
+    "zjawisko"
+   ],
+   "example": "Global warming is a complex phenomenon.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl402",
+   "type": "awl_word",
+   "word": "priority",
+   "polish": [
+    "priorytet"
+   ],
+   "example": "Education is a top priority.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl403",
+   "type": "awl_word",
+   "word": "prohibit",
+   "polish": [
+    "zakazywać"
+   ],
+   "example": "Smoking is prohibited in public places.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl404",
+   "type": "awl_word",
+   "word": "publication",
+   "polish": [
+    "publikacja"
+   ],
+   "example": "The publication of the report was delayed.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl405",
+   "type": "awl_word",
+   "word": "quote",
+   "polish": [
+    "cytować",
+    "cytat"
+   ],
+   "example": "The author quotes several experts.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl406",
+   "type": "awl_word",
+   "word": "release",
+   "polish": [
+    "publikować",
+    "uwalniać"
+   ],
+   "example": "The film was released in 2020.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl407",
+   "type": "awl_word",
+   "word": "reverse",
+   "polish": [
+    "odwracać"
+   ],
+   "example": "The decision was later reversed.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl408",
+   "type": "awl_word",
+   "word": "simulate",
+   "polish": [
+    "symulować"
+   ],
+   "example": "The software simulates real-world conditions.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl409",
+   "type": "awl_word",
+   "word": "sole",
+   "polish": [
+    "jedyny"
+   ],
+   "example": "Profit is not the sole aim of the company.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl410",
+   "type": "awl_word",
+   "word": "somewhat",
+   "polish": [
+    "nieco",
+    "w pewnym stopniu"
+   ],
+   "example": "The results were somewhat surprising.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl411",
+   "type": "awl_word",
+   "word": "submit",
+   "polish": [
+    "składać",
+    "przedkładać"
+   ],
+   "example": "Essays must be submitted by Friday.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl412",
+   "type": "awl_word",
+   "word": "successor",
+   "polish": [
+    "następca"
+   ],
+   "example": "The president appointed his successor.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl413",
+   "type": "awl_word",
+   "word": "survive",
+   "polish": [
+    "przetrwać"
+   ],
+   "example": "Few species survived the ice age.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl414",
+   "type": "awl_word",
+   "word": "thesis",
+   "polish": [
+    "teza",
+    "praca dyplomowa"
+   ],
+   "example": "The thesis of the essay is clearly stated.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl415",
+   "type": "awl_word",
+   "word": "topic",
+   "polish": [
+    "temat"
+   ],
+   "example": "The topic of the debate was climate change.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl416",
+   "type": "awl_word",
+   "word": "transmit",
+   "polish": [
+    "przekazywać",
+    "przenosić"
+   ],
+   "example": "The disease is transmitted by mosquitoes.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl417",
+   "type": "awl_word",
+   "word": "ultimate",
+   "polish": [
+    "ostateczny"
+   ],
+   "example": "The ultimate goal is world peace.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl418",
+   "type": "awl_word",
+   "word": "unique",
+   "polish": [
+    "wyjątkowy",
+    "unikalny"
+   ],
+   "example": "Each fingerprint is unique.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl419",
+   "type": "awl_word",
+   "word": "visible",
+   "polish": [
+    "widoczny"
+   ],
+   "example": "The effects of pollution are clearly visible.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl420",
+   "type": "awl_word",
+   "word": "voluntary",
+   "polish": [
+    "dobrowolny"
+   ],
+   "example": "Participation in the study was voluntary.",
+   "awl_group": 7,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl421",
+   "type": "awl_word",
+   "word": "abandon",
+   "polish": [
+    "porzucać"
+   ],
+   "example": "The project was abandoned due to lack of funding.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl422",
+   "type": "awl_word",
+   "word": "accompany",
+   "polish": [
+    "towarzyszyć"
+   ],
+   "example": "Children must be accompanied by an adult.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl423",
+   "type": "awl_word",
+   "word": "accumulate",
+   "polish": [
+    "gromadzić się"
+   ],
+   "example": "Plastic waste accumulates in the oceans.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl424",
+   "type": "awl_word",
+   "word": "ambiguous",
+   "polish": [
+    "niejednoznaczny"
+   ],
+   "example": "The question was ambiguous.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl425",
+   "type": "awl_word",
+   "word": "append",
+   "polish": [
+    "dołączać"
+   ],
+   "example": "A list of sources is appended to the report.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl426",
+   "type": "awl_word",
+   "word": "appreciate",
+   "polish": [
+    "doceniać"
+   ],
+   "example": "Students appreciate clear feedback.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl427",
+   "type": "awl_word",
+   "word": "arbitrary",
+   "polish": [
+    "arbitralny",
+    "przypadkowy"
+   ],
+   "example": "The decision seemed arbitrary.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl428",
+   "type": "awl_word",
+   "word": "automate",
+   "polish": [
+    "automatyzować"
+   ],
+   "example": "Many factory jobs have been automated.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl429",
+   "type": "awl_word",
+   "word": "bias",
+   "polish": [
+    "stronniczość",
+    "uprzedzenie"
+   ],
+   "example": "The study may contain bias.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl430",
+   "type": "awl_word",
+   "word": "chart",
+   "polish": [
+    "wykres"
+   ],
+   "example": "The chart shows the results.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl431",
+   "type": "awl_word",
+   "word": "clarify",
+   "polish": [
+    "wyjaśniać"
+   ],
+   "example": "The teacher clarified the instructions.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl432",
+   "type": "awl_word",
+   "word": "commodity",
+   "polish": [
+    "towar"
+   ],
+   "example": "Oil is a valuable commodity.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl433",
+   "type": "awl_word",
+   "word": "complement",
+   "polish": [
+    "uzupełniać"
+   ],
+   "example": "The two approaches complement each other.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl434",
+   "type": "awl_word",
+   "word": "conform",
+   "polish": [
+    "dostosowywać się"
+   ],
+   "example": "Teenagers often feel pressure to conform.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl435",
+   "type": "awl_word",
+   "word": "contemporary",
+   "polish": [
+    "współczesny"
+   ],
+   "example": "The museum displays contemporary art.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl436",
+   "type": "awl_word",
+   "word": "contradict",
+   "polish": [
+    "przeczyć",
+    "zaprzeczać"
+   ],
+   "example": "The findings contradict earlier research.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl437",
+   "type": "awl_word",
+   "word": "crucial",
+   "polish": [
+    "kluczowy"
+   ],
+   "example": "Sleep is crucial for learning.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl438",
+   "type": "awl_word",
+   "word": "currency",
+   "polish": [
+    "waluta"
+   ],
+   "example": "The euro is the official currency.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl439",
+   "type": "awl_word",
+   "word": "denote",
+   "polish": [
+    "oznaczać"
+   ],
+   "example": "The symbol denotes a significant result.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl440",
+   "type": "awl_word",
+   "word": "detect",
+   "polish": [
+    "wykrywać"
+   ],
+   "example": "The test can detect the disease early.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl441",
+   "type": "awl_word",
+   "word": "deviate",
+   "polish": [
+    "odbiegać",
+    "odchylać się"
+   ],
+   "example": "The results deviated from the prediction.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl442",
+   "type": "awl_word",
+   "word": "displace",
+   "polish": [
+    "wysiedlać",
+    "wypierać"
+   ],
+   "example": "Thousands of people were displaced by the floods.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl443",
+   "type": "awl_word",
+   "word": "drama",
+   "polish": [
+    "dramat"
+   ],
+   "example": "The drama explores family conflict.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl444",
+   "type": "awl_word",
+   "word": "eventual",
+   "polish": [
+    "ostateczny",
+    "końcowy"
+   ],
+   "example": "The eventual outcome was positive.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl445",
+   "type": "awl_word",
+   "word": "exhibit",
+   "polish": [
+    "wykazywać",
+    "wystawiać"
+   ],
+   "example": "Patients exhibited signs of stress.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl446",
+   "type": "awl_word",
+   "word": "exploit",
+   "polish": [
+    "wykorzystywać"
+   ],
+   "example": "Workers were exploited by employers.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl447",
+   "type": "awl_word",
+   "word": "fluctuate",
+   "polish": [
+    "wahać się"
+   ],
+   "example": "Prices fluctuate throughout the year.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl448",
+   "type": "awl_word",
+   "word": "guideline",
+   "polish": [
+    "wytyczna"
+   ],
+   "example": "The guidelines were updated in 2023.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl449",
+   "type": "awl_word",
+   "word": "highlight",
+   "polish": [
+    "podkreślać"
+   ],
+   "example": "The report highlights the need for reform.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl450",
+   "type": "awl_word",
+   "word": "implicit",
+   "polish": [
+    "ukryty",
+    "domniemany"
+   ],
+   "example": "There is an implicit assumption in the argument.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl451",
+   "type": "awl_word",
+   "word": "induce",
+   "polish": [
+    "wywoływać",
+    "nakłaniać"
+   ],
+   "example": "The drug may induce sleep.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl452",
+   "type": "awl_word",
+   "word": "inevitable",
+   "polish": [
+    "nieunikniony"
+   ],
+   "example": "Change is inevitable.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl453",
+   "type": "awl_word",
+   "word": "infrastructure",
+   "polish": [
+    "infrastruktura"
+   ],
+   "example": "The country needs better infrastructure.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl454",
+   "type": "awl_word",
+   "word": "inspect",
+   "polish": [
+    "kontrolować",
+    "sprawdzać"
+   ],
+   "example": "Inspectors inspect schools regularly.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl455",
+   "type": "awl_word",
+   "word": "intense",
+   "polish": [
+    "intensywny"
+   ],
+   "example": "The competition was intense.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl456",
+   "type": "awl_word",
+   "word": "manipulate",
+   "polish": [
+    "manipulować"
+   ],
+   "example": "The data were manipulated to support the claim.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl457",
+   "type": "awl_word",
+   "word": "minimise",
+   "polish": [
+    "minimalizować"
+   ],
+   "example": "Steps were taken to minimise risk.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl458",
+   "type": "awl_word",
+   "word": "nuclear",
+   "polish": [
+    "jądrowy"
+   ],
+   "example": "Nuclear power produces low emissions.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl459",
+   "type": "awl_word",
+   "word": "offset",
+   "polish": [
+    "równoważyć",
+    "kompensować"
+   ],
+   "example": "The losses were offset by higher sales.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl460",
+   "type": "awl_word",
+   "word": "paragraph",
+   "polish": [
+    "akapit"
+   ],
+   "example": "Each paragraph should contain one main idea.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl461",
+   "type": "awl_word",
+   "word": "plus",
+   "polish": [
+    "plus",
+    "oraz"
+   ],
+   "example": "The cost is £50 plus tax.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl462",
+   "type": "awl_word",
+   "word": "practitioner",
+   "polish": [
+    "praktyk"
+   ],
+   "example": "Medical practitioners must be licensed.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl463",
+   "type": "awl_word",
+   "word": "predominant",
+   "polish": [
+    "przeważający"
+   ],
+   "example": "English is the predominant language online.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl464",
+   "type": "awl_word",
+   "word": "prospect",
+   "polish": [
+    "perspektywa",
+    "widoki"
+   ],
+   "example": "The prospects for growth are good.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl465",
+   "type": "awl_word",
+   "word": "radical",
+   "polish": [
+    "radykalny"
+   ],
+   "example": "The reform introduced radical changes.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl466",
+   "type": "awl_word",
+   "word": "random",
+   "polish": [
+    "losowy"
+   ],
+   "example": "Participants were chosen at random.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl467",
+   "type": "awl_word",
+   "word": "reinforce",
+   "polish": [
+    "wzmacniać"
+   ],
+   "example": "The results reinforce previous findings.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl468",
+   "type": "awl_word",
+   "word": "restore",
+   "polish": [
+    "przywracać"
+   ],
+   "example": "The building was restored to its original state.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl469",
+   "type": "awl_word",
+   "word": "revise",
+   "polish": [
+    "poprawiać",
+    "powtarzać materiał"
+   ],
+   "example": "The plan was revised after feedback.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl470",
+   "type": "awl_word",
+   "word": "schedule",
+   "polish": [
+    "harmonogram"
+   ],
+   "example": "The project is behind schedule.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl471",
+   "type": "awl_word",
+   "word": "tension",
+   "polish": [
+    "napięcie"
+   ],
+   "example": "Tension between the two countries increased.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl472",
+   "type": "awl_word",
+   "word": "terminate",
+   "polish": [
+    "kończyć",
+    "rozwiązywać"
+   ],
+   "example": "The contract was terminated early.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl473",
+   "type": "awl_word",
+   "word": "theme",
+   "polish": [
+    "motyw",
+    "temat"
+   ],
+   "example": "Love is a central theme in the novel.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl474",
+   "type": "awl_word",
+   "word": "thereby",
+   "polish": [
+    "tym samym"
+   ],
+   "example": "The company cut costs, thereby increasing profits.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl475",
+   "type": "awl_word",
+   "word": "uniform",
+   "polish": [
+    "jednolity",
+    "mundur"
+   ],
+   "example": "The quality was uniform across all samples.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl476",
+   "type": "awl_word",
+   "word": "vehicle",
+   "polish": [
+    "pojazd"
+   ],
+   "example": "Electric vehicles are becoming popular.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl477",
+   "type": "awl_word",
+   "word": "via",
+   "polish": [
+    "przez",
+    "za pośrednictwem"
+   ],
+   "example": "The data were collected via an online survey.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl478",
+   "type": "awl_word",
+   "word": "virtual",
+   "polish": [
+    "wirtualny"
+   ],
+   "example": "Virtual classrooms became common during the pandemic.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl479",
+   "type": "awl_word",
+   "word": "visual",
+   "polish": [
+    "wizualny"
+   ],
+   "example": "Visual aids help students understand.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl480",
+   "type": "awl_word",
+   "word": "widespread",
+   "polish": [
+    "powszechny"
+   ],
+   "example": "There is widespread support for the policy.",
+   "awl_group": 8,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl481",
+   "type": "awl_word",
+   "word": "accommodate",
+   "polish": [
+    "pomieścić",
+    "dostosowywać"
+   ],
+   "example": "The hall can accommodate 500 people.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl482",
+   "type": "awl_word",
+   "word": "analogy",
+   "polish": [
+    "analogia"
+   ],
+   "example": "The author draws an analogy between the brain and a computer.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl483",
+   "type": "awl_word",
+   "word": "anticipate",
+   "polish": [
+    "przewidywać",
+    "oczekiwać"
+   ],
+   "example": "The company anticipates strong growth.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl484",
+   "type": "awl_word",
+   "word": "assure",
+   "polish": [
+    "zapewniać"
+   ],
+   "example": "The manager assured staff that jobs were safe.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl485",
+   "type": "awl_word",
+   "word": "attain",
+   "polish": [
+    "osiągać"
+   ],
+   "example": "Few students attain the highest grade.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl486",
+   "type": "awl_word",
+   "word": "behalf",
+   "polish": [
+    "w imieniu"
+   ],
+   "example": "She spoke on behalf of the students.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl487",
+   "type": "awl_word",
+   "word": "bulk",
+   "polish": [
+    "większość",
+    "masa"
+   ],
+   "example": "The bulk of the funding comes from the state.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl488",
+   "type": "awl_word",
+   "word": "cease",
+   "polish": [
+    "przestawać",
+    "ustawać"
+   ],
+   "example": "The factory ceased production in 2010.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl489",
+   "type": "awl_word",
+   "word": "coherent",
+   "polish": [
+    "spójny"
+   ],
+   "example": "The essay presents a coherent argument.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl490",
+   "type": "awl_word",
+   "word": "coincide",
+   "polish": [
+    "zbiegać się"
+   ],
+   "example": "The rise in crime coincided with the recession.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl491",
+   "type": "awl_word",
+   "word": "commence",
+   "polish": [
+    "rozpoczynać"
+   ],
+   "example": "The course commences in September.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl492",
+   "type": "awl_word",
+   "word": "compatible",
+   "polish": [
+    "zgodny",
+    "kompatybilny"
+   ],
+   "example": "The software is compatible with most devices.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl493",
+   "type": "awl_word",
+   "word": "concurrent",
+   "polish": [
+    "równoczesny"
+   ],
+   "example": "The two studies were concurrent.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl494",
+   "type": "awl_word",
+   "word": "confine",
+   "polish": [
+    "ograniczać"
+   ],
+   "example": "The study is confined to urban schools.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl495",
+   "type": "awl_word",
+   "word": "controversy",
+   "polish": [
+    "kontrowersja"
+   ],
+   "example": "The decision caused considerable controversy.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl496",
+   "type": "awl_word",
+   "word": "converse",
+   "polish": [
+    "odwrotność",
+    "rozmawiać"
+   ],
+   "example": "The converse is also true.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl497",
+   "type": "awl_word",
+   "word": "device",
+   "polish": [
+    "urządzenie"
+   ],
+   "example": "Mobile devices are widely used in class.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl498",
+   "type": "awl_word",
+   "word": "devote",
+   "polish": [
+    "poświęcać"
+   ],
+   "example": "She devoted her life to research.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl499",
+   "type": "awl_word",
+   "word": "diminish",
+   "polish": [
+    "zmniejszać się"
+   ],
+   "example": "The effect diminished over time.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl500",
+   "type": "awl_word",
+   "word": "distort",
+   "polish": [
+    "zniekształcać"
+   ],
+   "example": "The media sometimes distort the facts.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl501",
+   "type": "awl_word",
+   "word": "duration",
+   "polish": [
+    "czas trwania"
+   ],
+   "example": "The duration of the study was six months.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl502",
+   "type": "awl_word",
+   "word": "erode",
+   "polish": [
+    "erodować",
+    "osłabiać"
+   ],
+   "example": "Public trust has eroded.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl503",
+   "type": "awl_word",
+   "word": "ethic",
+   "polish": [
+    "etyka"
+   ],
+   "example": "The work ethic of the team was impressive.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl504",
+   "type": "awl_word",
+   "word": "format",
+   "polish": [
+    "format"
+   ],
+   "example": "The report follows a standard format.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl505",
+   "type": "awl_word",
+   "word": "found",
+   "polish": [
+    "zakładać (firmę",
+    "instytucję)"
+   ],
+   "example": "The company was founded in 1998.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl506",
+   "type": "awl_word",
+   "word": "inherent",
+   "polish": [
+    "nieodłączny",
+    "wrodzony"
+   ],
+   "example": "There are risks inherent in any investment.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl507",
+   "type": "awl_word",
+   "word": "insight",
+   "polish": [
+    "wgląd",
+    "spostrzeżenie"
+   ],
+   "example": "The study offers new insight into the problem.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl508",
+   "type": "awl_word",
+   "word": "integral",
+   "polish": [
+    "integralny"
+   ],
+   "example": "Exercise is an integral part of a healthy lifestyle.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl509",
+   "type": "awl_word",
+   "word": "intermediate",
+   "polish": [
+    "pośredni",
+    "średniozaawansowany"
+   ],
+   "example": "The course is for intermediate learners.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl510",
+   "type": "awl_word",
+   "word": "manual",
+   "polish": [
+    "ręczny",
+    "podręcznik"
+   ],
+   "example": "The process requires manual labour.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl511",
+   "type": "awl_word",
+   "word": "mature",
+   "polish": [
+    "dojrzały"
+   ],
+   "example": "Mature students bring valuable experience.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl512",
+   "type": "awl_word",
+   "word": "mediate",
+   "polish": [
+    "pośredniczyć",
+    "mediować"
+   ],
+   "example": "The UN mediated between the two sides.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl513",
+   "type": "awl_word",
+   "word": "medium",
+   "polish": [
+    "medium",
+    "środek przekazu"
+   ],
+   "example": "Television is a powerful medium.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl514",
+   "type": "awl_word",
+   "word": "military",
+   "polish": [
+    "wojskowy"
+   ],
+   "example": "Military spending has increased.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl515",
+   "type": "awl_word",
+   "word": "minimal",
+   "polish": [
+    "minimalny"
+   ],
+   "example": "The changes had minimal effect.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl516",
+   "type": "awl_word",
+   "word": "mutual",
+   "polish": [
+    "wzajemny"
+   ],
+   "example": "The agreement is based on mutual respect.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl517",
+   "type": "awl_word",
+   "word": "norm",
+   "polish": [
+    "norma"
+   ],
+   "example": "Social norms influence behaviour.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl518",
+   "type": "awl_word",
+   "word": "overlap",
+   "polish": [
+    "nakładać się"
+   ],
+   "example": "The two categories overlap.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl519",
+   "type": "awl_word",
+   "word": "passive",
+   "polish": [
+    "bierny"
+   ],
+   "example": "The passive voice is common in academic writing.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl520",
+   "type": "awl_word",
+   "word": "portion",
+   "polish": [
+    "część",
+    "porcja"
+   ],
+   "example": "A large portion of the budget goes on salaries.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl521",
+   "type": "awl_word",
+   "word": "preliminary",
+   "polish": [
+    "wstępny"
+   ],
+   "example": "Preliminary results are encouraging.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl522",
+   "type": "awl_word",
+   "word": "protocol",
+   "polish": [
+    "protokół"
+   ],
+   "example": "The researchers followed a strict protocol.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl523",
+   "type": "awl_word",
+   "word": "qualitative",
+   "polish": [
+    "jakościowy"
+   ],
+   "example": "The study uses qualitative methods.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl524",
+   "type": "awl_word",
+   "word": "refine",
+   "polish": [
+    "udoskonalać"
+   ],
+   "example": "The method was refined over time.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl525",
+   "type": "awl_word",
+   "word": "relax",
+   "polish": [
+    "łagodzić",
+    "rozluźniać"
+   ],
+   "example": "The government relaxed the restrictions.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl526",
+   "type": "awl_word",
+   "word": "restrain",
+   "polish": [
+    "powstrzymywać"
+   ],
+   "example": "The police restrained the protesters.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl527",
+   "type": "awl_word",
+   "word": "revolution",
+   "polish": [
+    "rewolucja"
+   ],
+   "example": "The Industrial Revolution transformed society.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl528",
+   "type": "awl_word",
+   "word": "rigid",
+   "polish": [
+    "sztywny"
+   ],
+   "example": "The system is too rigid.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl529",
+   "type": "awl_word",
+   "word": "route",
+   "polish": [
+    "trasa"
+   ],
+   "example": "The new route reduces travel time.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl530",
+   "type": "awl_word",
+   "word": "scenario",
+   "polish": [
+    "scenariusz"
+   ],
+   "example": "In the worst-case scenario, prices could double.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl531",
+   "type": "awl_word",
+   "word": "sphere",
+   "polish": [
+    "sfera"
+   ],
+   "example": "The public sphere includes the media.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl532",
+   "type": "awl_word",
+   "word": "subordinate",
+   "polish": [
+    "podwładny",
+    "podrzędny"
+   ],
+   "example": "Managers should listen to their subordinates.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl533",
+   "type": "awl_word",
+   "word": "supplement",
+   "polish": [
+    "uzupełniać",
+    "suplement"
+   ],
+   "example": "Students supplement their income with part-time work.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl534",
+   "type": "awl_word",
+   "word": "suspend",
+   "polish": [
+    "zawieszać"
+   ],
+   "example": "The trial was suspended.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl535",
+   "type": "awl_word",
+   "word": "team",
+   "polish": [
+    "zespół"
+   ],
+   "example": "The research team consisted of six scientists.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl536",
+   "type": "awl_word",
+   "word": "temporary",
+   "polish": [
+    "tymczasowy"
+   ],
+   "example": "The closure is only temporary.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl537",
+   "type": "awl_word",
+   "word": "trigger",
+   "polish": [
+    "wywoływać",
+    "wyzwalać"
+   ],
+   "example": "Stress can trigger headaches.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl538",
+   "type": "awl_word",
+   "word": "unify",
+   "polish": [
+    "jednoczyć"
+   ],
+   "example": "The leader aimed to unify the country.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl539",
+   "type": "awl_word",
+   "word": "violate",
+   "polish": [
+    "naruszać"
+   ],
+   "example": "The company violated safety regulations.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl540",
+   "type": "awl_word",
+   "word": "vision",
+   "polish": [
+    "wizja"
+   ],
+   "example": "The leader shared his vision for the future.",
+   "awl_group": 9,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl541",
+   "type": "awl_word",
+   "word": "adjacent",
+   "polish": [
+    "sąsiedni",
+    "przyległy"
+   ],
+   "example": "The school is adjacent to the park.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl542",
+   "type": "awl_word",
+   "word": "albeit",
+   "polish": [
+    "aczkolwiek",
+    "choć"
+   ],
+   "example": "The economy grew, albeit slowly.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl543",
+   "type": "awl_word",
+   "word": "assemble",
+   "polish": [
+    "montować",
+    "gromadzić"
+   ],
+   "example": "The cars are assembled in Poland.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl544",
+   "type": "awl_word",
+   "word": "collapse",
+   "polish": [
+    "zawalić się",
+    "upadek"
+   ],
+   "example": "The bridge collapsed during the storm.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl545",
+   "type": "awl_word",
+   "word": "colleague",
+   "polish": [
+    "kolega z pracy"
+   ],
+   "example": "She discussed the idea with her colleagues.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl546",
+   "type": "awl_word",
+   "word": "compile",
+   "polish": [
+    "zestawiać",
+    "kompilować"
+   ],
+   "example": "The data were compiled from several sources.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl547",
+   "type": "awl_word",
+   "word": "conceive",
+   "polish": [
+    "wymyślać",
+    "pojmować"
+   ],
+   "example": "The idea was conceived in 2015.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl548",
+   "type": "awl_word",
+   "word": "convince",
+   "polish": [
+    "przekonywać"
+   ],
+   "example": "The evidence convinced the jury.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl549",
+   "type": "awl_word",
+   "word": "depress",
+   "polish": [
+    "obniżać",
+    "przygnębiać"
+   ],
+   "example": "High unemployment depresses wages.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl550",
+   "type": "awl_word",
+   "word": "encounter",
+   "polish": [
+    "napotykać"
+   ],
+   "example": "Researchers encountered several problems.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl551",
+   "type": "awl_word",
+   "word": "enormous",
+   "polish": [
+    "ogromny"
+   ],
+   "example": "The project had an enormous impact.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl552",
+   "type": "awl_word",
+   "word": "forthcoming",
+   "polish": [
+    "nadchodzący"
+   ],
+   "example": "The results will be published in a forthcoming article.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl553",
+   "type": "awl_word",
+   "word": "incline",
+   "polish": [
+    "skłaniać się"
+   ],
+   "example": "I am inclined to agree with the author.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl554",
+   "type": "awl_word",
+   "word": "integrity",
+   "polish": [
+    "uczciwość",
+    "integralność"
+   ],
+   "example": "Academic integrity is essential.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl555",
+   "type": "awl_word",
+   "word": "intrinsic",
+   "polish": [
+    "wewnętrzny",
+    "wrodzony"
+   ],
+   "example": "Learning has intrinsic value.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl556",
+   "type": "awl_word",
+   "word": "invoke",
+   "polish": [
+    "powoływać się"
+   ],
+   "example": "The author invokes historical examples.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl557",
+   "type": "awl_word",
+   "word": "levy",
+   "polish": [
+    "opłata",
+    "pobierać (podatek)"
+   ],
+   "example": "A levy was imposed on plastic bags.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl558",
+   "type": "awl_word",
+   "word": "likewise",
+   "polish": [
+    "podobnie"
+   ],
+   "example": "Likewise, the second group showed improvement.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl559",
+   "type": "awl_word",
+   "word": "nonetheless",
+   "polish": [
+    "niemniej jednak"
+   ],
+   "example": "The task was difficult; nonetheless, it was completed.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl560",
+   "type": "awl_word",
+   "word": "notwithstanding",
+   "polish": [
+    "pomimo",
+    "niezależnie od"
+   ],
+   "example": "Notwithstanding these limitations, the study is valuable.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl561",
+   "type": "awl_word",
+   "word": "odd",
+   "polish": [
+    "dziwny",
+    "nieparzysty"
+   ],
+   "example": "The results seemed odd at first.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl562",
+   "type": "awl_word",
+   "word": "ongoing",
+   "polish": [
+    "trwający"
+   ],
+   "example": "The investigation is ongoing.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl563",
+   "type": "awl_word",
+   "word": "panel",
+   "polish": [
+    "panel",
+    "komisja"
+   ],
+   "example": "A panel of experts reviewed the proposal.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl564",
+   "type": "awl_word",
+   "word": "persist",
+   "polish": [
+    "utrzymywać się"
+   ],
+   "example": "The problem persists despite new laws.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl565",
+   "type": "awl_word",
+   "word": "pose",
+   "polish": [
+    "stwarzać",
+    "stanowić"
+   ],
+   "example": "Climate change poses a serious threat.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl566",
+   "type": "awl_word",
+   "word": "reluctance",
+   "polish": [
+    "niechęć"
+   ],
+   "example": "There is a reluctance to change.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl567",
+   "type": "awl_word",
+   "word": "so-called",
+   "polish": [
+    "tak zwany"
+   ],
+   "example": "The so-called experts were wrong.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl568",
+   "type": "awl_word",
+   "word": "straightforward",
+   "polish": [
+    "prosty",
+    "nieskomplikowany"
+   ],
+   "example": "The procedure is straightforward.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl569",
+   "type": "awl_word",
+   "word": "undergo",
+   "polish": [
+    "przechodzić (np. zmiany)"
+   ],
+   "example": "The city has undergone major changes.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  },
+  {
+   "id": "awl570",
+   "type": "awl_word",
+   "word": "whereby",
+   "polish": [
+    "w ramach którego",
+    "dzięki któremu"
+   ],
+   "example": "A system whereby students assess each other was introduced.",
+   "awl_group": 10,
+   "category": "awl",
+   "difficulty": 3
+  }
+ ]
+}

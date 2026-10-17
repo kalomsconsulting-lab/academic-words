@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Academic Words</title>
+  <meta name="description" content="Nauka formalnego słownictwa do Academic Writing (IB).">
+  <meta name="theme-color" content="#16a34a">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Academic Words">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply saved theme before first paint to avoid a flash.
+    try {
+      var t = JSON.parse(localStorage.getItem('awv:v1') || '{}').settings?.theme;
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="app">
+    <nav class="nav" aria-label="Nawigacja główna">
+      <div class="nav-brand">
+        <img src="icons/icon.svg" alt="" width="36" height="36">
+        <span>Academic Words</span>
+      </div>
+      <a href="#/dashboard" data-route="dashboard"><span class="nav-ico" aria-hidden="true">🏠</span><span>Panel</span></a>
+      <a href="#/learn" data-route="learn"><span class="nav-ico" aria-hidden="true">🎯</span><span>Nauka</span></a>
+      <a href="#/browse" data-route="browse"><span class="nav-ico" aria-hidden="true">📖</span><span>Słownik</span></a>
+      <a href="#/settings" data-route="settings"><span class="nav-ico" aria-hidden="true">⚙️</span><span>Ustawienia</span></a>
+    </nav>
+    <main id="view" class="view" tabindex="-1">
+      <div class="loading">Ładowanie słownictwa…</div>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
