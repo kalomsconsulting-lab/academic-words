@@ -1,6 +1,6 @@
 // Service worker: network-first (zawsze świeże pliki online), cache jako zapas offline.
 // Po zmianie listy plików podbij numer wersji.
-const CACHE = 'academic-words-v2';
+const CACHE = 'academic-words-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -47,8 +47,10 @@ self.addEventListener('fetch', (event) => {
   // Supabase API i inne zewnętrzne adresy — bez pośrednictwa.
   if (url.origin !== location.origin) return;
 
+  // no-cache: zawsze pytaj serwer o nowszą wersję (inaczej przeglądarka/GitHub Pages podają stare pliki)
+  const fresh = req.mode === 'navigate' ? fetch(req) : fetch(req, { cache: 'no-cache' });
   event.respondWith(
-    fetch(req)
+    fresh
       .then((res) => {
         if (res.ok) {
           const copy = res.clone();
