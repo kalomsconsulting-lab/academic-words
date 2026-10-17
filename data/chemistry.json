@@ -1,0 +1,1671 @@
+{
+ "version": 1,
+ "subject": "chemistry_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum ogólnokształcącego i technikum, chemia, zakres podstawowy (Dz.U. 2018 poz. 467, zm. Dz.U. 2024 poz. 996), działy I-V, VII, X, XII; uzupełnienia z IB DP Chemistry guide (first assessment 2025); zakres klasy 1 wg typowego rozkładu materiału",
+ "items": [
+  {
+   "id": "chemib-pp-001",
+   "type": "qa",
+   "question": "What does the atomic number (Z) of an element tell you?",
+   "answer": "number of protons",
+   "accept": [
+    "protons",
+    "number of protons in the nucleus",
+    "proton number"
+   ],
+   "explanation": "Z is the number of protons in the nucleus; in a neutral atom it also equals the number of electrons.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-002",
+   "type": "qa",
+   "question": "What does the mass number (A) of an atom represent?",
+   "answer": "protons plus neutrons",
+   "accept": [
+    "number of nucleons",
+    "nucleons",
+    "protons and neutrons",
+    "number of protons and neutrons"
+   ],
+   "explanation": "A = Z + N, the total number of nucleons in the nucleus.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-003",
+   "type": "qa",
+   "question": "How many neutrons are there in an atom of chlorine-37 (Z = 17)?",
+   "answer": "20",
+   "accept": [
+    "20 neutrons"
+   ],
+   "explanation": "Neutrons = A - Z = 37 - 17 = 20.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-004",
+   "type": "cloze",
+   "text": "Atoms of the same element that have different numbers of {{neutrons}} are called isotopes.",
+   "hint": "same Z, different A",
+   "explanation": "Isotopes such as C-12 and C-14 have the same number of protons but different mass numbers.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-005",
+   "type": "qa",
+   "question": "Which subatomic particle has a relative charge of -1 and a negligible mass?",
+   "answer": "electron",
+   "accept": [
+    "electrons",
+    "the electron"
+   ],
+   "explanation": "Electrons occupy the space around the nucleus; their mass is about 1/1840 of a proton.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-006",
+   "type": "qa",
+   "question": "Which two subatomic particles are found in the nucleus of an atom?",
+   "answer": "protons and neutrons",
+   "accept": [
+    "neutrons and protons",
+    "nucleons",
+    "proton and neutron"
+   ],
+   "explanation": "The nucleus contains almost all of the atom's mass; electrons move around it.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-007",
+   "type": "cloze",
+   "text": "The relative atomic mass of an element is the weighted average mass of its {{isotopes}} compared with 1/12 of the mass of a carbon-12 atom.",
+   "hint": "atoms of the same element with different masses",
+   "explanation": "This is why relative atomic masses in the periodic table are often not whole numbers.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-008",
+   "type": "qa",
+   "question": "Chlorine is 75% Cl-35 and 25% Cl-37. What is its relative atomic mass?",
+   "answer": "35.5",
+   "accept": [
+    "35,5",
+    "35.5 u"
+   ],
+   "explanation": "Ar = 0.75 x 35 + 0.25 x 37 = 26.25 + 9.25 = 35.5.",
+   "category": "chemib_atoms",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-009",
+   "type": "qa",
+   "question": "What is the charge of the ion formed when a magnesium atom loses two electrons?",
+   "answer": "2+",
+   "accept": [
+    "+2",
+    "Mg2+",
+    "2 plus",
+    "plus 2"
+   ],
+   "explanation": "Losing electrons leaves an excess of protons, so the ion is a cation: Mg2+.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-010",
+   "type": "qa",
+   "question": "Write the full electron configuration of a sodium atom (Z = 11).",
+   "answer": "1s2 2s2 2p6 3s1",
+   "accept": [
+    "1s22s22p63s1",
+    "1s2, 2s2, 2p6, 3s1"
+   ],
+   "explanation": "Eleven electrons fill the subshells in order of increasing energy: 2 + 2 + 6 + 1.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-011",
+   "type": "qa",
+   "question": "What is the maximum number of electrons that a p subshell can hold?",
+   "answer": "6",
+   "accept": [
+    "6 electrons",
+    "six"
+   ],
+   "explanation": "A p subshell has three orbitals, each holding at most two electrons.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-012",
+   "type": "qa",
+   "question": "What is the maximum number of electrons in the third shell (n = 3)?",
+   "answer": "18",
+   "accept": [
+    "18 electrons"
+   ],
+   "explanation": "The third shell has 3s, 3p and 3d subshells: 2 + 6 + 10 = 18 electrons (2n^2).",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-013",
+   "type": "cloze",
+   "text": "The condensed (shorthand) electron configuration of chlorine is [Ne] 3s2 {{3p5}}.",
+   "hint": "chlorine has 7 valence electrons",
+   "explanation": "The noble-gas core [Ne] stands for 1s2 2s2 2p6; the remaining 7 electrons are 3s2 3p5.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-014",
+   "type": "qa",
+   "question": "Write the electron configuration of the chloride ion, Cl-.",
+   "answer": "1s2 2s2 2p6 3s2 3p6",
+   "accept": [
+    "1s22s22p63s23p6",
+    "[Ne] 3s2 3p6",
+    "[Ar]"
+   ],
+   "explanation": "Cl has 17 electrons; gaining one gives 18, the same configuration as argon.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-015",
+   "type": "qa",
+   "question": "According to the Aufbau principle, which subshell is filled after 3p?",
+   "answer": "4s",
+   "accept": [
+    "4s subshell"
+   ],
+   "explanation": "The 4s subshell is lower in energy than 3d, so potassium is [Ar] 4s1.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-016",
+   "type": "qa",
+   "question": "How many unpaired electrons does a nitrogen atom (1s2 2s2 2p3) have?",
+   "answer": "3",
+   "accept": [
+    "three",
+    "3 unpaired electrons"
+   ],
+   "explanation": "By Hund's rule the three 2p electrons occupy separate orbitals with parallel spins.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.3"
+  },
+  {
+   "id": "chemib-pp-017",
+   "type": "qa",
+   "question": "Which principle states that an orbital can hold at most two electrons, with opposite spins?",
+   "answer": "Pauli exclusion principle",
+   "accept": [
+    "Pauli principle",
+    "Pauli"
+   ],
+   "explanation": "Together with the Aufbau principle and Hund's rule it determines electron configurations.",
+   "category": "chemib_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.3"
+  },
+  {
+   "id": "chemib-pp-018",
+   "type": "qa",
+   "question": "What is a vertical column of the periodic table called?",
+   "answer": "group",
+   "accept": [
+    "a group"
+   ],
+   "explanation": "Elements in the same group have the same number of valence electrons and similar properties.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "chemib-pp-019",
+   "type": "qa",
+   "question": "What is a horizontal row of the periodic table called?",
+   "answer": "period",
+   "accept": [
+    "a period"
+   ],
+   "explanation": "Elements in the same period have the same number of occupied electron shells.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "chemib-pp-020",
+   "type": "qa",
+   "question": "To which block of the periodic table does sodium ([Ne] 3s1) belong?",
+   "answer": "s block",
+   "accept": [
+    "s",
+    "s-block"
+   ],
+   "explanation": "The highest-energy electron is in an s subshell; groups 1 and 2 (and He) form the s block.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "chemib-pp-021",
+   "type": "qa",
+   "question": "What does the period number of an element tell you about its atoms?",
+   "answer": "number of occupied shells",
+   "accept": [
+    "number of shells",
+    "number of electron shells",
+    "occupied electron shells",
+    "how many shells"
+   ],
+   "explanation": "Sodium is in period 3, so its electrons occupy three shells.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chemib-pp-022",
+   "type": "qa",
+   "question": "For main-group elements, what does the group number (1, 2, 13-18) tell you?",
+   "answer": "number of valence electrons",
+   "accept": [
+    "valence electrons",
+    "outer electrons",
+    "number of outer electrons"
+   ],
+   "explanation": "Group 1 has 1 valence electron, group 17 has 7 (group number minus 10).",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chemib-pp-023",
+   "type": "cloze",
+   "text": "Across a period from left to right, atomic radius {{decreases}} because nuclear charge increases while electrons are added to the same shell.",
+   "hint": "the nucleus pulls the electrons closer",
+   "explanation": "Shielding stays almost constant, so the effective nuclear charge rises.",
+   "category": "chemib_periodic",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chemib-pp-024",
+   "type": "cloze",
+   "text": "Down a group, atomic radius {{increases}} because each new period adds another electron shell.",
+   "hint": "more shells, bigger atom",
+   "explanation": "The extra inner shells also shield the outer electrons from the nucleus.",
+   "category": "chemib_periodic",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chemib-pp-025",
+   "type": "qa",
+   "question": "How does the first ionisation energy change across a period from left to right?",
+   "answer": "increases",
+   "accept": [
+    "it increases",
+    "goes up",
+    "rises"
+   ],
+   "explanation": "Greater nuclear charge and smaller radius make it harder to remove an electron.",
+   "category": "chemib_periodic",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chemib-pp-026",
+   "type": "qa",
+   "question": "Which element in period 3 has the largest atomic radius?",
+   "answer": "sodium",
+   "accept": [
+    "Na"
+   ],
+   "explanation": "Radius decreases across a period, so the first element, sodium, is the largest.",
+   "category": "chemib_periodic",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chemib-pp-027",
+   "type": "qa",
+   "question": "What is the name of the group 1 metals?",
+   "answer": "alkali metals",
+   "accept": [
+    "alkali"
+   ],
+   "explanation": "Li, Na, K, Rb, Cs are soft, reactive metals that form alkaline hydroxides with water.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S3.1"
+  },
+  {
+   "id": "chemib-pp-028",
+   "type": "qa",
+   "question": "What is the name of the group 17 elements?",
+   "answer": "halogens",
+   "accept": [
+    "halogen"
+   ],
+   "explanation": "F, Cl, Br, I are reactive non-metals that form halide ions (X-).",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S3.1"
+  },
+  {
+   "id": "chemib-pp-029",
+   "type": "qa",
+   "question": "Which group contains the very unreactive gases helium, neon and argon?",
+   "answer": "noble gases",
+   "accept": [
+    "group 18",
+    "noble gas"
+   ],
+   "explanation": "Noble gases have full outer shells, so they rarely form compounds.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S3.1"
+  },
+  {
+   "id": "chemib-pp-030",
+   "type": "cloze",
+   "text": "Down group 1, the reactivity of the alkali metals {{increases}} because the outer electron is further from the nucleus and lost more easily.",
+   "hint": "potassium reacts more violently with water than sodium",
+   "explanation": "Lower ionisation energy means the metal is oxidised more readily.",
+   "category": "chemib_periodic",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.1"
+  },
+  {
+   "id": "chemib-pp-031",
+   "type": "qa",
+   "question": "Which element has the highest electronegativity on the Pauling scale?",
+   "answer": "fluorine",
+   "accept": [
+    "F"
+   ],
+   "explanation": "Fluorine has a Pauling electronegativity of 4.0, the highest of all elements.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-032",
+   "type": "cloze",
+   "text": "Across a period electronegativity {{increases}}, and down a group it decreases.",
+   "hint": "fluorine is the most electronegative element",
+   "explanation": "Small atoms with high nuclear charge attract bonding electrons most strongly.",
+   "category": "chemib_periodic",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-033",
+   "type": "qa",
+   "question": "What type of bonding forms between a metal and a non-metal by transfer of electrons?",
+   "answer": "ionic",
+   "accept": [
+    "ionic bond",
+    "ionic bonding"
+   ],
+   "explanation": "The metal forms a cation and the non-metal an anion; the ions attract electrostatically.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-034",
+   "type": "qa",
+   "question": "What type of bond is formed when two non-metal atoms share a pair of electrons?",
+   "answer": "covalent",
+   "accept": [
+    "covalent bond",
+    "covalent bonding"
+   ],
+   "explanation": "Each shared pair counts towards the full outer shell of both atoms.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-035",
+   "type": "qa",
+   "question": "What type of bonding is present in a piece of copper?",
+   "answer": "metallic",
+   "accept": [
+    "metallic bond",
+    "metallic bonding"
+   ],
+   "explanation": "Metal cations are held in a lattice by a sea of delocalised electrons.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-036",
+   "type": "qa",
+   "question": "Using Pauling electronegativities, what kind of covalent bond forms when the difference is zero, as in Cl-Cl?",
+   "answer": "non-polar covalent",
+   "accept": [
+    "nonpolar covalent",
+    "non-polar",
+    "nonpolar"
+   ],
+   "explanation": "Equal electronegativities mean the electron pair is shared equally.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-037",
+   "type": "qa",
+   "question": "The electronegativity difference between H (2.2) and Cl (3.2) is 1.0. What type of bond is H-Cl?",
+   "answer": "polar covalent",
+   "accept": [
+    "polar"
+   ],
+   "explanation": "The shared pair is pulled towards chlorine, giving a dipole with H delta+ and Cl delta-.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-038",
+   "type": "qa",
+   "question": "Which ions are present in sodium chloride, NaCl?",
+   "answer": "Na+ and Cl-",
+   "accept": [
+    "Na+ Cl-",
+    "sodium and chloride ions",
+    "Na+, Cl-"
+   ],
+   "explanation": "Sodium loses one electron and chlorine gains one, giving ions with full outer shells.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "chemib-pp-039",
+   "type": "qa",
+   "question": "How many lone pairs of electrons does the oxygen atom in a water molecule have?",
+   "answer": "2",
+   "accept": [
+    "two",
+    "2 lone pairs"
+   ],
+   "explanation": "Oxygen has 6 valence electrons: 2 are used in the two O-H bonds and 4 form two lone pairs.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chemib-pp-040",
+   "type": "qa",
+   "question": "How many bonding pairs of electrons are shared in a nitrogen molecule, N2?",
+   "answer": "3",
+   "accept": [
+    "three",
+    "3 pairs",
+    "triple bond"
+   ],
+   "explanation": "N2 has a triple bond; each nitrogen atom also keeps one lone pair.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chemib-pp-041",
+   "type": "cloze",
+   "text": "A single covalent bond is always a {{sigma}} bond, formed by head-on overlap of orbitals.",
+   "hint": "Greek letter",
+   "explanation": "Pi bonds form by sideways overlap of p orbitals and occur only in double and triple bonds.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "chemib-pp-042",
+   "type": "qa",
+   "question": "A double bond consists of one sigma bond and how many pi bonds?",
+   "answer": "1",
+   "accept": [
+    "one",
+    "one pi bond"
+   ],
+   "explanation": "A triple bond has one sigma and two pi bonds.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "chemib-pp-043",
+   "type": "cloze",
+   "text": "CO2 has polar C=O bonds, but the molecule is non-polar because its {{linear}} shape makes the bond dipoles cancel.",
+   "hint": "shape of the molecule",
+   "explanation": "Water is bent, so its dipoles do not cancel and H2O is polar.",
+   "category": "chemib_bonding",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "chemib-pp-044",
+   "type": "qa",
+   "question": "Which type of crystal is hard, brittle, has a high melting point and conducts electricity only when molten or dissolved?",
+   "answer": "ionic",
+   "accept": [
+    "ionic crystal",
+    "ionic lattice"
+   ],
+   "explanation": "In the solid the ions are fixed in the lattice; they move only in the melt or in solution.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "chemib-pp-045",
+   "type": "qa",
+   "question": "Which type of crystal consists of molecules held together by weak intermolecular forces and has a low melting point, e.g. iodine?",
+   "answer": "molecular",
+   "accept": [
+    "molecular crystal",
+    "molecular lattice"
+   ],
+   "explanation": "Only the weak forces between molecules need to be overcome, not covalent bonds.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "chemib-pp-046",
+   "type": "cloze",
+   "text": "Metals conduct electricity because their {{delocalised}} electrons are free to move through the lattice of cations.",
+   "hint": "not attached to one atom",
+   "explanation": "The same mobile electrons make metals good conductors of heat and give them lustre.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "X.2"
+  },
+  {
+   "id": "chemib-pp-047",
+   "type": "qa",
+   "question": "Diamond and graphite are both made only of carbon. What is this phenomenon called?",
+   "answer": "allotropy",
+   "accept": [
+    "allotropes",
+    "allotropic forms"
+   ],
+   "explanation": "Allotropes are different structural forms of the same element in the same physical state.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "chemib-pp-048",
+   "type": "qa",
+   "question": "Which allotrope of carbon conducts electricity because each carbon atom contributes one delocalised electron?",
+   "answer": "graphite",
+   "accept": [
+    "graphene"
+   ],
+   "explanation": "In graphite each carbon is bonded to three others; the fourth electron is delocalised over the layer.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "chemib-pp-049",
+   "type": "qa",
+   "question": "Name the allotrope of carbon that is a single layer of carbon atoms arranged in hexagons.",
+   "answer": "graphene",
+   "accept": [],
+   "explanation": "Graphene is one layer of graphite: extremely strong, thin and a good conductor.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "chemib-pp-050",
+   "type": "cloze",
+   "text": "Diamond is extremely hard because each carbon atom is covalently bonded to {{four}} others in a giant covalent (network) lattice.",
+   "hint": "number of bonds per carbon atom",
+   "explanation": "Breaking the crystal would require breaking many strong covalent bonds.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "chemib-pp-051",
+   "type": "qa",
+   "question": "Name the carbon allotrope that forms hollow spheres of 60 carbon atoms (C60).",
+   "answer": "fullerene",
+   "accept": [
+    "fullerenes",
+    "buckminsterfullerene",
+    "C60"
+   ],
+   "explanation": "Fullerenes are molecular, so unlike diamond and graphite they dissolve in some organic solvents.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "chemib-pp-052",
+   "type": "qa",
+   "question": "What is the strongest type of intermolecular force?",
+   "answer": "hydrogen bonding",
+   "accept": [
+    "hydrogen bonds",
+    "hydrogen bond"
+   ],
+   "explanation": "Hydrogen bonds are still much weaker than covalent or ionic bonds.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "chemib-pp-053",
+   "type": "qa",
+   "question": "Which intermolecular force exists between all molecules, including non-polar ones such as CH4?",
+   "answer": "London dispersion forces",
+   "accept": [
+    "dispersion forces",
+    "London forces",
+    "van der Waals forces",
+    "van der Waals"
+   ],
+   "explanation": "Temporary dipoles arise from the random movement of electrons.",
+   "category": "chemib_bonding",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "chemib-pp-054",
+   "type": "cloze",
+   "text": "Hydrogen bonding occurs when a hydrogen atom is covalently bonded to N, O or {{F/fluorine}} and attracted to a lone pair on another such atom.",
+   "hint": "the most electronegative element",
+   "explanation": "H-Cl does not form hydrogen bonds because chlorine is less electronegative and larger.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "chemib-pp-055",
+   "type": "qa",
+   "question": "Why does water have a much higher boiling point than hydrogen sulfide, H2S?",
+   "answer": "hydrogen bonding",
+   "accept": [
+    "hydrogen bonds",
+    "hydrogen bonds between water molecules"
+   ],
+   "explanation": "Water molecules form strong hydrogen bonds; H2S molecules do not.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "chemib-pp-056",
+   "type": "cloze",
+   "text": "The boiling points of alkanes increase with chain length because London dispersion forces become {{stronger}} as the number of electrons increases.",
+   "hint": "more electrons, bigger temporary dipoles",
+   "explanation": "Methane is a gas, octane a liquid and C20 alkanes are waxy solids.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "chemib-pp-057",
+   "type": "qa",
+   "question": "What is the value of the Avogadro constant?",
+   "answer": "6.02 x 10^23",
+   "accept": [
+    "6.02 x 10^23 mol^-1",
+    "6.022 x 10^23",
+    "6.02*10^23",
+    "6.02e23",
+    "6,02 x 10^23",
+    "6.02 10 23",
+    "6.02 10^23"
+   ],
+   "explanation": "One mole contains 6.02 x 10^23 elementary entities (atoms, molecules, ions).",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "chemib-pp-058",
+   "type": "qa",
+   "question": "What is the SI unit of amount of substance?",
+   "answer": "mole",
+   "accept": [
+    "mol",
+    "the mole"
+   ],
+   "explanation": "One mole is the amount containing as many particles as there are atoms in 12 g of carbon-12.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "chemib-pp-059",
+   "type": "cloze",
+   "text": "The number of particles in one mole of substance is called the {{Avogadro}} constant.",
+   "hint": "Italian scientist",
+   "explanation": "Its symbol is NA (or L); N = n x NA.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "chemib-pp-060",
+   "type": "qa",
+   "question": "Which formula links amount of substance (n), mass (m) and molar mass (M)?",
+   "answer": "n = m / M",
+   "accept": [
+    "n = m/M",
+    "m / M",
+    "m/M",
+    "n=m/M"
+   ],
+   "explanation": "Rearranged: m = n x M and M = m / n.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chemib-pp-061",
+   "type": "qa",
+   "question": "Calculate the molar mass of water, H2O (H = 1.0, O = 16.0).",
+   "answer": "18.0 g/mol",
+   "accept": [
+    "18",
+    "18.0",
+    "18 g/mol",
+    "18 g mol-1"
+   ],
+   "explanation": "M = 2 x 1.0 + 16.0 = 18.0 g/mol.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chemib-pp-062",
+   "type": "qa",
+   "question": "Calculate the molar mass of carbon dioxide, CO2 (C = 12.0, O = 16.0).",
+   "answer": "44.0 g/mol",
+   "accept": [
+    "44",
+    "44.0",
+    "44 g/mol"
+   ],
+   "explanation": "M = 12.0 + 2 x 16.0 = 44.0 g/mol.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chemib-pp-063",
+   "type": "qa",
+   "question": "How many moles of water are there in 9.0 g of H2O (M = 18.0 g/mol)?",
+   "answer": "0.5 mol",
+   "accept": [
+    "0.5",
+    "0,5",
+    "0.50 mol",
+    "half a mole"
+   ],
+   "explanation": "n = m / M = 9.0 / 18.0 = 0.50 mol.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chemib-pp-064",
+   "type": "qa",
+   "question": "What is the mass of 2.0 mol of sodium chloride, NaCl (M = 58.5 g/mol)?",
+   "answer": "117 g",
+   "accept": [
+    "117",
+    "117.0 g"
+   ],
+   "explanation": "m = n x M = 2.0 x 58.5 = 117 g.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chemib-pp-065",
+   "type": "qa",
+   "question": "What is the molar volume of any gas under normal conditions (0 °C, 1013 hPa)?",
+   "answer": "22.4 dm3/mol",
+   "accept": [
+    "22.4",
+    "22,4",
+    "22.4 dm3",
+    "22.4 l/mol",
+    "22.4 L"
+   ],
+   "explanation": "At 0 °C and 1013 hPa one mole of any ideal gas occupies 22.4 dm3.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chemib-pp-066",
+   "type": "qa",
+   "question": "What molar volume of a gas does the IB use at STP (273.15 K, 100 kPa)?",
+   "answer": "22.7 dm3/mol",
+   "accept": [
+    "22.7",
+    "22,7",
+    "22.7 dm3",
+    "22.7 L"
+   ],
+   "explanation": "IB STP is 100 kPa, slightly lower pressure than 1013 hPa, so the volume is slightly larger than 22.4 dm3.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.5"
+  },
+  {
+   "id": "chemib-pp-067",
+   "type": "qa",
+   "question": "What volume does 0.5 mol of oxygen gas occupy under normal conditions (molar volume 22.4 dm3/mol)?",
+   "answer": "11.2 dm3",
+   "accept": [
+    "11.2",
+    "11,2",
+    "11.2 l",
+    "11.2 L"
+   ],
+   "explanation": "V = n x Vm = 0.5 x 22.4 = 11.2 dm3.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chemib-pp-068",
+   "type": "cloze",
+   "text": "According to Avogadro's law, equal volumes of gases at the same temperature and pressure contain equal numbers of {{molecules/particles/moles}}.",
+   "hint": "what the volume of a gas depends on",
+   "explanation": "This is why gas volumes in an equation can be read in the same ratio as the mole coefficients.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chemib-pp-069",
+   "type": "qa",
+   "question": "Balance the equation: H2 + O2 -> H2O. Give the coefficients in order.",
+   "answer": "2, 1, 2",
+   "accept": [
+    "2 1 2",
+    "2,1,2",
+    "2H2 + O2 -> 2H2O",
+    "2H2 + O2 = 2H2O"
+   ],
+   "explanation": "2H2 + O2 -> 2H2O: four H and two O atoms on each side.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chemib-pp-070",
+   "type": "qa",
+   "question": "In the reaction 2H2 + O2 -> 2H2O, how many moles of water form from 3 mol of H2 with excess oxygen?",
+   "answer": "3 mol",
+   "accept": [
+    "3",
+    "3 moles",
+    "three"
+   ],
+   "explanation": "The mole ratio H2 : H2O is 2 : 2 = 1 : 1.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chemib-pp-071",
+   "type": "qa",
+   "question": "In the reaction 2H2 + O2 -> 2H2O, how many moles of O2 are needed to react completely with 4 mol of H2?",
+   "answer": "2 mol",
+   "accept": [
+    "2",
+    "2 moles",
+    "two"
+   ],
+   "explanation": "The mole ratio H2 : O2 is 2 : 1, so 4 mol H2 needs 2 mol O2.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chemib-pp-072",
+   "type": "qa",
+   "question": "What mass of CO2 forms when 12 g of carbon burns completely (C + O2 -> CO2; M(CO2) = 44 g/mol)?",
+   "answer": "44 g",
+   "accept": [
+    "44",
+    "44.0 g"
+   ],
+   "explanation": "12 g of carbon is 1 mol, which gives 1 mol of CO2 = 44 g.",
+   "category": "chemib_mole",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chemib-pp-073",
+   "type": "cloze",
+   "text": "In a chemical reaction the total mass of the products {{equals}} the total mass of the reactants (law of conservation of mass).",
+   "hint": "atoms are neither created nor destroyed",
+   "explanation": "This is why equations must be balanced: the same atoms appear on both sides.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chemib-pp-074",
+   "type": "cloze",
+   "text": "The {{empirical}} formula shows the simplest whole-number ratio of atoms of each element in a compound.",
+   "hint": "the other kind is the molecular formula",
+   "explanation": "For glucose C6H12O6 the empirical formula is CH2O.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chemib-pp-075",
+   "type": "qa",
+   "question": "What is the empirical formula of glucose, C6H12O6?",
+   "answer": "CH2O",
+   "accept": [],
+   "explanation": "Divide all subscripts by the highest common factor, 6.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chemib-pp-076",
+   "type": "qa",
+   "question": "A compound has the empirical formula CH2 and a molar mass of 56 g/mol. What is its molecular formula?",
+   "answer": "C4H8",
+   "accept": [],
+   "explanation": "M(CH2) = 14; 56 / 14 = 4, so the molecular formula is (CH2)4 = C4H8.",
+   "category": "chemib_mole",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chemib-pp-077",
+   "type": "qa",
+   "question": "A hydrocarbon contains 75% carbon and 25% hydrogen by mass (C = 12, H = 1). What is its empirical formula?",
+   "answer": "CH4",
+   "accept": [],
+   "explanation": "75/12 = 6.25 mol C and 25/1 = 25 mol H; ratio 6.25 : 25 = 1 : 4.",
+   "category": "chemib_mole",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chemib-pp-078",
+   "type": "qa",
+   "question": "In a reaction, which reactant is completely used up first and so determines the maximum amount of product?",
+   "answer": "limiting reactant",
+   "accept": [
+    "limiting reagent",
+    "the limiting reactant"
+   ],
+   "explanation": "The other reactant is in excess and some of it remains after the reaction.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB R2.1"
+  },
+  {
+   "id": "chemib-pp-079",
+   "type": "qa",
+   "question": "The theoretical yield of a reaction is 10.0 g and the actual yield is 8.0 g. What is the percentage yield?",
+   "answer": "80%",
+   "accept": [
+    "80",
+    "80 %",
+    "80 percent"
+   ],
+   "explanation": "% yield = 8.0 / 10.0 x 100% = 80%.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB R2.1"
+  },
+  {
+   "id": "chemib-pp-080",
+   "type": "cloze",
+   "text": "Percentage yield = {{actual}} yield / theoretical yield x 100%.",
+   "hint": "what you really obtained",
+   "explanation": "Yields are below 100% because of side reactions, incomplete reactions and losses during purification.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB R2.1"
+  },
+  {
+   "id": "chemib-pp-081",
+   "type": "qa",
+   "question": "Which formula gives the molar concentration of a solution?",
+   "answer": "c = n / V",
+   "accept": [
+    "c = n/V",
+    "n / V",
+    "n/V",
+    "c=n/V"
+   ],
+   "explanation": "n in mol, V in dm3, so c is in mol/dm3.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-082",
+   "type": "qa",
+   "question": "What is the molar concentration when 0.5 mol of NaCl is dissolved to make 2.0 dm3 of solution?",
+   "answer": "0.25 mol/dm3",
+   "accept": [
+    "0.25",
+    "0,25",
+    "0.25 M",
+    "0.25 mol dm-3"
+   ],
+   "explanation": "c = n / V = 0.5 / 2.0 = 0.25 mol/dm3.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-083",
+   "type": "qa",
+   "question": "What mass of solute is in 200 g of a 5% (by mass) solution?",
+   "answer": "10 g",
+   "accept": [
+    "10",
+    "10 grams"
+   ],
+   "explanation": "m(solute) = 5% x 200 g = 10 g.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-084",
+   "type": "qa",
+   "question": "What is the percentage concentration (by mass) when 20 g of salt is dissolved in 80 g of water?",
+   "answer": "20%",
+   "accept": [
+    "20",
+    "20 %",
+    "20 percent"
+   ],
+   "explanation": "Cp = 20 g / (20 g + 80 g) x 100% = 20%; the solution mass includes the solute.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-085",
+   "type": "cloze",
+   "text": "{{Solubility}} is the maximum mass of a substance that dissolves in 100 g of solvent at a given temperature to give a saturated solution.",
+   "hint": "how much can dissolve",
+   "explanation": "For most solids solubility increases with temperature; for gases it decreases.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-086",
+   "type": "cloze",
+   "text": "Adding more solvent to a solution is called {{dilution}}; the amount of solute stays the same but the concentration falls.",
+   "hint": "the opposite of concentrating",
+   "explanation": "Useful relation: c1 x V1 = c2 x V2.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-087",
+   "type": "qa",
+   "question": "A solution of salt in water is clear with no visible particles. Is it homogeneous or heterogeneous?",
+   "answer": "homogeneous",
+   "accept": [
+    "homogenous",
+    "homogeneous mixture"
+   ],
+   "explanation": "A true solution is a homogeneous mixture: its composition is uniform throughout.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "chemib-pp-088",
+   "type": "qa",
+   "question": "What is a mixture of two immiscible liquids in which tiny droplets of one are dispersed in the other (e.g. milk, mayonnaise)?",
+   "answer": "emulsion",
+   "accept": [
+    "an emulsion"
+   ],
+   "explanation": "Emulsions are heterogeneous; emulsifiers such as lecithin stabilise them.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "chemib-pp-089",
+   "type": "qa",
+   "question": "Which technique separates an insoluble solid from a liquid using filter paper?",
+   "answer": "filtration",
+   "accept": [
+    "filtering"
+   ],
+   "explanation": "The liquid that passes through is the filtrate; the solid left behind is the residue.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "chemib-pp-090",
+   "type": "qa",
+   "question": "Which technique separates two miscible liquids with different boiling points, e.g. ethanol and water?",
+   "answer": "distillation",
+   "accept": [
+    "fractional distillation",
+    "simple distillation"
+   ],
+   "explanation": "The liquid with the lower boiling point evaporates first and is condensed.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "chemib-pp-091",
+   "type": "qa",
+   "question": "Which technique separates substances by how far they travel in a solvent across paper or a thin layer?",
+   "answer": "chromatography",
+   "accept": [
+    "paper chromatography",
+    "thin-layer chromatography"
+   ],
+   "explanation": "Components with greater affinity for the solvent travel further.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "chemib-pp-092",
+   "type": "qa",
+   "question": "Which technique transfers a solute from one liquid into a second, immiscible solvent in which it is more soluble?",
+   "answer": "extraction",
+   "accept": [
+    "solvent extraction",
+    "liquid-liquid extraction"
+   ],
+   "explanation": "It is carried out in a separating funnel, e.g. removing iodine from water with hexane.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "chemib-pp-093",
+   "type": "qa",
+   "question": "What do we call a reaction that releases energy to the surroundings as heat?",
+   "answer": "exothermic",
+   "accept": [
+    "exoenergetic",
+    "exothermic reaction"
+   ],
+   "explanation": "Combustion and neutralisation are exothermic; the temperature of the surroundings rises.",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "chemib-pp-094",
+   "type": "qa",
+   "question": "What do we call a reaction that absorbs energy from the surroundings, so the products have more energy than the reactants?",
+   "answer": "endothermic",
+   "accept": [
+    "endoenergetic",
+    "endothermic reaction"
+   ],
+   "explanation": "Thermal decomposition of CaCO3 and photosynthesis are endothermic.",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "chemib-pp-095",
+   "type": "qa",
+   "question": "What is the minimum energy that colliding particles must have in order to react?",
+   "answer": "activation energy",
+   "accept": [
+    "Ea",
+    "activation energy Ea"
+   ],
+   "explanation": "On an energy profile diagram it is the height of the barrier between reactants and the transition state.",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "chemib-pp-096",
+   "type": "qa",
+   "question": "What is the sign of the enthalpy change, delta H, for an exothermic reaction?",
+   "answer": "negative",
+   "accept": [
+    "delta H < 0",
+    "< 0",
+    "minus",
+    "less than zero"
+   ],
+   "explanation": "Energy leaves the system, so the enthalpy of the products is lower than that of the reactants.",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "chemib-pp-097",
+   "type": "qa",
+   "question": "What is a substance that speeds up a reaction without being used up?",
+   "answer": "catalyst",
+   "accept": [
+    "a catalyst"
+   ],
+   "explanation": "Enzymes are biological catalysts; catalytic converters in cars use platinum.",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "chemib-pp-098",
+   "type": "cloze",
+   "text": "A catalyst increases the rate of a reaction by providing an alternative pathway with a {{lower}} activation energy.",
+   "hint": "the barrier changes, delta H does not",
+   "explanation": "More collisions have enough energy to react; the enthalpy change stays the same.",
+   "category": "chemib_reactions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "chemib-pp-099",
+   "type": "qa",
+   "question": "The rate of a reaction is defined as the change in what quantity per unit time?",
+   "answer": "concentration",
+   "accept": [
+    "concentration of a reactant",
+    "concentration of a reagent",
+    "concentration of reactant or product"
+   ],
+   "explanation": "Rate = change in concentration / time, typically in mol/(dm3 s).",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "chemib-pp-100",
+   "type": "qa",
+   "question": "How does grinding a solid reactant into a powder affect the rate of reaction?",
+   "answer": "increases",
+   "accept": [
+    "it increases",
+    "faster",
+    "increases the rate"
+   ],
+   "explanation": "A larger surface area means more particles are exposed and collisions are more frequent.",
+   "category": "chemib_reactions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "chemib-pp-101",
+   "type": "cloze",
+   "text": "Raising the temperature increases the rate of reaction because more particles have energy greater than or equal to the {{activation}} energy and collisions are more frequent.",
+   "hint": "energy barrier",
+   "explanation": "Rate roughly doubles for every 10 °C rise in many reactions.",
+   "category": "chemib_reactions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "chemib-pp-102",
+   "type": "qa",
+   "question": "2Mg + O2 -> 2MgO is an example of which type of reaction?",
+   "answer": "synthesis",
+   "accept": [
+    "combination",
+    "synthesis reaction",
+    "combustion",
+    "oxidation"
+   ],
+   "explanation": "Two substances combine to form one product; it is also a combustion (and redox) reaction.",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.3"
+  },
+  {
+   "id": "chemib-pp-103",
+   "type": "qa",
+   "question": "CaCO3 -> CaO + CO2 is an example of which type of reaction?",
+   "answer": "decomposition",
+   "accept": [
+    "thermal decomposition",
+    "decomposition reaction"
+   ],
+   "explanation": "One compound breaks down into two or more simpler substances on heating.",
+   "category": "chemib_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.3"
+  },
+  {
+   "id": "chemib-pp-104",
+   "type": "qa",
+   "question": "What is the general formula of the alkanes?",
+   "answer": "CnH2n+2",
+   "accept": [
+    "CnH(2n+2)",
+    "C n H 2n+2"
+   ],
+   "explanation": "Methane CH4, ethane C2H6, propane C3H8: each has two more hydrogens than twice the carbons.",
+   "category": "chemib_organic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "chemib-pp-105",
+   "type": "qa",
+   "question": "What is a series of compounds with the same functional group in which each member differs from the next by CH2?",
+   "answer": "homologous series",
+   "accept": [
+    "a homologous series"
+   ],
+   "explanation": "Members show a gradual change in physical properties and similar chemical properties.",
+   "category": "chemib_organic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "chemib-pp-106",
+   "type": "qa",
+   "question": "Which functional group, -OH, is characteristic of alcohols?",
+   "answer": "hydroxyl",
+   "accept": [
+    "hydroxyl group",
+    "OH",
+    "-OH"
+   ],
+   "explanation": "Ethanol, C2H5OH, is the alcohol in alcoholic drinks.",
+   "category": "chemib_organic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "chemib-pp-107",
+   "type": "qa",
+   "question": "Compounds containing the -COOH group belong to which class?",
+   "answer": "carboxylic acids",
+   "accept": [
+    "carboxylic acid"
+   ],
+   "explanation": "Ethanoic (acetic) acid, CH3COOH, is the acid in vinegar.",
+   "category": "chemib_organic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "chemib-pp-108",
+   "type": "qa",
+   "question": "Which hydrocarbons contain at least one C=C double bond?",
+   "answer": "alkenes",
+   "accept": [
+    "alkene"
+   ],
+   "explanation": "Alkenes are unsaturated; their general formula is CnH2n.",
+   "category": "chemib_organic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.1"
+  },
+  {
+   "id": "chemib-pp-109",
+   "type": "qa",
+   "question": "Which piece of glassware is used to prepare a solution of an exact volume, e.g. 250.0 cm3?",
+   "answer": "volumetric flask",
+   "accept": [
+    "graduated flask",
+    "measuring flask"
+   ],
+   "explanation": "The solute is dissolved, then solvent is added up to the calibration mark.",
+   "category": "chemib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "chemib-pp-110",
+   "type": "qa",
+   "question": "Which piece of equipment delivers precise, variable volumes of liquid in a titration?",
+   "answer": "burette",
+   "accept": [
+    "a burette",
+    "buret"
+   ],
+   "explanation": "A pipette delivers one fixed volume; a burette is read before and after to find the volume added.",
+   "category": "chemib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Tool 1"
+  },
+  {
+   "id": "chemib-pp-111",
+   "type": "qa",
+   "question": "What must you wear to protect your eyes whenever chemicals are used in the lab?",
+   "answer": "safety goggles",
+   "accept": [
+    "goggles",
+    "safety glasses",
+    "eye protection"
+   ],
+   "explanation": "Eye protection is worn throughout the experiment, not only when pouring.",
+   "category": "chemib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Tool 1"
+  },
+  {
+   "id": "chemib-pp-112",
+   "type": "qa",
+   "question": "What does a hazard pictogram showing a flame mean?",
+   "answer": "flammable",
+   "accept": [
+    "flammable substance",
+    "highly flammable"
+   ],
+   "explanation": "Flammable substances such as ethanol are kept away from open flames.",
+   "category": "chemib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Tool 1"
+  },
+  {
+   "id": "chemib-pp-113",
+   "type": "qa",
+   "question": "What does a hazard pictogram showing a skull and crossbones mean?",
+   "answer": "toxic",
+   "accept": [
+    "acute toxicity",
+    "poisonous"
+   ],
+   "explanation": "The pictogram with a test tube dripping on a hand and a bar means corrosive.",
+   "category": "chemib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Tool 1"
+  },
+  {
+   "id": "chemib-pp-114",
+   "type": "qa",
+   "question": "When diluting concentrated sulfuric acid, which liquid do you add to which?",
+   "answer": "acid to water",
+   "accept": [
+    "add acid to water",
+    "acid into water",
+    "pour the acid into the water"
+   ],
+   "explanation": "The dilution is strongly exothermic; adding water to acid can make it boil and spit.",
+   "category": "chemib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Tool 1"
+  },
+  {
+   "id": "chemib-pp-115",
+   "type": "qa",
+   "question": "Which piece of glassware delivers one fixed, accurate volume of liquid, e.g. 25.00 cm3?",
+   "answer": "pipette",
+   "accept": [
+    "volumetric pipette",
+    "a pipette"
+   ],
+   "explanation": "A pipette filler is used to draw up the liquid; never pipette by mouth.",
+   "category": "chemib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB Tool 1"
+  }
+ ]
+}
