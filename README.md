@@ -32,10 +32,10 @@ Przedmioty są pogrupowane w **ścieżki** (`LEVELS` w `app.js`), a konto widzi 
 
 | Ścieżka | Przedmioty |
 |---|---|
-| IB Pre-DP (`ib`) | Academic English, Biology, Mathematics, Chemistry, Physics, History, Geography, Computer Science (karty po angielsku); History of Poland, Polish, Edukacja obywatelska (po polsku); German B (słówka DE↔PL) |
+| IB Pre-DP (`ib`) | Academic English, Biology, English, Mathematics, Chemistry, Physics, History, Geography, Computer Science, Psychology (karty po angielsku); History of Poland, Polish, Edukacja obywatelska (po polsku); German B (słówka DE↔PL) |
 | 7 klasa szkoły podstawowej (`sp7`) | Angielski (słówka EN↔PL), Niemiecki (słówka DE↔PL), Biologia, Matematyka, Polski, Chemia, Fizyka, Historia, Geografia, Informatyka, Edukacja zdrowotna (karty po polsku) |
 
-Lista przedmiotów pochodzi z planów lekcji (Pre-DP1 R w 2. SLO STO i 7B w SP 112, rok 2026/27). Pominięte są przedmioty bez treści do zapamiętania: WF, basen, godzina wychowawcza / Homeroom, religia, etyka, muzyka, plastyka, dziedzictwo kulturowe, Art, Electives i English (lekcje języka A, Academic English obejmuje AW). Każdy przedmiot ma własne działy (`CATEGORIES` z polem `subject`). Kartami bazowymi (plik w `data/`) mają tylko Academic English, Biology, Angielski i Biologia; pozostałe przedmioty nie mają pola `file` i zapełniają się z importu AI i wspólnych materiałów.
+Lista przedmiotów pochodzi z planów lekcji (Pre-DP1 R w 2. SLO STO i 7B w SP 112, rok 2026/27). Pominięte są przedmioty bez treści do zapamiętania: WF, basen, godzina wychowawcza / Homeroom, religia, etyka, muzyka, plastyka, dziedzictwo kulturowe, Art. Electives idą trymestrami: teraz Psychology, a Philosophy (`philosophy_ib`) i Business & Management (`business_ib`) mają gotowe działy i trzeba je tylko dopisać do `LEVELS.ib.subjects`, gdy się zaczną. Każdy przedmiot ma własne działy (`CATEGORIES` z polem `subject`). Kartami bazowymi (plik w `data/`) mają tylko Academic English, Biology, Angielski i Biologia; pozostałe przedmioty nie mają pola `file` i zapełniają się z importu AI i wspólnych materiałów.
 
 Nowe konto przy pierwszym uruchomieniu wybiera ścieżkę (można ją zmienić w *Ustawieniach*). Ścieżka zapisuje się w `settings.level` i synchronizuje z kontem. Stan sprzed wprowadzenia ścieżek, który ma już postęp, jest automatycznie przypisany do IB. Prompt czatu AI dostaje poziom ucznia i język kart z przedmiotu (`lang`), a przedmiot językowy (`vocab: true`) dostaje prompt na słówka.
 

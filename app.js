@@ -151,6 +151,40 @@
     deib_planet:      { subject: 'german_ib', label: 'Wspólna planeta', short: 'Planeta', pl: 'Sharing the planet', icon: '🌍' },
     deib_grammar:     { subject: 'german_ib', label: 'Gramatyka i zwroty', short: 'Gramatyka', pl: 'Grammatik', icon: '🧩' },
     deib_other:       { subject: 'german_ib', label: 'Inne', short: 'Inne', pl: 'Sonstiges', icon: '📘' },
+    // English (osobny przedmiot, nie Academic Writing): analiza tekstów literackich i nieliterackich
+    enib_devices:     { subject: 'english_ib', label: 'Literary devices', short: 'Devices', pl: 'środki stylistyczne', icon: '🎨' },
+    enib_poetry:      { subject: 'english_ib', label: 'Poetry', short: 'Poetry', pl: 'poezja', icon: '🪶' },
+    enib_prose:       { subject: 'english_ib', label: 'Prose fiction', short: 'Prose', pl: 'proza', icon: '📕' },
+    enib_drama:       { subject: 'english_ib', label: 'Drama', short: 'Drama', pl: 'dramat', icon: '🎭' },
+    enib_nonlit:      { subject: 'english_ib', label: 'Non-literary texts', short: 'Non-literary', pl: 'teksty nieliterackie', icon: '📰' },
+    enib_rhetoric:    { subject: 'english_ib', label: 'Language & rhetoric', short: 'Rhetoric', pl: 'język i retoryka', icon: '📣' },
+    enib_analysis:    { subject: 'english_ib', label: 'Analysis & essays', short: 'Analysis', pl: 'analiza i wypracowania', icon: '✍️' },
+    enib_texts:       { subject: 'english_ib', label: 'Set texts', short: 'Set texts', pl: 'omawiane utwory', icon: '📚' },
+    enib_other:       { subject: 'english_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    // Electives (każdy przez jeden trymestr): Psychology, Philosophy, Business & Management
+    psyib_methods:    { subject: 'psychology_ib', label: 'Research methods & ethics', short: 'Methods', pl: 'metody badań i etyka', icon: '🔬' },
+    psyib_biological: { subject: 'psychology_ib', label: 'Biological approach', short: 'Biological', pl: 'podejście biologiczne', icon: '🧬' },
+    psyib_cognitive:  { subject: 'psychology_ib', label: 'Cognitive approach', short: 'Cognitive', pl: 'podejście poznawcze', icon: '💭' },
+    psyib_social:     { subject: 'psychology_ib', label: 'Sociocultural approach', short: 'Sociocultural', pl: 'podejście społeczno-kulturowe', icon: '👥' },
+    psyib_development:{ subject: 'psychology_ib', label: 'Developmental psychology', short: 'Development', pl: 'psychologia rozwojowa', icon: '👶' },
+    psyib_health:     { subject: 'psychology_ib', label: 'Health & abnormal psychology', short: 'Health', pl: 'zdrowie i zaburzenia', icon: '🩺' },
+    psyib_studies:    { subject: 'psychology_ib', label: 'Key studies', short: 'Studies', pl: 'kluczowe badania', icon: '📋' },
+    psyib_other:      { subject: 'psychology_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    phiib_human:      { subject: 'philosophy_ib', label: 'Being human', short: 'Being human', pl: 'człowiek i umysł', icon: '🧍' },
+    phiib_knowledge:  { subject: 'philosophy_ib', label: 'Knowledge & truth', short: 'Knowledge', pl: 'teoria poznania', icon: '🔎' },
+    phiib_metaphysics:{ subject: 'philosophy_ib', label: 'Metaphysics', short: 'Metaphysics', pl: 'metafizyka', icon: '🌌' },
+    phiib_ethics:     { subject: 'philosophy_ib', label: 'Ethics', short: 'Ethics', pl: 'etyka', icon: '⚖️' },
+    phiib_political:  { subject: 'philosophy_ib', label: 'Political philosophy', short: 'Political', pl: 'filozofia polityczna', icon: '🏛️' },
+    phiib_logic:      { subject: 'philosophy_ib', label: 'Logic & arguments', short: 'Logic', pl: 'logika i argumentacja', icon: '🧩' },
+    phiib_thinkers:   { subject: 'philosophy_ib', label: 'Philosophers', short: 'Philosophers', pl: 'filozofowie i ich poglądy', icon: '🗿' },
+    phiib_other:      { subject: 'philosophy_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
+    busib_intro:      { subject: 'business_ib', label: 'Business organisation', short: 'Organisation', pl: 'organizacja i otoczenie firmy', icon: '🏢' },
+    busib_hr:         { subject: 'business_ib', label: 'Human resources', short: 'HR', pl: 'zarządzanie ludźmi', icon: '🧑‍💼' },
+    busib_finance:    { subject: 'business_ib', label: 'Finance & accounts', short: 'Finance', pl: 'finanse i rachunkowość', icon: '💰' },
+    busib_marketing:  { subject: 'business_ib', label: 'Marketing', short: 'Marketing', pl: 'marketing', icon: '📣' },
+    busib_operations: { subject: 'business_ib', label: 'Operations', short: 'Operations', pl: 'zarządzanie operacyjne', icon: '⚙️' },
+    busib_tools:      { subject: 'business_ib', label: 'Business tools', short: 'Tools', pl: 'narzędzia i modele (SWOT, STEEPLE…)', icon: '🧰' },
+    busib_other:      { subject: 'business_ib', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
 
     // ----- 7 klasa: przedmioty z planu lekcji (karty po polsku) -----
     // Matematyka
@@ -280,6 +314,10 @@
     polski_ib: { label: 'Polish', icon: '📖', tagline: 'Epoki, lektury i pojęcia', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'plib_other' },
     eo_ib: { label: 'Edukacja obywatelska', icon: '⚖️', tagline: 'Państwo, prawo i społeczeństwo', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'eo_other' },
     cs_ib: { label: 'Computer Science', icon: '💻', tagline: 'Pojęcia i algorytmy (od II semestru)', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'csib_other' },
+    english_ib: { label: 'English', icon: '🖋️', tagline: 'Literatura i analiza tekstów', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'enib_other' },
+    psychology_ib: { label: 'Psychology', icon: '🧠', tagline: 'Elective: podejścia, badania i pojęcia', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'psyib_other' },
+    philosophy_ib: { label: 'Philosophy', icon: '🤔', tagline: 'Elective: pojęcia, argumenty i filozofowie', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'phiib_other' },
+    business_ib: { label: 'Business & Management', icon: '💼', tagline: 'Elective: pojęcia, modele i przykłady', lang: 'en', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'busib_other' },
     german_ib: {
       label: 'German B', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', lang: 'de-pl', vocab: true,
       types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'deib_other', typeLabels: { awl_word: 'Słówko' },
@@ -309,8 +347,9 @@
     // dalej przedmioty, które zapełniają się z importu AI.
     ib: {
       label: 'IB Pre-DP',
-      subjects: ['academic_english', 'biology', 'math_ib', 'chemistry_ib', 'physics_ib', 'history_ib', 'historia_polski_ib',
-        'geography_ib', 'polski_ib', 'german_ib', 'eo_ib', 'cs_ib'],
+      // Electives idą trymestrami: teraz Psychology; philosophy_ib i business_ib dopisać, gdy się zaczną.
+      subjects: ['academic_english', 'biology', 'english_ib', 'math_ib', 'chemistry_ib', 'physics_ib', 'history_ib', 'historia_polski_ib',
+        'geography_ib', 'polski_ib', 'german_ib', 'eo_ib', 'cs_ib', 'psychology_ib'],
       audience: 'uczeń IB Pre-DP (materiały po angielsku)',
     },
     sp7: {
@@ -1631,7 +1670,7 @@
           h('div', { class: 'muted small' }, 'Podgląd postępów dzieci. Własną ścieżkę nauki możesz wybrać później w Ustawieniach.'))),
       sync.client && !sync.user
         ? h('p', { class: 'muted small' }, 'Masz już konto na innym urządzeniu? ', h('a', { href: '#/settings' }, 'Zaloguj się w Ustawieniach'), ', a ścieżka i postęp wczytają się same.')
-        : null);
+        : ''); // nie null: natywne replaceChildren wypisałoby „null”
   }
 
   function setSubject(key) {
