@@ -291,13 +291,27 @@
 
   const toArr = (v) => (Array.isArray(v) ? v : v ? [v] : []).map(String).filter(Boolean);
 
+  // Bez znaków diakrytycznych: ą→a, ż→z, ł→l (NFD nie rozkłada „ł”).
+  const fold = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l').replace(/Ł/g, 'L');
+
+  // Porównywanie odpowiedzi: małe litery, bez interpunkcji i bez polskich znaków („żołądek” = „zoladek”).
   function norm(s) {
-    return String(s).toLowerCase()
+    return fold(String(s).toLowerCase())
       .replace(/[’‘`]/g, "'")
       .replace(/[^a-z0-9'\- ]+/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
   }
+  // Jak norm(), ale z zachowaniem liter spoza a–z — odróżnia „zoladek” od „żołądek”.
+  function normStrict(s) {
+    return String(s).toLowerCase()
+      .replace(/[’‘`]/g, "'")
+      .replace(/[^\p{L}\p{N}'\- ]+/gu, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+  // Wyszukiwanie: wielkość liter i polskie znaki bez znaczenia.
+  const searchKey = (s) => fold(String(s).toLowerCase());
   const words = (s) => norm(s).split(' ').filter(Boolean);
 
   // Część formalnego wariantu, która faktycznie się różni ("Research demonstrates" vs "Research shows" -> "demonstrates").
@@ -317,14 +331,14 @@
     if (!sentence) return null;
     const split = (m) => ({ before: sentence.slice(0, m.index), hidden: m[0], after: sentence.slice(m.index + m[0].length) });
     for (const c of candidates) {
-      const m = sentence.match(new RegExp(`(?<![A-Za-z])${escRe(c)}(?![A-Za-z])`, 'i'));
+      const m = sentence.match(new RegExp(`(?<!\\p{L})${escRe(c)}(?!\\p{L})`, 'iu'));
       if (m) return split(m);
     }
     for (const c of candidates) {
       if (/\s/.test(c)) continue;
       let stem = c.toLowerCase();
       if (stem.length >= 4 && /[ey]$/.test(stem)) stem = stem.slice(0, -1);
-      const m = sentence.match(new RegExp(`(?<![A-Za-z])${escRe(stem)}[a-z]*`, 'i'));
+      const m = sentence.match(new RegExp(`(?<!\\p{L})${escRe(stem)}\\p{L}*`, 'iu'));
       if (m) return split(m);
     }
     return null;
@@ -465,7 +479,7 @@
     it._search = [it.informal, it.word, it.rule, it.incorrect, it.correct, it.example, it.example_formal,
       it.question, it.answer, it.explanation, it.hint, it.type === 'cloze' ? it.text.replace(CLOZE_RE_G, '$1') : null, ...(it.accept || []),
       ...(Array.isArray(it.formal) ? it.formal : [it.formal]), ...(Array.isArray(it.polish) ? it.polish : [it.polish])]
-      .filter(Boolean).join(' ').toLowerCase();
+      .filter(Boolean).map(searchKey).join(' ');
     return it;
   }
 
@@ -726,7 +740,8 @@
     let best = null;
     for (const a of accepted) {
       const na = norm(a);
-      if (n === na) return { ok: true, exact: true, match: a };
+      // ta sama odpowiedź, ale bez polskich znaków (np. „zoladek”) — zaliczona, z przypomnieniem
+      if (n === na) return normStrict(input) === normStrict(a) ? { ok: true, exact: true, match: a } : { ok: true, exact: false, accents: true, match: a };
       const tol = na.length <= 3 ? 0 : na.length <= 6 ? 1 : 2; // max 2 literówki
       const d = levenshtein(n, na);
       if (d <= tol && (!best || d < best.d)) best = { d, a };
@@ -1009,12 +1024,15 @@
     return { instruction: 'Napisz angielskie słowo z AWL', prompt: it.polish.join(', '), context: hint, accepted: [it.word], expected: it.word };
   }
 
+  // Tytuł komunikatu dla zaliczonej odpowiedzi, która nie była idealna.
+  const nearTitle = (res) => (res.accents ? 'Dobrze — pamiętaj o polskich znakach' : 'Prawie idealnie — mała literówka');
+
   function answerFeedback(res, expected, accepted, it) {
     if (res.ok && res.exact) {
       const others = accepted.filter((a) => norm(a) !== norm(res.match) && !norm(res.match).includes(norm(a)) && !norm(a).includes(norm(res.match)));
       return { ok: true, title: pick(OK_TITLES), detail: others.length ? `Inne poprawne: ${others.join(' / ')}` : exampleBlock(it) };
     }
-    if (res.ok) return { ok: true, title: 'Prawie idealnie — mała literówka', detail: `Poprawnie: ${res.match}` };
+    if (res.ok) return { ok: true, title: nearTitle(res), detail: `Poprawnie: ${res.match}` };
     return { ok: false, title: 'Niestety…', detail: `Poprawna odpowiedź: ${expected}` };
   }
 
@@ -1074,7 +1092,7 @@
       line.classList.add(res.ok ? 'ok' : 'bad');
       ctx.finish([{ item: it, correct: res.ok, quality: res.ok ? (res.exact ? 4 : 3) : 1,
         prompt: `${g.before}___${g.after}`, expected: g.hidden, given: input.value || '(nie wiem)' }],
-        res.ok ? { ok: true, title: res.exact ? pick(OK_TITLES) : 'Prawie idealnie — mała literówka', detail: [`${g.before}${g.hidden}${g.after}`, it.explanation].filter(Boolean).join(' — ') }
+        res.ok ? { ok: true, title: res.exact ? pick(OK_TITLES) : nearTitle(res), detail: [`${g.before}${g.hidden}${g.after}`, it.explanation].filter(Boolean).join(' — ') }
           : { ok: false, title: 'Niestety…', detail: `Poprawnie: ${g.hidden}` });
     }
     put(root,
@@ -1613,7 +1631,7 @@
       const out = subjectPool().filter((it) =>
         (bs.category === 'all' || it.category === bs.category || (bs.category === 'custom' && it._custom)) &&
         (bs.type === 'all' || it.type === bs.type) &&
-        (!q || it._search.includes(q)));
+        (!q || it._search.includes(searchKey(q))));
       const alpha = (a, b) => a._label.localeCompare(b._label, 'en', { sensitivity: 'base' });
       if (bs.sort === 'alpha') out.sort(alpha);
       else if (bs.sort === 'difficulty') out.sort((a, b) => a.difficulty - b.difficulty || alpha(a, b));
