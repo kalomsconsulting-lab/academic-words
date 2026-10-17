@@ -1,0 +1,1549 @@
+{
+ "version": 1,
+ "subject": "edukacja_zdrowotna_sp7",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, edukacja zdrowotna, klasy VII–VIII (Dz.U. 2026 poz. 378 w brzmieniu Dz.U. 2026 poz. 958); dziewięć działów, wymagania do wyboru oznaczone literą w",
+ "items": [
+  {
+   "id": "ez7-pp-001",
+   "type": "cloze",
+   "text": "Fundamentalną wartością człowieka na wszystkich etapach jego życia jest {{godność}}.",
+   "hint": "podstawa szacunku dla każdego",
+   "explanation": "Z godności wynika akceptacja każdego człowieka bez względu na jego cechy, choroby czy niepełnosprawność.",
+   "category": "ez7_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "1.1"
+  },
+  {
+   "id": "ez7-pp-002",
+   "type": "qa",
+   "question": "Jak nazywa się dobrowolne i bezpłatne oddawanie krwi dla chorych?",
+   "answer": "krwiodawstwo",
+   "accept": [
+    "honorowe krwiodawstwo",
+    "donacja krwi",
+    "oddawanie krwi"
+   ],
+   "explanation": "Krew oddaje się w stacjach krwiodawstwa; jest potrzebna m.in. przy operacjach i wypadkach.",
+   "category": "ez7_system",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "1.5"
+  },
+  {
+   "id": "ez7-pp-003",
+   "type": "qa",
+   "question": "Jak nazywa się dobrowolna, bezpłatna praca na rzecz innych osób lub środowiska?",
+   "answer": "wolontariat",
+   "accept": [
+    "wolontariat społeczny"
+   ],
+   "explanation": "Kultura wolontariatu służy dobru innych, w tym ochronie środowiska.",
+   "category": "ez7_system",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "1.5"
+  },
+  {
+   "id": "ez7-pp-004",
+   "type": "cloze",
+   "text": "Szczepienia ochronne, badania profilaktyczne i oddawanie krwi to zachowania prozdrowotne ważne dla zdrowia {{publicznego}}.",
+   "hint": "zdrowie całej społeczności, nie tylko jednostki",
+   "explanation": "Postawa prospołeczna wobec zdrowia oznacza dbanie nie tylko o siebie, ale i o innych.",
+   "category": "ez7_system",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "1.5"
+  },
+  {
+   "id": "ez7-pp-005",
+   "type": "qa",
+   "question": "Który czynnik, według koncepcji pól zdrowia Lalonde'a, ma największy wpływ na zdrowie człowieka?",
+   "answer": "styl życia",
+   "accept": [
+    "sposób życia",
+    "tryb życia"
+   ],
+   "explanation": "Styl życia (ok. 50%) wpływa na zdrowie bardziej niż środowisko, geny i opieka medyczna razem.",
+   "category": "ez7_physical",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "2.1"
+  },
+  {
+   "id": "ez7-pp-006",
+   "type": "cloze",
+   "text": "Według WHO zdrowie to stan pełnego dobrostanu fizycznego, psychicznego i {{społecznego}}, a nie tylko brak choroby.",
+   "hint": "trzeci wymiar zdrowia obok fizycznego i psychicznego",
+   "explanation": "Definicja WHO podkreśla, że zdrowie to więcej niż brak choroby.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.1"
+  },
+  {
+   "id": "ez7-pp-007",
+   "type": "qa",
+   "question": "Jak nazywają się choroby wywoływane przez drobnoustroje (wirusy, bakterie, grzyby, pasożyty), które mogą przenosić się z człowieka na człowieka?",
+   "answer": "choroby zakaźne",
+   "accept": [
+    "zakaźne",
+    "choroba zakaźna"
+   ],
+   "explanation": "Przykłady: grypa, ospa wietrzna, COVID-19, angina.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.2"
+  },
+  {
+   "id": "ez7-pp-008",
+   "type": "qa",
+   "question": "Jaką drogą przenosi się grypa, gdy chory kicha lub kaszle?",
+   "answer": "kropelkową",
+   "accept": [
+    "droga kropelkowa",
+    "drogą kropelkową",
+    "kropelkowa"
+   ],
+   "explanation": "Drobne kropelki wydzieliny z wirusem trafiają do dróg oddechowych innych osób.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.2"
+  },
+  {
+   "id": "ez7-pp-009",
+   "type": "qa",
+   "question": "Jak nazywa się gwałtowna, zagrażająca życiu reakcja organizmu na zakażenie, prowadząca do niewydolności narządów?",
+   "answer": "sepsa",
+   "accept": [
+    "posocznica"
+   ],
+   "explanation": "Sepsa wymaga natychmiastowej pomocy lekarskiej; liczy się każda godzina.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.2"
+  },
+  {
+   "id": "ez7-pp-010",
+   "type": "cloze",
+   "text": "Objawy sepsy to m.in. wysoka gorączka lub spadek temperatury, przyspieszony oddech i tętno oraz {{wybroczyny}} na skórze, które nie bledną po uciśnięciu.",
+   "hint": "drobne krwawe plamki",
+   "explanation": "Wybroczyny sprawdza się testem szklanki: plamki widoczne przez dociśnięte szkło to sygnał alarmowy.",
+   "category": "ez7_physical",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "2.2"
+  },
+  {
+   "id": "ez7-pp-011",
+   "type": "qa",
+   "question": "Jak nazywa się wystąpienie na danym obszarze zachorowań na chorobę zakaźną w liczbie wyraźnie większej niż zwykle?",
+   "answer": "epidemia",
+   "accept": [
+    "epidemię"
+   ],
+   "explanation": "Epidemia dotyczy ograniczonego obszaru, np. jednego kraju lub regionu.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.3"
+  },
+  {
+   "id": "ez7-pp-012",
+   "type": "qa",
+   "question": "Jak nazywa się epidemia obejmująca wiele krajów lub kontynentów?",
+   "answer": "pandemia",
+   "accept": [
+    "pandemię"
+   ],
+   "explanation": "Przykładem jest pandemia COVID-19 ogłoszona przez WHO w 2020 r.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.3"
+  },
+  {
+   "id": "ez7-pp-013",
+   "type": "cloze",
+   "text": "Podstawową zasadą profilaktyki epidemiologicznej jest częste {{mycie rąk/mycie dłoni}} wodą z mydłem.",
+   "hint": "najprostszy sposób na usunięcie drobnoustrojów",
+   "explanation": "Oprócz tego: zasłanianie ust przy kaszlu, izolacja chorych, szczepienia.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.3"
+  },
+  {
+   "id": "ez7-pp-014",
+   "type": "qa",
+   "question": "Jak nazywają się szczepienia, które w Polsce są bezpłatne i wykonywane według Programu Szczepień Ochronnych u wszystkich dzieci?",
+   "answer": "obowiązkowe",
+   "accept": [
+    "szczepienia obowiązkowe"
+   ],
+   "explanation": "Obejmują m.in. szczepienia przeciw gruźlicy, WZW B, odrze, śwince i różyczce.",
+   "category": "ez7_system",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.4"
+  },
+  {
+   "id": "ez7-pp-015",
+   "type": "qa",
+   "question": "Jak nazywają się szczepienia wpisane do Programu Szczepień Ochronnych, o których wykonaniu decyduje rodzic i które zwykle są płatne?",
+   "answer": "zalecane",
+   "accept": [
+    "szczepienia zalecane"
+   ],
+   "explanation": "Przykłady: szczepienie przeciw grypie, meningokokom, kleszczowemu zapaleniu mózgu.",
+   "category": "ez7_system",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.4"
+  },
+  {
+   "id": "ez7-pp-016",
+   "type": "qa",
+   "question": "Jak nazywa się zjawisko, w którym wysoki odsetek zaszczepionych osób chroni przed chorobą także osoby niezaszczepione?",
+   "answer": "odporność zbiorowiskowa",
+   "accept": [
+    "odporność populacyjna",
+    "odporność stadna",
+    "odporność grupowa",
+    "odporność zbiorowa"
+   ],
+   "explanation": "Zaszczepieni przerywają łańcuch zakażeń, co chroni np. niemowlęta i osoby chore.",
+   "category": "ez7_system",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "2.4"
+  },
+  {
+   "id": "ez7-pp-017",
+   "type": "cloze",
+   "text": "Celowo rozpowszechniane nieprawdziwe informacje o szczepieniach to {{dezinformacja}}.",
+   "hint": "fałszywe informacje szerzone celowo",
+   "explanation": "Rozpoznaje się ją m.in. po braku wiarygodnych źródeł, emocjonalnym języku i teoriach spiskowych.",
+   "category": "ez7_system",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.4"
+  },
+  {
+   "id": "ez7-pp-018",
+   "type": "qa",
+   "question": "Jak nazywają się czynniki ryzyka chorób, na które mamy wpływ, np. palenie, dieta, aktywność fizyczna?",
+   "answer": "modyfikowalne",
+   "accept": [
+    "czynniki modyfikowalne",
+    "modyfikowalne czynniki ryzyka"
+   ],
+   "explanation": "Przeciwieństwem są czynniki niemodyfikowalne, np. wiek i geny.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.5"
+  },
+  {
+   "id": "ez7-pp-019",
+   "type": "qa",
+   "question": "Podaj przykład niemodyfikowalnego czynnika ryzyka chorób.",
+   "answer": "wiek",
+   "accept": [
+    "płeć",
+    "geny",
+    "genetyka",
+    "dziedziczność",
+    "obciążenia genetyczne",
+    "czynniki genetyczne"
+   ],
+   "explanation": "Na wiek, płeć i geny nie mamy wpływu, ale możemy zmienić styl życia.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.5"
+  },
+  {
+   "id": "ez7-pp-020",
+   "type": "qa",
+   "question": "Jak nazywa się parametr opisujący siłę, z jaką krew naciska na ściany tętnic?",
+   "answer": "ciśnienie tętnicze",
+   "accept": [
+    "ciśnienie krwi",
+    "ciśnienie",
+    "ciśnienie tętnicze krwi"
+   ],
+   "explanation": "Mierzy się je ciśnieniomierzem; wysokie ciśnienie zwiększa ryzyko udaru i zawału.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.5"
+  },
+  {
+   "id": "ez7-pp-021",
+   "type": "cloze",
+   "text": "Prawidłowe ciśnienie tętnicze u zdrowej dorosłej osoby wynosi około {{120/80}} mm Hg.",
+   "hint": "dwie liczby: ciśnienie skurczowe/rozkurczowe",
+   "explanation": "Pierwsza liczba to ciśnienie skurczowe, druga rozkurczowe.",
+   "category": "ez7_physical",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "2.5"
+  },
+  {
+   "id": "ez7-pp-022",
+   "type": "qa",
+   "question": "Jak nazywa się przeszkoda w otoczeniu (np. schody bez podjazdu), która utrudnia osobom z niepełnosprawnością korzystanie z przestrzeni?",
+   "answer": "bariera architektoniczna",
+   "accept": [
+    "bariery architektoniczne",
+    "bariera"
+   ],
+   "explanation": "Rozwiązania: podjazdy, windy, niskopodłogowe autobusy, sygnalizacja dźwiękowa.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.6"
+  },
+  {
+   "id": "ez7-pp-023",
+   "type": "qa",
+   "question": "Jak nazywają się choroby przenoszone ze zwierząt na ludzi?",
+   "answer": "zoonozy",
+   "accept": [
+    "choroby odzwierzęce",
+    "zoonoza",
+    "odzwierzęce"
+   ],
+   "explanation": "Przykłady: wścieklizna, borelioza, toksoplazmoza, ptasia grypa.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.w1"
+  },
+  {
+   "id": "ez7-pp-024",
+   "type": "qa",
+   "question": "Jaką chorobę bakteryjną przenoszą kleszcze, której wczesnym objawem może być rumień wędrujący wokół miejsca ukąszenia?",
+   "answer": "borelioza",
+   "accept": [
+    "borelioza z lyme",
+    "choroba z lyme"
+   ],
+   "explanation": "Kleszcza należy jak najszybciej usunąć pęsetą tuż przy skórze, bez smarowania tłuszczem.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.w1"
+  },
+  {
+   "id": "ez7-pp-025",
+   "type": "qa",
+   "question": "Jak nazywają się choroby niezakaźne związane ze stylem życia i rozwojem cywilizacji, np. otyłość, nadciśnienie, cukrzyca typu 2?",
+   "answer": "choroby cywilizacyjne",
+   "accept": [
+    "cywilizacyjne",
+    "choroba cywilizacyjna"
+   ],
+   "explanation": "Ich przyczyną są m.in. brak ruchu, zła dieta, stres i używki.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.w2"
+  },
+  {
+   "id": "ez7-pp-026",
+   "type": "qa",
+   "question": "Jak nazywa się nagłe zaburzenie krążenia krwi w mózgu, po którym chory może mieć niedowład lub trudności z mową?",
+   "answer": "udar mózgu",
+   "accept": [
+    "udar"
+   ],
+   "explanation": "Osoba po udarze często wymaga długiej rehabilitacji i wsparcia bliskich.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.w2"
+  },
+  {
+   "id": "ez7-pp-027",
+   "type": "cloze",
+   "text": "Choroba zębów polegająca na niszczeniu szkliwa przez kwasy wytwarzane przez bakterie to {{próchnica}}.",
+   "hint": "zapobiega jej szczotkowanie i ograniczenie cukru",
+   "explanation": "Próchnica jest jedną z najczęstszych chorób przewlekłych na świecie.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.w2"
+  },
+  {
+   "id": "ez7-pp-028",
+   "type": "qa",
+   "question": "Jak nazywa się choroba przewlekła, w której organizm nie wytwarza insuliny lub nieprawidłowo na nią reaguje, co prowadzi do podwyższonego stężenia glukozy we krwi?",
+   "answer": "cukrzyca",
+   "accept": [
+    "cukrzycę"
+   ],
+   "explanation": "Typ 1 jest chorobą autoimmunologiczną, typ 2 wiąże się głównie ze stylem życia.",
+   "category": "ez7_physical",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "2.w2"
+  },
+  {
+   "id": "ez7-pp-029",
+   "type": "qa",
+   "question": "Ile minut umiarkowanej lub intensywnej aktywności fizycznej dziennie zaleca WHO dzieciom i młodzieży w wieku 5–17 lat?",
+   "answer": "60 minut",
+   "accept": [
+    "60",
+    "60 min",
+    "godzinę",
+    "1 godzinę",
+    "godzina",
+    "1 godzina"
+   ],
+   "explanation": "Ruch zapobiega m.in. otyłości, chorobom serca i cukrzycy typu 2.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.1"
+  },
+  {
+   "id": "ez7-pp-030",
+   "type": "qa",
+   "question": "Ile godzin snu na dobę zaleca się nastolatkom w wieku 13–18 lat?",
+   "answer": "8-10 godzin",
+   "accept": [
+    "8-10",
+    "od 8 do 10",
+    "8 do 10 godzin",
+    "8 do 10",
+    "9 godzin",
+    "9"
+   ],
+   "explanation": "Niedobór snu pogarsza koncentrację, nastrój i odporność.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.2"
+  },
+  {
+   "id": "ez7-pp-031",
+   "type": "qa",
+   "question": "Ile kroków dziennie najczęściej podaje się jako orientacyjny cel dla aktywnego stylu życia?",
+   "answer": "10 000",
+   "accept": [
+    "10000",
+    "10 tysięcy",
+    "dziesięć tysięcy",
+    "10 tys"
+   ],
+   "explanation": "Liczbę kroków można monitorować krokomierzem lub aplikacją w telefonie.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.2"
+  },
+  {
+   "id": "ez7-pp-032",
+   "type": "qa",
+   "question": "Jak nazywa się boczne skrzywienie kręgosłupa?",
+   "answer": "skolioza",
+   "accept": [
+    "skoliozę"
+   ],
+   "explanation": "Zapobiegają jej ćwiczenia wzmacniające mięśnie grzbietu i brzucha oraz prawidłowa postawa.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.3"
+  },
+  {
+   "id": "ez7-pp-033",
+   "type": "qa",
+   "question": "Jak nazywa się grupa mięśni, które podtrzymują pęcherz, jelita i narządy płciowe, a które można wzmacniać specjalnymi ćwiczeniami?",
+   "answer": "mięśnie dna miednicy",
+   "accept": [
+    "dno miednicy",
+    "mięśnie kegla"
+   ],
+   "explanation": "Ich osłabienie może prowadzić np. do nietrzymania moczu.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.3"
+  },
+  {
+   "id": "ez7-pp-034",
+   "type": "cloze",
+   "text": "Podnosząc ciężki przedmiot, schylamy się, zginając {{kolana}}, a nie plecy, aby chronić kręgosłup.",
+   "hint": "stawy nóg",
+   "explanation": "Plecy powinny pozostać proste, a ciężar blisko ciała.",
+   "category": "ez7_activity",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "3.3"
+  },
+  {
+   "id": "ez7-pp-035",
+   "type": "qa",
+   "question": "Jak nazywa się przemieszczanie się pieszo, rowerem lub hulajnogą zamiast samochodem?",
+   "answer": "aktywny transport",
+   "accept": [
+    "transport aktywny",
+    "aktywna mobilność"
+   ],
+   "explanation": "Aktywny transport łączy ruch z codziennymi czynnościami i nie zanieczyszcza powietrza.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.4"
+  },
+  {
+   "id": "ez7-pp-036",
+   "type": "cloze",
+   "text": "Wybór roweru zamiast samochodu zmniejsza emisję spalin i {{dwutlenku węgla/CO2}}, co służy zdrowiu i klimatowi.",
+   "hint": "główny gaz cieplarniany",
+   "explanation": "Aktywny styl życia służy zdrowiu fizycznemu, psychicznemu i środowisku.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.4"
+  },
+  {
+   "id": "ez7-pp-037",
+   "type": "qa",
+   "question": "Jak nazywa się tryb życia z bardzo małą ilością ruchu, np. wielogodzinnym siedzeniem przy komputerze?",
+   "answer": "siedzący tryb życia",
+   "accept": [
+    "siedzący",
+    "sedentarny",
+    "sedentaryjny",
+    "sedenteryjny tryb życia",
+    "bezruch"
+   ],
+   "explanation": "Bezruch warto zastępować ruchem, np. wybierając schody zamiast windy.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.4"
+  },
+  {
+   "id": "ez7-pp-038",
+   "type": "qa",
+   "question": "Jak nazywa się zwiększanie odporności organizmu na zimno przez stopniowe przyzwyczajanie go do niskich temperatur?",
+   "answer": "hartowanie",
+   "accept": [
+    "hartowanie organizmu"
+   ],
+   "explanation": "Metody: zimne prysznice, spacery w chłodne dni, sauna z chłodzeniem, morsowanie.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.5"
+  },
+  {
+   "id": "ez7-pp-039",
+   "type": "qa",
+   "question": "Jak nazywa się kąpiel w zimnej wodzie, np. w jeziorze zimą, stosowana jako metoda hartowania?",
+   "answer": "morsowanie",
+   "accept": [
+    "morsować"
+   ],
+   "explanation": "Morsować należy stopniowo, w grupie i bez nagłego zanurzania głowy.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.5"
+  },
+  {
+   "id": "ez7-pp-040",
+   "type": "cloze",
+   "text": "Podstawową zasadą hartowania jest {{stopniowość/stopniowanie}} – zaczynamy od krótkich i łagodnych bodźców.",
+   "hint": "powoli, krok po kroku",
+   "explanation": "Hartowanie stosuje się regularnie i tylko gdy jesteśmy zdrowi.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.5"
+  },
+  {
+   "id": "ez7-pp-041",
+   "type": "qa",
+   "question": "Jak nazywa się choroba polegająca na zmniejszeniu gęstości kości, której zapobiegają regularny ruch i dieta bogata w wapń?",
+   "answer": "osteoporoza",
+   "accept": [
+    "osteoporozę"
+   ],
+   "explanation": "Osteoporoza zwiększa ryzyko złamań, zwłaszcza u osób starszych.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.w1"
+  },
+  {
+   "id": "ez7-pp-042",
+   "type": "cloze",
+   "text": "Regularna aktywność fizyczna zmniejsza ryzyko cukrzycy typu {{2}}, otyłości i chorób serca.",
+   "hint": "typ cukrzycy związany ze stylem życia",
+   "explanation": "Brak ruchu krótkoterminowo obniża kondycję, a długoterminowo zwiększa ryzyko chorób przewlekłych.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.w1"
+  },
+  {
+   "id": "ez7-pp-043",
+   "type": "qa",
+   "question": "Jak nazywają się substancje wydzielane w mózgu podczas wysiłku fizycznego, poprawiające nastrój i zmniejszające ból?",
+   "answer": "endorfiny",
+   "accept": [
+    "endorfina"
+   ],
+   "explanation": "Ruch poprawia samopoczucie i wspiera rozwój psychospołeczny, np. przez sport w grupie.",
+   "category": "ez7_activity",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "3.w2"
+  },
+  {
+   "id": "ez7-pp-044",
+   "type": "qa",
+   "question": "Jaką część talerza zdrowego żywienia powinny zajmować warzywa i owoce?",
+   "answer": "połowę",
+   "accept": [
+    "połowa",
+    "pół",
+    "1/2",
+    "50%"
+   ],
+   "explanation": "Warzyw powinno być więcej niż owoców.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.1"
+  },
+  {
+   "id": "ez7-pp-045",
+   "type": "qa",
+   "question": "Która grupa produktów zajmuje ćwiartkę talerza zdrowego żywienia i obejmuje kasze, pełnoziarniste pieczywo i makarony?",
+   "answer": "produkty zbożowe",
+   "accept": [
+    "zbożowe",
+    "pełnoziarniste produkty zbożowe",
+    "produkty zbożowe pełnoziarniste"
+   ],
+   "explanation": "Wybieramy produkty pełnoziarniste, bogate w błonnik.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.1"
+  },
+  {
+   "id": "ez7-pp-046",
+   "type": "cloze",
+   "text": "Ćwiartkę talerza zdrowego żywienia zajmują produkty {{białkowe}} – ryby, nasiona roślin strączkowych, jaja, chudy nabiał i mięso.",
+   "hint": "składnik odżywczy budujący mięśnie",
+   "explanation": "Czerwone mięso i wędliny warto ograniczać.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.1"
+  },
+  {
+   "id": "ez7-pp-047",
+   "type": "qa",
+   "question": "Jaki napój powinien być podstawowym źródłem płynów w ciągu dnia?",
+   "answer": "woda",
+   "accept": [
+    "wodę",
+    "woda niegazowana"
+   ],
+   "explanation": "Słodkie napoje dostarczają dużo cukru i sprzyjają otyłości oraz próchnicy.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.1"
+  },
+  {
+   "id": "ez7-pp-048",
+   "type": "qa",
+   "question": "Jak nazywa się graficzny model zdrowego odżywiania opracowany przez NIZP-PZH, który zastąpił piramidę żywieniową?",
+   "answer": "talerz zdrowego żywienia",
+   "accept": [
+    "talerz zdrowego odżywiania",
+    "talerz"
+   ],
+   "explanation": "Pokazuje proporcje grup produktów na jednym talerzu i zawiera dodatkowe zalecenia.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.1"
+  },
+  {
+   "id": "ez7-pp-049",
+   "type": "qa",
+   "question": "Jak nazywa się napój o stężeniu składników zbliżonym do płynów ustrojowych, uzupełniający wodę i elektrolity podczas wysiłku?",
+   "answer": "izotoniczny",
+   "accept": [
+    "napój izotoniczny",
+    "izotonik"
+   ],
+   "explanation": "Jest przydatny przy długim, intensywnym wysiłku; przy krótkim wystarczy woda.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.2"
+  },
+  {
+   "id": "ez7-pp-050",
+   "type": "cloze",
+   "text": "Domowy napój izotoniczny można przygotować z wody, soku z cytryny, odrobiny miodu lub cukru i szczypty {{soli}}.",
+   "hint": "dostarcza sodu traconego z potem",
+   "explanation": "Posiłek przed wysiłkiem powinien zawierać węglowodany, a po wysiłku także białko.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.2"
+  },
+  {
+   "id": "ez7-pp-051",
+   "type": "qa",
+   "question": "Jak nazywa się choroba autoimmunologiczna, w której gluten uszkadza kosmki jelita cienkiego?",
+   "answer": "celiakia",
+   "accept": [
+    "celiakię"
+   ],
+   "explanation": "Jedynym leczeniem jest ścisła dieta bezglutenowa przez całe życie.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.3"
+  },
+  {
+   "id": "ez7-pp-052",
+   "type": "qa",
+   "question": "Jak nazywa się białko zbóż (pszenicy, żyta, jęczmienia), które muszą wyeliminować z diety chorzy na celiakię?",
+   "answer": "gluten",
+   "accept": [],
+   "explanation": "Produkty bezglutenowe oznacza się symbolem przekreślonego kłosa.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.3"
+  },
+  {
+   "id": "ez7-pp-053",
+   "type": "cloze",
+   "text": "W cukrzycy typu {{1}} układ odpornościowy niszczy komórki trzustki produkujące insulinę, dlatego chory musi przyjmować insulinę.",
+   "hint": "typ cukrzycy, na który chorują często dzieci",
+   "explanation": "W cukrzycy typu 1 trzeba liczyć węglowodany w posiłkach i dopasowywać dawki insuliny.",
+   "category": "ez7_nutrition",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "4.3"
+  },
+  {
+   "id": "ez7-pp-054",
+   "type": "qa",
+   "question": "Jak nazywa się autoimmunologiczne zapalenie tarczycy, często prowadzące do jej niedoczynności?",
+   "answer": "choroba Hashimoto",
+   "accept": [
+    "hashimoto"
+   ],
+   "explanation": "W chorobie Hashimoto ważna jest zbilansowana dieta, m.in. z odpowiednią ilością jodu i selenu.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.3"
+  },
+  {
+   "id": "ez7-pp-055",
+   "type": "qa",
+   "question": "Jaka substancja pobudzająca jest głównym składnikiem napojów energetyzujących i może powodować kołatanie serca, niepokój i bezsenność?",
+   "answer": "kofeina",
+   "accept": [
+    "kofeinę"
+   ],
+   "explanation": "Napoje energetyzujące zawierają też dużo cukru i taurynę.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.4"
+  },
+  {
+   "id": "ez7-pp-056",
+   "type": "cloze",
+   "text": "Od 2024 r. w Polsce obowiązuje zakaz sprzedaży napojów energetyzujących osobom poniżej {{18}} lat.",
+   "hint": "wiek pełnoletności",
+   "explanation": "Zakaz obejmuje też sprzedaż w szkołach i w automatach.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.4"
+  },
+  {
+   "id": "ez7-pp-057",
+   "type": "qa",
+   "question": "Jak nazywa się stosowanie niedozwolonych środków w celu poprawy wyników sportowych?",
+   "answer": "doping",
+   "accept": [],
+   "explanation": "Środki dopingujące niszczą m.in. wątrobę i serce oraz zaburzają gospodarkę hormonalną.",
+   "category": "ez7_nutrition",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "4.4"
+  },
+  {
+   "id": "ez7-pp-058",
+   "type": "cloze",
+   "text": "Nadmierne przyjmowanie suplementów może prowadzić do przedawkowania, np. witaminy {{D/A}}, która rozpuszcza się w tłuszczach i gromadzi w organizmie.",
+   "hint": "witamina 'słoneczna' lub witamina wzroku",
+   "explanation": "Suplementy nie zastępują zbilansowanej diety; ich stosowanie warto skonsultować z lekarzem.",
+   "category": "ez7_nutrition",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "4.4"
+  },
+  {
+   "id": "ez7-pp-059",
+   "type": "qa",
+   "question": "Jak nazywa się reakcja, w której emocje (np. lęk przed sprawdzianem) wywołują objawy fizyczne, takie jak ból brzucha lub głowy?",
+   "answer": "reakcja psychosomatyczna",
+   "accept": [
+    "psychosomatyczna",
+    "objawy psychosomatyczne",
+    "somatyzacja"
+   ],
+   "explanation": "Emocje, myśli, ciało i zachowanie są ze sobą powiązane.",
+   "category": "ez7_mental",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "5.1"
+  },
+  {
+   "id": "ez7-pp-060",
+   "type": "qa",
+   "question": "Jaki hormon stresu, wydzielany przez nadnercza, przyspiesza bicie serca i oddech w sytuacji zagrożenia?",
+   "answer": "adrenalina",
+   "accept": [
+    "adrenalinę",
+    "kortyzol"
+   ],
+   "explanation": "Krótkotrwały stres mobilizuje, ale przewlekły szkodzi zdrowiu.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.1"
+  },
+  {
+   "id": "ez7-pp-061",
+   "type": "qa",
+   "question": "Jak nazywa się przekonanie o własnej wartości i akceptacja siebie, które budujemy, analizując swoje uczucia i potrzeby?",
+   "answer": "poczucie własnej wartości",
+   "accept": [
+    "samoocena",
+    "poczucie wartości"
+   ],
+   "explanation": "Wzmacnia je dostrzeganie własnych mocnych stron i sukcesów.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.2"
+  },
+  {
+   "id": "ez7-pp-062",
+   "type": "qa",
+   "question": "Jak nazywa się subiektywne wyobrażenie i ocena własnego wyglądu?",
+   "answer": "obraz ciała",
+   "accept": [
+    "obraz własnego ciała",
+    "wizerunek ciała"
+   ],
+   "explanation": "Na obraz ciała silnie wpływają internet i media społecznościowe.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.3"
+  },
+  {
+   "id": "ez7-pp-063",
+   "type": "cloze",
+   "text": "Zdjęcia w mediach społecznościowych są często poprawiane {{filtrami}} i retuszem, dlatego nie pokazują prawdziwego wyglądu.",
+   "hint": "cyfrowe 'upiększacze' zdjęć",
+   "explanation": "Porównywanie się z nierealnymi wizerunkami obniża zadowolenie z własnego ciała.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.3"
+  },
+  {
+   "id": "ez7-pp-064",
+   "type": "qa",
+   "question": "Jak nazywa się ruch promujący akceptację własnego ciała niezależnie od jego rozmiaru i wyglądu?",
+   "answer": "ciałopozytywność",
+   "accept": [
+    "body positivity",
+    "body positive",
+    "ciałoakceptacja"
+   ],
+   "explanation": "Pozytywny obraz ciała oznacza szacunek do siebie, a nie dążenie do ideału z reklam.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.3"
+  },
+  {
+   "id": "ez7-pp-065",
+   "type": "qa",
+   "question": "Jak nazywa się wsparcie udzielane osobie w kryzysie emocjonalnym przez osobę z otoczenia, zanim trafi ona do specjalisty?",
+   "answer": "pierwsza pomoc emocjonalna",
+   "accept": [
+    "pierwsza pomoc psychologiczna"
+   ],
+   "explanation": "Polega na obecności, słuchaniu i pomocy w znalezieniu wsparcia.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.4"
+  },
+  {
+   "id": "ez7-pp-066",
+   "type": "cloze",
+   "text": "Podstawą pierwszej pomocy emocjonalnej jest uważne {{słuchanie}} bez oceniania, przerywania i pouczania.",
+   "hint": "przeciwieństwo mówienia",
+   "explanation": "Nie bagatelizujemy uczuć drugiej osoby ('nie przesadzaj') i nie zostawiamy jej samej.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.4"
+  },
+  {
+   "id": "ez7-pp-067",
+   "type": "qa",
+   "question": "Pod jaki bezpłatny, całodobowy numer telefonu zaufania mogą dzwonić dzieci i młodzież w Polsce?",
+   "answer": "116 111",
+   "accept": [
+    "116111"
+   ],
+   "explanation": "Telefon zaufania 116 111 prowadzi Fundacja Dajemy Dzieciom Siłę; działa też czat online.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.4"
+  },
+  {
+   "id": "ez7-pp-068",
+   "type": "qa",
+   "question": "Jak nazywa się zaburzenie psychiczne, którego objawami są długotrwały smutek, utrata zainteresowań i energii oraz zaburzenia snu?",
+   "answer": "depresja",
+   "accept": [
+    "depresję",
+    "zaburzenia depresyjne"
+   ],
+   "explanation": "Depresja jest chorobą, którą się leczy; osoba chora potrzebuje wsparcia, nie 'wzięcia się w garść'.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.w2"
+  },
+  {
+   "id": "ez7-pp-069",
+   "type": "qa",
+   "question": "Jak nazywa się zaburzenie odżywiania polegające na drastycznym ograniczaniu jedzenia i lęku przed przytyciem mimo niedowagi?",
+   "answer": "anoreksja",
+   "accept": [
+    "jadłowstręt psychiczny",
+    "anoreksję"
+   ],
+   "explanation": "Anoreksja zagraża życiu i wymaga leczenia specjalistycznego.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.w2"
+  },
+  {
+   "id": "ez7-pp-070",
+   "type": "qa",
+   "question": "Jak nazywa się zaburzenie odżywiania, w którym napady objadania się są 'odreagowywane' np. wymiotami lub głodówką?",
+   "answer": "bulimia",
+   "accept": [
+    "żarłoczność psychiczna",
+    "bulimię"
+   ],
+   "explanation": "Osoba z bulimią często ma prawidłową masę ciała, więc chorobę trudno zauważyć.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.w2"
+  },
+  {
+   "id": "ez7-pp-071",
+   "type": "qa",
+   "question": "Jak nazywa się zaburzenie polegające na obsesyjnym przekonaniu o defekcie własnego wyglądu, którego inni nie dostrzegają?",
+   "answer": "dysmorfofobia",
+   "accept": [
+    "zaburzenie dysmorficzne",
+    "cielesne zaburzenie dysmorficzne",
+    "dysmorfofobię"
+   ],
+   "explanation": "Osoba z dysmorfofobią może godzinami sprawdzać wygląd w lustrze lub unikać ludzi.",
+   "category": "ez7_mental",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "5.w2"
+  },
+  {
+   "id": "ez7-pp-072",
+   "type": "qa",
+   "question": "Jak nazywa się początkowa, intensywna faza relacji, oparta głównie na silnych emocjach i idealizowaniu drugiej osoby?",
+   "answer": "zakochanie",
+   "accept": [
+    "zakochanie się"
+   ],
+   "explanation": "Zakochanie jest krótkotrwałe; miłość wymaga czasu, zaufania i odpowiedzialności.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.1"
+  },
+  {
+   "id": "ez7-pp-073",
+   "type": "cloze",
+   "text": "Zakochanie to krótkotrwały stan silnych emocji, natomiast {{miłość}} dojrzała opiera się na zaufaniu, odpowiedzialności i trosce o drugą osobę.",
+   "hint": "uczucie trwalsze niż zakochanie",
+   "explanation": "Zakochanie różni się też od popędu seksualnego, który jest reakcją biologiczną.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.1"
+  },
+  {
+   "id": "ez7-pp-074",
+   "type": "cloze",
+   "text": "Miłość {{młodzieńcza}} bywa intensywna i zmienna, a miłość dojrzała – stabilna i oparta na odpowiedzialności za drugą osobę.",
+   "hint": "miłość nastolatków",
+   "explanation": "Odpowiedzialność w relacji to m.in. szacunek do granic drugiej osoby.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.1"
+  },
+  {
+   "id": "ez7-pp-075",
+   "type": "qa",
+   "question": "Jak nazywa się rodzina, w której wychowuje się co najmniej troje dzieci?",
+   "answer": "wielodzietna",
+   "accept": [
+    "rodzina wielodzietna"
+   ],
+   "explanation": "Każdy członek rodziny ma wpływ na jej atmosferę, dbając o swoje potrzeby i szanując potrzeby innych.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.2"
+  },
+  {
+   "id": "ez7-pp-076",
+   "type": "qa",
+   "question": "Jak nazywa się ukryte wpływanie na drugą osobę, aby osiągnąć własny cel kosztem jej interesów?",
+   "answer": "manipulacja",
+   "accept": [
+    "manipulację",
+    "manipulowanie"
+   ],
+   "explanation": "Typowe techniki: wzbudzanie poczucia winy, pochlebstwa, szantaż emocjonalny.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.3"
+  },
+  {
+   "id": "ez7-pp-077",
+   "type": "qa",
+   "question": "Jak nazywa się postawa polegająca na wyrażaniu własnych potrzeb i opinii z szacunkiem dla innych, w tym umiejętność powiedzenia 'nie'?",
+   "answer": "asertywność",
+   "accept": [
+    "postawa asertywna",
+    "asertywna"
+   ],
+   "explanation": "Asertywność to nie agresja ani uległość, lecz obrona swoich granic bez ranienia innych.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.3"
+  },
+  {
+   "id": "ez7-pp-078",
+   "type": "cloze",
+   "text": "Technika asertywnej odmowy polegająca na spokojnym powtarzaniu tego samego komunikatu to {{zdarta płyta/zacięta płyta}}.",
+   "hint": "nazwa od uszkodzonej płyty gramofonowej",
+   "explanation": "Na manipulację reagujemy stanowczo, bez tłumaczenia się i bez agresji.",
+   "category": "ez7_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "6.3"
+  },
+  {
+   "id": "ez7-pp-079",
+   "type": "qa",
+   "question": "Jak nazywa się metoda rozwiązywania sporu z udziałem bezstronnej osoby trzeciej, która pomaga stronom samodzielnie dojść do porozumienia?",
+   "answer": "mediacja",
+   "accept": [
+    "mediacje"
+   ],
+   "explanation": "Mediacje rówieśnicze działają w wielu szkołach jako alternatywa dla kar.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.4"
+  },
+  {
+   "id": "ez7-pp-080",
+   "type": "qa",
+   "question": "Jak nazywa się bezstronna osoba prowadząca mediację?",
+   "answer": "mediator",
+   "accept": [
+    "mediatorka"
+   ],
+   "explanation": "Mediator nie narzuca rozwiązania, lecz pomaga stronom je wypracować.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.4"
+  },
+  {
+   "id": "ez7-pp-081",
+   "type": "cloze",
+   "text": "Rozwiązanie konfliktu, w którym obie strony częściowo ustępują, aby osiągnąć porozumienie, to {{kompromis}}.",
+   "hint": "każdy coś zyskuje i coś oddaje",
+   "explanation": "Inne sposoby: negocjacje, współpraca (rozwiązanie korzystne dla obu stron), mediacja.",
+   "category": "ez7_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "6.4"
+  },
+  {
+   "id": "ez7-pp-082",
+   "type": "qa",
+   "question": "Jak nazywa się okres w życiu kobiety, w którym ustaje miesiączkowanie, zwykle około 50. roku życia?",
+   "answer": "menopauza",
+   "accept": [
+    "klimakterium",
+    "przekwitanie",
+    "menopauzę"
+   ],
+   "explanation": "Każdy etap życia – dojrzewanie, dorosłość, menopauza, starość – ma swoje wyzwania zdrowotne.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.1"
+  },
+  {
+   "id": "ez7-pp-083",
+   "type": "qa",
+   "question": "Jak nazywa się okres w życiu mężczyzny związany ze stopniowym spadkiem poziomu testosteronu?",
+   "answer": "andropauza",
+   "accept": [
+    "andropauzę"
+   ],
+   "explanation": "Andropauza przebiega łagodniej i wolniej niż menopauza u kobiet.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.1"
+  },
+  {
+   "id": "ez7-pp-084",
+   "type": "qa",
+   "question": "Jaki hormon odpowiada u chłopców za rozwój cech płciowych w okresie dojrzewania?",
+   "answer": "testosteron",
+   "accept": [],
+   "explanation": "Testosteron wytwarzają jądra; powoduje m.in. mutację głosu i wzrost owłosienia.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.2"
+  },
+  {
+   "id": "ez7-pp-085",
+   "type": "qa",
+   "question": "Jakie hormony odpowiadają u dziewcząt za rozwój cech płciowych i cykl miesiączkowy?",
+   "answer": "estrogeny",
+   "accept": [
+    "estrogen",
+    "estrogeny i progesteron",
+    "estradiol"
+   ],
+   "explanation": "Estrogeny wytwarzają jajniki; na prawidłowy rozwój wpływają też sen, odżywianie i brak używek.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.2"
+  },
+  {
+   "id": "ez7-pp-086",
+   "type": "qa",
+   "question": "Jak nazywa się zakażenie, którego objawami są ból i pieczenie przy oddawaniu moczu oraz częste parcie na pęcherz?",
+   "answer": "zakażenie układu moczowego",
+   "accept": [
+    "zapalenie pęcherza",
+    "zapalenie pęcherza moczowego",
+    "zum",
+    "infekcja dróg moczowych",
+    "zakażenie dróg moczowych"
+   ],
+   "explanation": "Niepokojące objawy ze strony układu moczowo-płciowego należy zgłosić lekarzowi.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.2"
+  },
+  {
+   "id": "ez7-pp-087",
+   "type": "qa",
+   "question": "Jak nazywa się wielorazowy, silikonowy produkt menstruacyjny wkładany do pochwy i zbierający krew?",
+   "answer": "kubeczek menstruacyjny",
+   "accept": [
+    "kubeczek"
+   ],
+   "explanation": "Inne produkty: podpaski, tampony, bielizna menstruacyjna.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.3"
+  },
+  {
+   "id": "ez7-pp-088",
+   "type": "qa",
+   "question": "Jak nazywa się brak dostępu do produktów menstruacyjnych z powodów finansowych?",
+   "answer": "ubóstwo menstruacyjne",
+   "accept": [
+    "ubóstwo miesiączkowe"
+   ],
+   "explanation": "Przeciwdziałają mu m.in. darmowe podpaski w szkołach i zbiórki produktów.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.3"
+  },
+  {
+   "id": "ez7-pp-089",
+   "type": "cloze",
+   "text": "Tampon należy zmieniać najpóźniej co {{8}} godzin ze względu na ryzyko zespołu wstrząsu toksycznego.",
+   "hint": "liczba godzin, mniej niż doba",
+   "explanation": "Podpaski zmienia się częściej, co kilka godzin, ze względów higienicznych.",
+   "category": "ez7_puberty",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "7.3"
+  },
+  {
+   "id": "ez7-pp-090",
+   "type": "qa",
+   "question": "Jak nazywa się zjawisko silnego zanieczyszczenia powietrza, zwłaszcza zimą, powodowane m.in. spalaniem węgla i śmieci w piecach domowych?",
+   "answer": "smog",
+   "accept": [],
+   "explanation": "Smog nasila astmę, alergie i choroby serca; w dni smogowe ograniczamy aktywność na dworze.",
+   "category": "ez7_environment",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "8.1"
+  },
+  {
+   "id": "ez7-pp-091",
+   "type": "qa",
+   "question": "Jak nazywają się drobne cząstki unoszące się w powietrzu (PM2,5, PM10), których wdychanie uszkadza układ oddechowy i krążenia?",
+   "answer": "pył zawieszony",
+   "accept": [
+    "pyły zawieszone",
+    "pył",
+    "pm2,5",
+    "pm10"
+   ],
+   "explanation": "Najdrobniejsze cząstki PM2,5 przenikają do krwi.",
+   "category": "ez7_environment",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "8.1"
+  },
+  {
+   "id": "ez7-pp-092",
+   "type": "cloze",
+   "text": "Fala {{upałów}} jest szczególnie groźna dla osób starszych i małych dzieci – może powodować odwodnienie i udar cieplny.",
+   "hint": "ekstremalne zjawisko pogodowe latem",
+   "explanation": "Ekstremalne zjawiska pogodowe (upały, powodzie, susze) to skutki zmiany klimatu.",
+   "category": "ez7_environment",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "8.1"
+  },
+  {
+   "id": "ez7-pp-093",
+   "type": "qa",
+   "question": "Jak nazywa się stan wywołany przegrzaniem organizmu, objawiający się wysoką temperaturą ciała, bólem głowy i zaburzeniami świadomości?",
+   "answer": "udar cieplny",
+   "accept": [
+    "udar słoneczny",
+    "przegrzanie",
+    "udar"
+   ],
+   "explanation": "Chorego przenosimy w cień, chłodzimy i podajemy płyny; przy utracie przytomności wzywamy pomoc.",
+   "category": "ez7_environment",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "8.1"
+  },
+  {
+   "id": "ez7-pp-094",
+   "type": "qa",
+   "question": "Jak nazywa się bogactwo gatunków i ekosystemów na Ziemi?",
+   "answer": "bioróżnorodność",
+   "accept": [
+    "różnorodność biologiczna",
+    "bioróżnorodność biologiczna"
+   ],
+   "explanation": "Utrata bioróżnorodności zagraża produkcji żywności, czystej wodzie i źródłom leków.",
+   "category": "ez7_environment",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "8.2"
+  },
+  {
+   "id": "ez7-pp-095",
+   "type": "cloze",
+   "text": "Zanik owadów {{zapylających}} (np. pszczół) zagraża uprawom, a więc dostępności żywności dla ludzi.",
+   "hint": "przenoszą pyłek z kwiatu na kwiat",
+   "explanation": "Wiele leków pochodzi z roślin, więc wymieranie gatunków ogranicza także możliwości leczenia.",
+   "category": "ez7_environment",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "8.2"
+  },
+  {
+   "id": "ez7-pp-096",
+   "type": "qa",
+   "question": "Jak nazywa się transmitowanie w internecie na żywo przemocy, libacji lub poniżania ludzi dla pieniędzy i oglądalności?",
+   "answer": "patostreaming",
+   "accept": [
+    "patostream",
+    "patostreamy"
+   ],
+   "explanation": "Oglądanie takich treści oswaja z przemocą i może nagradzać agresję uwagą widzów.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.1"
+  },
+  {
+   "id": "ez7-pp-097",
+   "type": "qa",
+   "question": "Jak nazywają się dane takie jak stan zdrowia, poglądy czy pochodzenie, których ujawnienie w sieci jest szczególnie ryzykowne?",
+   "answer": "dane wrażliwe",
+   "accept": [
+    "dane osobowe",
+    "dane szczególne",
+    "dane szczególnej kategorii"
+   ],
+   "explanation": "Nie publikujemy też adresu, numeru telefonu ani zdjęć dokumentów.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.1"
+  },
+  {
+   "id": "ez7-pp-098",
+   "type": "cloze",
+   "text": "Internetowe {{wyzwania/challenge}} mogą namawiać do niebezpiecznych zachowań, np. podduszania się czy połykania szkodliwych substancji.",
+   "hint": "angielskie 'challenge'",
+   "explanation": "Przed udziałem warto zapytać: co się stanie, jeśli coś pójdzie nie tak?",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.1"
+  },
+  {
+   "id": "ez7-pp-099",
+   "type": "qa",
+   "question": "Jak nazywa się zbiór informacji, które zostawiamy w internecie (posty, zdjęcia, komentarze) i których trudno się pozbyć?",
+   "answer": "ślad cyfrowy",
+   "accept": [
+    "cyfrowy ślad"
+   ],
+   "explanation": "To, co raz trafi do sieci, może zostać skopiowane i wrócić po latach.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.1"
+  },
+  {
+   "id": "ez7-pp-100",
+   "type": "qa",
+   "question": "Jak nazywa się przemoc z użyciem internetu lub telefonu, np. obraźliwe wiadomości, wykluczanie z grup, publikowanie kompromitujących zdjęć?",
+   "answer": "cyberprzemoc",
+   "accept": [
+    "cybernękanie",
+    "cyberbullying"
+   ],
+   "explanation": "Dowody (zrzuty ekranu) warto zachować i zgłosić sprawę dorosłym lub administratorowi.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.2"
+  },
+  {
+   "id": "ez7-pp-101",
+   "type": "qa",
+   "question": "Jak nazywa się publikowanie w sieci obraźliwych, agresywnych komentarzy pod adresem innych osób?",
+   "answer": "hejt",
+   "accept": [
+    "hejtowanie",
+    "mowa nienawiści"
+   ],
+   "explanation": "Mowa nienawiści atakuje ludzi ze względu na np. pochodzenie, wygląd czy wyznanie.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.2"
+  },
+  {
+   "id": "ez7-pp-102",
+   "type": "qa",
+   "question": "Jak nazywa się przesyłanie własnych intymnych zdjęć lub wiadomości przez telefon lub internet?",
+   "answer": "seksting",
+   "accept": [
+    "sexting"
+   ],
+   "explanation": "Wysłane zdjęcia wymykają się spod kontroli i mogą posłużyć do szantażu.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.2"
+  },
+  {
+   "id": "ez7-pp-103",
+   "type": "cloze",
+   "text": "Uzależnienie od gier (gaming disorder) zostało wpisane przez WHO do klasyfikacji chorób {{ICD-11}} jako zaburzenie.",
+   "hint": "międzynarodowa klasyfikacja chorób, wersja 11",
+   "explanation": "Objawy: utrata kontroli nad graniem, pierwszeństwo gier przed innymi zajęciami mimo szkód.",
+   "category": "ez7_addictions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "9.2"
+  },
+  {
+   "id": "ez7-pp-104",
+   "type": "qa",
+   "question": "Jak nazywają się substancje, które wpływają na pracę mózgu, zmieniając nastrój, świadomość i zachowanie?",
+   "answer": "psychoaktywne",
+   "accept": [
+    "substancje psychoaktywne"
+   ],
+   "explanation": "Należą do nich alkohol, nikotyna, narkotyki, dopalacze i niektóre leki.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.3"
+  },
+  {
+   "id": "ez7-pp-105",
+   "type": "qa",
+   "question": "Jaka silnie uzależniająca substancja zawarta w tytoniu i e-papierosach działa pobudzająco?",
+   "answer": "nikotyna",
+   "accept": [
+    "nikotynę"
+   ],
+   "explanation": "E-papierosy nie są bezpieczne: zawierają nikotynę i szkodliwe związki w aerozolu.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.3"
+  },
+  {
+   "id": "ez7-pp-106",
+   "type": "qa",
+   "question": "Jaki narząd najbardziej uszkadza długotrwałe picie alkoholu, prowadząc do jego marskości?",
+   "answer": "wątroba",
+   "accept": [
+    "wątrobę"
+   ],
+   "explanation": "Alkohol uszkadza też mózg, który u nastolatków wciąż się rozwija.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.3"
+  },
+  {
+   "id": "ez7-pp-107",
+   "type": "qa",
+   "question": "Jak nazywają się nowe substancje psychoaktywne, sprzedawane kiedyś jako 'produkty kolekcjonerskie', o nieznanym i często groźnym składzie?",
+   "answer": "dopalacze",
+   "accept": [
+    "nsp",
+    "nowe substancje psychoaktywne"
+   ],
+   "explanation": "Ich skład stale się zmienia, więc nawet jedna dawka może spowodować zatrucie i śmierć.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.3"
+  },
+  {
+   "id": "ez7-pp-108",
+   "type": "cloze",
+   "text": "Uzależnienie, w którym po odstawieniu substancji pojawiają się objawy fizyczne (zespół abstynencyjny), to uzależnienie {{fizyczne}}.",
+   "hint": "w odróżnieniu od psychicznego",
+   "explanation": "Uzależnienie psychiczne to silna potrzeba sięgania po substancję mimo szkód.",
+   "category": "ez7_addictions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "9.3"
+  },
+  {
+   "id": "ez7-pp-109",
+   "type": "qa",
+   "question": "Jak nazywa się zestaw nawyków ograniczających szkodliwe korzystanie z technologii, np. brak telefonu w sypialni i limity czasu ekranowego?",
+   "answer": "higiena cyfrowa",
+   "accept": [
+    "cyfrowa higiena"
+   ],
+   "explanation": "Pomagają też: wyłączanie powiadomień i przerwy od ekranu w ciągu dnia.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.4"
+  },
+  {
+   "id": "ez7-pp-110",
+   "type": "qa",
+   "question": "Jak nazywa się nacisk ze strony rówieśników, by zachować się tak jak grupa, np. spróbować alkoholu lub papierosa?",
+   "answer": "presja rówieśnicza",
+   "accept": [
+    "presja grupy",
+    "presja otoczenia",
+    "presja rówieśników"
+   ],
+   "explanation": "Skuteczna obrona to asertywna odmowa, np. 'Nie, dziękuję, nie chcę'.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.4"
+  },
+  {
+   "id": "ez7-pp-111",
+   "type": "cloze",
+   "text": "Odłożenie telefonu i wyłączenie ekranów na godzinę przed {{snem}} poprawia jakość snu i regenerację.",
+   "hint": "nocny odpoczynek",
+   "explanation": "Niebieskie światło ekranów hamuje wydzielanie melatoniny, hormonu snu.",
+   "category": "ez7_addictions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "9.4"
+  }
+ ]
+}

@@ -333,7 +333,7 @@
       types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'de7_other', typeLabels: { awl_word: 'Słówko' },
     },
     informatyka_sp7: { label: 'Informatyka', icon: '💻', tagline: 'Pojęcia, algorytmy i programy', file: 'data/informatyka-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'inf7_other' },
-    edukacja_zdrowotna_sp7: { label: 'Edukacja zdrowotna', icon: '🩺', tagline: 'Zdrowie fizyczne, psychiczne i społeczne', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'ez7_other' },
+    edukacja_zdrowotna_sp7: { label: 'Edukacja zdrowotna', icon: '🩺', tagline: 'Zdrowie fizyczne, psychiczne i społeczne', file: 'data/edukacja-zdrowotna-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'ez7_other' },
   };
   // Nazwa języka obcego w poleceniach ćwiczeń ze słówkami („Napisz po …”).
   const inLang = (subject) => ((SUBJECTS[subject] || {}).lang === 'de-pl' ? 'po niemiecku' : 'po angielsku');
