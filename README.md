@@ -27,7 +27,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 
 ## Przedmioty
 
-Aplikacja obsługuje kilka przedmiotów: **Academic English** i **Biology**. Menu boczne (na komputerze) ma listę przedmiotów z liczbą kart do zrobienia dziś, a pod nią sekcję wybranego przedmiotu: *Dziś*, *Nauka*, *Karty*, *Dodaj materiały*; *Ustawienia* są na dole. Na telefonie przedmiot zmienia się przyciskiem w górnym pasku, a dolny pasek ma te same pozycje. Panel *Dziś* przypomina o kartach czekających w innych przedmiotach.
+Aplikacja obsługuje kilka przedmiotów: **Academic English** i **Biology**. Menu boczne (na komputerze) ma listę przedmiotów z liczbą kart do zrobienia dziś, a pod nią sekcję wybranego przedmiotu: *Dziś*, *Własna sesja*, *Karty*, *Dodaj materiały*; *Ustawienia* są na dole. Na telefonie przedmiot zmienia się przyciskiem w górnym pasku, a dolny pasek ma te same pozycje. Panel *Dziś* przypomina o kartach czekających w innych przedmiotach.
 
 - Każdy przedmiot ma własne kategorie, statystyki i dzienny limit nowych kart (ustawienie *Nowe słowa dziennie* działa osobno w każdym przedmiocie). Powtórki SRS i sesje biorą karty tylko z wybranego przedmiotu.
 - Rejestr przedmiotów to `SUBJECTS` w `app.js` (plik z kartami bazowymi, dozwolone typy, domyślna kategoria). Kategorie przedmiotu to wpisy w `CATEGORIES` z polem `subject` (Academic English ich nie podaje, to przedmiot domyślny).
@@ -95,7 +95,7 @@ Każdy import kończy się **podglądem**: wpisy z błędami (brak wymaganego po
 
 Szczegóły techniczne:
 - Wpisy trafiają do `state.customItems` z `id` `c-<znacznik czasu>-<nr>`, polem `source` (nazwa pliku, nazwa paczki albo „ręcznie”) i `addedAt`. Przechodzą tę samą walidację co `vocabulary.json` (`itemErrors()` / `prepareItem()` w `app.js`).
-- Nowe karty od razu są w Kartach, sesjach i statystykach kategorii. Powtórki SRS wprowadzają je jako *nowe* przed resztą (w ramach dziennego limitu nowych słów). Filtr *⭐ Moje materiały* jest w Nauce, Kartach i na panelu *Dziś*.
+- Nowe karty od razu są w Kartach, sesjach i statystykach kategorii. Powtórki SRS wprowadzają je jako *nowe* przed resztą (w ramach dziennego limitu nowych słów). Filtr *⭐ Moje materiały* jest we Własnej sesji, Kartach i na panelu *Dziś*.
 - *Moje materiały* grupują wpisy według źródła. Można usunąć pojedynczy wpis albo całą paczkę. Usunięcie kasuje też postęp tych słów i zapisuje id w `state.deletedCustom` (tombstones), więc synchronizacja nie przywróci ich z innego urządzenia.
 
 ### Przez vocabulary.json

@@ -1493,7 +1493,7 @@
     drawEx();
 
     view.replaceChildren(
-      h('h1', null, 'Nauka'),
+      h('h1', null, 'Własna sesja'),
       h('div', { class: 'card' },
         h('div', { class: 'field' }, h('span', { class: 'label' }, 'Tryb'),
           seg([['quick', '⚡ Szybka sesja'], ['srs', '🧠 Powtórki SRS']], cfg.mode, (v) => { cfg.mode = v; persist(); })),
