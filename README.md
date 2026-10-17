@@ -11,7 +11,8 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 | `style.css` | wygląd (jasny/ciemny motyw, mobile-first) |
 | `app.js` | cała logika: ćwiczenia, powtórki SM-2, widoki |
 | `ai-import.js` | import z czatu AI: prompt do skopiowania i parser odpowiedzi (`window.AW_AI`) |
-| `vocabulary.json` | słownictwo (704 wpisy) |
+| `vocabulary.json` | słownictwo Academic English (704 wpisy) |
+| `data/biology.json` | karty bazowe z biologii (na razie puste, karty dodaje się w aplikacji) |
 | `manifest.json`, `sw.js`, `icons/` | PWA: instalacja i tryb offline |
 
 **Starter pack (`vocabulary.json`):**
@@ -22,6 +23,17 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 
 **Tryby nauki:** fiszki (ze swipe), quiz (4 odpowiedzi), wpisywanie (tolerancja literówek), dopasowywanie par, uzupełnianie luk.
 **Sesje:** szybka (10–15 słów, mix ćwiczeń) albo inteligentne powtórki (algorytm SM-2 + limit nowych słów dziennie).
+
+## Przedmioty
+
+Aplikacja obsługuje kilka przedmiotów: **Academic English** i **Biology**. Przełącznik przedmiotu jest na Panelu, w Nauce i w Słowniku; przy każdym przedmiocie Panel pokazuje, ile kart jest do zrobienia dziś.
+
+- Każdy przedmiot ma własne kategorie, statystyki i dzienny limit nowych kart (ustawienie *Nowe słowa dziennie* działa osobno w każdym przedmiocie). Powtórki SRS i sesje biorą karty tylko z wybranego przedmiotu.
+- Rejestr przedmiotów to `SUBJECTS` w `app.js` (plik z kartami bazowymi, dozwolone typy, domyślna kategoria). Kategorie przedmiotu to wpisy w `CATEGORIES` z polem `subject` (Academic English ich nie podaje, to przedmiot domyślny).
+- Nowy przedmiot: dopisz go do `SUBJECTS`, dodaj jego kategorie do `CATEGORIES` (klucze z prefiksem, np. `chem_…`), utwórz plik `data/<przedmiot>.json` i dodaj go do listy `ASSETS` w `sw.js` (z podbiciem wersji cache). Prompt czatu AI zbuduje się sam z nazwy i kategorii; przykładowe karty dla promptu można dopisać w `EXAMPLES` w `ai-import.js`.
+- Wpisy bez pola `subject` należą do przedmiotu wynikającego z kategorii, a bez kategorii do Academic English, więc dotychczasowe słownictwo i postęp działają bez migracji.
+
+**Kategorie biologii:** `bio_cells` (Cells), `bio_molecules` (Molecules & metabolism), `bio_genetics` (Genetics & evolution), `bio_human` (Human physiology), `bio_plants` (Plants), `bio_ecology` (Ecology), `bio_skills` (Skills & experiments), `bio_general` (Other, domyślna).
 
 ## Uruchomienie lokalnie
 
@@ -55,10 +67,10 @@ Są dwie drogi:
 
 ### W aplikacji (własne materiały)
 
-Cztery sposoby dodawania:
+Na górze widoku wybiera się przedmiot, do którego trafią karty. Cztery sposoby dodawania:
 
 1. **Z czatu AI (Copilot), polecane**:
-   1. *Skopiuj prompt i otwórz Copilota*: prompt trafia do schowka, a Copilot otwiera się w nowej karcie. Gdy schowek jest niedostępny, prompt pojawia się zaznaczony w polu tekstowym (*Pokaż prompt*) do ręcznego skopiowania.
+   1. *Skopiuj prompt i otwórz Copilota*: prompt zależy od wybranego przedmiotu (dla Academic English wyciąga słownictwo, dla pozostałych przygotowuje pytania i zdania z luką). Prompt trafia do schowka, a Copilot otwiera się w nowej karcie. Gdy schowek jest niedostępny, prompt pojawia się zaznaczony w polu tekstowym (*Pokaż prompt*) do ręcznego skopiowania.
    2. W czacie wklej prompt i dołącz handout (zdjęcie, PDF, Word albo tekst).
    3. Skopiuj całą odpowiedź czatu i wklej ją w pole *Wklej odpowiedź czatu* (albo przyciskiem *Wklej ze schowka*). Parser (`AW_AI.parseReply`) sam wyłuska JSON z tekstu i bloków kodu, naprawi „inteligentne” cudzysłowy i końcowe przecinki, a błędne lub ucięte wpisy pokaże w podglądzie.
 
@@ -72,6 +84,8 @@ Cztery sposoby dodawania:
    | `replacement` | nieformalnie ; formalnie (kilka przez `/`) ; po polsku ; przykład formalny |
    | `hedging` | zdanie zbyt pewne ; wersja ostrożna ; technika ; opis |
    | `style_rule` | reguła ; błędnie ; poprawnie |
+   | `qa` | pytanie ; odpowiedź ; wyjaśnienie |
+   | `cloze` | zdanie z `{{luką}}` ; podpowiedź ; wyjaśnienie |
 
    Kilka tłumaczeń oddziela się przecinkiem. Linie puste i zaczynające się od `#` są pomijane.
 4. **Formularz** do pojedynczego słowa, z polami zależnymi od typu.
@@ -91,8 +105,26 @@ Szczegóły techniczne:
 
 ### Format wpisów
 
-Wspólne pola: `id`, `type`, `category`, `difficulty` (1–3).
-Kategorie: `phrasal_verbs`, `informal_phrases`, `academic_verbs`, `connectors`, `hedging`, `awl`, `style_rules`, `noun_phrases`.
+Wspólne pola: `id`, `type`, `category`, `difficulty` (1–3), opcjonalnie `subject` (`academic_english`, `biology`).
+Kategorie Academic English: `phrasal_verbs`, `informal_phrases`, `academic_verbs`, `connectors`, `hedging`, `awl`, `style_rules`, `noun_phrases`. Kategorie biologii: sekcja *Przedmioty*.
+
+Typy ogólne, dostępne w każdym przedmiocie (w biologii tylko te dwa):
+
+```json
+{ "id": "bio-001", "type": "qa", "question": "Which organelle is the site of aerobic respiration?",
+  "answer": "mitochondrion", "accept": ["mitochondria"],
+  "explanation": "Most of the ATP in a eukaryotic cell is produced in the mitochondria.",
+  "category": "bio_cells", "difficulty": 1 }
+
+{ "id": "bio-002", "type": "cloze", "text": "Enzymes speed up reactions by lowering the {{activation energy}}.",
+  "hint": "energy", "explanation": "The enzyme stabilises the transition state.",
+  "category": "bio_molecules", "difficulty": 1 }
+```
+
+- `qa`: fiszka, quiz (dystraktory to odpowiedzi z innych kart tego przedmiotu), wpisywanie i dopasowywanie par, gdy odpowiedź jest krótka (do 4 słów i 40 znaków). Długa odpowiedź działa tylko jako fiszka. `accept` to inne poprawne formy.
+- `cloze`: luka w `{{…}}`, warianty odpowiedzi oddzielone `/` (`{{mitosis / mitotic division}}`). Ukrywana jest pierwsza luka, kolejne `{{…}}` pokazują się jako zwykły tekst. Ćwiczenia: luka (także w trybie *Wpisywanie*), quiz, fiszka.
+
+Typy Academic English:
 
 ```json
 { "id": "r001", "type": "replacement", "informal": "find out",

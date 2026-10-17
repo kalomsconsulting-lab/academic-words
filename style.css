@@ -185,6 +185,13 @@ body.in-session .view { padding-bottom: 24px; }
   cursor: pointer;
 }
 .chip.active { border-color: var(--primary); background: var(--primary-soft); color: var(--primary-strong); }
+.subject-picker { margin-bottom: 16px; }
+.subject-picker .chip { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; font-size: .95rem; }
+.chip-count {
+  min-width: 20px; padding: 1px 6px; border-radius: 999px; background: var(--accent); color: #fff;
+  font-size: .75rem; font-weight: 700; text-align: center;
+}
+mark { background: var(--warn-soft); color: inherit; border-radius: 4px; padding: 0 3px; }
 :root[data-theme="dark"] .chip.active { color: var(--primary); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chip.active { color: var(--primary); } }
 

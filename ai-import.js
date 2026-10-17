@@ -1,6 +1,6 @@
 /* Academic Words — import materiałów przez zewnętrzny czat AI (Copilot, ChatGPT, Claude…).
  * Samodzielny moduł bez zależności: prompt do skopiowania + tolerancyjny parser odpowiedzi.
- * Użycie w aplikacji: window.AW_AI.prompt, window.AW_AI.copilotUrl, window.AW_AI.parseReply(text). */
+ * Użycie w aplikacji: window.AW_AI.promptFor(przedmiot), window.AW_AI.copilotUrl, window.AW_AI.parseReply(text). */
 'use strict';
 (function (root) {
 
@@ -28,6 +28,53 @@ Zasady:
 - Nie dodawaj pola "id".
 - Używaj zwykłych cudzysłowów ", bez przecinka po ostatnim elemencie.
 - Jeśli wpisów jest więcej niż 25, zwróć pierwsze 25 i napisz "CIĄG DALSZY", a resztę podaj, gdy poproszę.`;
+
+  // Przykładowe karty per przedmiot; inne przedmioty dostają ogólne przykłady.
+  const EXAMPLES = {
+    biology: {
+      qa: { question: 'Which organelle is the site of aerobic respiration?', answer: 'mitochondrion', accept: ['mitochondria'],
+        explanation: 'Most of the ATP in a eukaryotic cell is produced in the mitochondria.' },
+      cloze: { text: 'Enzymes speed up reactions by lowering the {{activation energy}}.', hint: 'energy',
+        explanation: 'The enzyme stabilises the transition state, so less energy is needed.', category: 'bio_molecules' },
+    },
+  };
+  const GENERIC_EXAMPLE = {
+    qa: { question: 'What is …?', answer: 'short answer', accept: ['other correct form'], explanation: 'One-sentence explanation.' },
+    cloze: { text: 'A sentence with the {{key term}} hidden.', hint: 'hint', explanation: 'One-sentence explanation.' },
+  };
+
+  // Prompt ogólny (pytania i luki) dla przedmiotu: { id, label, categories: [{ key, label }] }.
+  function promptFor(subject) {
+    if (!subject || subject.id === 'academic_english') return PROMPT;
+    const ex = EXAMPLES[subject.id] || GENERIC_EXAMPLE;
+    const cats = subject.categories || [];
+    const cat = cats.length ? cats[0].key : undefined;
+    const card = (type, fields) => `{ ${Object.entries({ type, ...fields, category: fields.category || cat, difficulty: 1 })
+      .filter(([, v]) => v !== undefined).map(([k, v]) => `"${k}": ${JSON.stringify(v)}`).join(', ')} }`;
+    return `Na podstawie załączonego materiału z przedmiotu ${subject.label} przygotuj karty do nauki z fiszek i zwróć je jako JSON w bloku kodu.
+
+Format: tablica obiektów. Użyj dwóch typów:
+
+1. Pytanie i odpowiedź:
+${card('qa', ex.qa)}
+
+2. Zdanie z luką (ukryte pojęcie w podwójnych klamrach {{ }}):
+${card('cloze', ex.cloze)}
+
+Zasady:
+- Karty po angielsku, tak jak w materiale. Bez tłumaczeń na polski.
+- Jedna informacja na kartę. Pytaj o definicje, funkcje, różnice, przyczyny i skutki, etapy procesów, przykłady.
+- "answer" krótko: najlepiej 1–4 słowa (pojęcie, nazwa, liczba), bo uczeń wpisuje je z pamięci. Dłuższy komentarz daj do "explanation" (jedno zdanie).
+- "accept" (opcjonalnie): inne poprawne formy odpowiedzi, np. liczba mnoga, skrót, synonim.
+- W "cloze" dokładnie jedna luka. Ukrywaj kluczowe pojęcie, nigdy słowa typu "the", "is", "and". Inne poprawne formy wpisz w luce po "/": {{ATP / adenosine triphosphate}}.
+- Mniej więcej 60% kart "qa" i 40% "cloze".
+- Dozwolone kategorie${cats.length ? `: ${cats.map((c) => `${c.key} (${c.label})`).join(', ')}` : ' — pomiń pole "category"'}.
+- "difficulty": 1 (łatwe), 2 (średnie), 3 (trudne).
+- Używaj tylko informacji z materiału, nie dopisuj faktów spoza niego.
+- Nie dodawaj pola "id".
+- Używaj zwykłych cudzysłowów ", bez przecinka po ostatnim elemencie.
+- Jeśli kart jest więcej niż 25, zwróć pierwsze 25 i napisz "CIĄG DALSZY", a resztę podaj, gdy poproszę.`;
+  }
 
   // -------------------------------------------------------------------
   // Parser odpowiedzi
@@ -121,7 +168,7 @@ Zasady:
     return { items, errors };
   }
 
-  const api = { prompt: PROMPT, copilotUrl: COPILOT_URL, parseReply };
+  const api = { prompt: PROMPT, promptFor, copilotUrl: COPILOT_URL, parseReply };
   root.AW_AI = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

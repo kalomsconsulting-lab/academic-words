@@ -17,6 +17,15 @@
     awl:              { label: 'Academic Word List', short: 'AWL', pl: 'akademicka lista słów', icon: '📚' },
     style_rules:      { label: 'Style rules', short: 'Style', pl: 'reguły stylu', icon: '✍️' },
     noun_phrases:     { label: 'Noun phrases', short: 'Noun phrases', pl: 'frazy rzeczownikowe', icon: '🧩' },
+    // Biologia (klucze z prefiksem przedmiotu, żeby nie kolidowały z innymi przedmiotami)
+    bio_cells:        { subject: 'biology', label: 'Cells', short: 'Cells', pl: 'komórki', icon: '🦠' },
+    bio_molecules:    { subject: 'biology', label: 'Molecules & metabolism', short: 'Molecules', pl: 'cząsteczki i metabolizm', icon: '⚗️' },
+    bio_genetics:     { subject: 'biology', label: 'Genetics & evolution', short: 'Genetics', pl: 'genetyka i ewolucja', icon: '🧬' },
+    bio_human:        { subject: 'biology', label: 'Human physiology', short: 'Physiology', pl: 'fizjologia człowieka', icon: '🫀' },
+    bio_plants:       { subject: 'biology', label: 'Plants', short: 'Plants', pl: 'rośliny', icon: '🌱' },
+    bio_ecology:      { subject: 'biology', label: 'Ecology', short: 'Ecology', pl: 'ekologia', icon: '🌍' },
+    bio_skills:       { subject: 'biology', label: 'Skills & experiments', short: 'Skills', pl: 'umiejętności i doświadczenia', icon: '🔬' },
+    bio_general:      { subject: 'biology', label: 'Other', short: 'Other', pl: 'inne', icon: '📘' },
   };
 
   const TYPES = {
@@ -25,7 +34,23 @@
     awl_word: 'Słowo AWL',
     style_rule: 'Reguła stylu',
     hedging: 'Hedging',
+    qa: 'Pytanie i odpowiedź',
+    cloze: 'Zdanie z luką',
   };
+
+  // Przedmioty: plik ze słownictwem bazowym, dozwolone typy wpisów, kategoria dla wpisów bez kategorii.
+  const SUBJECTS = {
+    academic_english: {
+      label: 'Academic English', icon: '🎓', tagline: 'Formalny angielski do Academic Writing', file: 'vocabulary.json',
+      types: ['awl_word', 'replacement', 'academic_verb', 'hedging', 'style_rule', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'style_rules',
+    },
+    biology: {
+      label: 'Biology', icon: '🧬', tagline: 'Biologia: pojęcia, procesy i fakty', file: 'data/biology.json',
+      types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'bio_general',
+    },
+  };
+  const DEFAULT_SUBJECT = 'academic_english';
+  for (const c of Object.values(CATEGORIES)) c.subject = c.subject || DEFAULT_SUBJECT;
 
   const FUNCTION_LABELS = {
     claim: 'Twierdzenie (claim)',
@@ -65,6 +90,9 @@
 
   const STATUS_LABELS = { new: 'Nowe', learning: 'W nauce', mastered: 'Opanowane' };
 
+  // Krótka odpowiedź = da się ją wpisać z pamięci i ułożyć z niej pary.
+  const isShort = (s) => !!s && String(s).length <= 40 && String(s).trim().split(/\s+/).length <= 4;
+
   // Warianty ćwiczenia "dopasuj pary".
   const MATCH = {
     inf_formal: {
@@ -86,6 +114,11 @@
       label: 'Angielski → polski',
       filter: (i) => (i.type === 'awl_word' || i.type === 'academic_verb') && i.polish.length > 0,
       left: (i) => i.word, right: (i) => i.polish[0],
+    },
+    qa_pairs: {
+      label: 'Odpowiedź → pytanie',
+      filter: (i) => i.type === 'qa' && isShort(i.answer) && i.question.length <= 110,
+      left: (i) => i.answer, right: (i) => i.question,
     },
   };
 
@@ -174,6 +207,7 @@
       settings: {
         theme: 'system',
         name: '',
+        subject: DEFAULT_SUBJECT,
         newPerDay: 10,
         sessionSize: 12,
         lastConfig: { mode: 'quick', category: 'all', difficulty: 'all', exercise: 'mix' },
@@ -220,6 +254,25 @@
   function dayLog(d = today()) {
     return (state.daily[d] = state.daily[d] || { answers: 0, newItems: 0 });
   }
+
+  // Nowe słowa dnia per przedmiot (limit liczony osobno). Dni sprzed podziału liczą się jako Academic English.
+  function newCount(log, subject) {
+    if (log.newBy) return log.newBy[subject] || 0;
+    return subject === DEFAULT_SUBJECT ? log.newItems || 0 : 0;
+  }
+  function addNew(log, subject) {
+    if (!log.newBy) log.newBy = { [DEFAULT_SUBJECT]: log.newItems || 0 };
+    log.newBy[subject] = (log.newBy[subject] || 0) + 1;
+    log.newItems++;
+  }
+
+  const currentSubject = () => (SUBJECTS[state.settings.subject] ? state.settings.subject : DEFAULT_SUBJECT);
+  const subjectOf = (raw) => (raw.subject && SUBJECTS[raw.subject] ? raw.subject
+    : CATEGORIES[raw.category] ? CATEGORIES[raw.category].subject : DEFAULT_SUBJECT);
+  const catsOf = (subject) => Object.entries(CATEGORIES).filter(([, c]) => c.subject === subject);
+  const catOf = (key, subject) => (CATEGORIES[key] && CATEGORIES[key].subject === subject ? CATEGORIES[key] : null);
+  // Kategoria dla wpisu bez kategorii: domyślna dla typu (jeśli należy do przedmiotu), inaczej domyślna przedmiotu.
+  const defaultCat = (type, subject) => (catOf(TYPE_CATEGORY[type], subject) ? TYPE_CATEGORY[type] : SUBJECTS[subject].defaultCategory);
 
   function applyTheme() {
     const t = state.settings.theme;
@@ -312,7 +365,21 @@
       { key: 'incorrect', label: 'Błędnie', req: true, ph: 'I was told to always keep a good look out.' },
       { key: 'correct', label: 'Poprawnie', req: true, ph: 'I was always told to keep a good look out.' },
     ],
+    qa: [
+      { key: 'question', label: 'Pytanie', req: true, ph: 'Which organelle is the site of aerobic respiration?' },
+      { key: 'answer', label: 'Odpowiedź', req: true, hint: 'najlepiej 1–4 słowa', ph: 'mitochondrion' },
+      { key: 'accept', label: 'Inne poprawne odpowiedzi', list: '/', hint: 'kilka oddziel „/”', ph: 'mitochondria' },
+      { key: 'explanation', label: 'Wyjaśnienie', ph: 'Aerobic respiration produces most of the cell’s ATP in the mitochondria.' },
+    ],
+    cloze: [
+      { key: 'text', label: 'Zdanie z luką', req: true, hint: 'lukę zapisz w {{…}}, warianty oddziel „/”', ph: 'Enzymes lower the {{activation energy}} of a reaction.' },
+      { key: 'hint', label: 'Podpowiedź', ph: 'energy' },
+      { key: 'explanation', label: 'Wyjaśnienie', ph: 'The enzyme stabilises the transition state.' },
+    ],
   };
+
+  const CLOZE_RE = /\{\{([^{}]+)\}\}/;
+  const CLOZE_RE_G = /\{\{([^{}]+)\}\}/g;
 
   const filled = (v) => (Array.isArray(v) ? v.some((x) => String(x).trim()) : v != null && String(v).trim() !== '');
 
@@ -322,20 +389,50 @@
     if (!filled(raw.type)) return ['Brak pola type'];
     if (!TYPES[raw.type]) return [`Nieznany typ „${raw.type}”`];
     const errs = [];
+    if (filled(raw.subject) && !SUBJECTS[raw.subject]) return [`Nieznany przedmiot „${raw.subject}”`];
+    const subject = subjectOf(raw);
+    const subj = SUBJECTS[subject];
+    if (!subj.types.includes(raw.type)) errs.push(`Typ „${raw.type}” nie jest dostępny w przedmiocie ${subj.label}`);
     if (filled(raw.category) && !CATEGORIES[raw.category]) errs.push(`Nieznana kategoria „${raw.category}”`);
+    else if (filled(raw.category) && !catOf(raw.category, subject)) errs.push(`Kategoria „${raw.category}” nie należy do przedmiotu ${subj.label}`);
     for (const f of FIELDS[raw.type]) {
       if (f.req && !filled(raw[f.key])) errs.push(`Brak pola ${f.key} (${f.label.toLowerCase()})`);
       else if (f.options && filled(raw[f.key]) && !f.options[raw[f.key]]) errs.push(`Nieznana wartość ${f.key}: „${raw[f.key]}”`);
     }
+    if (raw.type === 'cloze' && filled(raw.text) && !CLOZE_RE.test(raw.text)) errs.push('W zdaniu brakuje luki w podwójnych klamrach {{…}}');
     return errs;
   }
 
   function prepareItem(raw) {
     if (!raw || !raw.id || itemErrors(raw).length) return null;
     const it = { ...raw, difficulty: Math.min(3, Math.max(1, Number(raw.difficulty) || 1)) };
-    if (!CATEGORIES[it.category]) it.category = TYPE_CATEGORY[it.type];
+    it.subject = subjectOf(raw);
+    if (!catOf(it.category, it.subject)) it.category = defaultCat(it.type, it.subject);
     it._custom = String(it.id).startsWith('c-');
     switch (it.type) {
+      case 'qa':
+        it.question = String(it.question).trim();
+        it.answer = String(it.answer).trim();
+        it.accept = toArr(it.accept);
+        it._answers = uniq([it.answer, ...it.accept]);
+        it._mc = isShort(it.answer) ? it.answer : null; // długie odpowiedzi byłyby w quizie oczywiste
+        it._gap = null;
+        it._label = it.question;
+        it._answer = it.answer;
+        break;
+      case 'cloze': {
+        // Pierwsza luka jest ukryta, pozostałe {{…}} pokazujemy jako zwykły tekst.
+        const m = it.text.match(CLOZE_RE);
+        const plain = (s) => s.replace(CLOZE_RE_G, (_, x) => x.split('/')[0].trim());
+        const alts = m[1].split('/').map((x) => x.trim()).filter(Boolean);
+        if (!alts.length) return null;
+        it._gap = { before: plain(it.text.slice(0, m.index)), hidden: alts[0], after: plain(it.text.slice(m.index + m[0].length)) };
+        it._answers = alts;
+        it._mc = alts[0];
+        it._label = `${it._gap.before}___${it._gap.after}`;
+        it._answer = alts.join(' / ');
+        break;
+      }
       case 'replacement': {
         it.formal = toArr(it.formal);
         it.polish = toArr(it.polish);
@@ -366,6 +463,7 @@
         break;
     }
     it._search = [it.informal, it.word, it.rule, it.incorrect, it.correct, it.example, it.example_formal,
+      it.question, it.answer, it.explanation, it.hint, it.type === 'cloze' ? it.text.replace(CLOZE_RE_G, '$1') : null, ...(it.accept || []),
       ...(Array.isArray(it.formal) ? it.formal : [it.formal]), ...(Array.isArray(it.polish) ? it.polish : [it.polish])]
       .filter(Boolean).join(' ').toLowerCase();
     return it;
@@ -373,22 +471,42 @@
 
   let BASE_ITEMS = [];
 
+  // Pliki wszystkich przedmiotów. Bez słownictwa domyślnego przedmiotu aplikacja nie startuje,
+  // brak pliku innego przedmiotu (np. offline przed pierwszym pobraniem) daje tylko pusty przedmiot.
   async function loadVocab() {
-    const res = await fetch('vocabulary.json', { cache: 'no-cache' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    BASE_ITEMS = Array.isArray(data) ? data : data.items;
-    VOCAB_META = Array.isArray(data) ? {} : data;
+    const loaded = await Promise.all(Object.entries(SUBJECTS).map(async ([key, subj]) => {
+      try {
+        const res = await fetch(subj.file, { cache: 'no-cache' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        const items = (Array.isArray(data) ? data : data.items || []).map((it) => (it.subject ? it : { ...it, subject: key }));
+        return { key, items, meta: Array.isArray(data) ? {} : data };
+      } catch (e) {
+        if (key === DEFAULT_SUBJECT) throw e;
+        return { key, items: [], meta: {} };
+      }
+    }));
+    BASE_ITEMS = loaded.flatMap((l) => l.items);
+    VOCAB_META = loaded.find((l) => l.key === DEFAULT_SUBJECT).meta;
     rebuildVocab();
   }
+
+  // Ile wpisów ma tekst do quizu (pytania/luki) w danym przedmiocie — quiz potrzebuje 3 dystraktorów.
+  const MC_POOL = new Map();
 
   // Scala słownik z własnymi materiałami — wołane też po dodaniu/usunięciu i po synchronizacji.
   function rebuildVocab() {
     const gone = state.deletedCustom || {};
     VOCAB = [...BASE_ITEMS, ...state.customItems.filter((c) => !gone[c.id])].map(prepareItem).filter(Boolean);
     BY_ID.clear();
-    for (const it of VOCAB) BY_ID.set(it.id, it);
+    MC_POOL.clear();
+    for (const it of VOCAB) {
+      BY_ID.set(it.id, it);
+      if (it._mc) MC_POOL.set(it.subject, (MC_POOL.get(it.subject) || 0) + 1);
+    }
   }
+
+  const subjectPool = (subject = currentSubject()) => VOCAB.filter((it) => it.subject === subject);
 
   // ===================================================================
   // Postęp i powtórki (SM-2)
@@ -409,7 +527,7 @@
     const log = dayLog(t);
     if (!p) {
       p = state.progress[it.id] = { ef: 2.5, interval: 0, reps: 0, due: t, attempts: 0, correct: 0, hist: [] };
-      log.newItems++;
+      addNew(log, it.subject);
     }
     p.attempts++;
     if (correct) p.correct++;
@@ -433,9 +551,9 @@
 
   const isDue = (it) => { const p = state.progress[it.id]; return !!p && p.due <= today(); };
 
-  function srsCounts(pool = VOCAB) {
+  function srsCounts(pool = subjectPool(), subject = currentSubject()) {
     const due = pool.filter(isDue).length;
-    const newLeft = Math.max(0, state.settings.newPerDay - dayLog().newItems);
+    const newLeft = Math.max(0, state.settings.newPerDay - newCount(dayLog(), subject));
     const unseen = pool.filter((it) => !state.progress[it.id]).length;
     return { due, newToday: Math.min(newLeft, unseen) };
   }
@@ -452,7 +570,7 @@
   // Budowanie sesji
   // ===================================================================
   function filterPool(cfg) {
-    return VOCAB.filter((it) =>
+    return subjectPool().filter((it) =>
       (cfg.category === 'all' || it.category === cfg.category || (cfg.category === 'custom' && it._custom)) &&
       (cfg.difficulty === 'all' || String(it.difficulty) === String(cfg.difficulty)));
   }
@@ -482,11 +600,13 @@
     switch (kind) {
       case 'flashcard': return true;
       case 'mc':
+        if (it.type === 'qa' || it.type === 'cloze') return !!it._mc && (MC_POOL.get(it.subject) || 0) >= 4;
         if (it.type === 'style_rule') return false;
         if (it.type === 'awl_word') return it.polish.length > 0;
         return true;
       case 'typing':
         if (it.type === 'replacement') return true;
+        if (it.type === 'qa') return isShort(it.answer);
         return (it.type === 'academic_verb' || it.type === 'awl_word') && it.polish.length > 0;
       case 'gap': return !!it._gap;
       default: return false;
@@ -496,6 +616,8 @@
   function chooseKind(it, exercise) {
     const kinds = exercise === 'mix' || exercise === 'matching' ? ['flashcard', 'mc', 'typing', 'gap'] : [exercise];
     const ok = kinds.filter((k) => eligible(k, it));
+    // zdanie z luką to też wpisywanie
+    if (!ok.length && exercise === 'typing' && eligible('gap', it)) return 'gap';
     if (!ok.length) return eligible('mc', it) ? 'mc' : 'flashcard';
     if (ok.length === 1) return ok[0];
     const fresh = !state.progress[it.id];
@@ -509,6 +631,7 @@
     if (it.type === 'replacement') return it.category === 'phrasal_verbs' ? 'phrasal' : 'inf_formal';
     if (it.type === 'academic_verb') return 'verb_function';
     if (it.type === 'awl_word' && it.polish.length) return 'en_pl';
+    if (MATCH.qa_pairs.filter(it)) return 'qa_pairs';
     return null;
   }
 
@@ -592,6 +715,8 @@
     if (it.type === 'replacement') return it.example_formal;
     if (it.type === 'academic_verb' || it.type === 'awl_word') return it.example;
     if (it.type === 'hedging') return it.formal;
+    if (it.type === 'qa') return it.explanation || '';
+    if (it.type === 'cloze') return [`${it._gap.before}${it._gap.hidden}${it._gap.after}`, it.explanation].filter(Boolean).join(' — ');
     return '';
   }
 
@@ -627,7 +752,7 @@
   // Dystraktory: najpierw ta sama kategoria, potem reszta tego samego typu.
   function distractors(it, getText, filterFn, exclude, n = 3) {
     const excl = new Set(exclude.map((x) => String(x).toLowerCase()));
-    const cands = VOCAB.filter((o) => o !== it && filterFn(o));
+    const cands = VOCAB.filter((o) => o !== it && o.subject === it.subject && filterFn(o));
     const same = shuffle(cands.filter((o) => o.category === it.category && (!it.awl_group || Math.abs((o.awl_group || 0) - it.awl_group) <= 2)));
     const other = shuffle(cands);
     const out = [];
@@ -683,6 +808,14 @@
       return { instruction: 'Które słowo AWL to oznacza?', prompt: it.polish.join(', '), answer: it.word,
         options: opts(it.word, distractors(it, (o) => o.word, sameType, [it.word])) };
     }
+    if (it.type === 'qa' || it.type === 'cloze') {
+      // dystraktory: odpowiedzi z innych pytań i luk tego przedmiotu (najpierw z tej samej kategorii)
+      const wrong = distractors(it, (o) => o._mc, (o) => !!o._mc, it._answers);
+      return it.type === 'qa'
+        ? { instruction: 'Wybierz poprawną odpowiedź', prompt: it.question, sentence: true, answer: it.answer, options: opts(it.answer, wrong) }
+        : { instruction: 'Czego brakuje w zdaniu?', prompt: it._label, sentence: true, context: it.hint ? `Podpowiedź: ${it.hint}` : null,
+          answer: it._gap.hidden, options: opts(it._gap.hidden, wrong) };
+    }
     if (it.type === 'hedging') {
       const correct = TECHNIQUES[it.technique] || it.technique;
       return { instruction: 'Jaką technikę hedgingu zastosowano?', prompt: `„${it.informal}”`, sentence: true,
@@ -729,6 +862,18 @@
           label: 'Co jest nie tak w tym zdaniu?', text: it.incorrect, sentence: true, expected: it.correct,
           back: [h('div', { class: 'side-label' }, 'Reguła'), h('div', { style: 'font-weight:700' }, it.rule),
             ex('bad', '✗', it.incorrect), ex('good', '✓', it.correct)],
+        };
+      case 'qa':
+        return {
+          label: 'Pytanie', text: it.question, sentence: true, expected: it.answer,
+          back: [h('div', { class: 'main' + (isShort(it.answer) ? '' : ' sentence') }, it.answer),
+            kv([['Też poprawnie', it.accept.join(' / ')]]), it.explanation ? h('p', { class: 'muted' }, it.explanation) : null],
+        };
+      case 'cloze':
+        return {
+          label: 'Czego brakuje?', text: it._label, sentence: true, expected: it._gap.hidden,
+          back: [h('div', { class: 'main sentence' }, it._gap.before, h('mark', null, it._gap.hidden), it._gap.after),
+            kv([['Też poprawnie', it._answers.slice(1).join(' / ')]]), it.explanation ? h('p', { class: 'muted' }, it.explanation) : null],
         };
       case 'hedging':
         return {
@@ -849,6 +994,9 @@
   }
 
   function typingPrompt(it) {
+    if (it.type === 'qa') {
+      return { instruction: 'Napisz odpowiedź', prompt: it.question, accepted: it._answers, expected: it.answer };
+    }
     if (it.type === 'replacement') {
       return { instruction: 'Napisz formalny odpowiednik', prompt: it.informal, context: it.example_informal,
         accepted: it._answers, expected: it.formal.join(' / ') };
@@ -910,7 +1058,7 @@
   function renderGap(step, root, ctx) {
     const it = step.items[0];
     const g = it._gap;
-    const hint = it.type === 'replacement' ? `(${it.informal})` : `(${it.polish[0]})`;
+    const hint = it.type === 'replacement' ? `(${it.informal})` : it.type === 'cloze' ? (it.hint ? `(${it.hint})` : '') : `(${it.polish[0]})`;
     const accepted = uniq([g.hidden, ...(it._answers || [])]);
     const line = h('span', { class: 'gap-line' }, ' '.repeat(10));
     let answered = false;
@@ -926,13 +1074,14 @@
       line.classList.add(res.ok ? 'ok' : 'bad');
       ctx.finish([{ item: it, correct: res.ok, quality: res.ok ? (res.exact ? 4 : 3) : 1,
         prompt: `${g.before}___${g.after}`, expected: g.hidden, given: input.value || '(nie wiem)' }],
-        res.ok ? { ok: true, title: res.exact ? pick(OK_TITLES) : 'Prawie idealnie — mała literówka', detail: `${g.before}${g.hidden}${g.after}` }
+        res.ok ? { ok: true, title: res.exact ? pick(OK_TITLES) : 'Prawie idealnie — mała literówka', detail: [`${g.before}${g.hidden}${g.after}`, it.explanation].filter(Boolean).join(' — ') }
           : { ok: false, title: 'Niestety…', detail: `Poprawnie: ${g.hidden}` });
     }
     put(root,
       kindLabel('Uzupełnij lukę'),
       h('div', { class: 'muted', style: 'margin-bottom:10px' },
-        it.type === 'replacement' ? 'Wpisz formalne wyrażenie zamiast nieformalnego z nawiasu.' : 'Wpisz brakujące słowo (podpowiedź po polsku).'),
+        it.type === 'replacement' ? 'Wpisz formalne wyrażenie zamiast nieformalnego z nawiasu.'
+          : it.type === 'cloze' ? 'Wpisz brakujące pojęcie.' : 'Wpisz brakujące słowo (podpowiedź po polsku).'),
       h('div', { class: 'gap-sentence card' },
         g.before,
         h('span', { class: 'gap-slot' }, h('span', { class: 'gap-hint' }, hint), line),
@@ -1153,23 +1302,55 @@
     return s;
   }
 
+  // Kategoria zapisana w ustawieniach może pochodzić z innego przedmiotu.
+  function validCat(cat, pool) {
+    if (cat === 'custom') return pool.some((it) => it._custom) ? cat : 'all';
+    return cat === 'all' || catOf(cat, currentSubject()) ? cat : 'all';
+  }
+
+  function setSubject(key) {
+    if (key === currentSubject()) return;
+    state.settings.subject = key;
+    state.settings.lastConfig.category = 'all';
+    browseState.category = 'all';
+    browseState.type = 'all';
+    save();
+    route();
+  }
+
+  // Przełącznik przedmiotu; withCounts: liczba kart do zrobienia dziś przy każdym przedmiocie.
+  function subjectPicker(withCounts) {
+    const cur = currentSubject();
+    return h('div', { class: 'chips subject-picker', role: 'group', 'aria-label': 'Przedmiot' },
+      Object.entries(SUBJECTS).map(([k, subj]) => {
+        let badge = null;
+        if (withCounts) {
+          const c = srsCounts(subjectPool(k), k);
+          if (c.due + c.newToday) badge = h('span', { class: 'chip-count', title: 'Do zrobienia dziś' }, String(c.due + c.newToday));
+        }
+        return h('button', { class: 'chip' + (k === cur ? ' active' : ''), 'aria-pressed': String(k === cur), onClick: () => setSubject(k) },
+          `${subj.icon} ${subj.label}`, badge);
+      }));
+  }
+
   function renderDashboard(view) {
     const name = state.settings.name.trim();
     const st = streak();
-    const { due, newToday } = srsCounts();
-    const overall = statsFor(VOCAB);
-    const mine = VOCAB.filter((it) => it._custom);
-    let quickCat = state.settings.lastConfig.category || 'all';
-    if (quickCat === 'custom' && !mine.length) quickCat = 'all';
+    const subj = SUBJECTS[currentSubject()];
+    const pool = subjectPool();
+    const { due, newToday } = srsCounts(pool);
+    const overall = statsFor(pool);
+    const mine = pool.filter((it) => it._custom);
+    let quickCat = validCat(state.settings.lastConfig.category || 'all', pool);
 
     const chips = h('div', { class: 'chips' });
     const drawChips = () => chips.replaceChildren(
-      ...[['all', 'Wszystkie'], ...(mine.length ? [['custom', '⭐ Moje']] : []), ...Object.entries(CATEGORIES).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
+      ...[['all', 'Wszystkie'], ...(mine.length ? [['custom', '⭐ Moje']] : []), ...catsOf(currentSubject()).map(([k, c]) => [k, c.icon + ' ' + c.short])].map(([k, label]) =>
         h('button', { class: 'chip' + (quickCat === k ? ' active' : ''), onClick: () => { quickCat = k; drawChips(); } }, label)));
     drawChips();
 
-    const catRows = [...Object.entries(CATEGORIES), ['custom', { label: 'Moje materiały', pl: 'własne słownictwo', icon: '⭐' }]].map(([key, c]) => {
-      const items = key === 'custom' ? mine : VOCAB.filter((it) => it.category === key);
+    const catRows = [...catsOf(currentSubject()), ['custom', { label: 'Moje materiały', pl: 'własne wpisy', icon: '⭐' }]].map(([key, c]) => {
+      const items = key === 'custom' ? mine : pool.filter((it) => it.category === key);
       if (!items.length) return null;
       const s = statsFor(items);
       return h('button', { class: 'cat-row', onClick: () => startSession({ mode: 'quick', category: key, difficulty: 'all', exercise: 'mix' }) },
@@ -1180,33 +1361,39 @@
         h('span', { class: 'muted small', style: 'text-align:right' }, `${s.mastered}/${s.total}`, h('br'), `${Math.round((s.mastered / s.total) * 100)}%`));
     });
 
-    view.replaceChildren(
+    view.replaceChildren();
+    put(view,
       h('div', { class: 'hero' },
         h('div', null,
           h('h1', null, `Cześć${name ? ', ' + name : ''}! 👋`),
-          h('div', { class: 'muted' }, 'Formalny angielski do Academic Writing'),
+          h('div', { class: 'muted' }, subj.tagline),
           sync.client && !sync.user
             ? h('a', { href: '#/settings', class: 'small' }, '☁️ Włącz synchronizację między urządzeniami')
             : null),
         st ? h('div', { class: 'streak', title: 'Dni nauki z rzędu' }, `🔥 ${st} ${plural(st, 'dzień', 'dni', 'dni')}`) : null),
-      h('div', { class: 'grid grid-2' },
+      subjectPicker(true),
+      pool.length ? null : h('div', { class: 'card' },
+        h('h2', null, `${subj.icon} ${subj.label}: jeszcze brak kart`),
+        h('p', { class: 'muted small' }, 'Dodaj materiały z lekcji. Najszybciej przez czat AI: wklejasz handout, a czat przygotowuje karty.'),
+        h('a', { class: 'btn btn-primary', href: '#/materials' }, '➕ Dodaj materiały')),
+      pool.length ? h('div', { class: 'grid grid-2' },
         h('div', { class: 'card start-card' },
           h('h2', null, '🧠 Inteligentne powtórki'),
           h('div', { class: 'row', style: 'align-items:baseline' },
             h('span', { class: 'big-num' }, String(due)),
             h('span', { class: 'muted' }, `do powtórki dziś${newToday ? ` + ${newToday} ${plural(newToday, 'nowe', 'nowe', 'nowych')}` : ''}`)),
-          h('p', { class: 'muted small', style: 'margin-top:8px' }, 'Algorytm SM-2 dobiera słowa, które właśnie zaczynasz zapominać.'),
+          h('p', { class: 'muted small', style: 'margin-top:8px' }, 'Algorytm SM-2 dobiera to, co właśnie zaczynasz zapominać.'),
           h('button', { class: 'btn btn-primary btn-block', disabled: !(due + newToday),
             onClick: () => startSession({ mode: 'srs', category: 'all', difficulty: 'all', exercise: 'mix' }) },
           due + newToday ? 'Rozpocznij powtórki' : 'Na dziś wszystko! 🎉')),
         h('div', { class: 'card start-card' },
           h('h2', null, '⚡ Szybka sesja'),
-          h('p', { class: 'muted small' }, `${state.settings.sessionSize} losowych słów, różne typy ćwiczeń.`),
+          h('p', { class: 'muted small' }, `${state.settings.sessionSize} losowych kart, różne typy ćwiczeń.`),
           chips,
           h('button', { class: 'btn btn-accent btn-block', style: 'margin-top:14px',
             onClick: () => { state.settings.lastConfig.category = quickCat; save(); startSession({ mode: 'quick', category: quickCat, difficulty: 'all', exercise: 'mix' }); } },
-          'Start'))),
-      h('div', { class: 'card' },
+          'Start'))) : null,
+      pool.length ? h('div', { class: 'card' },
         h('h2', null, 'Twój postęp'),
         h('div', { class: 'stat-row' },
           h('div', { class: 'stat' }, h('b', { style: 'color:var(--ok)' }, String(overall.mastered)), h('span', null, 'Opanowane')),
@@ -1216,12 +1403,12 @@
         h('div', { class: 'legend' },
           h('span', null, h('i', { style: 'background:var(--ok)' }), 'opanowane (>90%)'),
           h('span', null, h('i', { style: 'background:var(--warn)' }), 'w nauce (60–90%)'),
-          h('span', null, h('i', { style: 'background:var(--surface-2);border:1px solid var(--border)' }), 'nowe (<60%)'))),
-      h('div', { class: 'card' },
+          h('span', null, h('i', { style: 'background:var(--surface-2);border:1px solid var(--border)' }), 'nowe (<60%)'))) : null,
+      pool.length ? h('div', { class: 'card' },
         h('h2', null, 'Kategorie'),
         h('p', { class: 'muted small' }, 'Kliknij kategorię, aby od razu zacząć szybką sesję.'),
         h('div', { class: 'cat-list' }, catRows),
-        h('a', { class: 'btn btn-block', href: '#/materials', style: 'margin-top:12px' }, '➕ Dodaj własne materiały')));
+        h('a', { class: 'btn btn-block', href: '#/materials', style: 'margin-top:12px' }, '➕ Dodaj własne materiały')) : null);
   }
 
   function seg(options, value, onChange) {
@@ -1250,12 +1437,12 @@
       }
     }
 
-    const hasMine = VOCAB.some((it) => it._custom);
-    if (cfg.category === 'custom' && !hasMine) cfg.category = 'all';
+    const hasMine = subjectPool().some((it) => it._custom);
+    cfg.category = validCat(cfg.category, subjectPool());
     const catSelect = h('select', { id: 'f-cat', value: cfg.category, onChange: (e) => { cfg.category = e.target.value; persist(); } },
       h('option', { value: 'all' }, 'Wszystkie kategorie'),
       hasMine ? h('option', { value: 'custom' }, '⭐ Moje materiały') : null,
-      Object.entries(CATEGORIES).map(([k, c]) => h('option', { value: k }, `${c.icon} ${c.label}`)));
+      catsOf(currentSubject()).map(([k, c]) => h('option', { value: k }, `${c.icon} ${c.label}`)));
     const diffSelect = h('select', { id: 'f-diff', value: String(cfg.difficulty), onChange: (e) => { cfg.difficulty = e.target.value; persist(); } },
       h('option', { value: 'all' }, 'Wszystkie poziomy'),
       Object.entries(DIFFICULTY).map(([k, l]) => h('option', { value: k }, `${k} — ${l}`)));
@@ -1270,6 +1457,7 @@
 
     view.replaceChildren(
       h('h1', null, 'Nauka'),
+      subjectPicker(false),
       h('div', { class: 'card' },
         h('div', { class: 'field' }, h('span', { class: 'label' }, 'Tryb'),
           seg([['quick', '⚡ Szybka sesja'], ['srs', '🧠 Powtórki SRS']], cfg.mode, (v) => { cfg.mode = v; persist(); })),
@@ -1284,10 +1472,10 @@
         h('h2', null, 'Rodzaje ćwiczeń'),
         h('dl', { class: 'kv' },
           h('dt', null, 'Fiszki'), h('dd', null, 'Odwróć kartę i oceń: znam / prawie / nie znam. Na telefonie przesuwaj kartę.'),
-          h('dt', null, 'Quiz'), h('dd', null, '4 odpowiedzi do wyboru: informal → formal, EN → PL, PL → EN, funkcje czasowników.'),
-          h('dt', null, 'Wpisywanie'), h('dd', null, 'Napisz formalny odpowiednik. Drobne literówki są akceptowane.'),
-          h('dt', null, 'Dopasowywanie'), h('dd', null, '5–6 par: informal ↔ formal, phrasal verbs, czasownik ↔ funkcja, EN ↔ PL.'),
-          h('dt', null, 'Luki'), h('dd', null, 'Uzupełnij zdanie akademickie brakującym wyrażeniem.'),
+          h('dt', null, 'Quiz'), h('dd', null, '4 odpowiedzi do wyboru, np. informal → formal, EN → PL albo odpowiedź na pytanie.'),
+          h('dt', null, 'Wpisywanie'), h('dd', null, 'Napisz odpowiedź z pamięci. Drobne literówki są akceptowane.'),
+          h('dt', null, 'Dopasowywanie'), h('dd', null, '5–6 par, np. informal ↔ formal, EN ↔ PL albo odpowiedź ↔ pytanie.'),
+          h('dt', null, 'Luki'), h('dd', null, 'Uzupełnij zdanie brakującym wyrażeniem lub pojęciem.'),
           h('dt', null, 'Mix'), h('dd', null, 'Wszystko naraz — najlepsze na co dzień.'))));
     refresh();
   }
@@ -1352,6 +1540,17 @@
         return h('div', { class: 'word rule-card' },
           h('div', { class: 'word-head' }, h('span', { class: 'word-main' }, '✍️ ' + it.rule), badges),
           h('div', { class: 'word-details' }, ex('bad', '✗', it.incorrect), ex('good', '✓', it.correct)));
+      case 'qa':
+        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, it.question), h('span', { class: 'word-arrow' }, '→'), h('span', { class: 'word-sub' }, it.answer)];
+        details = [it.accept.length ? h('div', null, h('b', null, 'Też poprawnie: '), it.accept.join(' / ')) : null,
+          it.explanation ? h('div', { class: 'muted small' }, it.explanation) : null];
+        break;
+      case 'cloze':
+        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, it._gap.before, h('mark', null, it._gap.hidden), it._gap.after)];
+        details = [it._answers.length > 1 ? h('div', null, h('b', null, 'Też poprawnie: '), it._answers.slice(1).join(' / ')) : null,
+          it.hint ? h('div', null, h('b', null, 'Podpowiedź: '), it.hint) : null,
+          it.explanation ? h('div', { class: 'muted small' }, it.explanation) : null];
+        break;
       case 'hedging':
         head = [h('span', { class: 'word-main', style: 'font-weight:600' }, it.informal)];
         details = [ex('good', '✓', it.formal), h('div', { class: 'muted small' }, it.polish)];
@@ -1375,7 +1574,7 @@
     function filtered() {
       const q = bs.q.trim().toLowerCase();
       const rank = { new: 0, learning: 1, mastered: 2 };
-      const out = VOCAB.filter((it) =>
+      const out = subjectPool().filter((it) =>
         (bs.category === 'all' || it.category === bs.category || (bs.category === 'custom' && it._custom)) &&
         (bs.type === 'all' || it.type === bs.type) &&
         (!q || it._search.includes(q)));
@@ -1403,11 +1602,12 @@
 
     view.replaceChildren(
       h('h1', null, 'Słownik'),
+      subjectPicker(false),
       h('div', { class: 'filters' },
         search,
-        sel('category', [['all', 'Wszystkie kategorie'], ...(VOCAB.some((it) => it._custom) ? [['custom', '⭐ Moje materiały']] : []),
-          ...Object.entries(CATEGORIES).map(([k, c]) => [k, c.label])], 'Kategoria'),
-        sel('type', [['all', 'Wszystkie typy'], ...Object.entries(TYPES)], 'Typ'),
+        sel('category', [['all', 'Wszystkie kategorie'], ...(subjectPool().some((it) => it._custom) ? [['custom', '⭐ Moje materiały']] : []),
+          ...catsOf(currentSubject()).map(([k, c]) => [k, c.label])], 'Kategoria'),
+        sel('type', [['all', 'Wszystkie typy'], ...SUBJECTS[currentSubject()].types.map((t) => [t, TYPES[t]])], 'Typ'),
         sel('sort', [['alpha', 'A → Z'], ['difficulty', 'Poziom ↑'], ['difficulty_desc', 'Poziom ↓'], ['status', 'Status (nowe najpierw)']], 'Sortowanie')),
       countEl, list, more);
     draw();
@@ -1431,7 +1631,7 @@
           h('input', { type: 'text', value: state.settings.name, maxlength: '30', placeholder: 'np. Tymon', 'aria-label': 'Imię',
             onChange: (e) => { state.settings.name = e.target.value; save(); toast('Zapisano'); } })),
         h('div', { class: 'setting' },
-          h('div', { class: 'txt' }, h('b', null, 'Nowe słowa dziennie'), h('span', { class: 'muted small' }, 'Ile nowych słów wprowadzają powtórki SRS')),
+          h('div', { class: 'txt' }, h('b', null, 'Nowe słowa dziennie'), h('span', { class: 'muted small' }, 'Ile nowych kart wprowadzają powtórki SRS, osobno w każdym przedmiocie')),
           h('select', { 'aria-label': 'Nowe słowa dziennie', value: String(state.settings.newPerDay), onChange: (e) => { state.settings.newPerDay = Number(e.target.value); save(); } },
             [5, 10, 15, 20, 30].map((n) => h('option', { value: String(n) }, String(n))))),
         h('div', { class: 'setting' },
@@ -1459,7 +1659,9 @@
         h('p', { class: 'muted small' },
           `Słownik: ${VOCAB.length} wpisów${VOCAB_META.updated ? ` (aktualizacja ${VOCAB_META.updated})` : ''}. `,
           'Aplikacja działa offline po pierwszym uruchomieniu i można ją zainstalować na telefonie („Dodaj do ekranu głównego”).'),
-        h('dl', { class: 'kv small' }, Object.entries(TYPES).map(([k, l]) => [h('dt', null, l), h('dd', null, String(VOCAB.filter((i) => i.type === k).length))]))));
+        h('dl', { class: 'kv small' }, Object.entries(SUBJECTS).flatMap(([sk, subj]) => subj.types
+          .map((k) => [k, VOCAB.filter((i) => i.subject === sk && i.type === k).length]).filter(([, n]) => n)
+          .map(([k, n]) => [h('dt', null, `${subj.icon} ${TYPES[k]}`), h('dd', null, String(n))])))));
   }
 
   function exportProgress() {
@@ -1517,16 +1719,27 @@
     replacement: ['informal', 'formal', 'polish', 'example_formal'],
     hedging: ['informal', 'formal', 'technique', 'polish'],
     style_rule: ['rule', 'incorrect', 'correct'],
+    qa: ['question', 'answer', 'explanation'],
+    cloze: ['text', 'hint', 'explanation'],
   };
 
   // podgląd importu: { source, rows: [{ item, errors, warnings, dup, checked, line }], notes: [błędy parsera], parts, ai }
   let pending = null;
   let lastAdded = null; // { source, ids } — komunikat po dodaniu
   const openPacks = new Set();
-  const matUi = { tab: 'ai', aiText: '', aiSource: '', pasteType: 'awl_word', pasteCat: 'awl', pasteText: '', pasteSource: '', formType: 'awl_word', formCat: 'awl' };
+  const matUi = { tab: 'ai', subject: null, aiText: '', aiSource: '', pasteText: '', pasteSource: '' };
+  // Przedmiot w widoku materiałów (domyślnie bieżący) i zależne od niego typ i kategoria w panelach.
+  function setMatSubject(subject) {
+    const subj = SUBJECTS[subject];
+    matUi.subject = subject;
+    matUi.pasteType = matUi.formType = subj.defaultType;
+    matUi.pasteCat = matUi.formCat = defaultCat(subj.defaultType, subject);
+  }
 
   const fieldDef = (type, key) => (FIELDS[type] || []).find((f) => f.key === key);
-  const dupKey = (it) => norm(it.informal || it.word || it.incorrect || it.rule || '');
+  const textKey = (it) => norm(it.informal || it.word || it.incorrect || it.rule || it.question || it.text || '');
+  // Duplikat = ten sam tekst w tym samym przedmiocie.
+  const dupKey = (it) => { const k = textKey(it); return k ? `${subjectOf(it)}|${k}` : ''; };
   const fmtDate = (iso) => (iso ? new Date(iso).toLocaleDateString('pl-PL', { day: 'numeric', month: 'short', year: 'numeric' }) : '');
 
   // Tekst z pola/kolumny -> wartość wpisu (listy, liczby, funkcja/technika po kluczu albo nazwie).
@@ -1545,14 +1758,17 @@
     return v;
   }
 
-  // Kopia wpisu z pliku bez pól nadawanych przez aplikację; brak kategorii -> domyślna dla typu.
-  function cleanRaw(raw) {
+  // Kopia wpisu z pliku bez pól nadawanych przez aplikację; brak przedmiotu -> przedmiot importu,
+  // brak kategorii -> domyślna dla typu.
+  function cleanRaw(raw, subject) {
     const out = {};
     for (const [k, v] of Object.entries(raw)) {
       if (k === 'id' || k === 'source' || k === 'addedAt' || k.startsWith('_') || v == null || v === '') continue;
       out[k] = typeof v === 'string' ? v.trim() : v;
     }
-    if (!filled(out.category) && TYPE_CATEGORY[out.type]) out.category = TYPE_CATEGORY[out.type];
+    // Bez pola subject wpis trafia do przedmiotu importu (kategoria z innego przedmiotu = błąd w podglądzie).
+    if (!filled(out.subject)) out.subject = subject;
+    if (!filled(out.category) && SUBJECTS[out.subject]) out.category = defaultCat(out.type, out.subject);
     if (out.difficulty != null) out.difficulty = Math.min(3, Math.max(1, Number(out.difficulty) || 1));
     return out;
   }
@@ -1560,6 +1776,9 @@
   function itemWarnings(it) {
     const w = [];
     if ((it.type === 'awl_word' || it.type === 'academic_verb') && !filled(it.polish)) w.push('Bez tłumaczenia — słowo pojawi się głównie jako fiszka');
+    if (it.type === 'qa' && !isShort(it.answer)) w.push('Długa odpowiedź — bez ćwiczenia wpisywania (fiszka i quiz zostają)');
+    if (it.type === 'cloze' && (String(it.text).match(CLOZE_RE_G) || []).length > 1) w.push('Kilka luk — ukryta będzie tylko pierwsza');
+    if (subjectOf(it) !== matUi.subject) w.push(`Przedmiot: ${SUBJECTS[subjectOf(it)].label}`);
     return w;
   }
 
@@ -1578,7 +1797,7 @@
     const offset = prev ? prev.rows.length : 0;
     const rows = raws.map((raw, i) => {
       const isObj = raw && typeof raw === 'object' && !Array.isArray(raw);
-      const item = isObj ? cleanRaw(raw) : {};
+      const item = isObj ? cleanRaw(raw, opts.subject || matUi.subject || currentSubject()) : {};
       const errors = isObj ? itemErrors(item) : ['Wpis nie jest obiektem JSON'];
       const warnings = errors.length ? [] : itemWarnings(item);
       if (isObj && raw.__extra) warnings.push('Nadmiarowe kolumny pominięte');
@@ -1645,7 +1864,8 @@
   }
 
   const optionEls = (dict, value) => Object.entries(dict).map(([k, l]) => h('option', { value: k, selected: k === value }, l));
-  const catOptions = (value) => Object.entries(CATEGORIES).map(([k, c]) => h('option', { value: k, selected: k === value }, `${c.icon} ${c.label}`));
+  const catOptions = (value) => catsOf(matUi.subject).map(([k, c]) => h('option', { value: k, selected: k === value }, `${c.icon} ${c.label}`));
+  const typeOptions = (value) => optionEls(Object.fromEntries(SUBJECTS[matUi.subject].types.map((t) => [t, TYPES[t]])), value);
 
   function renderMaterials(view) {
     const panel = h('div');
@@ -1653,6 +1873,9 @@
     const previewCard = h('div', { class: 'card', id: 'mat-preview' });
     const manageCard = h('div', { class: 'card' });
     if (matUi.tab === 'ai' && !window.AW_AI) matUi.tab = 'paste';
+    if (!matUi.subject) setMatSubject(currentSubject());
+    const subjSel = h('select', { id: 'm-subject', onChange: (e) => { setMatSubject(e.target.value); drawPanel(); } },
+      optionEls(Object.fromEntries(Object.entries(SUBJECTS).map(([k, sj]) => [k, `${sj.icon} ${sj.label}`])), matUi.subject));
 
     const showPreview = () => { drawPreview(); previewCard.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
     function drawTabs() {
@@ -1742,11 +1965,11 @@
               h('span', { class: 'muted small' }, `${n} ${plural(n, 'wpis', 'wpisy', 'wpisów')} · ${fmtDate(latest)}`)),
             h('div', { class: 'pack-items' }, items.map((c) => {
               const it = BY_ID.get(c.id);
-              const label = it ? it._label : dupKey(c);
+              const label = it ? it._label : textKey(c);
               return h('div', { class: 'pack-item' },
                 h('div', { class: 'txt' },
                   h('b', null, label), it && it._answer ? h('span', { class: 'muted' }, ' — ' + it._answer) : null,
-                  h('div', { class: 'pv-meta' }, `${TYPES[c.type] || c.type} · ${(CATEGORIES[it ? it.category : c.category] || {}).label || '—'} · ${it ? STATUS_LABELS[statusOf(it)] : '—'}`)),
+                  h('div', { class: 'pv-meta' }, `${SUBJECTS[subjectOf(c)].icon} ${TYPES[c.type] || c.type} · ${(CATEGORIES[it ? it.category : c.category] || {}).label || '—'} · ${it ? STATUS_LABELS[statusOf(it)] : '—'}`)),
                 h('button', { class: 'icon-btn', title: 'Usuń wpis', 'aria-label': `Usuń: ${label}`, onClick: () => del([c.id], `wpis „${label}”`) }, '🗑'));
             })),
             h('div', { class: 'row pack-actions' },
@@ -1761,8 +1984,10 @@
     view.replaceChildren(
       h('a', { class: 'back-link', href: '#/settings' }, '← Ustawienia'),
       h('h1', null, 'Dodaj materiały'),
-      h('p', { class: 'muted' }, 'Nowe słownictwo bez edytowania vocabulary.json. Każdy import kończy się podglądem, a dopiero potem zapisem.'),
-      h('div', { class: 'card' }, tabs, panel),
+      h('p', { class: 'muted' }, 'Nowe karty bez edytowania plików aplikacji. Każdy import kończy się podglądem, a dopiero potem zapisem.'),
+      h('div', { class: 'card' },
+        h('div', { class: 'field' }, h('label', { for: 'm-subject' }, 'Przedmiot'), subjSel),
+        tabs, panel),
       previewCard,
       manageCard);
     drawTabs();
@@ -1773,7 +1998,7 @@
 
   function previewRow(r, onChange) {
     const p = r.errors.length ? null : prepareItem({ ...r.item, id: 'preview' });
-    const label = p ? p._label : (dupKey(r.item) || JSON.stringify(r.item).slice(0, 80) || '(pusty wpis)');
+    const label = p ? p._label : (textKey(r.item) || JSON.stringify(r.item).slice(0, 80) || '(pusty wpis)');
     const cb = h('input', { type: 'checkbox', checked: r.checked, disabled: !!r.errors.length, 'aria-label': `Dodaj: ${label}`,
       onChange: (e) => { r.checked = e.target.checked; onChange(); } });
     const cat = CATEGORIES[r.item.category];
@@ -1792,8 +2017,12 @@
     const AI = window.AW_AI;
     if (!AI) return h('p', { class: 'muted small' }, 'Moduł importu z czatu AI nie wczytał się — odśwież stronę.');
     const appending = !!(pending && pending.ai);
+    const prompt = AI.promptFor({
+      id: matUi.subject, label: SUBJECTS[matUi.subject].label,
+      categories: catsOf(matUi.subject).map(([key, c]) => ({ key, label: c.label })),
+    });
 
-    const promptBox = h('textarea', { id: 'm-ai-prompt', readonly: 'readonly', rows: '9', value: AI.prompt, 'aria-label': 'Prompt dla czatu AI' });
+    const promptBox = h('textarea', { id: 'm-ai-prompt', readonly: 'readonly', rows: '9', value: prompt, 'aria-label': 'Prompt dla czatu AI' });
     const promptDet = h('details', { class: 'ai-prompt' }, h('summary', null, 'Pokaż prompt'), promptBox);
     const showPromptForCopy = () => {
       promptDet.open = true;
@@ -1803,7 +2032,7 @@
     };
     const copyAndOpen = () => {
       if (!navigator.clipboard || !navigator.clipboard.writeText) { showPromptForCopy(); return; }
-      const copying = navigator.clipboard.writeText(AI.prompt);
+      const copying = navigator.clipboard.writeText(prompt);
       // window.open od razu, w obrębie kliknięcia — po await przeglądarki (zwłaszcza Safari) blokują nowe karty
       const win = window.open(AI.copilotUrl, '_blank');
       if (win) win.opener = null;
@@ -1819,7 +2048,7 @@
       const text = ta.value;
       if (!text.trim()) { toast('Najpierw wklej odpowiedź czatu.'); ta.focus(); return; }
       const { items, errors } = AI.parseReply(text);
-      buildPending(items, matUi.aiSource.trim() || `Czat AI ${today()}`, { append, notes: errors, ai: true });
+      buildPending(items, matUi.aiSource.trim() || `Czat AI ${today()}`, { append, notes: errors, ai: true, subject: matUi.subject });
       matUi.aiText = '';
       onPreview();
     };
@@ -1869,14 +2098,17 @@
         const items = Array.isArray(data) ? data : data && Array.isArray(data.items) ? data.items : null;
         if (!items) { toast('Plik musi zawierać tablicę wpisów albo obiekt { "items": [...] }.'); return; }
         if (!items.length) { toast('Plik nie zawiera żadnych wpisów.'); return; }
-        buildPending(items, file.name);
+        buildPending(items, file.name, { subject: matUi.subject });
         onPreview();
       };
       reader.readAsText(file);
     } });
-    const sample = JSON.stringify({ items: [
+    const sample = JSON.stringify({ items: matUi.subject === DEFAULT_SUBJECT ? [
       { type: 'awl_word', word: 'significant', polish: ['istotny'], example: 'The results were statistically significant.', category: 'awl', difficulty: 1 },
       { type: 'replacement', informal: 'find out', formal: ['investigate', 'determine'], polish: ['zbadać'], category: 'phrasal_verbs' },
+    ] : [
+      { type: 'qa', question: FIELDS.qa[0].ph, answer: FIELDS.qa[1].ph, accept: [FIELDS.qa[2].ph], category: SUBJECTS[matUi.subject].defaultCategory, difficulty: 1 },
+      { type: 'cloze', text: FIELDS.cloze[0].ph, hint: FIELDS.cloze[1].ph, category: SUBJECTS[matUi.subject].defaultCategory },
     ] }, null, 1);
     return h('div', null,
       h('p', { class: 'small' }, 'Plik w formacie vocabulary.json: tablica wpisów albo obiekt ', h('code', null, '{ "items": [...] }'),
@@ -1886,8 +2118,9 @@
       h('details', { class: 'small', style: 'margin-top:12px' },
         h('summary', null, 'Przykład pliku i dozwolone wartości'),
         h('pre', { class: 'code' }, sample),
-        h('p', { class: 'muted' }, 'Typy: ', Object.keys(TYPES).join(', '), '. Kategorie: ', Object.keys(CATEGORIES).join(', '),
-          '. Brak kategorii = domyślna dla typu. Pełny opis pól: README, sekcja „Format wpisów”.')));
+        h('p', { class: 'muted' }, `Przedmiot ${SUBJECTS[matUi.subject].label}. Typy: `, SUBJECTS[matUi.subject].types.join(', '),
+          '. Kategorie: ', catsOf(matUi.subject).map(([k]) => k).join(', '),
+          '. Brak kategorii = domyślna dla typu. Wpis może wskazać inny przedmiot polem subject. Pełny opis pól: README, sekcja „Format wpisów”.')));
   }
 
   function pastePanel(onPreview) {
@@ -1905,17 +2138,17 @@
     };
     const typeSel = h('select', { id: 'm-ptype', onChange: (e) => {
       matUi.pasteType = e.target.value;
-      matUi.pasteCat = TYPE_CATEGORY[matUi.pasteType];
+      matUi.pasteCat = defaultCat(matUi.pasteType, matUi.subject);
       catSel.value = matUi.pasteCat;
       drawHint();
-    } }, optionEls(TYPES, matUi.pasteType));
+    } }, typeOptions(matUi.pasteType));
     const src = h('input', { type: 'text', id: 'm-psrc', maxlength: '60', placeholder: `Wklejone ${today()}`, value: matUi.pasteSource,
       onInput: (e) => { matUi.pasteSource = e.target.value; } });
     drawHint();
     const go = () => {
       const raws = parsePaste(ta.value, matUi.pasteType, matUi.pasteCat);
       if (!raws.length) { toast('Wklej co najmniej jedną linię.'); ta.focus(); return; }
-      buildPending(raws, matUi.pasteSource.trim() || `Wklejone ${today()}`);
+      buildPending(raws, matUi.pasteSource.trim() || `Wklejone ${today()}`, { subject: matUi.subject });
       onPreview();
     };
     return h('div', null,
@@ -1944,16 +2177,16 @@
             f.hint ? h('span', { class: 'muted small', style: 'font-weight:500' }, ` (${f.hint})`) : null),
           ctl);
       });
-      const typeSel = h('select', { id: 'mf-type', onChange: (e) => { matUi.formType = e.target.value; matUi.formCat = TYPE_CATEGORY[matUi.formType]; draw(); } }, optionEls(TYPES, type));
+      const typeSel = h('select', { id: 'mf-type', onChange: (e) => { matUi.formType = e.target.value; matUi.formCat = defaultCat(matUi.formType, matUi.subject); draw(); } }, typeOptions(type));
       const catSel = h('select', { id: 'mf-cat', onChange: (e) => { matUi.formCat = e.target.value; } }, catOptions(matUi.formCat));
       const diffSel = h('select', { id: 'mf-diff' }, optionEls(Object.fromEntries(Object.entries(DIFFICULTY).map(([k, l]) => [k, `${k} — ${l}`])), '1'));
       const go = () => {
-        const raw = { type, category: catSel.value, difficulty: Number(diffSel.value) };
+        const raw = { type, subject: matUi.subject, category: catSel.value, difficulty: Number(diffSel.value) };
         for (const f of FIELDS[type]) {
           const v = inputs[f.key].value.trim();
           if (v) raw[f.key] = parseField(type, f.key, v);
         }
-        buildPending([raw], 'ręcznie');
+        buildPending([raw], 'ręcznie', { subject: matUi.subject });
         onPreview();
       };
       wrap.replaceChildren(
@@ -1993,6 +2226,10 @@
         if (d < resetDay) continue;
         const cur = daily[d] || { answers: 0, newItems: 0 };
         daily[d] = { answers: Math.max(cur.answers, v.answers || 0), newItems: Math.max(cur.newItems, v.newItems || 0) };
+        if (cur.newBy || v.newBy) {
+          daily[d].newBy = { ...(cur.newBy || {}) };
+          for (const [k, n] of Object.entries(v.newBy || {})) daily[d].newBy[k] = Math.max(daily[d].newBy[k] || 0, n);
+        }
       }
     }
     const remoteNewer = (remote.settingsTs || 0) > (local.settingsTs || 0);
