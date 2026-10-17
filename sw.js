@@ -14,6 +14,7 @@ const ASSETS = [
   './data/biologia-7.json',
   './data/matematyka-7.json',
   './data/niemiecki-7.json',
+  './data/geography.json',
   './manifest.json',
   './icons/icon.svg',
   './icons/icon-192.png',

@@ -1,0 +1,1431 @@
+{
+ "version": 1,
+ "subject": "geography_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, geografia, zakres podstawowy (Dz.U. 2018 poz. 467), działy I–V (klasa 1); pojęcia tylko z IB DP Geography core oznaczone \"IB core\"",
+ "items": [
+  {
+   "id": "geoib-pp-001",
+   "type": "qa",
+   "question": "On a map at the scale 1:50 000, how much real distance does 1 cm represent?",
+   "answer": "500 m",
+   "accept": [
+    "500m",
+    "0.5 km",
+    "0,5 km",
+    "500 metres",
+    "500 meters",
+    "half a kilometre"
+   ],
+   "explanation": "Divide the scale denominator by 100 000 to get kilometres per centimetre: 50 000 cm = 500 m = 0.5 km.",
+   "category": "geoib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "geoib-pp-002",
+   "type": "qa",
+   "question": "On a 1:25 000 map two towns are 8 cm apart. What is the real distance?",
+   "answer": "2 km",
+   "accept": [
+    "2km",
+    "2000 m",
+    "2000m"
+   ],
+   "explanation": "8 cm x 25 000 = 200 000 cm = 2 km.",
+   "category": "geoib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "geoib-pp-003",
+   "type": "qa",
+   "question": "Which map has the larger scale: 1:10 000 or 1:1 000 000?",
+   "answer": "1:10 000",
+   "accept": [
+    "1:10000",
+    "1 : 10 000"
+   ],
+   "explanation": "A larger scale means a smaller denominator and more detail on a smaller area.",
+   "category": "geoib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "geoib-pp-004",
+   "type": "cloze",
+   "text": "A map scale written as a fraction, e.g. 1:100 000, is called a {{numerical/representative fraction/ratio}} scale.",
+   "hint": "as opposed to a linear (bar) scale",
+   "explanation": "The other common forms are the linear (bar) scale and the verbal scale (1 cm to 1 km).",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "geoib-pp-005",
+   "type": "cloze",
+   "text": "Lines on a map joining points of equal elevation above sea level are called {{contour lines/contours/isohypses}}.",
+   "hint": "a type of isoline",
+   "explanation": "Closely spaced contours mean a steep slope; widely spaced contours mean gentle terrain.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-006",
+   "type": "qa",
+   "question": "What is the general name for a line on a map joining points with the same value of a phenomenon (e.g. temperature, pressure)?",
+   "answer": "isoline",
+   "accept": [
+    "isolines",
+    "isopleth"
+   ],
+   "explanation": "Isotherms join equal temperatures, isobars equal pressure, isohyets equal rainfall.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-007",
+   "type": "qa",
+   "question": "Which cartographic method shows the value of a phenomenon per administrative unit with shading or colour intensity?",
+   "answer": "choropleth map",
+   "accept": [
+    "choropleth",
+    "choropleth method"
+   ],
+   "explanation": "Choropleth maps are typical for population density or GDP per capita by country or region.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-008",
+   "type": "qa",
+   "question": "Which map method uses symbols or circles scaled in size to show quantities, e.g. city populations?",
+   "answer": "proportional symbol map",
+   "accept": [
+    "proportional symbols",
+    "graduated symbol map",
+    "graduated symbols",
+    "cartodiagram"
+   ],
+   "explanation": "The size of the symbol is proportional to the value it represents.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-009",
+   "type": "qa",
+   "question": "What is the name of a map that shows the shape of the land, roads, rivers and buildings at a large scale?",
+   "answer": "topographic map",
+   "accept": [
+    "topographical map",
+    "topographic"
+   ],
+   "explanation": "Topographic maps are general-purpose maps; thematic maps show one phenomenon.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-010",
+   "type": "cloze",
+   "text": "A map that presents one chosen phenomenon, e.g. climate zones or population density, is a {{thematic}} map.",
+   "hint": "opposite of a general (topographic) map",
+   "explanation": "Thematic maps use methods such as choropleths, isolines and symbols.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-011",
+   "type": "qa",
+   "question": "What is the name of the method of transferring the curved surface of the Earth onto a flat map?",
+   "answer": "map projection",
+   "accept": [
+    "projection",
+    "cartographic projection"
+   ],
+   "explanation": "Every projection distorts something: area, shape, distance or direction.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-012",
+   "type": "qa",
+   "question": "Which classic cylindrical projection keeps shapes and angles but greatly enlarges areas near the poles (Greenland looks as big as Africa)?",
+   "answer": "Mercator projection",
+   "accept": [
+    "Mercator"
+   ],
+   "explanation": "Mercator is conformal, so it is used for navigation, but it is not equal-area.",
+   "category": "geoib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "geoib-pp-013",
+   "type": "qa",
+   "question": "What does the abbreviation GIS stand for?",
+   "answer": "Geographic Information System",
+   "accept": [
+    "geographical information system",
+    "geographic information systems"
+   ],
+   "explanation": "GIS stores, analyses and displays spatial data in layers such as roads, land use and elevation.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
+  },
+  {
+   "id": "geoib-pp-014",
+   "type": "qa",
+   "question": "What does the abbreviation GPS stand for?",
+   "answer": "Global Positioning System",
+   "accept": [
+    "global positioning systems"
+   ],
+   "explanation": "A GPS receiver calculates its latitude and longitude from signals of at least four satellites.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "geoib-pp-015",
+   "type": "qa",
+   "question": "What is the general term for obtaining information about the Earth's surface from satellites or aircraft without direct contact?",
+   "answer": "remote sensing",
+   "accept": [
+    "remote-sensing",
+    "teledetection"
+   ],
+   "explanation": "Satellite images are used to monitor deforestation, floods, urban growth and weather.",
+   "category": "geoib_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "geoib-pp-016",
+   "type": "qa",
+   "question": "Which planet of the Solar System is third from the Sun?",
+   "answer": "Earth",
+   "accept": [
+    "the Earth"
+   ],
+   "explanation": "The order is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "geoib-pp-017",
+   "type": "qa",
+   "question": "How many planets does the Solar System have?",
+   "answer": "8",
+   "accept": [
+    "eight"
+   ],
+   "explanation": "Pluto has been classified as a dwarf planet since 2006.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "geoib-pp-018",
+   "type": "cloze",
+   "text": "Mercury, Venus, Earth and Mars are called the {{terrestrial/rocky/inner}} planets, while Jupiter, Saturn, Uranus and Neptune are gas giants.",
+   "hint": "built of rock, not gas",
+   "explanation": "The rocky planets are small and dense; the giants are large and made mostly of gas and ice.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "geoib-pp-019",
+   "type": "qa",
+   "question": "What is the name of a system of billions of stars held together by gravity, such as the Milky Way?",
+   "answer": "galaxy",
+   "accept": [
+    "a galaxy"
+   ],
+   "explanation": "The Solar System lies in one of the spiral arms of the Milky Way galaxy.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "geoib-pp-020",
+   "type": "qa",
+   "question": "What is the name of the Earth's movement around its own axis?",
+   "answer": "rotation",
+   "accept": [
+    "rotational motion",
+    "rotation of the Earth"
+   ],
+   "explanation": "One rotation takes about 24 hours and causes day and night.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-021",
+   "type": "qa",
+   "question": "What is the name of the Earth's movement around the Sun?",
+   "answer": "revolution",
+   "accept": [
+    "orbital motion",
+    "revolution around the Sun",
+    "orbit"
+   ],
+   "explanation": "One revolution takes about 365.25 days; the extra quarter day is why we have leap years.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-022",
+   "type": "qa",
+   "question": "By how many degrees is the Earth's axis tilted from the perpendicular to its orbital plane?",
+   "answer": "23.5 degrees",
+   "accept": [
+    "23.5",
+    "23,5",
+    "about 23.5 degrees",
+    "23.44"
+   ],
+   "explanation": "The axial tilt, not the distance from the Sun, is the cause of the seasons.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-023",
+   "type": "qa",
+   "question": "Name the apparent force caused by the Earth's rotation that deflects moving air and water to the right in the Northern Hemisphere.",
+   "answer": "Coriolis force",
+   "accept": [
+    "Coriolis effect",
+    "coriolis"
+   ],
+   "explanation": "In the Southern Hemisphere the deflection is to the left; it shapes wind belts and ocean gyres.",
+   "category": "geoib_global",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-024",
+   "type": "cloze",
+   "text": "On the day of the {{solstice}} (around 21 June) the Sun is overhead at the Tropic of Cancer and the Northern Hemisphere has its longest day.",
+   "hint": "not equinox",
+   "explanation": "At the equinoxes (around 21 March and 23 September) the Sun is overhead at the equator and day equals night everywhere.",
+   "category": "geoib_global",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-025",
+   "type": "qa",
+   "question": "At what latitude is the Sun directly overhead at noon on the equinoxes?",
+   "answer": "0 degrees (equator)",
+   "accept": [
+    "equator",
+    "the equator",
+    "0 degrees",
+    "0"
+   ],
+   "explanation": "On the equinoxes day and night last 12 hours at every latitude.",
+   "category": "geoib_global",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-026",
+   "type": "qa",
+   "question": "By how many degrees of longitude does the Earth rotate in one hour?",
+   "answer": "15 degrees",
+   "accept": [
+    "15",
+    "15 degrees of longitude"
+   ],
+   "explanation": "360 degrees / 24 hours = 15 degrees per hour, which is the width of one time zone.",
+   "category": "geoib_global",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-027",
+   "type": "qa",
+   "question": "It is 12:00 UTC in London (0 degrees). What is the solar time at 30 degrees E?",
+   "answer": "14:00",
+   "accept": [
+    "2 pm",
+    "14.00",
+    "2 p.m.",
+    "1400"
+   ],
+   "explanation": "Every 15 degrees eastward adds one hour: 30 degrees E = +2 hours.",
+   "category": "geoib_global",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-028",
+   "type": "qa",
+   "question": "Along which meridian does the International Date Line approximately run?",
+   "answer": "180 degrees",
+   "accept": [
+    "180",
+    "180 degree meridian",
+    "180th meridian"
+   ],
+   "explanation": "Crossing it westward you add a day; crossing it eastward you subtract a day.",
+   "category": "geoib_global",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.2"
+  },
+  {
+   "id": "geoib-pp-029",
+   "type": "qa",
+   "question": "Which gas makes up about 78% of dry air?",
+   "answer": "nitrogen",
+   "accept": [
+    "N2"
+   ],
+   "explanation": "Dry air is about 78% nitrogen, 21% oxygen and about 1% argon and trace gases, including 0.04% CO2.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "geoib-pp-030",
+   "type": "qa",
+   "question": "What percentage of dry air is oxygen?",
+   "answer": "21%",
+   "accept": [
+    "21",
+    "about 21%",
+    "21 percent"
+   ],
+   "explanation": "Oxygen is the second most abundant gas after nitrogen.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "geoib-pp-031",
+   "type": "qa",
+   "question": "In which layer of the atmosphere does almost all weather occur?",
+   "answer": "troposphere",
+   "accept": [
+    "the troposphere"
+   ],
+   "explanation": "The troposphere extends to about 8-18 km and contains most water vapour; temperature falls with height in it.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "geoib-pp-032",
+   "type": "qa",
+   "question": "Which layer of the atmosphere contains the ozone layer?",
+   "answer": "stratosphere",
+   "accept": [
+    "the stratosphere"
+   ],
+   "explanation": "Ozone in the stratosphere absorbs most of the Sun's ultraviolet radiation.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "geoib-pp-033",
+   "type": "qa",
+   "question": "By roughly how many degrees Celsius does the air temperature fall per 100 m of altitude in the troposphere?",
+   "answer": "0.6 degrees C",
+   "accept": [
+    "0.6",
+    "0,6",
+    "0.6 degrees",
+    "about 0.6"
+   ],
+   "explanation": "This average lapse rate is about 6 degrees C per 1000 m.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "geoib-pp-034",
+   "type": "qa",
+   "question": "What is the normal atmospheric pressure at sea level in hectopascals?",
+   "answer": "1013 hPa",
+   "accept": [
+    "1013",
+    "1013.25 hPa",
+    "1013,25",
+    "1013 hectopascals"
+   ],
+   "explanation": "Pressure decreases with altitude because there is less air above.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "geoib-pp-035",
+   "type": "cloze",
+   "text": "The most important climate-forming factor is {{latitude}}, because it determines the angle at which the Sun's rays reach the surface.",
+   "hint": "distance from the equator",
+   "explanation": "Other factors: altitude, distance from the sea, ocean currents, relief and prevailing winds.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "geoib-pp-036",
+   "type": "qa",
+   "question": "What is the name of the effect in which the sea moderates the climate of nearby land (cooler summers, milder winters)?",
+   "answer": "maritime influence",
+   "accept": [
+    "oceanic influence",
+    "maritime climate",
+    "oceanity",
+    "oceanicity"
+   ],
+   "explanation": "Water heats and cools more slowly than land, which reduces the annual temperature range near coasts.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "geoib-pp-037",
+   "type": "cloze",
+   "text": "The low-pressure belt of rising air around the equator is called the {{Intertropical Convergence Zone/ITCZ/equatorial low}}.",
+   "hint": "where the trade winds meet",
+   "explanation": "Rising warm, moist air here produces daily convectional rainfall in the equatorial zone.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-038",
+   "type": "cloze",
+   "text": "Subtropical high-pressure belts at about {{30}} degrees latitude are the location of most of the world's hot deserts.",
+   "hint": "between the equator and the mid-latitudes",
+   "explanation": "Sinking dry air (the descending limb of the Hadley cell) suppresses cloud and rain.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-039",
+   "type": "qa",
+   "question": "Which winds blow from the subtropical highs towards the equator?",
+   "answer": "trade winds",
+   "accept": [
+    "trades",
+    "the trade winds"
+   ],
+   "explanation": "They blow from the north-east in the Northern Hemisphere and from the south-east in the Southern Hemisphere.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-040",
+   "type": "qa",
+   "question": "Which winds dominate the mid-latitudes (e.g. over Poland and western Europe)?",
+   "answer": "westerlies",
+   "accept": [
+    "the westerlies",
+    "westerly winds",
+    "prevailing westerlies"
+   ],
+   "explanation": "They bring moist Atlantic air masses and changeable weather to Europe.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-041",
+   "type": "qa",
+   "question": "What is the name of the seasonal wind system in South Asia that brings heavy summer rain?",
+   "answer": "monsoon",
+   "accept": [
+    "the monsoon",
+    "monsoons"
+   ],
+   "explanation": "In summer the wind blows from the ocean onto the land; in winter it reverses and is dry.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-042",
+   "type": "cloze",
+   "text": "The atmospheric circulation cell between the equator and about 30 degrees latitude is the {{Hadley}} cell.",
+   "hint": "named after an 18th-century scientist",
+   "explanation": "The other cells are the Ferrel cell (30-60 degrees) and the polar cell (60-90 degrees).",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-043",
+   "type": "qa",
+   "question": "Which type of rainfall is caused by moist air being forced to rise over a mountain barrier?",
+   "answer": "orographic rainfall",
+   "accept": [
+    "orographic",
+    "relief rainfall",
+    "orographic precipitation",
+    "relief rain"
+   ],
+   "explanation": "The leeward side of the mountains receives little rain and is called the rain shadow.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-044",
+   "type": "qa",
+   "question": "Which type of rainfall results from the heating of the ground and the rapid rising of warm air?",
+   "answer": "convectional rainfall",
+   "accept": [
+    "convectional",
+    "convective rainfall",
+    "convection rainfall"
+   ],
+   "explanation": "Typical of the equatorial zone and of hot summer afternoons in the mid-latitudes.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-045",
+   "type": "qa",
+   "question": "Which type of rainfall occurs when warm air is lifted over a mass of cold air along a front?",
+   "answer": "frontal rainfall",
+   "accept": [
+    "frontal",
+    "cyclonic rainfall",
+    "frontal precipitation"
+   ],
+   "explanation": "Most rain in Poland falls from fronts of mid-latitude depressions.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "geoib-pp-046",
+   "type": "qa",
+   "question": "Which pressure system in the Northern Hemisphere has winds blowing clockwise outwards and brings settled, dry weather?",
+   "answer": "anticyclone",
+   "accept": [
+    "high pressure",
+    "high-pressure system",
+    "high"
+   ],
+   "explanation": "In a depression (low) the air rises and the winds blow anticlockwise inwards, bringing cloud and rain.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "geoib-pp-047",
+   "type": "qa",
+   "question": "What is the name of a map showing the weather at a given moment with isobars, fronts and station data?",
+   "answer": "synoptic map",
+   "accept": [
+    "synoptic chart",
+    "weather map",
+    "weather chart"
+   ],
+   "explanation": "Meteorologists use synoptic charts to describe the current weather and forecast its changes.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "geoib-pp-048",
+   "type": "cloze",
+   "text": "Lines on a synoptic map joining points of equal atmospheric pressure are called {{isobars}}.",
+   "hint": "iso- + bar",
+   "explanation": "Closely spaced isobars mean a strong pressure gradient and strong winds.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "geoib-pp-049",
+   "type": "qa",
+   "question": "What is the name of the boundary between two air masses of different temperature?",
+   "answer": "front",
+   "accept": [
+    "weather front",
+    "atmospheric front",
+    "a front"
+   ],
+   "explanation": "A warm front brings prolonged light rain; a cold front brings short, heavy showers.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "geoib-pp-050",
+   "type": "cloze",
+   "text": "Weather is the state of the atmosphere at a given moment and place, while {{climate}} is the average pattern of weather in a region over about 30 years.",
+   "hint": "long-term, not today's forecast",
+   "explanation": "Weather changes from hour to hour; climate describes typical conditions, e.g. the climate of Poland.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "geoib-pp-051",
+   "type": "qa",
+   "question": "What climate type has Poland, with mild winters in the west and colder, more continental winters in the east?",
+   "answer": "temperate transitional",
+   "accept": [
+    "temperate transitional climate",
+    "transitional temperate",
+    "warm temperate transitional"
+   ],
+   "explanation": "Poland lies between the maritime climate of western Europe and the continental climate of eastern Europe.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "geoib-pp-052",
+   "type": "qa",
+   "question": "Which climate zone has high temperatures all year and rainfall almost every day?",
+   "answer": "equatorial",
+   "accept": [
+    "equatorial climate",
+    "equatorial zone",
+    "tropical rainforest climate"
+   ],
+   "explanation": "Average monthly temperatures stay around 25-28 degrees C and annual rainfall exceeds 2000 mm.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "geoib-pp-053",
+   "type": "cloze",
+   "text": "The climate zone with the greatest annual temperature range and cold winters, typical of Siberia and inland Canada, is the {{continental}} type of the temperate zone.",
+   "hint": "far from the sea",
+   "explanation": "Continental climates have hot summers, very cold winters and relatively low rainfall.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "geoib-pp-054",
+   "type": "cloze",
+   "text": "The warming of the lower atmosphere by gases such as CO2, methane and water vapour that absorb outgoing long-wave radiation is called the {{greenhouse effect}}.",
+   "hint": "like a glass house",
+   "explanation": "The natural greenhouse effect keeps Earth habitable; its enhancement by human emissions drives current global warming.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.7"
+  },
+  {
+   "id": "geoib-pp-055",
+   "type": "qa",
+   "question": "Roughly what percentage of the Earth's water is salt water in the oceans?",
+   "answer": "97%",
+   "accept": [
+    "97",
+    "about 97%",
+    "97 percent",
+    "97.5%"
+   ],
+   "explanation": "Only about 3% is fresh water, and most of that is locked in ice sheets and glaciers.",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "geoib-pp-056",
+   "type": "qa",
+   "question": "Where is most of the Earth's fresh water stored?",
+   "answer": "glaciers and ice sheets",
+   "accept": [
+    "ice sheets",
+    "glaciers",
+    "ice caps and glaciers",
+    "ice"
+   ],
+   "explanation": "About two-thirds of fresh water is ice; most of the rest is groundwater, and rivers and lakes hold less than 1%.",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "geoib-pp-057",
+   "type": "qa",
+   "question": "What is the name of the continuous movement of water between oceans, atmosphere and land through evaporation, condensation and precipitation?",
+   "answer": "water cycle",
+   "accept": [
+    "hydrological cycle",
+    "the water cycle",
+    "hydrologic cycle"
+   ],
+   "explanation": "Solar energy drives evaporation; gravity returns water to the sea as runoff.",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "geoib-pp-058",
+   "type": "qa",
+   "question": "What is the average salinity of ocean water in per mille?",
+   "answer": "35 per mille",
+   "accept": [
+    "35",
+    "35 promille",
+    "3.5%",
+    "35 ppt",
+    "35‰"
+   ],
+   "explanation": "Salinity is higher in the subtropics (strong evaporation) and lower near the poles and river mouths.",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "geoib-pp-059",
+   "type": "qa",
+   "question": "What is the approximate salinity of the Baltic Sea?",
+   "answer": "7 per mille",
+   "accept": [
+    "7",
+    "about 7",
+    "7 promille",
+    "7 ppt",
+    "7‰",
+    "7-8"
+   ],
+   "explanation": "The Baltic is brackish because of heavy river inflow and limited exchange with the North Sea.",
+   "category": "geoib_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "geoib-pp-060",
+   "type": "cloze",
+   "text": "The warm ocean current that gives western Europe milder winters than other places at the same latitude is the {{Gulf Stream/North Atlantic Drift}}.",
+   "hint": "flows from the Gulf of Mexico",
+   "explanation": "Warm currents flow from the tropics towards the poles along the eastern coasts of continents.",
+   "category": "geoib_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "geoib-pp-061",
+   "type": "cloze",
+   "text": "The cold current off the coast of Peru and Chile that cools the climate and causes the Atacama Desert is the {{Humboldt/Peru}} Current.",
+   "hint": "named after a German explorer",
+   "explanation": "Cold currents reduce evaporation and rainfall, producing coastal deserts; upwelling makes them rich fishing grounds.",
+   "category": "geoib_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "geoib-pp-062",
+   "type": "qa",
+   "question": "What is the main driving force of surface ocean currents?",
+   "answer": "prevailing winds",
+   "accept": [
+    "wind",
+    "winds",
+    "the wind"
+   ],
+   "explanation": "Winds push the surface water, the Coriolis force deflects it, and continents turn the flow into large gyres.",
+   "category": "geoib_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "geoib-pp-063",
+   "type": "qa",
+   "question": "What is the name of the area of land drained by a river and its tributaries?",
+   "answer": "drainage basin",
+   "accept": [
+    "river basin",
+    "catchment",
+    "catchment area",
+    "watershed"
+   ],
+   "explanation": "Drainage basins are separated from each other by watersheds (drainage divides).",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "geoib-pp-064",
+   "type": "cloze",
+   "text": "An area of land from which no river reaches the ocean (e.g. much of Central Asia with the Aral Sea) is a region of {{inland/endorheic}} drainage.",
+   "hint": "the opposite of draining to the sea",
+   "explanation": "Rivers there end in inland lakes, salt pans or disappear by evaporation.",
+   "category": "geoib_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "geoib-pp-065",
+   "type": "qa",
+   "question": "What is the name of the flat area beside a river that is covered with water during floods?",
+   "answer": "floodplain",
+   "accept": [
+    "flood plain"
+   ],
+   "explanation": "Floodplains are fertile but risky places for settlement.",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "geoib-pp-066",
+   "type": "qa",
+   "question": "What is the largest hot desert region where there are no permanent rivers except the Nile?",
+   "answer": "Sahara",
+   "accept": [
+    "the Sahara"
+   ],
+   "explanation": "The Nile is an allochthonous river: it gets its water from wetter areas far upstream.",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "geoib-pp-067",
+   "type": "cloze",
+   "text": "A glacier forms when, over many years, more snow accumulates than melts and it is compacted into {{firn}} and then glacial ice.",
+   "hint": "granular, old snow",
+   "explanation": "The boundary above which snow survives the summer is called the snow line.",
+   "category": "geoib_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "geoib-pp-068",
+   "type": "qa",
+   "question": "Which two regions hold the world's only ice sheets (continental glaciers)?",
+   "answer": "Antarctica and Greenland",
+   "accept": [
+    "Greenland and Antarctica"
+   ],
+   "explanation": "Mountain (alpine) glaciers occur on all continents, e.g. in the Alps, Himalayas and Andes.",
+   "category": "geoib_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "geoib-pp-069",
+   "type": "qa",
+   "question": "What are the three main layers of the Earth's interior?",
+   "answer": "crust, mantle, core",
+   "accept": [
+    "crust mantle core",
+    "crust, mantle and core",
+    "the crust, the mantle and the core"
+   ],
+   "explanation": "The core is divided into a liquid outer core and a solid inner core.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "geoib-pp-070",
+   "type": "qa",
+   "question": "What is the name of the rigid outer shell of the Earth made of the crust and the uppermost mantle, broken into plates?",
+   "answer": "lithosphere",
+   "accept": [
+    "the lithosphere"
+   ],
+   "explanation": "Below it lies the asthenosphere, a partly molten layer on which the plates move.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "geoib-pp-071",
+   "type": "cloze",
+   "text": "Tectonic plates move because of {{convection currents}} in the mantle.",
+   "hint": "hot material rises, cool material sinks",
+   "explanation": "Heat from the core drives slow circulation of the mantle, which drags the plates along.",
+   "category": "geoib_landforms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "geoib-pp-072",
+   "type": "qa",
+   "question": "Which type of crust is thinner and denser: oceanic or continental?",
+   "answer": "oceanic",
+   "accept": [
+    "oceanic crust"
+   ],
+   "explanation": "Oceanic crust is 5-10 km of basalt; continental crust is 30-70 km of lighter granitic rock.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "geoib-pp-073",
+   "type": "qa",
+   "question": "What type of plate boundary is the Mid-Atlantic Ridge, where plates move apart?",
+   "answer": "divergent",
+   "accept": [
+    "divergent boundary",
+    "constructive",
+    "constructive boundary",
+    "divergent plate boundary"
+   ],
+   "explanation": "Magma rises to fill the gap and forms new oceanic crust (sea-floor spreading).",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "geoib-pp-074",
+   "type": "qa",
+   "question": "What type of plate boundary is the San Andreas Fault, where plates slide past each other?",
+   "answer": "transform",
+   "accept": [
+    "transform boundary",
+    "conservative",
+    "conservative boundary",
+    "transform fault"
+   ],
+   "explanation": "No crust is created or destroyed, but friction causes strong earthquakes.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "geoib-pp-075",
+   "type": "cloze",
+   "text": "At a convergent boundary where an oceanic plate sinks under another plate, a deep ocean {{trench}} and a line of volcanoes form.",
+   "hint": "the deepest parts of the ocean",
+   "explanation": "The sinking of a plate into the mantle is called subduction; the Mariana Trench is an example.",
+   "category": "geoib_landforms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "geoib-pp-076",
+   "type": "qa",
+   "question": "Which mountain range formed from the collision of the Indian and Eurasian plates?",
+   "answer": "Himalayas",
+   "accept": [
+    "the Himalayas",
+    "Himalaya"
+   ],
+   "explanation": "Collision of two continental plates folds the crust upwards; the Himalayas are still rising.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-077",
+   "type": "qa",
+   "question": "What is the name of the process of mountain building by folding and faulting of the crust?",
+   "answer": "orogeny",
+   "accept": [
+    "orogenesis",
+    "mountain building",
+    "orogenic movements"
+   ],
+   "explanation": "The Alps, Himalayas and Andes were formed in the Alpine orogeny.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-078",
+   "type": "qa",
+   "question": "What is the name of the point inside the Earth where an earthquake originates?",
+   "answer": "focus",
+   "accept": [
+    "hypocentre",
+    "hypocenter",
+    "the focus"
+   ],
+   "explanation": "The point on the surface directly above the focus is the epicentre, where shaking is usually strongest.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-079",
+   "type": "qa",
+   "question": "What is the name of the point on the Earth's surface directly above the focus of an earthquake?",
+   "answer": "epicentre",
+   "accept": [
+    "epicenter",
+    "the epicentre"
+   ],
+   "explanation": "Seismic waves spread out from the epicentre.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-080",
+   "type": "qa",
+   "question": "Which scale measures the magnitude (energy) of an earthquake with a logarithmic scale?",
+   "answer": "Richter scale",
+   "accept": [
+    "Richter",
+    "moment magnitude scale",
+    "Richter magnitude scale"
+   ],
+   "explanation": "Each whole step on the scale means about 32 times more energy released.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-081",
+   "type": "cloze",
+   "text": "The zone around the Pacific Ocean with most of the world's active volcanoes and earthquakes is called the {{Ring of Fire/Pacific Ring of Fire}}.",
+   "hint": "circum-Pacific belt",
+   "explanation": "It follows the subduction zones around the edges of the Pacific plate.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-082",
+   "type": "qa",
+   "question": "What is the name of the slow uplift or subsidence of large areas of the crust without folding?",
+   "answer": "epeirogenic movements",
+   "accept": [
+    "epeirogeny",
+    "epeirogenic",
+    "epeirogenesis"
+   ],
+   "explanation": "Scandinavia is still rising after the weight of the ice sheet was removed.",
+   "category": "geoib_landforms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-083",
+   "type": "cloze",
+   "text": "Molten rock below the Earth's surface is called {{magma}}; once it erupts onto the surface it is called lava.",
+   "hint": "under the ground",
+   "explanation": "Magma that cools slowly underground forms intrusive rocks such as granite (plutonism).",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-084",
+   "type": "qa",
+   "question": "What is the name of the large depression formed when a volcano's summit collapses after a huge eruption?",
+   "answer": "caldera",
+   "accept": [
+    "a caldera"
+   ],
+   "explanation": "Calderas may fill with water, e.g. Crater Lake in the USA.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "geoib-pp-085",
+   "type": "qa",
+   "question": "What is the breakdown of rock in place by frost, temperature changes, water or organisms called?",
+   "answer": "weathering",
+   "accept": [
+    "rock weathering"
+   ],
+   "explanation": "Unlike erosion, weathering does not involve transport of the material.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "geoib-pp-086",
+   "type": "qa",
+   "question": "What type of weathering is the shattering of rock by water freezing and expanding in cracks?",
+   "answer": "frost weathering",
+   "accept": [
+    "freeze-thaw",
+    "freeze-thaw weathering",
+    "frost shattering",
+    "frost wedging",
+    "physical weathering"
+   ],
+   "explanation": "It is a type of physical (mechanical) weathering, common in high mountains and cold climates.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "geoib-pp-087",
+   "type": "qa",
+   "question": "What type of weathering is the dissolving of limestone by rainwater containing carbon dioxide?",
+   "answer": "chemical weathering",
+   "accept": [
+    "chemical",
+    "carbonation",
+    "solution"
+   ],
+   "explanation": "This process (carbonation) creates karst landforms such as caves and sinkholes.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "geoib-pp-088",
+   "type": "qa",
+   "question": "Name the three stages of the work of external (exogenic) forces on the Earth's surface.",
+   "answer": "erosion, transport, deposition",
+   "accept": [
+    "erosion transport deposition",
+    "erosion, transport, accumulation",
+    "erosion, transportation, deposition"
+   ],
+   "explanation": "Rivers, wind, glaciers and the sea all erode, carry and deposit material.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "geoib-pp-089",
+   "type": "qa",
+   "question": "What landform is created where a river deposits sediment at its mouth, forming new land with many channels?",
+   "answer": "delta",
+   "accept": [
+    "river delta",
+    "a delta"
+   ],
+   "explanation": "The Nile and Mississippi deltas are classic examples; an estuary forms instead where tides remove the sediment.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "geoib-pp-090",
+   "type": "qa",
+   "question": "What is the name of a bowl-shaped hollow in the mountains eroded by a glacier, often holding a lake?",
+   "answer": "cirque",
+   "accept": [
+    "corrie",
+    "cwm",
+    "glacial cirque"
+   ],
+   "explanation": "Glaciers also carve U-shaped valleys, while rivers cut V-shaped valleys.",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "geoib-pp-091",
+   "type": "qa",
+   "question": "What is the name of a hill of sand built up by the wind in a desert or on a coast?",
+   "answer": "dune",
+   "accept": [
+    "sand dune",
+    "dunes"
+   ],
+   "explanation": "Wind also polishes rocks (corrasion) and sweeps away fine material (deflation).",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "geoib-pp-092",
+   "type": "qa",
+   "question": "What is the name of the group of rocks formed from the cooling of magma or lava, such as granite and basalt?",
+   "answer": "igneous rocks",
+   "accept": [
+    "igneous",
+    "magmatic rocks",
+    "magmatic"
+   ],
+   "explanation": "The other two groups are sedimentary rocks (limestone, sandstone) and metamorphic rocks (marble, gneiss).",
+   "category": "geoib_landforms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "geoib-pp-093",
+   "type": "qa",
+   "question": "What is the name of the number of live births per 1000 people per year?",
+   "answer": "crude birth rate",
+   "accept": [
+    "birth rate",
+    "CBR"
+   ],
+   "explanation": "IB Geography core, Unit 1 Changing population; the crude death rate is the number of deaths per 1000 people per year.",
+   "category": "geoib_population",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB core"
+  },
+  {
+   "id": "geoib-pp-094",
+   "type": "qa",
+   "question": "In the Demographic Transition Model, in which stage are both birth and death rates high and the population grows slowly?",
+   "answer": "stage 1",
+   "accept": [
+    "1",
+    "stage one",
+    "first stage"
+   ],
+   "explanation": "Stage 2: death rate falls, rapid growth; stage 3: birth rate falls; stage 4: both low; stage 5: birth rate below death rate.",
+   "category": "geoib_population",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB core"
+  },
+  {
+   "id": "geoib-pp-095",
+   "type": "cloze",
+   "text": "The {{dependency ratio}} compares the number of people aged 0-14 and over 65 with the working-age population aged 15-64.",
+   "hint": "those who 'depend' on workers",
+   "explanation": "A high ratio puts pressure on health care, pensions and education.",
+   "category": "geoib_population",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB core"
+  },
+  {
+   "id": "geoib-pp-096",
+   "type": "qa",
+   "question": "What is the name of the rise in global sea level caused by water expanding as it warms, in addition to melting ice?",
+   "answer": "thermal expansion",
+   "accept": [
+    "thermal expansion of water",
+    "thermal expansion of seawater"
+   ],
+   "explanation": "IB Geography core, Unit 3 Global climate: sea-level rise threatens low-lying islands and deltas.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB core"
+  },
+  {
+   "id": "geoib-pp-097",
+   "type": "cloze",
+   "text": "Actions that reduce greenhouse gas emissions, such as switching to renewable energy, are called climate change {{mitigation}}, while coping with its effects, e.g. building sea walls, is adaptation.",
+   "hint": "reducing the cause",
+   "explanation": "Mitigation targets the cause; adaptation targets the consequences.",
+   "category": "geoib_climate",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB core"
+  },
+  {
+   "id": "geoib-pp-098",
+   "type": "cloze",
+   "text": "The amount of greenhouse gases emitted by a person, product or country, expressed in tonnes of CO2 equivalent, is its carbon {{footprint}}.",
+   "hint": "what you leave behind",
+   "explanation": "Carbon footprints are much higher in high-income countries than in low-income ones.",
+   "category": "geoib_climate",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB core"
+  }
+ ]
+}
