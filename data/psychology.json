@@ -1,0 +1,1240 @@
+{
+ "version": 1,
+ "subject": "psychology_ib",
+ "updated": "2026-10-18",
+ "source": "IB Diploma Programme Psychology guide (first assessment 2027): content (biological, cognitive, sociocultural approaches, research methodology), contexts (health and well-being, human development), concepts and classic studies; no Polish core curriculum for this subject",
+ "items": [
+  {
+   "id": "psyib-pp-001",
+   "type": "qa",
+   "question": "Which research method manipulates an independent variable to measure its effect on a dependent variable?",
+   "answer": "experiment",
+   "accept": [
+    "true experiment",
+    "laboratory experiment",
+    "lab experiment"
+   ],
+   "explanation": "Only an experiment with random allocation allows a cause-and-effect conclusion.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-002",
+   "type": "cloze",
+   "text": "In an experiment, the variable the researcher deliberately manipulates is the {{independent}} variable.",
+   "hint": "abbreviated IV",
+   "explanation": "The dependent variable (DV) is what is measured as a result.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-003",
+   "type": "qa",
+   "question": "What is the variable that is measured as the outcome of an experiment called?",
+   "answer": "dependent variable",
+   "accept": [
+    "DV",
+    "the dependent variable"
+   ],
+   "explanation": "Changes in the DV are assumed to be caused by changes in the IV.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-004",
+   "type": "qa",
+   "question": "What kind of study compares pre-existing groups (e.g. men vs women) because the researcher cannot manipulate the independent variable?",
+   "answer": "quasi-experiment",
+   "accept": [
+    "quasi experiment",
+    "natural experiment"
+   ],
+   "explanation": "Without random allocation to conditions, causation cannot be firmly established.",
+   "category": "psyib_methods",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-005",
+   "type": "qa",
+   "question": "Name the sampling technique in which every member of the target population has an equal chance of being selected.",
+   "answer": "random sampling",
+   "accept": [
+    "random sample",
+    "simple random sampling"
+   ],
+   "explanation": "Random sampling reduces researcher bias but is rarely practical.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-006",
+   "type": "qa",
+   "question": "Which sampling technique selects participants simply because they are easily available (e.g. students in the researcher's class)?",
+   "answer": "convenience sampling",
+   "accept": [
+    "opportunity sampling",
+    "convenience sample",
+    "opportunity sample"
+   ],
+   "explanation": "It is quick and cheap, but the sample may not represent the population.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-007",
+   "type": "cloze",
+   "text": "In {{snowball}} sampling, existing participants recruit further participants from among their acquaintances.",
+   "hint": "it grows as it rolls",
+   "explanation": "Useful for hard-to-reach populations, e.g. drug users.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-008",
+   "type": "qa",
+   "question": "Which research method measures the relationship between two variables without manipulating either of them?",
+   "answer": "correlational study",
+   "accept": [
+    "correlation",
+    "correlational research",
+    "correlational method"
+   ],
+   "explanation": "Correlation shows association, not causation.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-009",
+   "type": "qa",
+   "question": "Which ethical principle requires that participants are told what the study involves and agree to take part?",
+   "answer": "informed consent",
+   "accept": [
+    "consent"
+   ],
+   "explanation": "For minors, consent is obtained from parents or guardians.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-010",
+   "type": "qa",
+   "question": "What is the procedure, carried out after a study, in which participants are told its true aims and any deception is revealed?",
+   "answer": "debriefing",
+   "accept": [
+    "debrief",
+    "a debriefing"
+   ],
+   "explanation": "Debriefing should also make sure participants leave in the same state as they arrived.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-011",
+   "type": "cloze",
+   "text": "The ethical right of participants to leave a study at any time without penalty is the right to {{withdraw}}.",
+   "hint": "to leave",
+   "explanation": "Participants may also withdraw their data after the study.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-012",
+   "type": "qa",
+   "question": "What type of validity refers to how well the findings of a study generalise to real-life settings?",
+   "answer": "ecological validity",
+   "accept": [
+    "external validity"
+   ],
+   "explanation": "Artificial laboratory tasks often have low ecological validity.",
+   "category": "psyib_methods",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-013",
+   "type": "qa",
+   "question": "What do we call a variable other than the independent variable that may have affected the dependent variable?",
+   "answer": "confounding variable",
+   "accept": [
+    "extraneous variable",
+    "confound",
+    "confounding variables"
+   ],
+   "explanation": "Confounding variables threaten the internal validity of an experiment.",
+   "category": "psyib_methods",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-014",
+   "type": "qa",
+   "question": "What is the term for participants changing their behaviour because they have guessed the aim of the study?",
+   "answer": "demand characteristics",
+   "accept": [
+    "demand characteristic"
+   ],
+   "explanation": "Deception or a single-blind design can reduce demand characteristics.",
+   "category": "psyib_methods",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-015",
+   "type": "qa",
+   "question": "Which research method is an in-depth investigation of a single person or a small group over time?",
+   "answer": "case study",
+   "accept": [
+    "case studies"
+   ],
+   "explanation": "Patient HM is a famous example of a case study in psychology.",
+   "category": "psyib_methods",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-016",
+   "type": "cloze",
+   "text": "Using several methods, researchers or data sources to check that findings agree is called {{triangulation}}.",
+   "hint": "a word from geometry",
+   "explanation": "Triangulation increases the credibility of qualitative research.",
+   "category": "psyib_methods",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB research methodology"
+  },
+  {
+   "id": "psyib-pp-017",
+   "type": "qa",
+   "question": "What is the term for the brain's ability to change its structure and connections in response to experience?",
+   "answer": "neuroplasticity",
+   "accept": [
+    "plasticity",
+    "brain plasticity",
+    "neural plasticity"
+   ],
+   "explanation": "Learning a skill, e.g. juggling, increases grey matter in related brain areas.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-018",
+   "type": "qa",
+   "question": "Which brain structure is essential for forming new long-term memories?",
+   "answer": "hippocampus",
+   "accept": [
+    "the hippocampus"
+   ],
+   "explanation": "Damage to the hippocampus (as in patient HM) causes anterograde amnesia.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-019",
+   "type": "qa",
+   "question": "Which brain structure is primarily involved in processing fear and other emotional responses?",
+   "answer": "amygdala",
+   "accept": [
+    "the amygdala"
+   ],
+   "explanation": "The amygdala is part of the limbic system.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-020",
+   "type": "qa",
+   "question": "What are the chemical messengers that carry a signal from one neuron to the next across the synapse?",
+   "answer": "neurotransmitters",
+   "accept": [
+    "neurotransmitter"
+   ],
+   "explanation": "Examples include dopamine, serotonin and acetylcholine.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-021",
+   "type": "qa",
+   "question": "Which neurotransmitter is most associated with reward, motivation and pleasure?",
+   "answer": "dopamine",
+   "accept": [],
+   "explanation": "Addictive drugs increase dopamine activity in the brain's reward pathway.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-022",
+   "type": "qa",
+   "question": "Which neurotransmitter is strongly involved in learning and memory formation in the hippocampus?",
+   "answer": "acetylcholine",
+   "accept": [
+    "ACh"
+   ],
+   "explanation": "Drugs that block acetylcholine receptors impair memory.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-023",
+   "type": "cloze",
+   "text": "The tiny gap between two neurons across which neurotransmitters travel is the {{synapse}}.",
+   "hint": "synaptic gap",
+   "explanation": "Neurotransmitters bind to receptors on the next neuron.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-024",
+   "type": "qa",
+   "question": "What do we call a chemical messenger released by a gland into the bloodstream?",
+   "answer": "hormone",
+   "accept": [
+    "hormones"
+   ],
+   "explanation": "Hormones act more slowly than neurotransmitters but their effects last longer.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-025",
+   "type": "qa",
+   "question": "Which hormone, often called the stress hormone, is released by the adrenal glands during prolonged stress?",
+   "answer": "cortisol",
+   "accept": [],
+   "explanation": "Chronically high cortisol can impair memory and the immune system.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-026",
+   "type": "qa",
+   "question": "Which hormone is linked to social bonding, trust and mother-infant attachment?",
+   "answer": "oxytocin",
+   "accept": [],
+   "explanation": "Oxytocin is released during childbirth, breastfeeding and physical touch.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-027",
+   "type": "qa",
+   "question": "What kind of study compares identical and fraternal twins to estimate the genetic contribution to a trait?",
+   "answer": "twin study",
+   "accept": [
+    "twin studies"
+   ],
+   "explanation": "Higher similarity in identical than fraternal twins suggests a genetic influence.",
+   "category": "psyib_biological",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-028",
+   "type": "qa",
+   "question": "What is the term for the proportion of variation in a trait within a population that can be attributed to genetic differences?",
+   "answer": "heritability",
+   "accept": [],
+   "explanation": "A heritability of 0.5 means about half of the variation is linked to genes.",
+   "category": "psyib_biological",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-029",
+   "type": "qa",
+   "question": "Which brain-imaging technique shows brain activity by measuring changes in blood flow?",
+   "answer": "fMRI",
+   "accept": [
+    "functional MRI",
+    "functional magnetic resonance imaging"
+   ],
+   "explanation": "fMRI has good spatial resolution but is indirect: it measures blood oxygen, not neurons.",
+   "category": "psyib_biological",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB biological approach"
+  },
+  {
+   "id": "psyib-pp-030",
+   "type": "qa",
+   "question": "What is the term for a mental framework of prior knowledge that organises how we interpret new information?",
+   "answer": "schema",
+   "accept": [
+    "schemas",
+    "schemata"
+   ],
+   "explanation": "Schemas help us process information quickly but can distort memory.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-031",
+   "type": "qa",
+   "question": "Which memory model (Atkinson and Shiffrin, 1968) proposes sensory memory, short-term memory and long-term memory as separate stores?",
+   "answer": "multi-store model",
+   "accept": [
+    "multi store model",
+    "the multi-store model",
+    "multistore model"
+   ],
+   "explanation": "Information passes from store to store through attention and rehearsal.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-032",
+   "type": "cloze",
+   "text": "According to the multi-store model, information is kept in short-term memory and transferred to long-term memory through {{rehearsal}}.",
+   "hint": "repeating it",
+   "explanation": "Short-term memory holds about 7 items for up to about 30 seconds without rehearsal.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-033",
+   "type": "qa",
+   "question": "In Baddeley and Hitch's working memory model, which component stores verbal and auditory information?",
+   "answer": "phonological loop",
+   "accept": [
+    "the phonological loop"
+   ],
+   "explanation": "It consists of a phonological store and an articulatory rehearsal process.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-034",
+   "type": "qa",
+   "question": "In the working memory model, which component holds visual and spatial information?",
+   "answer": "visuospatial sketchpad",
+   "accept": [
+    "visuo-spatial sketchpad",
+    "visual spatial sketchpad",
+    "the visuospatial sketchpad"
+   ],
+   "explanation": "It lets you picture a route while listening to directions.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-035",
+   "type": "cloze",
+   "text": "In the working memory model, the {{central executive}} directs attention and coordinates the phonological loop and visuospatial sketchpad.",
+   "hint": "the boss of the system",
+   "explanation": "Baddeley later added the episodic buffer, which integrates information from the subsystems.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-036",
+   "type": "qa",
+   "question": "Which type of long-term memory stores personal experiences and events, such as your last birthday?",
+   "answer": "episodic memory",
+   "accept": [
+    "episodic"
+   ],
+   "explanation": "Semantic memory stores facts; procedural memory stores skills.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-037",
+   "type": "qa",
+   "question": "In Kahneman's dual-process model, which system is fast, automatic and intuitive?",
+   "answer": "System 1",
+   "accept": [
+    "system one",
+    "system 1 thinking"
+   ],
+   "explanation": "System 1 is efficient but prone to cognitive biases.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-038",
+   "type": "cloze",
+   "text": "In the dual-process model, slow, effortful and analytical thinking is called {{System 2}} thinking.",
+   "hint": "the second system",
+   "explanation": "System 2 is used for difficult calculations and careful decisions.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-039",
+   "type": "qa",
+   "question": "What is the name of the cognitive bias that makes us seek out and remember information that supports what we already believe?",
+   "answer": "confirmation bias",
+   "accept": [],
+   "explanation": "Confirmation bias is one reason why people hold on to false beliefs.",
+   "category": "psyib_cognitive",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-040",
+   "type": "qa",
+   "question": "Which heuristic leads people to judge how likely an event is by how easily examples come to mind?",
+   "answer": "availability heuristic",
+   "accept": [
+    "availability bias",
+    "availability"
+   ],
+   "explanation": "After seeing news about plane crashes, people overestimate the risk of flying.",
+   "category": "psyib_cognitive",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-041",
+   "type": "qa",
+   "question": "Which cognitive bias describes relying too heavily on the first piece of information offered when making a decision?",
+   "answer": "anchoring bias",
+   "accept": [
+    "anchoring",
+    "anchoring effect",
+    "anchoring heuristic"
+   ],
+   "explanation": "An initial price acts as an anchor that shapes later judgments of value.",
+   "category": "psyib_cognitive",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-042",
+   "type": "cloze",
+   "text": "Memory is {{reconstructive}}: we rebuild memories from schemas and fragments rather than replaying an exact recording.",
+   "hint": "re-built",
+   "explanation": "Bartlett's War of the Ghosts study showed how schemas distort recall.",
+   "category": "psyib_cognitive",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-043",
+   "type": "qa",
+   "question": "Which theory by Tajfel and Turner states that part of our self-concept comes from the groups we belong to?",
+   "answer": "social identity theory",
+   "accept": [
+    "SIT",
+    "social identity"
+   ],
+   "explanation": "Group membership boosts self-esteem through positive comparison with out-groups.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-044",
+   "type": "cloze",
+   "text": "Social identity theory describes three processes: social {{categorisation}}, social identification and social comparison.",
+   "hint": "putting people into groups",
+   "explanation": "We categorise people, identify with our in-group and compare it favourably with out-groups.",
+   "category": "psyib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-045",
+   "type": "cloze",
+   "text": "Favouring members of one's own group over members of other groups is called {{in-group}} favouritism.",
+   "hint": "us, not them",
+   "explanation": "Tajfel's minimal group studies showed in-group favouritism even in arbitrary groups.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-046",
+   "type": "qa",
+   "question": "Which theory by Bandura explains learning through observing and imitating others?",
+   "answer": "social learning theory",
+   "accept": [
+    "social cognitive theory",
+    "SLT",
+    "social learning"
+   ],
+   "explanation": "Attention, retention, reproduction and motivation are needed for observational learning.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-047",
+   "type": "qa",
+   "question": "What is the term for changing one's behaviour or opinions to match those of a group?",
+   "answer": "conformity",
+   "accept": [
+    "conforming"
+   ],
+   "explanation": "Asch's line study is the classic demonstration of conformity.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-048",
+   "type": "qa",
+   "question": "What type of social influence makes people conform because they want to be liked and accepted by the group?",
+   "answer": "normative social influence",
+   "accept": [
+    "normative influence",
+    "normative"
+   ],
+   "explanation": "This often produces public compliance without private agreement.",
+   "category": "psyib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-049",
+   "type": "qa",
+   "question": "What type of social influence makes people conform because they believe the group has better information?",
+   "answer": "informational social influence",
+   "accept": [
+    "informational influence",
+    "informational"
+   ],
+   "explanation": "It is strongest in ambiguous or difficult situations.",
+   "category": "psyib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-050",
+   "type": "qa",
+   "question": "Which of Hofstede's cultural dimensions contrasts personal goals and independence with loyalty to the group?",
+   "answer": "individualism vs collectivism",
+   "accept": [
+    "individualism-collectivism",
+    "individualism collectivism",
+    "individualism versus collectivism",
+    "individualism and collectivism"
+   ],
+   "explanation": "The USA scores high on individualism; many East Asian countries score high on collectivism.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-051",
+   "type": "qa",
+   "question": "Which of Hofstede's cultural dimensions describes how much a society accepts unequal distribution of power?",
+   "answer": "power distance",
+   "accept": [
+    "power distance index"
+   ],
+   "explanation": "In high power-distance cultures, hierarchy is accepted without question.",
+   "category": "psyib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-052",
+   "type": "cloze",
+   "text": "A {{stereotype}} is a generalised, often oversimplified belief about the characteristics of a group of people.",
+   "hint": "a fixed image",
+   "explanation": "Stereotypes can lead to prejudice and discrimination.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-053",
+   "type": "qa",
+   "question": "What is the process by which people adopt the culture of a new country while keeping or losing their heritage culture?",
+   "answer": "acculturation",
+   "accept": [],
+   "explanation": "Berry described four strategies: integration, assimilation, separation and marginalisation.",
+   "category": "psyib_social",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-054",
+   "type": "qa",
+   "question": "What is the process by which children learn the norms and values of their own culture?",
+   "answer": "enculturation",
+   "accept": [],
+   "explanation": "Enculturation happens through parents, peers, school and media.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-055",
+   "type": "cloze",
+   "text": "The learned, shared rules of behaviour that members of a culture are expected to follow are called cultural {{norms}}.",
+   "hint": "what is normal",
+   "explanation": "Norms for personal space, eye contact or punctuality differ between cultures.",
+   "category": "psyib_social",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-056",
+   "type": "cloze",
+   "text": "Piaget's first stage of cognitive development, from birth to about 2 years, is the {{sensorimotor}} stage.",
+   "hint": "senses and movement",
+   "explanation": "In this stage the child develops object permanence.",
+   "category": "psyib_development",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-057",
+   "type": "qa",
+   "question": "In which of Piaget's stages (about 2-7 years) do children use symbols and language but think egocentrically?",
+   "answer": "preoperational stage",
+   "accept": [
+    "preoperational",
+    "pre-operational stage",
+    "pre-operational"
+   ],
+   "explanation": "Preoperational children fail conservation tasks.",
+   "category": "psyib_development",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-058",
+   "type": "qa",
+   "question": "In which of Piaget's stages (about 7-11 years) can children think logically about concrete objects and pass conservation tasks?",
+   "answer": "concrete operational stage",
+   "accept": [
+    "concrete operational",
+    "concrete operations"
+   ],
+   "explanation": "Abstract, hypothetical reasoning only appears in the formal operational stage.",
+   "category": "psyib_development",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-059",
+   "type": "qa",
+   "question": "What is Piaget's term for fitting new information into an existing schema?",
+   "answer": "assimilation",
+   "accept": [],
+   "explanation": "Calling a zebra a 'horse' is assimilation.",
+   "category": "psyib_development",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-060",
+   "type": "cloze",
+   "text": "When a child changes an existing schema to fit new information, Piaget called this {{accommodation}}.",
+   "hint": "the schema adapts",
+   "explanation": "Learning that a zebra is not a horse requires accommodation.",
+   "category": "psyib_development",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-061",
+   "type": "qa",
+   "question": "What is Vygotsky's term for the gap between what a child can do alone and what they can do with help from a more skilled person?",
+   "answer": "zone of proximal development",
+   "accept": [
+    "ZPD",
+    "the zone of proximal development"
+   ],
+   "explanation": "Support given within this zone is called scaffolding.",
+   "category": "psyib_development",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-062",
+   "type": "qa",
+   "question": "What is Bowlby's term for the strong emotional bond between an infant and its caregiver?",
+   "answer": "attachment",
+   "accept": [],
+   "explanation": "Bowlby argued that attachment is innate and has evolved to keep infants safe.",
+   "category": "psyib_development",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-063",
+   "type": "qa",
+   "question": "What is the name of Ainsworth's laboratory procedure used to classify an infant's attachment type?",
+   "answer": "Strange Situation",
+   "accept": [
+    "the strange situation",
+    "strange situation procedure"
+   ],
+   "explanation": "The infant is observed during separations from and reunions with the caregiver.",
+   "category": "psyib_development",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-064",
+   "type": "cloze",
+   "text": "Ainsworth's attachment type in which the infant uses the caregiver as a safe base and is comforted on reunion is {{secure}} attachment.",
+   "hint": "the healthy type",
+   "explanation": "The insecure types are avoidant and resistant (ambivalent).",
+   "category": "psyib_development",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB human development"
+  },
+  {
+   "id": "psyib-pp-065",
+   "type": "qa",
+   "question": "Which model of health states that biological, psychological and social factors interact to determine health and illness?",
+   "answer": "biopsychosocial model",
+   "accept": [
+    "biopsychosocial",
+    "the biopsychosocial model"
+   ],
+   "explanation": "It replaced the purely biomedical model of illness.",
+   "category": "psyib_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB health and wellbeing"
+  },
+  {
+   "id": "psyib-pp-066",
+   "type": "cloze",
+   "text": "Selye's {{general adaptation syndrome}} describes the stress response in three stages: alarm, resistance and exhaustion.",
+   "hint": "abbreviated GAS",
+   "explanation": "Prolonged stress leads to the exhaustion stage and illness.",
+   "category": "psyib_health",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB health and wellbeing"
+  },
+  {
+   "id": "psyib-pp-067",
+   "type": "qa",
+   "question": "Which model states that people's health behaviour depends on their perceived susceptibility, severity, benefits and barriers?",
+   "answer": "health belief model",
+   "accept": [
+    "HBM",
+    "the health belief model"
+   ],
+   "explanation": "It is used to predict behaviours such as vaccination or quitting smoking.",
+   "category": "psyib_health",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB health and wellbeing"
+  },
+  {
+   "id": "psyib-pp-068",
+   "type": "qa",
+   "question": "What is the name of the manual published by the American Psychiatric Association used to diagnose mental disorders?",
+   "answer": "DSM-5",
+   "accept": [
+    "DSM",
+    "DSM-5-TR",
+    "Diagnostic and Statistical Manual"
+   ],
+   "explanation": "The WHO's ICD is the main alternative classification system.",
+   "category": "psyib_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB health and wellbeing"
+  },
+  {
+   "id": "psyib-pp-069",
+   "type": "qa",
+   "question": "What is the term for the proportion of a population that has a disorder at a given point in time?",
+   "answer": "prevalence",
+   "accept": [
+    "prevalence rate"
+   ],
+   "explanation": "Incidence, in contrast, counts new cases over a period of time.",
+   "category": "psyib_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB health and wellbeing"
+  },
+  {
+   "id": "psyib-pp-070",
+   "type": "qa",
+   "question": "Which therapy, developed by Beck, treats disorders such as depression by changing maladaptive thoughts and behaviours?",
+   "answer": "cognitive behavioural therapy",
+   "accept": [
+    "CBT",
+    "cognitive behavioral therapy",
+    "cognitive behaviour therapy"
+   ],
+   "explanation": "CBT is a first-line treatment for depression and anxiety disorders.",
+   "category": "psyib_health",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB health and wellbeing"
+  },
+  {
+   "id": "psyib-pp-071",
+   "type": "cloze",
+   "text": "According to Lazarus and Folkman, coping that aims to remove or reduce the stressor itself is {{problem-focused}} coping.",
+   "hint": "the other type is emotion-focused",
+   "explanation": "Emotion-focused coping manages feelings about the stressor instead.",
+   "category": "psyib_health",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB health and wellbeing"
+  },
+  {
+   "id": "psyib-pp-072",
+   "type": "qa",
+   "question": "Who conducted the 1963 obedience experiment in which participants believed they were giving electric shocks to a learner?",
+   "answer": "Milgram",
+   "accept": [
+    "Stanley Milgram"
+   ],
+   "explanation": "The study was designed to test whether ordinary people would obey orders to harm others.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-073",
+   "type": "qa",
+   "question": "In Milgram's 1963 obedience study, what percentage of participants continued to the maximum 450-volt shock?",
+   "answer": "65%",
+   "accept": [
+    "65",
+    "65 percent",
+    "about 65%",
+    "two thirds"
+   ],
+   "explanation": "26 out of 40 participants obeyed to the end.",
+   "category": "psyib_studies",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-074",
+   "type": "qa",
+   "question": "In Milgram's obedience study, who was the 'learner' who appeared to receive the shocks?",
+   "answer": "a confederate",
+   "accept": [
+    "confederate",
+    "an actor",
+    "actor"
+   ],
+   "explanation": "No real shocks were given; the learner's cries were pre-recorded.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-075",
+   "type": "qa",
+   "question": "Who conducted the 1951 conformity study in which participants judged the lengths of lines?",
+   "answer": "Asch",
+   "accept": [
+    "Solomon Asch"
+   ],
+   "explanation": "The task was easy; conformity came from group pressure, not difficulty.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-076",
+   "type": "cloze",
+   "text": "In Asch's 1951 study, the other 'participants' were {{confederates}} instructed to give the same wrong answer.",
+   "hint": "they worked for the experimenter",
+   "explanation": "On critical trials, the naive participant answered after hearing the group's wrong answers.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-077",
+   "type": "qa",
+   "question": "In Asch's 1951 conformity study, roughly what proportion of participants conformed to the wrong answer at least once?",
+   "answer": "about 75%",
+   "accept": [
+    "75%",
+    "75",
+    "three quarters",
+    "about three quarters",
+    "74%"
+   ],
+   "explanation": "Overall, participants conformed on about a third of the critical trials.",
+   "category": "psyib_studies",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-078",
+   "type": "qa",
+   "question": "In Loftus and Palmer's 1974 study, which verb in the question about the car crash produced the highest speed estimates?",
+   "answer": "smashed",
+   "accept": [
+    "smashed into"
+   ],
+   "explanation": "'Smashed' gave about 41 mph on average, 'contacted' about 32 mph.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-079",
+   "type": "qa",
+   "question": "Loftus and Palmer (1974) showed that memory can be distorted by the wording of questions asked after an event. What is this effect called?",
+   "answer": "misinformation effect",
+   "accept": [
+    "leading question effect",
+    "leading questions",
+    "misinformation"
+   ],
+   "explanation": "This has important implications for eyewitness testimony.",
+   "category": "psyib_studies",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-080",
+   "type": "qa",
+   "question": "In Loftus and Palmer's second experiment (1974), participants who heard the verb 'smashed' were more likely to falsely report seeing what?",
+   "answer": "broken glass",
+   "accept": [
+    "glass"
+   ],
+   "explanation": "There was no broken glass in the film, showing that memory was reconstructed.",
+   "category": "psyib_studies",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-081",
+   "type": "qa",
+   "question": "In Bandura's 1961 study, children watched an adult attack which toy?",
+   "answer": "Bobo doll",
+   "accept": [
+    "a Bobo doll",
+    "the Bobo doll",
+    "bobo"
+   ],
+   "explanation": "Children who saw the aggressive model later imitated the same aggressive acts.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-082",
+   "type": "qa",
+   "question": "What did Bandura's Bobo doll study (1961) demonstrate as a way children acquire aggressive behaviour?",
+   "answer": "observation",
+   "accept": [
+    "observational learning",
+    "imitation",
+    "modelling",
+    "modeling",
+    "observing a model"
+   ],
+   "explanation": "It supports social learning theory: behaviour can be learned without direct reinforcement.",
+   "category": "psyib_studies",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-083",
+   "type": "qa",
+   "question": "Patient HM lost the ability to form new long-term memories after surgery removed most of which brain structure?",
+   "answer": "hippocampus",
+   "accept": [
+    "the hippocampus",
+    "hippocampi",
+    "medial temporal lobes"
+   ],
+   "explanation": "The surgery in 1953 was intended to treat his severe epilepsy.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-084",
+   "type": "cloze",
+   "text": "After his surgery, patient HM could not form new long-term memories; this type of memory loss is called {{anterograde}} amnesia.",
+   "hint": "forward in time",
+   "explanation": "His memories from before the surgery were largely intact.",
+   "category": "psyib_studies",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-085",
+   "type": "qa",
+   "question": "HM could learn new motor skills such as mirror drawing but could not remember practising them. Which kind of memory was therefore intact?",
+   "answer": "procedural memory",
+   "accept": [
+    "procedural",
+    "implicit memory",
+    "implicit"
+   ],
+   "explanation": "This showed that explicit and procedural memory depend on different brain systems.",
+   "category": "psyib_studies",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB cognitive approach"
+  },
+  {
+   "id": "psyib-pp-086",
+   "type": "qa",
+   "question": "At which university did Zimbardo run his 1971 prison simulation study?",
+   "answer": "Stanford",
+   "accept": [
+    "Stanford University",
+    "Stanford prison experiment"
+   ],
+   "explanation": "The study was stopped after six days instead of the planned two weeks.",
+   "category": "psyib_studies",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-087",
+   "type": "qa",
+   "question": "Zimbardo's prison study was planned to last two weeks. After how many days was it stopped?",
+   "answer": "6 days",
+   "accept": [
+    "6",
+    "six",
+    "six days"
+   ],
+   "explanation": "Guards became abusive and prisoners showed severe distress.",
+   "category": "psyib_studies",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB sociocultural approach"
+  },
+  {
+   "id": "psyib-pp-088",
+   "type": "cloze",
+   "text": "The six key concepts of the DP psychology course are bias, causality, change, {{measurement}}, perspective and responsibility.",
+   "hint": "about how we quantify behaviour",
+   "explanation": "The concepts run through all content and contexts and are assessed in the exam papers.",
+   "category": "psyib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB concepts"
+  },
+  {
+   "id": "psyib-pp-089",
+   "type": "qa",
+   "question": "What form does the internal assessment take in the DP psychology course (first assessment 2027)?",
+   "answer": "research proposal",
+   "accept": [
+    "a research proposal"
+   ],
+   "explanation": "Students design a study on a topic of interest instead of running a simple experiment.",
+   "category": "psyib_other",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IB internal assessment"
+  }
+ ]
+}
