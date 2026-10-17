@@ -1,0 +1,1636 @@
+{
+ "version": 1,
+ "subject": "eo_ib",
+ "updated": "2026-10-18",
+ "source": "Podstawa programowa edukacji obywatelskiej dla liceum i technikum, zakres podstawowy (Dz.U. 2025 poz. 382), działy I–VII; ustrój RP wg Konstytucji z 1997 r.",
+ "items": [
+  {
+   "id": "eo-pp-001",
+   "type": "qa",
+   "question": "Jak nazywa się postawa miłości i szacunku do ojczyzny połączona z troską o jej dobro?",
+   "answer": "patriotyzm",
+   "accept": [
+    "patriotyzmem"
+   ],
+   "explanation": "Patriotyzm może wyrażać się np. w udziale w wyborach, płaceniu podatków czy pielęgnowaniu tradycji.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "eo-pp-002",
+   "type": "qa",
+   "question": "Jak nazywa się podstawowa, najmniejsza grupa społeczna, do której człowiek należy od urodzenia?",
+   "answer": "rodzina",
+   "accept": [],
+   "explanation": "Dalej należymy do wspólnoty lokalnej, narodowej, państwowej i globalnej.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "eo-pp-003",
+   "type": "cloze",
+   "text": "Zbiór cech, przekonań i przynależności do grup, które określają, kim jestem, nazywamy {{tożsamością}}.",
+   "hint": "kim jestem",
+   "explanation": "Tożsamość ma wiele składowych: rodzinną, lokalną, narodową, religijną, zawodową.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "eo-pp-004",
+   "type": "qa",
+   "question": "Jak nazywa się dostosowywanie własnych poglądów i zachowań do oczekiwań grupy?",
+   "answer": "konformizm",
+   "accept": [
+    "konformizmem"
+   ],
+   "explanation": "Przeciwieństwem jest nonkonformizm, czyli działanie wbrew naciskowi grupy.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "eo-pp-005",
+   "type": "qa",
+   "question": "Jak nazywa się uproszczony, uogólniony obraz jakiejś grupy ludzi, np. „wszyscy kierowcy BMW jeżdżą agresywnie”?",
+   "answer": "stereotyp",
+   "accept": [
+    "stereotypem"
+   ],
+   "explanation": "Stereotyp prowadzi do uprzedzeń, a te mogą prowadzić do dyskryminacji.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "eo-pp-006",
+   "type": "cloze",
+   "text": "Gorsze traktowanie osoby ze względu na jej pochodzenie, płeć, wiek, religię lub niepełnosprawność to {{dyskryminacja}}.",
+   "hint": "nierówne traktowanie",
+   "explanation": "Dyskryminacja jest zakazana przez Konstytucję RP (art. 32).",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "eo-pp-007",
+   "type": "qa",
+   "question": "Jak nazywa się sposób rozwiązania konfliktu, w którym obie strony rezygnują z części swoich żądań?",
+   "answer": "kompromis",
+   "accept": [
+    "kompromisem"
+   ],
+   "explanation": "Inne metody to negocjacje, mediacja i arbitraż.",
+   "category": "eo_society",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "eo-pp-008",
+   "type": "qa",
+   "question": "Jak nazywa się badanie opinii prowadzone na reprezentatywnej próbie społeczeństwa, np. przez CBOS?",
+   "answer": "sondaż",
+   "accept": [
+    "sondaż opinii",
+    "sondaż opinii publicznej",
+    "badanie opinii publicznej"
+   ],
+   "explanation": "Wyniki sondaży pokazują m.in., co łączy, a co dzieli Polaków.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "eo-pp-009",
+   "type": "cloze",
+   "text": "Gdy liczba urodzeń jest mniejsza niż liczba zgonów, mówimy o ujemnym przyroście {{naturalnym}}.",
+   "hint": "urodzenia minus zgony",
+   "explanation": "Jedna z przemian demograficznych społeczeństwa polskiego po 1989 r. to spadek dzietności i starzenie się społeczeństwa.",
+   "category": "eo_society",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.F4"
+  },
+  {
+   "id": "eo-pp-010",
+   "type": "qa",
+   "question": "Jak nazywa się niepoparte dowodami przekonanie, że ważne wydarzenia są wynikiem tajnego spisku?",
+   "answer": "teoria spiskowa",
+   "accept": [
+    "teorie spiskowe",
+    "spiskowa"
+   ],
+   "explanation": "Teorie spiskowe obniżają zaufanie społeczne; warto weryfikować ich źródła.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.F5"
+  },
+  {
+   "id": "eo-pp-011",
+   "type": "qa",
+   "question": "Jak nazywa się system działań chroniących ludność cywilną przed skutkami wojny, klęsk żywiołowych i katastrof?",
+   "answer": "obrona cywilna",
+   "accept": [
+    "obrona cywilna kraju",
+    "OC"
+   ],
+   "explanation": "Zgodnie z Konstytucją RP (art. 85) obrona Ojczyzny jest obowiązkiem obywatela polskiego.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.F6"
+  },
+  {
+   "id": "eo-pp-012",
+   "type": "qa",
+   "question": "Jak nazywa się podstawowy dokument szkoły określający jej organizację oraz prawa i obowiązki uczniów?",
+   "answer": "statut szkoły",
+   "accept": [
+    "statut"
+   ],
+   "explanation": "Statut uchwala rada pedagogiczna; szczegóły mogą zawierać regulaminy wewnątrzszkolne.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "eo-pp-013",
+   "type": "qa",
+   "question": "Który organ nadzoru pedagogicznego rozpatruje skargi na naruszenie praw ucznia przez szkołę?",
+   "answer": "kurator oświaty",
+   "accept": [
+    "kurator",
+    "kuratorium oświaty",
+    "kuratorium"
+   ],
+   "explanation": "Najpierw warto zgłosić sprawę wychowawcy lub dyrektorowi szkoły.",
+   "category": "eo_society",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "eo-pp-014",
+   "type": "qa",
+   "question": "Jak nazywa się organ szkoły tworzony przez wszystkich uczniów i reprezentujący ich interesy?",
+   "answer": "samorząd uczniowski",
+   "accept": [
+    "samorząd",
+    "samorząd szkolny",
+    "SU"
+   ],
+   "explanation": "Samorząd uczniowski tworzą wszyscy uczniowie szkoły, a jego organy są wybierane w głosowaniu.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "eo-pp-015",
+   "type": "cloze",
+   "text": "Organ szkoły, w którym zasiadają w równej liczbie nauczyciele, rodzice i uczniowie, to {{rada szkoły}}.",
+   "hint": "nie rada pedagogiczna",
+   "explanation": "Rada szkoły może powstać w szkole ponadpodstawowej; uchwala m.in. statut.",
+   "category": "eo_society",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "eo-pp-016",
+   "type": "qa",
+   "question": "Jak nazywa się metoda rozwiązywania konfliktu z udziałem bezstronnej osoby trzeciej, która pomaga stronom dojść do porozumienia?",
+   "answer": "mediacja",
+   "accept": [
+    "mediacje",
+    "mediacją"
+   ],
+   "explanation": "Mediacja jest dobrowolna i poufna; rozwiązanie wypracowują same strony.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.F3"
+  },
+  {
+   "id": "eo-pp-017",
+   "type": "cloze",
+   "text": "Bezstronną osobę pomagającą stronom konfliktu wypracować porozumienie nazywamy {{mediatorem}}.",
+   "hint": "prowadzi mediację",
+   "explanation": "W szkołach działają mediatorzy rówieśniczy.",
+   "category": "eo_society",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.F3"
+  },
+  {
+   "id": "eo-pp-018",
+   "type": "qa",
+   "question": "Jak nazywa się przywiązanie do własnej miejscowości lub regionu, czyli do „małej ojczyzny”?",
+   "answer": "patriotyzm lokalny",
+   "accept": [
+    "lokalny patriotyzm",
+    "patriotyzm regionalny"
+   ],
+   "explanation": "Buduje go lokalne dziedzictwo: historia, zabytki, tradycje, gwara.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "eo-pp-019",
+   "type": "qa",
+   "question": "Jak nazywa się podstawowa jednostka samorządu terytorialnego w Polsce?",
+   "answer": "gmina",
+   "accept": [],
+   "explanation": "Wyżej są powiat i województwo; gmina realizuje najwięcej zadań bliskich mieszkańcom.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "eo-pp-020",
+   "type": "qa",
+   "question": "Wymień trzy szczeble samorządu terytorialnego w Polsce.",
+   "answer": "gmina, powiat, województwo",
+   "accept": [
+    "gmina powiat województwo",
+    "gminy powiaty województwa"
+   ],
+   "explanation": "Trójszczeblowy samorząd działa od reformy z 1999 r.; województw jest 16.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "eo-pp-021",
+   "type": "cloze",
+   "text": "Jednostką pomocniczą gminy na wsi jest {{sołectwo}}, a w mieście dzielnica lub osiedle.",
+   "hint": "na czele stoi sołtys",
+   "explanation": "Jednostki pomocnicze nie są odrębnym szczeblem samorządu.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "eo-pp-022",
+   "type": "cloze",
+   "text": "Zasada, zgodnie z którą sprawy powinny być załatwiane na najniższym szczeblu, najbliżej obywatela, to zasada {{pomocniczości/subsydiarności}}.",
+   "hint": "łac. subsidiarity",
+   "explanation": "Państwo przejmuje tylko te zadania, których nie da się wykonać lokalnie.",
+   "category": "eo_local",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "eo-pp-023",
+   "type": "qa",
+   "question": "Kto stoi na czele zarządu powiatu?",
+   "answer": "starosta",
+   "accept": [],
+   "explanation": "W mieście na prawach powiatu funkcje te pełni prezydent miasta.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "eo-pp-024",
+   "type": "qa",
+   "question": "Jak nazywa się organ uchwałodawczy gminy, wybierany przez mieszkańców?",
+   "answer": "rada gminy",
+   "accept": [
+    "rada miasta",
+    "rada gminy lub miasta",
+    "rada miejska"
+   ],
+   "explanation": "Rada podejmuje decyzje w formie uchwał, np. uchwala budżet gminy.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "eo-pp-025",
+   "type": "qa",
+   "question": "Kto jest organem wykonawczym gminy wiejskiej?",
+   "answer": "wójt",
+   "accept": [],
+   "explanation": "W mieście jest to burmistrz, a w dużych miastach prezydent miasta.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "eo-pp-026",
+   "type": "qa",
+   "question": "Ile lat trwa kadencja rady gminy i wójta w Polsce?",
+   "answer": "5 lat",
+   "accept": [
+    "5",
+    "pięć lat",
+    "pięć"
+   ],
+   "explanation": "Kadencja organów samorządu została wydłużona z 4 do 5 lat od wyborów w 2018 r.",
+   "category": "eo_local",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "eo-pp-027",
+   "type": "qa",
+   "question": "Jak nazywa się mechanizm, w którym mieszkańcy zgłaszają projekty i głosują, na co wydać część budżetu gminy?",
+   "answer": "budżet obywatelski",
+   "accept": [
+    "budżet partycypacyjny"
+   ],
+   "explanation": "W miastach na prawach powiatu budżet obywatelski jest obowiązkowy.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "eo-pp-028",
+   "type": "qa",
+   "question": "Jak nazywa się wyodrębniona w budżecie gminy pula pieniędzy, o której przeznaczeniu decydują mieszkańcy sołectwa na zebraniu wiejskim?",
+   "answer": "fundusz sołecki",
+   "accept": [],
+   "explanation": "Inne lokalne mechanizmy to inicjatywa lokalna i wolontariat.",
+   "category": "eo_local",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "eo-pp-029",
+   "type": "qa",
+   "question": "Jak nazywa się organ doradczy złożony z młodych ludzi, który może powołać rada gminy?",
+   "answer": "młodzieżowa rada gminy",
+   "accept": [
+    "młodzieżowa rada",
+    "młodzieżowa rada miasta"
+   ],
+   "explanation": "Młodzieżowe rady działają też przy powiatach i sejmikach województw.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "eo-pp-030",
+   "type": "qa",
+   "question": "Jak nazywa się bezpłatny środek identyfikacji elektronicznej, dzięki któremu można załatwiać sprawy urzędowe przez internet?",
+   "answer": "profil zaufany",
+   "accept": [],
+   "explanation": "Pozwala logować się do ePUAP, mObywatela i innych e-usług.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6"
+  },
+  {
+   "id": "eo-pp-031",
+   "type": "qa",
+   "question": "Jak nazywa się roczny plan dochodów i wydatków gminy, uchwalany przez radę gminy?",
+   "answer": "budżet gminy",
+   "accept": [
+    "budżet"
+   ],
+   "explanation": "Po stronie dochodów są m.in. podatki lokalne, udziały w PIT i subwencje z budżetu państwa.",
+   "category": "eo_local",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.F2"
+  },
+  {
+   "id": "eo-pp-032",
+   "type": "qa",
+   "question": "Jak nazywa się ustrój, w którym państwo kontroluje wszystkie sfery życia obywateli, łącznie z prywatną?",
+   "answer": "totalitaryzm",
+   "accept": [
+    "totalitarny",
+    "ustrój totalitarny"
+   ],
+   "explanation": "Przykład: Polska w okresie stalinowskim (1948–1956).",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "eo-pp-033",
+   "type": "cloze",
+   "text": "Ustrój, w którym władza nie podlega demokratycznej kontroli, ale nie ingeruje we wszystkie sfery życia, to {{autorytaryzm}}.",
+   "hint": "łagodniejszy niż totalitaryzm",
+   "explanation": "Tak zwykle określa się PRL po 1956 r.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "eo-pp-034",
+   "type": "qa",
+   "question": "Jak nazywało się państwo polskie w latach 1952–1989, rządzone przez partię komunistyczną?",
+   "answer": "Polska Rzeczpospolita Ludowa",
+   "accept": [
+    "PRL"
+   ],
+   "explanation": "Ustrój PRL był niedemokratyczny: brak wolnych wyborów, cenzura, monopol jednej partii.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "eo-pp-035",
+   "type": "qa",
+   "question": "Jak nazywały się rozmowy władz PRL z opozycją w 1989 r., które rozpoczęły demokratyzację Polski?",
+   "answer": "Okrągły Stół",
+   "accept": [
+    "obrady Okrągłego Stołu"
+   ],
+   "explanation": "Ustalono m.in. częściowo wolne wybory do Sejmu i wolne do Senatu.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "eo-pp-036",
+   "type": "qa",
+   "question": "W którym roku odbyły się w Polsce częściowo wolne wybory do Sejmu i w pełni wolne do Senatu?",
+   "answer": "1989",
+   "accept": [
+    "4 czerwca 1989"
+   ],
+   "explanation": "Wybory 4 czerwca 1989 r. uznaje się za początek III Rzeczypospolitej.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "eo-pp-037",
+   "type": "cloze",
+   "text": "Przejście po 1989 r. od gospodarki centralnie planowanej do gospodarki {{rynkowej}} nazywamy transformacją gospodarczą.",
+   "hint": "rynek zamiast planu",
+   "explanation": "Transformacja przyniosła wolny rynek, ale też bezrobocie i rozwarstwienie społeczne.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "eo-pp-038",
+   "type": "cloze",
+   "text": "Ruch społeczny i związek zawodowy powstały w 1980 r., który doprowadził do obalenia komunizmu w Polsce, to {{Solidarność}}.",
+   "hint": "NSZZ",
+   "explanation": "Solidarność jest przykładem wpływu społeczeństwa obywatelskiego na przemiany polityczne.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.F4"
+  },
+  {
+   "id": "eo-pp-039",
+   "type": "qa",
+   "question": "W którym roku uchwalono obowiązującą Konstytucję Rzeczypospolitej Polskiej?",
+   "answer": "1997",
+   "accept": [
+    "2 kwietnia 1997"
+   ],
+   "explanation": "Konstytucję przyjęto w referendum i weszła w życie 17 października 1997 r.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "eo-pp-040",
+   "type": "cloze",
+   "text": "Zgodnie z art. 2 Konstytucji Rzeczpospolita Polska jest demokratycznym państwem {{prawnym}}.",
+   "hint": "rządzi prawo",
+   "explanation": "Władza działa na podstawie i w granicach prawa, a obywatele mają zagwarantowane prawa.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "eo-pp-041",
+   "type": "cloze",
+   "text": "Władza zwierzchnia w Rzeczypospolitej Polskiej należy do {{Narodu}}, który sprawuje ją przez przedstawicieli lub bezpośrednio.",
+   "hint": "art. 4 Konstytucji",
+   "explanation": "Bezpośrednio naród decyduje w referendum, pośrednio przez wybranych posłów i senatorów.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "eo-pp-042",
+   "type": "qa",
+   "question": "Jak nazywa się demokracja, w której wola większości jest ograniczona przez konstytucję i prawa mniejszości?",
+   "answer": "demokracja konstytucyjna",
+   "accept": [
+    "konstytucyjna"
+   ],
+   "explanation": "W demokracji większościowej decyduje sama większość; w konstytucyjnej chronią ją niezależne sądy i konstytucja.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "eo-pp-043",
+   "type": "qa",
+   "question": "Jaka większość głosów w Sejmie jest potrzebna do zmiany Konstytucji RP?",
+   "answer": "2/3",
+   "accept": [
+    "dwie trzecie",
+    "2/3 głosów",
+    "większość 2/3"
+   ],
+   "explanation": "Zmianę uchwala Sejm większością 2/3 i Senat bezwzględną większością (art. 235).",
+   "category": "eo_state",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
+  },
+  {
+   "id": "eo-pp-044",
+   "type": "qa",
+   "question": "Jak nazywa się silny podział społeczeństwa na wrogie sobie obozy polityczne, uznawany za zagrożenie dla demokracji?",
+   "answer": "polaryzacja",
+   "accept": [
+    "polaryzacja społeczna",
+    "polaryzacja polityczna"
+   ],
+   "explanation": "Inne zagrożenia: dezinformacja, populizm, osłabianie niezależności sądów i mediów.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "eo-pp-045",
+   "type": "qa",
+   "question": "Jak nazywa się styl polityki przeciwstawiający „zwykły lud” „skorumpowanym elitom” i obiecujący proste rozwiązania złożonych problemów?",
+   "answer": "populizm",
+   "accept": [
+    "populizmem"
+   ],
+   "explanation": "Populizm może osłabiać instytucje demokratyczne i zaufanie do nich.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.F1"
+  },
+  {
+   "id": "eo-pp-046",
+   "type": "cloze",
+   "text": "Wybory do Sejmu są powszechne, równe, bezpośrednie, {{proporcjonalne}} i odbywają się w głosowaniu tajnym.",
+   "hint": "podział mandatów wg procentu głosów",
+   "explanation": "Wybory do Senatu są powszechne, bezpośrednie i tajne (jednomandatowe okręgi).",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "eo-pp-047",
+   "type": "qa",
+   "question": "Od jakiego wieku obywatel polski ma czynne prawo wyborcze, czyli może głosować?",
+   "answer": "18 lat",
+   "accept": [
+    "18",
+    "osiemnaście lat"
+   ],
+   "explanation": "Bierne prawo wyborcze: 21 lat do Sejmu, 30 do Senatu, 35 na Prezydenta.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "eo-pp-048",
+   "type": "qa",
+   "question": "Jaki próg wyborczy musi przekroczyć partia polityczna, aby jej kandydaci weszli do Sejmu?",
+   "answer": "5%",
+   "accept": [
+    "5 procent",
+    "pięć procent",
+    "5"
+   ],
+   "explanation": "Dla koalicji partii próg wynosi 8%.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "eo-pp-049",
+   "type": "qa",
+   "question": "Który organ w Polsce organizuje wybory i ogłasza ich wyniki?",
+   "answer": "Państwowa Komisja Wyborcza",
+   "accept": [
+    "PKW"
+   ],
+   "explanation": "PKW nadzoruje też referenda ogólnokrajowe.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.5"
+  },
+  {
+   "id": "eo-pp-050",
+   "type": "qa",
+   "question": "Jak nazywa się dokument uchwalony przez ONZ w 1948 r., który jako pierwszy określił katalog praw przysługujących każdemu człowiekowi?",
+   "answer": "Powszechna Deklaracja Praw Człowieka",
+   "accept": [
+    "PDPC",
+    "deklaracja praw człowieka"
+   ],
+   "explanation": "Uchwalono ją 10 grudnia 1948 r.; 10 grudnia to Dzień Praw Człowieka.",
+   "category": "eo_rights",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "eo-pp-051",
+   "type": "cloze",
+   "text": "Prawa człowieka są przyrodzone, {{niezbywalne}}, powszechne i niepodzielne: nie można się ich zrzec ani ich odebrać.",
+   "hint": "nie da się ich zbyć",
+   "explanation": "Przysługują każdemu z racji bycia człowiekiem, niezależnie od decyzji państwa.",
+   "category": "eo_rights",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "eo-pp-052",
+   "type": "cloze",
+   "text": "Zgodnie z Konstytucją RP źródłem wolności i praw człowieka jest przyrodzona i niezbywalna {{godność}} człowieka.",
+   "hint": "art. 30",
+   "explanation": "Godność jest nienaruszalna, a jej ochrona jest obowiązkiem władz publicznych.",
+   "category": "eo_rights",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "eo-pp-053",
+   "type": "qa",
+   "question": "Jak nazywa się konstytucyjny organ stojący na straży wolności i praw człowieka, do którego każdy może bezpłatnie złożyć wniosek?",
+   "answer": "Rzecznik Praw Obywatelskich",
+   "accept": [
+    "RPO",
+    "rzecznik praw obywatelskich"
+   ],
+   "explanation": "RPO jest powoływany przez Sejm za zgodą Senatu na 5 lat.",
+   "category": "eo_rights",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.8"
+  },
+  {
+   "id": "eo-pp-054",
+   "type": "qa",
+   "question": "Do jakiego międzynarodowego sądu w Strasburgu obywatel może złożyć skargę po wyczerpaniu drogi krajowej?",
+   "answer": "Europejski Trybunał Praw Człowieka",
+   "accept": [
+    "ETPC",
+    "ETPCz",
+    "trybunał praw człowieka"
+   ],
+   "explanation": "ETPC bada naruszenia Europejskiej Konwencji Praw Człowieka przez państwa Rady Europy.",
+   "category": "eo_rights",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.8"
+  },
+  {
+   "id": "eo-pp-055",
+   "type": "qa",
+   "question": "Jak nazywa się skarga, którą obywatel może wnieść do Trybunału Konstytucyjnego, gdy przepis narusza jego konstytucyjne prawa?",
+   "answer": "skarga konstytucyjna",
+   "accept": [
+    "skargę konstytucyjną"
+   ],
+   "explanation": "Można ją wnieść po wyczerpaniu drogi sądowej, w ciągu 3 miesięcy od prawomocnego orzeczenia.",
+   "category": "eo_rights",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.8"
+  },
+  {
+   "id": "eo-pp-056",
+   "type": "qa",
+   "question": "Od jakiego wieku człowiek uzyskuje w Polsce pełną zdolność do czynności prawnych?",
+   "answer": "18 lat",
+   "accept": [
+    "18",
+    "osiemnaście lat",
+    "od pełnoletności"
+   ],
+   "explanation": "Od 13. roku życia małoletni ma ograniczoną zdolność: może np. zawierać drobne umowy codzienne.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "eo-pp-057",
+   "type": "qa",
+   "question": "Jak nazywa się bezpłatna pomoc prawnika dostępna w punktach prowadzonych przez powiaty?",
+   "answer": "nieodpłatna pomoc prawna",
+   "accept": [
+    "bezpłatna pomoc prawna",
+    "darmowa pomoc prawna"
+   ],
+   "explanation": "Przysługuje każdemu, kto złoży oświadczenie, że nie stać go na odpłatną pomoc prawną.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.6"
+  },
+  {
+   "id": "eo-pp-058",
+   "type": "qa",
+   "question": "Jaki kodeks reguluje prawa i obowiązki stron umowy o pracę?",
+   "answer": "Kodeks pracy",
+   "accept": [],
+   "explanation": "Umowy zlecenia i o dzieło reguluje Kodeks cywilny; nie dają one praw pracowniczych, np. urlopu.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.9"
+  },
+  {
+   "id": "eo-pp-059",
+   "type": "qa",
+   "question": "Jak nazywa się organizacja pracowników broniąca ich praw i interesów wobec pracodawcy?",
+   "answer": "związek zawodowy",
+   "accept": [
+    "związki zawodowe"
+   ],
+   "explanation": "Związki zawodowe mogą negocjować układy zbiorowe i organizować strajk.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.9"
+  },
+  {
+   "id": "eo-pp-060",
+   "type": "qa",
+   "question": "Jak nazywa się państwowy organ kontrolujący przestrzeganie prawa pracy, do którego pracownik może zgłosić naruszenie swoich praw?",
+   "answer": "Państwowa Inspekcja Pracy",
+   "accept": [
+    "PIP",
+    "inspekcja pracy"
+   ],
+   "explanation": "Skargę do PIP można złożyć anonimowo; nadzoruje też BHP.",
+   "category": "eo_law",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.9"
+  },
+  {
+   "id": "eo-pp-061",
+   "type": "qa",
+   "question": "Od jakiego wieku młodociany może być zatrudniony na podstawie umowy o pracę?",
+   "answer": "15 lat",
+   "accept": [
+    "15",
+    "piętnaście lat"
+   ],
+   "explanation": "Młodociany to osoba między 15. a 18. rokiem życia; obowiązują ją szczególne zasady ochrony.",
+   "category": "eo_law",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.9"
+  },
+  {
+   "id": "eo-pp-062",
+   "type": "qa",
+   "question": "Jaki akt prawny ma najwyższą moc w hierarchii źródeł prawa w Polsce?",
+   "answer": "Konstytucja RP",
+   "accept": [
+    "Konstytucja",
+    "Konstytucja Rzeczypospolitej Polskiej"
+   ],
+   "explanation": "Niżej są ratyfikowane umowy międzynarodowe, ustawy, rozporządzenia i akty prawa miejscowego.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.F2"
+  },
+  {
+   "id": "eo-pp-063",
+   "type": "cloze",
+   "text": "Akt wydawany przez Radę Ministrów lub ministra na podstawie ustawy i w celu jej wykonania to {{rozporządzenie}}.",
+   "hint": "niżej niż ustawa",
+   "explanation": "Rozporządzenie nie może wykraczać poza upoważnienie zawarte w ustawie.",
+   "category": "eo_law",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.F2"
+  },
+  {
+   "id": "eo-pp-064",
+   "type": "qa",
+   "question": "Jak nazywa się urzędowy publikator, w którym ogłasza się ustawy i rozporządzenia?",
+   "answer": "Dziennik Ustaw",
+   "accept": [
+    "Dz.U.",
+    "Dziennik Ustaw RP"
+   ],
+   "explanation": "Obowiązujące akty można wyszukać w ISAP na stronie Sejmu.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.F2"
+  },
+  {
+   "id": "eo-pp-065",
+   "type": "qa",
+   "question": "Jak nazywa się unijne rozporządzenie o ochronie danych osobowych obowiązujące od 2018 r.?",
+   "answer": "RODO",
+   "accept": [
+    "GDPR"
+   ],
+   "explanation": "Skargę na naruszenie danych osobowych składa się do Prezesa Urzędu Ochrony Danych Osobowych.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.F5"
+  },
+  {
+   "id": "eo-pp-066",
+   "type": "qa",
+   "question": "Jaka jest maksymalna dopuszczalna prędkość hulajnogi elektrycznej w Polsce?",
+   "answer": "20 km/h",
+   "accept": [
+    "20",
+    "20 kmh",
+    "20 km na godzinę"
+   ],
+   "explanation": "Hulajnoga ma jechać drogą dla rowerów; po chodniku tylko wyjątkowo, z prędkością pieszego.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.F6"
+  },
+  {
+   "id": "eo-pp-067",
+   "type": "qa",
+   "question": "Jaki dokument uprawnia osobę w wieku 10–18 lat do jazdy rowerem i hulajnogą elektryczną po drogach publicznych?",
+   "answer": "karta rowerowa",
+   "accept": [
+    "kartę rowerową"
+   ],
+   "explanation": "Dorośli nie potrzebują karty rowerowej; dzieci do 10 lat jadą pod opieką dorosłego.",
+   "category": "eo_law",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.F6"
+  },
+  {
+   "id": "eo-pp-068",
+   "type": "qa",
+   "question": "Ilu obywateli musi poprzeć podpisami obywatelski projekt ustawy, aby Sejm musiał go rozpatrzyć?",
+   "answer": "100 000",
+   "accept": [
+    "100000",
+    "sto tysięcy",
+    "100 tys."
+   ],
+   "explanation": "To obywatelska inicjatywa ustawodawcza (art. 118 Konstytucji).",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "eo-pp-069",
+   "type": "qa",
+   "question": "Jak nazywa się prawo do wniesienia projektu ustawy do Sejmu?",
+   "answer": "inicjatywa ustawodawcza",
+   "accept": [
+    "inicjatywa"
+   ],
+   "explanation": "Przysługuje posłom, Senatowi, Prezydentowi, Radzie Ministrów i grupie 100 000 obywateli.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "eo-pp-070",
+   "type": "cloze",
+   "text": "Projekt ustawy jest rozpatrywany przez Sejm w trzech {{czytaniach}}, po czym trafia do Senatu.",
+   "hint": "etapy debaty",
+   "explanation": "Senat ma 30 dni na stanowisko, a Prezydent 21 dni na podpisanie ustawy.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "eo-pp-071",
+   "type": "qa",
+   "question": "Jaką większością głosów Sejm może odrzucić weto Prezydenta wobec ustawy?",
+   "answer": "3/5",
+   "accept": [
+    "trzy piąte",
+    "3/5 głosów",
+    "większość 3/5"
+   ],
+   "explanation": "Potrzebna jest większość 3/5 w obecności co najmniej połowy posłów.",
+   "category": "eo_state",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.1"
+  },
+  {
+   "id": "eo-pp-072",
+   "type": "qa",
+   "question": "Ilu posłów zasiada w Sejmie RP?",
+   "answer": "460",
+   "accept": [
+    "460 posłów",
+    "czterystu sześćdziesięciu"
+   ],
+   "explanation": "Posłowie są wybierani na 4-letnią kadencję.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "eo-pp-073",
+   "type": "qa",
+   "question": "Ilu senatorów liczy Senat RP?",
+   "answer": "100",
+   "accept": [
+    "100 senatorów",
+    "stu"
+   ],
+   "explanation": "Senatorowie są wybierani w 100 jednomandatowych okręgach.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "eo-pp-074",
+   "type": "qa",
+   "question": "Ile lat trwa kadencja Sejmu i Senatu?",
+   "answer": "4 lata",
+   "accept": [
+    "4",
+    "cztery lata",
+    "cztery"
+   ],
+   "explanation": "Kadencja obu izb jest wspólna; skrócenie kadencji Sejmu kończy też kadencję Senatu.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "eo-pp-075",
+   "type": "qa",
+   "question": "Jak nazywa się wspólne posiedzenie Sejmu i Senatu, np. przy zaprzysiężeniu Prezydenta?",
+   "answer": "Zgromadzenie Narodowe",
+   "accept": [],
+   "explanation": "Zgromadzenie Narodowe może też postawić Prezydenta w stan oskarżenia przed Trybunałem Stanu.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "eo-pp-076",
+   "type": "qa",
+   "question": "Ile lat trwa kadencja Prezydenta RP?",
+   "answer": "5 lat",
+   "accept": [
+    "5",
+    "pięć lat",
+    "pięć"
+   ],
+   "explanation": "Prezydent może być wybrany ponownie tylko raz.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "eo-pp-077",
+   "type": "qa",
+   "question": "Jak nazywa się uprawnienie Prezydenta do odmowy podpisania ustawy i odesłania jej Sejmowi?",
+   "answer": "weto",
+   "accept": [
+    "weto ustawodawcze",
+    "prawo weta"
+   ],
+   "explanation": "Zamiast weta Prezydent może skierować ustawę do Trybunału Konstytucyjnego.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "eo-pp-078",
+   "type": "cloze",
+   "text": "Prezydent RP jest najwyższym {{zwierzchnikiem}} Sił Zbrojnych Rzeczypospolitej Polskiej.",
+   "hint": "art. 134 Konstytucji",
+   "explanation": "Prezydent reprezentuje też państwo na zewnątrz, ratyfikuje umowy i stosuje prawo łaski.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "eo-pp-079",
+   "type": "qa",
+   "question": "Jak nazywa się organ władzy wykonawczej złożony z premiera i ministrów?",
+   "answer": "Rada Ministrów",
+   "accept": [
+    "rząd",
+    "rada ministrów"
+   ],
+   "explanation": "Rada Ministrów prowadzi politykę wewnętrzną i zagraniczną oraz wykonuje ustawy.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "eo-pp-080",
+   "type": "qa",
+   "question": "Jak nazywa się uchwała Sejmu wyrażająca poparcie dla nowo powołanego rządu?",
+   "answer": "wotum zaufania",
+   "accept": [],
+   "explanation": "Odwołać rząd można tylko przez konstruktywne wotum nieufności, wskazując nowego premiera.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "eo-pp-081",
+   "type": "cloze",
+   "text": "Korpus zawodowych, bezstronnych i politycznie neutralnych urzędników administracji rządowej to {{służba cywilna}}.",
+   "hint": "nie zmienia się z rządem",
+   "explanation": "Służba cywilna zapewnia ciągłość pracy państwa niezależnie od zmian politycznych.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "eo-pp-082",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy organ sądowy w Polsce sprawujący nadzór nad sądami powszechnymi i wojskowymi?",
+   "answer": "Sąd Najwyższy",
+   "accept": [
+    "SN"
+   ],
+   "explanation": "Sąd Najwyższy stwierdza też ważność wyborów parlamentarnych i prezydenckich.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "eo-pp-083",
+   "type": "qa",
+   "question": "Który organ orzeka o zgodności ustaw z Konstytucją?",
+   "answer": "Trybunał Konstytucyjny",
+   "accept": [
+    "TK"
+   ],
+   "explanation": "Trybunał Konstytucyjny liczy 15 sędziów wybieranych przez Sejm na 9 lat.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "eo-pp-084",
+   "type": "qa",
+   "question": "Który organ sądzi najwyższych urzędników państwa (np. Prezydenta, ministrów) za naruszenie Konstytucji lub ustaw?",
+   "answer": "Trybunał Stanu",
+   "accept": [
+    "TS"
+   ],
+   "explanation": "W stan oskarżenia przed Trybunałem Stanu stawia Sejm lub Zgromadzenie Narodowe.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "eo-pp-085",
+   "type": "qa",
+   "question": "Jak nazywają się sądy kontrolujące legalność decyzji administracji publicznej, np. urzędu gminy?",
+   "answer": "sądy administracyjne",
+   "accept": [
+    "sąd administracyjny",
+    "WSA",
+    "wojewódzkie sądy administracyjne"
+   ],
+   "explanation": "To wojewódzkie sądy administracyjne i Naczelny Sąd Administracyjny.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "eo-pp-086",
+   "type": "cloze",
+   "text": "Zgodnie z art. 10 Konstytucji ustrój RP opiera się na podziale i {{równowadze}} władzy ustawodawczej, wykonawczej i sądowniczej.",
+   "hint": "żadna władza nie dominuje",
+   "explanation": "Podział władzy chroni przed jej nadużyciem: każda władza kontroluje pozostałe.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "eo-pp-087",
+   "type": "qa",
+   "question": "Jak nazywa się dobrowolna organizacja obywateli o podobnych poglądach, dążąca do zdobycia władzy w wyborach?",
+   "answer": "partia polityczna",
+   "accept": [
+    "partia"
+   ],
+   "explanation": "Partie w Polsce są wpisywane do ewidencji prowadzonej przez sąd; ich finansowanie jest jawne.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.7"
+  },
+  {
+   "id": "eo-pp-088",
+   "type": "qa",
+   "question": "Jak nazywa się nadużycie władzy publicznej dla prywatnej korzyści, np. przyjmowanie łapówek?",
+   "answer": "korupcja",
+   "accept": [
+    "korupcją"
+   ],
+   "explanation": "Inne patologie władzy to nepotyzm (faworyzowanie krewnych) i klientelizm.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.9"
+  },
+  {
+   "id": "eo-pp-089",
+   "type": "qa",
+   "question": "Jak nazywa się konstytucyjne prawo obywatela do uzyskania informacji o działalności organów władzy, np. o wydatkach gminy?",
+   "answer": "dostęp do informacji publicznej",
+   "accept": [
+    "prawo do informacji publicznej",
+    "informacja publiczna"
+   ],
+   "explanation": "Wniosek można złożyć do każdego urzędu; wiele danych jest w Biuletynie Informacji Publicznej (BIP).",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.9"
+  },
+  {
+   "id": "eo-pp-090",
+   "type": "qa",
+   "question": "Jak nazywa się sfera dobrowolnej, niezależnej od państwa aktywności obywateli (stowarzyszenia, fundacje, ruchy społeczne)?",
+   "answer": "społeczeństwo obywatelskie",
+   "accept": [],
+   "explanation": "Silne społeczeństwo obywatelskie kontroluje władzę i rozwiązuje problemy lokalne.",
+   "category": "eo_state",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.10"
+  },
+  {
+   "id": "eo-pp-091",
+   "type": "cloze",
+   "text": "Dwie podstawowe formy organizacji pozarządowych w Polsce to {{stowarzyszenie}} (zrzeszenie osób) i fundacja (majątek przeznaczony na cel).",
+   "hint": "członkowie",
+   "explanation": "Organizacje pozarządowe (NGO) można wspierać wolontariatem lub przekazaniem 1,5% podatku.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.10"
+  },
+  {
+   "id": "eo-pp-092",
+   "type": "cloze",
+   "text": "Zgodnie z Konstytucją RP stosunki między państwem a kościołami opierają się na poszanowaniu ich {{autonomii}} i wzajemnej niezależności oraz współdziałaniu.",
+   "hint": "art. 25",
+   "explanation": "Władze publiczne zachowują też bezstronność w sprawach przekonań religijnych.",
+   "category": "eo_state",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.13"
+  },
+  {
+   "id": "eo-pp-093",
+   "type": "cloze",
+   "text": "Media nazywa się {{czwartą władzą}}, bo kontrolują władzę ustawodawczą, wykonawczą i sądowniczą.",
+   "hint": "po trzech władzach",
+   "explanation": "Wolne media informują obywateli i ujawniają nadużycia władzy.",
+   "category": "eo_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.11"
+  },
+  {
+   "id": "eo-pp-094",
+   "type": "qa",
+   "question": "Który konstytucyjny organ stoi na straży wolności słowa i interesu publicznego w radiu i telewizji?",
+   "answer": "Krajowa Rada Radiofonii i Telewizji",
+   "accept": [
+    "KRRiT"
+   ],
+   "explanation": "KRRiT przyznaje koncesje nadawcom i nadzoruje media publiczne.",
+   "category": "eo_media",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.11"
+  },
+  {
+   "id": "eo-pp-095",
+   "type": "qa",
+   "question": "Jak nazywa się celowe rozpowszechnianie fałszywych informacji, by wprowadzić odbiorców w błąd i wpłynąć na ich postawy?",
+   "answer": "dezinformacja",
+   "accept": [
+    "dezinformacją"
+   ],
+   "explanation": "Dezinformacja jest narzędziem m.in. obcych państw w wojnie informacyjnej.",
+   "category": "eo_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.12"
+  },
+  {
+   "id": "eo-pp-096",
+   "type": "qa",
+   "question": "Jak nazywa się sprawdzanie prawdziwości informacji przez wyspecjalizowane redakcje i organizacje?",
+   "answer": "fact-checking",
+   "accept": [
+    "factchecking",
+    "fact checking",
+    "weryfikacja faktów"
+   ],
+   "explanation": "W Polsce zajmują się tym np. Demagog i Konkret24.",
+   "category": "eo_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.12"
+  },
+  {
+   "id": "eo-pp-097",
+   "type": "qa",
+   "question": "Jak nazywa się nieprawdziwa wiadomość udająca rzetelną informację prasową?",
+   "answer": "fake news",
+   "accept": [
+    "fejk",
+    "fejk news"
+   ],
+   "explanation": "Sygnały ostrzegawcze: brak źródła, sensacyjny tytuł, błędy, nieznana domena.",
+   "category": "eo_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.12"
+  },
+  {
+   "id": "eo-pp-098",
+   "type": "cloze",
+   "text": "Zdanie „Sejm liczy 460 posłów” to {{fakt}}, a zdanie „Sejm jest za duży” to opinia.",
+   "hint": "da się sprawdzić",
+   "explanation": "Odróżnianie faktów od opinii to podstawa krytycznego odbioru mediów.",
+   "category": "eo_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.12"
+  },
+  {
+   "id": "eo-pp-099",
+   "type": "cloze",
+   "text": "Media nadawane przez spółki państwowe (TVP, Polskie Radio) nazywamy mediami {{publicznymi}}, a pozostałe komercyjnymi.",
+   "hint": "nie prywatne",
+   "explanation": "Krajobraz medialny tworzą też redakcje o różnych profilach ideowych: liberalnym, konserwatywnym, lewicowym.",
+   "category": "eo_media",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.F5"
+  },
+  {
+   "id": "eo-pp-100",
+   "type": "qa",
+   "question": "W którym roku Polska przystąpiła do Unii Europejskiej?",
+   "answer": "2004",
+   "accept": [
+    "1 maja 2004"
+   ],
+   "explanation": "Decyzję o wejściu do UE Polacy podjęli w referendum w 2003 r.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "eo-pp-101",
+   "type": "qa",
+   "question": "Który organ UE, złożony z szefów państw i rządów, wyznacza ogólne kierunki polityki Unii?",
+   "answer": "Rada Europejska",
+   "accept": [],
+   "explanation": "Nie mylić z Radą Unii Europejskiej (ministrowie) ani z Radą Europy (nie jest organem UE).",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "eo-pp-102",
+   "type": "qa",
+   "question": "Która instytucja UE jest wybierana bezpośrednio przez obywateli państw członkowskich?",
+   "answer": "Parlament Europejski",
+   "accept": [
+    "PE"
+   ],
+   "explanation": "Wybory do Parlamentu Europejskiego odbywają się co 5 lat.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "eo-pp-103",
+   "type": "qa",
+   "question": "Która instytucja UE ma prawo inicjatywy ustawodawczej i jest nazywana „strażnikiem traktatów”?",
+   "answer": "Komisja Europejska",
+   "accept": [
+    "KE"
+   ],
+   "explanation": "Każde państwo członkowskie ma jednego komisarza.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "eo-pp-104",
+   "type": "cloze",
+   "text": "Organ UE złożony z ministrów państw członkowskich, który razem z Parlamentem uchwala prawo unijne, to {{Rada Unii Europejskiej}}.",
+   "hint": "nie Rada Europejska",
+   "explanation": "Spory o stosowanie prawa unijnego rozstrzyga Trybunał Sprawiedliwości UE w Luksemburgu.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.1"
+  },
+  {
+   "id": "eo-pp-105",
+   "type": "qa",
+   "question": "Wymień cztery swobody jednolitego rynku Unii Europejskiej.",
+   "answer": "towarów, osób, usług, kapitału",
+   "accept": [
+    "towary osoby usługi kapitał",
+    "przepływ towarów osób usług i kapitału"
+   ],
+   "explanation": "Dzięki nim Polacy mogą pracować i studiować w każdym państwie UE.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "eo-pp-106",
+   "type": "qa",
+   "question": "Jak nazywa się strefa, w której zniesiono kontrole na granicach wewnętrznych, do której Polska należy od 2007 r.?",
+   "answer": "strefa Schengen",
+   "accept": [
+    "Schengen"
+   ],
+   "explanation": "Obywatele UE mogą też głosować w wyborach lokalnych i europejskich w państwie zamieszkania.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "eo-pp-107",
+   "type": "cloze",
+   "text": "Przekazywanie kolejnych kompetencji państw instytucjom unijnym to {{pogłębianie}} integracji, a przyjmowanie nowych państw to jej poszerzanie.",
+   "hint": "głębiej vs szerzej",
+   "explanation": "Przykład pogłębiania: wspólna waluta euro, której Polska dotąd nie przyjęła.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.3"
+  },
+  {
+   "id": "eo-pp-108",
+   "type": "qa",
+   "question": "Jak nazywa się polityka UE finansująca inwestycje zmniejszające różnice między regionami, np. drogi i kolej w Polsce?",
+   "answer": "polityka spójności",
+   "accept": [
+    "polityka regionalna",
+    "spójności"
+   ],
+   "explanation": "Inne polityki wspólnotowe to np. wspólna polityka rolna z dopłatami dla rolników.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.F1"
+  },
+  {
+   "id": "eo-pp-109",
+   "type": "qa",
+   "question": "Ile podpisów obywateli z co najmniej 7 państw UE trzeba zebrać, aby Komisja Europejska rozpatrzyła europejską inicjatywę obywatelską?",
+   "answer": "1 milion",
+   "accept": [
+    "milion",
+    "1 000 000",
+    "1000000"
+   ],
+   "explanation": "Obywatel może też złożyć petycję do Parlamentu Europejskiego.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.F2"
+  },
+  {
+   "id": "eo-pp-110",
+   "type": "qa",
+   "question": "Jak nazywa się proces rosnącej współzależności państw w gospodarce, kulturze i polityce?",
+   "answer": "globalizacja",
+   "accept": [
+    "globalizacją"
+   ],
+   "explanation": "Przykłady: handel międzynarodowy, korporacje, internet, migracje.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "eo-pp-111",
+   "type": "qa",
+   "question": "W którym roku Polska przystąpiła do NATO?",
+   "answer": "1999",
+   "accept": [
+    "12 marca 1999"
+   ],
+   "explanation": "NATO to sojusz obronny powstały w 1949 r.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "eo-pp-112",
+   "type": "qa",
+   "question": "Który artykuł Traktatu Północnoatlantyckiego zobowiązuje członków NATO do wspólnej obrony napadniętego sojusznika?",
+   "answer": "artykuł 5",
+   "accept": [
+    "5",
+    "art. 5",
+    "piąty"
+   ],
+   "explanation": "Atak na jedno państwo NATO jest traktowany jak atak na wszystkie.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "eo-pp-113",
+   "type": "qa",
+   "question": "Jak nazywa się organ ONZ odpowiedzialny za pokój i bezpieczeństwo, w którym 5 stałych członków ma prawo weta?",
+   "answer": "Rada Bezpieczeństwa",
+   "accept": [
+    "Rada Bezpieczeństwa ONZ"
+   ],
+   "explanation": "Stali członkowie: USA, Rosja, Chiny, Francja i Wielka Brytania.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.2"
+  },
+  {
+   "id": "eo-pp-114",
+   "type": "qa",
+   "question": "Jak nazywa się rozwój zaspokajający potrzeby obecnego pokolenia bez ograniczania możliwości przyszłych pokoleń?",
+   "answer": "zrównoważony rozwój",
+   "accept": [
+    "rozwój zrównoważony"
+   ],
+   "explanation": "ONZ wyznaczyła 17 Celów Zrównoważonego Rozwoju w Agendzie 2030.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.3"
+  },
+  {
+   "id": "eo-pp-115",
+   "type": "qa",
+   "question": "Jak nazywa się ruch zapewniający producentom z krajów rozwijających się uczciwe ceny i godne warunki pracy?",
+   "answer": "sprawiedliwy handel",
+   "accept": [
+    "fair trade",
+    "fairtrade"
+   ],
+   "explanation": "Produkty fair trade mają certyfikat, np. kawa czy kakao.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.4"
+  },
+  {
+   "id": "eo-pp-116",
+   "type": "qa",
+   "question": "Jak nazywa się świadome wybieranie produktów krajowych firm, by wspierać polską gospodarkę?",
+   "answer": "patriotyzm gospodarczy",
+   "accept": [
+    "patriotyzm konsumencki",
+    "patriotyzm ekonomiczny"
+   ],
+   "explanation": "Odpowiedzialna konsumpcja to też ograniczanie marnotrawstwa i wybór produktów etycznych.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.4"
+  },
+  {
+   "id": "eo-pp-117",
+   "type": "qa",
+   "question": "Jaki gaz, emitowany głównie ze spalania paliw kopalnych, jest główną przyczyną kryzysu klimatycznego?",
+   "answer": "dwutlenek węgla",
+   "accept": [
+    "CO2",
+    "dwutlenek wegla",
+    "CO₂"
+   ],
+   "explanation": "Gazy cieplarniane (CO2, metan) zatrzymują ciepło w atmosferze, powodując efekt cieplarniany.",
+   "category": "eo_world",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VII.5"
+  },
+  {
+   "id": "eo-pp-118",
+   "type": "qa",
+   "question": "Jak nazywa się międzynarodowe porozumienie z 2015 r., którego celem jest ograniczenie globalnego ocieplenia do znacznie poniżej 2°C?",
+   "answer": "porozumienie paryskie",
+   "accept": [
+    "paryskie"
+   ],
+   "explanation": "Lokalnie obywatele mogą ograniczać emisje np. przez transport publiczny i oszczędzanie energii.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.5"
+  },
+  {
+   "id": "eo-pp-119",
+   "type": "qa",
+   "question": "Jak nazywa się zasada prawa międzynarodowego, zgodnie z którą terytorium państwa nie może być zmieniane siłą?",
+   "answer": "integralność terytorialna",
+   "accept": [
+    "integralność terytorialna państwa",
+    "nienaruszalność granic"
+   ],
+   "explanation": "Karta Narodów Zjednoczonych zakazuje też użycia siły w stosunkach międzynarodowych.",
+   "category": "eo_world",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.F4"
+  }
+ ]
+}
