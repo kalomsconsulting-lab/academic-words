@@ -44,6 +44,7 @@
     en7_society:      { subject: 'english_sp7', label: 'Społeczeństwo', short: 'Społeczeństwo', pl: 'society', icon: '🏛️' },
     en7_other:        { subject: 'english_sp7', label: 'Inne', short: 'Inne', pl: 'other', icon: '📘' },
     en7_reported:     { subject: 'english_sp7', label: 'Mowa zależna', short: 'Mowa zależna', pl: 'reported speech', icon: '💬' },
+    en7_reported_book: { subject: 'english_sp7', label: 'Mowa zależna (podręcznik)', short: 'Podręcznik', pl: 'reported speech: coursebook exercises', icon: '📖' },
     // Biologia, 7 klasa: działy (biologia człowieka)
     bio7_body:        { subject: 'biologia_sp7', label: 'Organizm człowieka', short: 'Organizm', pl: 'tkanki, narządy, układy', icon: '🧍' },
     bio7_skin:        { subject: 'biologia_sp7', label: 'Skóra', short: 'Skóra', pl: 'powłoka ciała', icon: '✋' },

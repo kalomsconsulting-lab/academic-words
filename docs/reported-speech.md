@@ -131,6 +131,29 @@ poprawnej odpowiedzi, krótkie odpowiedzi poza transformacjami, duplikaty treśc
 sp7 → Angielski → Mowa zależna): quiz pokazuje autorskie dystraktory, luka zalicza wpis, fiszki i wpisywanie działają;
 w konsoli tylko dwa 401 z synchronizacji konta (profil niezalogowany), niezwiązane z kartami.
 
+## 4a. Kategoria „Mowa zależna (podręcznik)” (`en7_reported_book`, `en7-rsb-001`…`117`)
+
+Na prośbę użytkownika osobna kategoria z kartami, które odwzorowują **jeden do jednego** ćwiczenia z Unit 6 ze zdjęć:
+ta sama konstrukcja, cel gramatyczny i słownictwo działu, zmienione wyrazy treści (imiona, przedmioty), żeby nie
+kopiować tekstu Pearsona do publicznego repozytorium. Pole `book` wskazuje stronę i ćwiczenie. Zawartość:
+
+| Ćwiczenie | Karty | Typ |
+|---|---|---|
+| SB s. 74 ćw. 5 (dokończ zdania) | 7 | cloze |
+| SB s. 74 ćw. 6 (pytania zależne) | 8 | cloze |
+| SB s. 76 ćw. 6–7 (polecenia, prośby, tekst o pierwszej pomocy) | 9 | cloze |
+| SB s. 80 Revision ćw. 4 (dialog → tekst) | 10 | cloze |
+| WB s. 66 ćw. 1–2, 4–5 (dopasowanie, wybór, przepisywanie, tekst) | 24 | cloze |
+| WB s. 66 ćw. 3, WB s. 68 ćw. 3–4 (ułóż wyrazy, napisz z podpowiedzi) | 17 | qa (fiszka) |
+| WB s. 68 ćw. 1–2, 5 (asked/told, wybór, tekst o karetce) | 19 | cloze |
+| WB s. 72 Check yourself ćw. 3–4 | 15 | 10 cloze + 5 qa (fiszka) |
+| WB s. 73 Exam Skills ćw. 3–4 (bank słów, tłumaczenie fragmentów) | 8 | cloze |
+
+Razem 117 kart: 95 `cloze`, 22 `qa` jako transformacje (`quiz_suitable: false`). Niesfotografowane: Grammar Time
+s. 131 i Extra Practice s. 120–121; jeśli są potrzebne, wystarczą zdjęcia. Walidacja tym samym skryptem: 0 błędów.
+Wątpliwości jak w sekcji 5 (forma teraźniejsza i Past Simple jako dystraktory przy backshifcie; *told/asked* przy
+prośbach w `en7-rsb-065`, `066`, `074`, gdzie podręcznik wymaga rozróżnienia polecenie/prośba).
+
 ## 5. Karty z wątpliwościami
 
 Wszystkie 132 karty przejrzane w całości; dla każdej luki sprawdzono zdanie z każdym dystraktorem. Wątpliwości:

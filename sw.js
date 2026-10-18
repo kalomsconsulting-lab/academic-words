@@ -1,6 +1,6 @@
 // Service worker: network-first (zawsze świeże pliki online), cache jako zapas offline.
 // Po zmianie listy plików podbij numer wersji.
-const CACHE = 'study-cards-v10';
+const CACHE = 'study-cards-v11';
 const ASSETS = [
   './',
   './index.html',

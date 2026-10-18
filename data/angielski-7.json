@@ -3539,6 +3539,1823 @@
    "difficulty": 2,
    "kind": "transformacja",
    "quiz_suitable": false
+  },
+  {
+   "id": "en7-rsb-001",
+   "type": "cloze",
+   "text": "Patient: 'The dentist was very friendly.' → I told him that the dentist {{had been}} very friendly.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (was) zmienia się na Past Perfect (had been).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "was",
+    "has been",
+    "is"
+   ],
+   "book": "SB s. 74, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-002",
+   "type": "cloze",
+   "text": "Mum: 'The syrup tastes awful, but it will work.' → Mum said that the syrup {{tasted}} awful, but it would work.",
+   "hint": "Present Simple → ?",
+   "explanation": "Present Simple (tastes) zmienia się na Past Simple (tasted).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "tastes",
+    "had tasted",
+    "was tasting"
+   ],
+   "book": "SB s. 74, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-003",
+   "type": "cloze",
+   "text": "Mum: 'The syrup will work.' → Mum said that the syrup {{would}} work.",
+   "hint": "will → ?",
+   "explanation": "Will zmienia się na would.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "could",
+    "had to"
+   ],
+   "book": "SB s. 74, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-004",
+   "type": "cloze",
+   "text": "Ola: 'I tried to rest, but I wasn't sleepy.' → Ola said that she {{had tried}} to rest, but she hadn't been sleepy.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (tried) zmienia się na Past Perfect (had tried).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "tried",
+    "has tried",
+    "was trying"
+   ],
+   "book": "SB s. 74, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-005",
+   "type": "cloze",
+   "text": "Ola: 'I wasn't sleepy.' → Ola said that she {{hadn't been}} sleepy.",
+   "hint": "wasn't → ?",
+   "explanation": "Past Simple (wasn't) zmienia się na Past Perfect (hadn't been).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "wasn't",
+    "hasn't been",
+    "isn't"
+   ],
+   "book": "SB s. 74, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-006",
+   "type": "cloze",
+   "text": "Ewa: 'Kasia's visiting her grandad in hospital, so she can't come.' → I told her that Kasia {{was visiting}} her grandad in hospital, so she couldn't come.",
+   "hint": "Present Continuous → ?",
+   "explanation": "Present Continuous (is visiting) zmienia się na Past Continuous (was visiting).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is visiting",
+    "had visited",
+    "visited"
+   ],
+   "book": "SB s. 74, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-007",
+   "type": "cloze",
+   "text": "Ewa: 'Kasia can't come.' → I told her that Kasia {{couldn't}} come.",
+   "hint": "can't → ?",
+   "explanation": "Can't zmienia się na couldn't.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can't",
+    "wouldn't",
+    "mustn't"
+   ],
+   "book": "SB s. 74, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-008",
+   "type": "cloze",
+   "text": "'What time does the nurse start?' I asked. → I asked what time the nurse {{started}}.",
+   "hint": "bez does, backshift",
+   "explanation": "W pytaniu zależnym znika does, a czasownik dostaje Past Simple.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "does start",
+    "did start",
+    "starts"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-009",
+   "type": "cloze",
+   "text": "'When are you leaving?' Marta asked. → Marta asked when {{I was leaving}}.",
+   "hint": "szyk zdania oznajmującego",
+   "explanation": "Podmiot przed czasownikiem, Present Continuous → Past Continuous, you → I.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "was I leaving",
+    "I am leaving",
+    "am I leaving"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-010",
+   "type": "cloze",
+   "text": "'Does it itch?' the doctor asked. → The doctor asked {{if it itched / whether it itched}}.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether + podmiot + czasownik w Past Simple, bez does.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if it itches",
+    "did it itch",
+    "if does it itch"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-011",
+   "type": "cloze",
+   "text": "'When did you take the painkiller?' he asked me. → He asked me when {{I had taken}} the painkiller.",
+   "hint": "bez did, Past Simple → ?",
+   "explanation": "Znika did, Past Simple zmienia się na Past Perfect, podmiot przed czasownikiem.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "did I take",
+    "had I taken",
+    "I took"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-012",
+   "type": "cloze",
+   "text": "'Did Marek see the nurse?' I asked. → I asked {{if Marek had seen / whether Marek had seen}} the nurse.",
+   "hint": "pytanie yes/no, Past Simple → ?",
+   "explanation": "Pytanie yes/no: if/whether, bez did, Past Simple → Past Perfect.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if Marek saw",
+    "did Marek see",
+    "if did Marek see"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-013",
+   "type": "cloze",
+   "text": "'Can I book an appointment?' Filip asked. → Filip asked {{if he could / whether he could}} book an appointment.",
+   "hint": "pytanie yes/no, can → ?",
+   "explanation": "Pytanie yes/no: if + podmiot + could; can → could, I → he.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if he can",
+    "could he",
+    "if I could"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-014",
+   "type": "cloze",
+   "text": "'What time did you phone Dr Nowak?' I asked her. → I asked her what time {{she had phoned}} Dr Nowak.",
+   "hint": "bez did, Past Simple → ?",
+   "explanation": "Znika did, Past Simple zmienia się na Past Perfect, you → she.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "did she phone",
+    "had she phoned",
+    "she phoned"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-015",
+   "type": "cloze",
+   "text": "'Are you feeling OK?' Hania asked me. → Hania asked me {{if I was feeling / whether I was feeling}} OK.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether + podmiot + czasownik; Present Continuous → Past Continuous.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if I am feeling",
+    "was I feeling",
+    "if was I feeling"
+   ],
+   "book": "SB s. 74, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-016",
+   "type": "cloze",
+   "text": "'Put a plaster on my finger.' → She told me {{to put}} a plaster on her finger.",
+   "hint": "polecenie",
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik; my → her.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "put",
+    "putting",
+    "that I put"
+   ],
+   "book": "SB s. 76, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-017",
+   "type": "cloze",
+   "text": "'Please don't use your phones in the clinic.' → The nurse asked us {{not to use}} our phones in the clinic.",
+   "hint": "prośba przecząca",
+   "explanation": "Prośba przecząca: ask + osoba + not to + bezokolicznik; your → our.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not use",
+    "don't use",
+    "not using"
+   ],
+   "book": "SB s. 76, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-018",
+   "type": "cloze",
+   "text": "'Don't play any sport for the next month.' → The doctor told him {{not to play}} any sport for the next month.",
+   "hint": "zakaz",
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not play",
+    "not playing",
+    "don't play"
+   ],
+   "book": "SB s. 76, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-019",
+   "type": "cloze",
+   "text": "'Please help me with my Maths project.' → Zosia asked her dad {{to help}} her with her Maths project.",
+   "hint": "prośba",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik; me → her, my → her.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "help",
+    "helping",
+    "that he help"
+   ],
+   "book": "SB s. 76, ćw. 6"
+  },
+  {
+   "id": "en7-rsb-020",
+   "type": "cloze",
+   "text": "Ania's teacher (ask / her class / do) a first aid course. → Ania's teacher asked {{her class to do}} a first aid course.",
+   "hint": "ask + osoba + to",
+   "explanation": "Ask + osoba + to + bezokolicznik: asked her class to do.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "her class do",
+    "to her class do",
+    "her class doing"
+   ],
+   "book": "SB s. 76, ćw. 7"
+  },
+  {
+   "id": "en7-rsb-021",
+   "type": "cloze",
+   "text": "The first aid club (ask / her / join) the team. → The first aid club {{asked her to join}} the team.",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked her join",
+    "asked to her join",
+    "asked her joining"
+   ],
+   "book": "SB s. 76, ćw. 7"
+  },
+  {
+   "id": "en7-rsb-022",
+   "type": "cloze",
+   "text": "Her colleagues (tell / her / not worry). → Her colleagues told {{her not to worry}}.",
+   "hint": "tell + osoba + not to",
+   "explanation": "Zakaz lub uspokojenie: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "her to not worry",
+    "her don't worry",
+    "to her not worry"
+   ],
+   "book": "SB s. 76, ćw. 7"
+  },
+  {
+   "id": "en7-rsb-023",
+   "type": "cloze",
+   "text": "The team leader (ask / her / help) at a hockey match. → The team leader {{asked her to help}} at a hockey match.",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked her help",
+    "asked her helping",
+    "asked that her help"
+   ],
+   "book": "SB s. 76, ćw. 7"
+  },
+  {
+   "id": "en7-rsb-024",
+   "type": "cloze",
+   "text": "When we (ask) Ania (explain) why she likes it, she told us it's because she loves helping people. → When we {{asked Ania to explain}} why she likes it, she told us it's because she loves helping people.",
+   "hint": "ask + osoba + to",
+   "explanation": "Ask + osoba + to + bezokolicznik: asked Ania to explain.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked Ania explain",
+    "asked Ania explaining",
+    "asked to Ania explain"
+   ],
+   "book": "SB s. 76, ćw. 7"
+  },
+  {
+   "id": "en7-rsb-025",
+   "type": "cloze",
+   "text": "Kuba: 'I feel terrible.' → Kuba told Ela he {{felt}} terrible.",
+   "hint": "Present Simple → ?",
+   "explanation": "Present Simple (feel) zmienia się na Past Simple (felt).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "feels",
+    "had felt",
+    "was feeling"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-026",
+   "type": "cloze",
+   "text": "Kuba: 'I can't get rid of my cough.' → He said he {{couldn't}} get rid of his cough.",
+   "hint": "can't → ?",
+   "explanation": "Can't zmienia się na couldn't; my → his.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can't",
+    "wouldn't",
+    "didn't"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-027",
+   "type": "cloze",
+   "text": "Ela: 'I had a bad one last week.' → Ela said that she {{had had}} a bad one the week before.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (had) zmienia się na Past Perfect (had had).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "had",
+    "has had",
+    "was having"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-028",
+   "type": "cloze",
+   "text": "Ela: 'I had a bad one last week.' → Ela said that she had had a bad one {{the week before / the previous week}}.",
+   "hint": "last week → ?",
+   "explanation": "Last week zmienia się na the week before / the previous week.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "last week",
+    "the next week",
+    "that week"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-029",
+   "type": "cloze",
+   "text": "Ela: 'My teacher sent me home.' → Ela said that her teacher {{had sent}} her home.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (sent) zmienia się na Past Perfect (had sent).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "sent",
+    "has sent",
+    "was sending"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-030",
+   "type": "cloze",
+   "text": "Ela: 'Have you talked to your teacher?' → She asked Kuba {{if he had talked / whether he had talked}} to his teacher.",
+   "hint": "pytanie yes/no, Present Perfect → ?",
+   "explanation": "Pytanie yes/no: if/whether; Present Perfect → Past Perfect; you → he.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if he has talked",
+    "had he talked",
+    "if he talked"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-031",
+   "type": "cloze",
+   "text": "Kuba: 'She just gave me a glass of water!' → He said the teacher {{had just given}} him a glass of water.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (gave) zmienia się na Past Perfect (had given); just zostaje między had a III formą.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "just gave",
+    "has just given",
+    "was just giving"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-032",
+   "type": "cloze",
+   "text": "Kuba: 'Do you have a painkiller?' → Kuba asked Ela {{if she had / whether she had}} a painkiller.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether, bez do, have → had, you → she.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if she has",
+    "did she have",
+    "if had she"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-033",
+   "type": "cloze",
+   "text": "Ela: 'No, I don't.' → Ela said she {{didn't}} and told Kuba to go and see the school nurse.",
+   "hint": "don't → ?",
+   "explanation": "Krótka odpowiedź też cofa czas: don't → didn't.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "doesn't",
+    "hadn't",
+    "wasn't"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-034",
+   "type": "cloze",
+   "text": "Ela: 'Go and see the school nurse.' → Ela told Kuba {{to go}} and see the school nurse.",
+   "hint": "polecenie",
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "go",
+    "going",
+    "that go"
+   ],
+   "book": "SB s. 80, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-035",
+   "type": "cloze",
+   "text": "'I'm having an eye test.' → She said she {{was having}} an eye test.",
+   "hint": "Present Continuous → ?",
+   "explanation": "Present Continuous (am having) zmienia się na Past Continuous (was having).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is having",
+    "had",
+    "had had"
+   ],
+   "book": "WB s. 66, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-036",
+   "type": "cloze",
+   "text": "'Are you having an eye test?' → She asked me {{if I was having / whether I was having}} an eye test.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether + podmiot + was having (Present Continuous → Past Continuous).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if I am having",
+    "was I having",
+    "if was I having"
+   ],
+   "book": "WB s. 66, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-037",
+   "type": "cloze",
+   "text": "'I'll have an eye test.' → She told me she {{would have}} an eye test.",
+   "hint": "will → ?",
+   "explanation": "Will zmienia się na would: will have → would have.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will have",
+    "had had",
+    "was having"
+   ],
+   "book": "WB s. 66, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-038",
+   "type": "cloze",
+   "text": "'I had an eye test.' → She said she {{had had / 'd had}} an eye test.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (had) zmienia się na Past Perfect (had had, w skrócie 'd had).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "had",
+    "has had",
+    "was having"
+   ],
+   "book": "WB s. 66, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-039",
+   "type": "cloze",
+   "text": "'What time is your eye test?' → She asked me what time {{my eye test was}}.",
+   "hint": "szyk zdania oznajmującego",
+   "explanation": "Pytanie wh-: podmiot (my eye test) przed czasownikiem (was); your → my.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "was my eye test",
+    "is my eye test",
+    "my eye test is"
+   ],
+   "book": "WB s. 66, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-040",
+   "type": "cloze",
+   "text": "'You can have an eye test.' → She said I {{could}} have an eye test.",
+   "hint": "can → ?",
+   "explanation": "Can zmienia się na could; you → I.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can",
+    "would",
+    "had to"
+   ],
+   "book": "WB s. 66, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-041",
+   "type": "cloze",
+   "text": "My mum asked me what time {{my lesson was}}.",
+   "hint": "szyk zdania oznajmującego",
+   "explanation": "W pytaniu zależnym podmiot stoi przed czasownikiem: what time my lesson was.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "was my lesson",
+    "is my lesson",
+    "does my lesson"
+   ],
+   "book": "WB s. 66, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-042",
+   "type": "cloze",
+   "text": "She said she had seen the dentist {{the day before / the previous day}}.",
+   "hint": "yesterday → ?",
+   "explanation": "Po said z Past Perfect okolicznik yesterday zmienia się na the day before.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "yesterday",
+    "the next day",
+    "that day"
+   ],
+   "book": "WB s. 66, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-043",
+   "type": "cloze",
+   "text": "The nurse said he {{would}} check my temperature.",
+   "hint": "will → ?",
+   "explanation": "Will zmienia się na would po said.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "can",
+    "has to"
+   ],
+   "book": "WB s. 66, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-044",
+   "type": "cloze",
+   "text": "Karol asked us {{if we were}} going camping that year.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if + podmiot + czasownik, bez inwersji: if we were going.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "were we",
+    "if are we",
+    "that we were"
+   ],
+   "book": "WB s. 66, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-045",
+   "type": "cloze",
+   "text": "After the accident, Lena said she {{couldn't}} move her leg.",
+   "hint": "can't → ?",
+   "explanation": "Can't zmienia się na couldn't po said.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can't",
+    "mustn't",
+    "wouldn't"
+   ],
+   "book": "WB s. 66, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-046",
+   "type": "qa",
+   "question": "Ułóż zdanie w mowie zależnej: they / me / how often / the tablets / took / asked / I",
+   "answer": "They asked me how often I took the tablets.",
+   "accept": [],
+   "explanation": "Pytanie wh-: asked + osoba + how often + podmiot + czasownik w Past Simple.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 66, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-047",
+   "type": "qa",
+   "question": "Ułóż zdanie w mowie zależnej: Olek / wanted / if / I / asked / to go / me / for a burger",
+   "answer": "Olek asked me if I wanted to go for a burger.",
+   "accept": [],
+   "explanation": "Pytanie yes/no: asked + osoba + if + podmiot + wanted (Present Simple → Past Simple).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 66, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-048",
+   "type": "qa",
+   "question": "Ułóż zdanie w mowie zależnej: me / told / Marysia / was feeling / she / sick",
+   "answer": "Marysia told me she was feeling sick.",
+   "accept": [
+    "Marysia told me that she was feeling sick."
+   ],
+   "explanation": "Tell + osoba + (that) + zdanie; Present Continuous → Past Continuous.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 66, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-049",
+   "type": "qa",
+   "question": "Ułóż zdanie w mowie zależnej: if / Bartek / the doctor / asked / help / would / the syrup",
+   "answer": "The doctor asked Bartek if the syrup would help.",
+   "accept": [],
+   "explanation": "Pytanie yes/no: asked + osoba + if + podmiot + would (will → would).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 66, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-050",
+   "type": "qa",
+   "question": "Ułóż zdanie w mowie zależnej: the film / her / I / was enjoying / told / I",
+   "answer": "I told her I was enjoying the film.",
+   "accept": [
+    "I told her that I was enjoying the film."
+   ],
+   "explanation": "Tell + osoba + (that) + zdanie; Present Continuous → Past Continuous.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 66, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-051",
+   "type": "qa",
+   "question": "Ułóż zdanie w mowie zależnej: before / told / Darek / been / us / had / he / there",
+   "answer": "Darek told us he had been there before.",
+   "accept": [
+    "Darek told us that he had been there before."
+   ],
+   "explanation": "Present Perfect / Past Simple → Past Perfect; here → there, ago → before.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 66, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-052",
+   "type": "cloze",
+   "text": "'Who do you think will win the match?' → She asked us who we thought {{would}} win the match.",
+   "hint": "will → ?",
+   "explanation": "Will zmienia się na would; you think → we thought.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "could",
+    "should"
+   ],
+   "book": "WB s. 66, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-053",
+   "type": "cloze",
+   "text": "'I want to be a vet.' → He said he {{wanted}} to be a vet.",
+   "hint": "Present Simple → ?",
+   "explanation": "Present Simple (want) zmienia się na Past Simple (wanted).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "wants",
+    "had wanted",
+    "was wanting"
+   ],
+   "book": "WB s. 66, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-054",
+   "type": "cloze",
+   "text": "'I went to the dentist yesterday.' → She said she {{had gone}} to the dentist the day before.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (went) zmienia się na Past Perfect (had gone).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "went",
+    "has gone",
+    "was going"
+   ],
+   "book": "WB s. 66, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-055",
+   "type": "cloze",
+   "text": "'What can we do to help Piotrek pass his test?' → He asked us what they {{could}} do to help Piotrek pass his test.",
+   "hint": "can → ?",
+   "explanation": "Can zmienia się na could; we → they.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can",
+    "would",
+    "had to"
+   ],
+   "book": "WB s. 66, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-056",
+   "type": "cloze",
+   "text": "'I'm having a sleepover this weekend.' → She told us she was having a sleepover {{that weekend}}.",
+   "hint": "this weekend → ?",
+   "explanation": "This weekend zmienia się na that weekend (this → that).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "this weekend",
+    "the weekend before",
+    "next weekend"
+   ],
+   "book": "WB s. 66, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-057",
+   "type": "cloze",
+   "text": "'Do you study Chemistry at school?' → He asked me {{if I studied / whether I studied}} Chemistry at school.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether, bez do, Present Simple → Past Simple, you → I.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if I study",
+    "did I study",
+    "if do I study"
+   ],
+   "book": "WB s. 66, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-058",
+   "type": "cloze",
+   "text": "Marta: 'We're having a baby.' → My sister and her husband said they {{were having}} a baby.",
+   "hint": "Present Continuous → ?",
+   "explanation": "Present Continuous (are having) zmienia się na Past Continuous (were having).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "are having",
+    "had had",
+    "had"
+   ],
+   "book": "WB s. 66, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-059",
+   "type": "cloze",
+   "text": "Marta: 'You'll soon be an uncle.' → They said that I {{would soon be}} an uncle.",
+   "hint": "will → ?",
+   "explanation": "Will zmienia się na would; soon stoi między would a be.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will soon be",
+    "was soon",
+    "am soon"
+   ],
+   "book": "WB s. 66, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-060",
+   "type": "cloze",
+   "text": "Marta: 'We found out last week.' → They said they {{had found out}} the week before.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (found out) zmienia się na Past Perfect (had found out).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "found out",
+    "have found out",
+    "were finding out"
+   ],
+   "book": "WB s. 66, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-061",
+   "type": "cloze",
+   "text": "Doctor: 'I was worried at first.' → The doctor said he {{had been}} worried at first.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (was) zmienia się na Past Perfect (had been).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "was",
+    "has been",
+    "would be"
+   ],
+   "book": "WB s. 66, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-062",
+   "type": "cloze",
+   "text": "Marta: 'Do you have any ideas for a name?' → They asked me {{if I had / whether I had}} any ideas for a name.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether + podmiot + had (have → had).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if I have",
+    "if had I",
+    "did I have"
+   ],
+   "book": "WB s. 66, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-063",
+   "type": "cloze",
+   "text": "Me: 'I want to call her Zuzia.' → I told them I {{wanted}} to call her Zuzia.",
+   "hint": "Present Simple → ?",
+   "explanation": "Present Simple (want) zmienia się na Past Simple (wanted).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "want",
+    "had wanted",
+    "would want"
+   ],
+   "book": "WB s. 66, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-064",
+   "type": "cloze",
+   "text": "Marta: 'We don't like that idea.' → They said they {{didn't like}} that idea.",
+   "hint": "don't → ?",
+   "explanation": "Present Simple (don't like) zmienia się na Past Simple (didn't like).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "don't like",
+    "hadn't liked",
+    "weren't liking"
+   ],
+   "book": "WB s. 66, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-065",
+   "type": "cloze",
+   "text": "'Put it away.' → She {{told}} me to put it away.",
+   "hint": "polecenie: say / tell / ask?",
+   "explanation": "Polecenie relacjonujemy przez tell + osoba + to.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "say/tell",
+   "distractors": [
+    "said",
+    "asked",
+    "spoke"
+   ],
+   "book": "WB s. 68, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-066",
+   "type": "cloze",
+   "text": "'Sit down, please.' → The doctor {{asked}} me to sit down.",
+   "hint": "prośba z please: tell / ask?",
+   "explanation": "Prośbę (please) relacjonujemy przez ask + osoba + to.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "say/tell",
+   "distractors": [
+    "told",
+    "said",
+    "spoke"
+   ],
+   "book": "WB s. 68, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-067",
+   "type": "cloze",
+   "text": "'Everybody, read carefully, please.' → The teacher asked {{us}} to read carefully.",
+   "hint": "ask + ? + to",
+   "explanation": "Po ask stoi osoba: asked us to read.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "we",
+    "our",
+    "ours"
+   ],
+   "book": "WB s. 68, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-068",
+   "type": "cloze",
+   "text": "'Don't train too hard.' → He told us {{not}} to train too hard.",
+   "hint": "zakaz: told us ___ to",
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "no",
+    "don't",
+    "didn't"
+   ],
+   "book": "WB s. 68, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-069",
+   "type": "cloze",
+   "text": "'Bend your knee, please.' → The nurse asked {{me}} to bend my knee.",
+   "hint": "ask + ? + to",
+   "explanation": "Po ask stoi osoba w formie dopełnienia: asked me to.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "I",
+    "my",
+    "mine"
+   ],
+   "book": "WB s. 68, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-070",
+   "type": "cloze",
+   "text": "'Sign the form.' → The man told me {{to}} sign the form.",
+   "hint": "told me ___ sign",
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "for",
+    "that",
+    "the"
+   ],
+   "book": "WB s. 68, ćw. 1"
+  },
+  {
+   "id": "en7-rsb-071",
+   "type": "cloze",
+   "text": "Dad: 'Hey! I asked you {{to be}} quiet!'",
+   "hint": "ask + osoba + ?",
+   "explanation": "Po ask + osoba stoi to + bezokolicznik: asked you to be quiet.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "be",
+    "being",
+    "that be"
+   ],
+   "book": "WB s. 68, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-072",
+   "type": "cloze",
+   "text": "Ola: 'Sorry! It's just that Kasia {{asked me to}} help her with her Art project.'",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to; 'asked to help' bez osoby zmienia znaczenie.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked to",
+    "asked me",
+    "said me to"
+   ],
+   "book": "WB s. 68, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-073",
+   "type": "cloze",
+   "text": "Dad: 'Mum's trying to sleep and she asked us {{not to make}} any noise.'",
+   "hint": "prośba przecząca",
+   "explanation": "Prośba przecząca: ask + osoba + not to + bezokolicznik; 'to not make' to błąd.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not make",
+    "don't make",
+    "not making"
+   ],
+   "book": "WB s. 68, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-074",
+   "type": "cloze",
+   "text": "Marek: 'Can you help me with my Physics homework? I {{asked}} Dad to help, but he's busy.'",
+   "hint": "prośba: ask / tell?",
+   "explanation": "Prośbę relacjonujemy przez ask + osoba + to; tell to polecenie.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "say/tell",
+   "distractors": [
+    "told",
+    "said",
+    "spoke"
+   ],
+   "book": "WB s. 68, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-075",
+   "type": "cloze",
+   "text": "Marek: 'The teacher told us {{to do}} the exercises on this page.'",
+   "hint": "tell + osoba + ?",
+   "explanation": "Po tell + osoba stoi to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "do",
+    "doing",
+    "that we do"
+   ],
+   "book": "WB s. 68, ćw. 2"
+  },
+  {
+   "id": "en7-rsb-076",
+   "type": "qa",
+   "question": "Ułóż: He asked ___ (attention / us / pay / to).",
+   "answer": "He asked us to pay attention.",
+   "accept": [],
+   "explanation": "Ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-077",
+   "type": "qa",
+   "question": "Ułóż: The dentist ___ (me / rest / to / told) at home.",
+   "answer": "The dentist told me to rest at home.",
+   "accept": [],
+   "explanation": "Tell + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-078",
+   "type": "qa",
+   "question": "Ułóż: My brother asked ___ (his / take / me / to) temperature.",
+   "answer": "My brother asked me to take his temperature.",
+   "accept": [],
+   "explanation": "Ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-079",
+   "type": "qa",
+   "question": "Ułóż: I ___ (be / you / told / to) careful!",
+   "answer": "I told you to be careful!",
+   "accept": [
+    "I told you to be careful."
+   ],
+   "explanation": "Tell + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-080",
+   "type": "qa",
+   "question": "Ułóż: She told ___ (her / not / me / read / to) messages.",
+   "answer": "She told me not to read her messages.",
+   "accept": [],
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-081",
+   "type": "qa",
+   "question": "Ułóż: I ___ (to / asked / use / not / you) your tablet in class.",
+   "answer": "I asked you not to use your tablet in class.",
+   "accept": [],
+   "explanation": "Prośba przecząca: ask + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-082",
+   "type": "qa",
+   "question": "Napisz w mowie zależnej: the coach / ask / we / warm up / slowly",
+   "answer": "The coach asked us to warm up slowly.",
+   "accept": [],
+   "explanation": "Ask + osoba + to + bezokolicznik; we → us.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-083",
+   "type": "qa",
+   "question": "Napisz w mowie zależnej: Dorota / tell / we / not leave / our bags / in the hall",
+   "answer": "Dorota told us not to leave our bags in the hall.",
+   "accept": [],
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-084",
+   "type": "qa",
+   "question": "Napisz w mowie zależnej: I / ask / they / wait / outside",
+   "answer": "I asked them to wait outside.",
+   "accept": [],
+   "explanation": "Ask + osoba + to + bezokolicznik; they → them.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-085",
+   "type": "qa",
+   "question": "Napisz w mowie zależnej: dentist / tell / me / not eat / sweets / for a week",
+   "answer": "The dentist told me not to eat sweets for a week.",
+   "accept": [],
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-086",
+   "type": "qa",
+   "question": "Napisz w mowie zależnej: Agata / ask / Tomek / meet / she / after practice",
+   "answer": "Agata asked Tomek to meet her after practice.",
+   "accept": [],
+   "explanation": "Ask + osoba + to + bezokolicznik; she → her.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 68, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-087",
+   "type": "cloze",
+   "text": "My friend was in pain and he (ask / me / call) an ambulance. → He {{asked me to call}} an ambulance.",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked me call",
+    "asked to me call",
+    "told me calling"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-088",
+   "type": "cloze",
+   "text": "The woman on the phone (ask / me / describe) the problem. → The woman on the phone {{asked me to describe}} the problem.",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked me describe",
+    "asked me describing",
+    "said me to describe"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-089",
+   "type": "cloze",
+   "text": "She also (ask / me / tell) her if he was taking any medicine. → She also {{asked me to tell}} her if he was taking any medicine.",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik; dalej pytanie zależne z if.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked me tell",
+    "asked me telling",
+    "told me tell"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-090",
+   "type": "cloze",
+   "text": "Then she (tell / me / make sure) he was comfortable. → Then she told {{me to make sure}} he was comfortable.",
+   "hint": "tell + osoba + to",
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "me make sure",
+    "me making sure",
+    "to me make sure"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-091",
+   "type": "cloze",
+   "text": "So I (tell / he / sit down) and not move. → So I told {{him to sit down}} and not move.",
+   "hint": "tell + osoba + to",
+   "explanation": "Polecenie: tell + osoba (him) + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "he to sit down",
+    "him sit down",
+    "him sitting down"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-092",
+   "type": "cloze",
+   "text": "The woman (tell / me / not panic), which was difficult! → The woman told {{me not to panic}}, which was difficult!",
+   "hint": "tell + osoba + not to",
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "me to not panic",
+    "me don't panic",
+    "me not panic"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-093",
+   "type": "cloze",
+   "text": "When the ambulance arrived, I (ask / they / let) me come too. → I {{asked them to let}} me come too.",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba (them) + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked they to let",
+    "asked them let",
+    "asked them letting"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-094",
+   "type": "cloze",
+   "text": "At the hospital they told me he had a broken arm and (ask / me / phone) his parents. → They {{asked me to phone}} his parents.",
+   "hint": "ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked me phone",
+    "asked me phoning",
+    "said me to phone"
+   ],
+   "book": "WB s. 68, ćw. 5"
+  },
+  {
+   "id": "en7-rsb-095",
+   "type": "cloze",
+   "text": "Kacper: 'My appointment was half an hour ago.' → Kacper told the receptionist that his appointment {{had}} been half an hour before.",
+   "hint": "jedno słowo: Past Simple → ?",
+   "explanation": "Past Simple (was) zmienia się na Past Perfect (had been).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "has",
+    "was",
+    "is"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-096",
+   "type": "cloze",
+   "text": "Kacper: 'I'm still waiting.' → He said he {{was}} still waiting.",
+   "hint": "jedno słowo",
+   "explanation": "Present Continuous (am waiting) zmienia się na Past Continuous (was waiting).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is",
+    "had",
+    "has"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-097",
+   "type": "cloze",
+   "text": "Receptionist: 'The dentist is very busy today.' → The receptionist said the dentist {{was}} very busy that day.",
+   "hint": "jedno słowo",
+   "explanation": "Present Simple (is) zmienia się na Past Simple (was).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is",
+    "had",
+    "would"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-098",
+   "type": "cloze",
+   "text": "Receptionist: 'The dentist is busy today.' → She said the dentist was busy {{that}} day.",
+   "hint": "today → ___ day",
+   "explanation": "Today zmienia się na that day.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "this",
+    "the",
+    "today"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-099",
+   "type": "cloze",
+   "text": "Receptionist: 'I'll call you when she's ready.' → She said she {{would}} call him when she was ready.",
+   "hint": "jedno słowo: will → ?",
+   "explanation": "Will zmienia się na would.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "could",
+    "should"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-100",
+   "type": "cloze",
+   "text": "Receptionist: 'Do you want a tea while you wait?' → She asked him if he {{wanted}} a tea while he waited.",
+   "hint": "jedno słowo",
+   "explanation": "Pytanie yes/no: if + podmiot + wanted (Present Simple → Past Simple).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "wants",
+    "wanted to",
+    "would want"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-101",
+   "type": "cloze",
+   "text": "Kacper: 'No, thanks. I don't feel well.' → Kacper said he {{didn't}} feel well.",
+   "hint": "jedno słowo: don't → ?",
+   "explanation": "Present Simple (don't feel) zmienia się na Past Simple (didn't feel).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "doesn't",
+    "hadn't",
+    "wasn't"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-102",
+   "type": "cloze",
+   "text": "Kacper: 'When will the dentist be ready to see me?' → He asked when the dentist {{would}} be ready to see him.",
+   "hint": "jedno słowo: will → ?",
+   "explanation": "Pytanie wh-: szyk oznajmujący, will → would.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "is",
+    "could"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-103",
+   "type": "cloze",
+   "text": "Kacper: 'When will the dentist see me?' → He asked when the dentist would see {{him}}.",
+   "hint": "me → ?",
+   "explanation": "Zaimek me zmienia się na him, bo relacjonuje ktoś inny.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "me",
+    "he",
+    "his"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-104",
+   "type": "cloze",
+   "text": "Receptionist: 'I'm sorry, I don't know.' → The receptionist said she {{didn't}} know.",
+   "hint": "jedno słowo: don't → ?",
+   "explanation": "Don't know zmienia się na didn't know (Present Simple → Past Simple).",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "doesn't",
+    "hadn't",
+    "wouldn't"
+   ],
+   "book": "WB s. 72, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-105",
+   "type": "qa",
+   "question": "Przekształć (told / asked): 'Stay at home.' (doctor / me)",
+   "answer": "The doctor told me to stay at home.",
+   "accept": [],
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 72, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-106",
+   "type": "qa",
+   "question": "Przekształć (told / asked): 'Can you help me change my plaster, please?' (I / my sister)",
+   "answer": "I asked my sister to help me change my plaster.",
+   "accept": [],
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 72, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-107",
+   "type": "qa",
+   "question": "Przekształć (told / asked): 'Take these tablets twice a day.' (nurse / her)",
+   "answer": "The nurse told her to take those tablets twice a day.",
+   "accept": [
+    "The nurse told her to take the tablets twice a day.",
+    "The nurse told her to take these tablets twice a day."
+   ],
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik; these → those.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 72, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-108",
+   "type": "qa",
+   "question": "Przekształć (told / asked): 'Please be quiet.' (Marta / us)",
+   "answer": "Marta asked us to be quiet.",
+   "accept": [],
+   "explanation": "Prośba (please): ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 72, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-109",
+   "type": "qa",
+   "question": "Przekształć (told / asked): 'Don't touch that.' (Kuba's mum / him)",
+   "answer": "Kuba's mum told him not to touch that.",
+   "accept": [],
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false,
+   "book": "WB s. 72, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-110",
+   "type": "cloze",
+   "text": "We went for a bike ride in the hills yesterday. The weather app said it {{was}} going to be sunny.",
+   "hint": "bank słów: is / was / took / put / have / had",
+   "explanation": "Po said konstrukcja is going to zmienia się na was going to.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is",
+    "had",
+    "have"
+   ],
+   "book": "WB s. 73, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-111",
+   "type": "cloze",
+   "text": "When we {{had}} ridden about ten kilometres, it suddenly started to rain.",
+   "hint": "bank słów: is / was / took / put / have / had",
+   "explanation": "Czynność wcześniejsza od innej przeszłej: Past Perfect (had ridden).",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "have",
+    "was",
+    "took"
+   ],
+   "book": "WB s. 73, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-112",
+   "type": "cloze",
+   "text": "I {{took}} off my wet jacket and put on a dry one.",
+   "hint": "bank słów: is / was / took / put / have / had",
+   "explanation": "Opowiadanie w Past Simple: took off, put on.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "had",
+    "put",
+    "have"
+   ],
+   "book": "WB s. 73, ćw. 3"
+  },
+  {
+   "id": "en7-rsb-113",
+   "type": "cloze",
+   "text": "She said that she (była tutaj) {{had been there}} the day before.",
+   "hint": "Past Simple → ?, here → ?",
+   "explanation": "Past Simple → Past Perfect (was → had been) i here → there.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "was here",
+    "had been here",
+    "was there"
+   ],
+   "book": "WB s. 73, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-114",
+   "type": "cloze",
+   "text": "The guard told us (aby tam nie wchodzić) {{not to go}} there.",
+   "hint": "zakaz: told us ___",
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not go",
+    "don't go",
+    "not going"
+   ],
+   "book": "WB s. 73, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-115",
+   "type": "cloze",
+   "text": "My mum (poprosiła, abym) {{asked me to}} help her tidy the garage.",
+   "hint": "prośba: ask + osoba + to",
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "asked to me",
+    "said me to",
+    "told that I"
+   ],
+   "book": "WB s. 73, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-116",
+   "type": "cloze",
+   "text": "Ola said that she (odwiedzi mnie) {{would visit me}} the following Saturday.",
+   "hint": "will → ?, you → ?",
+   "explanation": "Will visit → would visit; you → me.",
+   "category": "en7_reported_book",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will visit me",
+    "visits me",
+    "would visit I"
+   ],
+   "book": "WB s. 73, ćw. 4"
+  },
+  {
+   "id": "en7-rsb-117",
+   "type": "cloze",
+   "text": "My dad said I couldn't go to training (następnego dnia) {{the next day / the following day}}.",
+   "hint": "tomorrow → ?",
+   "explanation": "Tomorrow zmienia się na the next day / the following day.",
+   "category": "en7_reported_book",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "tomorrow",
+    "the day before",
+    "that day"
+   ],
+   "book": "WB s. 73, ćw. 4"
   }
  ]
 }
