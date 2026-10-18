@@ -1,6 +1,19 @@
 {
  "version": 1,
  "subject": "chemia_sp7",
+ "kinds": [
+  "pierwiastek",
+  "związek",
+  "wzór",
+  "rodzaj reakcji",
+  "rodzaj mieszaniny",
+  "metoda",
+  "proces",
+  "wielkość",
+  "wartość",
+  "właściwość",
+  "pojęcie"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, chemia, klasy VII–VIII (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996); działy I–V jako zakres klasy 7",
  "items": [
@@ -16,7 +29,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-002",
@@ -27,7 +41,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-003",
@@ -44,7 +59,8 @@
    "category": "chem7_lab",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "właściwość"
   },
   {
    "id": "chem7-pp-004",
@@ -61,7 +77,8 @@
    "category": "chem7_lab",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "właściwość"
   },
   {
    "id": "chem7-pp-005",
@@ -72,7 +89,8 @@
    "category": "chem7_lab",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "właściwość"
   },
   {
    "id": "chem7-pp-006",
@@ -89,7 +107,8 @@
    "category": "chem7_lab",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "metoda"
   },
   {
    "id": "chem7-pp-007",
@@ -104,7 +123,8 @@
    "category": "chem7_lab",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "metoda"
   },
   {
    "id": "chem7-pp-008",
@@ -119,7 +139,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "właściwość"
   },
   {
    "id": "chem7-pp-009",
@@ -130,7 +151,12 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "właściwość",
+   "distractors": [
+    "ciekłym",
+    "stałym"
+   ]
   },
   {
    "id": "chem7-pp-010",
@@ -142,7 +168,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "proces"
   },
   {
    "id": "chem7-pp-011",
@@ -156,7 +183,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "proces"
   },
   {
    "id": "chem7-pp-012",
@@ -167,7 +195,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-013",
@@ -178,7 +207,11 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "rodzaj mieszaniny",
+   "distractors": [
+    "niejednorodna"
+   ]
   },
   {
    "id": "chem7-pp-014",
@@ -193,7 +226,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "rodzaj mieszaniny"
   },
   {
    "id": "chem7-pp-015",
@@ -209,7 +243,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "rodzaj mieszaniny"
   },
   {
    "id": "chem7-pp-016",
@@ -225,7 +260,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.6"
+   "pp": "I.6",
+   "kind": "metoda"
   },
   {
    "id": "chem7-pp-017",
@@ -239,7 +275,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.6"
+   "pp": "I.6",
+   "kind": "metoda"
   },
   {
    "id": "chem7-pp-018",
@@ -253,7 +290,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.6"
+   "pp": "I.6",
+   "kind": "metoda"
   },
   {
    "id": "chem7-pp-019",
@@ -264,7 +302,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.6"
+   "pp": "I.6",
+   "kind": "proces"
   },
   {
    "id": "chem7-pp-020",
@@ -278,7 +317,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-021",
@@ -289,7 +329,11 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "pojęcie",
+   "distractors": [
+    "pierwiastek chemiczny"
+   ]
   },
   {
    "id": "chem7-pp-022",
@@ -303,7 +347,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-023",
@@ -314,7 +359,11 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "pojęcie",
+   "distractors": [
+    "metale"
+   ]
   },
   {
    "id": "chem7-pp-024",
@@ -326,7 +375,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.9"
+   "pp": "I.9",
+   "kind": "wzór"
   },
   {
    "id": "chem7-pp-025",
@@ -338,7 +388,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.9"
+   "pp": "I.9",
+   "kind": "wzór"
   },
   {
    "id": "chem7-pp-026",
@@ -350,7 +401,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.9"
+   "pp": "I.9",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-027",
@@ -362,7 +414,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.9"
+   "pp": "I.9",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-028",
@@ -373,7 +426,8 @@
    "category": "chem7_substances",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.10"
+   "pp": "I.10",
+   "kind": "wielkość"
   },
   {
    "id": "chem7-pp-029",
@@ -390,7 +444,8 @@
    "category": "chem7_substances",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.10"
+   "pp": "I.10",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-030",
@@ -405,7 +460,8 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "wielkość"
   },
   {
    "id": "chem7-pp-031",
@@ -416,7 +472,11 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "wielkość",
+   "distractors": [
+    "masowej"
+   ]
   },
   {
    "id": "chem7-pp-032",
@@ -430,7 +490,8 @@
    "category": "chem7_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-033",
@@ -441,7 +502,11 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "grupy"
+   ]
   },
   {
    "id": "chem7-pp-034",
@@ -455,7 +520,8 @@
    "category": "chem7_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-035",
@@ -466,7 +532,11 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "pojęcie",
+   "distractors": [
+    "elektronów"
+   ]
   },
   {
    "id": "chem7-pp-036",
@@ -480,7 +550,8 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-037",
@@ -494,7 +565,8 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-038",
@@ -509,7 +581,8 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-039",
@@ -525,7 +598,8 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-040",
@@ -539,7 +613,8 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-041",
@@ -550,7 +625,11 @@
    "category": "chem7_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.6"
+   "pp": "II.6",
+   "kind": "pojęcie",
+   "distractors": [
+    "okresu"
+   ]
   },
   {
    "id": "chem7-pp-042",
@@ -561,7 +640,12 @@
    "category": "chem7_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.6"
+   "pp": "II.6",
+   "kind": "pojęcie",
+   "distractors": [
+    "rosną",
+    "nasilają się"
+   ]
   },
   {
    "id": "chem7-pp-043",
@@ -577,7 +661,8 @@
    "category": "chem7_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.7"
+   "pp": "II.7",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-044",
@@ -592,7 +677,8 @@
    "category": "chem7_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.7"
+   "pp": "II.7",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-045",
@@ -604,7 +690,8 @@
    "category": "chem7_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.8"
+   "pp": "II.8",
+   "kind": "wielkość"
   },
   {
    "id": "chem7-pp-046",
@@ -620,7 +707,8 @@
    "category": "chem7_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.8"
+   "pp": "II.8",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-047",
@@ -631,7 +719,8 @@
    "category": "chem7_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.8"
+   "pp": "II.8",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-048",
@@ -643,7 +732,8 @@
    "category": "chem7_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.9"
+   "pp": "II.9",
+   "kind": "wzór"
   },
   {
    "id": "chem7-pp-049",
@@ -655,7 +745,8 @@
    "category": "chem7_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.9"
+   "pp": "II.9",
+   "kind": "wzór"
   },
   {
    "id": "chem7-pp-050",
@@ -671,7 +762,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.9"
+   "pp": "II.9",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-051",
@@ -683,7 +775,8 @@
    "category": "chem7_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.10"
+   "pp": "II.10",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-052",
@@ -700,7 +793,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.10"
+   "pp": "II.10",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-053",
@@ -718,7 +812,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.10"
+   "pp": "II.10",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-054",
@@ -729,7 +824,11 @@
    "category": "chem7_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.11"
+   "pp": "II.11",
+   "kind": "właściwość",
+   "distractors": [
+    "niskiej"
+   ]
   },
   {
    "id": "chem7-pp-055",
@@ -744,7 +843,8 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.11",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-056",
@@ -759,7 +859,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.12"
+   "pp": "II.12",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-057",
@@ -774,7 +875,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.12"
+   "pp": "II.12",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-058",
@@ -786,7 +888,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.13"
+   "pp": "II.13",
+   "kind": "wzór"
   },
   {
    "id": "chem7-pp-059",
@@ -802,7 +905,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.13"
+   "pp": "II.13",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-060",
@@ -818,7 +922,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "rodzaj reakcji"
   },
   {
    "id": "chem7-pp-061",
@@ -834,7 +939,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "rodzaj reakcji"
   },
   {
    "id": "chem7-pp-062",
@@ -845,7 +951,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "rodzaj reakcji"
   },
   {
    "id": "chem7-pp-063",
@@ -859,7 +966,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-064",
@@ -870,7 +978,8 @@
    "category": "chem7_reactions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-065",
@@ -881,7 +990,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-066",
@@ -896,7 +1006,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "rodzaj reakcji"
   },
   {
    "id": "chem7-pp-067",
@@ -911,7 +1022,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "rodzaj reakcji"
   },
   {
    "id": "chem7-pp-068",
@@ -923,7 +1035,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-069",
@@ -939,7 +1052,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "metoda"
   },
   {
    "id": "chem7-pp-070",
@@ -955,7 +1069,8 @@
    "category": "chem7_air",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-071",
@@ -966,7 +1081,8 @@
    "category": "chem7_air",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "wzór"
   },
   {
    "id": "chem7-pp-072",
@@ -983,7 +1099,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-073",
@@ -997,7 +1114,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-074",
@@ -1011,7 +1129,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "proces"
   },
   {
    "id": "chem7-pp-075",
@@ -1026,7 +1145,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-076",
@@ -1042,7 +1162,8 @@
    "category": "chem7_air",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-077",
@@ -1053,7 +1174,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-078",
@@ -1067,7 +1189,8 @@
    "category": "chem7_air",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-079",
@@ -1079,7 +1202,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-080",
@@ -1090,7 +1214,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "związek"
   },
   {
    "id": "chem7-pp-081",
@@ -1104,7 +1229,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-082",
@@ -1121,7 +1247,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-083",
@@ -1132,7 +1259,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-084",
@@ -1148,7 +1276,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.6"
+   "pp": "IV.6",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-085",
@@ -1162,7 +1291,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.6"
+   "pp": "IV.6",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-086",
@@ -1174,7 +1304,8 @@
    "category": "chem7_air",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-087",
@@ -1190,7 +1321,8 @@
    "category": "chem7_air",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "pierwiastek"
   },
   {
    "id": "chem7-pp-088",
@@ -1201,7 +1333,11 @@
    "category": "chem7_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "właściwość",
+   "distractors": [
+    "niepolarna"
+   ]
   },
   {
    "id": "chem7-pp-089",
@@ -1215,7 +1351,8 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "rodzaj mieszaniny"
   },
   {
    "id": "chem7-pp-090",
@@ -1230,7 +1367,8 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "rodzaj mieszaniny"
   },
   {
    "id": "chem7-pp-091",
@@ -1245,7 +1383,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-092",
@@ -1256,7 +1395,8 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "wielkość"
   },
   {
    "id": "chem7-pp-093",
@@ -1270,7 +1410,8 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "rodzaj mieszaniny"
   },
   {
    "id": "chem7-pp-094",
@@ -1287,7 +1428,8 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-095",
@@ -1298,7 +1440,11 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "rodzaj mieszaniny",
+   "distractors": [
+    "nasycony"
+   ]
   },
   {
    "id": "chem7-pp-096",
@@ -1314,7 +1460,8 @@
    "category": "chem7_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-097",
@@ -1325,7 +1472,12 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "pojęcie",
+   "distractors": [
+    "maleje",
+    "spada"
+   ]
   },
   {
    "id": "chem7-pp-098",
@@ -1340,7 +1492,8 @@
    "category": "chem7_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "pojęcie"
   },
   {
    "id": "chem7-pp-099",
@@ -1351,7 +1504,11 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "pojęcie",
+   "distractors": [
+    "rozpuszczalnika"
+   ]
   },
   {
    "id": "chem7-pp-100",
@@ -1367,7 +1524,8 @@
    "category": "chem7_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-101",
@@ -1383,7 +1541,8 @@
    "category": "chem7_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "wartość"
   },
   {
    "id": "chem7-pp-102",
@@ -1399,7 +1558,8 @@
    "category": "chem7_water",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "wartość"
   }
  ]
 }
