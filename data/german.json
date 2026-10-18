@@ -991,7 +991,12 @@
    "category": "deib_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "spielte",
+    "spielen",
+    "spielt"
+   ]
   },
   {
    "id": "deib-pp-072",
@@ -1002,7 +1007,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "liest",
+    "las",
+    "lesen"
+   ]
   },
   {
    "id": "deib-pp-073",
@@ -1013,7 +1023,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "haben",
+    "hat",
+    "ist"
+   ]
   },
   {
    "id": "deib-pp-074",
@@ -1024,7 +1039,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "aufstehen",
+    "gestanden",
+    "aufgestiegen"
+   ]
   },
   {
    "id": "deib-pp-075",
@@ -1035,7 +1055,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "sieht",
+    "sah",
+    "sehen"
+   ]
   },
   {
    "id": "deib-pp-076",
@@ -1046,7 +1071,12 @@
    "category": "deib_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "bin",
+    "hatte",
+    "habe"
+   ]
   },
   {
    "id": "deib-pp-077",
@@ -1057,7 +1087,12 @@
    "category": "deib_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "kannst",
+    "können",
+    "könnt"
+   ]
   },
   {
    "id": "deib-pp-078",
@@ -1068,7 +1103,12 @@
    "category": "deib_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "muss",
+    "müssen",
+    "musste"
+   ]
   },
   {
    "id": "deib-pp-079",
@@ -1079,7 +1119,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "darfst",
+    "dürfen",
+    "dürft"
+   ]
   },
   {
    "id": "deib-pp-080",
@@ -1090,7 +1135,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "meinen",
+    "meine",
+    "mein"
+   ]
   },
   {
    "id": "deib-pp-081",
@@ -1101,7 +1151,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "meinem",
+    "meine",
+    "mein"
+   ]
   },
   {
    "id": "deib-pp-082",
@@ -1112,7 +1167,12 @@
    "category": "deib_grammar",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "den",
+    "der",
+    "das"
+   ]
   },
   {
    "id": "deib-pp-083",
@@ -1123,7 +1183,12 @@
    "category": "deib_grammar",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "dem",
+    "der",
+    "das"
+   ]
   },
   {
    "id": "deib-pp-084",
@@ -1134,7 +1199,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "mich",
+    "ich",
+    "meiner"
+   ]
   },
   {
    "id": "deib-pp-085",
@@ -1145,7 +1215,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "denn",
+    "dass",
+    "deshalb"
+   ]
   },
   {
    "id": "deib-pp-086",
@@ -1156,7 +1231,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "das",
+    "ob",
+    "wenn"
+   ]
   },
   {
    "id": "deib-pp-087",
@@ -1167,7 +1247,12 @@
    "category": "deib_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "alt",
+    "älteste",
+    "am ältesten"
+   ]
   },
   {
    "id": "deib-pp-088",
@@ -1178,7 +1263,12 @@
    "category": "deib_grammar",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IB grammar"
+   "pp": "IB grammar",
+   "distractors": [
+    "hoch",
+    "höher",
+    "höchsten"
+   ]
   },
   {
    "id": "deib-pp-089",
@@ -1274,7 +1364,12 @@
    "category": "deib_other",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "distractors": [
+    "drei",
+    "dritten",
+    "drittes"
+   ]
   },
   {
    "id": "deib-pp-096",
@@ -1285,7 +1380,12 @@
    "category": "deib_other",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "distractors": [
+    "zweihundertfünfzehn",
+    "zweihundertfünf",
+    "fünfhundertzwanzig"
+   ]
   }
  ]
 }
