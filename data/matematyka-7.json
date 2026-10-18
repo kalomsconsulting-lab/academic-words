@@ -326,7 +326,8 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "potęga"
+   "kind": "potęga",
+   "quiz_suitable": false
   },
   {
    "id": "mat7-pp-021",

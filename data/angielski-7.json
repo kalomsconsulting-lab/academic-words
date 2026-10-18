@@ -29,7 +29,8 @@
    "example": "My brother is very tall.",
    "category": "en7_people",
    "difficulty": 1,
-   "pp": "I.1"
+   "pp": "I.1",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-002",
@@ -41,7 +42,8 @@
    "example": "She has long curly hair.",
    "category": "en7_people",
    "difficulty": 1,
-   "pp": "I.1"
+   "pp": "I.1",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-003",
@@ -54,7 +56,8 @@
    "example": "Our new neighbours are very friendly.",
    "category": "en7_people",
    "difficulty": 1,
-   "pp": "I.1"
+   "pp": "I.1",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-004",
@@ -66,7 +69,8 @@
    "example": "Don't be lazy and do your homework!",
    "category": "en7_people",
    "difficulty": 1,
-   "pp": "I.1"
+   "pp": "I.1",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-005",
@@ -78,7 +82,8 @@
    "example": "Tom is confident when he speaks in public.",
    "category": "en7_people",
    "difficulty": 2,
-   "pp": "I.1"
+   "pp": "I.1",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-006",
@@ -90,7 +95,8 @@
    "example": "I keep my clothes in the wardrobe.",
    "category": "en7_home",
    "difficulty": 1,
-   "pp": "I.2"
+   "pp": "I.2",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-007",
@@ -102,7 +108,8 @@
    "example": "The soup is on the cooker.",
    "category": "en7_home",
    "difficulty": 1,
-   "pp": "I.2"
+   "pp": "I.2",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-008",
@@ -114,7 +121,8 @@
    "example": "I do the washing-up after dinner.",
    "category": "en7_home",
    "difficulty": 1,
-   "pp": "I.2"
+   "pp": "I.2",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-009",
@@ -127,7 +135,8 @@
    "example": "Our neighbour has a big dog.",
    "category": "en7_home",
    "difficulty": 1,
-   "pp": "I.2"
+   "pp": "I.2",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-010",
@@ -140,7 +149,8 @@
    "example": "My favourite subject is biology.",
    "category": "en7_school",
    "difficulty": 1,
-   "pp": "I.3"
+   "pp": "I.3",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-011",
@@ -152,7 +162,8 @@
    "example": "Check the timetable before you go to school.",
    "category": "en7_school",
    "difficulty": 1,
-   "pp": "I.3"
+   "pp": "I.3",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-012",
@@ -164,7 +175,8 @@
    "example": "I hope to pass an exam in June.",
    "category": "en7_school",
    "difficulty": 2,
-   "pp": "I.3"
+   "pp": "I.3",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-013",
@@ -177,7 +189,8 @@
    "example": "He didn't study, so he will fail the test.",
    "category": "en7_school",
    "difficulty": 2,
-   "pp": "I.3"
+   "pp": "I.3",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-014",
@@ -189,7 +202,8 @@
    "example": "Doctors earn a lot of money.",
    "category": "en7_work",
    "difficulty": 1,
-   "pp": "I.4"
+   "pp": "I.4",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-015",
@@ -202,7 +216,8 @@
    "example": "The nurse works at the hospital.",
    "category": "en7_work",
    "difficulty": 1,
-   "pp": "I.4"
+   "pp": "I.4",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-016",
@@ -215,7 +230,8 @@
    "example": "She is happy with her salary.",
    "category": "en7_work",
    "difficulty": 2,
-   "pp": "I.4"
+   "pp": "I.4",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-017",
@@ -228,7 +244,8 @@
    "example": "My cousin lives in London.",
    "category": "en7_family",
    "difficulty": 1,
-   "pp": "I.5"
+   "pp": "I.5",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-018",
@@ -240,7 +257,8 @@
    "example": "I get on well with my sister.",
    "category": "en7_family",
    "difficulty": 2,
-   "pp": "I.5"
+   "pp": "I.5",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-019",
@@ -252,7 +270,8 @@
    "example": "We visit our grandparents every Sunday.",
    "category": "en7_family",
    "difficulty": 1,
-   "pp": "I.5"
+   "pp": "I.5",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-020",
@@ -264,7 +283,8 @@
    "example": "This pizza is really tasty.",
    "category": "en7_food",
    "difficulty": 1,
-   "pp": "I.6"
+   "pp": "I.6",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-021",
@@ -277,7 +297,8 @@
    "example": "Boil the water for the pasta.",
    "category": "en7_food",
    "difficulty": 1,
-   "pp": "I.6"
+   "pp": "I.6",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-022",
@@ -289,7 +310,8 @@
    "example": "Mum likes to fry fish.",
    "category": "en7_food",
    "difficulty": 1,
-   "pp": "I.6"
+   "pp": "I.6",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-023",
@@ -303,7 +325,8 @@
    "example": "Can I have a slice of bread?",
    "category": "en7_food",
    "difficulty": 1,
-   "pp": "I.6"
+   "pp": "I.6",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-024",
@@ -316,7 +339,8 @@
    "example": "My sister is vegetarian, so she doesn't eat meat.",
    "category": "en7_food",
    "difficulty": 2,
-   "pp": "I.6"
+   "pp": "I.6",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-025",
@@ -328,7 +352,8 @@
    "example": "These shoes are cheap.",
    "category": "en7_shopping",
    "difficulty": 1,
-   "pp": "I.7"
+   "pp": "I.7",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-026",
@@ -340,7 +365,8 @@
    "example": "The new phone is very expensive.",
    "category": "en7_shopping",
    "difficulty": 1,
-   "pp": "I.7"
+   "pp": "I.7",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-027",
@@ -352,7 +378,8 @@
    "example": "Keep the receipt in case you want to return it.",
    "category": "en7_shopping",
    "difficulty": 2,
-   "pp": "I.7"
+   "pp": "I.7",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-028",
@@ -364,7 +391,8 @@
    "example": "Can I try on this jacket?",
    "category": "en7_shopping",
    "difficulty": 1,
-   "pp": "I.7"
+   "pp": "I.7",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-029",
@@ -376,7 +404,8 @@
    "example": "Our luggage is in the car.",
    "category": "en7_travel",
    "difficulty": 1,
-   "pp": "I.8"
+   "pp": "I.8",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-030",
@@ -389,7 +418,8 @@
    "example": "We need to book a hotel room.",
    "category": "en7_travel",
    "difficulty": 1,
-   "pp": "I.8"
+   "pp": "I.8",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-031",
@@ -401,7 +431,8 @@
    "example": "We went sightseeing in Rome.",
    "category": "en7_travel",
    "difficulty": 2,
-   "pp": "I.8"
+   "pp": "I.8",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-032",
@@ -413,7 +444,8 @@
    "example": "Don't forget your passport!",
    "category": "en7_travel",
    "difficulty": 1,
-   "pp": "I.8"
+   "pp": "I.8",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-033",
@@ -425,7 +457,8 @@
    "example": "There is a new exhibition at the museum.",
    "category": "en7_culture",
    "difficulty": 2,
-   "pp": "I.9"
+   "pp": "I.9",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-034",
@@ -438,7 +471,8 @@
    "example": "The audience loved the concert.",
    "category": "en7_culture",
    "difficulty": 2,
-   "pp": "I.9"
+   "pp": "I.9",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-035",
@@ -450,7 +484,8 @@
    "example": "I am reading a novel by J.K. Rowling.",
    "category": "en7_culture",
    "difficulty": 1,
-   "pp": "I.9"
+   "pp": "I.9",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-036",
@@ -463,7 +498,8 @@
    "example": "Our team wants to win the match.",
    "category": "en7_sport",
    "difficulty": 1,
-   "pp": "I.10"
+   "pp": "I.10",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-037",
@@ -475,7 +511,8 @@
    "example": "The referee stopped the game.",
    "category": "en7_sport",
    "difficulty": 2,
-   "pp": "I.10"
+   "pp": "I.10",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-038",
@@ -487,7 +524,8 @@
    "example": "I want to score a goal in the next match.",
    "category": "en7_sport",
    "difficulty": 1,
-   "pp": "I.10"
+   "pp": "I.10",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-039",
@@ -500,7 +538,8 @@
    "example": "She took part in a swimming competition.",
    "category": "en7_sport",
    "difficulty": 1,
-   "pp": "I.10"
+   "pp": "I.10",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-040",
@@ -512,7 +551,8 @@
    "example": "I have a terrible headache.",
    "category": "en7_health",
    "difficulty": 1,
-   "pp": "I.11"
+   "pp": "I.11",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-041",
@@ -524,7 +564,8 @@
    "example": "I can't sing because I have a sore throat.",
    "category": "en7_health",
    "difficulty": 1,
-   "pp": "I.11"
+   "pp": "I.11",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-042",
@@ -536,7 +577,8 @@
    "example": "Fruit and vegetables are healthy.",
    "category": "en7_health",
    "difficulty": 1,
-   "pp": "I.11"
+   "pp": "I.11",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-043",
@@ -549,7 +591,8 @@
    "example": "Take this medicine twice a day.",
    "category": "en7_health",
    "difficulty": 1,
-   "pp": "I.11"
+   "pp": "I.11",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-044",
@@ -562,7 +605,8 @@
    "example": "You can download the app for free.",
    "category": "en7_science",
    "difficulty": 1,
-   "pp": "I.12"
+   "pp": "I.12",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-045",
@@ -574,7 +618,8 @@
    "example": "Who invented the telephone?",
    "category": "en7_science",
    "difficulty": 2,
-   "pp": "I.12"
+   "pp": "I.12",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-046",
@@ -586,7 +631,8 @@
    "example": "The screen of my phone is broken.",
    "category": "en7_science",
    "difficulty": 1,
-   "pp": "I.12"
+   "pp": "I.12",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-047",
@@ -598,7 +644,8 @@
    "example": "We should protect the environment.",
    "category": "en7_nature",
    "difficulty": 2,
-   "pp": "I.13"
+   "pp": "I.13",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-048",
@@ -610,7 +657,8 @@
    "example": "Air pollution is a big problem in cities.",
    "category": "en7_nature",
    "difficulty": 2,
-   "pp": "I.13"
+   "pp": "I.13",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-049",
@@ -623,7 +671,8 @@
    "example": "We recycle paper and plastic.",
    "category": "en7_nature",
    "difficulty": 1,
-   "pp": "I.13"
+   "pp": "I.13",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-050",
@@ -635,7 +684,8 @@
    "example": "The weather forecast says it will rain.",
    "category": "en7_nature",
    "difficulty": 1,
-   "pp": "I.13"
+   "pp": "I.13",
+   "source": "Podstawa programowa"
   },
   {
    "id": "en7-051",
@@ -1414,7 +1464,13 @@
    "category": "en7_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "kind": "forma czasownika",
+   "distractors": [
+    "sings",
+    "sang",
+    "has sung"
+   ]
   },
   {
    "id": "en7-pp-057",
@@ -1425,7 +1481,13 @@
    "category": "en7_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "kind": "forma czasownika",
+   "distractors": [
+    "go",
+    "have gone",
+    "were going"
+   ]
   },
   {
    "id": "en7-pp-058",
@@ -1436,7 +1498,13 @@
    "category": "en7_other",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "kind": "pojęcie",
+   "distractors": [
+    "for",
+    "from",
+    "during"
+   ]
   },
   {
    "id": "en7-pp-059",
@@ -1447,7 +1515,13 @@
    "category": "en7_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "kind": "forma czasownika",
+   "distractors": [
+    "higher",
+    "the most high",
+    "the higher"
+   ]
   },
   {
    "id": "en7-pp-060",
@@ -1458,7 +1532,13 @@
    "category": "en7_other",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "kind": "forma czasownika",
+   "distractors": [
+    "stay",
+    "would stay",
+    "are staying"
+   ]
   },
   {
    "id": "en7-pp-061",
@@ -1469,7 +1549,13 @@
    "category": "en7_other",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "kind": "forma czasownika",
+   "distractors": [
+    "wrote",
+    "is written",
+    "has written"
+   ]
   },
   {
    "id": "en7-rs-001",

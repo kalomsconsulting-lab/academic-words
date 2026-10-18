@@ -686,7 +686,7 @@
   {
    "id": "inf7-pp-043",
    "type": "qa",
-   "question": "Jaka funkcja arkusza kalkulacyjnego oblicza średnią arytmetyczną zakresu?",
+   "question": "Jaka funkcja arkusza kalkulacyjnego zwraca sumę wartości z zakresu podzieloną przez ich liczbę?",
    "answer": "ŚREDNIA",
    "accept": [
     "=ŚREDNIA",

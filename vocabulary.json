@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "items": [
   {
    "id": "r001",
@@ -653,7 +653,8 @@
    "function": "claim",
    "example": "Jones observes that the trend began in the 1990s.",
    "category": "academic_verbs",
-   "difficulty": 1
+   "difficulty": 1,
+   "quiz_suitable": false
   },
   {
    "id": "av005",
@@ -715,7 +716,8 @@
    "function": "claim",
    "example": "The evidence suggests that the drug is effective.",
    "category": "academic_verbs",
-   "difficulty": 1
+   "difficulty": 1,
+   "quiz_suitable": false
   },
   {
    "id": "av010",
@@ -920,7 +922,8 @@
    "function": "disagreement",
    "example": "Critics contend that the policy is ineffective.",
    "category": "academic_verbs",
-   "difficulty": 2
+   "difficulty": 2,
+   "quiz_suitable": false
   },
   {
    "id": "av026",

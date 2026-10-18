@@ -1545,10 +1545,10 @@
    "id": "histib-pp-096",
    "type": "qa",
    "question": "What is the name of IB History prescribed subject 3, which studies the expansion of Japan, Germany and Italy in the 1930s?",
-   "answer": "The move to global war",
+   "answer": "Move to global war",
    "accept": [
-    "move to global war",
-    "the move to global war"
+    "The move to global war",
+    "move to global war"
    ],
    "explanation": "Prescribed subject 3 covers Japanese expansion in East Asia (1931-41) and German and Italian expansion (1933-40).",
    "category": "histib_states",

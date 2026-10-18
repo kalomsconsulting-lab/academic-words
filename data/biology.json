@@ -30,7 +30,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "pp": "II.5",
-   "kind": "organelle"
+   "kind": "organelle",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-002",
@@ -44,7 +45,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "pp": "II.2",
-   "kind": "organelle"
+   "kind": "organelle",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-003",
@@ -57,7 +59,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "pp": "II.5",
-   "kind": "organelle"
+   "kind": "organelle",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-004",
@@ -72,7 +75,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "pp": "IB A2.2",
-   "kind": "organism"
+   "kind": "organism",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-005",
@@ -86,7 +90,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "pp": "III.5",
-   "kind": "value"
+   "kind": "value",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-006",
@@ -101,7 +106,8 @@
    "distractors": [
     "diffusion",
     "active transport"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-007",
@@ -114,7 +120,8 @@
    "distractors": [
     "osmosis",
     "active transport"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-008",
@@ -127,7 +134,8 @@
    "distractors": [
     "diffusion",
     "osmosis"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-009",
@@ -137,7 +145,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "pp": "IB A2.2",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-010",
@@ -150,7 +159,8 @@
    "kind": "concept",
    "distractors": [
     "genetically different"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-011",
@@ -163,7 +173,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "pp": "I.2.2",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-012",
@@ -177,7 +188,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "pp": "I.2.2",
-   "kind": "concept"
+   "kind": "concept",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-013",
@@ -187,7 +199,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "pp": "III.2.1",
-   "kind": "concept"
+   "kind": "concept",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-014",
@@ -200,7 +213,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "pp": "III.1.2",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-015",
@@ -213,7 +227,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "pp": "I.2.1",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-016",
@@ -226,7 +241,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "pp": "III.3.1",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-017",
@@ -236,7 +252,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "pp": "III.2.2",
-   "kind": "concept"
+   "kind": "concept",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-018",
@@ -246,7 +263,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "pp": "III.2.3",
-   "kind": "process"
+   "kind": "process",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-019",
@@ -260,7 +278,8 @@
    "distractors": [
     "disaccharides",
     "polysaccharides"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-020",
@@ -269,7 +288,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "pp": "III.3.2",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-021",
@@ -279,7 +299,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "pp": "I.2.4",
-   "kind": "concept"
+   "kind": "concept",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-022",
@@ -292,7 +313,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "pp": "I.2.4",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-023",
@@ -305,7 +327,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "pp": "I.2.4",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-024",
@@ -319,7 +342,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "pp": "IV.1",
-   "kind": "value"
+   "kind": "value",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-025",
@@ -363,7 +387,8 @@
    "kind": "concept",
    "distractors": [
     "diploid"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-029",
@@ -460,7 +485,8 @@
    "category": "bio_plants",
    "difficulty": 1,
    "pp": "IB C1.3",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-039",
@@ -505,7 +531,8 @@
    "category": "bio_plants",
    "difficulty": 1,
    "pp": "IB C1.3",
-   "kind": "molecule"
+   "kind": "molecule",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-043",
@@ -514,7 +541,8 @@
    "category": "bio_plants",
    "difficulty": 1,
    "pp": "IB C1.3",
-   "kind": "organelle"
+   "kind": "organelle",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-044",
@@ -608,7 +636,8 @@
    "category": "bio_skills",
    "difficulty": 1,
    "pp": "III.2",
-   "kind": "variable"
+   "kind": "variable",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-053",
@@ -618,7 +647,8 @@
    "category": "bio_skills",
    "difficulty": 1,
    "pp": "III.2",
-   "kind": "variable"
+   "kind": "variable",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-054",
@@ -628,7 +658,8 @@
    "category": "bio_skills",
    "difficulty": 2,
    "pp": "III.3",
-   "kind": "technique"
+   "kind": "technique",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-055",
@@ -641,7 +672,8 @@
    "distractors": [
     "independent variables",
     "dependent variables"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-056",
@@ -650,7 +682,8 @@
    "category": "bio_skills",
    "difficulty": 2,
    "pp": "III.3",
-   "kind": "concept"
+   "kind": "concept",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio-pp-001",

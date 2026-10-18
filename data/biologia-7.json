@@ -61,7 +61,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "pp": "III.1.2",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-006",
@@ -70,7 +71,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "pp": "III.1.1",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-007",
@@ -84,7 +86,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "pp": "III.1.2",
-   "kind": "gruczoł"
+   "kind": "gruczoł",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-008",
@@ -94,7 +97,8 @@
    "category": "bio7_movement",
    "difficulty": 1,
    "pp": "III.2.3",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-009",
@@ -107,7 +111,8 @@
    "category": "bio7_movement",
    "difficulty": 2,
    "pp": "III.2.1",
-   "kind": "wartość"
+   "kind": "wartość",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-010",
@@ -116,7 +121,8 @@
    "category": "bio7_movement",
    "difficulty": 1,
    "pp": "III.2.3",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-011",
@@ -131,7 +137,8 @@
    "category": "bio7_movement",
    "difficulty": 2,
    "pp": "III.2.2",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-012",
@@ -140,7 +147,8 @@
    "category": "bio7_movement",
    "difficulty": 2,
    "pp": "III.2.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-013",
@@ -153,7 +161,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "pp": "III.3.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-014",
@@ -164,7 +173,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "pp": "III.3.1",
-   "kind": "gruczoł"
+   "kind": "gruczoł",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-015",
@@ -173,7 +183,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "pp": "III.3.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-016",
@@ -186,7 +197,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "pp": "III.3.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-017",
@@ -195,7 +207,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "pp": "III.3.1",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-018",
@@ -208,7 +221,8 @@
    "category": "bio7_digestion",
    "difficulty": 2,
    "pp": "III.3.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-019",
@@ -221,7 +235,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "pp": "III.4.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-020",
@@ -235,7 +250,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "pp": "III.4.1",
-   "kind": "wartość"
+   "kind": "wartość",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-021",
@@ -244,7 +260,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "pp": "III.4.3",
-   "kind": "komórka"
+   "kind": "komórka",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-022",
@@ -257,7 +274,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "pp": "III.4.3",
-   "kind": "komórka"
+   "kind": "komórka",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-023",
@@ -266,7 +284,8 @@
    "category": "bio7_circulation",
    "difficulty": 2,
    "pp": "III.4.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-024",
@@ -279,7 +298,8 @@
    "category": "bio7_immune",
    "difficulty": 1,
    "pp": "III.5.2",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-025",
@@ -294,7 +314,8 @@
     "bierną sztuczną",
     "czynną naturalną",
     "bierną naturalną"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-026",
@@ -307,7 +328,8 @@
    "category": "bio7_immune",
    "difficulty": 1,
    "pp": "III.5.5",
-   "kind": "choroba"
+   "kind": "choroba",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-027",
@@ -317,7 +339,8 @@
    "category": "bio7_breathing",
    "difficulty": 1,
    "pp": "III.6.2",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-028",
@@ -327,7 +350,8 @@
    "category": "bio7_breathing",
    "difficulty": 1,
    "pp": "III.6.3",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-029",
@@ -336,7 +360,8 @@
    "category": "bio7_breathing",
    "difficulty": 1,
    "pp": "III.6.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-030",
@@ -349,7 +374,8 @@
    "category": "bio7_breathing",
    "difficulty": 1,
    "pp": "III.6.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-031",
@@ -363,7 +389,8 @@
    "category": "bio7_breathing",
    "difficulty": 2,
    "pp": "III.6.3",
-   "kind": "komórka"
+   "kind": "komórka",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-032",
@@ -376,7 +403,8 @@
    "category": "bio7_excretion",
    "difficulty": 1,
    "pp": "III.7.2",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-033",
@@ -385,7 +413,8 @@
    "category": "bio7_excretion",
    "difficulty": 1,
    "pp": "III.7.2",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-034",
@@ -395,7 +424,8 @@
    "category": "bio7_excretion",
    "difficulty": 2,
    "pp": "III.7.2",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-035",
@@ -405,7 +435,8 @@
    "category": "bio7_nervous",
    "difficulty": 1,
    "pp": "III.8.1",
-   "kind": "komórka"
+   "kind": "komórka",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-036",
@@ -414,7 +445,8 @@
    "category": "bio7_nervous",
    "difficulty": 1,
    "pp": "III.8.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-037",
@@ -427,7 +459,8 @@
    "category": "bio7_nervous",
    "difficulty": 1,
    "pp": "III.8.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-038",
@@ -437,7 +470,8 @@
    "category": "bio7_nervous",
    "difficulty": 2,
    "pp": "III.8.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-039",
@@ -450,7 +484,8 @@
    "category": "bio7_senses",
    "difficulty": 1,
    "pp": "III.9.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-040",
@@ -462,7 +497,8 @@
    "kind": "pojęcie",
    "distractors": [
     "skupiającymi"
-   ]
+   ],
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-041",
@@ -476,7 +512,8 @@
    "category": "bio7_senses",
    "difficulty": 1,
    "pp": "III.9.6",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-042",
@@ -486,7 +523,8 @@
    "category": "bio7_hormones",
    "difficulty": 1,
    "pp": "III.10.1",
-   "kind": "substancja"
+   "kind": "substancja",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-043",
@@ -500,7 +538,8 @@
    "category": "bio7_hormones",
    "difficulty": 1,
    "pp": "III.10.1",
-   "kind": "gruczoł"
+   "kind": "gruczoł",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-044",
@@ -509,7 +548,8 @@
    "category": "bio7_hormones",
    "difficulty": 1,
    "pp": "III.10.1",
-   "kind": "choroba"
+   "kind": "choroba",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-045",
@@ -518,7 +558,8 @@
    "category": "bio7_hormones",
    "difficulty": 2,
    "pp": "III.10.1",
-   "kind": "gruczoł"
+   "kind": "gruczoł",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-046",
@@ -532,7 +573,8 @@
    "category": "bio7_reproduction",
    "difficulty": 1,
    "pp": "III.11.3",
-   "kind": "narząd"
+   "kind": "narząd",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-047",
@@ -541,7 +583,8 @@
    "category": "bio7_reproduction",
    "difficulty": 1,
    "pp": "III.11.1",
-   "kind": "komórka"
+   "kind": "komórka",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-048",
@@ -554,7 +597,8 @@
    "category": "bio7_reproduction",
    "difficulty": 1,
    "pp": "III.11.5",
-   "kind": "proces"
+   "kind": "proces",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-049",
@@ -568,7 +612,8 @@
    "category": "bio7_reproduction",
    "difficulty": 1,
    "pp": "III.11.4",
-   "kind": "wartość"
+   "kind": "wartość",
+   "source": "Podstawa programowa"
   },
   {
    "id": "bio7-050",
