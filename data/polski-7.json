@@ -51,7 +51,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Opowieść wigilijna",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Jacob Marley",
+    "Bob Cratchit",
+    "Tim Cratchit"
+   ]
   },
   {
    "id": "pol7-pp-003",
@@ -79,7 +84,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Opowieść wigilijna",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Cratchit",
+    "Fezziwig",
+    "Scrooge"
+   ]
   },
   {
    "id": "pol7-pp-005",
@@ -94,7 +104,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Opowieść wigilijna",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Jacob Marley",
+    "Fezziwig",
+    "Fred"
+   ]
   },
   {
    "id": "pol7-pp-006",
@@ -121,7 +136,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Zemsta",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "tragedia",
+    "dramat romantyczny",
+    "ballada"
+   ]
   },
   {
    "id": "pol7-pp-008",
@@ -133,7 +153,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Zemsta",
-   "kind": "przedmiot"
+   "kind": "przedmiot",
+   "distractors": [
+    "płotu",
+    "mostu",
+    "dachu"
+   ]
   },
   {
    "id": "pol7-pp-009",
@@ -148,7 +173,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Zemsta",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Wacław",
+    "Dyndalski",
+    "Perełka"
+   ]
   },
   {
    "id": "pol7-pp-010",
@@ -160,7 +190,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Zemsta",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Podstoliną",
+    "Zosią",
+    "Telimeną"
+   ]
   },
   {
    "id": "pol7-pp-011",
@@ -175,7 +210,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Zemsta",
-   "kind": "cytat"
+   "kind": "cytat",
+   "distractors": [
+    "wola nieba",
+    "panie dobrodzieju",
+    "lew Północy"
+   ]
   },
   {
    "id": "pol7-pp-012",
@@ -202,7 +242,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Kamienie na szaniec",
-   "kind": "autor"
+   "kind": "autor",
+   "distractors": [
+    "Mickiewicza",
+    "Norwida",
+    "Krasińskiego"
+   ]
   },
   {
    "id": "pol7-pp-014",
@@ -218,7 +263,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Kamienie na szaniec",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Tadeusz Zawadzki",
+    "Aleksy Dawidowski",
+    "Aleksander Kamiński"
+   ]
   },
   {
    "id": "pol7-pp-015",
@@ -230,7 +280,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Kamienie na szaniec",
-   "kind": "miejsce"
+   "kind": "miejsce",
+   "distractors": [
+    "Celestynowem",
+    "Sieczychami",
+    "Czarnocinem"
+   ]
   },
   {
    "id": "pol7-pp-016",
@@ -242,7 +297,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Kamienie na szaniec",
-   "kind": "nazwa własna"
+   "kind": "nazwa własna",
+   "distractors": [
+    "Armia Krajowa",
+    "Bataliony Chłopskie",
+    "Związek Walki Zbrojnej"
+   ]
   },
   {
    "id": "pol7-pp-017",
@@ -285,7 +345,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Dziady cz. II",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Alina i Balladyna",
+    "Zosia i Telimena",
+    "Klara i Wacław"
+   ]
   },
   {
    "id": "pol7-pp-020",
@@ -297,7 +362,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Dziady cz. II",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "strzelca",
+    "wojewody",
+    "kupca"
+   ]
   },
   {
    "id": "pol7-pp-021",
@@ -309,7 +379,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Dziady cz. II",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Rózia",
+    "Karusia",
+    "Alina"
+   ]
   },
   {
    "id": "pol7-pp-022",
@@ -354,7 +429,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Mały Książę",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "wąż",
+    "baranek",
+    "wilk"
+   ]
   },
   {
    "id": "pol7-pp-025",
@@ -366,7 +446,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Mały Książę",
-   "kind": "cytat"
+   "kind": "cytat",
+   "distractors": [
+    "oczami",
+    "rozumem",
+    "duszą"
+   ]
   },
   {
    "id": "pol7-pp-026",
@@ -381,7 +466,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Mały Książę",
-   "kind": "przedmiot"
+   "kind": "przedmiot",
+   "distractors": [
+    "tulipan",
+    "fiołek",
+    "stokrotka"
+   ]
   },
   {
    "id": "pol7-pp-027",
@@ -396,7 +486,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Mały Książę",
-   "kind": "przedmiot"
+   "kind": "przedmiot",
+   "distractors": [
+    "dęby",
+    "palmy",
+    "cedry"
+   ]
   },
   {
    "id": "pol7-pp-028",
@@ -423,7 +518,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Balladyna",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Goplana",
+    "Klara",
+    "Zosia"
+   ]
   },
   {
    "id": "pol7-pp-030",
@@ -435,7 +535,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Balladyna",
-   "kind": "przedmiot"
+   "kind": "przedmiot",
+   "distractors": [
+    "jagód",
+    "poziomek",
+    "jeżyn"
+   ]
   },
   {
    "id": "pol7-pp-031",
@@ -447,7 +552,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Balladyna",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Świtezianka",
+    "Balladyna",
+    "Alina"
+   ]
   },
   {
    "id": "pol7-pp-032",
@@ -464,7 +574,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Balladyna",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "od trucizny",
+    "od ciosu noża",
+    "w nurtach Gopła"
+   ]
   },
   {
    "id": "pol7-pp-033",
@@ -480,7 +595,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Balladyna",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "komedia",
+    "farsa",
+    "moralitet"
+   ]
   },
   {
    "id": "pol7-pp-034",
@@ -492,7 +612,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
-   "kind": "miejsce"
+   "kind": "miejsce",
+   "distractors": [
+    "Nagłowice",
+    "Soplicowo",
+    "Krzemieniec"
+   ]
   },
   {
    "id": "pol7-pp-035",
@@ -510,7 +635,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "żonie Dorocie",
+    "córce Hannie",
+    "bratu Andrzejowi"
+   ]
   },
   {
    "id": "pol7-pp-036",
@@ -522,7 +652,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
-   "kind": "cytat"
+   "kind": "cytat",
+   "distractors": [
+    "smutki",
+    "szkody",
+    "troski"
+   ]
   },
   {
    "id": "pol7-pp-037",
@@ -538,7 +673,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
-   "kind": "nazwa własna"
+   "kind": "nazwa własna",
+   "distractors": [
+    "barok",
+    "oświecenie",
+    "romantyzm"
+   ]
   },
   {
    "id": "pol7-pp-038",
@@ -567,7 +707,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Reduta Ordona",
-   "kind": "przedmiot"
+   "kind": "przedmiot",
+   "distractors": [
+    "twierdzę",
+    "bramę",
+    "wieżę"
+   ]
   },
   {
    "id": "pol7-pp-040",
@@ -579,7 +724,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Świtezianka",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "sonet",
+    "bajka",
+    "pieśń"
+   ]
   },
   {
    "id": "pol7-pp-041",
@@ -591,7 +741,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Świtezianka",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "umowy",
+    "zakazu",
+    "prawa"
+   ]
   },
   {
    "id": "pol7-pp-042",
@@ -603,7 +758,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Pan Tadeusz",
-   "kind": "miejsce"
+   "kind": "miejsce",
+   "distractors": [
+    "Dobrzyn",
+    "Czarnolas",
+    "Kleryków"
+   ]
   },
   {
    "id": "pol7-pp-043",
@@ -615,7 +775,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Pan Tadeusz",
-   "kind": "cytat"
+   "kind": "cytat",
+   "distractors": [
+    "Polsko",
+    "Ziemio",
+    "Matko"
+   ]
   },
   {
    "id": "pol7-pp-044",
@@ -631,7 +796,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Pan Tadeusz",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "ksiądz Piotr",
+    "Gerwazy",
+    "Protazy"
+   ]
   },
   {
    "id": "pol7-pp-045",
@@ -648,7 +818,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Pan Tadeusz",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "ballada",
+    "powieść historyczna",
+    "dramat romantyczny"
+   ]
   },
   {
    "id": "pol7-pp-046",
@@ -695,7 +870,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Artysta",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "tygrysa",
+    "orła",
+    "konia"
+   ]
   },
   {
    "id": "pol7-pp-049",
@@ -707,7 +887,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Latarnik",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Borowicz",
+    "Winicjusz",
+    "Falconbridge"
+   ]
   },
   {
    "id": "pol7-pp-050",
@@ -722,7 +907,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Latarnik",
-   "kind": "nazwa własna"
+   "kind": "nazwa własna",
+   "distractors": [
+    "Dziady",
+    "Konrad Wallenrod",
+    "Grażyna"
+   ]
   },
   {
    "id": "pol7-pp-051",
@@ -734,7 +924,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Latarnik",
-   "kind": "miejsce"
+   "kind": "miejsce",
+   "distractors": [
+    "Nowym Jorku",
+    "Hawanie",
+    "Kartagenie"
+   ]
   },
   {
    "id": "pol7-pp-052",
@@ -749,7 +944,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Quo vadis",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Tyberiusza",
+    "Kaliguli",
+    "Klaudiusza"
+   ]
   },
   {
    "id": "pol7-pp-053",
@@ -764,7 +964,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Quo vadis",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Eunice",
+    "Poppea",
+    "Akte"
+   ]
   },
   {
    "id": "pol7-pp-054",
@@ -776,7 +981,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Quo vadis",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "obyczajowa",
+    "przygodowa",
+    "fantastyczna"
+   ]
   },
   {
    "id": "pol7-pp-055",
@@ -791,7 +1001,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Syzyfowe prace",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Andrzej Radek",
+    "Bernard Zygier",
+    "Tomasz Walecki"
+   ]
   },
   {
    "id": "pol7-pp-056",
@@ -803,7 +1018,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Syzyfowe prace",
-   "kind": "miejsce"
+   "kind": "miejsce",
+   "distractors": [
+    "Owczarach",
+    "Pyrzogłowach",
+    "Warszawie"
+   ]
   },
   {
    "id": "pol7-pp-057",
@@ -818,7 +1038,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Syzyfowe prace",
-   "kind": "nazwa własna"
+   "kind": "nazwa własna",
+   "distractors": [
+    "Pan Tadeusz",
+    "Świtezianka",
+    "Oda do młodości"
+   ]
   },
   {
    "id": "pol7-pp-058",
@@ -833,7 +1058,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: wiersze Wisławy Szymborskiej",
-   "kind": "autor"
+   "kind": "autor",
+   "distractors": [
+    "Maria Konopnicka",
+    "Olga Tokarczuk",
+    "Halina Poświatowska"
+   ]
   },
   {
    "id": "pol7-pp-059",
@@ -845,7 +1075,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: aforyzmy Leca",
-   "kind": "nazwa własna"
+   "kind": "nazwa własna",
+   "distractors": [
+    "Fraszki",
+    "Bajki i przypowieści",
+    "Treny"
+   ]
   },
   {
    "id": "pol7-pp-060",
@@ -861,7 +1096,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.1",
-   "kind": "pojęcie literackie"
+   "kind": "pojęcie literackie",
+   "distractors": [
+    "proza, poezja, dramat",
+    "powieść, wiersz, dramat",
+    "epika, liryka, publicystyka"
+   ]
   },
   {
    "id": "pol7-pp-061",
@@ -873,7 +1113,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.1",
-   "kind": "pojęcie literackie"
+   "kind": "pojęcie literackie",
+   "distractors": [
+    "liryka",
+    "dramat",
+    "publicystyka"
+   ]
   },
   {
    "id": "pol7-pp-062",
@@ -888,7 +1133,8 @@
    "kind": "pojęcie literackie",
    "distractors": [
     "epika",
-    "dramat"
+    "dramat",
+    "publicystyka"
    ]
   },
   {
@@ -901,7 +1147,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.2",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "tren",
+    "pieśń",
+    "bajka"
+   ]
   },
   {
    "id": "pol7-pp-064",
@@ -913,7 +1164,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.2",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "fraszka",
+    "pieśń",
+    "hymn"
+   ]
   },
   {
    "id": "pol7-pp-065",
@@ -927,7 +1183,9 @@
    "pp": "I.1.2",
    "kind": "gatunek",
    "distractors": [
-    "tragedia"
+    "tragedia",
+    "dramat romantyczny",
+    "misterium"
    ]
   },
   {
@@ -940,7 +1198,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.1.2",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "bajka",
+    "legenda",
+    "pieśń"
+   ]
   },
   {
    "id": "pol7-pp-067",
@@ -955,7 +1218,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.2",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "ballada",
+    "powieść historyczna",
+    "sonet"
+   ]
   },
   {
    "id": "pol7-pp-068",
@@ -969,7 +1237,9 @@
    "pp": "I.1.2",
    "kind": "gatunek",
    "distractors": [
-    "komedia"
+    "komedia",
+    "farsa",
+    "moralitet"
    ]
   },
   {
@@ -982,7 +1252,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.2",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "fraszka",
+    "tren",
+    "ballada"
+   ]
   },
   {
    "id": "pol7-pp-070",
@@ -1009,7 +1284,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.3",
-   "kind": "pojęcie literackie"
+   "kind": "pojęcie literackie",
+   "distractors": [
+    "strofy",
+    "rozdziały",
+    "wersy"
+   ]
   },
   {
    "id": "pol7-pp-072",
@@ -1021,7 +1301,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.3",
-   "kind": "pojęcie literackie"
+   "kind": "pojęcie literackie",
+   "distractors": [
+    "dialog",
+    "didaskalia",
+    "prolog"
+   ]
   },
   {
    "id": "pol7-pp-073",
@@ -1033,7 +1318,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "archaizm",
+    "zapożyczenie",
+    "kolokwializm"
+   ]
   },
   {
    "id": "pol7-pp-074",
@@ -1045,7 +1335,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "dedykacja",
+    "epilog",
+    "puenta"
+   ]
   },
   {
    "id": "pol7-pp-075",
@@ -1057,7 +1352,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "alegoria",
+    "metafora",
+    "epitet"
+   ]
   },
   {
    "id": "pol7-pp-076",
@@ -1069,7 +1369,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "symbol",
+    "metafora",
+    "porównanie"
+   ]
   },
   {
    "id": "pol7-pp-077",
@@ -1081,7 +1386,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.5",
-   "kind": "pojęcie literackie"
+   "kind": "pojęcie literackie",
+   "distractors": [
+    "tragizm",
+    "patos",
+    "ironia"
+   ]
   },
   {
    "id": "pol7-pp-078",
@@ -1093,7 +1403,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.6",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "hiperbola",
+    "metafora",
+    "eufemizm"
+   ]
   },
   {
    "id": "pol7-pp-079",
@@ -1105,7 +1420,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2.4",
-   "kind": "pojęcie literackie"
+   "kind": "pojęcie literackie",
+   "distractors": [
+    "beletrystyka",
+    "epistolografia",
+    "poezja"
+   ]
   },
   {
    "id": "pol7-pp-080",
@@ -1117,7 +1437,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2.5",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "reportaż",
+    "felieton",
+    "recenzja"
+   ]
   },
   {
    "id": "pol7-pp-081",
@@ -1144,7 +1469,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.1",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "uproszczenie grupy spółgłoskowej",
+    "utrata dźwięczności w wygłosie",
+    "oboczność"
+   ]
   },
   {
    "id": "pol7-pp-083",
@@ -1158,7 +1488,9 @@
    "pp": "II.1.1",
    "kind": "pojęcie gramatyczne",
    "distractors": [
-    "postępowe"
+    "postępowe",
+    "międzywyrazowe",
+    "pod względem miękkości"
    ]
   },
   {
@@ -1171,7 +1503,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.2",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "rdzeń",
+    "końcówka",
+    "podstawa słowotwórcza"
+   ]
   },
   {
    "id": "pol7-pp-085",
@@ -1185,7 +1522,9 @@
    "pp": "II.1.2",
    "kind": "pojęcie gramatyczne",
    "distractors": [
-    "pochodny"
+    "pochodny",
+    "złożony",
+    "zapożyczony"
    ]
   },
   {
@@ -1198,7 +1537,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.2",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "formant",
+    "przyrostek",
+    "końcówka"
+   ]
   },
   {
    "id": "pol7-pp-087",
@@ -1213,7 +1557,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.2",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "wyrazy złożone",
+    "wyrazy bliskoznaczne",
+    "związek frazeologiczny"
+   ]
   },
   {
    "id": "pol7-pp-088",
@@ -1229,7 +1578,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.3",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "skrótowiec",
+    "wyraz pokrewny",
+    "zestawienie"
+   ]
   },
   {
    "id": "pol7-pp-089",
@@ -1245,7 +1599,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.1.4",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "imiesłów przysłówkowy uprzedni",
+    "imiesłów przymiotnikowy czynny",
+    "imiesłów przymiotnikowy bierny"
+   ]
   },
   {
    "id": "pol7-pp-090",
@@ -1259,7 +1618,9 @@
    "pp": "II.1.4",
    "kind": "pojęcie gramatyczne",
    "distractors": [
-    "współczesny"
+    "współczesny",
+    "czynny",
+    "bierny"
    ]
   },
   {
@@ -1274,7 +1635,9 @@
    "pp": "II.1.4",
    "kind": "pojęcie gramatyczne",
    "distractors": [
-    "czynny"
+    "czynny",
+    "uprzedni",
+    "współczesny"
    ]
   },
   {
@@ -1291,7 +1654,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.1.4",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "zdanie złożone podrzędnie",
+    "zdanie pojedyncze rozwinięte",
+    "zdanie bezpodmiotowe"
+   ]
   },
   {
    "id": "pol7-pp-093",
@@ -1307,7 +1675,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.5",
-   "kind": "pojęcie gramatyczne"
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "zdanie złożone współrzędnie",
+    "zdanie złożone podrzędnie",
+    "zdanie pojedyncze rozwinięte"
+   ]
   },
   {
    "id": "pol7-pp-094",
@@ -1333,7 +1706,9 @@
    "pp": "II.1.6",
    "kind": "pojęcie gramatyczne",
    "distractors": [
-    "niezależnej"
+    "niezależnej",
+    "pozornie zależnej",
+    "potocznej"
    ]
   },
   {
@@ -1351,7 +1726,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.7",
-   "kind": "liczba"
+   "kind": "liczba",
+   "distractors": [
+    "ostatnią",
+    "trzecią od końca",
+    "pierwszą"
+   ]
   },
   {
    "id": "pol7-pp-097",
@@ -1368,7 +1748,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.1.7",
-   "kind": "liczba"
+   "kind": "liczba",
+   "distractors": [
+    "przedostatnią",
+    "ostatnią",
+    "czwartą od końca"
+   ]
   },
   {
    "id": "pol7-pp-098",
@@ -1383,7 +1768,8 @@
    "kind": "liczba",
    "distractors": [
     "trzecią",
-    "przedostatnią"
+    "przedostatnią",
+    "ostatnią"
    ]
   },
   {
@@ -1396,7 +1782,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.1",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "neologizm",
+    "zapożyczenie",
+    "kolokwializm"
+   ]
   },
   {
    "id": "pol7-pp-100",
@@ -1408,7 +1799,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.1",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "archaizm",
+    "neologizm",
+    "wulgaryzm"
+   ]
   },
   {
    "id": "pol7-pp-101",
@@ -1423,7 +1819,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.1",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "neologizm",
+    "archaizm",
+    "kolokwializm"
+   ]
   },
   {
    "id": "pol7-pp-102",
@@ -1453,7 +1854,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.4",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "synonimy",
+    "antonimy",
+    "wyrazy pokrewne"
+   ]
   },
   {
    "id": "pol7-pp-104",
@@ -1469,7 +1875,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.6",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "potoczny",
+    "naukowy",
+    "artystyczny"
+   ]
   },
   {
    "id": "pol7-pp-105",
@@ -1485,7 +1896,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4.1",
-   "kind": "wyraz"
+   "kind": "wyraz",
+   "distractors": [
+    "stópka",
+    "stóg",
+    "stójka"
+   ]
   },
   {
    "id": "pol7-pp-106",
@@ -1500,7 +1916,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4.1",
-   "kind": "wyraz"
+   "kind": "wyraz",
+   "distractors": [
+    "mórz",
+    "marzyć",
+    "może"
+   ]
   },
   {
    "id": "pol7-pp-107",
@@ -1530,7 +1951,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4.4",
-   "kind": "zasada ortograficzna"
+   "kind": "zasada ortograficzna",
+   "distractors": [
+    "rozdzielnie",
+    "z łącznikiem",
+    "wielką literą"
+   ]
   },
   {
    "id": "pol7-pp-109",
@@ -1546,7 +1972,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4.4",
-   "kind": "zasada ortograficzna"
+   "kind": "zasada ortograficzna",
+   "distractors": [
+    "łącznie",
+    "z łącznikiem",
+    "wielką literą"
+   ]
   },
   {
    "id": "pol7-pp-110",
@@ -1560,7 +1991,9 @@
    "pp": "II.4.4",
    "kind": "zasada ortograficzna",
    "distractors": [
-    "rozdzielnie"
+    "rozdzielnie",
+    "z łącznikiem",
+    "wielką literą"
    ]
   },
   {
@@ -1573,7 +2006,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4.2",
-   "kind": "zasada ortograficzna"
+   "kind": "zasada ortograficzna",
+   "distractors": [
+    "przecinek",
+    "średnik",
+    "myślnik"
+   ]
   },
   {
    "id": "pol7-pp-112",
@@ -1588,7 +2026,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4.2",
-   "kind": "zasada ortograficzna"
+   "kind": "zasada ortograficzna",
+   "distractors": [
+    "nawias",
+    "myślnik",
+    "dwukropek"
+   ]
   },
   {
    "id": "pol7-pp-113",
@@ -1600,7 +2043,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.4.2",
-   "kind": "zasada ortograficzna"
+   "kind": "zasada ortograficzna",
+   "distractors": [
+    "myślnikiem",
+    "gwiazdką",
+    "średnikiem"
+   ]
   },
   {
    "id": "pol7-pp-114",
@@ -1636,7 +2084,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2.1",
-   "kind": "forma wypowiedzi"
+   "kind": "forma wypowiedzi",
+   "distractors": [
+    "list motywacyjny",
+    "zaproszenie",
+    "ogłoszenie"
+   ]
   },
   {
    "id": "pol7-pp-117",
@@ -1648,7 +2101,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2.1",
-   "kind": "forma wypowiedzi"
+   "kind": "forma wypowiedzi",
+   "distractors": [
+    "list motywacyjny",
+    "podanie",
+    "zaświadczenie"
+   ]
   },
   {
    "id": "pol7-pp-118",
@@ -1660,7 +2118,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2.1",
-   "kind": "forma wypowiedzi"
+   "kind": "forma wypowiedzi",
+   "distractors": [
+    "podanie",
+    "życiorys",
+    "list otwarty"
+   ]
   },
   {
    "id": "pol7-pp-119",
@@ -1675,7 +2138,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2.1",
-   "kind": "forma wypowiedzi"
+   "kind": "forma wypowiedzi",
+   "distractors": [
+    "wywiad",
+    "dyskusja",
+    "dedykacja"
+   ]
   },
   {
    "id": "pol7-pp-120",
@@ -1687,7 +2155,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2.2",
-   "kind": "forma wypowiedzi"
+   "kind": "forma wypowiedzi",
+   "distractors": [
+    "recenzja",
+    "rozprawka",
+    "opis"
+   ]
   },
   {
    "id": "pol7-pp-121",
@@ -1723,7 +2196,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.1.5",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "teza",
+    "wniosek",
+    "hipoteza"
+   ]
   }
  ]
 }
