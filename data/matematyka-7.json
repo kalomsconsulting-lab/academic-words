@@ -2066,6 +2066,265 @@
    "source": "Podstawa programowa",
    "pp": "XIII.3",
    "kind": "liczba"
+  },
+  {
+   "id": "mat7-pp-125",
+   "type": "order",
+   "prompt": "Ułóż ogólną kolejność wykonywania działań w wyrażeniu arytmetycznym",
+   "steps": [
+    "działania w nawiasach",
+    "potęgowanie i pierwiastkowanie",
+    "mnożenie i dzielenie (od lewej do prawej)",
+    "dodawanie i odejmowanie (od lewej do prawej)"
+   ],
+   "explanation": "Najpierw liczy się nawiasy, potem potęgi i pierwiastki, następnie mnożenie i dzielenie, a na końcu dodawanie i odejmowanie.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "mat7-pp-126",
+   "type": "order",
+   "prompt": "Ułóż kroki zapisu liczby 45 000 000 w notacji wykładniczej",
+   "steps": [
+    "Przesuń przecinek tak, aby powstała liczba od 1 do 10: 4,5",
+    "Policz, o ile miejsc przesunięto przecinek: 7",
+    "Zapisz tę liczbę miejsc jako potęgę dziesiątki: 10^7",
+    "Zapisz wynik jako iloczyn: 4,5 · 10^7"
+   ],
+   "explanation": "W notacji wykładniczej liczba ma postać a · 10^n, gdzie 1 ≤ a < 10.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "mat7-pp-127",
+   "type": "order",
+   "prompt": "Ułóż etapy rozwiązywania równania 3(x − 2) = x + 4",
+   "steps": [
+    "Opuść nawias: 3x − 6 = x + 4",
+    "Przenieś niewiadome na lewą stronę, a liczby na prawą: 3x − x = 4 + 6",
+    "Zredukuj wyrazy podobne: 2x = 10",
+    "Podziel obie strony przez 2: x = 5",
+    "Sprawdź: 3 · (5 − 2) = 9 i 5 + 4 = 9"
+   ],
+   "explanation": "Każdy krok daje równanie równoważne, a sprawdzenie potwierdza, że x = 5 spełnia równanie wyjściowe.",
+   "category": "mat7_equations",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VI.2"
+  },
+  {
+   "id": "mat7-pp-128",
+   "type": "order",
+   "prompt": "Ułóż etapy rozwiązywania zadania tekstowego za pomocą równania",
+   "steps": [
+    "Przeczytaj zadanie i oznacz niewiadomą, np. x",
+    "Zapisz pozostałe wielkości z zadania za pomocą x",
+    "Ułóż równanie opisujące sytuację z zadania",
+    "Rozwiąż równanie",
+    "Sprawdź wynik z treścią zadania i zapisz odpowiedź"
+   ],
+   "explanation": "Najpierw ustala się, co oznacza x, potem buduje równanie, a na końcu sprawdza, czy wynik ma sens w zadaniu.",
+   "category": "mat7_equations",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VI.4"
+  },
+  {
+   "id": "mat7-pp-129",
+   "type": "order",
+   "prompt": "Ułóż kroki obliczania ceny bluzy za 150 zł po obniżce o 20%",
+   "steps": [
+    "Zamień procent na ułamek: 20% = 0,2",
+    "Oblicz wartość obniżki: 0,2 · 150 zł = 30 zł",
+    "Odejmij obniżkę od ceny początkowej: 150 zł − 30 zł",
+    "Zapisz nową cenę: 120 zł"
+   ],
+   "explanation": "Obniżka o 20% to odjęcie 20% ceny, czyli nowa cena to 80% ceny początkowej.",
+   "category": "mat7_percent",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mat7-pp-130",
+   "type": "order",
+   "prompt": "Ułóż kroki obliczania średniej arytmetycznej ocen 3, 4, 4, 5",
+   "steps": [
+    "Dodaj wszystkie liczby: 3 + 4 + 4 + 5 = 16",
+    "Policz, ile jest liczb: 4",
+    "Podziel sumę przez liczbę składników: 16 : 4",
+    "Zapisz wynik: średnia = 4"
+   ],
+   "explanation": "Średnia arytmetyczna to suma wszystkich wartości podzielona przez ich liczbę.",
+   "category": "mat7_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XIII.3"
+  },
+  {
+   "id": "mat7-pp-131",
+   "type": "order",
+   "prompt": "Ułóż kroki obliczania przeciwprostokątnej trójkąta prostokątnego o przyprostokątnych 6 i 8",
+   "steps": [
+    "Zapisz twierdzenie Pitagorasa: a^2 + b^2 = c^2",
+    "Podstaw dane: 6^2 + 8^2 = c^2",
+    "Oblicz sumę kwadratów: 36 + 64 = 100",
+    "Wyciągnij pierwiastek: c = √100 = 10"
+   ],
+   "explanation": "W trójkącie prostokątnym suma kwadratów przyprostokątnych równa się kwadratowi przeciwprostokątnej.",
+   "category": "mat7_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.7"
+  },
+  {
+   "id": "mat7-pp-132",
+   "type": "order",
+   "prompt": "Ułóż kroki obliczania objętości graniastosłupa prostego",
+   "steps": [
+    "Rozpoznaj figurę w podstawie i odczytaj jej wymiary",
+    "Oblicz pole podstawy Pp",
+    "Odczytaj wysokość graniastosłupa H",
+    "Pomnóż pole podstawy przez wysokość: V = Pp · H",
+    "Zapisz wynik w jednostkach sześciennych"
+   ],
+   "explanation": "Objętość graniastosłupa to iloczyn pola podstawy i wysokości, niezależnie od kształtu podstawy.",
+   "category": "mat7_solids",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-133",
+   "type": "apply",
+   "situation": "Działka ma kształt trapezu o podstawach 30 m i 20 m oraz wysokości 12 m. Jakim wzorem obliczysz jej pole?",
+   "rule": "$$P = \\frac{(a + b) \\cdot h}{2}$$",
+   "wrong": [
+    "$$P = a \\cdot h$$",
+    "$$P = \\frac{a \\cdot h}{2}$$",
+    "$$P = \\frac{d_1 \\cdot d_2}{2}$$"
+   ],
+   "explanation": "Pole trapezu to połowa iloczynu sumy podstaw i wysokości; pozostałe wzory dotyczą równoległoboku, trójkąta i rombu.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-134",
+   "type": "apply",
+   "situation": "Latawiec ma kształt rombu o przekątnych 40 cm i 60 cm. Jakim wzorem obliczysz jego pole?",
+   "rule": "$$P = \\frac{d_1 \\cdot d_2}{2}$$",
+   "wrong": [
+    "$$P = a^2$$",
+    "$$P = a \\cdot h$$",
+    "$$P = \\frac{(a + b) \\cdot h}{2}$$"
+   ],
+   "explanation": "Gdy znane są przekątne rombu, pole to połowa ich iloczynu; wzór P = a · h wymagałby znajomości boku i wysokości.",
+   "category": "mat7_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IX.2"
+  },
+  {
+   "id": "mat7-pp-135",
+   "type": "apply",
+   "situation": "Bluza kosztowała 80 zł, a sklep podniósł cenę o 15%. Które wyrażenie daje nową cenę?",
+   "rule": "$$80 \\cdot 1{,}15$$",
+   "wrong": [
+    "$$80 \\cdot 0{,}85$$",
+    "$$80 \\cdot 0{,}15$$",
+    "$$\\frac{80}{1{,}15}$$"
+   ],
+   "explanation": "Podwyżka o 15% to 115% ceny, czyli mnożenie przez 1,15; mnożenie przez 0,85 odpowiada obniżce, a przez 0,15 daje tylko wartość podwyżki.",
+   "category": "mat7_percent",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mat7-pp-136",
+   "type": "apply",
+   "situation": "Na klasówce 18 z 24 uczniów dostało ocenę co najmniej dobrą. Jak obliczysz, jaki to procent klasy?",
+   "rule": "$$\\frac{18}{24} \\cdot 100\\%$$",
+   "wrong": [
+    "$$\\frac{24}{18} \\cdot 100\\%$$",
+    "$$24 \\cdot \\frac{18}{100}$$",
+    "$$18 \\cdot \\frac{24}{100}$$"
+   ],
+   "explanation": "Jaki procent całości stanowi część: część dzielimy przez całość i mnożymy przez 100%, czyli 75%.",
+   "category": "mat7_percent",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "mat7-pp-137",
+   "type": "apply",
+   "situation": "Akwarium w kształcie prostopadłościanu ma wymiary 60 cm, 30 cm i 40 cm. Jakim wzorem obliczysz, ile wody się w nim mieści?",
+   "rule": "$$V = a \\cdot b \\cdot c$$",
+   "wrong": [
+    "$$P = 2(ab + bc + ac)$$",
+    "$$V = a^3$$",
+    "$$P = a \\cdot b$$"
+   ],
+   "explanation": "Ilość wody to objętość prostopadłościanu, czyli iloczyn trzech wymiarów; pozostałe wzory to pole całkowite, objętość sześcianu i pole prostokąta.",
+   "category": "mat7_solids",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-138",
+   "type": "apply",
+   "situation": "Chcesz okleić folią wszystkie ściany pudełka w kształcie sześcianu o krawędzi 5 cm. Jaki wzór zastosujesz?",
+   "rule": "$$P_c = 6a^2$$",
+   "wrong": [
+    "$$V = a^3$$",
+    "$$P = a^2$$",
+    "$$P_b = 4a^2$$"
+   ],
+   "explanation": "Sześcian ma 6 jednakowych kwadratowych ścian, więc pole całkowite to 6a²; 4a² to tylko pole boczne.",
+   "category": "mat7_solids",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "XI.2"
+  },
+  {
+   "id": "mat7-pp-139",
+   "type": "apply",
+   "situation": "Masz zapisać iloczyn 2^5 · 2^3 w postaci jednej potęgi. Którą własność zastosujesz?",
+   "rule": "$$a^m \\cdot a^n = a^{m+n}$$",
+   "wrong": [
+    "$$a^m : a^n = a^{m-n}$$",
+    "$$(a^m)^n = a^{m \\cdot n}$$",
+    "$$a^n \\cdot b^n = (a \\cdot b)^n$$"
+   ],
+   "explanation": "Przy mnożeniu potęg o tej samej podstawie dodaje się wykładniki: 2^5 · 2^3 = 2^8.",
+   "category": "mat7_numbers",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "mat7-pp-140",
+   "type": "apply",
+   "situation": "Chcesz uprościć √50, wyłączając czynnik przed znak pierwiastka. Którą własność zastosujesz?",
+   "rule": "$$\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}$$",
+   "wrong": [
+    "$$\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$$",
+    "$$(\\sqrt{a})^2 = a$$",
+    "$$\\sqrt[3]{a^3} = a$$"
+   ],
+   "explanation": "√50 = √(25 · 2) = √25 · √2 = 5√2, czyli korzysta się z pierwiastka z iloczynu.",
+   "category": "mat7_numbers",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
   }
  ]
 }
