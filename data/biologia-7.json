@@ -21,7 +21,12 @@
    "answer": "komórka",
    "category": "bio7_body",
    "difficulty": 1,
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "tkanka",
+    "narząd",
+    "organella"
+   ]
   },
   {
    "id": "bio7-002",
@@ -30,7 +35,12 @@
    "answer": "tkanka",
    "category": "bio7_body",
    "difficulty": 1,
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "komórka",
+    "narząd",
+    "układ narządów"
+   ]
   },
   {
    "id": "bio7-003",
@@ -38,7 +48,12 @@
    "text": "Narządy współpracujące ze sobą tworzą {{układ narządów}}.",
    "category": "bio7_body",
    "difficulty": 1,
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "tkankę",
+    "komórkę",
+    "organellę"
+   ]
   },
   {
    "id": "bio7-004",
@@ -51,7 +66,12 @@
    ],
    "category": "bio7_body",
    "difficulty": 2,
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "łączna",
+    "mięśniowa",
+    "nerwowa"
+   ]
   },
   {
    "id": "bio7-005",
@@ -62,7 +82,12 @@
    "difficulty": 1,
    "pp": "III.1.2",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "skóra właściwa",
+    "tkanka podskórna",
+    "tkanka tłuszczowa"
+   ]
   },
   {
    "id": "bio7-006",
@@ -72,7 +97,12 @@
    "difficulty": 1,
    "pp": "III.1.1",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "A",
+    "C",
+    "K"
+   ]
   },
   {
    "id": "bio7-007",
@@ -87,7 +117,12 @@
    "difficulty": 1,
    "pp": "III.1.2",
    "kind": "gruczoł",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "gruczoły łojowe",
+    "gruczoły mlekowe",
+    "gruczoły ślinowe"
+   ]
   },
   {
    "id": "bio7-008",
@@ -98,7 +133,12 @@
    "difficulty": 1,
    "pp": "III.2.3",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "szew",
+    "chrząstkozrost",
+    "więzadło"
+   ]
   },
   {
    "id": "bio7-009",
@@ -122,7 +162,12 @@
    "difficulty": 1,
    "pp": "III.2.3",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "więzadeł",
+    "chrząstek",
+    "stawów"
+   ]
   },
   {
    "id": "bio7-011",
@@ -138,7 +183,12 @@
    "difficulty": 2,
    "pp": "III.2.2",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "białka",
+    "związki organiczne",
+    "tłuszcze"
+   ]
   },
   {
    "id": "bio7-012",
@@ -148,7 +198,12 @@
    "difficulty": 2,
    "pp": "III.2.3",
    "kind": "pojęcie",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "synergistyczne",
+    "gładkie",
+    "poprzecznie prążkowane"
+   ]
   },
   {
    "id": "bio7-013",
@@ -162,7 +217,12 @@
    "difficulty": 1,
    "pp": "III.3.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "jelito grube",
+    "żołądek",
+    "przełyk"
+   ]
   },
   {
    "id": "bio7-014",
@@ -174,7 +234,12 @@
    "difficulty": 1,
    "pp": "III.3.1",
    "kind": "gruczoł",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "trzustka",
+    "pęcherzyk żółciowy",
+    "śledziona"
+   ]
   },
   {
    "id": "bio7-015",
@@ -184,7 +249,12 @@
    "difficulty": 1,
    "pp": "III.3.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "żołądku",
+    "dwunastnicy",
+    "jelicie cienkim"
+   ]
   },
   {
    "id": "bio7-016",
@@ -198,7 +268,12 @@
    "difficulty": 1,
    "pp": "III.3.3",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "cukry proste",
+    "kwasy tłuszczowe",
+    "nukleotydy"
+   ]
   },
   {
    "id": "bio7-017",
@@ -208,7 +283,12 @@
    "difficulty": 1,
    "pp": "III.3.1",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "mlekowy",
+    "octowy",
+    "węglowy"
+   ]
   },
   {
    "id": "bio7-018",
@@ -222,7 +302,12 @@
    "difficulty": 2,
    "pp": "III.3.3",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "witamina C",
+    "witamina D",
+    "witamina A"
+   ]
   },
   {
    "id": "bio7-019",
@@ -236,7 +321,12 @@
    "difficulty": 1,
    "pp": "III.4.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "żyły",
+    "naczynia włosowate",
+    "naczynia limfatyczne"
+   ]
   },
   {
    "id": "bio7-020",
@@ -261,7 +351,12 @@
    "difficulty": 1,
    "pp": "III.4.3",
    "kind": "komórka",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "białe krwinki",
+    "płytki krwi",
+    "limfocyty"
+   ]
   },
   {
    "id": "bio7-022",
@@ -275,7 +370,12 @@
    "difficulty": 1,
    "pp": "III.4.3",
    "kind": "komórka",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "czerwone krwinki",
+    "białe krwinki",
+    "limfocyty"
+   ]
   },
   {
    "id": "bio7-023",
@@ -285,7 +385,12 @@
    "difficulty": 2,
    "pp": "III.4.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "tętnice",
+    "żyły",
+    "naczynia limfatyczne"
+   ]
   },
   {
    "id": "bio7-024",
@@ -299,7 +404,12 @@
    "difficulty": 1,
    "pp": "III.5.2",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "antygeny",
+    "hormony",
+    "enzymy"
+   ]
   },
   {
    "id": "bio7-025",
@@ -329,7 +439,12 @@
    "difficulty": 1,
    "pp": "III.5.5",
    "kind": "choroba",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "anemia",
+    "grypa",
+    "cukrzyca"
+   ]
   },
   {
    "id": "bio7-027",
@@ -340,7 +455,12 @@
    "difficulty": 1,
    "pp": "III.6.2",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "mięsień międzyżebrowy",
+    "mięsień piersiowy większy",
+    "mięsień prosty brzucha"
+   ]
   },
   {
    "id": "bio7-028",
@@ -351,7 +471,12 @@
    "difficulty": 1,
    "pp": "III.6.3",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "oskrzelikach",
+    "oskrzelach",
+    "tchawicy"
+   ]
   },
   {
    "id": "bio7-029",
@@ -361,7 +486,12 @@
    "difficulty": 1,
    "pp": "III.6.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "migdałki",
+    "oskrzela",
+    "pęcherzyki płucne"
+   ]
   },
   {
    "id": "bio7-030",
@@ -375,7 +505,12 @@
    "difficulty": 1,
    "pp": "III.6.3",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "tlen",
+    "azot",
+    "tlenek węgla"
+   ]
   },
   {
    "id": "bio7-031",
@@ -390,7 +525,12 @@
    "difficulty": 2,
    "pp": "III.6.3",
    "kind": "komórka",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "rybosomy",
+    "chloroplasty",
+    "lizosomy"
+   ]
   },
   {
    "id": "bio7-032",
@@ -404,7 +544,12 @@
    "difficulty": 1,
    "pp": "III.7.2",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "wątroba",
+    "pęcherz moczowy",
+    "śledziona"
+   ]
   },
   {
    "id": "bio7-033",
@@ -414,7 +559,12 @@
    "difficulty": 1,
    "pp": "III.7.2",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "cewkę moczową",
+    "nefrony",
+    "tętnice nerkowe"
+   ]
   },
   {
    "id": "bio7-034",
@@ -425,7 +575,12 @@
    "difficulty": 2,
    "pp": "III.7.2",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "neuron",
+    "pęcherzyk płucny",
+    "kosmek jelitowy"
+   ]
   },
   {
    "id": "bio7-035",
@@ -436,7 +591,12 @@
    "difficulty": 1,
    "pp": "III.8.1",
    "kind": "komórka",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "nefron",
+    "erytrocyt",
+    "limfocyt"
+   ]
   },
   {
    "id": "bio7-036",
@@ -446,7 +606,12 @@
    "difficulty": 1,
    "pp": "III.8.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "nerwy czaszkowe",
+    "zwoje nerwowe",
+    "móżdżek"
+   ]
   },
   {
    "id": "bio7-037",
@@ -460,7 +625,12 @@
    "difficulty": 1,
    "pp": "III.8.2",
    "kind": "pojęcie",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "instynkt",
+    "nawyk",
+    "homeostaza"
+   ]
   },
   {
    "id": "bio7-038",
@@ -471,7 +641,12 @@
    "difficulty": 2,
    "pp": "III.8.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "kora mózgowa",
+    "rdzeń przedłużony",
+    "podwzgórze"
+   ]
   },
   {
    "id": "bio7-039",
@@ -485,7 +660,12 @@
    "difficulty": 1,
    "pp": "III.9.1",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "rogówka",
+    "twardówka",
+    "naczyniówka"
+   ]
   },
   {
    "id": "bio7-040",
@@ -495,10 +675,12 @@
    "difficulty": 2,
    "pp": "III.9.2",
    "kind": "pojęcie",
+   "source": "Podstawa programowa",
    "distractors": [
-    "skupiającymi"
-   ],
-   "source": "Podstawa programowa"
+    "skupiającymi",
+    "wypukłymi",
+    "cylindrycznymi"
+   ]
   },
   {
    "id": "bio7-041",
@@ -513,7 +695,12 @@
    "difficulty": 1,
    "pp": "III.9.6",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "ucho środkowe",
+    "ucho zewnętrzne",
+    "małżowina uszna"
+   ]
   },
   {
    "id": "bio7-042",
@@ -524,7 +711,12 @@
    "difficulty": 1,
    "pp": "III.10.1",
    "kind": "substancja",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "glukagon",
+    "adrenalina",
+    "tyroksyna"
+   ]
   },
   {
    "id": "bio7-043",
@@ -539,7 +731,12 @@
    "difficulty": 1,
    "pp": "III.10.1",
    "kind": "gruczoł",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "trzustka",
+    "tarczyca",
+    "przysadka mózgowa"
+   ]
   },
   {
    "id": "bio7-044",
@@ -549,7 +746,12 @@
    "difficulty": 1,
    "pp": "III.10.1",
    "kind": "choroba",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "miażdżycą",
+    "anemią",
+    "gruźlicą"
+   ]
   },
   {
    "id": "bio7-045",
@@ -559,7 +761,12 @@
    "difficulty": 2,
    "pp": "III.10.1",
    "kind": "gruczoł",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "tarczyca",
+    "trzustka",
+    "szyszynka"
+   ]
   },
   {
    "id": "bio7-046",
@@ -574,7 +781,12 @@
    "difficulty": 1,
    "pp": "III.11.3",
    "kind": "narząd",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "macica",
+    "jajnik",
+    "pochwa"
+   ]
   },
   {
    "id": "bio7-047",
@@ -584,7 +796,12 @@
    "difficulty": 1,
    "pp": "III.11.1",
    "kind": "komórka",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "komórki jajowe",
+    "zygoty",
+    "pęcherzyki jajnikowe"
+   ]
   },
   {
    "id": "bio7-048",
@@ -598,7 +815,12 @@
    "difficulty": 1,
    "pp": "III.11.5",
    "kind": "proces",
-   "source": "Podstawa programowa"
+   "source": "Podstawa programowa",
+   "distractors": [
+    "starość",
+    "dzieciństwo",
+    "niemowlęctwo"
+   ]
   },
   {
    "id": "bio7-049",
@@ -621,7 +843,12 @@
    "text": "Utrzymywanie stałych warunków wewnątrz organizmu to {{homeostaza}}.",
    "category": "bio7_health",
    "difficulty": 1,
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "metabolizm",
+    "adaptacja",
+    "odporność"
+   ]
   },
   {
    "id": "bio7-051",
@@ -650,7 +877,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1.2",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "naskórek",
+    "tkanka podskórna",
+    "warstwa rogowa"
+   ]
   },
   {
    "id": "bio7-pp-002",
@@ -662,7 +894,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1.1",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "keratyna",
+    "hemoglobina",
+    "karoten"
+   ]
   },
   {
    "id": "bio7-pp-003",
@@ -674,7 +911,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1.4",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "grzybica",
+    "trądzik",
+    "łuszczyca"
+   ]
   },
   {
    "id": "bio7-pp-004",
@@ -686,7 +928,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "rentgenowskie",
+    "podczerwone",
+    "mikrofalowe"
+   ]
   },
   {
    "id": "bio7-pp-005",
@@ -702,7 +949,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1.4",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "trądzik",
+    "łuszczyca",
+    "czerniak"
+   ]
   },
   {
    "id": "bio7-pp-006",
@@ -717,7 +969,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "szkielet kończyn",
+    "obręcz barkowa",
+    "obręcz miedniczna"
+   ]
   },
   {
    "id": "bio7-pp-007",
@@ -729,7 +986,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.2.2",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "keratyna",
+    "hemoglobina",
+    "miozyna"
+   ]
   },
   {
    "id": "bio7-pp-008",
@@ -741,7 +1003,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2.5",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "krzywica",
+    "osteoporoza",
+    "płaskostopie"
+   ]
   },
   {
    "id": "bio7-pp-009",
@@ -752,7 +1019,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.2.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "kruchość",
+    "łamliwość",
+    "porowatość"
+   ]
   },
   {
    "id": "bio7-pp-010",
@@ -764,7 +1036,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3.2",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "kły",
+    "trzonowce",
+    "przedtrzonowce"
+   ]
   },
   {
    "id": "bio7-pp-011",
@@ -775,7 +1052,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.3.2",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "zasady",
+    "sole",
+    "tłuszcze"
+   ]
   },
   {
    "id": "bio7-pp-012",
@@ -791,7 +1073,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "białka",
+    "tłuszcze",
+    "witaminy"
+   ]
   },
   {
    "id": "bio7-pp-013",
@@ -803,7 +1090,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3.4",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "skrobia",
+    "glukoza",
+    "białko"
+   ]
   },
   {
    "id": "bio7-pp-014",
@@ -818,7 +1110,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3.5",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "bulimia",
+    "otyłość",
+    "cukrzyca"
+   ]
   },
   {
    "id": "bio7-pp-015",
@@ -832,7 +1129,8 @@
    "kind": "pojęcie",
    "distractors": [
     "płciową",
-    "kropelkową"
+    "kropelkową",
+    "krwiopochodną"
    ]
   },
   {
@@ -848,7 +1146,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "komora",
+    "zastawka",
+    "aorta"
+   ]
   },
   {
    "id": "bio7-pp-017",
@@ -862,7 +1165,8 @@
    "kind": "pojęcie",
    "distractors": [
     "duży",
-    "ustrojowy"
+    "ustrojowy",
+    "wieńcowy"
    ]
   },
   {
@@ -875,7 +1179,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "limfa",
+    "hemoglobina",
+    "płyn tkankowy"
+   ]
   },
   {
    "id": "bio7-pp-019",
@@ -902,7 +1211,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4.7",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "nadciśnienie",
+    "anemia",
+    "zawał serca"
+   ]
   },
   {
    "id": "bio7-pp-021",
@@ -933,7 +1247,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.5.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "naczynia włosowate",
+    "pęcherzyki płucne",
+    "kosmki jelitowe"
+   ]
   },
   {
    "id": "bio7-pp-023",
@@ -946,7 +1265,9 @@
    "pp": "III.5.2",
    "kind": "pojęcie",
    "distractors": [
-    "nabyta"
+    "nabyta",
+    "swoista",
+    "sztuczna"
    ]
   },
   {
@@ -962,7 +1283,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.5.4",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "transfuzja",
+    "szczepienie",
+    "dializa"
+   ]
   },
   {
    "id": "bio7-pp-025",
@@ -985,7 +1311,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.5.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "przeciwciała",
+    "antybiotyki",
+    "hormony"
+   ]
   },
   {
    "id": "bio7-pp-027",
@@ -997,7 +1328,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.6.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "krtań",
+    "tchawica",
+    "przełyk"
+   ]
   },
   {
    "id": "bio7-pp-028",
@@ -1011,7 +1347,8 @@
    "kind": "pojęcie",
    "distractors": [
     "rozkurcza się",
-    "unosi się"
+    "unosi się",
+    "rozluźnia się"
    ]
   },
   {
@@ -1024,7 +1361,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.6.5",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "grypa",
+    "astma",
+    "zapalenie płuc"
+   ]
   },
   {
    "id": "bio7-pp-030",
@@ -1035,7 +1377,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.6.4",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "witaminy",
+    "sole mineralne",
+    "białka"
+   ]
   },
   {
    "id": "bio7-pp-031",
@@ -1047,7 +1394,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.7.1",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "kwas moczowy",
+    "glukoza",
+    "cholesterol"
+   ]
   },
   {
    "id": "bio7-pp-032",
@@ -1062,7 +1414,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.7.3",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "cukrzyca",
+    "zapalenie pęcherza",
+    "niewydolność nerek"
+   ]
   },
   {
    "id": "bio7-pp-033",
@@ -1073,7 +1430,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.7.4",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "mocznika",
+    "wody",
+    "soli mineralnych"
+   ]
   },
   {
    "id": "bio7-pp-034",
@@ -1089,7 +1451,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.8.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "mózgowie",
+    "rdzeń kręgowy",
+    "półkule mózgu"
+   ]
   },
   {
    "id": "bio7-pp-035",
@@ -1100,7 +1467,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.8.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "synapsa",
+    "neuron",
+    "impuls nerwowy"
+   ]
   },
   {
    "id": "bio7-pp-036",
@@ -1115,7 +1487,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.8.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "bezwarunkowy",
+    "wrodzony",
+    "obronny"
+   ]
   },
   {
    "id": "bio7-pp-037",
@@ -1127,7 +1504,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.9.1",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "rogówka",
+    "tęczówka",
+    "źrenica"
+   ]
   },
   {
    "id": "bio7-pp-038",
@@ -1140,7 +1522,9 @@
    "pp": "III.9.2",
    "kind": "pojęcie",
    "distractors": [
-    "rozpraszającymi"
+    "rozpraszającymi",
+    "wklęsłymi",
+    "cylindrycznymi"
    ]
   },
   {
@@ -1153,7 +1537,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.9.3",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "błędnik",
+    "kowadełko",
+    "błona bębenkowa"
+   ]
   },
   {
    "id": "bio7-pp-040",
@@ -1182,7 +1571,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.10.2",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "insulina",
+    "adrenalina",
+    "tyroksyna"
+   ]
   },
   {
    "id": "bio7-pp-042",
@@ -1197,7 +1591,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.11.1",
-   "kind": "gruczoł"
+   "kind": "gruczoł",
+   "distractors": [
+    "macica",
+    "jajowód",
+    "pochwa"
+   ]
   },
   {
    "id": "bio7-pp-043",
@@ -1208,7 +1607,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.11.2",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "menstruacja",
+    "zapłodnienie",
+    "implantacja"
+   ]
   },
   {
    "id": "bio7-pp-044",
@@ -1220,7 +1624,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.11.4",
-   "kind": "komórka"
+   "kind": "komórka",
+   "distractors": [
+    "plemnik",
+    "komórka jajowa",
+    "zarodek"
+   ]
   },
   {
    "id": "bio7-pp-045",
@@ -1232,7 +1641,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.11.4",
-   "kind": "narząd"
+   "kind": "narząd",
+   "distractors": [
+    "macica",
+    "jajnik",
+    "jajowód"
+   ]
   },
   {
    "id": "bio7-pp-046",
@@ -1244,7 +1658,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.8.5",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "kofeina",
+    "alkohol",
+    "tlenek węgla"
+   ]
   },
   {
    "id": "bio7-pp-047",
@@ -1255,7 +1674,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.8.5",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "nikotyny",
+    "alkoholu",
+    "cukru"
+   ]
   },
   {
    "id": "bio7-pp-048",
@@ -1267,7 +1691,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.8.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "trening",
+    "suplementacja",
+    "rozgrzewka"
+   ]
   },
   {
    "id": "bio7-pp-049",
@@ -1278,7 +1707,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.8.5",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "leki",
+    "antybiotyki",
+    "suplementy diety"
+   ]
   },
   {
    "id": "bio7-pp-050",
@@ -1290,7 +1724,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.11.6",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "AIDS",
+    "rzeżączka",
+    "chlamydioza"
+   ]
   },
   {
    "id": "bio7-pp-051",
@@ -1301,7 +1740,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.11.6",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "antybiotyków",
+    "szczepionki",
+    "tabletek antykoncepcyjnych"
+   ]
   }
  ]
 }
