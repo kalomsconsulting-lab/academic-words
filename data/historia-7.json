@@ -1,6 +1,23 @@
 {
  "version": 1,
  "subject": "historia_sp7",
+ "kinds": [
+  "postać",
+  "dowódca",
+  "polityk",
+  "państwo",
+  "region",
+  "miasto",
+  "organizacja",
+  "partia",
+  "dokument",
+  "ustrój",
+  "polityka",
+  "wydarzenie",
+  "rok",
+  "liczba",
+  "pojęcie"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, historia, działy XVIII–XXX (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996); zakres klasy 7: od epoki napoleońskiej do paktu Ribbentrop–Mołotow",
  "items": [
@@ -17,7 +34,8 @@
    "category": "his7_napoleon",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XVIII.1"
+   "pp": "XVIII.1",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-002",
@@ -33,7 +51,8 @@
    "category": "his7_napoleon",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XVIII.1"
+   "pp": "XVIII.1",
+   "kind": "dokument"
   },
   {
    "id": "his7-pp-003",
@@ -44,7 +63,8 @@
    "category": "his7_napoleon",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XVIII.1"
+   "pp": "XVIII.1",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-004",
@@ -60,7 +80,8 @@
    "category": "his7_napoleon",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XVIII.2"
+   "pp": "XVIII.2",
+   "kind": "dowódca"
   },
   {
    "id": "his7-pp-005",
@@ -71,7 +92,8 @@
    "category": "his7_napoleon",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XVIII.2"
+   "pp": "XVIII.2",
+   "kind": "postać"
   },
   {
    "id": "his7-pp-006",
@@ -83,7 +105,8 @@
    "category": "his7_napoleon",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XVIII.2"
+   "pp": "XVIII.2",
+   "kind": "państwo"
   },
   {
    "id": "his7-pp-007",
@@ -99,7 +122,8 @@
    "category": "his7_napoleon",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XVIII.2"
+   "pp": "XVIII.2",
+   "kind": "dowódca"
   },
   {
    "id": "his7-pp-008",
@@ -114,7 +138,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.1"
+   "pp": "XIX.1",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-009",
@@ -128,7 +153,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.1"
+   "pp": "XIX.1",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-010",
@@ -139,7 +165,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.1"
+   "pp": "XIX.1",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-011",
@@ -151,7 +178,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.1"
+   "pp": "XIX.1",
+   "kind": "organizacja"
   },
   {
    "id": "his7-pp-012",
@@ -166,7 +194,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.1"
+   "pp": "XIX.1",
+   "kind": "państwo"
   },
   {
    "id": "his7-pp-013",
@@ -182,7 +211,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.2"
+   "pp": "XIX.2",
+   "kind": "państwo"
   },
   {
    "id": "his7-pp-014",
@@ -196,7 +226,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.2"
+   "pp": "XIX.2",
+   "kind": "postać"
   },
   {
    "id": "his7-pp-015",
@@ -207,7 +238,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.2"
+   "pp": "XIX.2",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-016",
@@ -218,7 +250,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIX.2"
+   "pp": "XIX.2",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-017",
@@ -232,7 +265,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.1"
+   "pp": "XX.1",
+   "kind": "postać"
   },
   {
    "id": "his7-pp-018",
@@ -243,7 +277,8 @@
    "category": "his7_partitions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XX.1"
+   "pp": "XX.1",
+   "kind": "ustrój"
   },
   {
    "id": "his7-pp-019",
@@ -259,7 +294,8 @@
    "category": "his7_partitions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XX.1"
+   "pp": "XX.1",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-020",
@@ -273,7 +309,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.1"
+   "pp": "XX.1",
+   "kind": "organizacja"
   },
   {
    "id": "his7-pp-021",
@@ -288,7 +325,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.2"
+   "pp": "XX.2",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-022",
@@ -302,7 +340,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.2"
+   "pp": "XX.2",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-023",
@@ -317,7 +356,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.2"
+   "pp": "XX.2",
+   "kind": "dowódca"
   },
   {
    "id": "his7-pp-024",
@@ -328,7 +368,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XX.2"
+   "pp": "XX.2",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-025",
@@ -343,7 +384,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XX.2"
+   "pp": "XX.2",
+   "kind": "miasto"
   },
   {
    "id": "his7-pp-026",
@@ -354,7 +396,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XX.2"
+   "pp": "XX.2",
+   "kind": "dokument"
   },
   {
    "id": "his7-pp-027",
@@ -366,7 +409,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.3"
+   "pp": "XX.3",
+   "kind": "region"
   },
   {
    "id": "his7-pp-028",
@@ -380,7 +424,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.3"
+   "pp": "XX.3",
+   "kind": "państwo"
   },
   {
    "id": "his7-pp-029",
@@ -391,7 +436,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.3"
+   "pp": "XX.3",
+   "kind": "region"
   },
   {
    "id": "his7-pp-030",
@@ -403,7 +449,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.4"
+   "pp": "XX.4",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-031",
@@ -418,7 +465,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XX.4"
+   "pp": "XX.4",
+   "kind": "państwo"
   },
   {
    "id": "his7-pp-032",
@@ -434,7 +482,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XX.4"
+   "pp": "XX.4",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-033",
@@ -449,7 +498,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXI.1"
+   "pp": "XXI.1",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-034",
@@ -461,7 +511,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXI.1"
+   "pp": "XXI.1",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-035",
@@ -476,7 +527,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXI.1"
+   "pp": "XXI.1",
+   "kind": "partia"
   },
   {
    "id": "his7-pp-036",
@@ -491,7 +543,8 @@
    "category": "his7_uprisings",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXI.1"
+   "pp": "XXI.1",
+   "kind": "partia"
   },
   {
    "id": "his7-pp-037",
@@ -505,7 +558,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXI.2"
+   "pp": "XXI.2",
+   "kind": "dowódca"
   },
   {
    "id": "his7-pp-038",
@@ -516,7 +570,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXI.3"
+   "pp": "XXI.3",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-039",
@@ -529,7 +584,8 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXI.3",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-040",
@@ -540,7 +596,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXI.4"
+   "pp": "XXI.4",
+   "kind": "region"
   },
   {
    "id": "his7-pp-041",
@@ -556,7 +613,8 @@
    "category": "his7_vienna",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXII.1"
+   "pp": "XXII.1",
+   "kind": "państwo"
   },
   {
    "id": "his7-pp-042",
@@ -570,7 +628,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.1"
+   "pp": "XXII.1",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-043",
@@ -585,7 +644,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.1"
+   "pp": "XXII.1",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-044",
@@ -601,7 +661,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.2"
+   "pp": "XXII.2",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-045",
@@ -615,7 +676,8 @@
    "category": "his7_vienna",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.2"
+   "pp": "XXII.2",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-046",
@@ -626,7 +688,8 @@
    "category": "his7_vienna",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXII.2"
+   "pp": "XXII.2",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-047",
@@ -641,7 +704,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.3"
+   "pp": "XXII.3",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-048",
@@ -656,7 +720,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.3"
+   "pp": "XXII.3",
+   "kind": "państwo"
   },
   {
    "id": "his7-pp-049",
@@ -667,7 +732,8 @@
    "category": "his7_industry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXII.3"
+   "pp": "XXII.3",
+   "kind": "region"
   },
   {
    "id": "his7-pp-050",
@@ -679,7 +745,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.4"
+   "pp": "XXII.4",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-051",
@@ -694,7 +761,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.4"
+   "pp": "XXII.4",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-052",
@@ -705,7 +773,8 @@
    "category": "his7_industry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXII.4"
+   "pp": "XXII.4",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-053",
@@ -717,7 +786,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.1"
+   "pp": "XXIII.1",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-054",
@@ -729,7 +799,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.1"
+   "pp": "XXIII.1",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-055",
@@ -744,7 +815,8 @@
    "category": "his7_partitions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXIII.1"
+   "pp": "XXIII.1",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-056",
@@ -755,7 +827,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.1"
+   "pp": "XXIII.1",
+   "kind": "ustrój"
   },
   {
    "id": "his7-pp-057",
@@ -767,7 +840,8 @@
    "category": "his7_partitions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXIII.1"
+   "pp": "XXIII.1",
+   "kind": "organizacja"
   },
   {
    "id": "his7-pp-058",
@@ -779,7 +853,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.2"
+   "pp": "XXIII.2",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-059",
@@ -793,7 +868,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.2"
+   "pp": "XXIII.2",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-060",
@@ -804,7 +880,8 @@
    "category": "his7_partitions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXIII.2"
+   "pp": "XXIII.2",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-061",
@@ -818,7 +895,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.4"
+   "pp": "XXIII.4",
+   "kind": "partia"
   },
   {
    "id": "his7-pp-062",
@@ -835,7 +913,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.4"
+   "pp": "XXIII.4",
+   "kind": "partia"
   },
   {
    "id": "his7-pp-063",
@@ -849,7 +928,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.4"
+   "pp": "XXIII.4",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-064",
@@ -860,7 +940,8 @@
    "category": "his7_partitions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXIII.4"
+   "pp": "XXIII.4",
+   "kind": "partia"
   },
   {
    "id": "his7-pp-065",
@@ -876,7 +957,8 @@
    "category": "his7_partitions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIII.5"
+   "pp": "XXIII.5",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-066",
@@ -887,7 +969,8 @@
    "category": "his7_partitions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXIII.5"
+   "pp": "XXIII.5",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-067",
@@ -901,7 +984,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.1"
+   "pp": "XXIV.1",
+   "kind": "organizacja"
   },
   {
    "id": "his7-pp-068",
@@ -917,7 +1001,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.1"
+   "pp": "XXIV.1",
+   "kind": "organizacja"
   },
   {
    "id": "his7-pp-069",
@@ -933,7 +1018,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.1"
+   "pp": "XXIV.1",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-070",
@@ -944,7 +1030,11 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.2"
+   "pp": "XXIV.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "manewrową"
+   ]
   },
   {
    "id": "his7-pp-071",
@@ -958,7 +1048,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.3"
+   "pp": "XXIV.3",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-072",
@@ -976,7 +1067,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.3"
+   "pp": "XXIV.3",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-073",
@@ -990,7 +1082,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.4"
+   "pp": "XXIV.4",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-074",
@@ -1004,7 +1097,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIV.4"
+   "pp": "XXIV.4",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-075",
@@ -1019,7 +1113,8 @@
    "category": "his7_ww1",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXV.1"
+   "pp": "XXV.1",
+   "kind": "dokument"
   },
   {
    "id": "his7-pp-076",
@@ -1036,7 +1131,8 @@
    "category": "his7_ww1",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXV.1"
+   "pp": "XXV.1",
+   "kind": "liczba"
   },
   {
    "id": "his7-pp-077",
@@ -1050,7 +1146,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXV.2"
+   "pp": "XXV.2",
+   "kind": "dowódca"
   },
   {
    "id": "his7-pp-078",
@@ -1061,7 +1158,8 @@
    "category": "his7_ww1",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXV.2"
+   "pp": "XXV.2",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-079",
@@ -1077,7 +1175,8 @@
    "category": "his7_ww1",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXV.2"
+   "pp": "XXV.2",
+   "kind": "organizacja"
   },
   {
    "id": "his7-pp-080",
@@ -1092,7 +1191,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVI.2"
+   "pp": "XXVI.2",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-081",
@@ -1106,7 +1206,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVI.2"
+   "pp": "XXVI.2",
+   "kind": "dokument"
   },
   {
    "id": "his7-pp-082",
@@ -1118,7 +1219,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVI.2"
+   "pp": "XXVI.2",
+   "kind": "organizacja"
   },
   {
    "id": "his7-pp-083",
@@ -1129,7 +1231,8 @@
    "category": "his7_interwar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXVI.2"
+   "pp": "XXVI.2",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-084",
@@ -1143,7 +1246,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVI.3"
+   "pp": "XXVI.3",
+   "kind": "ustrój"
   },
   {
    "id": "his7-pp-085",
@@ -1157,7 +1261,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVI.3"
+   "pp": "XXVI.3",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-086",
@@ -1171,7 +1276,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVI.3"
+   "pp": "XXVI.3",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-087",
@@ -1187,7 +1293,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVII.1"
+   "pp": "XXVII.1",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-088",
@@ -1202,7 +1309,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVII.1"
+   "pp": "XXVII.1",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-089",
@@ -1214,7 +1322,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVII.2"
+   "pp": "XXVII.2",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-090",
@@ -1228,7 +1337,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVII.2"
+   "pp": "XXVII.2",
+   "kind": "liczba"
   },
   {
    "id": "his7-pp-091",
@@ -1244,7 +1354,8 @@
    "category": "his7_ii_rp",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXVII.2"
+   "pp": "XXVII.2",
+   "kind": "region"
   },
   {
    "id": "his7-pp-092",
@@ -1255,7 +1366,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVII.2"
+   "pp": "XXVII.2",
+   "kind": "miasto"
   },
   {
    "id": "his7-pp-093",
@@ -1270,7 +1382,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVII.3"
+   "pp": "XXVII.3",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-094",
@@ -1284,7 +1397,8 @@
    "category": "his7_ii_rp",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXVII.3"
+   "pp": "XXVII.3",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-095",
@@ -1295,7 +1409,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVII.3"
+   "pp": "XXVII.3",
+   "kind": "dokument"
   },
   {
    "id": "his7-pp-096",
@@ -1310,7 +1425,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVIII.2"
+   "pp": "XXVIII.2",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-097",
@@ -1321,7 +1437,8 @@
    "category": "his7_ii_rp",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXVIII.2"
+   "pp": "XXVIII.2",
+   "kind": "ustrój"
   },
   {
    "id": "his7-pp-098",
@@ -1335,7 +1452,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVIII.3"
+   "pp": "XXVIII.3",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-099",
@@ -1350,7 +1468,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVIII.3"
+   "pp": "XXVIII.3",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-100",
@@ -1365,7 +1484,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVIII.4"
+   "pp": "XXVIII.4",
+   "kind": "ustrój"
   },
   {
    "id": "his7-pp-101",
@@ -1377,7 +1497,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXVIII.4"
+   "pp": "XXVIII.4",
+   "kind": "dokument"
   },
   {
    "id": "his7-pp-102",
@@ -1388,7 +1509,8 @@
    "category": "his7_ii_rp",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXVIII.5"
+   "pp": "XXVIII.5",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-103",
@@ -1402,7 +1524,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIX.1"
+   "pp": "XXIX.1",
+   "kind": "pojęcie"
   },
   {
    "id": "his7-pp-104",
@@ -1416,7 +1539,8 @@
    "category": "his7_ii_rp",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXIX.2"
+   "pp": "XXIX.2",
+   "kind": "polityk"
   },
   {
    "id": "his7-pp-105",
@@ -1428,7 +1552,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIX.2"
+   "pp": "XXIX.2",
+   "kind": "miasto"
   },
   {
    "id": "his7-pp-106",
@@ -1442,7 +1567,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIX.2"
+   "pp": "XXIX.2",
+   "kind": "region"
   },
   {
    "id": "his7-pp-107",
@@ -1457,7 +1583,8 @@
    "category": "his7_ii_rp",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXIX.3"
+   "pp": "XXIX.3",
+   "kind": "postać"
   },
   {
    "id": "his7-pp-108",
@@ -1472,7 +1599,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXX.1"
+   "pp": "XXX.1",
+   "kind": "wydarzenie"
   },
   {
    "id": "his7-pp-109",
@@ -1488,7 +1616,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXX.2"
+   "pp": "XXX.2",
+   "kind": "miasto"
   },
   {
    "id": "his7-pp-110",
@@ -1499,7 +1628,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXX.2"
+   "pp": "XXX.2",
+   "kind": "polityka"
   },
   {
    "id": "his7-pp-111",
@@ -1516,7 +1646,8 @@
    "category": "his7_interwar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XXX.3"
+   "pp": "XXX.3",
+   "kind": "rok"
   },
   {
    "id": "his7-pp-112",
@@ -1527,7 +1658,8 @@
    "category": "his7_interwar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXX.3"
+   "pp": "XXX.3",
+   "kind": "pojęcie"
   }
  ]
 }
