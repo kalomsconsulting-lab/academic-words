@@ -1,6 +1,18 @@
 {
  "version": 1,
  "subject": "psychology_ib",
+ "kinds": [
+  "method",
+  "concept",
+  "process",
+  "brain structure",
+  "chemical messenger",
+  "bias",
+  "theory",
+  "researcher",
+  "name",
+  "value"
+ ],
  "updated": "2026-10-18",
  "source": "IB Diploma Programme Psychology guide (first assessment 2027): content (biological, cognitive, sociocultural approaches, research methodology), contexts (health and well-being, human development), concepts and classic studies; no Polish core curriculum for this subject",
  "items": [
@@ -18,7 +30,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-002",
@@ -29,7 +42,12 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept",
+   "distractors": [
+    "dependent",
+    "confounding"
+   ]
   },
   {
    "id": "psyib-pp-003",
@@ -44,7 +62,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-004",
@@ -59,7 +78,8 @@
    "category": "psyib_methods",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-005",
@@ -74,7 +94,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-006",
@@ -90,7 +111,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-007",
@@ -101,7 +123,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-008",
@@ -117,7 +140,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-009",
@@ -131,7 +155,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-010",
@@ -146,7 +171,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-011",
@@ -157,7 +183,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-012",
@@ -171,7 +198,8 @@
    "category": "psyib_methods",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-013",
@@ -187,7 +215,8 @@
    "category": "psyib_methods",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-014",
@@ -201,7 +230,8 @@
    "category": "psyib_methods",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-015",
@@ -215,7 +245,8 @@
    "category": "psyib_methods",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-016",
@@ -226,7 +257,8 @@
    "category": "psyib_methods",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB research methodology"
+   "pp": "IB research methodology",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-017",
@@ -242,7 +274,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-018",
@@ -256,7 +289,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "brain structure"
   },
   {
    "id": "psyib-pp-019",
@@ -270,7 +304,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "brain structure"
   },
   {
    "id": "psyib-pp-020",
@@ -284,7 +319,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-021",
@@ -296,7 +332,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "chemical messenger"
   },
   {
    "id": "psyib-pp-022",
@@ -310,7 +347,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "chemical messenger"
   },
   {
    "id": "psyib-pp-023",
@@ -321,7 +359,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "brain structure"
   },
   {
    "id": "psyib-pp-024",
@@ -335,7 +374,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-025",
@@ -347,7 +387,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "chemical messenger"
   },
   {
    "id": "psyib-pp-026",
@@ -359,7 +400,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "chemical messenger"
   },
   {
    "id": "psyib-pp-027",
@@ -373,7 +415,8 @@
    "category": "psyib_biological",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-028",
@@ -385,7 +428,8 @@
    "category": "psyib_biological",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-029",
@@ -400,7 +444,8 @@
    "category": "psyib_biological",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB biological approach"
+   "pp": "IB biological approach",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-030",
@@ -415,7 +460,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-031",
@@ -431,7 +477,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "theory"
   },
   {
    "id": "psyib-pp-032",
@@ -442,7 +489,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "process"
   },
   {
    "id": "psyib-pp-033",
@@ -456,7 +504,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-034",
@@ -472,7 +521,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-035",
@@ -483,7 +533,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-036",
@@ -497,7 +548,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-037",
@@ -512,7 +564,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-038",
@@ -523,7 +576,11 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept",
+   "distractors": [
+    "System 1"
+   ]
   },
   {
    "id": "psyib-pp-039",
@@ -535,7 +592,8 @@
    "category": "psyib_cognitive",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "bias"
   },
   {
    "id": "psyib-pp-040",
@@ -550,7 +608,8 @@
    "category": "psyib_cognitive",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "bias"
   },
   {
    "id": "psyib-pp-041",
@@ -566,7 +625,8 @@
    "category": "psyib_cognitive",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "bias"
   },
   {
    "id": "psyib-pp-042",
@@ -577,7 +637,8 @@
    "category": "psyib_cognitive",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-043",
@@ -592,7 +653,8 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "theory"
   },
   {
    "id": "psyib-pp-044",
@@ -603,7 +665,8 @@
    "category": "psyib_social",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "process"
   },
   {
    "id": "psyib-pp-045",
@@ -614,7 +677,11 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept",
+   "distractors": [
+    "out-group"
+   ]
   },
   {
    "id": "psyib-pp-046",
@@ -630,7 +697,8 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "theory"
   },
   {
    "id": "psyib-pp-047",
@@ -644,7 +712,8 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "process"
   },
   {
    "id": "psyib-pp-048",
@@ -659,7 +728,8 @@
    "category": "psyib_social",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-049",
@@ -674,7 +744,8 @@
    "category": "psyib_social",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-050",
@@ -691,7 +762,8 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-051",
@@ -705,7 +777,8 @@
    "category": "psyib_social",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-052",
@@ -716,7 +789,8 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "bias"
   },
   {
    "id": "psyib-pp-053",
@@ -728,7 +802,8 @@
    "category": "psyib_social",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "process"
   },
   {
    "id": "psyib-pp-054",
@@ -740,7 +815,8 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "process"
   },
   {
    "id": "psyib-pp-055",
@@ -751,7 +827,8 @@
    "category": "psyib_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-056",
@@ -762,7 +839,13 @@
    "category": "psyib_development",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "concept",
+   "distractors": [
+    "preoperational",
+    "concrete operational",
+    "formal operational"
+   ]
   },
   {
    "id": "psyib-pp-057",
@@ -778,7 +861,8 @@
    "category": "psyib_development",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-058",
@@ -793,7 +877,8 @@
    "category": "psyib_development",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-059",
@@ -805,7 +890,8 @@
    "category": "psyib_development",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "process"
   },
   {
    "id": "psyib-pp-060",
@@ -816,7 +902,11 @@
    "category": "psyib_development",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "process",
+   "distractors": [
+    "assimilation"
+   ]
   },
   {
    "id": "psyib-pp-061",
@@ -831,7 +921,8 @@
    "category": "psyib_development",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-062",
@@ -843,7 +934,8 @@
    "category": "psyib_development",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-063",
@@ -858,7 +950,8 @@
    "category": "psyib_development",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "name"
   },
   {
    "id": "psyib-pp-064",
@@ -869,7 +962,12 @@
    "category": "psyib_development",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB human development"
+   "pp": "IB human development",
+   "kind": "concept",
+   "distractors": [
+    "insecure-avoidant",
+    "insecure-resistant"
+   ]
   },
   {
    "id": "psyib-pp-065",
@@ -884,7 +982,8 @@
    "category": "psyib_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB health and wellbeing"
+   "pp": "IB health and wellbeing",
+   "kind": "theory"
   },
   {
    "id": "psyib-pp-066",
@@ -895,7 +994,8 @@
    "category": "psyib_health",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB health and wellbeing"
+   "pp": "IB health and wellbeing",
+   "kind": "theory"
   },
   {
    "id": "psyib-pp-067",
@@ -910,7 +1010,8 @@
    "category": "psyib_health",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB health and wellbeing"
+   "pp": "IB health and wellbeing",
+   "kind": "theory"
   },
   {
    "id": "psyib-pp-068",
@@ -926,7 +1027,8 @@
    "category": "psyib_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB health and wellbeing"
+   "pp": "IB health and wellbeing",
+   "kind": "name"
   },
   {
    "id": "psyib-pp-069",
@@ -940,7 +1042,8 @@
    "category": "psyib_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB health and wellbeing"
+   "pp": "IB health and wellbeing",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-070",
@@ -956,7 +1059,8 @@
    "category": "psyib_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB health and wellbeing"
+   "pp": "IB health and wellbeing",
+   "kind": "method"
   },
   {
    "id": "psyib-pp-071",
@@ -967,7 +1071,11 @@
    "category": "psyib_health",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB health and wellbeing"
+   "pp": "IB health and wellbeing",
+   "kind": "concept",
+   "distractors": [
+    "emotion-focused"
+   ]
   },
   {
    "id": "psyib-pp-072",
@@ -981,7 +1089,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "researcher"
   },
   {
    "id": "psyib-pp-073",
@@ -998,7 +1107,8 @@
    "category": "psyib_studies",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "value"
   },
   {
    "id": "psyib-pp-074",
@@ -1014,7 +1124,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-075",
@@ -1028,7 +1139,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "researcher"
   },
   {
    "id": "psyib-pp-076",
@@ -1039,7 +1151,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-077",
@@ -1057,7 +1170,8 @@
    "category": "psyib_studies",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "value"
   },
   {
    "id": "psyib-pp-078",
@@ -1071,7 +1185,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-079",
@@ -1087,7 +1202,8 @@
    "category": "psyib_studies",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "bias"
   },
   {
    "id": "psyib-pp-080",
@@ -1101,7 +1217,8 @@
    "category": "psyib_studies",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-081",
@@ -1117,7 +1234,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "name"
   },
   {
    "id": "psyib-pp-082",
@@ -1135,7 +1253,8 @@
    "category": "psyib_studies",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "process"
   },
   {
    "id": "psyib-pp-083",
@@ -1151,7 +1270,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "brain structure"
   },
   {
    "id": "psyib-pp-084",
@@ -1162,7 +1282,11 @@
    "category": "psyib_studies",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept",
+   "distractors": [
+    "retrograde"
+   ]
   },
   {
    "id": "psyib-pp-085",
@@ -1178,7 +1302,8 @@
    "category": "psyib_studies",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IB cognitive approach"
+   "pp": "IB cognitive approach",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-086",
@@ -1193,7 +1318,8 @@
    "category": "psyib_studies",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "name"
   },
   {
    "id": "psyib-pp-087",
@@ -1209,7 +1335,8 @@
    "category": "psyib_studies",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB sociocultural approach"
+   "pp": "IB sociocultural approach",
+   "kind": "value"
   },
   {
    "id": "psyib-pp-088",
@@ -1220,7 +1347,8 @@
    "category": "psyib_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB concepts"
+   "pp": "IB concepts",
+   "kind": "concept"
   },
   {
    "id": "psyib-pp-089",
@@ -1234,7 +1362,8 @@
    "category": "psyib_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB internal assessment"
+   "pp": "IB internal assessment",
+   "kind": "concept"
   }
  ]
 }
