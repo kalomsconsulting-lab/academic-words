@@ -1,6 +1,18 @@
 {
  "version": 1,
  "subject": "fizyka_sp7",
+ "kinds": [
+  "wielkość",
+  "jednostka",
+  "wzór",
+  "wartość",
+  "zjawisko",
+  "rodzaj ruchu",
+  "siła",
+  "zmiana",
+  "pojęcie",
+  "opis"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, fizyka, klasy VII–VIII (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996), działy I–V; zakres klasy 7 wg typowego rozkładu materiału",
  "items": [
@@ -17,7 +29,8 @@
    "category": "fiz7_intro",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "wielkość"
   },
   {
    "id": "fiz7-pp-002",
@@ -33,7 +46,8 @@
    "category": "fiz7_intro",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-003",
@@ -47,7 +61,8 @@
    "category": "fiz7_intro",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.6"
+   "pp": "I.6",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-004",
@@ -61,7 +76,8 @@
    "category": "fiz7_intro",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-005",
@@ -76,7 +92,8 @@
    "category": "fiz7_intro",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-006",
@@ -90,7 +107,8 @@
    "category": "fiz7_intro",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-007",
@@ -101,7 +119,8 @@
    "category": "fiz7_intro",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-008",
@@ -118,7 +137,8 @@
    "category": "fiz7_intro",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-009",
@@ -129,7 +149,11 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "pojęcie",
+   "distractors": [
+    "peronu"
+   ]
   },
   {
    "id": "fiz7-pp-010",
@@ -143,7 +167,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-011",
@@ -157,7 +182,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-012",
@@ -168,7 +194,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "wielkość"
   },
   {
    "id": "fiz7-pp-013",
@@ -182,7 +209,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-014",
@@ -199,7 +227,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-015",
@@ -213,7 +242,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-016",
@@ -227,7 +257,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-017",
@@ -238,7 +269,13 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "rodzaj ruchu",
+   "distractors": [
+    "zmienny",
+    "przyspieszony",
+    "opóźniony"
+   ]
   },
   {
    "id": "fiz7-pp-018",
@@ -254,7 +291,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "zmiana"
   },
   {
    "id": "fiz7-pp-019",
@@ -271,7 +309,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.6"
+   "pp": "II.6",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-020",
@@ -289,7 +328,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.6"
+   "pp": "II.6",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-021",
@@ -303,7 +343,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.6"
+   "pp": "II.6",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-022",
@@ -314,7 +355,11 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.7"
+   "pp": "II.7",
+   "kind": "rodzaj ruchu",
+   "distractors": [
+    "opóźniony"
+   ]
   },
   {
    "id": "fiz7-pp-023",
@@ -329,7 +374,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.7"
+   "pp": "II.7",
+   "kind": "rodzaj ruchu"
   },
   {
    "id": "fiz7-pp-024",
@@ -348,7 +394,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.8"
+   "pp": "II.8",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-025",
@@ -365,7 +412,8 @@
    "category": "fiz7_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.8"
+   "pp": "II.8",
+   "kind": "jednostka"
   },
   {
    "id": "fiz7-pp-026",
@@ -381,7 +429,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.8"
+   "pp": "II.8",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-027",
@@ -395,7 +444,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.8"
+   "pp": "II.8",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-028",
@@ -411,7 +461,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.9"
+   "pp": "II.9",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-029",
@@ -427,7 +478,8 @@
    "category": "fiz7_motion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.9"
+   "pp": "II.9",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-030",
@@ -442,7 +494,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.10"
+   "pp": "II.10",
+   "kind": "jednostka"
   },
   {
    "id": "fiz7-pp-031",
@@ -458,7 +511,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.10"
+   "pp": "II.10",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-032",
@@ -469,7 +523,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.10"
+   "pp": "II.10",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-033",
@@ -486,7 +541,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.11"
+   "pp": "II.11",
+   "kind": "siła"
   },
   {
    "id": "fiz7-pp-034",
@@ -501,7 +557,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.11"
+   "pp": "II.11",
+   "kind": "siła"
   },
   {
    "id": "fiz7-pp-035",
@@ -518,7 +575,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.11"
+   "pp": "II.11",
+   "kind": "siła"
   },
   {
    "id": "fiz7-pp-036",
@@ -532,7 +590,8 @@
    "category": "fiz7_forces",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.12"
+   "pp": "II.12",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-037",
@@ -546,7 +605,8 @@
    "category": "fiz7_forces",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.12"
+   "pp": "II.12",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-038",
@@ -557,7 +617,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.13"
+   "pp": "II.13",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-039",
@@ -574,7 +635,8 @@
    "category": "fiz7_forces",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.13"
+   "pp": "II.13",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-040",
@@ -585,7 +647,12 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.14"
+   "pp": "II.14",
+   "kind": "rodzaj ruchu",
+   "distractors": [
+    "jednostajnie przyspieszonym",
+    "jednostajnie opóźnionym"
+   ]
   },
   {
    "id": "fiz7-pp-041",
@@ -603,7 +670,8 @@
    "category": "fiz7_forces",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.14"
+   "pp": "II.14",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-042",
@@ -617,7 +685,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.15"
+   "pp": "II.15",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-043",
@@ -637,7 +706,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.15"
+   "pp": "II.15",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-044",
@@ -653,7 +723,8 @@
    "category": "fiz7_forces",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.15"
+   "pp": "II.15",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-045",
@@ -664,7 +735,11 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.16"
+   "pp": "II.16",
+   "kind": "rodzaj ruchu",
+   "distractors": [
+    "opóźniony"
+   ]
   },
   {
    "id": "fiz7-pp-046",
@@ -681,7 +756,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.16",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-047",
@@ -704,7 +780,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.17"
+   "pp": "II.17",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-048",
@@ -718,7 +795,8 @@
    "category": "fiz7_forces",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.17"
+   "pp": "II.17",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-049",
@@ -735,7 +813,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.17",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-050",
@@ -755,7 +834,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-051",
@@ -771,7 +851,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "jednostka"
   },
   {
    "id": "fiz7-pp-052",
@@ -785,7 +866,8 @@
    "category": "fiz7_energy",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-053",
@@ -802,7 +884,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-054",
@@ -817,7 +900,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "jednostka"
   },
   {
    "id": "fiz7-pp-055",
@@ -831,7 +915,8 @@
    "category": "fiz7_energy",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-056",
@@ -842,7 +927,11 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wielkość",
+   "distractors": [
+    "potencjalną"
+   ]
   },
   {
    "id": "fiz7-pp-057",
@@ -860,7 +949,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wielkość"
   },
   {
    "id": "fiz7-pp-058",
@@ -877,7 +967,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wielkość"
   },
   {
    "id": "fiz7-pp-059",
@@ -897,7 +988,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-060",
@@ -921,7 +1013,8 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-061",
@@ -936,7 +1029,8 @@
    "category": "fiz7_energy",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-062",
@@ -950,7 +1044,8 @@
    "category": "fiz7_energy",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-063",
@@ -961,7 +1056,12 @@
    "category": "fiz7_energy",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "zmiana",
+   "distractors": [
+    "zmienna",
+    "malejąca"
+   ]
   },
   {
    "id": "fiz7-pp-064",
@@ -977,7 +1077,8 @@
    "category": "fiz7_energy",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "zmiana"
   },
   {
    "id": "fiz7-pp-065",
@@ -991,7 +1092,8 @@
    "category": "fiz7_energy",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-066",
@@ -1002,7 +1104,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-067",
@@ -1019,7 +1122,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-068",
@@ -1035,7 +1139,8 @@
    "category": "fiz7_heat",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-069",
@@ -1051,7 +1156,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-070",
@@ -1070,7 +1176,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-071",
@@ -1081,7 +1188,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "wielkość"
   },
   {
    "id": "fiz7-pp-072",
@@ -1092,7 +1200,11 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "zmiana",
+   "distractors": [
+    "mniejsza"
+   ]
   },
   {
    "id": "fiz7-pp-073",
@@ -1110,7 +1222,8 @@
    "category": "fiz7_heat",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "wielkość"
   },
   {
    "id": "fiz7-pp-074",
@@ -1127,7 +1240,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "zjawisko"
   },
   {
    "id": "fiz7-pp-075",
@@ -1140,7 +1254,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-076",
@@ -1151,7 +1266,11 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "pojęcie",
+   "distractors": [
+    "przewodnikami"
+   ]
   },
   {
    "id": "fiz7-pp-077",
@@ -1165,7 +1284,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.6"
+   "pp": "IV.6",
+   "kind": "zjawisko"
   },
   {
    "id": "fiz7-pp-078",
@@ -1176,7 +1296,11 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.6"
+   "pp": "IV.6",
+   "kind": "opis",
+   "distractors": [
+    "dołu"
+   ]
   },
   {
    "id": "fiz7-pp-079",
@@ -1190,7 +1314,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "zjawisko"
   },
   {
    "id": "fiz7-pp-080",
@@ -1205,7 +1330,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "zjawisko"
   },
   {
    "id": "fiz7-pp-081",
@@ -1217,7 +1343,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "zjawisko"
   },
   {
    "id": "fiz7-pp-082",
@@ -1231,7 +1358,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "zjawisko"
   },
   {
    "id": "fiz7-pp-083",
@@ -1248,7 +1376,8 @@
    "category": "fiz7_heat",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "zmiana"
   },
   {
    "id": "fiz7-pp-084",
@@ -1270,7 +1399,8 @@
    "category": "fiz7_matter",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-085",
@@ -1286,7 +1416,8 @@
    "category": "fiz7_matter",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "jednostka"
   },
   {
    "id": "fiz7-pp-086",
@@ -1303,7 +1434,8 @@
    "category": "fiz7_matter",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "opis"
   },
   {
    "id": "fiz7-pp-087",
@@ -1322,7 +1454,8 @@
    "category": "fiz7_matter",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-088",
@@ -1338,7 +1471,8 @@
    "category": "fiz7_matter",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-089",
@@ -1355,7 +1489,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-090",
@@ -1370,7 +1505,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "jednostka"
   },
   {
    "id": "fiz7-pp-091",
@@ -1384,7 +1520,8 @@
    "category": "fiz7_pressure",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-092",
@@ -1403,7 +1540,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-093",
@@ -1418,7 +1556,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "zmiana"
   },
   {
    "id": "fiz7-pp-094",
@@ -1429,7 +1568,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-095",
@@ -1447,7 +1587,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "pojęcie"
   },
   {
    "id": "fiz7-pp-096",
@@ -1469,7 +1610,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "wzór"
   },
   {
    "id": "fiz7-pp-097",
@@ -1487,7 +1629,8 @@
    "category": "fiz7_pressure",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-098",
@@ -1498,7 +1641,11 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "pojęcie",
+   "distractors": [
+    "objętości cieczy"
+   ]
   },
   {
    "id": "fiz7-pp-099",
@@ -1514,7 +1661,8 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.7"
+   "pp": "V.7",
+   "kind": "siła"
   },
   {
    "id": "fiz7-pp-100",
@@ -1525,7 +1673,11 @@
    "category": "fiz7_pressure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.7"
+   "pp": "V.7",
+   "kind": "pojęcie",
+   "distractors": [
+    "zanurzonego ciała"
+   ]
   },
   {
    "id": "fiz7-pp-101",
@@ -1541,7 +1693,8 @@
    "category": "fiz7_pressure",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.7"
+   "pp": "V.7",
+   "kind": "zmiana"
   },
   {
    "id": "fiz7-pp-102",
@@ -1555,7 +1708,8 @@
    "category": "fiz7_pressure",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.7"
+   "pp": "V.7",
+   "kind": "wartość"
   },
   {
    "id": "fiz7-pp-103",
@@ -1567,7 +1721,8 @@
    "category": "fiz7_matter",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.8"
+   "pp": "V.8",
+   "kind": "zjawisko"
   },
   {
    "id": "fiz7-pp-104",
@@ -1578,7 +1733,8 @@
    "category": "fiz7_matter",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.8"
+   "pp": "V.8",
+   "kind": "pojęcie"
   }
  ]
 }
