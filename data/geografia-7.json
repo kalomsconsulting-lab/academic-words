@@ -46,7 +46,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.1",
-   "kind": "naród"
+   "kind": "naród",
+   "distractors": [
+    "Niemcami",
+    "Słowacją",
+    "Ukrainą"
+   ]
   },
   {
    "id": "geo7-pp-003",
@@ -58,7 +63,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.1",
-   "kind": "obiekt wodny"
+   "kind": "obiekt wodny",
+   "distractors": [
+    "Kamieński",
+    "Kuroński",
+    "Zegrzyński"
+   ]
   },
   {
    "id": "geo7-pp-004",
@@ -112,7 +122,9 @@
    "pp": "IX.2",
    "kind": "cecha",
    "distractors": [
-    "zachodniej"
+    "zachodniej",
+    "południowej",
+    "północnej"
    ]
   },
   {
@@ -130,7 +142,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.3",
-   "kind": "obiekt geograficzny"
+   "kind": "obiekt geograficzny",
+   "distractors": [
+    "Hel",
+    "Cedynia",
+    "Zosin"
+   ]
   },
   {
    "id": "geo7-pp-008",
@@ -142,7 +159,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.3",
-   "kind": "obiekt geograficzny"
+   "kind": "obiekt geograficzny",
+   "distractors": [
+    "Tarnica",
+    "Halicz",
+    "Krzemień"
+   ]
   },
   {
    "id": "geo7-pp-009",
@@ -159,7 +181,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.3",
-   "kind": "obiekt wodny"
+   "kind": "obiekt wodny",
+   "distractors": [
+    "Sanu",
+    "Narwi",
+    "Wieprza"
+   ]
   },
   {
    "id": "geo7-pp-010",
@@ -171,7 +198,12 @@
    "difficulty": 3,
    "source": "Podstawa programowa",
    "pp": "IX.3",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "20",
+    "60",
+    "80"
+   ]
   },
   {
    "id": "geo7-pp-011",
@@ -198,7 +230,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.4",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Nowa Sól",
+    "Żary",
+    "Słubice"
+   ]
   },
   {
    "id": "geo7-pp-013",
@@ -227,7 +264,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.4",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "wielkopolskie",
+    "warmińsko-mazurskie",
+    "zachodniopomorskie"
+   ]
   },
   {
    "id": "geo7-pp-015",
@@ -243,7 +285,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.5",
-   "kind": "cecha"
+   "kind": "cecha",
+   "distractors": [
+    "hercyńskiej",
+    "kaledońskiej",
+    "prekambryjskiej"
+   ]
   },
   {
    "id": "geo7-pp-016",
@@ -261,7 +308,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.5",
-   "kind": "cecha"
+   "kind": "cecha",
+   "distractors": [
+    "alpejskiej",
+    "kaledońskiej",
+    "prekambryjskiej"
+   ]
   },
   {
    "id": "geo7-pp-017",
@@ -276,7 +328,8 @@
    "kind": "pojęcie",
    "distractors": [
     "południowopolskie",
-    "środkowopolskie"
+    "środkowopolskie",
+    "podlaskie"
    ]
   },
   {
@@ -292,7 +345,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "morena denna",
+    "oz",
+    "kem"
+   ]
   },
   {
    "id": "geo7-pp-019",
@@ -307,7 +365,8 @@
    "kind": "cecha",
    "distractors": [
     "morski",
-    "kontynentalny"
+    "kontynentalny",
+    "monsunowy"
    ]
   },
   {
@@ -325,7 +384,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.6",
-   "kind": "obiekt wodny"
+   "kind": "obiekt wodny",
+   "distractors": [
+    "Prąd Labradorski",
+    "Prąd Kanaryjski",
+    "Prąd Grenlandzki"
+   ]
   },
   {
    "id": "geo7-pp-021",
@@ -343,7 +407,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.6",
-   "kind": "cecha"
+   "kind": "cecha",
+   "distractors": [
+    "polarne kontynentalne",
+    "arktyczne",
+    "zwrotnikowe morskie"
+   ]
   },
   {
    "id": "geo7-pp-022",
@@ -394,7 +463,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.7",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "0",
+    "10",
+    "15"
+   ]
   },
   {
    "id": "geo7-pp-025",
@@ -426,7 +500,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.8",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "gradobicia",
+    "susze",
+    "powodzie"
+   ]
   },
   {
    "id": "geo7-pp-027",
@@ -456,7 +535,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.9",
-   "kind": "obiekt wodny"
+   "kind": "obiekt wodny",
+   "distractors": [
+    "Szwedzkie",
+    "Norweskie",
+    "Niemieckie"
+   ]
   },
   {
    "id": "geo7-pp-029",
@@ -469,7 +553,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.9",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "zakwaszenie",
+    "sedymentacja",
+    "abrazja"
+   ]
   },
   {
    "id": "geo7-pp-030",
@@ -498,7 +587,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.10",
-   "kind": "obiekt geograficzny"
+   "kind": "obiekt geograficzny",
+   "distractors": [
+    "Pilsko",
+    "Babia Góra",
+    "Skrzyczne"
+   ]
   },
   {
    "id": "geo7-pp-032",
@@ -511,7 +605,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.10",
-   "kind": "obiekt wodny"
+   "kind": "obiekt wodny",
+   "distractors": [
+    "Nysa Łużycka",
+    "Bóbr",
+    "Barycz"
+   ]
   },
   {
    "id": "geo7-pp-033",
@@ -524,7 +623,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.10",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "zlewisko",
+    "dział wodny",
+    "delta"
+   ]
   },
   {
    "id": "geo7-pp-034",
@@ -536,7 +640,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.11",
-   "kind": "gleba"
+   "kind": "gleba",
+   "distractors": [
+    "bielice",
+    "rędziny",
+    "gleby brunatne"
+   ]
   },
   {
    "id": "geo7-pp-035",
@@ -551,7 +660,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.11",
-   "kind": "gleba"
+   "kind": "gleba",
+   "distractors": [
+    "rędziny",
+    "czarnoziemy",
+    "bielice"
+   ]
   },
   {
    "id": "geo7-pp-036",
@@ -563,7 +677,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.11",
-   "kind": "gleba"
+   "kind": "gleba",
+   "distractors": [
+    "brunatne",
+    "płowe",
+    "bagienne"
+   ]
   },
   {
    "id": "geo7-pp-037",
@@ -596,7 +715,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.12",
-   "kind": "organizm"
+   "kind": "organizm",
+   "distractors": [
+    "świerk",
+    "dąb",
+    "brzoza"
+   ]
   },
   {
    "id": "geo7-pp-039",
@@ -611,7 +735,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.12",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "grąd",
+    "łęg",
+    "ols"
+   ]
   },
   {
    "id": "geo7-pp-040",
@@ -641,7 +770,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.13",
-   "kind": "obiekt geograficzny"
+   "kind": "obiekt geograficzny",
+   "distractors": [
+    "Kampinoski",
+    "Bieszczadzki",
+    "Tatrzański"
+   ]
   },
   {
    "id": "geo7-pp-042",
@@ -653,7 +787,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.13",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "rezerwat przyrody",
+    "park krajobrazowy",
+    "użytek ekologiczny"
+   ]
   },
   {
    "id": "geo7-pp-043",
@@ -684,7 +823,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.15",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Dolnośląskim",
+    "Lubelskim",
+    "Wałbrzyskim"
+   ]
   },
   {
    "id": "geo7-pp-045",
@@ -700,7 +844,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.15",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Bogatynia",
+    "Konin",
+    "Turek"
+   ]
   },
   {
    "id": "geo7-pp-046",
@@ -753,7 +902,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "mazowieckie",
+    "małopolskie",
+    "dolnośląskie"
+   ]
   },
   {
    "id": "geo7-pp-049",
@@ -806,7 +960,9 @@
    "pp": "X.2",
    "kind": "proces",
    "distractors": [
-    "niżem"
+    "niżem",
+    "echem",
+    "kryzysem"
    ]
   },
   {
@@ -824,7 +980,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.3",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "wyż demograficzny",
+    "depopulacja",
+    "eksplozja demograficzna"
+   ]
   },
   {
    "id": "geo7-pp-053",
@@ -840,7 +1001,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.3",
-   "kind": "cecha"
+   "kind": "cecha",
+   "distractors": [
+    "progresywna",
+    "zastojowa",
+    "ekspansywna"
+   ]
   },
   {
    "id": "geo7-pp-054",
@@ -857,7 +1023,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "zgony minus urodzenia",
+    "imigracja minus emigracja",
+    "urodzenia plus zgony"
+   ]
   },
   {
    "id": "geo7-pp-055",
@@ -869,7 +1040,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "urodzeń",
+    "zgonów",
+    "małżeństw"
+   ]
   },
   {
    "id": "geo7-pp-056",
@@ -901,7 +1077,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.5",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "imigracja",
+    "reemigracja",
+    "repatriacja"
+   ]
   },
   {
    "id": "geo7-pp-058",
@@ -917,7 +1098,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.5",
-   "kind": "naród"
+   "kind": "naród",
+   "distractors": [
+    "Białorusi",
+    "Wietnamu",
+    "Niemiec"
+   ]
   },
   {
    "id": "geo7-pp-059",
@@ -929,7 +1115,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.5",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "1999",
+    "2007",
+    "1989"
+   ]
   },
   {
    "id": "geo7-pp-060",
@@ -945,7 +1136,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.6",
-   "kind": "naród"
+   "kind": "naród",
+   "distractors": [
+    "ukraińska",
+    "białoruska",
+    "litewska"
+   ]
   },
   {
    "id": "geo7-pp-061",
@@ -957,7 +1153,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.6",
-   "kind": "naród"
+   "kind": "naród",
+   "distractors": [
+    "Łemkowie",
+    "Karaimi",
+    "Romowie"
+   ]
   },
   {
    "id": "geo7-pp-062",
@@ -969,7 +1170,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.6",
-   "kind": "cecha"
+   "kind": "cecha",
+   "distractors": [
+    "ewangelicki",
+    "greckokatolicki",
+    "polskokatolicki"
+   ]
   },
   {
    "id": "geo7-pp-063",
@@ -988,7 +1194,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.7",
-   "kind": "gałąź gospodarki"
+   "kind": "gałąź gospodarki",
+   "distractors": [
+    "w przemyśle",
+    "w rolnictwie",
+    "w budownictwie"
+   ]
   },
   {
    "id": "geo7-pp-064",
@@ -1008,7 +1219,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.7",
-   "kind": "gałąź gospodarki"
+   "kind": "gałąź gospodarki",
+   "distractors": [
+    "I (rolniczego)",
+    "III (usługowego)",
+    "IV (informacyjnego)"
+   ]
   },
   {
    "id": "geo7-pp-065",
@@ -1041,7 +1257,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "aglomeracja",
+    "metropolia",
+    "megalopolis"
+   ]
   },
   {
    "id": "geo7-pp-067",
@@ -1066,7 +1287,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.9",
-   "kind": "gleba"
+   "kind": "gleba",
+   "distractors": [
+    "kapitał",
+    "nawożenie",
+    "mechanizacja"
+   ]
   },
   {
    "id": "geo7-pp-069",
@@ -1103,7 +1329,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.9",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "na północnym zachodzie",
+    "na północy",
+    "na zachodzie"
+   ]
   },
   {
    "id": "geo7-pp-071",
@@ -1116,7 +1347,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.10",
-   "kind": "organizm"
+   "kind": "organizm",
+   "distractors": [
+    "żyto",
+    "pszenżyto",
+    "jęczmień"
+   ]
   },
   {
    "id": "geo7-pp-072",
@@ -1132,7 +1368,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.10",
-   "kind": "organizm"
+   "kind": "organizm",
+   "distractors": [
+    "rzepak",
+    "ziemniak",
+    "len"
+   ]
   },
   {
    "id": "geo7-pp-073",
@@ -1148,7 +1389,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.10",
-   "kind": "organizm"
+   "kind": "organizm",
+   "distractors": [
+    "bydło",
+    "owce",
+    "drób"
+   ]
   },
   {
    "id": "geo7-pp-074",
@@ -1163,7 +1409,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.10",
-   "kind": "organizm"
+   "kind": "organizm",
+   "distractors": [
+    "gruszek",
+    "śliwek",
+    "winogron"
+   ]
   },
   {
    "id": "geo7-pp-075",
@@ -1176,7 +1427,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.11",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "nacjonalizacja",
+    "restrukturyzacja",
+    "komercjalizacja"
+   ]
   },
   {
    "id": "geo7-pp-076",
@@ -1191,7 +1447,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.11",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "industrializacja",
+    "reindustrializacja",
+    "restrukturyzacja"
+   ]
   },
   {
    "id": "geo7-pp-077",
@@ -1207,7 +1468,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.11",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "park technologiczny",
+    "okręg przemysłowy",
+    "klaster przemysłowy"
+   ]
   },
   {
    "id": "geo7-pp-078",
@@ -1223,7 +1489,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.12",
-   "kind": "gałąź gospodarki"
+   "kind": "gałąź gospodarki",
+   "distractors": [
+    "edukacyjnych",
+    "transportowych",
+    "turystycznych"
+   ]
   },
   {
    "id": "geo7-pp-079",
@@ -1255,7 +1526,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.12",
-   "kind": "gałąź gospodarki"
+   "kind": "gałąź gospodarki",
+   "distractors": [
+    "kolejowy",
+    "rurociągowy",
+    "wodny"
+   ]
   },
   {
    "id": "geo7-pp-081",
@@ -1271,7 +1547,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.13",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Kłodawa",
+    "Inowrocław",
+    "Ciechocinek"
+   ]
   },
   {
    "id": "geo7-pp-082",
@@ -1302,7 +1583,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.13",
-   "kind": "obiekt geograficzny"
+   "kind": "obiekt geograficzny",
+   "distractors": [
+    "Kampinoska",
+    "Knyszyńska",
+    "Notecka"
+   ]
   },
   {
    "id": "geo7-pp-084",
@@ -1314,7 +1600,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.13",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Kazimierz Dolny",
+    "Sandomierz",
+    "Lublin"
+   ]
   },
   {
    "id": "geo7-pp-085",
@@ -1330,7 +1621,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.14",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "Techland",
+    "11 bit studios",
+    "People Can Fly"
+   ]
   },
   {
    "id": "geo7-pp-086",
@@ -1346,7 +1642,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "polder",
+    "wał przeciwpowodziowy",
+    "kanał ulgi"
+   ]
   },
   {
    "id": "geo7-pp-087",
@@ -1358,7 +1659,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "cecha"
+   "kind": "cecha",
+   "distractors": [
+    "leśnych",
+    "wyżynnych",
+    "rolniczych"
+   ]
   },
   {
    "id": "geo7-pp-088",
@@ -1373,7 +1679,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wał przeciwpowodziowy",
+    "kanał ulgi",
+    "starorzecze"
+   ]
   },
   {
    "id": "geo7-pp-089",
@@ -1391,7 +1702,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "z gazu ziemnego",
+    "z ropy naftowej",
+    "z wiatru"
+   ]
   },
   {
    "id": "geo7-pp-090",
@@ -1409,7 +1725,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "słońce",
+    "biomasa",
+    "woda"
+   ]
   },
   {
    "id": "geo7-pp-091",
@@ -1422,7 +1743,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.3",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "urbanizacja",
+    "reurbanizacja",
+    "dezurbanizacja"
+   ]
   },
   {
    "id": "geo7-pp-092",
@@ -1438,7 +1764,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XI.3",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "migracje sezonowe",
+    "migracje zarobkowe",
+    "migracje wewnętrzne"
+   ]
   },
   {
    "id": "geo7-pp-093",
@@ -1450,7 +1781,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XI.4",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "odmładzanie się",
+    "napływ",
+    "wzrost"
+   ]
   },
   {
    "id": "geo7-pp-094",
@@ -1462,7 +1798,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XI.4",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "spółdzielni",
+    "kopalń",
+    "hut"
+   ]
   },
   {
    "id": "geo7-pp-095",
@@ -1480,7 +1821,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.5",
-   "kind": "gałąź gospodarki"
+   "kind": "gałąź gospodarki",
+   "distractors": [
+    "stoczniowa",
+    "hutnicza",
+    "motoryzacyjna"
+   ]
   },
   {
    "id": "geo7-pp-096",
@@ -1495,7 +1841,8 @@
    "kind": "gałąź gospodarki",
    "distractors": [
     "przemysłu",
-    "rolnictwa"
+    "rolnictwa",
+    "górnictwa"
    ]
   },
   {
@@ -1512,7 +1859,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.6",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Gdańsk, Gdynia, Hel",
+    "Gdańsk, Sopot, Wejherowo",
+    "Gdynia, Sopot, Puck"
+   ]
   },
   {
    "id": "geo7-pp-098",
@@ -1527,7 +1879,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.6",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Gdynia",
+    "Szczecin",
+    "Świnoujście"
+   ]
   },
   {
    "id": "geo7-pp-099",
@@ -1540,7 +1897,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.7",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Karpacz",
+    "Szklarska Poręba",
+    "Krynica-Zdrój"
+   ]
   },
   {
    "id": "geo7-pp-100",
@@ -1554,7 +1916,9 @@
    "pp": "XI.7",
    "kind": "cecha",
    "distractors": [
-    "całoroczny"
+    "całoroczny",
+    "zimowy",
+    "weekendowy"
    ]
   },
   {
@@ -1582,7 +1946,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "krajobraz",
+    "środowisko",
+    "ekosystem"
+   ]
   }
  ]
 }
