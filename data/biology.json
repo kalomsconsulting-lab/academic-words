@@ -1,6 +1,20 @@
 {
  "version": 1,
  "subject": "biology",
+ "kinds": [
+  "organelle",
+  "molecule",
+  "protein",
+  "element",
+  "process",
+  "organ",
+  "organism",
+  "taxon",
+  "value",
+  "technique",
+  "variable",
+  "concept"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, biologia, zakres podstawowy (Dz.U. 2018 poz. 467), działy I–IV i cele ogólne III; treści spoza zakresu podstawowego wg IB DP Biology guide (first assessment 2025), oznaczone „IB …”",
  "items": [
@@ -15,7 +29,8 @@
    "explanation": "Most of the ATP in a eukaryotic cell is produced in the mitochondria.",
    "category": "bio_cells",
    "difficulty": 1,
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "organelle"
   },
   {
    "id": "bio-002",
@@ -28,7 +43,8 @@
    ],
    "category": "bio_cells",
    "difficulty": 1,
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "organelle"
   },
   {
    "id": "bio-003",
@@ -40,7 +56,8 @@
    ],
    "category": "bio_cells",
    "difficulty": 1,
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "organelle"
   },
   {
    "id": "bio-004",
@@ -54,7 +71,8 @@
    "explanation": "Bacteria are prokaryotes; their DNA lies free in the cytoplasm.",
    "category": "bio_cells",
    "difficulty": 2,
-   "pp": "IB A2.2"
+   "pp": "IB A2.2",
+   "kind": "organism"
   },
   {
    "id": "bio-005",
@@ -67,7 +85,8 @@
    ],
    "category": "bio_cells",
    "difficulty": 2,
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "value"
   },
   {
    "id": "bio-006",
@@ -77,7 +96,12 @@
    "explanation": "Water moves from a dilute solution to a more concentrated one.",
    "category": "bio_cells",
    "difficulty": 1,
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "process",
+   "distractors": [
+    "diffusion",
+    "active transport"
+   ]
   },
   {
    "id": "bio-007",
@@ -85,7 +109,12 @@
    "text": "The net movement of particles from a higher to a lower concentration is called {{diffusion}}.",
    "category": "bio_cells",
    "difficulty": 1,
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "process",
+   "distractors": [
+    "osmosis",
+    "active transport"
+   ]
   },
   {
    "id": "bio-008",
@@ -93,7 +122,12 @@
    "text": "Moving substances against a concentration gradient using energy from ATP is called {{active transport}}.",
    "category": "bio_cells",
    "difficulty": 2,
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "process",
+   "distractors": [
+    "diffusion",
+    "osmosis"
+   ]
   },
   {
    "id": "bio-009",
@@ -102,7 +136,8 @@
    "hint": "polysaccharide",
    "category": "bio_cells",
    "difficulty": 1,
-   "pp": "IB A2.2"
+   "pp": "IB A2.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-010",
@@ -111,7 +146,11 @@
    "explanation": "Mitosis is used for growth, repair and asexual reproduction.",
    "category": "bio_cells",
    "difficulty": 1,
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "concept",
+   "distractors": [
+    "genetically different"
+   ]
   },
   {
    "id": "bio-011",
@@ -123,7 +162,8 @@
    ],
    "category": "bio_molecules",
    "difficulty": 1,
-   "pp": "I.2.2"
+   "pp": "I.2.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-012",
@@ -136,7 +176,8 @@
    "explanation": "It forms in a condensation reaction that releases water.",
    "category": "bio_molecules",
    "difficulty": 2,
-   "pp": "I.2.2"
+   "pp": "I.2.2",
+   "kind": "concept"
   },
   {
    "id": "bio-013",
@@ -145,7 +186,8 @@
    "answer": "active site",
    "category": "bio_molecules",
    "difficulty": 1,
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "concept"
   },
   {
    "id": "bio-014",
@@ -157,7 +199,8 @@
    ],
    "category": "bio_molecules",
    "difficulty": 1,
-   "pp": "III.1.2"
+   "pp": "III.1.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-015",
@@ -169,7 +212,8 @@
    ],
    "category": "bio_molecules",
    "difficulty": 1,
-   "pp": "I.2.1"
+   "pp": "I.2.1",
+   "kind": "molecule"
   },
   {
    "id": "bio-016",
@@ -181,7 +225,8 @@
    ],
    "category": "bio_molecules",
    "difficulty": 1,
-   "pp": "III.3.1"
+   "pp": "III.3.1",
+   "kind": "molecule"
   },
   {
    "id": "bio-017",
@@ -190,7 +235,8 @@
    "hint": "energy",
    "category": "bio_molecules",
    "difficulty": 1,
-   "pp": "III.2.2"
+   "pp": "III.2.2",
+   "kind": "concept"
   },
   {
    "id": "bio-018",
@@ -199,7 +245,8 @@
    "explanation": "The substrate no longer fits, so the rate of reaction falls.",
    "category": "bio_molecules",
    "difficulty": 2,
-   "pp": "III.2.3"
+   "pp": "III.2.3",
+   "kind": "process"
   },
   {
    "id": "bio-019",
@@ -208,7 +255,12 @@
    "hint": "simple sugars",
    "category": "bio_molecules",
    "difficulty": 1,
-   "pp": "I.2.1"
+   "pp": "I.2.1",
+   "kind": "molecule",
+   "distractors": [
+    "disaccharides",
+    "polysaccharides"
+   ]
   },
   {
    "id": "bio-020",
@@ -216,7 +268,8 @@
    "text": "Anaerobic respiration in human muscles produces {{lactate / lactic acid}}.",
    "category": "bio_molecules",
    "difficulty": 2,
-   "pp": "III.3.2"
+   "pp": "III.3.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-021",
@@ -225,7 +278,8 @@
    "answer": "double helix",
    "category": "bio_genetics",
    "difficulty": 1,
-   "pp": "I.2.4"
+   "pp": "I.2.4",
+   "kind": "concept"
   },
   {
    "id": "bio-022",
@@ -237,7 +291,8 @@
    ],
    "category": "bio_genetics",
    "difficulty": 1,
-   "pp": "I.2.4"
+   "pp": "I.2.4",
+   "kind": "molecule"
   },
   {
    "id": "bio-023",
@@ -249,7 +304,8 @@
    ],
    "category": "bio_genetics",
    "difficulty": 1,
-   "pp": "I.2.4"
+   "pp": "I.2.4",
+   "kind": "molecule"
   },
   {
    "id": "bio-024",
@@ -262,7 +318,8 @@
    ],
    "category": "bio_genetics",
    "difficulty": 1,
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "value"
   },
   {
    "id": "bio-025",
@@ -273,7 +330,8 @@
     "heterozygote"
    ],
    "category": "bio_genetics",
-   "difficulty": 2
+   "difficulty": 2,
+   "kind": "concept"
   },
   {
    "id": "bio-026",
@@ -284,14 +342,16 @@
     "gene mutation"
    ],
    "category": "bio_genetics",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "process"
   },
   {
    "id": "bio-027",
    "type": "cloze",
    "text": "Different versions of the same gene are called {{alleles / allele}}.",
    "category": "bio_genetics",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "concept"
   },
   {
    "id": "bio-028",
@@ -299,14 +359,19 @@
    "text": "Meiosis produces {{haploid}} gametes with half the number of chromosomes.",
    "category": "bio_genetics",
    "difficulty": 2,
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "concept",
+   "distractors": [
+    "diploid"
+   ]
   },
   {
    "id": "bio-029",
    "type": "cloze",
    "text": "Charles Darwin proposed evolution by {{natural selection}}.",
    "category": "bio_genetics",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "process"
   },
   {
    "id": "bio-030",
@@ -317,7 +382,8 @@
     "artery"
    ],
    "category": "bio_human",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organ"
   },
   {
    "id": "bio-031",
@@ -326,7 +392,8 @@
    "answer": "left ventricle",
    "explanation": "It has the thickest muscular wall of the four chambers.",
    "category": "bio_human",
-   "difficulty": 2
+   "difficulty": 2,
+   "kind": "organ"
   },
   {
    "id": "bio-032",
@@ -334,7 +401,8 @@
    "question": "Which hormone lowers blood glucose concentration?",
    "answer": "insulin",
    "category": "bio_human",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "molecule"
   },
   {
    "id": "bio-033",
@@ -342,7 +410,8 @@
    "question": "Which organ produces insulin?",
    "answer": "pancreas",
    "category": "bio_human",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organ"
   },
   {
    "id": "bio-034",
@@ -355,7 +424,8 @@
     "B cells"
    ],
    "category": "bio_human",
-   "difficulty": 2
+   "difficulty": 2,
+   "kind": "organism"
   },
   {
    "id": "bio-035",
@@ -363,21 +433,24 @@
    "text": "Gas exchange in the lungs takes place in the {{alveoli / alveolus}}.",
    "hint": "air sacs",
    "category": "bio_human",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organ"
   },
   {
    "id": "bio-036",
    "type": "cloze",
    "text": "Red blood cells contain {{haemoglobin / hemoglobin}}, which binds oxygen.",
    "category": "bio_human",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "protein"
   },
   {
    "id": "bio-037",
    "type": "cloze",
    "text": "Most digested food is absorbed in the {{small intestine / ileum}}.",
    "category": "bio_human",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organ"
   },
   {
    "id": "bio-038",
@@ -386,7 +459,8 @@
    "answer": "chlorophyll",
    "category": "bio_plants",
    "difficulty": 1,
-   "pp": "IB C1.3"
+   "pp": "IB C1.3",
+   "kind": "molecule"
   },
   {
    "id": "bio-039",
@@ -398,7 +472,8 @@
     "stomas"
    ],
    "category": "bio_plants",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organ"
   },
   {
    "id": "bio-040",
@@ -406,7 +481,8 @@
    "question": "Which tissue transports water from the roots to the leaves?",
    "answer": "xylem",
    "category": "bio_plants",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organ"
   },
   {
    "id": "bio-041",
@@ -415,7 +491,8 @@
    "answer": "phloem",
    "explanation": "This movement of sugars is called translocation.",
    "category": "bio_plants",
-   "difficulty": 2
+   "difficulty": 2,
+   "kind": "organ"
   },
   {
    "id": "bio-042",
@@ -427,7 +504,8 @@
    ],
    "category": "bio_plants",
    "difficulty": 1,
-   "pp": "IB C1.3"
+   "pp": "IB C1.3",
+   "kind": "molecule"
   },
   {
    "id": "bio-043",
@@ -435,14 +513,16 @@
    "text": "Photosynthesis takes place in the {{chloroplasts / chloroplast}}.",
    "category": "bio_plants",
    "difficulty": 1,
-   "pp": "IB C1.3"
+   "pp": "IB C1.3",
+   "kind": "organelle"
   },
   {
    "id": "bio-044",
    "type": "cloze",
    "text": "The loss of water vapour from leaves is called {{transpiration}}.",
    "category": "bio_plants",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "process"
   },
   {
    "id": "bio-045",
@@ -453,7 +533,8 @@
     "autotroph"
    ],
    "category": "bio_ecology",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organism"
   },
   {
    "id": "bio-046",
@@ -468,7 +549,8 @@
    ],
    "explanation": "The rest is lost mainly as heat from respiration.",
    "category": "bio_ecology",
-   "difficulty": 2
+   "difficulty": 2,
+   "kind": "value"
   },
   {
    "id": "bio-047",
@@ -479,7 +561,8 @@
     "ecological niche"
    ],
    "category": "bio_ecology",
-   "difficulty": 2
+   "difficulty": 2,
+   "kind": "concept"
   },
   {
    "id": "bio-048",
@@ -490,28 +573,32 @@
     "CO2"
    ],
    "category": "bio_ecology",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "molecule"
   },
   {
    "id": "bio-049",
    "type": "cloze",
    "text": "Producers are eaten by {{primary consumers}}.",
    "category": "bio_ecology",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organism"
   },
   {
    "id": "bio-050",
    "type": "cloze",
    "text": "All the populations of different species living in one area form a {{community}}.",
    "category": "bio_ecology",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "concept"
   },
   {
    "id": "bio-051",
    "type": "cloze",
    "text": "Organisms that break down dead material are called {{decomposers / saprotrophs}}.",
    "category": "bio_ecology",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "organism"
   },
   {
    "id": "bio-052",
@@ -520,7 +607,8 @@
    "answer": "independent variable",
    "category": "bio_skills",
    "difficulty": 1,
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "variable"
   },
   {
    "id": "bio-053",
@@ -529,7 +617,8 @@
    "answer": "dependent variable",
    "category": "bio_skills",
    "difficulty": 1,
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "variable"
   },
   {
    "id": "bio-054",
@@ -538,7 +627,8 @@
    "answer": "standard deviation",
    "category": "bio_skills",
    "difficulty": 2,
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "technique"
   },
   {
    "id": "bio-055",
@@ -546,7 +636,12 @@
    "text": "Variables kept the same throughout an experiment are called {{control variables / controlled variables}}.",
    "category": "bio_skills",
    "difficulty": 1,
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "variable",
+   "distractors": [
+    "independent variables",
+    "dependent variables"
+   ]
   },
   {
    "id": "bio-056",
@@ -554,7 +649,8 @@
    "text": "Repeating trials and calculating a mean improves the {{reliability}} of the results.",
    "category": "bio_skills",
    "difficulty": 2,
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-001",
@@ -565,7 +661,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.1"
+   "pp": "I.1.1",
+   "kind": "element"
   },
   {
    "id": "bio-pp-002",
@@ -579,7 +676,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.1.1"
+   "pp": "I.1.1",
+   "kind": "element"
   },
   {
    "id": "bio-pp-003",
@@ -593,7 +691,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "element"
   },
   {
    "id": "bio-pp-004",
@@ -607,7 +706,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "element"
   },
   {
    "id": "bio-pp-005",
@@ -622,7 +722,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "element"
   },
   {
    "id": "bio-pp-006",
@@ -632,7 +733,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.3"
+   "pp": "I.1.3",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-007",
@@ -647,7 +749,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.3"
+   "pp": "I.1.3",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-008",
@@ -657,7 +760,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.1.3"
+   "pp": "I.1.3",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-009",
@@ -671,7 +775,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.1.3"
+   "pp": "I.1.3",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-010",
@@ -686,7 +791,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2.1"
+   "pp": "I.2.1",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-011",
@@ -698,7 +804,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.1"
+   "pp": "I.2.1",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-012",
@@ -710,7 +817,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.1"
+   "pp": "I.2.1",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-013",
@@ -721,7 +829,11 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2.2"
+   "pp": "I.2.2",
+   "kind": "protein",
+   "distractors": [
+    "simple"
+   ]
   },
   {
    "id": "bio-pp-014",
@@ -733,7 +845,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.2"
+   "pp": "I.2.2",
+   "kind": "protein"
   },
   {
    "id": "bio-pp-015",
@@ -744,7 +857,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.2"
+   "pp": "I.2.2",
+   "kind": "protein"
   },
   {
    "id": "bio-pp-016",
@@ -754,7 +868,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.3"
+   "pp": "I.2.3",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-017",
@@ -768,7 +883,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.3"
+   "pp": "I.2.3",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-018",
@@ -779,7 +895,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.4"
+   "pp": "I.2.4",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-019",
@@ -795,7 +912,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2.4"
+   "pp": "I.2.4",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-020",
@@ -808,7 +926,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-021",
@@ -822,7 +941,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-022",
@@ -837,7 +957,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB B2.2"
+   "pp": "IB B2.2",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-023",
@@ -850,7 +971,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB B2.2"
+   "pp": "IB B2.2",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-024",
@@ -860,7 +982,11 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB B2.2"
+   "pp": "IB B2.2",
+   "kind": "organelle",
+   "distractors": [
+    "smooth endoplasmic reticulum"
+   ]
   },
   {
    "id": "bio-pp-025",
@@ -874,7 +1000,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A2.2"
+   "pp": "IB A2.2",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-026",
@@ -884,7 +1011,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB A2.2"
+   "pp": "IB A2.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-027",
@@ -898,7 +1026,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB A2.2"
+   "pp": "IB A2.2",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-028",
@@ -908,7 +1037,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB A2.1"
+   "pp": "IB A2.1",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-029",
@@ -920,7 +1050,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB B2.2"
+   "pp": "IB B2.2",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-030",
@@ -930,7 +1061,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-031",
@@ -945,7 +1077,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "process"
   },
   {
    "id": "bio-pp-032",
@@ -960,7 +1093,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "process"
   },
   {
    "id": "bio-pp-033",
@@ -970,7 +1104,11 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "process",
+   "distractors": [
+    "endocytosis"
+   ]
   },
   {
    "id": "bio-pp-034",
@@ -981,7 +1119,12 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "concept",
+   "distractors": [
+    "hypertonic",
+    "isotonic"
+   ]
   },
   {
    "id": "bio-pp-035",
@@ -991,7 +1134,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "process"
   },
   {
    "id": "bio-pp-036",
@@ -1008,7 +1152,8 @@
    "category": "bio_skills",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "technique"
   },
   {
    "id": "bio-pp-037",
@@ -1023,7 +1168,8 @@
    "category": "bio_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "technique"
   },
   {
    "id": "bio-pp-038",
@@ -1039,7 +1185,8 @@
    "category": "bio_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "technique"
   },
   {
    "id": "bio-pp-039",
@@ -1055,7 +1202,8 @@
    "category": "bio_skills",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "technique"
   },
   {
    "id": "bio-pp-040",
@@ -1065,7 +1213,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "protein"
   },
   {
    "id": "bio-pp-041",
@@ -1080,7 +1229,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-042",
@@ -1092,7 +1242,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.3"
+   "pp": "III.2.3",
+   "kind": "protein"
   },
   {
    "id": "bio-pp-043",
@@ -1103,7 +1254,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2.3"
+   "pp": "III.2.3",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-044",
@@ -1114,7 +1266,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.1"
+   "pp": "III.1.1",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-045",
@@ -1125,7 +1278,11 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.1"
+   "pp": "III.1.1",
+   "kind": "concept",
+   "distractors": [
+    "catabolic"
+   ]
   },
   {
    "id": "bio-pp-046",
@@ -1142,7 +1299,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1.2"
+   "pp": "III.1.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-047",
@@ -1157,7 +1315,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3.1"
+   "pp": "III.3.1",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-048",
@@ -1175,7 +1334,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3.2"
+   "pp": "III.3.2",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-049",
@@ -1189,7 +1349,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3.3"
+   "pp": "III.3.3",
+   "kind": "value"
   },
   {
    "id": "bio-pp-050",
@@ -1201,7 +1362,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3.4"
+   "pp": "III.3.4",
+   "kind": "process"
   },
   {
    "id": "bio-pp-051",
@@ -1210,7 +1372,8 @@
    "category": "bio_molecules",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB C1.3"
+   "pp": "IB C1.3",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-052",
@@ -1222,7 +1385,8 @@
    "category": "bio_molecules",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB C1.3"
+   "pp": "IB C1.3",
+   "kind": "organelle"
   },
   {
    "id": "bio-pp-053",
@@ -1232,7 +1396,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "protein"
   },
   {
    "id": "bio-pp-054",
@@ -1244,7 +1409,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-055",
@@ -1260,7 +1426,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "process"
   },
   {
    "id": "bio-pp-056",
@@ -1270,7 +1437,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "process"
   },
   {
    "id": "bio-pp-057",
@@ -1285,7 +1453,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-058",
@@ -1300,7 +1469,8 @@
    "category": "bio_cells",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "process"
   },
   {
    "id": "bio-pp-059",
@@ -1311,7 +1481,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "process"
   },
   {
    "id": "bio-pp-060",
@@ -1325,7 +1496,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "value"
   },
   {
    "id": "bio-pp-061",
@@ -1335,7 +1507,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "organism"
   },
   {
    "id": "bio-pp-062",
@@ -1347,7 +1520,8 @@
    "category": "bio_cells",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "process"
   },
   {
    "id": "bio-pp-063",
@@ -1359,7 +1533,8 @@
    "category": "bio_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "concept"
   },
   {
    "id": "bio-pp-064",
@@ -1370,7 +1545,11 @@
    "category": "bio_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "variable",
+   "distractors": [
+    "experimental"
+   ]
   },
   {
    "id": "bio-pp-065",
@@ -1384,7 +1563,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB D1.1"
+   "pp": "IB D1.1",
+   "kind": "protein"
   },
   {
    "id": "bio-pp-066",
@@ -1397,7 +1577,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB D1.1"
+   "pp": "IB D1.1",
+   "kind": "protein"
   },
   {
    "id": "bio-pp-067",
@@ -1407,7 +1588,12 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB D1.2"
+   "pp": "IB D1.2",
+   "kind": "process",
+   "distractors": [
+    "Translation",
+    "Replication"
+   ]
   },
   {
    "id": "bio-pp-068",
@@ -1418,7 +1604,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB D1.2"
+   "pp": "IB D1.2",
+   "kind": "process"
   },
   {
    "id": "bio-pp-069",
@@ -1432,7 +1619,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB D1.2"
+   "pp": "IB D1.2",
+   "kind": "value"
   },
   {
    "id": "bio-pp-070",
@@ -1446,7 +1634,8 @@
    "category": "bio_genetics",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB D1.2"
+   "pp": "IB D1.2",
+   "kind": "molecule"
   },
   {
    "id": "bio-pp-071",
@@ -1458,7 +1647,8 @@
    "category": "bio_general",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1.5"
+   "pp": "V.1.5",
+   "kind": "process"
   },
   {
    "id": "bio-pp-072",
@@ -1470,7 +1660,8 @@
    "category": "bio_general",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.1.5"
+   "pp": "V.1.5",
+   "kind": "process"
   },
   {
    "id": "bio-pp-073",
@@ -1483,7 +1674,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A3.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "taxon"
   },
   {
    "id": "bio-pp-074",
@@ -1495,7 +1687,8 @@
    "category": "bio_general",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A3.2"
+   "pp": "IB A3.2",
+   "kind": "taxon"
   },
   {
    "id": "bio-pp-075",
@@ -1505,7 +1698,8 @@
    "category": "bio_general",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A3.2"
+   "pp": "IB A3.2",
+   "kind": "taxon"
   },
   {
    "id": "bio-pp-076",
@@ -1516,7 +1710,8 @@
    "category": "bio_general",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A3.1"
+   "pp": "IB A3.1",
+   "kind": "taxon"
   }
  ]
 }
