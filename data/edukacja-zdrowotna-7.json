@@ -1,6 +1,18 @@
 {
  "version": 1,
  "subject": "edukacja_zdrowotna_sp7",
+ "kinds": [
+  "choroba",
+  "zaburzenie",
+  "substancja",
+  "produkt",
+  "hormon",
+  "zachowanie",
+  "metoda",
+  "wartość",
+  "zjawisko",
+  "pojęcie"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, edukacja zdrowotna, klasy VII–VIII (Dz.U. 2026 poz. 378 w brzmieniu Dz.U. 2026 poz. 958); dziewięć działów, wymagania do wyboru oznaczone literą w",
  "items": [
@@ -13,7 +25,8 @@
    "category": "ez7_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "1.1"
+   "pp": "1.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-002",
@@ -29,7 +42,8 @@
    "category": "ez7_system",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "1.5"
+   "pp": "1.5",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-003",
@@ -43,7 +57,8 @@
    "category": "ez7_system",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "1.5"
+   "pp": "1.5",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-004",
@@ -54,7 +69,8 @@
    "category": "ez7_system",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "1.5"
+   "pp": "1.5",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-005",
@@ -69,7 +85,8 @@
    "category": "ez7_physical",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "2.1"
+   "pp": "2.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-006",
@@ -80,7 +97,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.1"
+   "pp": "2.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-007",
@@ -95,7 +113,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.2"
+   "pp": "2.2",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-008",
@@ -111,7 +130,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.2"
+   "pp": "2.2",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-009",
@@ -125,7 +145,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.2"
+   "pp": "2.2",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-010",
@@ -136,7 +157,8 @@
    "category": "ez7_physical",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "2.2"
+   "pp": "2.2",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-011",
@@ -150,7 +172,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.3"
+   "pp": "2.3",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-012",
@@ -164,7 +187,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.3"
+   "pp": "2.3",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-013",
@@ -175,7 +199,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.3"
+   "pp": "2.3",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-014",
@@ -189,7 +214,8 @@
    "category": "ez7_system",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.4"
+   "pp": "2.4",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-015",
@@ -203,7 +229,8 @@
    "category": "ez7_system",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.4"
+   "pp": "2.4",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-016",
@@ -220,7 +247,8 @@
    "category": "ez7_system",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "2.4"
+   "pp": "2.4",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-017",
@@ -231,7 +259,8 @@
    "category": "ez7_system",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.4"
+   "pp": "2.4",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-018",
@@ -246,7 +275,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.5"
+   "pp": "2.5",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-019",
@@ -265,7 +295,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.5"
+   "pp": "2.5",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-020",
@@ -281,7 +312,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.5"
+   "pp": "2.5",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-021",
@@ -292,7 +324,8 @@
    "category": "ez7_physical",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "2.5"
+   "pp": "2.5",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-022",
@@ -307,7 +340,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.6"
+   "pp": "2.6",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-023",
@@ -323,7 +357,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.w1"
+   "pp": "2.w1",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-024",
@@ -338,7 +373,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.w1"
+   "pp": "2.w1",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-025",
@@ -353,7 +389,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.w2"
+   "pp": "2.w2",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-026",
@@ -367,7 +404,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.w2"
+   "pp": "2.w2",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-027",
@@ -378,7 +416,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.w2"
+   "pp": "2.w2",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-028",
@@ -392,7 +431,8 @@
    "category": "ez7_physical",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "2.w2"
+   "pp": "2.w2",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-029",
@@ -411,7 +451,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.1"
+   "pp": "3.1",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-030",
@@ -430,7 +471,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.2"
+   "pp": "3.2",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-031",
@@ -447,7 +489,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.2"
+   "pp": "3.2",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-032",
@@ -461,7 +504,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.3"
+   "pp": "3.3",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-033",
@@ -476,7 +520,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.3"
+   "pp": "3.3",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-034",
@@ -487,7 +532,8 @@
    "category": "ez7_activity",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "3.3"
+   "pp": "3.3",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-035",
@@ -502,7 +548,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.4"
+   "pp": "3.4",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-036",
@@ -513,7 +560,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.4"
+   "pp": "3.4",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-037",
@@ -531,7 +579,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.4"
+   "pp": "3.4",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-038",
@@ -545,7 +594,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.5"
+   "pp": "3.5",
+   "kind": "metoda"
   },
   {
    "id": "ez7-pp-039",
@@ -559,7 +609,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.5"
+   "pp": "3.5",
+   "kind": "metoda"
   },
   {
    "id": "ez7-pp-040",
@@ -570,7 +621,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.5"
+   "pp": "3.5",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-041",
@@ -584,7 +636,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.w1"
+   "pp": "3.w1",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-042",
@@ -595,7 +648,11 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.w1"
+   "pp": "3.w1",
+   "kind": "wartość",
+   "distractors": [
+    "1"
+   ]
   },
   {
    "id": "ez7-pp-043",
@@ -609,7 +666,8 @@
    "category": "ez7_activity",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "3.w2"
+   "pp": "3.w2",
+   "kind": "hormon"
   },
   {
    "id": "ez7-pp-044",
@@ -626,7 +684,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.1"
+   "pp": "4.1",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-045",
@@ -642,7 +701,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.1"
+   "pp": "4.1",
+   "kind": "produkt"
   },
   {
    "id": "ez7-pp-046",
@@ -653,7 +713,11 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.1"
+   "pp": "4.1",
+   "kind": "produkt",
+   "distractors": [
+    "zbożowe"
+   ]
   },
   {
    "id": "ez7-pp-047",
@@ -668,7 +732,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.1"
+   "pp": "4.1",
+   "kind": "produkt"
   },
   {
    "id": "ez7-pp-048",
@@ -683,7 +748,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.1"
+   "pp": "4.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-049",
@@ -698,7 +764,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.2"
+   "pp": "4.2",
+   "kind": "produkt"
   },
   {
    "id": "ez7-pp-050",
@@ -709,7 +776,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.2"
+   "pp": "4.2",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-051",
@@ -723,7 +791,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.3"
+   "pp": "4.3",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-052",
@@ -735,7 +804,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.3"
+   "pp": "4.3",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-053",
@@ -746,7 +816,11 @@
    "category": "ez7_nutrition",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "4.3"
+   "pp": "4.3",
+   "kind": "wartość",
+   "distractors": [
+    "2"
+   ]
   },
   {
    "id": "ez7-pp-054",
@@ -760,7 +834,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.3"
+   "pp": "4.3",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-055",
@@ -774,7 +849,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.4"
+   "pp": "4.4",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-056",
@@ -785,7 +861,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.4"
+   "pp": "4.4",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-057",
@@ -797,7 +874,8 @@
    "category": "ez7_nutrition",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "4.4"
+   "pp": "4.4",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-058",
@@ -808,7 +886,8 @@
    "category": "ez7_nutrition",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "4.4"
+   "pp": "4.4",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-059",
@@ -824,7 +903,8 @@
    "category": "ez7_mental",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "5.1"
+   "pp": "5.1",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-060",
@@ -839,7 +919,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.1"
+   "pp": "5.1",
+   "kind": "hormon"
   },
   {
    "id": "ez7-pp-061",
@@ -854,7 +935,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.2"
+   "pp": "5.2",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-062",
@@ -869,7 +951,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.3"
+   "pp": "5.3",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-063",
@@ -880,7 +963,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.3"
+   "pp": "5.3",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-064",
@@ -896,7 +980,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.3"
+   "pp": "5.3",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-065",
@@ -910,7 +995,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.4"
+   "pp": "5.4",
+   "kind": "metoda"
   },
   {
    "id": "ez7-pp-066",
@@ -921,7 +1007,11 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.4"
+   "pp": "5.4",
+   "kind": "zachowanie",
+   "distractors": [
+    "mówienie"
+   ]
   },
   {
    "id": "ez7-pp-067",
@@ -935,7 +1025,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.4"
+   "pp": "5.4",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-068",
@@ -950,7 +1041,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.w2"
+   "pp": "5.w2",
+   "kind": "zaburzenie"
   },
   {
    "id": "ez7-pp-069",
@@ -965,7 +1057,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.w2"
+   "pp": "5.w2",
+   "kind": "zaburzenie"
   },
   {
    "id": "ez7-pp-070",
@@ -980,7 +1073,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.w2"
+   "pp": "5.w2",
+   "kind": "zaburzenie"
   },
   {
    "id": "ez7-pp-071",
@@ -996,7 +1090,8 @@
    "category": "ez7_mental",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "5.w2"
+   "pp": "5.w2",
+   "kind": "zaburzenie"
   },
   {
    "id": "ez7-pp-072",
@@ -1010,7 +1105,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.1"
+   "pp": "6.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-073",
@@ -1021,7 +1117,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.1"
+   "pp": "6.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-074",
@@ -1032,7 +1129,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.1"
+   "pp": "6.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-075",
@@ -1046,7 +1144,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.2"
+   "pp": "6.2",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-076",
@@ -1061,7 +1160,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.3"
+   "pp": "6.3",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-077",
@@ -1076,7 +1176,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.3"
+   "pp": "6.3",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-078",
@@ -1087,7 +1188,8 @@
    "category": "ez7_social",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "6.3"
+   "pp": "6.3",
+   "kind": "metoda"
   },
   {
    "id": "ez7-pp-079",
@@ -1101,7 +1203,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.4"
+   "pp": "6.4",
+   "kind": "metoda"
   },
   {
    "id": "ez7-pp-080",
@@ -1115,7 +1218,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.4"
+   "pp": "6.4",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-081",
@@ -1126,7 +1230,8 @@
    "category": "ez7_social",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "6.4"
+   "pp": "6.4",
+   "kind": "metoda"
   },
   {
    "id": "ez7-pp-082",
@@ -1142,7 +1247,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.1"
+   "pp": "7.1",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-083",
@@ -1156,7 +1262,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.1"
+   "pp": "7.1",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-084",
@@ -1168,7 +1275,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.2"
+   "pp": "7.2",
+   "kind": "hormon"
   },
   {
    "id": "ez7-pp-085",
@@ -1184,7 +1292,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.2"
+   "pp": "7.2",
+   "kind": "hormon"
   },
   {
    "id": "ez7-pp-086",
@@ -1202,7 +1311,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.2"
+   "pp": "7.2",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-087",
@@ -1216,7 +1326,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.3"
+   "pp": "7.3",
+   "kind": "produkt"
   },
   {
    "id": "ez7-pp-088",
@@ -1230,7 +1341,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.3"
+   "pp": "7.3",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-089",
@@ -1241,7 +1353,8 @@
    "category": "ez7_puberty",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "7.3"
+   "pp": "7.3",
+   "kind": "wartość"
   },
   {
    "id": "ez7-pp-090",
@@ -1253,7 +1366,8 @@
    "category": "ez7_environment",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "8.1"
+   "pp": "8.1",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-091",
@@ -1270,7 +1384,8 @@
    "category": "ez7_environment",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "8.1"
+   "pp": "8.1",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-092",
@@ -1281,7 +1396,12 @@
    "category": "ez7_environment",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "8.1"
+   "pp": "8.1",
+   "kind": "zjawisko",
+   "distractors": [
+    "mrozów",
+    "chłodów"
+   ]
   },
   {
    "id": "ez7-pp-093",
@@ -1297,7 +1417,8 @@
    "category": "ez7_environment",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "8.1"
+   "pp": "8.1",
+   "kind": "choroba"
   },
   {
    "id": "ez7-pp-094",
@@ -1312,7 +1433,8 @@
    "category": "ez7_environment",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "8.2"
+   "pp": "8.2",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-095",
@@ -1323,7 +1445,8 @@
    "category": "ez7_environment",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "8.2"
+   "pp": "8.2",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-096",
@@ -1338,7 +1461,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.1"
+   "pp": "9.1",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-097",
@@ -1354,7 +1478,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.1"
+   "pp": "9.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-098",
@@ -1365,7 +1490,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.1"
+   "pp": "9.1",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-099",
@@ -1379,7 +1505,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.1"
+   "pp": "9.1",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-100",
@@ -1394,7 +1521,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.2"
+   "pp": "9.2",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-101",
@@ -1409,7 +1537,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.2"
+   "pp": "9.2",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-102",
@@ -1423,7 +1552,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.2"
+   "pp": "9.2",
+   "kind": "zachowanie"
   },
   {
    "id": "ez7-pp-103",
@@ -1434,7 +1564,8 @@
    "category": "ez7_addictions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "9.2"
+   "pp": "9.2",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-104",
@@ -1448,7 +1579,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.3"
+   "pp": "9.3",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-105",
@@ -1462,7 +1594,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.3"
+   "pp": "9.3",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-106",
@@ -1476,7 +1609,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.3"
+   "pp": "9.3",
+   "kind": "pojęcie"
   },
   {
    "id": "ez7-pp-107",
@@ -1491,7 +1625,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.3"
+   "pp": "9.3",
+   "kind": "substancja"
   },
   {
    "id": "ez7-pp-108",
@@ -1502,7 +1637,11 @@
    "category": "ez7_addictions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "9.3"
+   "pp": "9.3",
+   "kind": "pojęcie",
+   "distractors": [
+    "psychiczne"
+   ]
   },
   {
    "id": "ez7-pp-109",
@@ -1516,7 +1655,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.4"
+   "pp": "9.4",
+   "kind": "metoda"
   },
   {
    "id": "ez7-pp-110",
@@ -1532,7 +1672,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.4"
+   "pp": "9.4",
+   "kind": "zjawisko"
   },
   {
    "id": "ez7-pp-111",
@@ -1543,7 +1684,8 @@
    "category": "ez7_addictions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "9.4"
+   "pp": "9.4",
+   "kind": "pojęcie"
   }
  ]
 }
