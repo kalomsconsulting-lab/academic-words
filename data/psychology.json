@@ -31,7 +31,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "correlational study",
+    "case study",
+    "naturalistic observation"
+   ]
   },
   {
    "id": "psyib-pp-002",
@@ -46,7 +51,8 @@
    "kind": "concept",
    "distractors": [
     "dependent",
-    "confounding"
+    "confounding",
+    "extraneous"
    ]
   },
   {
@@ -63,7 +69,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "independent variable",
+    "confounding variable",
+    "extraneous variable"
+   ]
   },
   {
    "id": "psyib-pp-004",
@@ -95,7 +106,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "convenience sampling",
+    "stratified sampling",
+    "snowball sampling"
+   ]
   },
   {
    "id": "psyib-pp-006",
@@ -112,7 +128,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "random sampling",
+    "stratified sampling",
+    "snowball sampling"
+   ]
   },
   {
    "id": "psyib-pp-007",
@@ -124,7 +145,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "stratified",
+    "random",
+    "purposive"
+   ]
   },
   {
    "id": "psyib-pp-008",
@@ -141,7 +167,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "experiment",
+    "case study",
+    "naturalistic observation"
+   ]
   },
   {
    "id": "psyib-pp-009",
@@ -156,7 +187,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "debriefing",
+    "confidentiality",
+    "right to withdraw"
+   ]
   },
   {
    "id": "psyib-pp-010",
@@ -172,7 +208,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "informed consent",
+    "confidentiality",
+    "protection from harm"
+   ]
   },
   {
    "id": "psyib-pp-011",
@@ -184,7 +225,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "privacy",
+    "anonymity",
+    "confidentiality"
+   ]
   },
   {
    "id": "psyib-pp-012",
@@ -199,7 +245,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "internal validity",
+    "construct validity",
+    "face validity"
+   ]
   },
   {
    "id": "psyib-pp-013",
@@ -216,7 +267,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "independent variable",
+    "dependent variable",
+    "control variable"
+   ]
   },
   {
    "id": "psyib-pp-014",
@@ -231,7 +287,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "researcher bias",
+    "social desirability bias",
+    "participant attrition"
+   ]
   },
   {
    "id": "psyib-pp-015",
@@ -246,7 +307,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "experiment",
+    "correlational study",
+    "naturalistic observation"
+   ]
   },
   {
    "id": "psyib-pp-016",
@@ -258,7 +324,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB research methodology",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "replication",
+    "standardisation",
+    "randomisation"
+   ]
   },
   {
    "id": "psyib-pp-017",
@@ -275,7 +346,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "localisation of function",
+    "lateralisation",
+    "neurogenesis"
+   ]
   },
   {
    "id": "psyib-pp-018",
@@ -290,7 +366,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "brain structure"
+   "kind": "brain structure",
+   "distractors": [
+    "amygdala",
+    "cerebellum",
+    "prefrontal cortex"
+   ]
   },
   {
    "id": "psyib-pp-019",
@@ -305,7 +386,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "brain structure"
+   "kind": "brain structure",
+   "distractors": [
+    "hippocampus",
+    "cerebellum",
+    "hypothalamus"
+   ]
   },
   {
    "id": "psyib-pp-020",
@@ -320,7 +406,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "hormones",
+    "synapses",
+    "receptors"
+   ]
   },
   {
    "id": "psyib-pp-021",
@@ -333,7 +424,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "chemical messenger"
+   "kind": "chemical messenger",
+   "distractors": [
+    "serotonin",
+    "acetylcholine",
+    "GABA"
+   ]
   },
   {
    "id": "psyib-pp-022",
@@ -348,7 +444,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "chemical messenger"
+   "kind": "chemical messenger",
+   "distractors": [
+    "dopamine",
+    "serotonin",
+    "noradrenaline"
+   ]
   },
   {
    "id": "psyib-pp-023",
@@ -360,7 +461,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "brain structure"
+   "kind": "brain structure",
+   "distractors": [
+    "axon",
+    "dendrite",
+    "myelin sheath"
+   ]
   },
   {
    "id": "psyib-pp-024",
@@ -375,7 +481,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "neurotransmitter",
+    "enzyme",
+    "pheromone"
+   ]
   },
   {
    "id": "psyib-pp-025",
@@ -388,7 +499,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "chemical messenger"
+   "kind": "chemical messenger",
+   "distractors": [
+    "oxytocin",
+    "testosterone",
+    "melatonin"
+   ]
   },
   {
    "id": "psyib-pp-026",
@@ -401,7 +517,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "chemical messenger"
+   "kind": "chemical messenger",
+   "distractors": [
+    "cortisol",
+    "testosterone",
+    "adrenaline"
+   ]
   },
   {
    "id": "psyib-pp-027",
@@ -416,7 +537,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "adoption study",
+    "family study",
+    "case study"
+   ]
   },
   {
    "id": "psyib-pp-028",
@@ -429,7 +555,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "concordance rate",
+    "genotype",
+    "epigenetics"
+   ]
   },
   {
    "id": "psyib-pp-029",
@@ -445,7 +576,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB biological approach",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "EEG",
+    "MRI",
+    "CT scan"
+   ]
   },
   {
    "id": "psyib-pp-030",
@@ -461,7 +597,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "heuristic",
+    "attribution",
+    "cognitive bias"
+   ]
   },
   {
    "id": "psyib-pp-031",
@@ -490,7 +631,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "retrieval",
+    "attention",
+    "chunking"
+   ]
   },
   {
    "id": "psyib-pp-033",
@@ -505,7 +651,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "visuospatial sketchpad",
+    "central executive",
+    "episodic buffer"
+   ]
   },
   {
    "id": "psyib-pp-034",
@@ -522,7 +673,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "phonological loop",
+    "central executive",
+    "episodic buffer"
+   ]
   },
   {
    "id": "psyib-pp-035",
@@ -534,7 +690,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "episodic buffer",
+    "sensory register",
+    "short-term store"
+   ]
   },
   {
    "id": "psyib-pp-036",
@@ -549,7 +710,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "semantic memory",
+    "procedural memory",
+    "working memory"
+   ]
   },
   {
    "id": "psyib-pp-037",
@@ -579,7 +745,9 @@
    "pp": "IB cognitive approach",
    "kind": "concept",
    "distractors": [
-    "System 1"
+    "System 1",
+    "heuristic",
+    "automatic"
    ]
   },
   {
@@ -593,7 +761,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "bias"
+   "kind": "bias",
+   "distractors": [
+    "anchoring bias",
+    "availability heuristic",
+    "hindsight bias"
+   ]
   },
   {
    "id": "psyib-pp-040",
@@ -609,7 +782,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "bias"
+   "kind": "bias",
+   "distractors": [
+    "representativeness heuristic",
+    "anchoring bias",
+    "confirmation bias"
+   ]
   },
   {
    "id": "psyib-pp-041",
@@ -626,7 +804,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "bias"
+   "kind": "bias",
+   "distractors": [
+    "availability heuristic",
+    "representativeness heuristic",
+    "framing effect"
+   ]
   },
   {
    "id": "psyib-pp-042",
@@ -638,7 +821,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "reproductive",
+    "declarative",
+    "implicit"
+   ]
   },
   {
    "id": "psyib-pp-043",
@@ -654,7 +842,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "theory"
+   "kind": "theory",
+   "distractors": [
+    "social learning theory",
+    "realistic conflict theory",
+    "attribution theory"
+   ]
   },
   {
    "id": "psyib-pp-044",
@@ -666,7 +859,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "facilitation",
+    "loafing",
+    "cognition"
+   ]
   },
   {
    "id": "psyib-pp-045",
@@ -680,7 +878,9 @@
    "pp": "IB sociocultural approach",
    "kind": "concept",
    "distractors": [
-    "out-group"
+    "out-group",
+    "majority",
+    "minority"
    ]
   },
   {
@@ -698,7 +898,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "theory"
+   "kind": "theory",
+   "distractors": [
+    "social identity theory",
+    "attachment theory",
+    "cognitive dissonance theory"
+   ]
   },
   {
    "id": "psyib-pp-047",
@@ -713,7 +918,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "obedience",
+    "deindividuation",
+    "social facilitation"
+   ]
   },
   {
    "id": "psyib-pp-048",
@@ -729,7 +939,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "informational social influence",
+    "minority influence",
+    "obedience"
+   ]
   },
   {
    "id": "psyib-pp-049",
@@ -745,7 +960,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "normative social influence",
+    "social facilitation",
+    "obedience"
+   ]
   },
   {
    "id": "psyib-pp-050",
@@ -763,7 +983,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "power distance",
+    "uncertainty avoidance",
+    "masculinity vs femininity"
+   ]
   },
   {
    "id": "psyib-pp-051",
@@ -778,7 +1003,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "uncertainty avoidance",
+    "individualism vs collectivism",
+    "long-term orientation"
+   ]
   },
   {
    "id": "psyib-pp-052",
@@ -790,7 +1020,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "bias"
+   "kind": "bias",
+   "distractors": [
+    "prejudice",
+    "heuristic",
+    "norm"
+   ]
   },
   {
    "id": "psyib-pp-053",
@@ -803,7 +1038,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "enculturation",
+    "socialisation",
+    "globalisation"
+   ]
   },
   {
    "id": "psyib-pp-054",
@@ -816,7 +1056,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "acculturation",
+    "assimilation",
+    "globalisation"
+   ]
   },
   {
    "id": "psyib-pp-055",
@@ -828,7 +1073,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "dimensions",
+    "schemas",
+    "values"
+   ]
   },
   {
    "id": "psyib-pp-056",
@@ -862,7 +1112,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB human development",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "sensorimotor stage",
+    "concrete operational stage",
+    "formal operational stage"
+   ]
   },
   {
    "id": "psyib-pp-058",
@@ -878,7 +1133,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB human development",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "sensorimotor stage",
+    "preoperational stage",
+    "formal operational stage"
+   ]
   },
   {
    "id": "psyib-pp-059",
@@ -891,7 +1151,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB human development",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "accommodation",
+    "equilibration",
+    "conservation"
+   ]
   },
   {
    "id": "psyib-pp-060",
@@ -905,7 +1170,9 @@
    "pp": "IB human development",
    "kind": "process",
    "distractors": [
-    "assimilation"
+    "assimilation",
+    "equilibration",
+    "conservation"
    ]
   },
   {
@@ -922,7 +1189,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB human development",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "scaffolding",
+    "object permanence",
+    "egocentrism"
+   ]
   },
   {
    "id": "psyib-pp-062",
@@ -935,7 +1207,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB human development",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "imprinting",
+    "scaffolding",
+    "temperament"
+   ]
   },
   {
    "id": "psyib-pp-063",
@@ -951,7 +1228,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB human development",
-   "kind": "name"
+   "kind": "name",
+   "distractors": [
+    "Still Face paradigm",
+    "Visual Cliff",
+    "Little Albert experiment"
+   ]
   },
   {
    "id": "psyib-pp-064",
@@ -966,7 +1248,8 @@
    "kind": "concept",
    "distractors": [
     "insecure-avoidant",
-    "insecure-resistant"
+    "insecure-resistant",
+    "disorganised"
    ]
   },
   {
@@ -983,7 +1266,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB health and wellbeing",
-   "kind": "theory"
+   "kind": "theory",
+   "distractors": [
+    "health belief model",
+    "biomedical model",
+    "transtheoretical model"
+   ]
   },
   {
    "id": "psyib-pp-066",
@@ -995,7 +1283,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB health and wellbeing",
-   "kind": "theory"
+   "kind": "theory",
+   "distractors": [
+    "fight-or-flight response",
+    "transactional model",
+    "diathesis-stress model"
+   ]
   },
   {
    "id": "psyib-pp-067",
@@ -1011,7 +1304,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB health and wellbeing",
-   "kind": "theory"
+   "kind": "theory",
+   "distractors": [
+    "biopsychosocial model",
+    "theory of planned behaviour",
+    "transtheoretical model"
+   ]
   },
   {
    "id": "psyib-pp-068",
@@ -1043,7 +1341,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB health and wellbeing",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "incidence",
+    "comorbidity",
+    "prognosis"
+   ]
   },
   {
    "id": "psyib-pp-070",
@@ -1060,7 +1363,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB health and wellbeing",
-   "kind": "method"
+   "kind": "method",
+   "distractors": [
+    "psychodynamic therapy",
+    "exposure therapy",
+    "rational emotive therapy"
+   ]
   },
   {
    "id": "psyib-pp-071",
@@ -1074,7 +1382,9 @@
    "pp": "IB health and wellbeing",
    "kind": "concept",
    "distractors": [
-    "emotion-focused"
+    "emotion-focused",
+    "avoidance-focused",
+    "appraisal-focused"
    ]
   },
   {
@@ -1152,7 +1462,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "volunteers",
+    "observers",
+    "researchers"
+   ]
   },
   {
    "id": "psyib-pp-077",
@@ -1186,7 +1501,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "collided",
+    "bumped",
+    "hit"
+   ]
   },
   {
    "id": "psyib-pp-079",
@@ -1203,7 +1523,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "bias"
+   "kind": "bias",
+   "distractors": [
+    "flashbulb memory",
+    "serial position effect",
+    "false consensus effect"
+   ]
   },
   {
    "id": "psyib-pp-080",
@@ -1235,7 +1560,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "name"
+   "kind": "name",
+   "distractors": [
+    "teddy bear",
+    "rag doll",
+    "Barbie doll"
+   ]
   },
   {
    "id": "psyib-pp-082",
@@ -1254,7 +1584,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "classical conditioning",
+    "operant conditioning",
+    "punishment"
+   ]
   },
   {
    "id": "psyib-pp-083",
@@ -1271,7 +1606,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "brain structure"
+   "kind": "brain structure",
+   "distractors": [
+    "amygdala",
+    "cerebellum",
+    "frontal lobe"
+   ]
   },
   {
    "id": "psyib-pp-084",
@@ -1285,7 +1625,9 @@
    "pp": "IB cognitive approach",
    "kind": "concept",
    "distractors": [
-    "retrograde"
+    "retrograde",
+    "dissociative",
+    "infantile"
    ]
   },
   {
@@ -1303,7 +1645,12 @@
    "difficulty": 3,
    "source": "Podstawa programowa",
    "pp": "IB cognitive approach",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "episodic memory",
+    "semantic memory",
+    "declarative memory"
+   ]
   },
   {
    "id": "psyib-pp-086",
@@ -1319,7 +1666,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB sociocultural approach",
-   "kind": "name"
+   "kind": "name",
+   "distractors": [
+    "Yale",
+    "Harvard",
+    "Princeton"
+   ]
   },
   {
    "id": "psyib-pp-087",
@@ -1348,7 +1700,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB concepts",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "validity",
+    "ethics",
+    "culture"
+   ]
   },
   {
    "id": "psyib-pp-089",
@@ -1363,7 +1720,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB internal assessment",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "experimental report",
+    "literature review",
+    "extended essay"
+   ]
   }
  ]
 }
