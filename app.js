@@ -754,7 +754,8 @@
         it._gap = null;
         it._label = it.question;
         it._answer = it.answer;
-        it._kind = it.kind || answerKind(it.answer, it.question);
+        it._kind = answerKind(it.answer, it.question);          // rodzaj ogólny (heurystyka)
+        it._fine = filled(it.kind) ? norm(it.kind) : null;       // szczegółowy tag z pliku, np. „władca”, „bitwa”
         break;
       case 'cloze': {
         // Pierwsza luka jest ukryta, pozostałe {{…}} pokazujemy jako zwykły tekst.
@@ -767,7 +768,8 @@
         it._mc = alts[0];
         it._label = `${it._gap.before}___${it._gap.after}`;
         it._answer = alts.join(' / ');
-        it._kind = it.kind || answerKind(alts[0], it._label);
+        it._kind = answerKind(alts[0], it._label);
+        it._fine = filled(it.kind) ? norm(it.kind) : null;
         break;
       }
       case 'replacement': {
@@ -1126,9 +1128,12 @@
     const cands = VOCAB.filter((o) => o !== it && o.subject === it.subject && o.quiz_suitable !== false && filterFn(o));
     const sameCat = (o) => o.category === it.category && (!it.awl_group || Math.abs((o.awl_group || 0) - it.awl_group) <= 2);
     const sameKind = (o) => o._kind === kind;
+    const sameFine = (o) => !!it._fine && o._fine === it._fine;
     const sameType = (o) => o.type === it.type;
+    // szczegółowy tag (kind z pliku) → rodzaj ogólny → kategoria → reszta; przy małej puli lista sama schodzi niżej
     const ranked = kind
-      ? [...shuffle(cands.filter((o) => sameCat(o) && sameKind(o) && sameType(o))), ...shuffle(cands.filter((o) => sameKind(o) && sameType(o))),
+      ? [...shuffle(cands.filter((o) => sameCat(o) && sameFine(o) && sameType(o))), ...shuffle(cands.filter(sameFine)),
+         ...shuffle(cands.filter((o) => sameCat(o) && sameKind(o) && sameType(o))), ...shuffle(cands.filter((o) => sameKind(o) && sameType(o))),
          ...shuffle(cands.filter(sameKind)), ...shuffle(cands.filter(sameCat)), ...shuffle(cands)]
       : [...shuffle(cands.filter(sameCat)), ...shuffle(cands)];
     const out = [];
