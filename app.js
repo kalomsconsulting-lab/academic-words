@@ -402,7 +402,9 @@
   const STATUS_LABELS = { new: 'Nowe', learning: 'W nauce', mastered: 'Opanowane' };
 
   // Krótka odpowiedź = da się ją wpisać z pamięci i ułożyć z niej pary.
-  const isShort = (s) => !!s && String(s).length <= 40 && String(s).trim().split(/\s+/).length <= 4;
+  // Krótka odpowiedź (do quizu i wpisywania): do 40 znaków i 4 wyrazów; spacje wokół operatorów nie dzielą wyrazów,
+  // żeby czytelnie zapisane wzory („P = a · h / 2”) nie wypadały z ćwiczeń.
+  const isShort = (s) => !!s && String(s).length <= 40 && String(s).trim().replace(/\s*[=+\-·*/^:()]\s*/g, '').split(/\s+/).length <= 4;
 
   // Warianty ćwiczenia "dopasuj pary".
   const MATCH = {
@@ -938,6 +940,7 @@
     switch (kind) {
       case 'flashcard': return true;
       case 'mc':
+        if (it.quiz_suitable === false) return false; // poprawna odpowiedź bez kontekstu myli (np. tak/nie, „X czy Y?”)
         if (it.type === 'qa' || it.type === 'cloze') return !!it._mc && (MC_POOL.get(it.subject) || 0) >= 4;
         if (it.type === 'style_rule') return false;
         if (it.type === 'awl_word') return it.polish.length > 0;
@@ -1088,18 +1091,30 @@
     return prev[b.length];
   }
 
-  // Dystraktory: najpierw ta sama kategoria, potem reszta tego samego typu.
-  function distractors(it, getText, filterFn, exclude, n = 3) {
-    const excl = new Set(exclude.map((x) => String(x).toLowerCase()));
+  // Kształt odpowiedzi do quizu: liczba (z jednostką), wzór albo słowo — dystraktory powinny wyglądać jak odpowiedź.
+  function answerShape(text) {
+    const a = String(text);
+    // jednostki (cm^3, m/s, zł) nie czynią z wartości wzoru
+    const bare = a.replace(/\b(mm|cm|dm|km|m|g|kg|zł|s|h|min|N|J|W|Pa|K|mol|l|ml|%)(\^\d)?\b/g, '');
+    if (/=/.test(a) || /√|∛|[a-zA-Z]\s*[+\-·*/^]|[+\-·*/^]\s*[a-zA-Z(]/.test(bare)) return 'formula';
+    return /\d/.test(a) ? 'number' : 'word';
+  }
+
+  // Dystraktory: najpierw ta sama kategoria, potem reszta tego samego typu; z shape: najpierw ten sam kształt odpowiedzi.
+  function distractors(it, getText, filterFn, exclude, n = 3, shape = null) {
+    const excl = new Set(exclude.map((x) => norm(x)));
     const cands = VOCAB.filter((o) => o !== it && o.subject === it.subject && filterFn(o));
-    const same = shuffle(cands.filter((o) => o.category === it.category && (!it.awl_group || Math.abs((o.awl_group || 0) - it.awl_group) <= 2)));
-    const other = shuffle(cands);
+    const sameCat = (o) => o.category === it.category && (!it.awl_group || Math.abs((o.awl_group || 0) - it.awl_group) <= 2);
+    const sameShape = (o) => !shape || answerShape(getText(o)) === shape;
+    const ranked = shape
+      ? [...shuffle(cands.filter((o) => sameCat(o) && sameShape(o))), ...shuffle(cands.filter(sameShape)), ...shuffle(cands.filter(sameCat)), ...shuffle(cands)]
+      : [...shuffle(cands.filter(sameCat)), ...shuffle(cands)];
     const out = [];
-    for (const o of [...same, ...other]) {
+    for (const o of ranked) {
       const t = getText(o);
       if (!t) continue;
-      const k = t.toLowerCase();
-      if (excl.has(k)) continue;
+      const k = norm(t); // bez kolizji z odpowiedziami akceptowanymi (porównanie jak przy wpisywaniu)
+      if (!k || excl.has(k)) continue;
       excl.add(k);
       out.push(t);
       if (out.length === n) break;
@@ -1149,7 +1164,8 @@
     }
     if (it.type === 'qa' || it.type === 'cloze') {
       // dystraktory: odpowiedzi z innych pytań i luk tego przedmiotu (najpierw z tej samej kategorii)
-      const wrong = distractors(it, (o) => o._mc, (o) => !!o._mc, it._answers);
+      const correct = it.type === 'qa' ? it.answer : it._gap.hidden;
+      const wrong = distractors(it, (o) => o._mc, (o) => !!o._mc, it._answers, 3, answerShape(correct));
       return it.type === 'qa'
         ? { instruction: 'Wybierz poprawną odpowiedź', prompt: it.question, sentence: true, answer: it.answer, options: opts(it.answer, wrong) }
         : { instruction: 'Czego brakuje w zdaniu?', prompt: it._label, sentence: true, context: it.hint ? `Podpowiedź: ${it.hint}` : null,
