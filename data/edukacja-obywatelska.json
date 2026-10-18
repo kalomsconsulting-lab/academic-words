@@ -1,6 +1,23 @@
 {
  "version": 1,
  "subject": "eo_ib",
+ "kinds": [
+  "organ",
+  "sąd",
+  "instytucja",
+  "dokument",
+  "zasada",
+  "prawo",
+  "procedura",
+  "organizacja",
+  "ustrój",
+  "postawa",
+  "zjawisko",
+  "rok",
+  "liczba",
+  "liczba lat",
+  "pojęcie"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa edukacji obywatelskiej dla liceum i technikum, zakres podstawowy (Dz.U. 2025 poz. 382), działy I–VII; ustrój RP wg Konstytucji z 1997 r.",
  "items": [
@@ -16,7 +33,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "postawa"
   },
   {
    "id": "eo-pp-002",
@@ -28,7 +46,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-003",
@@ -39,7 +58,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-004",
@@ -53,7 +73,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "postawa"
   },
   {
    "id": "eo-pp-005",
@@ -67,7 +88,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-006",
@@ -78,7 +100,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-007",
@@ -92,7 +115,8 @@
    "category": "eo_society",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-008",
@@ -108,7 +132,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "procedura"
   },
   {
    "id": "eo-pp-009",
@@ -119,7 +144,8 @@
    "category": "eo_society",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.F4"
+   "pp": "I.F4",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-010",
@@ -134,7 +160,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.F5"
+   "pp": "I.F5",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-011",
@@ -149,7 +176,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.F6"
+   "pp": "I.F6",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-012",
@@ -163,7 +191,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-013",
@@ -179,7 +208,8 @@
    "category": "eo_society",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-014",
@@ -195,7 +225,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-015",
@@ -206,7 +237,8 @@
    "category": "eo_society",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-016",
@@ -221,7 +253,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.F3"
+   "pp": "II.F3",
+   "kind": "procedura"
   },
   {
    "id": "eo-pp-017",
@@ -232,7 +265,8 @@
    "category": "eo_society",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.F3"
+   "pp": "II.F3",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-018",
@@ -247,7 +281,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "postawa"
   },
   {
    "id": "eo-pp-019",
@@ -259,7 +294,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-020",
@@ -274,7 +310,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-021",
@@ -285,7 +322,12 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "dzielnica",
+    "osiedle"
+   ]
   },
   {
    "id": "eo-pp-022",
@@ -296,7 +338,8 @@
    "category": "eo_local",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "zasada"
   },
   {
    "id": "eo-pp-023",
@@ -308,7 +351,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-024",
@@ -324,7 +368,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-025",
@@ -336,7 +381,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-026",
@@ -352,7 +398,8 @@
    "category": "eo_local",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "liczba lat"
   },
   {
    "id": "eo-pp-027",
@@ -366,7 +413,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "procedura"
   },
   {
    "id": "eo-pp-028",
@@ -378,7 +426,8 @@
    "category": "eo_local",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-029",
@@ -393,7 +442,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-030",
@@ -405,7 +455,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-031",
@@ -419,7 +470,8 @@
    "category": "eo_local",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.F2"
+   "pp": "III.F2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-032",
@@ -434,7 +486,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "ustrój"
   },
   {
    "id": "eo-pp-033",
@@ -445,7 +498,12 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "ustrój",
+   "distractors": [
+    "totalitaryzm",
+    "demokracja"
+   ]
   },
   {
    "id": "eo-pp-034",
@@ -459,7 +517,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-035",
@@ -473,7 +532,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-036",
@@ -487,7 +547,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "rok"
   },
   {
    "id": "eo-pp-037",
@@ -498,7 +559,11 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "ustrój",
+   "distractors": [
+    "centralnie planowanej"
+   ]
   },
   {
    "id": "eo-pp-038",
@@ -509,7 +574,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.F4"
+   "pp": "V.F4",
+   "kind": "organizacja"
   },
   {
    "id": "eo-pp-039",
@@ -523,7 +589,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "rok"
   },
   {
    "id": "eo-pp-040",
@@ -534,7 +601,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "zasada"
   },
   {
    "id": "eo-pp-041",
@@ -545,7 +613,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-042",
@@ -559,7 +628,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "ustrój"
   },
   {
    "id": "eo-pp-043",
@@ -575,7 +645,8 @@
    "category": "eo_state",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-044",
@@ -590,7 +661,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-045",
@@ -604,7 +676,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.F1"
+   "pp": "IV.F1",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-046",
@@ -615,7 +688,11 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "zasada",
+   "distractors": [
+    "większościowe"
+   ]
   },
   {
    "id": "eo-pp-047",
@@ -630,7 +707,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "liczba lat"
   },
   {
    "id": "eo-pp-048",
@@ -646,7 +724,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-049",
@@ -660,7 +739,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-050",
@@ -675,7 +755,8 @@
    "category": "eo_rights",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-051",
@@ -686,7 +767,8 @@
    "category": "eo_rights",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "zasada"
   },
   {
    "id": "eo-pp-052",
@@ -697,7 +779,8 @@
    "category": "eo_rights",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.7"
+   "pp": "IV.7",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-053",
@@ -712,7 +795,8 @@
    "category": "eo_rights",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.8"
+   "pp": "IV.8",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-054",
@@ -728,7 +812,8 @@
    "category": "eo_rights",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.8"
+   "pp": "IV.8",
+   "kind": "sąd"
   },
   {
    "id": "eo-pp-055",
@@ -742,7 +827,8 @@
    "category": "eo_rights",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.8"
+   "pp": "IV.8",
+   "kind": "prawo"
   },
   {
    "id": "eo-pp-056",
@@ -758,7 +844,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.6"
+   "pp": "IV.6",
+   "kind": "liczba lat"
   },
   {
    "id": "eo-pp-057",
@@ -773,7 +860,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.6"
+   "pp": "IV.6",
+   "kind": "prawo"
   },
   {
    "id": "eo-pp-058",
@@ -785,7 +873,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.9"
+   "pp": "IV.9",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-059",
@@ -799,7 +888,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.9"
+   "pp": "IV.9",
+   "kind": "organizacja"
   },
   {
    "id": "eo-pp-060",
@@ -814,7 +904,8 @@
    "category": "eo_law",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.9"
+   "pp": "IV.9",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-061",
@@ -829,7 +920,8 @@
    "category": "eo_law",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.9"
+   "pp": "IV.9",
+   "kind": "liczba lat"
   },
   {
    "id": "eo-pp-062",
@@ -844,7 +936,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.F2"
+   "pp": "IV.F2",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-063",
@@ -855,7 +948,8 @@
    "category": "eo_law",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.F2"
+   "pp": "IV.F2",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-064",
@@ -870,7 +964,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.F2"
+   "pp": "IV.F2",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-065",
@@ -884,7 +979,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.F5"
+   "pp": "IV.F5",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-066",
@@ -900,7 +996,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.F6"
+   "pp": "IV.F6",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-067",
@@ -914,7 +1011,8 @@
    "category": "eo_law",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.F6"
+   "pp": "IV.F6",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-068",
@@ -930,7 +1028,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-069",
@@ -944,7 +1043,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "prawo"
   },
   {
    "id": "eo-pp-070",
@@ -955,7 +1055,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "procedura"
   },
   {
    "id": "eo-pp-071",
@@ -971,7 +1072,8 @@
    "category": "eo_state",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-072",
@@ -986,7 +1088,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-073",
@@ -1001,7 +1104,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-074",
@@ -1017,7 +1121,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "liczba lat"
   },
   {
    "id": "eo-pp-075",
@@ -1029,7 +1134,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-076",
@@ -1045,7 +1151,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "liczba lat"
   },
   {
    "id": "eo-pp-077",
@@ -1060,7 +1167,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "prawo"
   },
   {
    "id": "eo-pp-078",
@@ -1071,7 +1179,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-079",
@@ -1086,7 +1195,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-080",
@@ -1098,7 +1208,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "procedura"
   },
   {
    "id": "eo-pp-081",
@@ -1109,7 +1220,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-082",
@@ -1123,7 +1235,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "sąd"
   },
   {
    "id": "eo-pp-083",
@@ -1137,7 +1250,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "sąd"
   },
   {
    "id": "eo-pp-084",
@@ -1151,7 +1265,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "sąd"
   },
   {
    "id": "eo-pp-085",
@@ -1167,7 +1282,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "sąd"
   },
   {
    "id": "eo-pp-086",
@@ -1178,7 +1294,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "zasada"
   },
   {
    "id": "eo-pp-087",
@@ -1192,7 +1309,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.7"
+   "pp": "V.7",
+   "kind": "organizacja"
   },
   {
    "id": "eo-pp-088",
@@ -1206,7 +1324,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.9"
+   "pp": "V.9",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-089",
@@ -1221,7 +1340,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.9"
+   "pp": "V.9",
+   "kind": "prawo"
   },
   {
    "id": "eo-pp-090",
@@ -1233,7 +1353,8 @@
    "category": "eo_state",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.10"
+   "pp": "V.10",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-091",
@@ -1244,7 +1365,11 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.10"
+   "pp": "V.10",
+   "kind": "organizacja",
+   "distractors": [
+    "fundacja"
+   ]
   },
   {
    "id": "eo-pp-092",
@@ -1255,7 +1380,8 @@
    "category": "eo_state",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.13"
+   "pp": "V.13",
+   "kind": "zasada"
   },
   {
    "id": "eo-pp-093",
@@ -1266,7 +1392,8 @@
    "category": "eo_media",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.11"
+   "pp": "V.11",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-094",
@@ -1280,7 +1407,8 @@
    "category": "eo_media",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.11"
+   "pp": "V.11",
+   "kind": "organ"
   },
   {
    "id": "eo-pp-095",
@@ -1294,7 +1422,8 @@
    "category": "eo_media",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.12"
+   "pp": "V.12",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-096",
@@ -1310,7 +1439,8 @@
    "category": "eo_media",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.12"
+   "pp": "V.12",
+   "kind": "procedura"
   },
   {
    "id": "eo-pp-097",
@@ -1325,7 +1455,8 @@
    "category": "eo_media",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.12"
+   "pp": "V.12",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-098",
@@ -1336,7 +1467,11 @@
    "category": "eo_media",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.12"
+   "pp": "V.12",
+   "kind": "pojęcie",
+   "distractors": [
+    "opinia"
+   ]
   },
   {
    "id": "eo-pp-099",
@@ -1347,7 +1482,12 @@
    "category": "eo_media",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.F5"
+   "pp": "V.F5",
+   "kind": "pojęcie",
+   "distractors": [
+    "komercyjnymi",
+    "prywatnymi"
+   ]
   },
   {
    "id": "eo-pp-100",
@@ -1361,7 +1501,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VI.1"
+   "pp": "VI.1",
+   "kind": "rok"
   },
   {
    "id": "eo-pp-101",
@@ -1373,7 +1514,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.1"
+   "pp": "VI.1",
+   "kind": "instytucja"
   },
   {
    "id": "eo-pp-102",
@@ -1387,7 +1529,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VI.1"
+   "pp": "VI.1",
+   "kind": "instytucja"
   },
   {
    "id": "eo-pp-103",
@@ -1401,7 +1544,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.1"
+   "pp": "VI.1",
+   "kind": "instytucja"
   },
   {
    "id": "eo-pp-104",
@@ -1412,7 +1556,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.1"
+   "pp": "VI.1",
+   "kind": "instytucja"
   },
   {
    "id": "eo-pp-105",
@@ -1427,7 +1572,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.2"
+   "pp": "VI.2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-106",
@@ -1441,7 +1587,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VI.2"
+   "pp": "VI.2",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-107",
@@ -1452,7 +1599,11 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.3"
+   "pp": "VI.3",
+   "kind": "pojęcie",
+   "distractors": [
+    "poszerzanie"
+   ]
   },
   {
    "id": "eo-pp-108",
@@ -1467,7 +1618,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.F1"
+   "pp": "VI.F1",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-109",
@@ -1483,7 +1635,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.F2"
+   "pp": "VI.F2",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-110",
@@ -1497,7 +1650,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.1"
+   "pp": "VII.1",
+   "kind": "zjawisko"
   },
   {
    "id": "eo-pp-111",
@@ -1511,7 +1665,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.2"
+   "pp": "VII.2",
+   "kind": "rok"
   },
   {
    "id": "eo-pp-112",
@@ -1527,7 +1682,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.2"
+   "pp": "VII.2",
+   "kind": "liczba"
   },
   {
    "id": "eo-pp-113",
@@ -1541,7 +1697,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.2"
+   "pp": "VII.2",
+   "kind": "instytucja"
   },
   {
    "id": "eo-pp-114",
@@ -1555,7 +1712,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.3"
+   "pp": "VII.3",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-115",
@@ -1570,7 +1728,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.4"
+   "pp": "VII.4",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-116",
@@ -1585,7 +1744,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.4"
+   "pp": "VII.4",
+   "kind": "postawa"
   },
   {
    "id": "eo-pp-117",
@@ -1601,7 +1761,8 @@
    "category": "eo_world",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.5"
+   "pp": "VII.5",
+   "kind": "pojęcie"
   },
   {
    "id": "eo-pp-118",
@@ -1615,7 +1776,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.5"
+   "pp": "VII.5",
+   "kind": "dokument"
   },
   {
    "id": "eo-pp-119",
@@ -1630,7 +1792,8 @@
    "category": "eo_world",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.F4"
+   "pp": "VII.F4",
+   "kind": "zasada"
   }
  ]
 }
