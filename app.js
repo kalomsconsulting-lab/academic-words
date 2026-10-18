@@ -754,6 +754,7 @@
         it._gap = null;
         it._label = it.question;
         it._answer = it.answer;
+        it._kind = it.kind || answerKind(it.answer, it.question);
         break;
       case 'cloze': {
         // Pierwsza luka jest ukryta, pozostałe {{…}} pokazujemy jako zwykły tekst.
@@ -766,6 +767,7 @@
         it._mc = alts[0];
         it._label = `${it._gap.before}___${it._gap.after}`;
         it._answer = alts.join(' / ');
+        it._kind = it.kind || answerKind(alts[0], it._label);
         break;
       }
       case 'replacement': {
@@ -1091,23 +1093,43 @@
     return prev[b.length];
   }
 
-  // Kształt odpowiedzi do quizu: liczba (z jednostką), wzór albo słowo — dystraktory powinny wyglądać jak odpowiedź.
-  function answerShape(text) {
-    const a = String(text);
+  // Rodzaj odpowiedzi do quizu: dystraktory powinny być tego samego rodzaju co poprawna odpowiedź
+  // (osoba, miejsce, rok, liczba z jednostką, wzór, inna nazwa własna, pojęcie). Rodzaj wynika z pytania
+  // („Który władca…”, „W którym roku…”, „Where…”) i z wyglądu odpowiedzi (wielkie litery, cyfry, operatory).
+  const KIND_PERSON = /\b(kto|kim|kogo|czyj\w*|autor\w*|who|whom|whose)\b|\bktór(y|a|ego|ą) (władca|król|królowa|książę|cesarz|papież|wódz|pisarz|pisarka|poeta|poetka|uczony|filozof|polityk|misjonarz|święty|generał|prezydent|premier|marszałek|dowódca|postać|bohater|naukowiec|badacz|psycholog|chemik|fizyk|biolog|matematyk)\b|\bwhich (ruler|king|queen|emperor|pope|scientist|philosopher|author|writer|poet|general|leader|president|explorer|mathematician|physicist|chemist|biologist|psychologist|researcher|historian|figure|character)\b/i;
+  const KIND_PLACE = /\b(gdzie|dokąd|skąd|where)\b|\bw (którym|jakim) (mieście|państwie|kraju|regionie|województwie|miejscu)\b|\b(które|jakie) (miasto|państwo)\b|\b(która|jaka) (rzeka|kraina|wyspa)\b|\bwhich (city|town|country|river|region|continent|ocean|sea|state|island|mountain)\b|\bin which (city|country|region)\b/i;
+  const KIND_YEAR = /\b(w (którym|których|jakim|jakich) (roku|latach|wieku|stuleciu)|kiedy|what year|when|in (which|what) (year|years|century))\b/i;
+  const NUMBER_WORD = /^(zero|jeden|jedna|dwa|dwie|trzy|cztery|pięć|sześć|siedem|osiem|dziewięć|dziesięć|sto|tysiąc|one|two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million)$/i;
+  const YEAR_RE = /^(ok\. |c\. |około )?\d{3,4}(\s*[-–]\s*\d{2,4})?( ?(r\.|roku|p\.n\.e\.|n\.e\.|BC|BCE|AD|CE))?$|^[IVX]+ (w\.|wiek[u]?|century)( p\.n\.e\.| BC)?$/i;
+  const CHEM_RE = /^(\(?[A-Z][a-z]?\d*\)?\d*){1,8}(\d?[+-])?$/;     // NH3, Ca(OH)2, SO4 2-
+  const SYMBOL_RE = /^([A-Z][a-z]?|[A-Za-z]|[IVX]{1,4})$/;             // Fe, V, p, II
+  function answerKind(text, question) {
+    const a = String(text).trim(); const q = String(question || '');
+    if (YEAR_RE.test(a) || (KIND_YEAR.test(q) && /\d/.test(a))) return 'year';
+    if (CHEM_RE.test(a) && a.length >= 2 && /\d|[A-Z].*[A-Z]/.test(a)) return 'chem';
+    if (SYMBOL_RE.test(a)) return 'symbol';
     // jednostki (cm^3, m/s, zł) nie czynią z wartości wzoru
     const bare = a.replace(/\b(mm|cm|dm|km|m|g|kg|zł|s|h|min|N|J|W|Pa|K|mol|l|ml|%)(\^\d)?\b/g, '');
     if (/=/.test(a) || /√|∛|[a-zA-Z]\s*[+\-·*/^]|[+\-·*/^]\s*[a-zA-Z(]/.test(bare)) return 'formula';
-    return /\d/.test(a) ? 'number' : 'word';
+    if (/\d/.test(a) || NUMBER_WORD.test(a)) return 'number';
+    if (KIND_PERSON.test(q)) return 'person';
+    if (KIND_PLACE.test(q) || /^(w|we|do|na|z|ze|pod|nad|in|at|to|from|on) [\p{Lu}]/u.test(a)) return 'place';
+    const words = a.split(/\s+/).filter((w) => /\p{L}/u.test(w));
+    const capitalised = words.length > 0 && words.every((w) => /^[\p{Lu}]/u.test(w) || /^(von|van|de|der|the|of|i|and|św\.|st\.)$/i.test(w));
+    return capitalised ? 'proper' : 'term';
   }
 
   // Dystraktory: najpierw ta sama kategoria, potem reszta tego samego typu; z shape: najpierw ten sam kształt odpowiedzi.
-  function distractors(it, getText, filterFn, exclude, n = 3, shape = null) {
+  function distractors(it, getText, filterFn, exclude, n = 3, kind = null) {
     const excl = new Set(exclude.map((x) => norm(x)));
-    const cands = VOCAB.filter((o) => o !== it && o.subject === it.subject && filterFn(o));
+    // karty z quiz_suitable: false (tak/nie, „X czy Y?”) nie są też dobrymi dystraktorami
+    const cands = VOCAB.filter((o) => o !== it && o.subject === it.subject && o.quiz_suitable !== false && filterFn(o));
     const sameCat = (o) => o.category === it.category && (!it.awl_group || Math.abs((o.awl_group || 0) - it.awl_group) <= 2);
-    const sameShape = (o) => !shape || answerShape(getText(o)) === shape;
-    const ranked = shape
-      ? [...shuffle(cands.filter((o) => sameCat(o) && sameShape(o))), ...shuffle(cands.filter(sameShape)), ...shuffle(cands.filter(sameCat)), ...shuffle(cands)]
+    const sameKind = (o) => o._kind === kind;
+    const sameType = (o) => o.type === it.type;
+    const ranked = kind
+      ? [...shuffle(cands.filter((o) => sameCat(o) && sameKind(o) && sameType(o))), ...shuffle(cands.filter((o) => sameKind(o) && sameType(o))),
+         ...shuffle(cands.filter(sameKind)), ...shuffle(cands.filter(sameCat)), ...shuffle(cands)]
       : [...shuffle(cands.filter(sameCat)), ...shuffle(cands)];
     const out = [];
     for (const o of ranked) {
@@ -1164,8 +1186,9 @@
     }
     if (it.type === 'qa' || it.type === 'cloze') {
       // dystraktory: odpowiedzi z innych pytań i luk tego przedmiotu (najpierw z tej samej kategorii)
-      const correct = it.type === 'qa' ? it.answer : it._gap.hidden;
-      const wrong = distractors(it, (o) => o._mc, (o) => !!o._mc, it._answers, 3, answerShape(correct));
+      // autorskie błędne odpowiedzi (pole distractors) najpierw, reszta z puli przedmiotu tego samego rodzaju
+      const own = shuffle(toArr(it.distractors).filter((d) => !it._answers.some((x) => norm(x) === norm(d)))).slice(0, 3);
+      const wrong = own.length >= 3 ? own : [...own, ...distractors(it, (o) => o._mc, (o) => !!o._mc, [...it._answers, ...own], 3 - own.length, it._kind)];
       return it.type === 'qa'
         ? { instruction: 'Wybierz poprawną odpowiedź', prompt: it.question, sentence: true, answer: it.answer, options: opts(it.answer, wrong) }
         : { instruction: 'Czego brakuje w zdaniu?', prompt: it._label, sentence: true, context: it.hint ? `Podpowiedź: ${it.hint}` : null,

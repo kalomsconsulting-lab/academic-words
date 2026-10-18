@@ -22,16 +22,26 @@ samej `category`, potem z reszty przedmiotu (`distractors()` w `app.js`):
 Dystraktory to odpowiedzi innych kart `qa` i luki innych kart `cloze` z tego samego przedmiotu (oba typy razem, bo
 obie dają krótką odpowiedź). Wymagania:
 
-1. **Kształt odpowiedzi.** Dystraktor ma ten sam kształt co poprawna odpowiedź: liczba lub wartość z jednostką
-   (`32`, `180°`, `24 zł`, `1364`), wzór (`V = Pp · H`, `a^2 + b^2 = c^2`), albo słowo/fraza. Kolejność wyboru:
-   ta sama kategoria i ten sam kształt → ten sam kształt w przedmiocie → ta sama kategoria → reszta przedmiotu.
-   Pytanie „Ile wynosi 2^5?” nie może dostać opcji „sublimacja”.
-2. **Bez kolizji.** Dystraktor nie może być równy (po normalizacji: małe litery, bez polskich znaków i znaków
+1. **Rodzaj odpowiedzi** (ZROBIONE, `answerKind()` w `app.js`). Dystraktor ma ten sam rodzaj co poprawna odpowiedź:
+   `year` (rok, zakres lat, wiek), `number` (wartość, także z jednostką i liczebniki słowne), `formula` (wzór
+   z `=` lub zmiennymi), `chem` (wzór sumaryczny: `NH3`, `Ca(OH)2`), `symbol` (`Fe`, `V`, `II`), `person`
+   (pytanie „Kto…”, „Który władca…”, „Who…”), `place` („Gdzie…”, „Które państwo…”, odpowiedź z przyimkiem
+   i wielką literą), `proper` (inna nazwa własna) albo `term` (pojęcie). Rodzaj można nadpisać polem `kind` na
+   karcie. Kolejność wyboru: ta sama kategoria, rodzaj i typ (`qa`/`cloze`) → ten sam rodzaj i typ → ten sam rodzaj
+   → ta sama kategoria → reszta przedmiotu. Karty z `quiz_suitable: false` nie są dystraktorami.
+2. **Autorskie dystraktory** (ZROBIONE w kodzie, DO UZUPEŁNIENIA w danych). Opcjonalne pole `distractors: [...]`
+   (do 3 błędnych odpowiedzi) jest używane w pierwszej kolejności, a brakujące opcje dobiera pula. To jedyny sposób
+   na naprawdę trudny quiz tam, gdzie rodzaj odpowiedzi nie wystarcza: luki z przeciwieństwem („niskiej / wysokiej”,
+   „rosną / maleją”), pojęcia z tej samej rodziny (rodzaje tkanek, gatunki literackie, typy reakcji), bliskie daty.
+   Zadanie dla wykonawców (jeden przedmiot na wykonawcę): dla każdej karty `cloze` i każdej karty `qa` z odpowiedzią
+   rodzaju `term`/`proper` dopisać 3 dystraktory, które są prawdziwymi pojęciami z tego przedmiotu, tego samego
+   rodzaju gramatycznego i podobnej długości, ale jednoznacznie błędne dla tego pytania.
+3. **Bez kolizji.** Dystraktor nie może być równy (po normalizacji: małe litery, bez polskich znaków i znaków
    specjalnych) żadnej z odpowiedzi akceptowanych w karcie (`answer`, `accept`, warianty luki po `/`). Dwa pytania
    z tą samą odpowiedzią w jednej kategorii (np. „increases”, „180°”) są dopuszczalne.
-3. **Minimalna pula.** Quiz dla karty jest dostępny, gdy w przedmiocie są co najmniej 4 karty z krótką odpowiedzią
+4. **Minimalna pula.** Quiz dla karty jest dostępny, gdy w przedmiocie są co najmniej 4 karty z krótką odpowiedzią
    (`_mc`); kategorie z mniejszą pulą korzystają z całego przedmiotu, więc nie wymagają dopełniania.
-4. **Długość odpowiedzi.** „Krótka” odpowiedź (do quizu i wpisywania) to ≤ 40 znaków i ≤ 4 wyrazy, przy czym spacje
+5. **Długość odpowiedzi.** „Krótka” odpowiedź (do quizu i wpisywania) to ≤ 40 znaków i ≤ 4 wyrazy, przy czym spacje
    wokół operatorów (`=`, `+`, `-`, `·`, `/`, `^`, nawiasy) nie liczą się jako podział wyrazów, żeby wzory zapisane
    czytelnie (`P = a · h / 2`) nie wypadały z quizu.
 
