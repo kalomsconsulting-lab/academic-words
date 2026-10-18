@@ -58,7 +58,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "metaphor",
+    "simile",
+    "apostrophe"
+   ]
   },
   {
    "id": "enib-pp-004",
@@ -71,7 +76,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "assonance",
+    "consonance",
+    "onomatopoeia"
+   ]
   },
   {
    "id": "enib-pp-005",
@@ -84,7 +94,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "alliteration",
+    "consonance",
+    "sibilance"
+   ]
   },
   {
    "id": "enib-pp-006",
@@ -112,7 +127,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "understatement",
+    "litotes",
+    "euphemism"
+   ]
   },
   {
    "id": "enib-pp-008",
@@ -127,7 +147,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "paradox",
+    "antithesis",
+    "juxtaposition"
+   ]
   },
   {
    "id": "enib-pp-009",
@@ -142,7 +167,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "oxymoron",
+    "hyperbole",
+    "antithesis"
+   ]
   },
   {
    "id": "enib-pp-010",
@@ -157,7 +187,8 @@
    "kind": "device",
    "distractors": [
     "situational irony",
-    "dramatic irony"
+    "dramatic irony",
+    "understatement"
    ]
   },
   {
@@ -173,7 +204,8 @@
    "kind": "device",
    "distractors": [
     "verbal irony",
-    "dramatic irony"
+    "dramatic irony",
+    "foreshadowing"
    ]
   },
   {
@@ -190,7 +222,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "metaphor",
+    "imagery",
+    "motif"
+   ]
   },
   {
    "id": "enib-pp-013",
@@ -205,7 +242,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "symbolism",
+    "diction",
+    "onomatopoeia"
+   ]
   },
   {
    "id": "enib-pp-014",
@@ -218,7 +260,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "oxymoron",
+    "parallelism",
+    "allusion"
+   ]
   },
   {
    "id": "enib-pp-015",
@@ -231,7 +278,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "flashback",
+    "allusion",
+    "motif"
+   ]
   },
   {
    "id": "enib-pp-016",
@@ -246,7 +298,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "metaphor",
+    "metonymy",
+    "euphemism"
+   ]
   },
   {
    "id": "enib-pp-017",
@@ -261,7 +318,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "hyperbole",
+    "understatement",
+    "metonymy"
+   ]
   },
   {
    "id": "enib-pp-018",
@@ -274,7 +336,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "synecdoche",
+    "metaphor",
+    "allusion"
+   ]
   },
   {
    "id": "enib-pp-019",
@@ -287,7 +354,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "metonymy",
+    "metaphor",
+    "hyperbole"
+   ]
   },
   {
    "id": "enib-pp-020",
@@ -302,7 +374,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "theme",
+    "refrain",
+    "allusion"
+   ]
   },
   {
    "id": "enib-pp-021",
@@ -314,7 +391,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB devices",
-   "kind": "device"
+   "kind": "device",
+   "distractors": [
+    "foreshadowing",
+    "situational irony",
+    "onomatopoeia"
+   ]
   },
   {
    "id": "enib-pp-022",
@@ -330,7 +412,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "refrain",
+    "canto",
+    "caesura"
+   ]
   },
   {
    "id": "enib-pp-023",
@@ -346,7 +433,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "quatrain",
+    "tercet",
+    "sestet"
+   ]
   },
   {
    "id": "enib-pp-024",
@@ -361,7 +453,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "couplet",
+    "tercet",
+    "octave"
+   ]
   },
   {
    "id": "enib-pp-025",
@@ -373,7 +470,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "meter",
+    "refrain",
+    "volta"
+   ]
   },
   {
    "id": "enib-pp-026",
@@ -406,7 +508,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "meter"
+   "kind": "meter",
+   "distractors": [
+    "rhyme scheme",
+    "enjambment",
+    "caesura"
+   ]
   },
   {
    "id": "enib-pp-028",
@@ -418,7 +525,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "meter"
+   "kind": "meter",
+   "distractors": [
+    "trochaic tetrameter",
+    "iambic tetrameter",
+    "dactylic hexameter"
+   ]
   },
   {
    "id": "enib-pp-029",
@@ -451,7 +563,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "caesura",
+    "couplet",
+    "enjambment"
+   ]
   },
   {
    "id": "enib-pp-031",
@@ -467,7 +584,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "caesura",
+    "end-stopped line",
+    "volta"
+   ]
   },
   {
    "id": "enib-pp-032",
@@ -482,7 +604,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "enjambment",
+    "volta",
+    "refrain"
+   ]
   },
   {
    "id": "enib-pp-033",
@@ -496,7 +623,9 @@
    "pp": "IB Readers writers and texts",
    "kind": "meter",
    "distractors": [
-    "blank verse"
+    "blank verse",
+    "heroic couplet",
+    "ballad"
    ]
   },
   {
@@ -511,7 +640,9 @@
    "pp": "IB Readers writers and texts",
    "kind": "meter",
    "distractors": [
-    "free verse"
+    "free verse",
+    "heroic couplet",
+    "sonnet"
    ]
   },
   {
@@ -528,7 +659,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "poetic form"
+   "kind": "poetic form",
+   "distractors": [
+    "stanza",
+    "couplet",
+    "volta"
+   ]
   },
   {
    "id": "enib-pp-036",
@@ -543,7 +679,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "protagonist",
+    "author",
+    "antagonist"
+   ]
   },
   {
    "id": "enib-pp-037",
@@ -558,7 +699,8 @@
    "kind": "narrative term",
    "distractors": [
     "third person",
-    "second person"
+    "second person",
+    "past tense"
    ]
   },
   {
@@ -573,7 +715,9 @@
    "pp": "IB Readers writers and texts",
    "kind": "narrative term",
    "distractors": [
-    "limited"
+    "limited",
+    "objective",
+    "unreliable"
    ]
   },
   {
@@ -588,7 +732,9 @@
    "pp": "IB Readers writers and texts",
    "kind": "narrative term",
    "distractors": [
-    "omniscient"
+    "omniscient",
+    "objective",
+    "unreliable"
    ]
   },
   {
@@ -620,7 +766,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "theme",
+    "setting",
+    "exposition"
+   ]
   },
   {
    "id": "enib-pp-042",
@@ -635,7 +786,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "climax",
+    "resolution",
+    "rising action"
+   ]
   },
   {
    "id": "enib-pp-043",
@@ -666,7 +822,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "climax",
+    "exposition",
+    "rising action"
+   ]
   },
   {
    "id": "enib-pp-045",
@@ -681,7 +842,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "narration",
+    "point of view",
+    "foreshadowing"
+   ]
   },
   {
    "id": "enib-pp-046",
@@ -712,7 +878,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "protagonist",
+    "foil",
+    "narrator"
+   ]
   },
   {
    "id": "enib-pp-048",
@@ -728,7 +899,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "foreshadowing",
+    "flash-forward",
+    "exposition"
+   ]
   },
   {
    "id": "enib-pp-049",
@@ -740,7 +916,12 @@
    "difficulty": 3,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "free indirect discourse",
+    "dramatic monologue",
+    "frame narrative"
+   ]
   },
   {
    "id": "enib-pp-050",
@@ -752,7 +933,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "narrative term"
+   "kind": "narrative term",
+   "distractors": [
+    "ab ovo",
+    "with a prologue",
+    "with exposition"
+   ]
   },
   {
    "id": "enib-pp-051",
@@ -767,7 +953,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "scene",
+    "prologue",
+    "epilogue"
+   ]
   },
   {
    "id": "enib-pp-052",
@@ -782,7 +973,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "act",
+    "episode",
+    "interlude"
+   ]
   },
   {
    "id": "enib-pp-053",
@@ -797,7 +993,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "monologue",
+    "aside",
+    "dialogue"
+   ]
   },
   {
    "id": "enib-pp-054",
@@ -812,7 +1013,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "soliloquy",
+    "monologue",
+    "chorus"
+   ]
   },
   {
    "id": "enib-pp-055",
@@ -827,7 +1033,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "soliloquy",
+    "aside",
+    "dialogue"
+   ]
   },
   {
    "id": "enib-pp-056",
@@ -839,7 +1050,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "asides",
+    "cues",
+    "soliloquies"
+   ]
   },
   {
    "id": "enib-pp-057",
@@ -854,7 +1070,8 @@
    "kind": "drama term",
    "distractors": [
     "verbal irony",
-    "situational irony"
+    "situational irony",
+    "foreshadowing"
    ]
   },
   {
@@ -868,7 +1085,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "catharsis",
+    "anagnorisis",
+    "peripeteia"
+   ]
   },
   {
    "id": "enib-pp-059",
@@ -881,7 +1103,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "drama term"
+   "kind": "drama term",
+   "distractors": [
+    "hamartia",
+    "hubris",
+    "peripeteia"
+   ]
   },
   {
    "id": "enib-pp-060",
@@ -912,7 +1139,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text type"
+   "kind": "text type",
+   "distractors": [
+    "news report",
+    "feature article",
+    "review"
+   ]
   },
   {
    "id": "enib-pp-062",
@@ -924,7 +1156,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text type"
+   "kind": "text type",
+   "distractors": [
+    "editorial",
+    "feature article",
+    "press release"
+   ]
   },
   {
    "id": "enib-pp-063",
@@ -939,7 +1176,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text feature"
+   "kind": "text feature",
+   "distractors": [
+    "byline",
+    "caption",
+    "standfirst"
+   ]
   },
   {
    "id": "enib-pp-064",
@@ -954,7 +1196,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text feature"
+   "kind": "text feature",
+   "distractors": [
+    "headline",
+    "caption",
+    "dateline"
+   ]
   },
   {
    "id": "enib-pp-065",
@@ -969,7 +1216,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text feature"
+   "kind": "text feature",
+   "distractors": [
+    "byline",
+    "headline",
+    "footnote"
+   ]
   },
   {
    "id": "enib-pp-066",
@@ -984,7 +1236,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text type"
+   "kind": "text type",
+   "distractors": [
+    "advertisement",
+    "brochure",
+    "poster"
+   ]
   },
   {
    "id": "enib-pp-067",
@@ -1001,7 +1258,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text type"
+   "kind": "text type",
+   "distractors": [
+    "infographic",
+    "press release",
+    "editorial"
+   ]
   },
   {
    "id": "enib-pp-068",
@@ -1016,7 +1278,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text type"
+   "kind": "text type",
+   "distractors": [
+    "autobiography",
+    "biography",
+    "travelogue"
+   ]
   },
   {
    "id": "enib-pp-069",
@@ -1032,7 +1299,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text feature"
+   "kind": "text feature",
+   "distractors": [
+    "headline",
+    "logo",
+    "caption"
+   ]
   },
   {
    "id": "enib-pp-070",
@@ -1046,7 +1318,9 @@
    "pp": "IB Time and space",
    "kind": "concept",
    "distractors": [
-    "literary"
+    "literary",
+    "fictional",
+    "poetic"
    ]
   },
   {
@@ -1059,7 +1333,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "text feature"
+   "kind": "text feature",
+   "distractors": [
+    "typography",
+    "register",
+    "headline"
+   ]
   },
   {
    "id": "enib-pp-072",
@@ -1072,7 +1351,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "pathos",
+    "logos",
+    "kairos"
+   ]
   },
   {
    "id": "enib-pp-073",
@@ -1085,7 +1369,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "ethos",
+    "logos",
+    "kairos"
+   ]
   },
   {
    "id": "enib-pp-074",
@@ -1098,7 +1387,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "ethos",
+    "pathos",
+    "kairos"
+   ]
   },
   {
    "id": "enib-pp-075",
@@ -1113,7 +1407,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "hypophora",
+    "anaphora",
+    "antithesis"
+   ]
   },
   {
    "id": "enib-pp-076",
@@ -1126,7 +1425,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "epistrophe",
+    "tricolon",
+    "antithesis"
+   ]
   },
   {
    "id": "enib-pp-077",
@@ -1142,7 +1446,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "anaphora",
+    "antithesis",
+    "hyperbole"
+   ]
   },
   {
    "id": "enib-pp-078",
@@ -1155,7 +1464,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "anaphora",
+    "tricolon",
+    "oxymoron"
+   ]
   },
   {
    "id": "enib-pp-079",
@@ -1167,7 +1481,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "rhetorical question",
+    "anaphora",
+    "antithesis"
+   ]
   },
   {
    "id": "enib-pp-080",
@@ -1181,7 +1500,9 @@
    "pp": "IB Readers writers and texts",
    "kind": "rhetorical term",
    "distractors": [
-    "exclusive"
+    "exclusive",
+    "relative",
+    "demonstrative"
    ]
   },
   {
@@ -1198,7 +1519,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "indicative",
+    "subjunctive",
+    "interrogative"
+   ]
   },
   {
    "id": "enib-pp-082",
@@ -1213,7 +1539,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "rhetorical term"
+   "kind": "rhetorical term",
+   "distractors": [
+    "figurative language",
+    "formal language",
+    "colloquial language"
+   ]
   },
   {
    "id": "enib-pp-083",
@@ -1225,7 +1556,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "analysis term"
+   "kind": "analysis term",
+   "distractors": [
+    "topic sentence",
+    "conclusion",
+    "hook"
+   ]
   },
   {
    "id": "enib-pp-084",
@@ -1257,7 +1593,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "analysis term"
+   "kind": "analysis term",
+   "distractors": [
+    "mood",
+    "diction",
+    "register"
+   ]
   },
   {
    "id": "enib-pp-086",
@@ -1273,7 +1614,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "analysis term"
+   "kind": "analysis term",
+   "distractors": [
+    "tone",
+    "theme",
+    "setting"
+   ]
   },
   {
    "id": "enib-pp-087",
@@ -1288,7 +1634,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "analysis term"
+   "kind": "analysis term",
+   "distractors": [
+    "syntax",
+    "tone",
+    "register"
+   ]
   },
   {
    "id": "enib-pp-088",
@@ -1303,7 +1654,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "analysis term"
+   "kind": "analysis term",
+   "distractors": [
+    "diction",
+    "register",
+    "semantics"
+   ]
   },
   {
    "id": "enib-pp-089",
@@ -1317,7 +1673,9 @@
    "pp": "IB Readers writers and texts",
    "kind": "analysis term",
    "distractors": [
-    "denotation"
+    "denotation",
+    "definition",
+    "etymology"
    ]
   },
   {
@@ -1330,7 +1688,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "analysis term"
+   "kind": "analysis term",
+   "distractors": [
+    "skimming",
+    "scanning",
+    "paraphrasing"
+   ]
   },
   {
    "id": "enib-pp-091",
@@ -1345,7 +1708,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Readers writers and texts",
-   "kind": "analysis term"
+   "kind": "analysis term",
+   "distractors": [
+    "tone",
+    "purpose",
+    "audience"
+   ]
   },
   {
    "id": "enib-pp-092",
@@ -1359,7 +1727,9 @@
    "pp": "IB Readers writers and texts",
    "kind": "analysis term",
    "distractors": [
-    "block"
+    "block",
+    "indirect",
+    "extended"
    ]
   },
   {
@@ -1372,7 +1742,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "diction",
+    "tone",
+    "dialect"
+   ]
   },
   {
    "id": "enib-pp-094",
@@ -1387,7 +1762,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "register",
+    "mode",
+    "medium"
+   ]
   },
   {
    "id": "enib-pp-095",
@@ -1403,7 +1783,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "purpose",
+    "author",
+    "context"
+   ]
   },
   {
    "id": "enib-pp-096",
@@ -1418,7 +1803,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "audience",
+    "genre",
+    "context"
+   ]
   },
   {
    "id": "enib-pp-097",
@@ -1432,7 +1822,9 @@
    "pp": "IB Time and space",
    "kind": "concept",
    "distractors": [
-    "reception"
+    "reception",
+    "publication",
+    "interpretation"
    ]
   },
   {
@@ -1446,7 +1838,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "slang",
+    "colloquialism",
+    "dialect"
+   ]
   },
   {
    "id": "enib-pp-099",
@@ -1462,7 +1859,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Time and space",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "formal language",
+    "jargon",
+    "emotive language"
+   ]
   },
   {
    "id": "enib-pp-100",
@@ -1477,7 +1879,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Intertextuality",
-   "kind": "text type"
+   "kind": "text type",
+   "distractors": [
+    "satire",
+    "pastiche",
+    "allegory"
+   ]
   },
   {
    "id": "enib-pp-101",
@@ -1490,7 +1897,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Intertextuality",
-   "kind": "text type"
+   "kind": "text type",
+   "distractors": [
+    "parody",
+    "allegory",
+    "farce"
+   ]
   },
   {
    "id": "enib-pp-102",
@@ -1502,7 +1914,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Intertextuality",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "metafiction",
+    "plagiarism",
+    "subtext"
+   ]
   },
   {
    "id": "enib-pp-103",
@@ -1529,7 +1946,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB concepts",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "place",
+    "culture",
+    "context"
+   ]
   },
   {
    "id": "enib-pp-105",
@@ -1544,7 +1966,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB concepts",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "themes",
+    "areas",
+    "skills"
+   ]
   }
  ]
 }
