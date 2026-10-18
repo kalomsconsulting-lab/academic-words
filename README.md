@@ -25,7 +25,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 - 7 reguł stylu, 12 przykładów hedgingu (4 techniki)
 - 570 słów z Academic Word List (grupy 1–10), wszystkie z polskim tłumaczeniem i zdaniem przykładowym
 
-**Tryby nauki:** fiszki (ze swipe), quiz (4 odpowiedzi), wpisywanie (tolerancja literówek), dopasowywanie par, uzupełnianie luk, układanie w kolejności (karty `order`). We *Własnej sesji* wybrany rodzaj ćwiczeń zawęża pulę do kart, które się do niego nadają (np. *Luki* to tylko zdania z luką, *Dopasowywanie* tylko karty z parami); karty `order` ćwiczy się w trybie *Mix* albo jako fiszki. Wzory w kartach (`$$…$$`) renderuje KaTeX z CDN, obrazki podaje pole `image`.
+**Tryby nauki:** fiszki (ze swipe), quiz (4 odpowiedzi), wpisywanie (tolerancja literówek), dopasowywanie par, uzupełnianie luk, układanie w kolejności (karty `order`). We *Własnej sesji* wybrany rodzaj ćwiczeń zawęża pulę do kart, które się do niego nadają (np. *Luki* to tylko zdania z luką, *Dopasowywanie* tylko karty z parami); karty `order` mają własny rodzaj *Kolejność* (chip widoczny tylko w przedmiotach, które takie karty mają), a w *Mix* losują fiszkę albo układanie. Wzory w kartach (`$$…$$`) renderuje KaTeX z CDN, obrazki podaje pole `image`.
 **Sesje:** szybka (10–15 słów, mix ćwiczeń) albo inteligentne powtórki (algorytm SM-2 + limit nowych słów dziennie).
 
 ## Przedmioty

@@ -403,6 +403,7 @@
     typing: 'Wpisywanie',
     matching: 'Dopasowywanie',
     gap: 'Luki',
+    order: 'Kolejność', // tylko w przedmiotach z kartami „ułóż w kolejności”
   };
 
   const STATUS_LABELS = { new: 'Nowe', learning: 'W nauce', mastered: 'Opanowane' };
@@ -1000,7 +1001,8 @@
   function fitsExercise(it, exercise) {
     switch (exercise) {
       case 'mc':
-      case 'gap': return eligible(exercise, it);
+      case 'gap':
+      case 'order': return eligible(exercise, it);
       case 'typing': return eligible('typing', it) || eligible('gap', it);
       case 'matching': return !!preferredVariant(it);
       default: return true;
@@ -2087,8 +2089,10 @@
     sizeField.append(h('span', { class: 'label' }, 'Liczba słów'),
       seg([['10', '10'], ['12', '12'], ['15', '15']], String(state.settings.sessionSize), (v) => { state.settings.sessionSize = Number(v); save(); }));
 
+    const hasOrder = subjectPool().some((it) => eligible('order', it));
+    if (cfg.exercise === 'order' && !hasOrder) { cfg.exercise = 'mix'; state.settings.lastConfig.exercise = 'mix'; }
     const exChips = h('div', { class: 'chips' });
-    const drawEx = () => exChips.replaceChildren(...Object.entries(EXERCISES).map(([k, l]) =>
+    const drawEx = () => exChips.replaceChildren(...Object.entries(EXERCISES).filter(([k]) => k !== 'order' || hasOrder).map(([k, l]) =>
       h('button', { class: 'chip' + (cfg.exercise === k ? ' active' : ''), onClick: () => { cfg.exercise = k; drawEx(); persist(); } }, l)));
     drawEx();
 
@@ -2112,6 +2116,7 @@
           h('dt', null, 'Wpisywanie'), h('dd', null, 'Napisz odpowiedź z pamięci. Drobne literówki są akceptowane.'),
           h('dt', null, 'Dopasowywanie'), h('dd', null, '5–6 par, np. informal ↔ formal, EN ↔ PL albo odpowiedź ↔ pytanie.'),
           h('dt', null, 'Luki'), h('dd', null, 'Uzupełnij zdanie brakującym wyrażeniem lub pojęciem.'),
+          hasOrder ? [h('dt', null, 'Kolejność'), h('dd', null, 'Ułóż pomieszane kroki procesu, algorytmu lub doświadczenia w poprawnej kolejności.')] : null,
           h('dt', null, 'Mix'), h('dd', null, 'Wszystko naraz — najlepsze na co dzień.'))));
     refresh();
   }
