@@ -3,6 +3,16 @@
  "subject": "biologia_sp7",
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego: biologia, szkoła podstawowa (Dz.U. 2017 poz. 356 z późn. zm.), dział III Organizm człowieka",
+ "kinds": [
+  "narząd",
+  "gruczoł",
+  "komórka",
+  "substancja",
+  "choroba",
+  "proces",
+  "wartość",
+  "pojęcie"
+ ],
  "items": [
   {
    "id": "bio7-001",
@@ -10,7 +20,8 @@
    "question": "Jak nazywa się podstawowa jednostka budowy i funkcji organizmu?",
    "answer": "komórka",
    "category": "bio7_body",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-002",
@@ -18,14 +29,16 @@
    "question": "Jak nazywa się zespół komórek o podobnej budowie i funkcji?",
    "answer": "tkanka",
    "category": "bio7_body",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-003",
    "type": "cloze",
    "text": "Narządy współpracujące ze sobą tworzą {{układ narządów}}.",
    "category": "bio7_body",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-004",
@@ -37,7 +50,8 @@
     "nabłonek"
    ],
    "category": "bio7_body",
-   "difficulty": 2
+   "difficulty": 2,
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-005",
@@ -46,7 +60,8 @@
    "answer": "naskórek",
    "category": "bio7_skin",
    "difficulty": 1,
-   "pp": "III.1.2"
+   "pp": "III.1.2",
+   "kind": "narząd"
   },
   {
    "id": "bio7-006",
@@ -54,7 +69,8 @@
    "text": "Pod wpływem promieni słonecznych w skórze powstaje witamina {{D}}.",
    "category": "bio7_skin",
    "difficulty": 1,
-   "pp": "III.1.1"
+   "pp": "III.1.1",
+   "kind": "substancja"
   },
   {
    "id": "bio7-007",
@@ -67,7 +83,8 @@
    "explanation": "Pot chłodzi ciało i usuwa część zbędnych substancji.",
    "category": "bio7_skin",
    "difficulty": 1,
-   "pp": "III.1.2"
+   "pp": "III.1.2",
+   "kind": "gruczoł"
   },
   {
    "id": "bio7-008",
@@ -76,7 +93,8 @@
    "answer": "staw",
    "category": "bio7_movement",
    "difficulty": 1,
-   "pp": "III.2.3"
+   "pp": "III.2.3",
+   "kind": "narząd"
   },
   {
    "id": "bio7-009",
@@ -88,7 +106,8 @@
    ],
    "category": "bio7_movement",
    "difficulty": 2,
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "wartość"
   },
   {
    "id": "bio7-010",
@@ -96,7 +115,8 @@
    "text": "Mięśnie łączą się z kośćmi za pomocą {{ścięgien / ścięgna}}.",
    "category": "bio7_movement",
    "difficulty": 1,
-   "pp": "III.2.3"
+   "pp": "III.2.3",
+   "kind": "narząd"
   },
   {
    "id": "bio7-011",
@@ -110,7 +130,8 @@
    "explanation": "Za elastyczność kości odpowiada białko osseina.",
    "category": "bio7_movement",
    "difficulty": 2,
-   "pp": "III.2.2"
+   "pp": "III.2.2",
+   "kind": "substancja"
   },
   {
    "id": "bio7-012",
@@ -118,7 +139,8 @@
    "text": "Mięśnie działające przeciwstawnie, np. biceps i triceps, to mięśnie {{antagonistyczne}}.",
    "category": "bio7_movement",
    "difficulty": 2,
-   "pp": "III.2.3"
+   "pp": "III.2.3",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-013",
@@ -130,7 +152,8 @@
    ],
    "category": "bio7_digestion",
    "difficulty": 1,
-   "pp": "III.3.1"
+   "pp": "III.3.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-014",
@@ -140,7 +163,8 @@
    "explanation": "Żółć rozbija tłuszcze na drobne kropelki (emulguje je).",
    "category": "bio7_digestion",
    "difficulty": 1,
-   "pp": "III.3.1"
+   "pp": "III.3.1",
+   "kind": "gruczoł"
   },
   {
    "id": "bio7-015",
@@ -148,7 +172,8 @@
    "text": "Trawienie skrobi zaczyna się w {{jamie ustnej}} dzięki amylazie ślinowej.",
    "category": "bio7_digestion",
    "difficulty": 1,
-   "pp": "III.3.1"
+   "pp": "III.3.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-016",
@@ -160,7 +185,8 @@
    ],
    "category": "bio7_digestion",
    "difficulty": 1,
-   "pp": "III.3.3"
+   "pp": "III.3.3",
+   "kind": "substancja"
   },
   {
    "id": "bio7-017",
@@ -168,7 +194,8 @@
    "text": "W soku żołądkowym znajduje się kwas {{solny}}, który zabija bakterie.",
    "category": "bio7_digestion",
    "difficulty": 1,
-   "pp": "III.3.1"
+   "pp": "III.3.1",
+   "kind": "substancja"
   },
   {
    "id": "bio7-018",
@@ -180,7 +207,8 @@
    ],
    "category": "bio7_digestion",
    "difficulty": 2,
-   "pp": "III.3.3"
+   "pp": "III.3.3",
+   "kind": "substancja"
   },
   {
    "id": "bio7-019",
@@ -192,7 +220,8 @@
    ],
    "category": "bio7_circulation",
    "difficulty": 1,
-   "pp": "III.4.1"
+   "pp": "III.4.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-020",
@@ -205,7 +234,8 @@
    "explanation": "Serce ma też dwa przedsionki.",
    "category": "bio7_circulation",
    "difficulty": 1,
-   "pp": "III.4.1"
+   "pp": "III.4.1",
+   "kind": "wartość"
   },
   {
    "id": "bio7-021",
@@ -213,7 +243,8 @@
    "text": "Tlen we krwi przenoszą {{czerwone krwinki / erytrocyty}}.",
    "category": "bio7_circulation",
    "difficulty": 1,
-   "pp": "III.4.3"
+   "pp": "III.4.3",
+   "kind": "komórka"
   },
   {
    "id": "bio7-022",
@@ -225,7 +256,8 @@
    ],
    "category": "bio7_circulation",
    "difficulty": 1,
-   "pp": "III.4.3"
+   "pp": "III.4.3",
+   "kind": "komórka"
   },
   {
    "id": "bio7-023",
@@ -233,7 +265,8 @@
    "text": "Najcieńsze naczynia, w których zachodzi wymiana substancji między krwią a tkankami, to {{naczynia włosowate}}.",
    "category": "bio7_circulation",
    "difficulty": 2,
-   "pp": "III.4.1"
+   "pp": "III.4.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-024",
@@ -245,7 +278,8 @@
    ],
    "category": "bio7_immune",
    "difficulty": 1,
-   "pp": "III.5.2"
+   "pp": "III.5.2",
+   "kind": "substancja"
   },
   {
    "id": "bio7-025",
@@ -254,7 +288,13 @@
    "explanation": "Organizm sam wytwarza przeciwciała po kontakcie z osłabionym antygenem.",
    "category": "bio7_immune",
    "difficulty": 2,
-   "pp": "III.5.3"
+   "pp": "III.5.3",
+   "kind": "pojęcie",
+   "distractors": [
+    "bierną sztuczną",
+    "czynną naturalną",
+    "bierną naturalną"
+   ]
   },
   {
    "id": "bio7-026",
@@ -266,7 +306,8 @@
    ],
    "category": "bio7_immune",
    "difficulty": 1,
-   "pp": "III.5.5"
+   "pp": "III.5.5",
+   "kind": "choroba"
   },
   {
    "id": "bio7-027",
@@ -275,7 +316,8 @@
    "answer": "przepona",
    "category": "bio7_breathing",
    "difficulty": 1,
-   "pp": "III.6.2"
+   "pp": "III.6.2",
+   "kind": "narząd"
   },
   {
    "id": "bio7-028",
@@ -284,7 +326,8 @@
    "hint": "płuca",
    "category": "bio7_breathing",
    "difficulty": 1,
-   "pp": "III.6.3"
+   "pp": "III.6.3",
+   "kind": "narząd"
   },
   {
    "id": "bio7-029",
@@ -292,7 +335,8 @@
    "text": "W krtani znajdują się {{struny głosowe / fałdy głosowe}}, dzięki którym wydajemy dźwięki.",
    "category": "bio7_breathing",
    "difficulty": 1,
-   "pp": "III.6.1"
+   "pp": "III.6.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-030",
@@ -304,7 +348,8 @@
    ],
    "category": "bio7_breathing",
    "difficulty": 1,
-   "pp": "III.6.3"
+   "pp": "III.6.3",
+   "kind": "substancja"
   },
   {
    "id": "bio7-031",
@@ -317,7 +362,8 @@
    ],
    "category": "bio7_breathing",
    "difficulty": 2,
-   "pp": "III.6.3"
+   "pp": "III.6.3",
+   "kind": "komórka"
   },
   {
    "id": "bio7-032",
@@ -329,7 +375,8 @@
    ],
    "category": "bio7_excretion",
    "difficulty": 1,
-   "pp": "III.7.2"
+   "pp": "III.7.2",
+   "kind": "narząd"
   },
   {
    "id": "bio7-033",
@@ -337,7 +384,8 @@
    "text": "Mocz z nerek spływa do pęcherza moczowego przez {{moczowody / moczowód}}.",
    "category": "bio7_excretion",
    "difficulty": 1,
-   "pp": "III.7.2"
+   "pp": "III.7.2",
+   "kind": "narząd"
   },
   {
    "id": "bio7-034",
@@ -346,7 +394,8 @@
    "answer": "nefron",
    "category": "bio7_excretion",
    "difficulty": 2,
-   "pp": "III.7.2"
+   "pp": "III.7.2",
+   "kind": "narząd"
   },
   {
    "id": "bio7-035",
@@ -355,7 +404,8 @@
    "answer": "neuron",
    "category": "bio7_nervous",
    "difficulty": 1,
-   "pp": "III.8.1"
+   "pp": "III.8.1",
+   "kind": "komórka"
   },
   {
    "id": "bio7-036",
@@ -363,7 +413,8 @@
    "text": "Ośrodkowy układ nerwowy tworzą mózgowie i {{rdzeń kręgowy}}.",
    "category": "bio7_nervous",
    "difficulty": 1,
-   "pp": "III.8.1"
+   "pp": "III.8.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-037",
@@ -375,7 +426,8 @@
    ],
    "category": "bio7_nervous",
    "difficulty": 1,
-   "pp": "III.8.2"
+   "pp": "III.8.2",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-038",
@@ -384,7 +436,8 @@
    "answer": "móżdżek",
    "category": "bio7_nervous",
    "difficulty": 2,
-   "pp": "III.8.1"
+   "pp": "III.8.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-039",
@@ -396,7 +449,8 @@
    ],
    "category": "bio7_senses",
    "difficulty": 1,
-   "pp": "III.9.1"
+   "pp": "III.9.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-040",
@@ -404,7 +458,11 @@
    "text": "Krótkowzroczność koryguje się okularami z soczewkami {{rozpraszającymi / wklęsłymi}}.",
    "category": "bio7_senses",
    "difficulty": 2,
-   "pp": "III.9.2"
+   "pp": "III.9.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "skupiającymi"
+   ]
   },
   {
    "id": "bio7-041",
@@ -417,7 +475,8 @@
    ],
    "category": "bio7_senses",
    "difficulty": 1,
-   "pp": "III.9.6"
+   "pp": "III.9.6",
+   "kind": "narząd"
   },
   {
    "id": "bio7-042",
@@ -426,7 +485,8 @@
    "answer": "insulina",
    "category": "bio7_hormones",
    "difficulty": 1,
-   "pp": "III.10.1"
+   "pp": "III.10.1",
+   "kind": "substancja"
   },
   {
    "id": "bio7-043",
@@ -439,7 +499,8 @@
    ],
    "category": "bio7_hormones",
    "difficulty": 1,
-   "pp": "III.10.1"
+   "pp": "III.10.1",
+   "kind": "gruczoł"
   },
   {
    "id": "bio7-044",
@@ -447,7 +508,8 @@
    "text": "Niedobór insuliny prowadzi do choroby zwanej {{cukrzycą / cukrzyca}}.",
    "category": "bio7_hormones",
    "difficulty": 1,
-   "pp": "III.10.1"
+   "pp": "III.10.1",
+   "kind": "choroba"
   },
   {
    "id": "bio7-045",
@@ -455,7 +517,8 @@
    "text": "Hormon wzrostu wydziela {{przysadka mózgowa / przysadka}}.",
    "category": "bio7_hormones",
    "difficulty": 2,
-   "pp": "III.10.1"
+   "pp": "III.10.1",
+   "kind": "gruczoł"
   },
   {
    "id": "bio7-046",
@@ -468,7 +531,8 @@
    ],
    "category": "bio7_reproduction",
    "difficulty": 1,
-   "pp": "III.11.3"
+   "pp": "III.11.3",
+   "kind": "narząd"
   },
   {
    "id": "bio7-047",
@@ -476,7 +540,8 @@
    "text": "Męskie gamety, czyli {{plemniki}}, powstają w jądrach.",
    "category": "bio7_reproduction",
    "difficulty": 1,
-   "pp": "III.11.1"
+   "pp": "III.11.1",
+   "kind": "komórka"
   },
   {
    "id": "bio7-048",
@@ -488,7 +553,8 @@
    ],
    "category": "bio7_reproduction",
    "difficulty": 1,
-   "pp": "III.11.5"
+   "pp": "III.11.5",
+   "kind": "proces"
   },
   {
    "id": "bio7-049",
@@ -501,14 +567,16 @@
    ],
    "category": "bio7_reproduction",
    "difficulty": 1,
-   "pp": "III.11.4"
+   "pp": "III.11.4",
+   "kind": "wartość"
   },
   {
    "id": "bio7-050",
    "type": "cloze",
    "text": "Utrzymywanie stałych warunków wewnątrz organizmu to {{homeostaza}}.",
    "category": "bio7_health",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "proces"
   },
   {
    "id": "bio7-051",
@@ -521,7 +589,8 @@
     "37"
    ],
    "category": "bio7_health",
-   "difficulty": 1
+   "difficulty": 1,
+   "kind": "wartość"
   },
   {
    "id": "bio7-pp-001",
@@ -535,7 +604,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.2"
+   "pp": "III.1.2",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-002",
@@ -546,7 +616,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.1"
+   "pp": "III.1.1",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-003",
@@ -557,7 +628,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.4"
+   "pp": "III.1.4",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-004",
@@ -568,7 +640,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.5"
+   "pp": "III.1.5",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-pp-005",
@@ -583,7 +656,8 @@
    "category": "bio7_skin",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.4"
+   "pp": "III.1.4",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-006",
@@ -597,7 +671,8 @@
    "category": "bio7_movement",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-007",
@@ -608,7 +683,8 @@
    "category": "bio7_movement",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2.2"
+   "pp": "III.2.2",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-008",
@@ -619,7 +695,8 @@
    "category": "bio7_movement",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.5"
+   "pp": "III.2.5",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-009",
@@ -629,7 +706,8 @@
    "category": "bio7_movement",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2.4"
+   "pp": "III.2.4",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-pp-010",
@@ -640,7 +718,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3.2"
+   "pp": "III.3.2",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-011",
@@ -650,7 +729,8 @@
    "category": "bio7_digestion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3.2"
+   "pp": "III.3.2",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-012",
@@ -665,7 +745,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3.3"
+   "pp": "III.3.3",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-013",
@@ -676,7 +757,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3.4"
+   "pp": "III.3.4",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-014",
@@ -690,7 +772,8 @@
    "category": "bio7_digestion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3.5"
+   "pp": "III.3.5",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-015",
@@ -700,7 +783,12 @@
    "category": "bio7_digestion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3.6"
+   "pp": "III.3.6",
+   "kind": "pojęcie",
+   "distractors": [
+    "płciową",
+    "kropelkową"
+   ]
   },
   {
    "id": "bio7-pp-016",
@@ -714,7 +802,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4.1"
+   "pp": "III.4.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-017",
@@ -724,7 +813,12 @@
    "category": "bio7_circulation",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4.2"
+   "pp": "III.4.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "duży",
+    "ustrojowy"
+   ]
   },
   {
    "id": "bio7-pp-018",
@@ -735,7 +829,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4.3"
+   "pp": "III.4.3",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-019",
@@ -750,7 +845,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4.4"
+   "pp": "III.4.4",
+   "kind": "wartość"
   },
   {
    "id": "bio7-pp-020",
@@ -760,7 +856,8 @@
    "category": "bio7_circulation",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4.7"
+   "pp": "III.4.7",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-021",
@@ -775,7 +872,8 @@
    "category": "bio7_circulation",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4.5"
+   "pp": "III.4.5",
+   "kind": "wartość"
   },
   {
    "id": "bio7-pp-022",
@@ -789,7 +887,8 @@
    "category": "bio7_immune",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5.1"
+   "pp": "III.5.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-023",
@@ -799,7 +898,11 @@
    "category": "bio7_immune",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5.2"
+   "pp": "III.5.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "nabyta"
+   ]
   },
   {
    "id": "bio7-pp-024",
@@ -813,7 +916,8 @@
    "category": "bio7_immune",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5.4"
+   "pp": "III.5.4",
+   "kind": "proces"
   },
   {
    "id": "bio7-pp-025",
@@ -824,7 +928,8 @@
    "category": "bio7_immune",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5.6"
+   "pp": "III.5.6",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-pp-026",
@@ -834,7 +939,8 @@
    "category": "bio7_immune",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5.3"
+   "pp": "III.5.3",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-027",
@@ -845,7 +951,8 @@
    "category": "bio7_breathing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.6.1"
+   "pp": "III.6.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-028",
@@ -855,7 +962,12 @@
    "category": "bio7_breathing",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.6.2"
+   "pp": "III.6.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "rozkurcza się",
+    "unosi się"
+   ]
   },
   {
    "id": "bio7-pp-029",
@@ -866,7 +978,8 @@
    "category": "bio7_breathing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.6.5"
+   "pp": "III.6.5",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-030",
@@ -876,7 +989,8 @@
    "category": "bio7_breathing",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.6.4"
+   "pp": "III.6.4",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-031",
@@ -887,7 +1001,8 @@
    "category": "bio7_excretion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.7.1"
+   "pp": "III.7.1",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-032",
@@ -901,7 +1016,8 @@
    "category": "bio7_excretion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.7.3"
+   "pp": "III.7.3",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-033",
@@ -911,7 +1027,8 @@
    "category": "bio7_excretion",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.7.4"
+   "pp": "III.7.4",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-034",
@@ -926,7 +1043,8 @@
    "category": "bio7_nervous",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.8.1"
+   "pp": "III.8.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-035",
@@ -936,7 +1054,8 @@
    "category": "bio7_nervous",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.8.2"
+   "pp": "III.8.2",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-pp-036",
@@ -950,7 +1069,8 @@
    "category": "bio7_nervous",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.8.2"
+   "pp": "III.8.2",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-pp-037",
@@ -961,7 +1081,8 @@
    "category": "bio7_senses",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.9.1"
+   "pp": "III.9.1",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-038",
@@ -971,7 +1092,11 @@
    "category": "bio7_senses",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.9.2"
+   "pp": "III.9.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "rozpraszającymi"
+   ]
   },
   {
    "id": "bio7-pp-039",
@@ -982,7 +1107,8 @@
    "category": "bio7_senses",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.9.3"
+   "pp": "III.9.3",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-040",
@@ -998,7 +1124,8 @@
    "category": "bio7_senses",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.9.6"
+   "pp": "III.9.6",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-041",
@@ -1009,7 +1136,8 @@
    "category": "bio7_hormones",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.10.2"
+   "pp": "III.10.2",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-042",
@@ -1023,7 +1151,8 @@
    "category": "bio7_reproduction",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.11.1"
+   "pp": "III.11.1",
+   "kind": "gruczoł"
   },
   {
    "id": "bio7-pp-043",
@@ -1033,7 +1162,8 @@
    "category": "bio7_reproduction",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.11.2"
+   "pp": "III.11.2",
+   "kind": "proces"
   },
   {
    "id": "bio7-pp-044",
@@ -1044,7 +1174,8 @@
    "category": "bio7_reproduction",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.11.4"
+   "pp": "III.11.4",
+   "kind": "komórka"
   },
   {
    "id": "bio7-pp-045",
@@ -1055,7 +1186,8 @@
    "category": "bio7_reproduction",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.11.4"
+   "pp": "III.11.4",
+   "kind": "narząd"
   },
   {
    "id": "bio7-pp-046",
@@ -1066,7 +1198,8 @@
    "category": "bio7_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.8.5"
+   "pp": "III.8.5",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-047",
@@ -1076,7 +1209,8 @@
    "category": "bio7_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.8.5"
+   "pp": "III.8.5",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-048",
@@ -1087,7 +1221,8 @@
    "category": "bio7_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.8.5"
+   "pp": "III.8.5",
+   "kind": "pojęcie"
   },
   {
    "id": "bio7-pp-049",
@@ -1097,7 +1232,8 @@
    "category": "bio7_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.8.5"
+   "pp": "III.8.5",
+   "kind": "substancja"
   },
   {
    "id": "bio7-pp-050",
@@ -1108,7 +1244,8 @@
    "category": "bio7_health",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.11.6"
+   "pp": "III.11.6",
+   "kind": "choroba"
   },
   {
    "id": "bio7-pp-051",
@@ -1118,7 +1255,8 @@
    "category": "bio7_health",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.11.6"
+   "pp": "III.11.6",
+   "kind": "pojęcie"
   }
  ]
 }
