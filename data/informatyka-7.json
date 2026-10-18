@@ -29,7 +29,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "algorytm",
+    "schemat blokowy",
+    "program"
+   ]
   },
   {
    "id": "inf7-pp-002",
@@ -41,7 +46,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "specyfikacja",
+    "schemat blokowy",
+    "zmienna"
+   ]
   },
   {
    "id": "inf7-pp-003",
@@ -57,7 +67,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "pseudokod",
+    "specyfikacja",
+    "lista kroków"
+   ]
   },
   {
    "id": "inf7-pp-004",
@@ -73,7 +88,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "prostokąt",
+    "owal",
+    "równoległobok"
+   ]
   },
   {
    "id": "inf7-pp-005",
@@ -88,7 +108,8 @@
    "kind": "pojęcie",
    "distractors": [
     "ostatnia cyfra",
-    "pierwsza cyfra"
+    "pierwsza cyfra",
+    "liczba cyfr"
    ]
   },
   {
@@ -138,7 +159,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2a",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "najmniejsza wspólna wielokrotność",
+    "suma cyfr",
+    "reszta z dzielenia"
+   ]
   },
   {
    "id": "inf7-pp-009",
@@ -171,7 +197,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2b",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wyszukiwanie binarne",
+    "sortowanie bąbelkowe",
+    "sortowanie przez wybieranie"
+   ]
   },
   {
    "id": "inf7-pp-011",
@@ -185,7 +216,9 @@
    "pp": "I.2b",
    "kind": "pojęcie",
    "distractors": [
-    "wstawianie"
+    "wstawianie",
+    "scalanie",
+    "zliczanie"
    ]
   },
   {
@@ -252,7 +285,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "dodatnia i ujemna",
+    "parzysta i nieparzysta",
+    "całkowita i rzeczywista"
+   ]
   },
   {
    "id": "inf7-pp-016",
@@ -267,7 +305,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "funkcja",
+    "pętla",
+    "instrukcja"
+   ]
   },
   {
    "id": "inf7-pp-017",
@@ -283,7 +326,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "instrukcja"
+   "kind": "instrukcja",
+   "distractors": [
+    "print()",
+    "int()",
+    "len()"
+   ]
   },
   {
    "id": "inf7-pp-018",
@@ -298,7 +346,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "instrukcja"
+   "kind": "instrukcja",
+   "distractors": [
+    "input()",
+    "str()",
+    "len()"
+   ]
   },
   {
    "id": "inf7-pp-019",
@@ -344,7 +397,9 @@
    "pp": "II.1",
    "kind": "instrukcja",
    "distractors": [
-    "else"
+    "else",
+    "while",
+    "for"
    ]
   },
   {
@@ -376,7 +431,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "instrukcja"
+   "kind": "instrukcja",
+   "distractors": [
+    "for",
+    "if",
+    "range"
+   ]
   },
   {
    "id": "inf7-pp-024",
@@ -391,7 +451,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "instrukcja"
+   "kind": "instrukcja",
+   "distractors": [
+    "return",
+    "class",
+    "import"
+   ]
   },
   {
    "id": "inf7-pp-025",
@@ -438,7 +503,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "kompilowanie",
+    "kodowanie",
+    "formatowanie"
+   ]
   },
   {
    "id": "inf7-pp-028",
@@ -455,7 +525,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3a",
-   "kind": "czynność"
+   "kind": "czynność",
+   "distractors": [
+    "skalowanie",
+    "retuszowanie",
+    "obracanie"
+   ]
   },
   {
    "id": "inf7-pp-029",
@@ -471,7 +546,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3a",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "bajt",
+    "wektor",
+    "warstwa"
+   ]
   },
   {
    "id": "inf7-pp-030",
@@ -505,7 +585,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3a",
-   "kind": "czynność"
+   "kind": "czynność",
+   "distractors": [
+    "kadrowanie",
+    "retusz",
+    "renderowanie"
+   ]
   },
   {
    "id": "inf7-pp-032",
@@ -522,7 +607,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3b",
-   "kind": "czynność"
+   "kind": "czynność",
+   "distractors": [
+    "kursywa",
+    "podkreślenie",
+    "przekreślenie"
+   ]
   },
   {
    "id": "inf7-pp-033",
@@ -534,7 +624,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3b",
-   "kind": "element"
+   "kind": "element",
+   "distractors": [
+    "styl",
+    "akapit",
+    "nagłówek"
+   ]
   },
   {
    "id": "inf7-pp-034",
@@ -550,7 +645,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3b",
-   "kind": "element"
+   "kind": "element",
+   "distractors": [
+    "czcionka",
+    "szablon",
+    "motyw"
+   ]
   },
   {
    "id": "inf7-pp-035",
@@ -584,7 +684,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3b",
-   "kind": "czynność"
+   "kind": "czynność",
+   "distractors": [
+    "wyśrodkowanie",
+    "wyrównanie do lewej",
+    "wyrównanie do prawej"
+   ]
   },
   {
    "id": "inf7-pp-037",
@@ -599,7 +704,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3b",
-   "kind": "element"
+   "kind": "element",
+   "distractors": [
+    "stopka",
+    "margines",
+    "przypis"
+   ]
   },
   {
    "id": "inf7-pp-038",
@@ -614,7 +724,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3b",
-   "kind": "element"
+   "kind": "element",
+   "distractors": [
+    "wiersze",
+    "kolumny",
+    "akapity"
+   ]
   },
   {
    "id": "inf7-pp-039",
@@ -632,7 +747,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3b",
-   "kind": "czynność"
+   "kind": "czynność",
+   "distractors": [
+    "wstaw tabelę",
+    "wstaw przypis",
+    "wstaw obraz"
+   ]
   },
   {
    "id": "inf7-pp-040",
@@ -647,7 +767,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "element"
+   "kind": "element",
+   "distractors": [
+    "wiersz",
+    "kolumna",
+    "arkusz"
+   ]
   },
   {
    "id": "inf7-pp-041",
@@ -698,7 +823,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "narzędzie arkusza"
+   "kind": "narzędzie arkusza",
+   "distractors": [
+    "SUMA",
+    "MAX",
+    "ILE.LICZB"
+   ]
   },
   {
    "id": "inf7-pp-044",
@@ -715,7 +845,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "narzędzie arkusza"
+   "kind": "narzędzie arkusza",
+   "distractors": [
+    "adres bezwzględny",
+    "adres mieszany",
+    "zakres komórek"
+   ]
   },
   {
    "id": "inf7-pp-045",
@@ -732,7 +867,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "narzędzie arkusza"
+   "kind": "narzędzie arkusza",
+   "distractors": [
+    "adres względny",
+    "adres mieszany",
+    "zakres komórek"
+   ]
   },
   {
    "id": "inf7-pp-046",
@@ -749,7 +889,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "narzędzie arkusza"
+   "kind": "narzędzie arkusza",
+   "distractors": [
+    "adres względny",
+    "adres bezwzględny",
+    "zakres komórek"
+   ]
   },
   {
    "id": "inf7-pp-047",
@@ -781,7 +926,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "narzędzie arkusza"
+   "kind": "narzędzie arkusza",
+   "distractors": [
+    "kolumnowy",
+    "liniowy",
+    "punktowy"
+   ]
   },
   {
    "id": "inf7-pp-049",
@@ -798,7 +948,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "narzędzie arkusza"
+   "kind": "narzędzie arkusza",
+   "distractors": [
+    "sortowanie",
+    "formatowanie warunkowe",
+    "wykres"
+   ]
   },
   {
    "id": "inf7-pp-050",
@@ -813,7 +968,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "element"
+   "kind": "element",
+   "distractors": [
+    "arkusz",
+    "akapit",
+    "kadr"
+   ]
   },
   {
    "id": "inf7-pp-051",
@@ -830,7 +990,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "element"
+   "kind": "element",
+   "distractors": [
+    "animacja",
+    "szablon",
+    "motyw"
+   ]
   },
   {
    "id": "inf7-pp-052",
@@ -863,7 +1028,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "instrukcja"
+   "kind": "instrukcja",
+   "distractors": [
+    "<a>",
+    "<p>",
+    "<br>"
+   ]
   },
   {
    "id": "inf7-pp-054",
@@ -881,7 +1051,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "instrukcja"
+   "kind": "instrukcja",
+   "distractors": [
+    "<img>",
+    "<p>",
+    "<h1>"
+   ]
   },
   {
    "id": "inf7-pp-055",
@@ -913,7 +1088,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4",
-   "kind": "format"
+   "kind": "format",
+   "distractors": [
+    ".xlsx",
+    ".pptx",
+    ".pdf"
+   ]
   },
   {
    "id": "inf7-pp-057",
@@ -930,7 +1110,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "pionowa",
+    "portretowa",
+    "książkowa"
+   ]
   },
   {
    "id": "inf7-pp-058",
@@ -947,7 +1132,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "nawias",
+    "gwiazdka",
+    "myślnik"
+   ]
   },
   {
    "id": "inf7-pp-059",
@@ -965,7 +1155,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "adres URL",
+    "hiperłącze",
+    "domena"
+   ]
   },
   {
    "id": "inf7-pp-060",
@@ -981,7 +1176,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "pojęcie sieciowe"
+   "kind": "pojęcie sieciowe",
+   "distractors": [
+    "system operacyjny",
+    "baza danych",
+    "strona internetowa"
+   ]
   },
   {
    "id": "inf7-pp-061",
@@ -1013,7 +1213,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "urządzenie"
+   "kind": "urządzenie",
+   "distractors": [
+    "serwer",
+    "przełącznik",
+    "karta sieciowa"
+   ]
   },
   {
    "id": "inf7-pp-063",
@@ -1028,7 +1233,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "urządzenie"
+   "kind": "urządzenie",
+   "distractors": [
+    "router",
+    "klient",
+    "przełącznik"
+   ]
   },
   {
    "id": "inf7-pp-064",
@@ -1045,7 +1255,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "pojęcie sieciowe"
+   "kind": "pojęcie sieciowe",
+   "distractors": [
+    "adres MAC",
+    "adres URL",
+    "adres e-mail"
+   ]
   },
   {
    "id": "inf7-pp-065",
@@ -1074,7 +1289,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "pojęcie sieciowe"
+   "kind": "pojęcie sieciowe",
+   "distractors": [
+    "pakiet",
+    "adres IP",
+    "domena"
+   ]
   },
   {
    "id": "inf7-pp-067",
@@ -1108,7 +1328,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "pojęcie sieciowe"
+   "kind": "pojęcie sieciowe",
+   "distractors": [
+    "bajty",
+    "bity",
+    "pliki"
+   ]
   },
   {
    "id": "inf7-pp-069",
@@ -1125,7 +1350,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "pojęcie sieciowe"
+   "kind": "pojęcie sieciowe",
+   "distractors": [
+    "Internet",
+    "poczta elektroniczna",
+    "wyszukiwarka"
+   ]
   },
   {
    "id": "inf7-pp-070",
@@ -1142,7 +1372,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "bit",
+    "kilobajt",
+    "megabajt"
+   ]
   },
   {
    "id": "inf7-pp-071",
@@ -1158,7 +1393,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "przeglądarka internetowa",
+    "edytor tekstu",
+    "pakiet biurowy"
+   ]
   },
   {
    "id": "inf7-pp-072",
@@ -1175,7 +1415,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "urządzenie"
+   "kind": "urządzenie",
+   "distractors": [
+    "pamięć RAM",
+    "dysk twardy",
+    "karta graficzna"
+   ]
   },
   {
    "id": "inf7-pp-073",
@@ -1189,7 +1434,9 @@
    "pp": "III.3",
    "kind": "urządzenie",
    "distractors": [
-    "ROM"
+    "ROM",
+    "SSD",
+    "flash"
    ]
   },
   {
@@ -1226,7 +1473,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "spam",
+    "phishing",
+    "hejt"
+   ]
   },
   {
    "id": "inf7-pp-076",
@@ -1244,7 +1496,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "czynność"
+   "kind": "czynność",
+   "distractors": [
+    "udostępnić znajomym",
+    "dodać do zakładek",
+    "pobrać na dysk"
+   ]
   },
   {
    "id": "inf7-pp-077",
@@ -1259,7 +1516,8 @@
    "kind": "pojęcie",
    "distractors": [
     "zamknięte",
-    "płatne"
+    "płatne",
+    "komercyjne"
    ]
   },
   {
@@ -1277,7 +1535,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "cyberprzemoc",
+    "własność intelektualna",
+    "netykieta"
+   ]
   },
   {
    "id": "inf7-pp-079",
@@ -1310,7 +1573,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "phishing",
+    "spam",
+    "fake news"
+   ]
   },
   {
    "id": "inf7-pp-081",
@@ -1326,7 +1594,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "cyfrowa tożsamość",
+    "prywatność",
+    "netykieta"
+   ]
   },
   {
    "id": "inf7-pp-082",
@@ -1345,7 +1618,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "krótkie",
+    "proste",
+    "popularne"
+   ]
   },
   {
    "id": "inf7-pp-083",
@@ -1361,7 +1639,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "licencja"
+   "kind": "licencja",
+   "distractors": [
+    "shareware",
+    "open source",
+    "adware"
+   ]
   },
   {
    "id": "inf7-pp-084",
@@ -1377,7 +1660,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "licencja"
+   "kind": "licencja",
+   "distractors": [
+    "freeware",
+    "open source",
+    "adware"
+   ]
   },
   {
    "id": "inf7-pp-085",
@@ -1395,7 +1683,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "licencja"
+   "kind": "licencja",
+   "distractors": [
+    "freeware",
+    "shareware",
+    "licencja własnościowa"
+   ]
   },
   {
    "id": "inf7-pp-086",
@@ -1413,7 +1706,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "licencja"
+   "kind": "licencja",
+   "distractors": [
+    "freeware",
+    "open source",
+    "Creative Commons"
+   ]
   },
   {
    "id": "inf7-pp-087",
