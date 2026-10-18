@@ -30,7 +30,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.5",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "błąd gruby",
+    "dokładność przyrządu",
+    "wartość średnia"
+   ]
   },
   {
    "id": "fiz7-pp-002",
@@ -93,7 +98,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.7",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "mili",
+    "nano",
+    "kilo"
+   ]
   },
   {
    "id": "fiz7-pp-006",
@@ -120,7 +130,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "proporcjonalność odwrotna",
+    "zależność kwadratowa",
+    "funkcja stała"
+   ]
   },
   {
    "id": "fiz7-pp-008",
@@ -138,7 +153,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.8",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "hiperbola",
+    "parabola",
+    "pozioma prosta"
+   ]
   },
   {
    "id": "fiz7-pp-009",
@@ -152,7 +172,9 @@
    "pp": "II.1",
    "kind": "pojęcie",
    "distractors": [
-    "peronu"
+    "peronu",
+    "torów",
+    "stacji"
    ]
   },
   {
@@ -168,7 +190,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "punkt materialny",
+    "tor ruchu",
+    "środek ciężkości"
+   ]
   },
   {
    "id": "fiz7-pp-011",
@@ -183,7 +210,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "droga",
+    "przemieszczenie",
+    "układ odniesienia"
+   ]
   },
   {
    "id": "fiz7-pp-012",
@@ -195,7 +227,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "przemieszczenie",
+    "tor",
+    "prędkość"
+   ]
   },
   {
    "id": "fiz7-pp-013",
@@ -292,7 +329,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.5",
-   "kind": "zmiana"
+   "kind": "zmiana",
+   "distractors": [
+    "rośnie",
+    "maleje",
+    "zmienia się okresowo"
+   ]
   },
   {
    "id": "fiz7-pp-019",
@@ -310,7 +352,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.6",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "pozioma prosta",
+    "parabola",
+    "hiperbola"
+   ]
   },
   {
    "id": "fiz7-pp-020",
@@ -329,7 +376,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.6",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "prosta przez początek układu",
+    "parabola",
+    "prosta rosnąca"
+   ]
   },
   {
    "id": "fiz7-pp-021",
@@ -358,7 +410,9 @@
    "pp": "II.7",
    "kind": "rodzaj ruchu",
    "distractors": [
-    "opóźniony"
+    "opóźniony",
+    "prostoliniowy",
+    "krzywoliniowy"
    ]
   },
   {
@@ -375,7 +429,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.7",
-   "kind": "rodzaj ruchu"
+   "kind": "rodzaj ruchu",
+   "distractors": [
+    "jednostajnie przyspieszony",
+    "jednostajny prostoliniowy",
+    "niejednostajny"
+   ]
   },
   {
    "id": "fiz7-pp-024",
@@ -495,7 +554,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "jednostka"
+   "kind": "jednostka",
+   "distractors": [
+    "dżul",
+    "paskal",
+    "wat"
+   ]
   },
   {
    "id": "fiz7-pp-031",
@@ -512,7 +576,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wartość, kierunek, masa",
+    "kierunek, zwrot, prędkość",
+    "wartość, zwrot, czas"
+   ]
   },
   {
    "id": "fiz7-pp-032",
@@ -524,7 +593,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "kierunek",
+    "wartość",
+    "punkt przyłożenia"
+   ]
   },
   {
    "id": "fiz7-pp-033",
@@ -542,7 +616,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.11",
-   "kind": "siła"
+   "kind": "siła",
+   "distractors": [
+    "siła sprężystości",
+    "siła tarcia",
+    "siła wyporu"
+   ]
   },
   {
    "id": "fiz7-pp-034",
@@ -558,7 +637,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.11",
-   "kind": "siła"
+   "kind": "siła",
+   "distractors": [
+    "siła ciężkości",
+    "siła tarcia",
+    "siła wyporu"
+   ]
   },
   {
    "id": "fiz7-pp-035",
@@ -576,7 +660,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.11",
-   "kind": "siła"
+   "kind": "siła",
+   "distractors": [
+    "siła ciężkości",
+    "siła sprężystości",
+    "siła wyporu"
+   ]
   },
   {
    "id": "fiz7-pp-036",
@@ -618,7 +707,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.13",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "kierunku",
+    "punkcie przyłożenia",
+    "przyspieszeniu"
+   ]
   },
   {
    "id": "fiz7-pp-039",
@@ -636,7 +730,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.13",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "mają różne wartości",
+    "mają ten sam zwrot",
+    "działają w różnym czasie"
+   ]
   },
   {
    "id": "fiz7-pp-040",
@@ -651,7 +750,8 @@
    "kind": "rodzaj ruchu",
    "distractors": [
     "jednostajnie przyspieszonym",
-    "jednostajnie opóźnionym"
+    "jednostajnie opóźnionym",
+    "jednostajnym po okręgu"
    ]
   },
   {
@@ -671,7 +771,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.14",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "wypadkowa działa do przodu",
+    "siła ciągu jest większa",
+    "nie działają żadne siły"
+   ]
   },
   {
    "id": "fiz7-pp-042",
@@ -686,7 +791,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.15",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "ciężar",
+    "sprężystość",
+    "gęstość"
+   ]
   },
   {
    "id": "fiz7-pp-043",
@@ -738,7 +848,9 @@
    "pp": "II.16",
    "kind": "rodzaj ruchu",
    "distractors": [
-    "opóźniony"
+    "opóźniony",
+    "prostoliniowy",
+    "krzywoliniowy"
    ]
   },
   {
@@ -852,7 +964,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "jednostka"
+   "kind": "jednostka",
+   "distractors": [
+    "niuton",
+    "wat",
+    "paskal"
+   ]
   },
   {
    "id": "fiz7-pp-052",
@@ -901,7 +1018,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "jednostka"
+   "kind": "jednostka",
+   "distractors": [
+    "dżul",
+    "niuton",
+    "paskal"
+   ]
   },
   {
    "id": "fiz7-pp-055",
@@ -930,7 +1052,9 @@
    "pp": "III.3",
    "kind": "wielkość",
    "distractors": [
-    "potencjalną"
+    "potencjalną",
+    "wewnętrzną",
+    "cieplną"
    ]
   },
   {
@@ -950,7 +1074,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "kinetyczna",
+    "potencjalna sprężystości",
+    "wewnętrzna"
+   ]
   },
   {
    "id": "fiz7-pp-058",
@@ -968,7 +1097,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "kinetyczną",
+    "potencjalną grawitacji",
+    "wewnętrzną"
+   ]
   },
   {
    "id": "fiz7-pp-059",
@@ -1060,7 +1194,8 @@
    "kind": "zmiana",
    "distractors": [
     "zmienna",
-    "malejąca"
+    "malejąca",
+    "rosnąca"
    ]
   },
   {
@@ -1078,7 +1213,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.5",
-   "kind": "zmiana"
+   "kind": "zmiana",
+   "distractors": [
+    "potencjalna rośnie, kinetyczna maleje",
+    "obie maleją",
+    "obie rosną"
+   ]
   },
   {
    "id": "fiz7-pp-065",
@@ -1105,7 +1245,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "nieważkości",
+    "przewodnictwa cieplnego",
+    "równowagi mechanicznej"
+   ]
   },
   {
    "id": "fiz7-pp-067",
@@ -1123,7 +1268,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "od zimniejszego do cieplejszego",
+    "w obu kierunkach jednakowo",
+    "od większego do mniejszego"
+   ]
   },
   {
    "id": "fiz7-pp-068",
@@ -1177,7 +1327,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "zmiana prędkości, zmiana położenia",
+    "zmiana masy, zmiana objętości",
+    "pomiar temperatury, ważenie"
+   ]
   },
   {
    "id": "fiz7-pp-071",
@@ -1189,7 +1344,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "temperatura",
+    "praca",
+    "energia wewnętrzna"
+   ]
   },
   {
    "id": "fiz7-pp-072",
@@ -1203,7 +1363,9 @@
    "pp": "IV.4",
    "kind": "zmiana",
    "distractors": [
-    "mniejsza"
+    "mniejsza",
+    "niższa",
+    "wolniejsza"
    ]
   },
   {
@@ -1223,7 +1385,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "liczba cząsteczek",
+    "masa cząsteczek",
+    "rozmiar cząsteczek"
+   ]
   },
   {
    "id": "fiz7-pp-074",
@@ -1241,7 +1408,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "konwekcja",
+    "promieniowanie cieplne",
+    "parowanie"
+   ]
   },
   {
    "id": "fiz7-pp-075",
@@ -1269,7 +1441,9 @@
    "pp": "IV.5",
    "kind": "pojęcie",
    "distractors": [
-    "przewodnikami"
+    "przewodnikami",
+    "półprzewodnikami",
+    "promiennikami"
    ]
   },
   {
@@ -1285,7 +1459,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.6",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "przewodnictwo cieplne",
+    "promieniowanie",
+    "dyfuzja"
+   ]
   },
   {
    "id": "fiz7-pp-078",
@@ -1299,7 +1478,9 @@
    "pp": "IV.6",
    "kind": "opis",
    "distractors": [
-    "dołu"
+    "dołu",
+    "boku",
+    "środka"
    ]
   },
   {
@@ -1315,7 +1496,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "krzepnięcie",
+    "parowanie",
+    "sublimacja"
+   ]
   },
   {
    "id": "fiz7-pp-080",
@@ -1331,7 +1517,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "topnienie",
+    "skraplanie",
+    "resublimacja"
+   ]
   },
   {
    "id": "fiz7-pp-081",
@@ -1344,7 +1535,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "sublimacja",
+    "skraplanie",
+    "krzepnięcie"
+   ]
   },
   {
    "id": "fiz7-pp-082",
@@ -1359,7 +1555,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "parowanie",
+    "resublimacja",
+    "topnienie"
+   ]
   },
   {
    "id": "fiz7-pp-083",
@@ -1377,7 +1578,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "zmiana"
+   "kind": "zmiana",
+   "distractors": [
+    "rośnie",
+    "maleje",
+    "rośnie, a potem maleje"
+   ]
   },
   {
    "id": "fiz7-pp-084",
@@ -1435,7 +1641,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "opis"
+   "kind": "opis",
+   "distractors": [
+    "małe odległości między cząsteczkami",
+    "cząsteczki są lżejsze",
+    "cząsteczki są mniejsze"
+   ]
   },
   {
    "id": "fiz7-pp-087",
@@ -1506,7 +1717,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "jednostka"
+   "kind": "jednostka",
+   "distractors": [
+    "niuton",
+    "dżul",
+    "wat"
+   ]
   },
   {
    "id": "fiz7-pp-091",
@@ -1557,7 +1773,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "zmiana"
+   "kind": "zmiana",
+   "distractors": [
+    "rośnie",
+    "nie zmienia się",
+    "najpierw rośnie, potem maleje"
+   ]
   },
   {
    "id": "fiz7-pp-094",
@@ -1569,7 +1790,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "Archimedesa",
+    "Newtona",
+    "Hooke'a"
+   ]
   },
   {
    "id": "fiz7-pp-095",
@@ -1588,7 +1814,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "barometr",
+    "termometr",
+    "waga szalkowa"
+   ]
   },
   {
    "id": "fiz7-pp-096",
@@ -1644,7 +1875,9 @@
    "pp": "V.6",
    "kind": "pojęcie",
    "distractors": [
-    "objętości cieczy"
+    "objętości cieczy",
+    "masy cieczy",
+    "pola dna naczynia"
    ]
   },
   {
@@ -1662,7 +1895,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.7",
-   "kind": "siła"
+   "kind": "siła",
+   "distractors": [
+    "siła ciężkości",
+    "siła tarcia",
+    "siła sprężystości"
+   ]
   },
   {
    "id": "fiz7-pp-100",
@@ -1676,7 +1914,9 @@
    "pp": "V.7",
    "kind": "pojęcie",
    "distractors": [
-    "zanurzonego ciała"
+    "zanurzonego ciała",
+    "naczynia z cieczą",
+    "całej cieczy w naczyniu"
    ]
   },
   {
@@ -1694,7 +1934,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.7",
-   "kind": "zmiana"
+   "kind": "zmiana",
+   "distractors": [
+    "większa",
+    "taka sama",
+    "dwa razy większa"
+   ]
   },
   {
    "id": "fiz7-pp-102",
@@ -1722,7 +1967,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.8",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "ciśnienie hydrostatyczne",
+    "siła wyporu",
+    "włoskowatość"
+   ]
   },
   {
    "id": "fiz7-pp-104",
@@ -1734,7 +1984,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "przylegania",
+    "tarcia",
+    "wyporu"
+   ]
   }
  ]
 }
