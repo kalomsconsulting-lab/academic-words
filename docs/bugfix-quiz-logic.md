@@ -2,8 +2,10 @@
 
 Wersja promptu dostosowana do obecnego zakresu aplikacji: 24 przedmioty w dwóch ścieżkach (`LEVELS` w `app.js`),
 karty bazowe w `vocabulary.json` (Academic English) i `data/*.json` (pozostałe przedmioty), typy `qa`, `cloze`,
-`awl_word` (słówka EN/DE), `academic_verb`, `replacement`, `hedging`, `style_rule`. Wersja pierwotna dotyczyła tylko
-`vocabulary.json`; punkty, które już są zrobione, są oznaczone.
+`awl_word` (słówka EN/DE), `academic_verb`, `replacement`, `hedging`, `style_rule`, a od 2026-10-18 także `order`
+(ułóż w kolejności, bez quizu) i `apply` (który wzór pasuje: quiz z autorskimi opcjami `wrong`, więc poniższe reguły
+go nie dotyczą). Wersja pierwotna dotyczyła tylko `vocabulary.json`. **Stan 2026-10-18: wszystkie trzy sekcje zrobione**,
+szczegóły przy nagłówkach.
 
 ## 1. Dystraktory w quizie
 
@@ -17,7 +19,12 @@ samej `category`, potem z reszty przedmiotu (`distractors()` w `app.js`):
 - `replacement` → inne `replacement`; `awl_word` → inne `awl_word` z polskim tłumaczeniem (dla AWL z grup o numerze
   różniącym się o ≤ 2); `hedging` → nazwy pozostałych technik.
 
-### Karty `qa` i `cloze` (DO ZROBIENIA)
+### Karty `qa` i `cloze` (ZROBIONE 2026-10-18)
+
+Stan: 1612 kart dostało autorskie `distractors` (wszystkie `qa` z odpowiedzią rodzaju `term`/`proper` i wszystkie
+`cloze` w 23 plikach `data/`, jeden przedmiot = jeden commit; jedyny wyjątek to `enib-pp-084` (skrót PEE, każde inne
+rozwinięcie byłoby też poprawne). Karty z odpowiedzią liczbową, rokiem czy wzorem nadal biorą dystraktory z puli po
+`kind`.
 
 Dystraktory to odpowiedzi innych kart `qa` i luki innych kart `cloze` z tego samego przedmiotu (oba typy razem, bo
 obie dają krótką odpowiedź). Wymagania:
@@ -47,7 +54,13 @@ obie dają krótką odpowiedź). Wymagania:
    wokół operatorów (`=`, `+`, `-`, `·`, `/`, `^`, nawiasy) nie liczą się jako podział wyrazów, żeby wzory zapisane
    czytelnie (`P = a · h / 2`) nie wypadały z quizu.
 
-## 2. Karty nienadające się na poprawną odpowiedź w quizie
+## 2. Karty nienadające się na poprawną odpowiedź w quizie (ZROBIONE 2026-10-18)
+
+Stan: `academic_verb` z `quiz_suitable: false` jest 11 (admire, extol, praise, complain, disavow, complicate, renounce,
+repudiate oraz dopisane w audycie observe, suggest, contend — pasują do dwóch funkcji naraz); każda funkcja ma ≥ 5 kart
+w quizie. Pytań tak/nie w plikach nie ma; jedyne „X czy Y?” (`mat7-pp-020`) dostało `quiz_suitable: false`;
+`inf7-pp-043` (odpowiedź ŚREDNIA widoczna w pytaniu) zostało przeredagowane. Celowo zostawione: 7 luk w mowie zależnej
+(`en7-rs-028`…), gdzie ukryty czasownik modalny jest widoczny w cytacie, bo brak backshiftu jest tam treścią ćwiczenia.
 
 Pole `quiz_suitable: false` (opcjonalne, domyślnie `true`) wyłącza kartę jako **poprawną odpowiedź** w quizie;
 fiszki, wpisywanie, luki, dopasowywanie i przeglądarka kart działają bez zmian, a karta nadal może być dystraktorem.
@@ -61,7 +74,17 @@ Ustawić `false` dla:
 - `qa`, w których odpowiedź (lub jej rdzeń) jest widoczna w pytaniu, i `cloze`, w których ukryte słowo powtarza się
   w reszcie zdania, chyba że da się przeredagować pytanie (preferowane).
 
-## 3. Audyt wszystkich plików kart
+## 3. Audyt wszystkich plików kart (ZROBIONE 2026-10-18)
+
+Wynik: 25 plików, 3460 kart, 0 duplikatów `id` w repozytorium, 0 brakujących pól wymaganych, 0 kategorii spoza
+przedmiotu, 0 duplikatów pytań. Poprawione po audycie: 128 kart z numerem `pp` bez `source` (Angielski 7, Biologia 7,
+Biology IB sprzed konwencji) dostało `source: "Podstawa programowa"`; 6 luk gramatycznych w Angielskim 7 dostało
+`kind` i dystraktory; `histib-pp-096` ma krótszą odpowiedź (5 wyrazów → 4). Zostaje świadomie: 31 kart `qa` w mowie
+zależnej z odpowiedzią-zdaniem (transformacje, tylko fiszka) i 4 odpowiedzi liczbowe, które powtarzają liczbę z treści
+zadania, bo wynik z niej wprost wynika (`chemib-pp-070`, `-072`, `fiz7-pp-065`, `physib-pp-065`). Małe pule per
+kategoria (< 4 kandydatów) występują w ok. 10 kategoriach „Inne” i wąskich działach; quiz bierze wtedy dystraktory
+z całego przedmiotu, zgodnie z pkt 1.1. Skrypt (poza repozytorium, jak niżej) odtwarza `itemErrors()`, `isShort()`,
+`answerKind()` i `norm()` z `app.js`, więc po zmianie tych funkcji trzeba go zaktualizować.
 
 Skrypt poza repozytorium (jak `validate.py` z kroku 4 zadania o podstawie programowej) ma sprawdzić dla
 `vocabulary.json` i każdego `data/*.json`:

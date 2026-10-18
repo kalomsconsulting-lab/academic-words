@@ -1,8 +1,11 @@
 # Plan: rozszerzenie aplikacji na inne przedmioty
 
-> **Status (2026-10-17):** etapy 1–4 zrobione dla biologii (jedna aplikacja, karty po angielsku). Kategorie biologii są
-> tematyczne (Cells, Molecules & metabolism, Genetics & evolution, Human physiology, Plants, Ecology, Skills, Other).
-> Nazwa aplikacji na razie bez zmian. Następny krok: etap 5, czyli karty z prawdziwych handoutów.
+> **Status (2026-10-18):** etapy 1–4 zrobione; aplikacja nazywa się Study Cards i ma 24 przedmioty w dwóch ścieżkach
+> z kartami bazowymi z podstaw programowych ([podstawa-programowa.md](podstawa-programowa.md)). Z sekcji *Później*
+> zrobione są wszystkie cztery punkty: wzory w KaTeX (`$$…$$`), obrazki (pole `image`, pliki w `images/` albo URL;
+> Supabase Storage nieużywane), typ `order` (ułóż w kolejności) i typ `apply` (który wzór / zasada pasuje); format
+> w README, sekcja *Format wpisów*. **Otwarty zostaje etap 5**: karty z prawdziwych handoutów z lekcji i 2–3 tygodnie
+> używania — wymaga materiałów od uczniów, nie da się go zrobić z repozytorium.
 
 Cel: ta sama mechanika (SM-2, tryby ćwiczeń, import z czatu AI, synchronizacja), ale dla dowolnego przedmiotu,
 bez psucia obecnego postępu z Academic English.
@@ -59,12 +62,15 @@ logiki sesji, SM-2 i statystyk działa bez zmian. Trzeba dopisać gałęzie w: `
   przejrzany ręcznie, zapisany w `data/<subject>.json`.
 - 2–3 tygodnie używania, potem decyzja, czy dokładać kolejne przedmioty.
 
-## Później (opcjonalnie)
+## Później (opcjonalnie) — ZROBIONE 2026-10-18
 
-- Wzory w KaTeX (chemia, fizyka, matematyka).
-- Obrazki w pytaniach (diagramy, mapy): pliki w repo albo Supabase Storage.
-- Typ „ułóż w kolejności” (etapy procesów, chronologia).
-- Typ „który wzór / która zasada pasuje do sytuacji” dla przedmiotów ścisłych.
+- Wzory w KaTeX (chemia, fizyka, matematyka): `$$…$$` w dowolnym tekście karty, biblioteka z CDN (jsdelivr, wersja
+  przypięta), cache przez `sw.js`; pojedynczy `$` zostaje zwykłym znakiem.
+- Obrazki w pytaniach (diagramy, mapy): pole `image` (ścieżka w repo albo URL) na `qa`, `cloze`, `order`, `apply`.
+- Typ `order` „ułóż w kolejności” (etapy procesów, chronologia): własne ćwiczenie i fiszka.
+- Typ `apply` „który wzór / która zasada pasuje do sytuacji”: quiz z autorskimi błędnymi opcjami i fiszka.
+- Prompt czatu AI opisuje oba nowe typy (z limitem ok. 15% kart) i notację wzorów. Żadna karta bazowa jeszcze ich nie
+  używa; pierwsze powstaną z importu albo przy kolejnym przebiegu nad podstawą programową.
 
 ## Ryzyka
 

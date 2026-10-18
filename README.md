@@ -25,7 +25,7 @@ Statyczna strona (HTML + CSS + vanilla JS), bez backendu i bez build stepu. Post
 - 7 reguł stylu, 12 przykładów hedgingu (4 techniki)
 - 570 słów z Academic Word List (grupy 1–10), wszystkie z polskim tłumaczeniem i zdaniem przykładowym
 
-**Tryby nauki:** fiszki (ze swipe), quiz (4 odpowiedzi), wpisywanie (tolerancja literówek), dopasowywanie par, uzupełnianie luk.
+**Tryby nauki:** fiszki (ze swipe), quiz (4 odpowiedzi), wpisywanie (tolerancja literówek), dopasowywanie par, uzupełnianie luk, układanie w kolejności (karty `order`). Wzory w kartach (`$$…$$`) renderuje KaTeX z CDN, obrazki podaje pole `image`.
 **Sesje:** szybka (10–15 słów, mix ćwiczeń) albo inteligentne powtórki (algorytm SM-2 + limit nowych słów dziennie).
 
 ## Przedmioty
@@ -148,6 +148,28 @@ Typy ogólne, dostępne w każdym przedmiocie (w biologii tylko te dwa):
 
 - `qa`: fiszka, quiz (dystraktory to odpowiedzi z innych kart tego przedmiotu), wpisywanie i dopasowywanie par, gdy odpowiedź jest krótka (do 4 słów i 40 znaków). Długa odpowiedź działa tylko jako fiszka. `accept` to inne poprawne formy.
 - `cloze`: luka w `{{…}}`, warianty odpowiedzi oddzielone `/` (`{{mitosis / mitotic division}}`). Ukrywana jest pierwsza luka, kolejne `{{…}}` pokazują się jako zwykły tekst. Ćwiczenia: luka (także w trybie *Wpisywanie*), quiz, fiszka.
+
+Dwa dodatkowe typy dla procesów i wzorów (dostępne w każdym przedmiocie, który ma `qa`):
+
+```json
+{ "id": "bio-003", "type": "order", "prompt": "Put the stages of mitosis in order",
+  "steps": ["prophase", "metaphase", "anaphase", "telophase"],
+  "explanation": "Chromosomes condense, line up, separate, then nuclei re-form.",
+  "category": "bio_cells", "difficulty": 2 }
+
+{ "id": "fiz7-201", "type": "apply", "situation": "Samochód jedzie ze stałą prędkością 20 m/s przez 5 s. Jak obliczysz drogę?",
+  "rule": "$$s = v \\cdot t$$", "wrong": ["$$v = \\frac{s}{t}$$", "$$a = \\frac{\\Delta v}{t}$$", "$$F = m \\cdot a$$"],
+  "explanation": "Ruch jednostajny: droga to iloczyn prędkości i czasu.",
+  "category": "fiz7_motion", "difficulty": 2 }
+```
+
+- `order`: polecenie i 3–8 kroków w poprawnej kolejności. Ćwiczenie *Ułóż w kolejności* (kroki pomieszane, dotykasz je po kolei albo klawisze 1–8, *Cofnij*, *Sprawdź*) i fiszka z numerowaną listą; bez quizu i wpisywania. W tekście wklejanym kroki oddziela się `|`.
+- `apply`: opis sytuacji, pasujący wzór lub zasada (`rule`) i 2–3 niepasujące, ale prawdziwe wzory z tego działu (`wrong`). Quiz zawsze z tymi opcjami, do tego fiszka.
+
+Pola wspólne dla `qa`, `cloze`, `order` i `apply`:
+- **Wzory**: fragment w `$$…$$` (albo `\(…\)`) renderuje KaTeX, np. `"$$\\frac{m}{V}$$"`, `"$$H_2SO_4$$"` (w JSON backslash podwójnie). Pojedynczy `$` to zwykły znak (adresy `$A$1` w informatyce). Odpowiedź `qa` ze wzorem nie trafia do wpisywania; żeby wzór w quizie nie wyróżniał się na tle zwykłych odpowiedzi, dopisz takiej karcie `distractors` też w LaTeX.
+- **Obrazek**: `"image": "images/geo7/mapa.png"` (plik w repo; katalog `images/` z podkatalogiem na przedmiot) albo pełny adres `https://…`, opcjonalnie `image_alt`. Pokazuje się na przodzie fiszki, w quizie, wpisywaniu, luce i w *Kartach*. Pliki z repo nie są w cache instalacyjnym; po pierwszym obejrzeniu online działają też offline.
+- **`distractors`**: lista 3 autorskich błędnych odpowiedzi do quizu (wszystkie `qa` z odpowiedzią pojęciową i wszystkie `cloze` w `data/` już je mają); **`kind`**: szczegółowy tag ze słownika `kinds` pliku; **`quiz_suitable: false`**: karta poza quizem. Szczegóły: [docs/bugfix-quiz-logic.md](docs/bugfix-quiz-logic.md).
 
 Typy Academic English:
 
