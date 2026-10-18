@@ -1,6 +1,24 @@
 {
  "version": 1,
  "subject": "polski_sp7",
+ "kinds": [
+  "autor",
+  "bohater",
+  "miejsce",
+  "nazwa własna",
+  "cytat",
+  "przedmiot",
+  "liczba",
+  "pojęcie",
+  "gatunek",
+  "pojęcie literackie",
+  "środek stylistyczny",
+  "pojęcie gramatyczne",
+  "pojęcie językowe",
+  "wyraz",
+  "zasada ortograficzna",
+  "forma wypowiedzi"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, język polski, klasy VII–VIII (Dz.U. 2017 poz. 356 z późn. zm.); lektury obowiązkowe wg listy klas VII–VIII; zakres klasy 7 wg typowego rozkładu materiału",
  "items": [
@@ -17,7 +35,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Opowieść wigilijna"
+   "pp": "lektura: Opowieść wigilijna",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-002",
@@ -31,7 +50,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Opowieść wigilijna"
+   "pp": "lektura: Opowieść wigilijna",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-003",
@@ -46,7 +66,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Opowieść wigilijna"
+   "pp": "lektura: Opowieść wigilijna",
+   "kind": "liczba"
   },
   {
    "id": "pol7-pp-004",
@@ -57,7 +78,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Opowieść wigilijna"
+   "pp": "lektura: Opowieść wigilijna",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-005",
@@ -71,7 +93,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Opowieść wigilijna"
+   "pp": "lektura: Opowieść wigilijna",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-006",
@@ -85,7 +108,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Zemsta"
+   "pp": "lektura: Zemsta",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-007",
@@ -96,7 +120,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Zemsta"
+   "pp": "lektura: Zemsta",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-008",
@@ -107,7 +132,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Zemsta"
+   "pp": "lektura: Zemsta",
+   "kind": "przedmiot"
   },
   {
    "id": "pol7-pp-009",
@@ -121,7 +147,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Zemsta"
+   "pp": "lektura: Zemsta",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-010",
@@ -132,7 +159,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Zemsta"
+   "pp": "lektura: Zemsta",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-011",
@@ -146,7 +174,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Zemsta"
+   "pp": "lektura: Zemsta",
+   "kind": "cytat"
   },
   {
    "id": "pol7-pp-012",
@@ -160,7 +189,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Kamienie na szaniec"
+   "pp": "lektura: Kamienie na szaniec",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-013",
@@ -171,7 +201,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Kamienie na szaniec"
+   "pp": "lektura: Kamienie na szaniec",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-014",
@@ -186,7 +217,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Kamienie na szaniec"
+   "pp": "lektura: Kamienie na szaniec",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-015",
@@ -197,7 +229,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Kamienie na szaniec"
+   "pp": "lektura: Kamienie na szaniec",
+   "kind": "miejsce"
   },
   {
    "id": "pol7-pp-016",
@@ -208,7 +241,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Kamienie na szaniec"
+   "pp": "lektura: Kamienie na szaniec",
+   "kind": "nazwa własna"
   },
   {
    "id": "pol7-pp-017",
@@ -222,7 +256,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Dziady cz. II"
+   "pp": "lektura: Dziady cz. II",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-018",
@@ -233,7 +268,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Dziady cz. II"
+   "pp": "lektura: Dziady cz. II",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-019",
@@ -248,7 +284,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Dziady cz. II"
+   "pp": "lektura: Dziady cz. II",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-020",
@@ -259,7 +296,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Dziady cz. II"
+   "pp": "lektura: Dziady cz. II",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-021",
@@ -270,7 +308,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Dziady cz. II"
+   "pp": "lektura: Dziady cz. II",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-022",
@@ -286,7 +325,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Mały Książę"
+   "pp": "lektura: Mały Książę",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-023",
@@ -301,7 +341,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Mały Książę"
+   "pp": "lektura: Mały Książę",
+   "kind": "pojęcie"
   },
   {
    "id": "pol7-pp-024",
@@ -312,7 +353,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Mały Książę"
+   "pp": "lektura: Mały Książę",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-025",
@@ -323,7 +365,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Mały Książę"
+   "pp": "lektura: Mały Książę",
+   "kind": "cytat"
   },
   {
    "id": "pol7-pp-026",
@@ -337,7 +380,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Mały Książę"
+   "pp": "lektura: Mały Książę",
+   "kind": "przedmiot"
   },
   {
    "id": "pol7-pp-027",
@@ -351,7 +395,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Mały Książę"
+   "pp": "lektura: Mały Książę",
+   "kind": "przedmiot"
   },
   {
    "id": "pol7-pp-028",
@@ -365,7 +410,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Balladyna"
+   "pp": "lektura: Balladyna",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-029",
@@ -376,7 +422,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Balladyna"
+   "pp": "lektura: Balladyna",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-030",
@@ -387,7 +434,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Balladyna"
+   "pp": "lektura: Balladyna",
+   "kind": "przedmiot"
   },
   {
    "id": "pol7-pp-031",
@@ -398,7 +446,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Balladyna"
+   "pp": "lektura: Balladyna",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-032",
@@ -414,7 +463,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Balladyna"
+   "pp": "lektura: Balladyna",
+   "kind": "pojęcie"
   },
   {
    "id": "pol7-pp-033",
@@ -429,7 +479,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Balladyna"
+   "pp": "lektura: Balladyna",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-034",
@@ -440,7 +491,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
+   "kind": "miejsce"
   },
   {
    "id": "pol7-pp-035",
@@ -457,7 +509,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-036",
@@ -468,7 +521,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
+   "kind": "cytat"
   },
   {
    "id": "pol7-pp-037",
@@ -483,7 +537,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego"
+   "pp": "lektura: fraszki, pieśń i treny Kochanowskiego",
+   "kind": "nazwa własna"
   },
   {
    "id": "pol7-pp-038",
@@ -499,7 +554,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Reduta Ordona"
+   "pp": "lektura: Reduta Ordona",
+   "kind": "nazwa własna"
   },
   {
    "id": "pol7-pp-039",
@@ -510,7 +566,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Reduta Ordona"
+   "pp": "lektura: Reduta Ordona",
+   "kind": "przedmiot"
   },
   {
    "id": "pol7-pp-040",
@@ -521,7 +578,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Świtezianka"
+   "pp": "lektura: Świtezianka",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-041",
@@ -532,7 +590,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Świtezianka"
+   "pp": "lektura: Świtezianka",
+   "kind": "pojęcie"
   },
   {
    "id": "pol7-pp-042",
@@ -543,7 +602,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Pan Tadeusz"
+   "pp": "lektura: Pan Tadeusz",
+   "kind": "miejsce"
   },
   {
    "id": "pol7-pp-043",
@@ -554,7 +614,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Pan Tadeusz"
+   "pp": "lektura: Pan Tadeusz",
+   "kind": "cytat"
   },
   {
    "id": "pol7-pp-044",
@@ -569,7 +630,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Pan Tadeusz"
+   "pp": "lektura: Pan Tadeusz",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-045",
@@ -585,7 +647,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Pan Tadeusz"
+   "pp": "lektura: Pan Tadeusz",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-046",
@@ -600,7 +663,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Pan Tadeusz"
+   "pp": "lektura: Pan Tadeusz",
+   "kind": "liczba"
   },
   {
    "id": "pol7-pp-047",
@@ -614,7 +678,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Artysta"
+   "pp": "lektura: Artysta",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-048",
@@ -629,7 +694,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Artysta"
+   "pp": "lektura: Artysta",
+   "kind": "pojęcie"
   },
   {
    "id": "pol7-pp-049",
@@ -640,7 +706,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Latarnik"
+   "pp": "lektura: Latarnik",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-050",
@@ -654,7 +721,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Latarnik"
+   "pp": "lektura: Latarnik",
+   "kind": "nazwa własna"
   },
   {
    "id": "pol7-pp-051",
@@ -665,7 +733,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Latarnik"
+   "pp": "lektura: Latarnik",
+   "kind": "miejsce"
   },
   {
    "id": "pol7-pp-052",
@@ -679,7 +748,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Quo vadis"
+   "pp": "lektura: Quo vadis",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-053",
@@ -693,7 +763,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Quo vadis"
+   "pp": "lektura: Quo vadis",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-054",
@@ -704,7 +775,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Quo vadis"
+   "pp": "lektura: Quo vadis",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-055",
@@ -718,7 +790,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: Syzyfowe prace"
+   "pp": "lektura: Syzyfowe prace",
+   "kind": "bohater"
   },
   {
    "id": "pol7-pp-056",
@@ -729,7 +802,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Syzyfowe prace"
+   "pp": "lektura: Syzyfowe prace",
+   "kind": "miejsce"
   },
   {
    "id": "pol7-pp-057",
@@ -743,7 +817,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: Syzyfowe prace"
+   "pp": "lektura: Syzyfowe prace",
+   "kind": "nazwa własna"
   },
   {
    "id": "pol7-pp-058",
@@ -757,7 +832,8 @@
    "category": "pol7_books",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "lektura: wiersze Wisławy Szymborskiej"
+   "pp": "lektura: wiersze Wisławy Szymborskiej",
+   "kind": "autor"
   },
   {
    "id": "pol7-pp-059",
@@ -768,7 +844,8 @@
    "category": "pol7_books",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "lektura: aforyzmy Leca"
+   "pp": "lektura: aforyzmy Leca",
+   "kind": "nazwa własna"
   },
   {
    "id": "pol7-pp-060",
@@ -783,7 +860,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.1"
+   "pp": "I.1.1",
+   "kind": "pojęcie literackie"
   },
   {
    "id": "pol7-pp-061",
@@ -794,7 +872,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.1"
+   "pp": "I.1.1",
+   "kind": "pojęcie literackie"
   },
   {
    "id": "pol7-pp-062",
@@ -805,7 +884,12 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.1"
+   "pp": "I.1.1",
+   "kind": "pojęcie literackie",
+   "distractors": [
+    "epika",
+    "dramat"
+   ]
   },
   {
    "id": "pol7-pp-063",
@@ -816,7 +900,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-064",
@@ -827,7 +912,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-065",
@@ -838,7 +924,11 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "gatunek",
+   "distractors": [
+    "tragedia"
+   ]
   },
   {
    "id": "pol7-pp-066",
@@ -849,7 +939,8 @@
    "category": "pol7_theory",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-067",
@@ -863,7 +954,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-068",
@@ -874,7 +966,11 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "gatunek",
+   "distractors": [
+    "komedia"
+   ]
   },
   {
    "id": "pol7-pp-069",
@@ -885,7 +981,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.2"
+   "pp": "I.1.2",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-070",
@@ -899,7 +996,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.3"
+   "pp": "I.1.3",
+   "kind": "pojęcie literackie"
   },
   {
    "id": "pol7-pp-071",
@@ -910,7 +1008,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.3"
+   "pp": "I.1.3",
+   "kind": "pojęcie literackie"
   },
   {
    "id": "pol7-pp-072",
@@ -921,7 +1020,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.3"
+   "pp": "I.1.3",
+   "kind": "pojęcie literackie"
   },
   {
    "id": "pol7-pp-073",
@@ -932,7 +1032,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.4"
+   "pp": "I.1.4",
+   "kind": "środek stylistyczny"
   },
   {
    "id": "pol7-pp-074",
@@ -943,7 +1044,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.4"
+   "pp": "I.1.4",
+   "kind": "środek stylistyczny"
   },
   {
    "id": "pol7-pp-075",
@@ -954,7 +1056,8 @@
    "category": "pol7_theory",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.1.4"
+   "pp": "I.1.4",
+   "kind": "środek stylistyczny"
   },
   {
    "id": "pol7-pp-076",
@@ -965,7 +1068,8 @@
    "category": "pol7_theory",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.1.4"
+   "pp": "I.1.4",
+   "kind": "środek stylistyczny"
   },
   {
    "id": "pol7-pp-077",
@@ -976,7 +1080,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.5"
+   "pp": "I.1.5",
+   "kind": "pojęcie literackie"
   },
   {
    "id": "pol7-pp-078",
@@ -987,7 +1092,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1.6"
+   "pp": "I.1.6",
+   "kind": "środek stylistyczny"
   },
   {
    "id": "pol7-pp-079",
@@ -998,7 +1104,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.4"
+   "pp": "I.2.4",
+   "kind": "pojęcie literackie"
   },
   {
    "id": "pol7-pp-080",
@@ -1009,7 +1116,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.5"
+   "pp": "I.2.5",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-081",
@@ -1020,7 +1128,8 @@
    "category": "pol7_theory",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2.5"
+   "pp": "I.2.5",
+   "kind": "gatunek"
   },
   {
    "id": "pol7-pp-082",
@@ -1034,7 +1143,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.1"
+   "pp": "II.1.1",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-083",
@@ -1045,7 +1155,11 @@
    "category": "pol7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1.1"
+   "pp": "II.1.1",
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "postępowe"
+   ]
   },
   {
    "id": "pol7-pp-084",
@@ -1056,7 +1170,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.2"
+   "pp": "II.1.2",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-085",
@@ -1067,7 +1182,11 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.2"
+   "pp": "II.1.2",
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "pochodny"
+   ]
   },
   {
    "id": "pol7-pp-086",
@@ -1078,7 +1197,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.2"
+   "pp": "II.1.2",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-087",
@@ -1092,7 +1212,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.2"
+   "pp": "II.1.2",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-088",
@@ -1107,7 +1228,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.3"
+   "pp": "II.1.3",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-089",
@@ -1122,7 +1244,8 @@
    "category": "pol7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1.4"
+   "pp": "II.1.4",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-090",
@@ -1133,7 +1256,11 @@
    "category": "pol7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1.4"
+   "pp": "II.1.4",
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "współczesny"
+   ]
   },
   {
    "id": "pol7-pp-091",
@@ -1144,7 +1271,11 @@
    "category": "pol7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1.4"
+   "pp": "II.1.4",
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "czynny"
+   ]
   },
   {
    "id": "pol7-pp-092",
@@ -1159,7 +1290,8 @@
    "category": "pol7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1.4"
+   "pp": "II.1.4",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-093",
@@ -1174,7 +1306,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.5"
+   "pp": "II.1.5",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-094",
@@ -1185,7 +1318,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.6"
+   "pp": "II.1.6",
+   "kind": "pojęcie gramatyczne"
   },
   {
    "id": "pol7-pp-095",
@@ -1196,7 +1330,11 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.6"
+   "pp": "II.1.6",
+   "kind": "pojęcie gramatyczne",
+   "distractors": [
+    "niezależnej"
+   ]
   },
   {
    "id": "pol7-pp-096",
@@ -1212,7 +1350,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1.7"
+   "pp": "II.1.7",
+   "kind": "liczba"
   },
   {
    "id": "pol7-pp-097",
@@ -1228,7 +1367,8 @@
    "category": "pol7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1.7"
+   "pp": "II.1.7",
+   "kind": "liczba"
   },
   {
    "id": "pol7-pp-098",
@@ -1239,7 +1379,12 @@
    "category": "pol7_grammar",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "II.1.7"
+   "pp": "II.1.7",
+   "kind": "liczba",
+   "distractors": [
+    "trzecią",
+    "przedostatnią"
+   ]
   },
   {
    "id": "pol7-pp-099",
@@ -1250,7 +1395,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2.1"
+   "pp": "II.2.1",
+   "kind": "pojęcie językowe"
   },
   {
    "id": "pol7-pp-100",
@@ -1261,7 +1407,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2.1"
+   "pp": "II.2.1",
+   "kind": "pojęcie językowe"
   },
   {
    "id": "pol7-pp-101",
@@ -1275,7 +1422,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2.1"
+   "pp": "II.2.1",
+   "kind": "pojęcie językowe"
   },
   {
    "id": "pol7-pp-102",
@@ -1289,7 +1437,8 @@
    "category": "pol7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2.2"
+   "pp": "II.2.2",
+   "kind": "wyraz"
   },
   {
    "id": "pol7-pp-103",
@@ -1303,7 +1452,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2.4"
+   "pp": "II.2.4",
+   "kind": "pojęcie językowe"
   },
   {
    "id": "pol7-pp-104",
@@ -1318,7 +1468,8 @@
    "category": "pol7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2.6"
+   "pp": "II.2.6",
+   "kind": "pojęcie językowe"
   },
   {
    "id": "pol7-pp-105",
@@ -1333,7 +1484,8 @@
    "category": "pol7_spelling",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.1"
+   "pp": "II.4.1",
+   "kind": "wyraz"
   },
   {
    "id": "pol7-pp-106",
@@ -1347,7 +1499,8 @@
    "category": "pol7_spelling",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.1"
+   "pp": "II.4.1",
+   "kind": "wyraz"
   },
   {
    "id": "pol7-pp-107",
@@ -1361,7 +1514,8 @@
    "category": "pol7_spelling",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.1"
+   "pp": "II.4.1",
+   "kind": "wyraz"
   },
   {
    "id": "pol7-pp-108",
@@ -1375,7 +1529,8 @@
    "category": "pol7_spelling",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.4"
+   "pp": "II.4.4",
+   "kind": "zasada ortograficzna"
   },
   {
    "id": "pol7-pp-109",
@@ -1390,7 +1545,8 @@
    "category": "pol7_spelling",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.4"
+   "pp": "II.4.4",
+   "kind": "zasada ortograficzna"
   },
   {
    "id": "pol7-pp-110",
@@ -1401,7 +1557,11 @@
    "category": "pol7_spelling",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4.4"
+   "pp": "II.4.4",
+   "kind": "zasada ortograficzna",
+   "distractors": [
+    "rozdzielnie"
+   ]
   },
   {
    "id": "pol7-pp-111",
@@ -1412,7 +1572,8 @@
    "category": "pol7_spelling",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.2"
+   "pp": "II.4.2",
+   "kind": "zasada ortograficzna"
   },
   {
    "id": "pol7-pp-112",
@@ -1426,7 +1587,8 @@
    "category": "pol7_spelling",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.2"
+   "pp": "II.4.2",
+   "kind": "zasada ortograficzna"
   },
   {
    "id": "pol7-pp-113",
@@ -1437,7 +1599,8 @@
    "category": "pol7_spelling",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4.2"
+   "pp": "II.4.2",
+   "kind": "zasada ortograficzna"
   },
   {
    "id": "pol7-pp-114",
@@ -1448,7 +1611,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "forma wypowiedzi"
   },
   {
    "id": "pol7-pp-115",
@@ -1459,7 +1623,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "forma wypowiedzi"
   },
   {
    "id": "pol7-pp-116",
@@ -1470,7 +1635,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "forma wypowiedzi"
   },
   {
    "id": "pol7-pp-117",
@@ -1481,7 +1647,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "forma wypowiedzi"
   },
   {
    "id": "pol7-pp-118",
@@ -1492,7 +1659,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "forma wypowiedzi"
   },
   {
    "id": "pol7-pp-119",
@@ -1506,7 +1674,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.1"
+   "pp": "III.2.1",
+   "kind": "forma wypowiedzi"
   },
   {
    "id": "pol7-pp-120",
@@ -1517,7 +1686,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2.2"
+   "pp": "III.2.2",
+   "kind": "forma wypowiedzi"
   },
   {
    "id": "pol7-pp-121",
@@ -1528,7 +1698,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.4"
+   "pp": "III.1.4",
+   "kind": "pojęcie językowe"
   },
   {
    "id": "pol7-pp-122",
@@ -1539,7 +1710,8 @@
    "category": "pol7_writing",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1.4"
+   "pp": "III.1.4",
+   "kind": "pojęcie językowe"
   },
   {
    "id": "pol7-pp-123",
@@ -1550,7 +1722,8 @@
    "category": "pol7_writing",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1.5"
+   "pp": "III.1.5",
+   "kind": "pojęcie językowe"
   }
  ]
 }
