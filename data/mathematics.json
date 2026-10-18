@@ -1,6 +1,17 @@
 {
  "version": 1,
  "subject": "math_ib",
+ "kinds": [
+  "number",
+  "value",
+  "angle",
+  "expression",
+  "formula",
+  "equation solution",
+  "property",
+  "point",
+  "concept"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla liceum ogólnokształcącego i technikum, matematyka, zakres podstawowy (Dz.U. 2018 poz. 467); zakres klasy 1 wg typowego rozkładu materiału, uzupełniony o treści IB DP Mathematics AA (functions, statistics)",
  "items": [
@@ -18,7 +29,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-002",
@@ -29,7 +41,11 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "property",
+   "distractors": [
+    "irrational"
+   ]
   },
   {
    "id": "mathib-pp-003",
@@ -44,7 +60,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "property"
   },
   {
    "id": "mathib-pp-004",
@@ -59,7 +76,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "value"
   },
   {
    "id": "mathib-pp-005",
@@ -70,7 +88,12 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "concept",
+   "distractors": [
+    "multiply",
+    "subtract"
+   ]
   },
   {
    "id": "mathib-pp-006",
@@ -84,7 +107,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-007",
@@ -99,7 +123,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-008",
@@ -116,7 +141,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "value"
   },
   {
    "id": "mathib-pp-009",
@@ -127,7 +153,11 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "property",
+   "distractors": [
+    "decreasing"
+   ]
   },
   {
    "id": "mathib-pp-010",
@@ -143,7 +173,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.6"
+   "pp": "I.6",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-011",
@@ -155,7 +186,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-012",
@@ -173,7 +205,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-013",
@@ -184,7 +217,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-014",
@@ -199,7 +233,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-015",
@@ -214,7 +249,8 @@
    "category": "mathib_number",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-016",
@@ -225,7 +261,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "formula"
   },
   {
    "id": "mathib-pp-017",
@@ -239,7 +276,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-018",
@@ -253,7 +291,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-019",
@@ -269,7 +308,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-020",
@@ -283,7 +323,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-021",
@@ -299,7 +340,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-022",
@@ -311,7 +353,8 @@
    "category": "mathib_number",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-023",
@@ -326,7 +369,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-024",
@@ -337,7 +381,11 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "concept",
+   "distractors": [
+    "expanding"
+   ]
   },
   {
    "id": "mathib-pp-025",
@@ -351,7 +399,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-026",
@@ -366,7 +415,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-027",
@@ -380,7 +430,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-028",
@@ -396,7 +447,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-029",
@@ -411,7 +463,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-030",
@@ -426,7 +479,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-031",
@@ -437,7 +491,11 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "property",
+   "distractors": [
+    "positive"
+   ]
   },
   {
    "id": "mathib-pp-032",
@@ -452,7 +510,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "formula"
   },
   {
    "id": "mathib-pp-033",
@@ -468,7 +527,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-034",
@@ -486,7 +546,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-035",
@@ -504,7 +565,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-036",
@@ -521,7 +583,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-037",
@@ -532,7 +595,12 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "property",
+   "distractors": [
+    "consistent",
+    "dependent"
+   ]
   },
   {
    "id": "mathib-pp-038",
@@ -544,7 +612,8 @@
    "category": "mathib_number",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-039",
@@ -555,7 +624,12 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "concept",
+   "distractors": [
+    "at least one",
+    "at most one"
+   ]
   },
   {
    "id": "mathib-pp-040",
@@ -569,7 +643,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-041",
@@ -584,7 +659,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-042",
@@ -596,7 +672,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-043",
@@ -615,7 +692,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-044",
@@ -631,7 +709,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-045",
@@ -648,7 +727,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-046",
@@ -662,7 +742,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-047",
@@ -673,7 +754,11 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "property",
+   "distractors": [
+    "decreasing"
+   ]
   },
   {
    "id": "mathib-pp-048",
@@ -690,7 +775,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "point"
   },
   {
    "id": "mathib-pp-049",
@@ -707,7 +793,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-050",
@@ -723,7 +810,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.12"
+   "pp": "V.12",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-051",
@@ -739,7 +827,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.12"
+   "pp": "V.12",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-052",
@@ -751,7 +840,8 @@
    "category": "mathib_functions",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-053",
@@ -769,7 +859,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-054",
@@ -786,7 +877,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-055",
@@ -803,7 +895,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-056",
@@ -819,7 +912,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-057",
@@ -833,7 +927,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-058",
@@ -847,7 +942,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-059",
@@ -864,7 +960,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-060",
@@ -881,7 +978,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.6"
+   "pp": "V.6",
+   "kind": "equation solution"
   },
   {
    "id": "mathib-pp-061",
@@ -896,7 +994,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.2"
+   "pp": "VIII.2",
+   "kind": "angle"
   },
   {
    "id": "mathib-pp-062",
@@ -911,7 +1010,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.1"
+   "pp": "VIII.1",
+   "kind": "formula"
   },
   {
    "id": "mathib-pp-063",
@@ -927,7 +1027,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.2"
+   "pp": "VIII.2",
+   "kind": "property"
   },
   {
    "id": "mathib-pp-064",
@@ -943,7 +1044,8 @@
    "difficulty": 3,
    "source": "Podstawa programowa",
    "pp": "VIII.2",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "property"
   },
   {
    "id": "mathib-pp-065",
@@ -954,7 +1056,11 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.2"
+   "pp": "VIII.2",
+   "kind": "property",
+   "distractors": [
+    "smaller"
+   ]
   },
   {
    "id": "mathib-pp-066",
@@ -969,7 +1075,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.3"
+   "pp": "VIII.3",
+   "kind": "angle"
   },
   {
    "id": "mathib-pp-067",
@@ -981,7 +1088,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.4"
+   "pp": "VIII.4",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-068",
@@ -996,7 +1104,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.5"
+   "pp": "VIII.5",
+   "kind": "angle"
   },
   {
    "id": "mathib-pp-069",
@@ -1012,7 +1121,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.5"
+   "pp": "VIII.5",
+   "kind": "angle"
   },
   {
    "id": "mathib-pp-070",
@@ -1028,7 +1138,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.6"
+   "pp": "VIII.6",
+   "kind": "value"
   },
   {
    "id": "mathib-pp-071",
@@ -1039,7 +1150,11 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.7"
+   "pp": "VIII.7",
+   "kind": "property",
+   "distractors": [
+    "perpendicular"
+   ]
   },
   {
    "id": "mathib-pp-072",
@@ -1054,7 +1169,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VIII.8",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "property"
   },
   {
    "id": "mathib-pp-073",
@@ -1071,7 +1187,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.9"
+   "pp": "VIII.9",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-074",
@@ -1085,7 +1202,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.10"
+   "pp": "VIII.10",
+   "kind": "point"
   },
   {
    "id": "mathib-pp-075",
@@ -1102,7 +1220,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.10"
+   "pp": "VIII.10",
+   "kind": "point"
   },
   {
    "id": "mathib-pp-076",
@@ -1119,7 +1238,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.10"
+   "pp": "VIII.10",
+   "kind": "point"
   },
   {
    "id": "mathib-pp-077",
@@ -1136,7 +1256,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.10"
+   "pp": "VIII.10",
+   "kind": "point"
   },
   {
    "id": "mathib-pp-078",
@@ -1148,7 +1269,8 @@
    "category": "mathib_geometry",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VIII.1"
+   "pp": "VIII.1",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-079",
@@ -1164,7 +1286,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.1"
+   "pp": "VII.1",
+   "kind": "formula"
   },
   {
    "id": "mathib-pp-080",
@@ -1180,7 +1303,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.1"
+   "pp": "VII.1",
+   "kind": "formula"
   },
   {
    "id": "mathib-pp-081",
@@ -1196,7 +1320,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.1"
+   "pp": "VII.1",
+   "kind": "value"
   },
   {
    "id": "mathib-pp-082",
@@ -1213,7 +1338,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.1"
+   "pp": "VII.1",
+   "kind": "value"
   },
   {
    "id": "mathib-pp-083",
@@ -1224,7 +1350,12 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.2"
+   "pp": "VII.2",
+   "kind": "formula",
+   "distractors": [
+    "sin^2 a",
+    "tan^2 a"
+   ]
   },
   {
    "id": "mathib-pp-084",
@@ -1236,7 +1367,8 @@
    "category": "mathib_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.4"
+   "pp": "VII.4",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-085",
@@ -1251,7 +1383,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB 2.5"
+   "pp": "IB 2.5",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-086",
@@ -1262,7 +1395,11 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB 2.5"
+   "pp": "IB 2.5",
+   "kind": "concept",
+   "distractors": [
+    "f"
+   ]
   },
   {
    "id": "mathib-pp-087",
@@ -1280,7 +1417,8 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB 2.2"
+   "pp": "IB 2.2",
+   "kind": "expression"
   },
   {
    "id": "mathib-pp-088",
@@ -1291,7 +1429,11 @@
    "category": "mathib_functions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB 2.2"
+   "pp": "IB 2.2",
+   "kind": "formula",
+   "distractors": [
+    "y = -x"
+   ]
   },
   {
    "id": "mathib-pp-089",
@@ -1308,7 +1450,8 @@
    "category": "mathib_functions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB 2.2"
+   "pp": "IB 2.2",
+   "kind": "property"
   },
   {
    "id": "mathib-pp-090",
@@ -1326,7 +1469,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB 1.2"
+   "pp": "IB 1.2",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-091",
@@ -1338,7 +1482,8 @@
    "category": "mathib_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-092",
@@ -1350,7 +1495,8 @@
    "category": "mathib_stats",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-093",
@@ -1362,7 +1508,8 @@
    "category": "mathib_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB 4.3"
+   "pp": "IB 4.3",
+   "kind": "number"
   },
   {
    "id": "mathib-pp-094",
@@ -1378,7 +1525,8 @@
    "category": "mathib_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB 4.3"
+   "pp": "IB 4.3",
+   "kind": "concept"
   },
   {
    "id": "mathib-pp-095",
@@ -1394,7 +1542,8 @@
    "category": "mathib_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB 4.3"
+   "pp": "IB 4.3",
+   "kind": "formula"
   },
   {
    "id": "mathib-pp-096",
@@ -1410,7 +1559,8 @@
    "category": "mathib_stats",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB 4.3"
+   "pp": "IB 4.3",
+   "kind": "concept"
   }
  ]
 }
