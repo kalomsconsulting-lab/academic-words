@@ -1990,6 +1990,269 @@
     "tarcia",
     "wyporu"
    ]
+  },
+  {
+   "id": "fiz7-pp-105",
+   "type": "order",
+   "prompt": "Ułóż etapy pomiaru wielkości fizycznej i opracowania wyniku",
+   "steps": [
+    "Wybierz przyrząd i odczytaj jego dokładność",
+    "Wykonaj kilka pomiarów tej samej wielkości",
+    "Oblicz średnią arytmetyczną wyników",
+    "Oszacuj niepewność pomiaru",
+    "Zapisz wynik z niepewnością i jednostką"
+   ],
+   "explanation": "Powtórzenie pomiaru i uśrednienie zmniejsza wpływ przypadkowych błędów, a wynik zawsze podaje się z niepewnością.",
+   "category": "fiz7_intro",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "fiz7-pp-106",
+   "type": "order",
+   "prompt": "Ułóż kroki zamiany prędkości 72 km/h na m/s",
+   "steps": [
+    "Zamień kilometry na metry: 72 km = 72 000 m",
+    "Zamień godzinę na sekundy: 1 h = 3600 s",
+    "Podziel drogę przez czas: 72 000 m : 3600 s",
+    "Zapisz wynik: 20 m/s"
+   ],
+   "explanation": "Zamiana km/h na m/s to podzielenie przez 3,6, bo 1 km = 1000 m, a 1 h = 3600 s.",
+   "category": "fiz7_intro",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "fiz7-pp-107",
+   "type": "order",
+   "prompt": "Ułóż etapy obliczania prędkości rowerzysty, który przejechał 9 km w 30 minut",
+   "steps": [
+    "Wypisz dane: s = 9 km, t = 30 min",
+    "Zamień jednostki na SI: s = 9000 m, t = 1800 s",
+    "Zapisz wzór: v = s/t",
+    "Podstaw wartości: v = 9000 m / 1800 s",
+    "Zapisz wynik: v = 5 m/s"
+   ],
+   "explanation": "Zadanie obliczeniowe zaczyna się od danych i jednostek SI, a kończy wynikiem z jednostką.",
+   "category": "fiz7_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "fiz7-pp-108",
+   "type": "order",
+   "prompt": "Ułóż kroki wyznaczania siły wypadkowej dwóch sił działających wzdłuż jednej prostej",
+   "steps": [
+    "Narysuj obie siły jako wektory na jednej prostej",
+    "Sprawdź, czy siły mają ten sam zwrot, czy przeciwne",
+    "Przy tym samym zwrocie dodaj wartości, przy przeciwnych odejmij",
+    "Nadaj wypadkowej zwrot większej siły (albo wspólny zwrot)",
+    "Zapisz wartość wypadkowej w niutonach"
+   ],
+   "explanation": "Siły zgodne się sumują, a przeciwne odejmują; wypadkowa ma zwrot siły większej.",
+   "category": "fiz7_forces",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.12"
+  },
+  {
+   "id": "fiz7-pp-109",
+   "type": "order",
+   "prompt": "Ułóż etapy przemian energii piłki upuszczonej na podłogę (bez oporów)",
+   "steps": [
+    "Piłka w ręce: cała energia to energia potencjalna grawitacji",
+    "Spadanie: energia potencjalna zamienia się w kinetyczną",
+    "Tuż przed podłogą: cała energia to energia kinetyczna",
+    "Odbicie: energia kinetyczna przechodzi w energię sprężystości i z powrotem",
+    "Wznoszenie: energia kinetyczna zamienia się w potencjalną grawitacji"
+   ],
+   "explanation": "Zgodnie z zasadą zachowania energii suma energii potencjalnej i kinetycznej pozostaje stała, zmienia się tylko jej postać.",
+   "category": "fiz7_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "fiz7-pp-110",
+   "type": "order",
+   "prompt": "Ułóż kolejne etapy ogrzewania lodu o temperaturze −10 °C aż do pary wodnej",
+   "steps": [
+    "Ogrzewanie lodu do 0 °C",
+    "Topnienie lodu w stałej temperaturze 0 °C",
+    "Ogrzewanie wody od 0 °C do 100 °C",
+    "Wrzenie wody w stałej temperaturze 100 °C",
+    "Ogrzewanie pary wodnej powyżej 100 °C"
+   ],
+   "explanation": "Podczas topnienia i wrzenia temperatura nie rośnie, bo dostarczana energia zużywa się na zmianę stanu skupienia.",
+   "category": "fiz7_heat",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.7"
+  },
+  {
+   "id": "fiz7-pp-111",
+   "type": "order",
+   "prompt": "Ułóż etapy doświadczenia sprawdzającego prawo Archimedesa",
+   "steps": [
+    "Zawieś ciało na siłomierzu i odczytaj jego ciężar w powietrzu",
+    "Zanurz ciało całkowicie w wodzie i odczytaj wskazanie siłomierza",
+    "Oblicz siłę wyporu jako różnicę obu wskazań",
+    "Zmierz objętość wypartej wody, np. w menzurce",
+    "Oblicz ciężar wypartej wody i porównaj z siłą wyporu"
+   ],
+   "explanation": "Siła wyporu równa się ciężarowi wypartej cieczy, co pokazuje porównanie różnicy wskazań siłomierza z ciężarem wypartej wody.",
+   "category": "fiz7_pressure",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.7"
+  },
+  {
+   "id": "fiz7-pp-112",
+   "type": "order",
+   "prompt": "Ułóż kroki wyznaczania gęstości kamienia",
+   "steps": [
+    "Zważ kamień na wadze i zapisz masę m",
+    "Wlej wodę do menzurki i odczytaj objętość V1",
+    "Zanurz kamień w wodzie i odczytaj objętość V2",
+    "Oblicz objętość kamienia: V = V2 − V1",
+    "Oblicz gęstość ze wzoru ρ = m/V"
+   ],
+   "explanation": "Objętość nieregularnej bryły wyznacza się z przyrostu poziomu wody, a gęstość to iloraz masy i objętości.",
+   "category": "fiz7_matter",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "fiz7-pp-113",
+   "type": "apply",
+   "situation": "Pociąg jedzie ruchem jednostajnym z prędkością 25 m/s. Jak obliczysz drogę przebytą w 40 s?",
+   "rule": "$$s = v \\cdot t$$",
+   "wrong": [
+    "$$a = \\frac{\\Delta v}{\\Delta t}$$",
+    "$$s = \\frac{a \\cdot t^2}{2}$$",
+    "$$F = m \\cdot a$$"
+   ],
+   "explanation": "W ruchu jednostajnym droga to iloczyn prędkości i czasu: 25 m/s · 40 s = 1000 m.",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.5"
+  },
+  {
+   "id": "fiz7-pp-114",
+   "type": "apply",
+   "situation": "Samochód rusza z miejsca i po 5 s osiąga prędkość 15 m/s. Jak obliczysz jego przyspieszenie?",
+   "rule": "$$a = \\frac{\\Delta v}{\\Delta t}$$",
+   "wrong": [
+    "$$v = \\frac{s}{t}$$",
+    "$$s = v \\cdot t$$",
+    "$$F_c = m \\cdot g$$"
+   ],
+   "explanation": "Przyspieszenie to zmiana prędkości podzielona przez czas: 15 m/s : 5 s = 3 m/s².",
+   "category": "fiz7_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "fiz7-pp-115",
+   "type": "apply",
+   "situation": "Na wózek o masie 2 kg działa siła wypadkowa 6 N. Jak obliczysz jego przyspieszenie?",
+   "rule": "$$a = \\frac{F}{m}$$",
+   "wrong": [
+    "$$F_c = m \\cdot g$$",
+    "$$a = \\frac{\\Delta v}{\\Delta t}$$",
+    "$$p = \\frac{F}{S}$$"
+   ],
+   "explanation": "Druga zasada dynamiki: przyspieszenie to siła wypadkowa podzielona przez masę, czyli 3 m/s².",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.15"
+  },
+  {
+   "id": "fiz7-pp-116",
+   "type": "apply",
+   "situation": "Chcesz obliczyć ciężar plecaka o masie 8 kg na Ziemi. Jaki wzór zastosujesz?",
+   "rule": "$$F_c = m \\cdot g$$",
+   "wrong": [
+    "$$a = \\frac{F}{m}$$",
+    "$$W = F \\cdot s$$",
+    "$$\\rho = \\frac{m}{V}$$"
+   ],
+   "explanation": "Ciężar to siła grawitacji działająca na ciało: masa razy przyspieszenie ziemskie, czyli ok. 80 N.",
+   "category": "fiz7_forces",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.17"
+  },
+  {
+   "id": "fiz7-pp-117",
+   "type": "apply",
+   "situation": "Dźwig podnosi skrzynię siłą 500 N na wysokość 4 m. Jak obliczysz wykonaną pracę?",
+   "rule": "$$W = F \\cdot s$$",
+   "wrong": [
+    "$$P = \\frac{W}{t}$$",
+    "$$E_k = \\frac{m \\cdot v^2}{2}$$",
+    "$$F = m \\cdot a$$"
+   ],
+   "explanation": "Praca to iloczyn siły i drogi przebytej wzdłuż kierunku siły: 500 N · 4 m = 2000 J.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "fiz7-pp-118",
+   "type": "apply",
+   "situation": "Piłka o masie 0,5 kg leci z prędkością 10 m/s. Jak obliczysz jej energię kinetyczną?",
+   "rule": "$$E_k = \\frac{m \\cdot v^2}{2}$$",
+   "wrong": [
+    "$$E_p = m \\cdot g \\cdot h$$",
+    "$$W = F \\cdot s$$",
+    "$$P = \\frac{W}{t}$$"
+   ],
+   "explanation": "Energia kinetyczna zależy od masy i kwadratu prędkości: 0,5 · 100 / 2 = 25 J.",
+   "category": "fiz7_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "fiz7-pp-119",
+   "type": "apply",
+   "situation": "Nurek znajduje się na głębokości 15 m. Jak obliczysz ciśnienie hydrostatyczne wody na tej głębokości?",
+   "rule": "$$p = \\rho \\cdot g \\cdot h$$",
+   "wrong": [
+    "$$p = \\frac{F}{S}$$",
+    "$$F_w = \\rho \\cdot g \\cdot V$$",
+    "$$\\rho = \\frac{m}{V}$$"
+   ],
+   "explanation": "Ciśnienie hydrostatyczne rośnie z głębokością: gęstość cieczy razy g razy wysokość słupa cieczy.",
+   "category": "fiz7_pressure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "fiz7-pp-120",
+   "type": "apply",
+   "situation": "Kamień o objętości 0,002 m³ jest całkowicie zanurzony w wodzie. Jak obliczysz działającą na niego siłę wyporu?",
+   "rule": "$$F_w = \\rho_{cieczy} \\cdot g \\cdot V$$",
+   "wrong": [
+    "$$p = \\rho \\cdot g \\cdot h$$",
+    "$$F_c = m \\cdot g$$",
+    "$$p = \\frac{F}{S}$$"
+   ],
+   "explanation": "Siła wyporu to ciężar wypartej cieczy, więc zależy od gęstości cieczy i objętości zanurzonej części ciała.",
+   "category": "fiz7_pressure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.7"
   }
  ]
 }
