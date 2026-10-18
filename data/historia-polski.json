@@ -63,7 +63,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.1",
-   "kind": "postać"
+   "kind": "postać",
+   "distractors": [
+    "Oda",
+    "Rycheza",
+    "Emnilda"
+   ]
   },
   {
    "id": "hpl-pp-004",
@@ -75,7 +80,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "Wiślanie",
+    "Mazowszanie",
+    "Pomorzanie"
+   ]
   },
   {
    "id": "hpl-pp-005",
@@ -87,7 +97,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.1",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "Bulla gnieźnieńska",
+    "Kronika Thietmara",
+    "Kodeks Matyldy"
+   ]
   },
   {
    "id": "hpl-pp-006",
@@ -148,7 +163,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.1",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Krakowie",
+    "Poznaniu",
+    "Wrocławiu"
+   ]
   },
   {
    "id": "hpl-pp-010",
@@ -197,7 +217,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.2",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "pokój w Merseburgu",
+    "pokój w Kaliszu",
+    "pokój w Kłodzku"
+   ]
   },
   {
    "id": "hpl-pp-013",
@@ -209,7 +234,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.2",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Milsko i Łużyce",
+    "Ruś Halicką",
+    "ziemię lubuską"
+   ]
   },
   {
    "id": "hpl-pp-014",
@@ -242,7 +272,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.2",
-   "kind": "władca"
+   "kind": "władca",
+   "distractors": [
+    "Sobiesław I",
+    "Bolesław II Pobożny",
+    "Wacław II"
+   ]
   },
   {
    "id": "hpl-pp-016",
@@ -276,7 +311,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IX.2",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Śląsk",
+    "Mazowsze",
+    "Milsko"
+   ]
   },
   {
    "id": "hpl-pp-018",
@@ -321,7 +361,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "primogenitury",
+    "immunitetu",
+    "elekcyjności"
+   ]
   },
   {
    "id": "hpl-pp-021",
@@ -351,7 +396,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "władca"
+   "kind": "władca",
+   "distractors": [
+    "Bolesław Kędzierzawy",
+    "Mieszko Stary",
+    "Henryk Sandomierski"
+   ]
   },
   {
    "id": "hpl-pp-023",
@@ -363,7 +413,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "przywilej",
+    "regale",
+    "seniorat"
+   ]
   },
   {
    "id": "hpl-pp-024",
@@ -423,7 +478,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "ziemi chełmińskiej",
+    "ziemi lubuskiej",
+    "Pomorza Zachodniego"
+   ]
   },
   {
    "id": "hpl-pp-028",
@@ -435,7 +495,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wolnizną",
+    "immunitetem",
+    "pańszczyzną"
+   ]
   },
   {
    "id": "hpl-pp-029",
@@ -448,7 +513,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "sołtys",
+    "wójt",
+    "ławnik"
+   ]
   },
   {
    "id": "hpl-pp-030",
@@ -461,7 +531,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wójt",
+    "zasadźca",
+    "kasztelan"
+   ]
   },
   {
    "id": "hpl-pp-031",
@@ -474,7 +549,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "sołtys",
+    "zasadźca",
+    "starosta"
+   ]
   },
   {
    "id": "hpl-pp-032",
@@ -486,7 +566,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "lubeckie",
+    "chełmińskie",
+    "średzkie"
+   ]
   },
   {
    "id": "hpl-pp-033",
@@ -498,7 +583,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "lokacją",
+    "pańszczyzną",
+    "dziesięciną"
+   ]
   },
   {
    "id": "hpl-pp-034",
@@ -512,7 +602,9 @@
    "pp": "X.2",
    "kind": "pojęcie",
    "distractors": [
-    "dwupolówka"
+    "dwupolówka",
+    "płodozmian",
+    "gospodarka żarowa"
    ]
   },
   {
@@ -545,7 +637,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.3",
-   "kind": "władca"
+   "kind": "władca",
+   "distractors": [
+    "Wacław III",
+    "Przemysł Ottokar II",
+    "Jan Luksemburski"
+   ]
   },
   {
    "id": "hpl-pp-037",
@@ -594,7 +691,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.3",
-   "kind": "duchowny"
+   "kind": "duchowny",
+   "distractors": [
+    "Henryk Kietlicz",
+    "Janisław",
+    "Pełka"
+   ]
   },
   {
    "id": "hpl-pp-040",
@@ -606,7 +708,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.3",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "krakowska",
+    "poznańska",
+    "wrocławska"
+   ]
   },
   {
    "id": "hpl-pp-041",
@@ -624,7 +731,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.3",
-   "kind": "duchowny"
+   "kind": "duchowny",
+   "distractors": [
+    "św. Wojciecha",
+    "św. Jacka",
+    "św. Floriana"
+   ]
   },
   {
    "id": "hpl-pp-042",
@@ -668,7 +780,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Grody Czerwieńskie",
+    "Śląsk",
+    "ziemię lubuską"
+   ]
   },
   {
    "id": "hpl-pp-045",
@@ -684,7 +801,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "pokój w Budziszynie",
+    "I pokój toruński",
+    "pokój w Namysłowie"
+   ]
   },
   {
    "id": "hpl-pp-046",
@@ -712,7 +834,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "Akademia Zamojska",
+    "Akademia Lubrańskiego",
+    "Akademia Wileńska"
+   ]
   },
   {
    "id": "hpl-pp-048",
@@ -724,7 +851,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "nieszawskie",
+    "Łaskiego",
+    "koszyckie"
+   ]
   },
   {
    "id": "hpl-pp-049",
@@ -739,7 +871,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "kamienną",
+    "bogatą",
+    "zjednoczoną"
+   ]
   },
   {
    "id": "hpl-pp-050",
@@ -754,7 +891,8 @@
    "kind": "pojęcie",
    "distractors": [
     "patrymonialna",
-    "absolutna"
+    "absolutna",
+    "konstytucyjna"
    ]
   },
   {
@@ -771,7 +909,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "duchowieństwo",
+    "mieszczaństwo",
+    "chłopi"
+   ]
   },
   {
    "id": "hpl-pp-052",
@@ -788,7 +931,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.2",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "przywilej czerwiński",
+    "przywilej jedlneński",
+    "przywilej piotrkowski"
+   ]
   },
   {
    "id": "hpl-pp-053",
@@ -816,7 +964,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "nihil novi",
+    "liberum veto",
+    "pacta conventa"
+   ]
   },
   {
    "id": "hpl-pp-055",
@@ -845,7 +998,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.2",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "wiece",
+    "sądy ziemskie",
+    "rady miejskie"
+   ]
   },
   {
    "id": "hpl-pp-057",
@@ -861,7 +1019,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.2",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "sejmik ziemski",
+    "zjazd generalny",
+    "rada królewska"
+   ]
   },
   {
    "id": "hpl-pp-058",
@@ -894,7 +1057,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.3",
-   "kind": "władca"
+   "kind": "władca",
+   "distractors": [
+    "Maria Andegaweńska",
+    "Elżbieta Bośniaczka",
+    "Anna Cylejska"
+   ]
   },
   {
    "id": "hpl-pp-060",
@@ -922,7 +1090,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.3",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Horodle",
+    "Wilnie",
+    "Mielniku"
+   ]
   },
   {
    "id": "hpl-pp-062",
@@ -937,7 +1110,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.3",
-   "kind": "władca"
+   "kind": "władca",
+   "distractors": [
+    "Aleksander",
+    "Kazimierz",
+    "Zygmunt"
+   ]
   },
   {
    "id": "hpl-pp-063",
@@ -953,7 +1131,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.3",
-   "kind": "władca"
+   "kind": "władca",
+   "distractors": [
+    "Skirgiełło",
+    "Świdrygiełło",
+    "Kiejstut"
+   ]
   },
   {
    "id": "hpl-pp-064",
@@ -969,7 +1152,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.3",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "unia w Krewie",
+    "unia w Wilnie",
+    "unia w Mielniku"
+   ]
   },
   {
    "id": "hpl-pp-065",
@@ -1036,7 +1224,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.4",
-   "kind": "postać"
+   "kind": "postać",
+   "distractors": [
+    "Heinrich von Plauen",
+    "Konrad von Jungingen",
+    "Hermann von Salza"
+   ]
   },
   {
    "id": "hpl-pp-069",
@@ -1053,7 +1246,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.4",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "II pokój toruński",
+    "pokój w Kaliszu",
+    "pokój melneński"
+   ]
   },
   {
    "id": "hpl-pp-070",
@@ -1065,7 +1263,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.4",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "Jaszczurczy",
+    "Hanzeatycki",
+    "Reński"
+   ]
   },
   {
    "id": "hpl-pp-071",
@@ -1080,7 +1283,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.4",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "wojna głodowa",
+    "wojna golubska",
+    "wojna pruska"
+   ]
   },
   {
    "id": "hpl-pp-072",
@@ -1110,7 +1318,9 @@
    "pp": "XII.4",
    "kind": "region",
    "distractors": [
-    "Zakonnymi"
+    "Zakonnymi",
+    "Książęcymi",
+    "Krzyżackimi"
    ]
   },
   {
@@ -1161,7 +1371,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XIII.2",
-   "kind": "duchowny"
+   "kind": "duchowny",
+   "distractors": [
+    "Gall Anonim",
+    "Jan Długosz",
+    "Janko z Czarnkowa"
+   ]
   },
   {
    "id": "hpl-pp-077",
@@ -1176,7 +1391,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.2",
-   "kind": "postać"
+   "kind": "postać",
+   "distractors": [
+    "Wincenty Kadłubek",
+    "Gall Anonim",
+    "Janko z Czarnkowa"
+   ]
   },
   {
    "id": "hpl-pp-078",
@@ -1188,7 +1408,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.3",
-   "kind": "kultura"
+   "kind": "kultura",
+   "distractors": [
+    "Gaude Mater Polonia",
+    "Lament świętokrzyski",
+    "Psałterz floriański"
+   ]
   },
   {
    "id": "hpl-pp-079",
@@ -1200,7 +1425,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "greka",
+    "polszczyzna",
+    "niemczyzna"
+   ]
   },
   {
    "id": "hpl-pp-080",
@@ -1216,7 +1446,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.4",
-   "kind": "kultura"
+   "kind": "kultura",
+   "distractors": [
+    "gotycki",
+    "renesansowy",
+    "barokowy"
+   ]
   },
   {
    "id": "hpl-pp-081",
@@ -1232,7 +1467,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.4",
-   "kind": "kultura"
+   "kind": "kultura",
+   "distractors": [
+    "romański",
+    "renesansowy",
+    "barokowy"
+   ]
   },
   {
    "id": "hpl-pp-082",
@@ -1260,7 +1500,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XIII.4",
-   "kind": "kultura"
+   "kind": "kultura",
+   "distractors": [
+    "Płockie",
+    "Hildesheimskie",
+    "Magdeburskie"
+   ]
   },
   {
    "id": "hpl-pp-084",
@@ -1272,7 +1517,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XIII.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "universitas",
+    "ecclesia",
+    "imperium"
+   ]
   }
  ]
 }
