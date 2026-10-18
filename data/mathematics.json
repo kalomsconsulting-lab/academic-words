@@ -30,7 +30,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "integers",
+    "rational numbers",
+    "real numbers"
+   ]
   },
   {
    "id": "mathib-pp-002",
@@ -44,7 +49,9 @@
    "pp": "I.1",
    "kind": "property",
    "distractors": [
-    "irrational"
+    "irrational",
+    "prime",
+    "transcendental"
    ]
   },
   {
@@ -92,7 +99,8 @@
    "kind": "concept",
    "distractors": [
     "multiply",
-    "subtract"
+    "subtract",
+    "divide"
    ]
   },
   {
@@ -156,7 +164,9 @@
    "pp": "I.5",
    "kind": "property",
    "distractors": [
-    "decreasing"
+    "decreasing",
+    "constant",
+    "periodic"
    ]
   },
   {
@@ -218,7 +228,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.7",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "sum",
+    "midpoint",
+    "product"
+   ]
   },
   {
    "id": "mathib-pp-014",
@@ -262,7 +277,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.8",
-   "kind": "formula"
+   "kind": "formula",
+   "distractors": [
+    "p",
+    "K_0",
+    "n-1"
+   ]
   },
   {
    "id": "mathib-pp-017",
@@ -384,7 +404,9 @@
    "pp": "II.3",
    "kind": "concept",
    "distractors": [
-    "expanding"
+    "expanding",
+    "simplifying",
+    "substituting"
    ]
   },
   {
@@ -448,7 +470,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "identity",
+    "conditional equation",
+    "equivalent equation"
+   ]
   },
   {
    "id": "mathib-pp-029",
@@ -464,7 +491,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "contradiction",
+    "conditional equation",
+    "inconsistent equation"
+   ]
   },
   {
    "id": "mathib-pp-030",
@@ -494,7 +526,9 @@
    "pp": "III.3",
    "kind": "property",
    "distractors": [
-    "positive"
+    "positive",
+    "rational",
+    "natural"
    ]
   },
   {
@@ -528,7 +562,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "one",
+    "two",
+    "infinitely many"
+   ]
   },
   {
    "id": "mathib-pp-034",
@@ -599,7 +638,8 @@
    "kind": "property",
    "distractors": [
     "consistent",
-    "dependent"
+    "dependent",
+    "independent"
    ]
   },
   {
@@ -628,7 +668,8 @@
    "kind": "concept",
    "distractors": [
     "at least one",
-    "at most one"
+    "at most one",
+    "the same"
    ]
   },
   {
@@ -644,7 +685,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "range",
+    "codomain",
+    "image"
+   ]
   },
   {
    "id": "mathib-pp-041",
@@ -660,7 +706,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "domain",
+    "codomain",
+    "set of zeros"
+   ]
   },
   {
    "id": "mathib-pp-042",
@@ -757,7 +808,9 @@
    "pp": "V.4",
    "kind": "property",
    "distractors": [
-    "decreasing"
+    "decreasing",
+    "constant",
+    "bounded"
    ]
   },
   {
@@ -794,7 +847,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "at most twice",
+    "exactly twice",
+    "any number of times"
+   ]
   },
   {
    "id": "mathib-pp-050",
@@ -878,7 +936,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "y-intercept",
+    "x-intercept",
+    "root"
+   ]
   },
   {
    "id": "mathib-pp-055",
@@ -1059,7 +1122,9 @@
    "pp": "VIII.2",
    "kind": "property",
    "distractors": [
-    "smaller"
+    "smaller",
+    "acute",
+    "exterior"
    ]
   },
   {
@@ -1153,7 +1218,9 @@
    "pp": "VIII.7",
    "kind": "property",
    "distractors": [
-    "perpendicular"
+    "perpendicular",
+    "intersecting",
+    "concurrent"
    ]
   },
   {
@@ -1239,7 +1306,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VIII.10",
-   "kind": "point"
+   "kind": "point",
+   "distractors": [
+    "circumcentre",
+    "centroid",
+    "orthocentre"
+   ]
   },
   {
    "id": "mathib-pp-077",
@@ -1257,7 +1329,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VIII.10",
-   "kind": "point"
+   "kind": "point",
+   "distractors": [
+    "incentre",
+    "centroid",
+    "orthocentre"
+   ]
   },
   {
    "id": "mathib-pp-078",
@@ -1354,7 +1431,8 @@
    "kind": "formula",
    "distractors": [
     "sin^2 a",
-    "tan^2 a"
+    "tan^2 a",
+    "cot^2 a"
    ]
   },
   {
@@ -1398,7 +1476,9 @@
    "pp": "IB 2.5",
    "kind": "concept",
    "distractors": [
-    "f"
+    "f",
+    "f o g",
+    "f^-1"
    ]
   },
   {
@@ -1432,7 +1512,9 @@
    "pp": "IB 2.2",
    "kind": "formula",
    "distractors": [
-    "y = -x"
+    "y = -x",
+    "y = 0",
+    "x = 0"
    ]
   },
   {
@@ -1470,7 +1552,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB 1.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "multiply them",
+    "subtract them",
+    "divide them"
+   ]
   },
   {
    "id": "mathib-pp-091",
@@ -1526,7 +1613,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB 4.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "upper quartile",
+    "median",
+    "minimum"
+   ]
   },
   {
    "id": "mathib-pp-095",
@@ -1560,7 +1652,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB 4.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "median",
+    "mode",
+    "trimmed mean"
+   ]
   }
  ]
 }
