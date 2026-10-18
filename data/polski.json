@@ -32,7 +32,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Biblia",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "pisma",
+    "słowa",
+    "prawa"
+   ]
   },
   {
    "id": "plib-pp-002",
@@ -50,7 +55,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Biblia",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Księga Wyjścia",
+    "Księga Hioba",
+    "Księga Psalmów"
+   ]
   },
   {
    "id": "plib-pp-003",
@@ -84,7 +94,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Biblia",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Księga Hioba",
+    "Księga Psalmów",
+    "Księga Przysłów"
+   ]
   },
   {
    "id": "plib-pp-005",
@@ -99,7 +114,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Biblia",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Księga Psalmów",
+    "Księga Rut",
+    "Księga Mądrości"
+   ]
   },
   {
    "id": "plib-pp-006",
@@ -111,7 +131,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Biblia",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Salomonowi",
+    "Saulowi",
+    "Herodowi"
+   ]
   },
   {
    "id": "plib-pp-007",
@@ -129,7 +154,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Biblia",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Dzieje Apostolskie",
+    "List do Rzymian",
+    "Ewangelia św. Jana"
+   ]
   },
   {
    "id": "plib-pp-008",
@@ -142,7 +172,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Mitologia",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Syzyf",
+    "Dedal",
+    "Herakles"
+   ]
   },
   {
    "id": "plib-pp-009",
@@ -168,7 +203,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Mitologia",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Odyseusz",
+    "Tezeusz",
+    "Dedal"
+   ]
   },
   {
    "id": "plib-pp-011",
@@ -180,7 +220,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Mitologia",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "koła",
+    "beczki",
+    "pnia"
+   ]
   },
   {
    "id": "plib-pp-012",
@@ -195,7 +240,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Iliada",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Hektor",
+    "Agamemnon",
+    "Odyseusz"
+   ]
   },
   {
    "id": "plib-pp-013",
@@ -210,7 +260,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Iliada",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Parys",
+    "Priam",
+    "Eneasz"
+   ]
   },
   {
    "id": "plib-pp-014",
@@ -226,7 +281,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Iliada",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "pentametr",
+    "jedenastozgłoskowiec",
+    "trzynastozgłoskowiec"
+   ]
   },
   {
    "id": "plib-pp-015",
@@ -239,7 +299,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Iliada",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "epitet stały",
+    "retardacja",
+    "inwokacja"
+   ]
   },
   {
    "id": "plib-pp-016",
@@ -271,7 +336,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Antygona",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Eteokles",
+    "Kreon",
+    "Hajmon"
+   ]
   },
   {
    "id": "plib-pp-018",
@@ -287,7 +357,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Antygona",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Eteokles",
+    "Polinejkes",
+    "Tejrezjasz"
+   ]
   },
   {
    "id": "plib-pp-019",
@@ -300,7 +375,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Antygona",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Eurydyka",
+    "Jokasta",
+    "Elektra"
+   ]
   },
   {
    "id": "plib-pp-020",
@@ -315,7 +395,8 @@
    "kind": "pojęcie",
    "distractors": [
     "naturalnym",
-    "kościelnym"
+    "kościelnym",
+    "zwyczajowym"
    ]
   },
   {
@@ -329,7 +410,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Horacy",
-   "kind": "sentencja"
+   "kind": "sentencja",
+   "distractors": [
+    "memento mori",
+    "non omnis moriar",
+    "aurea mediocritas"
+   ]
   },
   {
    "id": "plib-pp-022",
@@ -341,7 +427,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Horacy",
-   "kind": "sentencja"
+   "kind": "sentencja",
+   "distractors": [
+    "memento mori",
+    "carpe diem",
+    "aurea mediocritas"
+   ]
   },
   {
    "id": "plib-pp-023",
@@ -356,7 +447,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Horacy",
-   "kind": "sentencja"
+   "kind": "sentencja",
+   "distractors": [
+    "carpe diem",
+    "non omnis moriar",
+    "memento mori"
+   ]
   },
   {
    "id": "plib-pp-024",
@@ -371,7 +467,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.1.10",
-   "kind": "motyw"
+   "kind": "motyw",
+   "distractors": [
+    "vanitas",
+    "danse macabre",
+    "locus amoenus"
+   ]
   },
   {
    "id": "plib-pp-025",
@@ -386,7 +487,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.10",
-   "kind": "motyw"
+   "kind": "motyw",
+   "distractors": [
+    "theatrum mundi",
+    "danse macabre",
+    "Arkadia"
+   ]
   },
   {
    "id": "plib-pp-026",
@@ -401,7 +507,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.10",
-   "kind": "motyw"
+   "kind": "motyw",
+   "distractors": [
+    "Olimp",
+    "Itaka",
+    "Elizjum"
+   ]
   },
   {
    "id": "plib-pp-027",
@@ -418,7 +529,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "mimesis",
+    "hybris",
+    "fatum"
+   ]
   },
   {
    "id": "plib-pp-028",
@@ -433,7 +549,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2.4",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "epikureizm",
+    "hedonizm",
+    "sceptycyzm"
+   ]
   },
   {
    "id": "plib-pp-029",
@@ -449,7 +570,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2.4",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "stoicyzm",
+    "cynizm",
+    "sceptycyzm"
+   ]
   },
   {
    "id": "plib-pp-030",
@@ -461,7 +587,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.2.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "atomów",
+    "liczb",
+    "bogów"
+   ]
   },
   {
    "id": "plib-pp-031",
@@ -474,7 +605,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Bogurodzica",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Lament świętokrzyski",
+    "Legenda o św. Aleksym",
+    "Kazania świętokrzyskie"
+   ]
   },
   {
    "id": "plib-pp-032",
@@ -505,7 +641,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Bogurodzica",
-   "kind": "motyw"
+   "kind": "motyw",
+   "distractors": [
+    "pieta",
+    "danse macabre",
+    "Maiestas Domini"
+   ]
   },
   {
    "id": "plib-pp-034",
@@ -536,7 +677,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Lament świętokrzyski",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "wdów",
+    "córek",
+    "aniołów"
+   ]
   },
   {
    "id": "plib-pp-036",
@@ -551,7 +697,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Rozmowa Mistrza Polikarpa ze Śmiercią",
-   "kind": "motyw"
+   "kind": "motyw",
+   "distractors": [
+    "memento mori",
+    "vanitas",
+    "ars moriendi"
+   ]
   },
   {
    "id": "plib-pp-037",
@@ -563,7 +714,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Rozmowa Mistrza Polikarpa ze Śmiercią",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "mieczem",
+    "sierpem",
+    "klepsydrą"
+   ]
   },
   {
    "id": "plib-pp-038",
@@ -575,7 +731,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Rozmowa Mistrza Polikarpa ze Śmiercią",
-   "kind": "sentencja"
+   "kind": "sentencja",
+   "distractors": [
+    "carpe diem",
+    "ars moriendi",
+    "vanitas vanitatum"
+   ]
   },
   {
    "id": "plib-pp-039",
@@ -591,7 +752,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Pieśń o Rolandzie",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "króla Artura",
+    "Bolesława Chrobrego",
+    "Ludwika Świętego"
+   ]
   },
   {
    "id": "plib-pp-040",
@@ -606,7 +772,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Pieśń o Rolandzie",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "Excalibur",
+    "Szczerbiec",
+    "Balmung"
+   ]
   },
   {
    "id": "plib-pp-041",
@@ -618,7 +789,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Pieśń o Rolandzie",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "romans rycerski",
+    "poemat heroikomiczny",
+    "legenda hagiograficzna"
+   ]
   },
   {
    "id": "plib-pp-042",
@@ -631,7 +807,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.8",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "antropocentryzm",
+    "humanizm",
+    "scholastyka"
+   ]
   },
   {
    "id": "plib-pp-043",
@@ -648,7 +829,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "literatura hagiograficzna",
+    "literatura apokryficzna",
+    "literatura dworska"
+   ]
   },
   {
    "id": "plib-pp-044",
@@ -661,7 +847,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.8",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "teocentryzm",
+    "reformacja",
+    "klasycyzm"
+   ]
   },
   {
    "id": "plib-pp-045",
@@ -673,7 +864,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Pieśni Kochanowskiego",
-   "kind": "sentencja"
+   "kind": "sentencja",
+   "distractors": [
+    "memento mori",
+    "aurea mediocritas",
+    "non omnis moriar"
+   ]
   },
   {
    "id": "plib-pp-046",
@@ -691,7 +887,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Pieśni Kochanowskiego",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "najazd Turków na Podole",
+    "ucieczka Henryka Walezego",
+    "oblężenie Pskowa"
+   ]
   },
   {
    "id": "plib-pp-047",
@@ -705,7 +906,9 @@
    "pp": "lektura: Pieśni Kochanowskiego",
    "kind": "cytat",
    "distractors": [
-    "mądry"
+    "mądry",
+    "chciwy",
+    "hardy"
    ]
   },
   {
@@ -721,7 +924,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Treny",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "elegia",
+    "epitafium",
+    "pieśń"
+   ]
   },
   {
    "id": "plib-pp-049",
@@ -733,7 +941,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Treny",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "Cnoty",
+    "Fortuny",
+    "Persefony"
+   ]
   },
   {
    "id": "plib-pp-050",
@@ -745,7 +958,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Treny",
-   "kind": "cytat"
+   "kind": "cytat",
+   "distractors": [
+    "tęsknicy",
+    "boleści",
+    "niedoli"
+   ]
   },
   {
    "id": "plib-pp-051",
@@ -757,7 +975,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Treny",
-   "kind": "cytat"
+   "kind": "cytat",
+   "distractors": [
+    "Marność",
+    "Nadzieja",
+    "Mądrość"
+   ]
   },
   {
    "id": "plib-pp-052",
@@ -792,7 +1015,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Makbet",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Banko",
+    "Makduf",
+    "Malkolm"
+   ]
   },
   {
    "id": "plib-pp-054",
@@ -819,7 +1047,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Makbet",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "Glamis",
+    "Fife",
+    "Cawdor"
+   ]
   },
   {
    "id": "plib-pp-056",
@@ -849,7 +1082,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "paradoks",
+    "oksymoron",
+    "hiperbola"
+   ]
   },
   {
    "id": "plib-pp-058",
@@ -865,7 +1103,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: poezja baroku",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "nurt sarmacki",
+    "nurt metafizyczny",
+    "sarmatyzm"
+   ]
   },
   {
    "id": "plib-pp-059",
@@ -882,7 +1125,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: poezja baroku",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Księga Hioba",
+    "Księga Psalmów",
+    "Księga Rodzaju"
+   ]
   },
   {
    "id": "plib-pp-060",
@@ -897,7 +1145,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: poezja baroku",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "tren",
+    "fraszka",
+    "oda"
+   ]
   },
   {
    "id": "plib-pp-061",
@@ -910,7 +1163,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Skąpiec",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Kleant",
+    "Anzelm",
+    "Walery"
+   ]
   },
   {
    "id": "plib-pp-062",
@@ -929,7 +1187,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Skąpiec",
-   "kind": "realia"
+   "kind": "realia",
+   "distractors": [
+    "skrzynię z klejnotami",
+    "worek ze srebrem",
+    "sakiewkę z dukatami"
+   ]
   },
   {
    "id": "plib-pp-063",
@@ -945,7 +1208,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Skąpiec",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "tragedia",
+    "farsa",
+    "tragikomedia"
+   ]
   },
   {
    "id": "plib-pp-064",
@@ -957,7 +1225,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Skąpiec",
-   "kind": "bohater"
+   "kind": "bohater",
+   "distractors": [
+    "Walery",
+    "Anzelm",
+    "Strzałka"
+   ]
   },
   {
    "id": "plib-pp-065",
@@ -972,7 +1245,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: satyry Krasickiego",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Świat zepsuty",
+    "Żona modna",
+    "Do króla"
+   ]
   },
   {
    "id": "plib-pp-066",
@@ -1003,7 +1281,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "lektura: Hymn do miłości ojczyzny",
-   "kind": "cytat"
+   "kind": "cytat",
+   "distractors": [
+    "wolności",
+    "swobody",
+    "cnoty"
+   ]
   },
   {
    "id": "plib-pp-068",
@@ -1019,7 +1302,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "lektura: Hymn do miłości ojczyzny",
-   "kind": "tytuł"
+   "kind": "tytuł",
+   "distractors": [
+    "Myszeida",
+    "Antymonachomachia",
+    "Bajki i przypowieści"
+   ]
   },
   {
    "id": "plib-pp-069",
@@ -1032,7 +1320,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.8",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "sentymentalizm",
+    "rokoko",
+    "romantyzm"
+   ]
   },
   {
    "id": "plib-pp-070",
@@ -1045,7 +1338,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.1",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "oświecenie",
+    "średniowiecze",
+    "romantyzm"
+   ]
   },
   {
    "id": "plib-pp-071",
@@ -1061,7 +1359,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.1",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "pozytywizm",
+    "dwudziestolecie międzywojenne",
+    "romantyzm"
+   ]
   },
   {
    "id": "plib-pp-072",
@@ -1076,7 +1379,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.1",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "barok",
+    "średniowiecze",
+    "oświecenie"
+   ]
   },
   {
    "id": "plib-pp-073",
@@ -1089,7 +1397,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.2",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "fantastyka",
+    "symbolizm",
+    "groteska"
+   ]
   },
   {
    "id": "plib-pp-074",
@@ -1101,7 +1414,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.2",
-   "kind": "prąd"
+   "kind": "prąd",
+   "distractors": [
+    "realizm",
+    "naturalizm",
+    "klasycyzm"
+   ]
   },
   {
    "id": "plib-pp-075",
@@ -1116,7 +1434,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.3",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "ballada",
+    "poemat dygresyjny",
+    "powieść"
+   ]
   },
   {
    "id": "plib-pp-076",
@@ -1129,7 +1452,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.3",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "tren",
+    "elegia",
+    "fraszka"
+   ]
   },
   {
    "id": "plib-pp-077",
@@ -1143,7 +1471,9 @@
    "pp": "I.1.3",
    "kind": "gatunek",
    "distractors": [
-    "komedia"
+    "komedia",
+    "misterium",
+    "moralitet"
    ]
   },
   {
@@ -1157,7 +1487,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.3",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "tren",
+    "oda",
+    "ballada"
+   ]
   },
   {
    "id": "plib-pp-079",
@@ -1170,7 +1505,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.3",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "fraszka",
+    "oda",
+    "sielanka"
+   ]
   },
   {
    "id": "plib-pp-080",
@@ -1187,7 +1527,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.3",
-   "kind": "gatunek"
+   "kind": "gatunek",
+   "distractors": [
+    "satyra",
+    "oda",
+    "ballada"
+   ]
   },
   {
    "id": "plib-pp-081",
@@ -1200,7 +1545,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "antyteza",
+    "paradoks",
+    "hiperbola"
+   ]
   },
   {
    "id": "plib-pp-082",
@@ -1231,7 +1581,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "litota",
+    "metafora",
+    "oksymoron"
+   ]
   },
   {
    "id": "plib-pp-084",
@@ -1246,7 +1601,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "oksymoron",
+    "paradoks",
+    "anafora"
+   ]
   },
   {
    "id": "plib-pp-085",
@@ -1259,7 +1619,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "inwersja",
+    "anafora",
+    "apostrofa"
+   ]
   },
   {
    "id": "plib-pp-086",
@@ -1272,7 +1637,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.5",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "symbol",
+    "metafora",
+    "personifikacja"
+   ]
   },
   {
    "id": "plib-pp-087",
@@ -1287,7 +1657,8 @@
    "kind": "środek stylistyczny",
    "distractors": [
     "alegoria",
-    "metafora"
+    "metafora",
+    "porównanie"
    ]
   },
   {
@@ -1301,7 +1672,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.6",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "hiperbola",
+    "paradoks",
+    "eufemizm"
+   ]
   },
   {
    "id": "plib-pp-089",
@@ -1314,7 +1690,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.6",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "komizm",
+    "patos",
+    "groteska"
+   ]
   },
   {
    "id": "plib-pp-090",
@@ -1327,7 +1708,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.6",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "ironia",
+    "komizm",
+    "groteska"
+   ]
   },
   {
    "id": "plib-pp-091",
@@ -1344,7 +1730,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.9",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "narrator trzecioosobowy",
+    "narrator wszechwiedzący",
+    "narrator auktorialny"
+   ]
   },
   {
    "id": "plib-pp-092",
@@ -1356,7 +1747,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1.9",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "narrator",
+    "adresat liryczny",
+    "bohater liryczny"
+   ]
   },
   {
    "id": "plib-pp-093",
@@ -1369,7 +1765,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.1",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "składnia",
+    "słowotwórstwo",
+    "fonetyka"
+   ]
   },
   {
    "id": "plib-pp-094",
@@ -1386,7 +1787,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.2",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "zdanie złożone współrzędnie",
+    "zdanie pojedyncze",
+    "równoważnik zdania"
+   ]
   },
   {
    "id": "plib-pp-095",
@@ -1401,7 +1807,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "przerzutnia",
+    "elipsa",
+    "anafora"
+   ]
   },
   {
    "id": "plib-pp-096",
@@ -1414,7 +1825,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.1",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "parafraza",
+    "cytat",
+    "aluzja literacka"
+   ]
   },
   {
    "id": "plib-pp-097",
@@ -1427,7 +1843,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.3",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "dialektyzacja",
+    "kolokwializacja",
+    "parodia"
+   ]
   },
   {
    "id": "plib-pp-098",
@@ -1444,7 +1865,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.2",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "styl naukowy",
+    "styl publicystyczny",
+    "styl potoczny"
+   ]
   },
   {
    "id": "plib-pp-099",
@@ -1459,7 +1885,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.6",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "mitologizm",
+    "archaizm",
+    "neologizm"
+   ]
   },
   {
    "id": "plib-pp-100",
@@ -1477,7 +1908,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2.6",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "bezowocny trud",
+    "źródło nieszczęść",
+    "ukryte zagrożenie"
+   ]
   },
   {
    "id": "plib-pp-101",
@@ -1503,7 +1939,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3.2",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "kanał",
+    "komunikat",
+    "kontekst"
+   ]
   },
   {
    "id": "plib-pp-103",
@@ -1521,7 +1962,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3.3",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "informatywna",
+    "ekspresywna",
+    "poetycka"
+   ]
   },
   {
    "id": "plib-pp-104",
@@ -1536,7 +1982,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3.8",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "perswazja",
+    "propaganda",
+    "agitacja"
+   ]
   },
   {
    "id": "plib-pp-105",
@@ -1550,7 +2001,9 @@
    "pp": "II.4.1",
    "kind": "zasada",
    "distractors": [
-    "rozdzielnie"
+    "rozdzielnie",
+    "z łącznikiem",
+    "wielką literą"
    ]
   },
   {
@@ -1618,7 +2071,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1.5",
-   "kind": "pojęcie językowe"
+   "kind": "pojęcie językowe",
+   "distractors": [
+    "ad rem",
+    "ad populum",
+    "ad verecundiam"
+   ]
   },
   {
    "id": "plib-pp-110",
@@ -1644,7 +2102,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1.4",
-   "kind": "środek stylistyczny"
+   "kind": "środek stylistyczny",
+   "distractors": [
+    "apostrofa",
+    "wykrzyknienie",
+    "anafora"
+   ]
   }
  ]
 }
