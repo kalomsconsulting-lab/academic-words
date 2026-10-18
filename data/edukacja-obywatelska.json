@@ -34,7 +34,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "postawa"
+   "kind": "postawa",
+   "distractors": [
+    "nacjonalizm",
+    "kosmopolityzm",
+    "szowinizm"
+   ]
   },
   {
    "id": "eo-pp-002",
@@ -47,7 +52,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "grupa rówieśnicza",
+    "naród",
+    "społeczność lokalna"
+   ]
   },
   {
    "id": "eo-pp-003",
@@ -59,7 +69,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "osobowością",
+    "mentalnością",
+    "światopoglądem"
+   ]
   },
   {
    "id": "eo-pp-004",
@@ -74,7 +89,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "kind": "postawa"
+   "kind": "postawa",
+   "distractors": [
+    "nonkonformizm",
+    "asertywność",
+    "indywidualizm"
+   ]
   },
   {
    "id": "eo-pp-005",
@@ -89,7 +109,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "uprzedzenie",
+    "dyskryminacja",
+    "mobbing"
+   ]
   },
   {
    "id": "eo-pp-006",
@@ -101,7 +126,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "tolerancja",
+    "asymilacja",
+    "stereotypizacja"
+   ]
   },
   {
    "id": "eo-pp-007",
@@ -116,7 +146,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "arbitraż",
+    "mediacja",
+    "konfrontacja"
+   ]
   },
   {
    "id": "eo-pp-008",
@@ -133,7 +168,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.5",
-   "kind": "procedura"
+   "kind": "procedura",
+   "distractors": [
+    "referendum",
+    "spis powszechny",
+    "konsultacje społeczne"
+   ]
   },
   {
    "id": "eo-pp-009",
@@ -145,7 +185,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.F4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "rzeczywistym",
+    "migracyjnym",
+    "demograficznym"
+   ]
   },
   {
    "id": "eo-pp-010",
@@ -161,7 +206,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.F5",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "fake news",
+    "dezinformacja",
+    "propaganda"
+   ]
   },
   {
    "id": "eo-pp-011",
@@ -177,7 +227,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.F6",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "zarządzanie kryzysowe",
+    "obrona terytorialna",
+    "ochrona przeciwpożarowa"
+   ]
   },
   {
    "id": "eo-pp-012",
@@ -192,7 +247,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "podstawa programowa",
+    "program wychowawczo-profilaktyczny",
+    "regulamin samorządu uczniowskiego"
+   ]
   },
   {
    "id": "eo-pp-013",
@@ -209,7 +269,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "Rzecznik Praw Dziecka",
+    "minister edukacji",
+    "rada pedagogiczna"
+   ]
   },
   {
    "id": "eo-pp-014",
@@ -226,7 +291,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "rada rodziców",
+    "rada pedagogiczna",
+    "rada szkoły"
+   ]
   },
   {
    "id": "eo-pp-015",
@@ -238,7 +308,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "rada pedagogiczna",
+    "rada rodziców",
+    "samorząd uczniowski"
+   ]
   },
   {
    "id": "eo-pp-016",
@@ -254,7 +329,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.F3",
-   "kind": "procedura"
+   "kind": "procedura",
+   "distractors": [
+    "negocjacja",
+    "arbitraż",
+    "kompromis"
+   ]
   },
   {
    "id": "eo-pp-017",
@@ -266,7 +346,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.F3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "arbitrem",
+    "negocjatorem",
+    "sędzią"
+   ]
   },
   {
    "id": "eo-pp-018",
@@ -282,7 +367,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "postawa"
+   "kind": "postawa",
+   "distractors": [
+    "patriotyzm gospodarczy",
+    "nacjonalizm",
+    "kosmopolityzm"
+   ]
   },
   {
    "id": "eo-pp-019",
@@ -295,7 +385,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "powiat",
+    "województwo",
+    "sołectwo"
+   ]
   },
   {
    "id": "eo-pp-020",
@@ -311,7 +406,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "gmina, powiat, region",
+    "sołectwo, gmina, powiat",
+    "gmina, województwo, kraj"
+   ]
   },
   {
    "id": "eo-pp-021",
@@ -326,7 +426,8 @@
    "kind": "pojęcie",
    "distractors": [
     "dzielnica",
-    "osiedle"
+    "osiedle",
+    "gromada"
    ]
   },
   {
@@ -339,7 +440,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "zasada"
+   "kind": "zasada",
+   "distractors": [
+    "decentralizacji",
+    "proporcjonalności",
+    "legalizmu"
+   ]
   },
   {
    "id": "eo-pp-023",
@@ -369,7 +475,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "rada powiatu",
+    "wójt",
+    "sejmik województwa"
+   ]
   },
   {
    "id": "eo-pp-025",
@@ -414,7 +525,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "procedura"
+   "kind": "procedura",
+   "distractors": [
+    "fundusz sołecki",
+    "referendum lokalne",
+    "konsultacje społeczne"
+   ]
   },
   {
    "id": "eo-pp-028",
@@ -427,7 +543,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "budżet obywatelski",
+    "rezerwa budżetowa",
+    "fundusz celowy"
+   ]
   },
   {
    "id": "eo-pp-029",
@@ -443,7 +564,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.5",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "rada rodziców",
+    "samorząd uczniowski",
+    "rada seniorów"
+   ]
   },
   {
    "id": "eo-pp-030",
@@ -456,7 +582,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.6",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "podpis kwalifikowany",
+    "dowód osobisty",
+    "numer PESEL"
+   ]
   },
   {
    "id": "eo-pp-031",
@@ -471,7 +602,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.F2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "fundusz sołecki",
+    "budżet obywatelski",
+    "strategia rozwoju gminy"
+   ]
   },
   {
    "id": "eo-pp-032",
@@ -487,7 +623,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "ustrój"
+   "kind": "ustrój",
+   "distractors": [
+    "autorytaryzm",
+    "demokracja",
+    "monarchia absolutna"
+   ]
   },
   {
    "id": "eo-pp-033",
@@ -502,7 +643,8 @@
    "kind": "ustrój",
    "distractors": [
     "totalitaryzm",
-    "demokracja"
+    "demokracja",
+    "teokracja"
    ]
   },
   {
@@ -518,7 +660,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "Rzeczpospolita Polska",
+    "Królestwo Polskie",
+    "II Rzeczpospolita"
+   ]
   },
   {
    "id": "eo-pp-035",
@@ -533,7 +680,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "porozumienia sierpniowe",
+    "Sejm kontraktowy",
+    "stan wojenny"
+   ]
   },
   {
    "id": "eo-pp-036",
@@ -562,7 +714,9 @@
    "pp": "IV.2",
    "kind": "ustrój",
    "distractors": [
-    "centralnie planowanej"
+    "centralnie planowanej",
+    "nakazowej",
+    "mieszanej"
    ]
   },
   {
@@ -575,7 +729,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.F4",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "Komitet Obrony Robotników",
+    "Porozumienie Centrum",
+    "Unia Wolności"
+   ]
   },
   {
    "id": "eo-pp-039",
@@ -602,7 +761,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "zasada"
+   "kind": "zasada",
+   "distractors": [
+    "socjalnym",
+    "unitarnym",
+    "świeckim"
+   ]
   },
   {
    "id": "eo-pp-041",
@@ -614,7 +778,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "Sejmu",
+    "Prezydenta",
+    "Rządu"
+   ]
   },
   {
    "id": "eo-pp-042",
@@ -629,7 +798,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "ustrój"
+   "kind": "ustrój",
+   "distractors": [
+    "demokracja bezpośrednia",
+    "demokracja większościowa",
+    "demokracja ludowa"
+   ]
   },
   {
    "id": "eo-pp-043",
@@ -662,7 +836,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "radykalizacja",
+    "populizm",
+    "pluralizm"
+   ]
   },
   {
    "id": "eo-pp-045",
@@ -677,7 +856,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.F1",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "nacjonalizm",
+    "konserwatyzm",
+    "liberalizm"
+   ]
   },
   {
    "id": "eo-pp-046",
@@ -691,7 +875,9 @@
    "pp": "IV.5",
    "kind": "zasada",
    "distractors": [
-    "większościowe"
+    "większościowe",
+    "mieszane",
+    "pośrednie"
    ]
   },
   {
@@ -740,7 +926,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "Sąd Najwyższy",
+    "Marszałek Sejmu",
+    "Najwyższa Izba Kontroli"
+   ]
   },
   {
    "id": "eo-pp-050",
@@ -756,7 +947,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "Europejska Konwencja Praw Człowieka",
+    "Karta Narodów Zjednoczonych",
+    "Konwencja o Prawach Dziecka"
+   ]
   },
   {
    "id": "eo-pp-051",
@@ -768,7 +964,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "zasada"
+   "kind": "zasada",
+   "distractors": [
+    "zbywalne",
+    "nabyte",
+    "warunkowe"
+   ]
   },
   {
    "id": "eo-pp-052",
@@ -780,7 +981,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wolność",
+    "równość",
+    "własność"
+   ]
   },
   {
    "id": "eo-pp-053",
@@ -796,7 +1002,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.8",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "Rzecznik Praw Dziecka",
+    "Trybunał Konstytucyjny",
+    "Najwyższa Izba Kontroli"
+   ]
   },
   {
    "id": "eo-pp-054",
@@ -813,7 +1024,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.8",
-   "kind": "sąd"
+   "kind": "sąd",
+   "distractors": [
+    "Trybunał Sprawiedliwości UE",
+    "Międzynarodowy Trybunał Karny",
+    "Międzynarodowy Trybunał Sprawiedliwości"
+   ]
   },
   {
    "id": "eo-pp-055",
@@ -828,7 +1044,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.8",
-   "kind": "prawo"
+   "kind": "prawo",
+   "distractors": [
+    "skarga kasacyjna",
+    "petycja",
+    "wniosek do RPO"
+   ]
   },
   {
    "id": "eo-pp-056",
@@ -861,7 +1082,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.6",
-   "kind": "prawo"
+   "kind": "prawo",
+   "distractors": [
+    "pomoc społeczna",
+    "obrona z urzędu",
+    "mediacja sądowa"
+   ]
   },
   {
    "id": "eo-pp-058",
@@ -874,7 +1100,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.9",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "Kodeks cywilny",
+    "Kodeks karny",
+    "Kodeks spółek handlowych"
+   ]
   },
   {
    "id": "eo-pp-059",
@@ -889,7 +1120,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.9",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "rada pracowników",
+    "izba gospodarcza",
+    "spółdzielnia pracy"
+   ]
   },
   {
    "id": "eo-pp-060",
@@ -905,7 +1141,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.9",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "Zakład Ubezpieczeń Społecznych",
+    "Państwowa Inspekcja Sanitarna",
+    "sąd pracy"
+   ]
   },
   {
    "id": "eo-pp-061",
@@ -937,7 +1178,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.F2",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "ustawa",
+    "rozporządzenie",
+    "umowa międzynarodowa"
+   ]
   },
   {
    "id": "eo-pp-063",
@@ -949,7 +1195,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.F2",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "ustawa",
+    "uchwała",
+    "zarządzenie"
+   ]
   },
   {
    "id": "eo-pp-064",
@@ -965,7 +1216,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.F2",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "Monitor Polski",
+    "Dziennik Urzędowy UE",
+    "Biuletyn Informacji Publicznej"
+   ]
   },
   {
    "id": "eo-pp-065",
@@ -1012,7 +1268,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.F6",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "prawo jazdy kategorii AM",
+    "legitymacja szkolna",
+    "karta motorowerowa"
+   ]
   },
   {
    "id": "eo-pp-068",
@@ -1044,7 +1305,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "prawo"
+   "kind": "prawo",
+   "distractors": [
+    "weto ustawodawcze",
+    "interpelacja",
+    "wotum nieufności"
+   ]
   },
   {
    "id": "eo-pp-070",
@@ -1056,7 +1322,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "procedura"
+   "kind": "procedura",
+   "distractors": [
+    "głosowaniach",
+    "debatach",
+    "posiedzeniach"
+   ]
   },
   {
    "id": "eo-pp-071",
@@ -1135,7 +1406,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "Konwent Seniorów",
+    "Rada Gabinetowa",
+    "Prezydium Sejmu"
+   ]
   },
   {
    "id": "eo-pp-076",
@@ -1168,7 +1444,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "prawo"
+   "kind": "prawo",
+   "distractors": [
+    "kontrasygnata",
+    "prawo łaski",
+    "orędzie"
+   ]
   },
   {
    "id": "eo-pp-078",
@@ -1180,7 +1461,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "gwarantem",
+    "przedstawicielem",
+    "komendantem"
+   ]
   },
   {
    "id": "eo-pp-079",
@@ -1196,7 +1482,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "organ"
+   "kind": "organ",
+   "distractors": [
+    "Rada Gabinetowa",
+    "Rada Państwa",
+    "Zgromadzenie Narodowe"
+   ]
   },
   {
    "id": "eo-pp-080",
@@ -1209,7 +1500,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "procedura"
+   "kind": "procedura",
+   "distractors": [
+    "wotum nieufności",
+    "absolutorium",
+    "interpelacja"
+   ]
   },
   {
    "id": "eo-pp-081",
@@ -1221,7 +1517,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "korpus dyplomatyczny",
+    "administracja samorządowa",
+    "służba zagraniczna"
+   ]
   },
   {
    "id": "eo-pp-082",
@@ -1236,7 +1537,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "sąd"
+   "kind": "sąd",
+   "distractors": [
+    "Trybunał Konstytucyjny",
+    "Naczelny Sąd Administracyjny",
+    "Krajowa Rada Sądownictwa"
+   ]
   },
   {
    "id": "eo-pp-083",
@@ -1251,7 +1557,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "sąd"
+   "kind": "sąd",
+   "distractors": [
+    "Sąd Najwyższy",
+    "Trybunał Stanu",
+    "Naczelny Sąd Administracyjny"
+   ]
   },
   {
    "id": "eo-pp-084",
@@ -1266,7 +1577,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "sąd"
+   "kind": "sąd",
+   "distractors": [
+    "Trybunał Konstytucyjny",
+    "Sąd Najwyższy",
+    "Sejm"
+   ]
   },
   {
    "id": "eo-pp-085",
@@ -1283,7 +1599,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "sąd"
+   "kind": "sąd",
+   "distractors": [
+    "sądy powszechne",
+    "sądy wojskowe",
+    "sądy rejonowe"
+   ]
   },
   {
    "id": "eo-pp-086",
@@ -1295,7 +1616,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.6",
-   "kind": "zasada"
+   "kind": "zasada",
+   "distractors": [
+    "współpracy",
+    "niezależności",
+    "jedności"
+   ]
   },
   {
    "id": "eo-pp-087",
@@ -1310,7 +1636,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.7",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "stowarzyszenie",
+    "związek zawodowy",
+    "fundacja"
+   ]
   },
   {
    "id": "eo-pp-088",
@@ -1325,7 +1656,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.9",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "nepotyzm",
+    "lobbing",
+    "populizm"
+   ]
   },
   {
    "id": "eo-pp-089",
@@ -1341,7 +1677,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.9",
-   "kind": "prawo"
+   "kind": "prawo",
+   "distractors": [
+    "prawo do petycji",
+    "inicjatywa ustawodawcza",
+    "wolność zgromadzeń"
+   ]
   },
   {
    "id": "eo-pp-090",
@@ -1354,7 +1695,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.10",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "społeczeństwo informacyjne",
+    "opinia publiczna",
+    "samorząd terytorialny"
+   ]
   },
   {
    "id": "eo-pp-091",
@@ -1368,7 +1714,9 @@
    "pp": "V.10",
    "kind": "organizacja",
    "distractors": [
-    "fundacja"
+    "fundacja",
+    "spółdzielnia",
+    "spółka"
    ]
   },
   {
@@ -1381,7 +1729,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.13",
-   "kind": "zasada"
+   "kind": "zasada",
+   "distractors": [
+    "suwerenności",
+    "równości",
+    "neutralności"
+   ]
   },
   {
    "id": "eo-pp-093",
@@ -1393,7 +1746,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.11",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "piątą władzą",
+    "trzecią władzą",
+    "pierwszą władzą"
+   ]
   },
   {
    "id": "eo-pp-094",
@@ -1423,7 +1781,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.12",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "propaganda",
+    "cenzura",
+    "misinformacja"
+   ]
   },
   {
    "id": "eo-pp-096",
@@ -1456,7 +1819,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.12",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "clickbait",
+    "deepfake",
+    "satyra"
+   ]
   },
   {
    "id": "eo-pp-098",
@@ -1470,7 +1838,9 @@
    "pp": "V.12",
    "kind": "pojęcie",
    "distractors": [
-    "opinia"
+    "opinia",
+    "hipoteza",
+    "ocena"
    ]
   },
   {
@@ -1486,7 +1856,8 @@
    "kind": "pojęcie",
    "distractors": [
     "komercyjnymi",
-    "prywatnymi"
+    "prywatnymi",
+    "społecznymi"
    ]
   },
   {
@@ -1515,7 +1886,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "Rada Unii Europejskiej",
+    "Komisja Europejska",
+    "Rada Europy"
+   ]
   },
   {
    "id": "eo-pp-102",
@@ -1530,7 +1906,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "Komisja Europejska",
+    "Rada Europejska",
+    "Rada Unii Europejskiej"
+   ]
   },
   {
    "id": "eo-pp-103",
@@ -1545,7 +1926,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "Parlament Europejski",
+    "Rada Europejska",
+    "Trybunał Sprawiedliwości UE"
+   ]
   },
   {
    "id": "eo-pp-104",
@@ -1557,7 +1943,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "Rada Europejska",
+    "Komisja Europejska",
+    "Rada Europy"
+   ]
   },
   {
    "id": "eo-pp-105",
@@ -1573,7 +1964,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VI.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "towarów, osób, usług, pracy",
+    "towarów, usług, kapitału, idei",
+    "osób, usług, kapitału, danych"
+   ]
   },
   {
    "id": "eo-pp-106",
@@ -1588,7 +1984,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VI.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "strefa euro",
+    "unia celna",
+    "jednolity rynek"
+   ]
   },
   {
    "id": "eo-pp-107",
@@ -1602,7 +2003,9 @@
    "pp": "VI.3",
    "kind": "pojęcie",
    "distractors": [
-    "poszerzanie"
+    "poszerzanie",
+    "rozszerzanie",
+    "ujednolicanie"
    ]
   },
   {
@@ -1619,7 +2022,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VI.F1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wspólna polityka rolna",
+    "polityka konkurencji",
+    "polityka sąsiedztwa"
+   ]
   },
   {
    "id": "eo-pp-109",
@@ -1651,7 +2059,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.1",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "integracja",
+    "regionalizacja",
+    "urbanizacja"
+   ]
   },
   {
    "id": "eo-pp-111",
@@ -1698,7 +2111,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VII.2",
-   "kind": "instytucja"
+   "kind": "instytucja",
+   "distractors": [
+    "Zgromadzenie Ogólne",
+    "Sekretariat ONZ",
+    "Rada Gospodarcza i Społeczna"
+   ]
   },
   {
    "id": "eo-pp-114",
@@ -1713,7 +2131,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wzrost gospodarczy",
+    "zielona transformacja",
+    "gospodarka obiegu zamkniętego"
+   ]
   },
   {
    "id": "eo-pp-115",
@@ -1729,7 +2152,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wolny handel",
+    "patriotyzm gospodarczy",
+    "pomoc humanitarna"
+   ]
   },
   {
    "id": "eo-pp-116",
@@ -1745,7 +2173,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.4",
-   "kind": "postawa"
+   "kind": "postawa",
+   "distractors": [
+    "protekcjonizm",
+    "patriotyzm lokalny",
+    "sprawiedliwy handel"
+   ]
   },
   {
    "id": "eo-pp-117",
@@ -1762,7 +2195,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "metan",
+    "ozon",
+    "tlenek azotu"
+   ]
   },
   {
    "id": "eo-pp-118",
@@ -1777,7 +2215,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VII.5",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "protokół z Kioto",
+    "Agenda 2030",
+    "Europejski Zielony Ład"
+   ]
   },
   {
    "id": "eo-pp-119",
@@ -1793,7 +2236,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VII.F4",
-   "kind": "zasada"
+   "kind": "zasada",
+   "distractors": [
+    "suwerenność",
+    "nieingerencja",
+    "samostanowienie narodów"
+   ]
   }
  ]
 }
