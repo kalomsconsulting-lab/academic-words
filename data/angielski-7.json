@@ -3,6 +3,21 @@
  "subject": "english_sp7",
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, język obcy nowożytny, wariant II.1 (klasy IV–VIII, pierwszy język; Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996), wymaganie I (13 tematów leksykalnych i środki gramatyczne); dobór słownictwa na poziomie klasy 7",
+ "kinds": [
+  "czas",
+  "forma czasownika",
+  "czasownik modalny",
+  "zaimek",
+  "wyrażenie czasu",
+  "say/tell",
+  "szyk",
+  "if/whether",
+  "bezokolicznik",
+  "wzorzec czasownika",
+  "czasownik relacjonujący",
+  "transformacja",
+  "pojęcie"
+ ],
  "items": [
   {
    "id": "en7-001",
@@ -1455,6 +1470,2075 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I"
+  },
+  {
+   "id": "en7-rs-001",
+   "type": "cloze",
+   "text": "Emma: 'I have a headache.' → Yesterday Emma said that she {{had}} a headache.",
+   "hint": "Present Simple → ?",
+   "explanation": "Po said w czasie przeszłym Present Simple zmienia się na Past Simple.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "has",
+    "had had",
+    "was having"
+   ]
+  },
+  {
+   "id": "en7-rs-002",
+   "type": "cloze",
+   "text": "Dad: 'I'm making soup.' → Dad said that he {{was making}} soup.",
+   "hint": "Present Continuous → ?",
+   "explanation": "Po said Present Continuous zmienia się na Past Continuous.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is making",
+    "had made",
+    "made"
+   ]
+  },
+  {
+   "id": "en7-rs-003",
+   "type": "cloze",
+   "text": "Zoe: 'I have lost my appetite.' → Zoe told the doctor that she {{had lost}} her appetite.",
+   "hint": "Present Perfect → ?",
+   "explanation": "Present Perfect zmienia się na Past Perfect (had + III forma).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "has lost",
+    "was losing",
+    "had been lost"
+   ]
+  },
+  {
+   "id": "en7-rs-004",
+   "type": "cloze",
+   "text": "Liam: 'I will text you later.' → Liam said that he {{would}} text me later.",
+   "hint": "will → ?",
+   "explanation": "Czasownik modalny will zmienia się w mowie zależnej na would.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "could",
+    "should"
+   ]
+  },
+  {
+   "id": "en7-rs-005",
+   "type": "cloze",
+   "text": "Mia: 'I saw the doctor yesterday.' → Mia said that she had seen the doctor {{the day before / the previous day}}.",
+   "hint": "yesterday → ?",
+   "explanation": "Okoliczniki czasu przesuwają się razem z relacją: yesterday → the day before.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "yesterday",
+    "the next day",
+    "that day"
+   ]
+  },
+  {
+   "id": "en7-rs-006",
+   "type": "cloze",
+   "text": "Jack: 'I'll visit you tomorrow.' → Jack said that he would visit me {{the next day / the following day}}.",
+   "hint": "(następnego dnia)",
+   "explanation": "W mowie zależnej tomorrow zmienia się na the next day / the following day.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "tomorrow",
+    "the day before",
+    "that day"
+   ]
+  },
+  {
+   "id": "en7-rs-007",
+   "type": "cloze",
+   "text": "Nurse: 'Do you take any medicine?' → The nurse asked me {{if I took / whether I took}} any medicine.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no relacjonujemy przez if/whether, szyk zdania oznajmującego i backshift (Present Simple → Past Simple).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if I take",
+    "did I take",
+    "that I took"
+   ]
+  },
+  {
+   "id": "en7-rs-008",
+   "type": "cloze",
+   "text": "Tom: 'Where is the chemist's?' → Tom asked me where {{the chemist's was}}.",
+   "hint": "szyk zdania oznajmującego",
+   "explanation": "W pytaniu zależnym podmiot stoi przed czasownikiem, bez inwersji; is → was (backshift).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "was the chemist's",
+    "is the chemist's",
+    "the chemist's had been"
+   ]
+  },
+  {
+   "id": "en7-rs-009",
+   "type": "cloze",
+   "text": "Doctor: 'Don't eat nuts.' → The doctor told me {{not to eat}} nuts.",
+   "hint": "zakaz",
+   "explanation": "Polecenia relacjonujemy przez tell + osoba + (not) to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not eat",
+    "don't eat",
+    "not eating"
+   ]
+  },
+  {
+   "id": "en7-rs-010",
+   "type": "cloze",
+   "text": "Jake: 'I'm sorry I'm late.' → Jake apologised {{for being}} late.",
+   "hint": "apologise + ?",
+   "explanation": "Po czasowniku relacjonującym apologise stoi for + -ing.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "to be",
+    "that he is",
+    "being"
+   ]
+  },
+  {
+   "id": "en7-rs-011",
+   "type": "qa",
+   "question": "Jak zmienia się 'tomorrow' w mowie zależnej?",
+   "answer": "the next day",
+   "accept": [
+    "the following day"
+   ],
+   "explanation": "Okoliczniki czasu przesuwają się razem z czasem relacji: tomorrow → the next day / the following day.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "the day before",
+    "that day",
+    "then"
+   ]
+  },
+  {
+   "id": "en7-rs-012",
+   "type": "qa",
+   "question": "Po którym czasowniku relacjonującym zawsze stoi osoba (… me, … us)?",
+   "answer": "tell",
+   "accept": [
+    "told"
+   ],
+   "explanation": "Tell wymaga dopełnienia: told me that…; say go nie wymaga: said (to me) that….",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "say/tell",
+   "distractors": [
+    "say",
+    "explain",
+    "apologise"
+   ]
+  },
+  {
+   "id": "en7-rs-013",
+   "type": "awl_word",
+   "word": "promise to do sth",
+   "polish": [
+    "obiecać coś zrobić"
+   ],
+   "example": "Kate promised to bring my book back on Monday.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-014",
+   "type": "awl_word",
+   "word": "advise sb to do sth",
+   "polish": [
+    "poradzić komuś, żeby coś zrobił"
+   ],
+   "example": "The nurse advised me to drink more water.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-015",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Anna: 'I will call you tomorrow.'",
+   "answer": "Anna said (that) she would call me the next day.",
+   "accept": [
+    "Anna said she would call me the next day.",
+    "Anna said that she would call me the following day.",
+    "Anna said she would call me the following day."
+   ],
+   "explanation": "will → would, you → me, tomorrow → the next day / the following day.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-016",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Mum: 'Don't forget your inhaler.'",
+   "answer": "Mum told me not to forget my inhaler.",
+   "accept": [
+    "Mum told me not to forget the inhaler."
+   ],
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik; your → my.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-017",
+   "type": "cloze",
+   "text": "Ben: 'I don't like hospitals.' → Ben said that he {{didn't like}} hospitals.",
+   "hint": "Present Simple (przeczenie) → ?",
+   "explanation": "Po said Present Simple zmienia się na Past Simple, także w przeczeniu: don't → didn't.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "doesn't like",
+    "hadn't liked",
+    "wasn't liking"
+   ]
+  },
+  {
+   "id": "en7-rs-018",
+   "type": "cloze",
+   "text": "Sara: 'We are at the clinic.' → Sara said that they {{were}} at the clinic.",
+   "hint": "are → ?",
+   "explanation": "Present Simple (are) zmienia się na Past Simple (were); we → they.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "are",
+    "had been",
+    "have been"
+   ]
+  },
+  {
+   "id": "en7-rs-019",
+   "type": "cloze",
+   "text": "Kate: 'I'm waiting for the nurse.' → Kate said that she {{was waiting}} for the nurse.",
+   "hint": "Present Continuous → ?",
+   "explanation": "Po said Present Continuous zmienia się na Past Continuous.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is waiting",
+    "had waited",
+    "waited"
+   ]
+  },
+  {
+   "id": "en7-rs-020",
+   "type": "cloze",
+   "text": "Max: 'I broke my arm last winter.' → Max told us that he {{had broken}} his arm the winter before.",
+   "hint": "Past Simple → ?",
+   "explanation": "Po told Past Simple zmienia się na Past Perfect (had + III forma).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "broke",
+    "has broken",
+    "was breaking"
+   ]
+  },
+  {
+   "id": "en7-rs-021",
+   "type": "cloze",
+   "text": "Olivia: 'I took the tablets at 8.' → Olivia said that she {{had taken}} the tablets at 8.",
+   "hint": "Past Simple → ?",
+   "explanation": "Past Simple (took) zmienia się na Past Perfect (had taken).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "took",
+    "has taken",
+    "was taking"
+   ]
+  },
+  {
+   "id": "en7-rs-022",
+   "type": "cloze",
+   "text": "Noah: 'I've never had food poisoning.' → Noah said that he {{had never had}} food poisoning.",
+   "hint": "Present Perfect → ?",
+   "explanation": "Present Perfect (have had) zmienia się na Past Perfect (had had).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "has never had",
+    "was never having",
+    "had never been"
+   ]
+  },
+  {
+   "id": "en7-rs-023",
+   "type": "cloze",
+   "text": "Lucy: 'I can't walk without crutches.' → Lucy said that she {{couldn't}} walk without crutches.",
+   "hint": "can't → ?",
+   "explanation": "Czasownik modalny can zmienia się na could (can't → couldn't).",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can't",
+    "wouldn't",
+    "mustn't"
+   ]
+  },
+  {
+   "id": "en7-rs-024",
+   "type": "cloze",
+   "text": "Dr Lee: 'The results will be ready on Friday.' → Dr Lee said the results {{would}} be ready on Friday.",
+   "hint": "will → ?",
+   "explanation": "Czasownik modalny will zmienia się na would.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "might",
+    "had to"
+   ]
+  },
+  {
+   "id": "en7-rs-025",
+   "type": "cloze",
+   "text": "Mum: 'You may need an X-ray.' → Mum said that I {{might}} need an X-ray.",
+   "hint": "may → ?",
+   "explanation": "Czasownik modalny may zmienia się na might; you → I.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "may",
+    "must",
+    "would"
+   ]
+  },
+  {
+   "id": "en7-rs-026",
+   "type": "cloze",
+   "text": "Nurse: 'You must stay in bed.' → The nurse said that I {{had to}} stay in bed.",
+   "hint": "must → ?",
+   "explanation": "Czasownik modalny must zmienia się w mowie zależnej na had to.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "have to",
+    "should",
+    "could"
+   ]
+  },
+  {
+   "id": "en7-rs-027",
+   "type": "cloze",
+   "text": "Jo: 'I'm going to see a doctor.' → Jo said that she {{was going to}} see a doctor.",
+   "hint": "am going to → ?",
+   "explanation": "Konstrukcja am/is going to zmienia się na was going to.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "is going to",
+    "would",
+    "had gone to"
+   ]
+  },
+  {
+   "id": "en7-rs-028",
+   "type": "cloze",
+   "text": "Tim: 'You should drink more water.' → Tim said that I {{should}} drink more water.",
+   "hint": "should → ?",
+   "explanation": "Czasowniki modalne should, would, could, might nie zmieniają się w mowie zależnej.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "would",
+    "had to",
+    "must"
+   ]
+  },
+  {
+   "id": "en7-rs-029",
+   "type": "cloze",
+   "text": "Amy: 'I could help you with the bandage.' → Amy said that she {{could}} help me with the bandage.",
+   "hint": "could → ?",
+   "explanation": "Could nie zmienia się w mowie zależnej (jak would, might, should).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can",
+    "had been able to",
+    "would"
+   ]
+  },
+  {
+   "id": "en7-rs-030",
+   "type": "cloze",
+   "text": "Leo: 'I had already eaten.' → Leo said that he {{had already eaten}}.",
+   "hint": "Past Perfect → ?",
+   "explanation": "Past Perfect zostaje bez zmiany, bo nie ma już wcześniejszego czasu.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "has already eaten",
+    "already ate",
+    "was already eating"
+   ]
+  },
+  {
+   "id": "en7-rs-031",
+   "type": "cloze",
+   "text": "Ella says: 'I am allergic to nuts.' → Ella says that she {{is}} allergic to nuts.",
+   "hint": "says (teraźniejszy) → ?",
+   "explanation": "Gdy czasownik relacjonujący jest w Present Simple (says), nie ma backshiftu.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "forma czasownika",
+   "distractors": [
+    "was",
+    "had been",
+    "has been"
+   ]
+  },
+  {
+   "id": "en7-rs-032",
+   "type": "cloze",
+   "text": "Teacher: 'Water boils at 100 degrees.' → The teacher said that water {{boils / boiled}} at 100 degrees.",
+   "hint": "prawda ogólna",
+   "explanation": "Prawdy ogólne można zostawić w Present Simple, backshift też jest poprawny.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "forma czasownika",
+   "distractors": [
+    "had boiled",
+    "was boiling",
+    "has boiled"
+   ]
+  },
+  {
+   "id": "en7-rs-033",
+   "type": "cloze",
+   "text": "Doctor: 'Smoking is bad for your lungs.' → The doctor said that smoking {{is / was}} bad for your lungs.",
+   "hint": "fakt nadal prawdziwy",
+   "explanation": "Fakt, który nadal jest prawdziwy, może zostać w Present Simple; Past Simple też jest poprawny.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "forma czasownika",
+   "distractors": [
+    "had been",
+    "has been",
+    "would be"
+   ]
+  },
+  {
+   "id": "en7-rs-034",
+   "type": "qa",
+   "question": "Po jakim czasie czasownika relacjonującego (says, tells) nie ma backshiftu?",
+   "answer": "Present Simple",
+   "accept": [
+    "present simple",
+    "teraźniejszym",
+    "czas teraźniejszy",
+    "says"
+   ],
+   "explanation": "She says (that) she is ill: po czasowniku relacjonującym w Present Simple czas zdania zostaje bez zmian.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "czas",
+   "distractors": [
+    "Past Simple",
+    "Past Perfect",
+    "Present Perfect"
+   ]
+  },
+  {
+   "id": "en7-rs-035",
+   "type": "qa",
+   "question": "Jakie zdania można zostawić bez backshiftu nawet po said?",
+   "answer": "prawdy ogólne",
+   "accept": [
+    "fakty nadal prawdziwe",
+    "fakty ogólne",
+    "prawdy",
+    "general truths",
+    "fakty"
+   ],
+   "explanation": "Prawdy ogólne i fakty nadal prawdziwe (The Earth goes round the Sun) mogą zostać w Present Simple po said.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "pojęcie",
+   "distractors": [
+    "pytania",
+    "polecenia",
+    "prośby"
+   ]
+  },
+  {
+   "id": "en7-rs-036",
+   "type": "cloze",
+   "text": "Anna: 'I have lost my inhaler.' → Anna said that {{she}} had lost her inhaler.",
+   "hint": "I → ?",
+   "explanation": "Zaimek I zmienia się na he/she zgodnie z osobą, która mówiła.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "I",
+    "he",
+    "they"
+   ]
+  },
+  {
+   "id": "en7-rs-037",
+   "type": "cloze",
+   "text": "Olivia: 'I can't find my glasses.' → Olivia said that she couldn't find {{her}} glasses.",
+   "hint": "my → ?",
+   "explanation": "Określnik my zmienia się na his/her zgodnie z osobą mówiącą; can't → couldn't.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "my",
+    "his",
+    "their"
+   ]
+  },
+  {
+   "id": "en7-rs-038",
+   "type": "cloze",
+   "text": "Mark: 'We are going to the pool.' → Mark told me that {{they}} were going to the pool.",
+   "hint": "we → ?",
+   "explanation": "Zaimek we zmienia się na they, gdy relacjonuje osoba spoza grupy.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "we",
+    "he",
+    "you"
+   ]
+  },
+  {
+   "id": "en7-rs-039",
+   "type": "cloze",
+   "text": "Dad: 'You look tired.' → Dad told me that {{I}} looked tired.",
+   "hint": "you → ?",
+   "explanation": "Zaimek you zmienia się na I/me, gdy relacjonuje osoba, do której mówiono.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "you",
+    "he",
+    "she"
+   ]
+  },
+  {
+   "id": "en7-rs-040",
+   "type": "cloze",
+   "text": "Sam: 'This medicine tastes awful.' → Sam said that {{that}} medicine tasted awful.",
+   "hint": "this → ?",
+   "explanation": "Określnik this zmienia się w mowie zależnej na that (these → those).",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "this",
+    "these",
+    "those"
+   ]
+  },
+  {
+   "id": "en7-rs-041",
+   "type": "qa",
+   "question": "Na co zmienia się 'this' w mowie zależnej?",
+   "answer": "that",
+   "accept": [],
+   "explanation": "This → that, these → those: 'I like this song' → she said she liked that song.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "zaimek",
+   "distractors": [
+    "these",
+    "those",
+    "it"
+   ]
+  },
+  {
+   "id": "en7-rs-042",
+   "type": "cloze",
+   "text": "Mia: 'I feel dizzy now.' → Mia said that she felt dizzy {{then / at that time}}.",
+   "hint": "now → ?",
+   "explanation": "Okolicznik now zmienia się na then / at that time.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "now",
+    "that day",
+    "before"
+   ]
+  },
+  {
+   "id": "en7-rs-043",
+   "type": "cloze",
+   "text": "Ben: 'I have an appointment today.' → Ben said that he had an appointment {{that day}}.",
+   "hint": "today → ?",
+   "explanation": "Okolicznik today zmienia się na that day.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "today",
+    "the day before",
+    "then"
+   ]
+  },
+  {
+   "id": "en7-rs-044",
+   "type": "cloze",
+   "text": "Kate: 'I hurt my knee two days ago.' → Kate said that she had hurt her knee two days {{before / earlier}}.",
+   "hint": "(wcześniej)",
+   "explanation": "Okolicznik ago zmienia się na before / earlier.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "ago",
+    "later",
+    "after"
+   ]
+  },
+  {
+   "id": "en7-rs-045",
+   "type": "cloze",
+   "text": "Tom: 'The chemist's is here.' → Tom said that the chemist's was {{there}}.",
+   "hint": "here → ?",
+   "explanation": "Okolicznik miejsca here zmienia się na there.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "here",
+    "then",
+    "that"
+   ]
+  },
+  {
+   "id": "en7-rs-046",
+   "type": "cloze",
+   "text": "Zoe: 'I had the flu last week.' → Zoe said that she had had the flu {{the week before / the previous week}}.",
+   "hint": "last week → ?",
+   "explanation": "Okolicznik last week zmienia się na the week before / the previous week.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "last week",
+    "the next week",
+    "that week"
+   ]
+  },
+  {
+   "id": "en7-rs-047",
+   "type": "cloze",
+   "text": "Dr Shah: 'We'll check your eyes next month.' → Dr Shah said they would check my eyes {{the following month / the next month}}.",
+   "hint": "next month → ?",
+   "explanation": "Okolicznik next month zmienia się na the following month / the next month.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "next month",
+    "the month before",
+    "that month"
+   ]
+  },
+  {
+   "id": "en7-rs-048",
+   "type": "cloze",
+   "text": "Lily: 'I can't sleep tonight.' → Lily said that she couldn't sleep {{that night}}.",
+   "hint": "tonight → ?",
+   "explanation": "Okolicznik tonight zmienia się na that night.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "tonight",
+    "the night before",
+    "then"
+   ]
+  },
+  {
+   "id": "en7-rs-049",
+   "type": "cloze",
+   "text": "Jack: 'I was here yesterday.' → Jack said that he {{had been there}} the day before.",
+   "hint": "(był tutaj)",
+   "explanation": "Past Simple → Past Perfect (was → had been) i here → there.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "forma czasownika",
+   "distractors": [
+    "was here",
+    "had been here",
+    "was there"
+   ]
+  },
+  {
+   "id": "en7-rs-050",
+   "type": "qa",
+   "question": "Jak zmienia się 'yesterday' w mowie zależnej?",
+   "answer": "the day before",
+   "accept": [
+    "the previous day"
+   ],
+   "explanation": "Okoliczniki czasu przesuwają się razem z czasem relacji: yesterday → the day before.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "the next day",
+    "that day",
+    "the week before"
+   ]
+  },
+  {
+   "id": "en7-rs-051",
+   "type": "qa",
+   "question": "Jak zmienia się 'now' w mowie zależnej?",
+   "answer": "then",
+   "accept": [
+    "at that time"
+   ],
+   "explanation": "Now → then / at that time: 'I'm busy now' → he said he was busy then.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "that day",
+    "before",
+    "there"
+   ]
+  },
+  {
+   "id": "en7-rs-052",
+   "type": "qa",
+   "question": "Jak zmienia się 'today' w mowie zależnej?",
+   "answer": "that day",
+   "accept": [],
+   "explanation": "Today → that day: 'I'm ill today' → she said she was ill that day.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "then",
+    "the day before",
+    "the next day"
+   ]
+  },
+  {
+   "id": "en7-rs-053",
+   "type": "qa",
+   "question": "Jak zmienia się 'ago' w mowie zależnej?",
+   "answer": "before",
+   "accept": [
+    "earlier"
+   ],
+   "explanation": "Ago → before / earlier: 'two days ago' → two days before.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "after",
+    "later",
+    "then"
+   ]
+  },
+  {
+   "id": "en7-rs-054",
+   "type": "qa",
+   "question": "Jak zmienia się 'here' w mowie zależnej?",
+   "answer": "there",
+   "accept": [],
+   "explanation": "Okolicznik miejsca here → there: 'Wait here' → she told me to wait there.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "then",
+    "that",
+    "that place"
+   ]
+  },
+  {
+   "id": "en7-rs-055",
+   "type": "qa",
+   "question": "Jak zmienia się 'last week' w mowie zależnej?",
+   "answer": "the week before",
+   "accept": [
+    "the previous week"
+   ],
+   "explanation": "Last week → the week before / the previous week (tak samo last month, last year).",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "the next week",
+    "that week",
+    "the following week"
+   ]
+  },
+  {
+   "id": "en7-rs-056",
+   "type": "cloze",
+   "text": "Mum: 'Your appointment is at five.' → Mum {{told}} me that my appointment was at five.",
+   "hint": "say czy tell + osoba?",
+   "explanation": "Przed osobą (me, us, him) stoi tell: told me that…; say łączy się z osobą tylko przez to.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "say/tell",
+   "distractors": [
+    "said",
+    "spoke",
+    "asked"
+   ]
+  },
+  {
+   "id": "en7-rs-057",
+   "type": "cloze",
+   "text": "Jake: 'I'm feeling better.' → Jake {{said}} that he was feeling better.",
+   "hint": "bez osoby: say czy tell?",
+   "explanation": "Bez osoby używamy say: said (that)…; tell zawsze wymaga osoby (told me that…).",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "say/tell",
+   "distractors": [
+    "told",
+    "said me",
+    "asked"
+   ]
+  },
+  {
+   "id": "en7-rs-058",
+   "type": "cloze",
+   "text": "Lena said {{to me}} that she had hay fever.",
+   "hint": "say + ? + osoba",
+   "explanation": "Say łączy się z osobą tylko przez to: said to me; 'said me' to typowy błąd.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "say/tell",
+   "distractors": [
+    "me",
+    "for me",
+    "at me"
+   ]
+  },
+  {
+   "id": "en7-rs-059",
+   "type": "qa",
+   "question": "Jak powiedzieć 'powiedziała mi' z czasownikiem say?",
+   "answer": "said to me",
+   "accept": [
+    "she said to me"
+   ],
+   "explanation": "Say + to + osoba: she said to me that…; bez to używamy tell: she told me that….",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "say/tell",
+   "distractors": [
+    "said me",
+    "told to me",
+    "said for me"
+   ]
+  },
+  {
+   "id": "en7-rs-060",
+   "type": "qa",
+   "question": "Które słowo po said / told można pominąć?",
+   "answer": "that",
+   "accept": [],
+   "explanation": "Spójnik that jest opcjonalny: she said (that) she was tired.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "pojęcie",
+   "distractors": [
+    "if",
+    "to",
+    "what"
+   ]
+  },
+  {
+   "id": "en7-rs-061",
+   "type": "cloze",
+   "text": "Doctor: 'Does it hurt?' → The doctor asked me {{if it hurt / whether it hurt}}.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether + szyk zdania oznajmującego, bez does, z backshiftem (hurt).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if it hurts",
+    "did it hurt",
+    "if does it hurt"
+   ]
+  },
+  {
+   "id": "en7-rs-062",
+   "type": "cloze",
+   "text": "Mum: 'Are you feeling better?' → Mum asked me {{if I was feeling / whether I was feeling}} better.",
+   "hint": "pytanie yes/no",
+   "explanation": "Pytanie yes/no: if/whether, podmiot przed czasownikiem, Present Continuous → Past Continuous.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if I am feeling",
+    "was I feeling",
+    "if was I feeling"
+   ]
+  },
+  {
+   "id": "en7-rs-063",
+   "type": "cloze",
+   "text": "Liam: 'What time does the clinic open?' → Liam asked what time the clinic {{opened}}.",
+   "hint": "bez does, backshift",
+   "explanation": "W pytaniu zależnym znika does, a czasownik dostaje Past Simple (backshift).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "does open",
+    "did open",
+    "had opened"
+   ]
+  },
+  {
+   "id": "en7-rs-064",
+   "type": "cloze",
+   "text": "Teacher: 'Why are you late?' → The teacher asked me why {{I was}} late.",
+   "hint": "szyk zdania oznajmującego",
+   "explanation": "W pytaniu zależnym nie ma inwersji: podmiot (I) przed czasownikiem (was).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "was I",
+    "am I",
+    "had I been"
+   ]
+  },
+  {
+   "id": "en7-rs-065",
+   "type": "cloze",
+   "text": "Dad: 'Where did you put the thermometer?' → Dad asked me where {{I had put}} the thermometer.",
+   "hint": "bez did, Past Simple → ?",
+   "explanation": "W pytaniu zależnym znika did, a Past Simple zmienia się na Past Perfect; podmiot przed czasownikiem.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "did I put",
+    "had I put",
+    "I did put"
+   ]
+  },
+  {
+   "id": "en7-rs-066",
+   "type": "cloze",
+   "text": "Sam: 'Can I borrow your bike?' → Sam asked me {{if he could / whether he could}} borrow my bike.",
+   "hint": "pytanie yes/no, can → ?",
+   "explanation": "Pytanie yes/no: if + podmiot + could (can → could), bez inwersji.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if he can",
+    "could he",
+    "if could he"
+   ]
+  },
+  {
+   "id": "en7-rs-067",
+   "type": "cloze",
+   "text": "Mum: 'How often do you take the tablets?' → Mum wanted to know how often I {{took}} the tablets.",
+   "hint": "want to know + wh-",
+   "explanation": "Po wanted to know pytanie wh- ma szyk zdania oznajmującego, bez do, z backshiftem (take → took).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "take",
+    "did take",
+    "was taking"
+   ]
+  },
+  {
+   "id": "en7-rs-068",
+   "type": "cloze",
+   "text": "Ella: 'Is the pool open on Sundays?' → Ella wondered {{whether / if}} the pool was open on Sundays.",
+   "hint": "wonder + ?",
+   "explanation": "Po wonder / ask / want to know pytanie yes/no wprowadza if lub whether.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "that",
+    "what",
+    "does"
+   ]
+  },
+  {
+   "id": "en7-rs-069",
+   "type": "qa",
+   "question": "Jakim słowem wprowadzamy pytanie yes/no w mowie zależnej?",
+   "answer": "if",
+   "accept": [
+    "whether",
+    "if / whether",
+    "if lub whether"
+   ],
+   "explanation": "Pytanie yes/no: asked if/whether + zdanie w szyku oznajmującym.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "if/whether",
+   "distractors": [
+    "that",
+    "what",
+    "do"
+   ]
+  },
+  {
+   "id": "en7-rs-070",
+   "type": "qa",
+   "question": "Jaki szyk ma pytanie zależne (po asked where / asked if)?",
+   "answer": "podmiot + czasownik",
+   "accept": [
+    "zdania oznajmującego",
+    "oznajmujący",
+    "subject + verb",
+    "podmiot przed czasownikiem"
+   ],
+   "explanation": "Pytanie zależne ma szyk zdania oznajmującego: asked where I lived, nie 'where did I live'.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "szyk",
+   "distractors": [
+    "czasownik + podmiot",
+    "pytający",
+    "inwersja"
+   ]
+  },
+  {
+   "id": "en7-rs-071",
+   "type": "qa",
+   "question": "Co znika z pytania w mowie zależnej: 'Do you like it?' → asked if I liked it?",
+   "answer": "do",
+   "accept": [
+    "do/does",
+    "does",
+    "do / does",
+    "czasownik posiłkowy do"
+   ],
+   "explanation": "Czasownik posiłkowy do/does/did znika, a czas przechodzi na główny czasownik (liked).",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "pojęcie",
+   "distractors": [
+    "if",
+    "that",
+    "podmiot"
+   ]
+  },
+  {
+   "id": "en7-rs-072",
+   "type": "qa",
+   "question": "Jakim znakiem kończy się pytanie zależne (He asked where I lived)?",
+   "answer": "kropką",
+   "accept": [
+    "kropka",
+    "full stop",
+    "."
+   ],
+   "explanation": "Pytanie zależne jest zdaniem oznajmującym, więc kończy się kropką, nie znakiem zapytania.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "pojęcie",
+   "distractors": [
+    "znakiem zapytania",
+    "wykrzyknikiem",
+    "przecinkiem"
+   ]
+  },
+  {
+   "id": "en7-rs-073",
+   "type": "cloze",
+   "text": "Coach: 'Warm up before the match.' → The coach told us {{to warm up}} before the match.",
+   "hint": "polecenie",
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "warm up",
+    "warming up",
+    "to warming up"
+   ]
+  },
+  {
+   "id": "en7-rs-074",
+   "type": "cloze",
+   "text": "Grandma: 'Could you carry my bag, please?' → Grandma {{asked me to carry}} her bag.",
+   "hint": "prośba",
+   "explanation": "Prośbę (Could you…, please?) relacjonujemy przez ask + osoba + to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "told me carry",
+    "asked me carrying",
+    "said me to carry"
+   ]
+  },
+  {
+   "id": "en7-rs-075",
+   "type": "cloze",
+   "text": "Nurse: 'Please don't move your arm.' → The nurse asked me {{not to move}} my arm.",
+   "hint": "prośba przecząca",
+   "explanation": "Prośba przecząca: ask + osoba + not to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to don't move",
+    "not move",
+    "no to move"
+   ]
+  },
+  {
+   "id": "en7-rs-076",
+   "type": "cloze",
+   "text": "Teacher: 'Sit down and open your books.' → The teacher ordered us {{to sit}} down and open our books.",
+   "hint": "order + osoba + ?",
+   "explanation": "Po order / tell + osoba stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "sit",
+    "sitting",
+    "that we sit"
+   ]
+  },
+  {
+   "id": "en7-rs-077",
+   "type": "cloze",
+   "text": "Lifeguard: 'Don't swim near the rocks!' → The lifeguard warned us {{not to swim}} near the rocks.",
+   "hint": "warn + osoba + ?",
+   "explanation": "Zakaz po warn: warn + osoba + not to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not swim",
+    "don't swim",
+    "not swimming"
+   ]
+  },
+  {
+   "id": "en7-rs-078",
+   "type": "cloze",
+   "text": "Jo: 'Can you text me the address?' → Jo asked {{me to text}} her the address.",
+   "hint": "ask + ? + to",
+   "explanation": "Po ask zawsze stoi osoba, a potem to + bezokolicznik: asked me to text.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to me text",
+    "me text",
+    "me texting"
+   ]
+  },
+  {
+   "id": "en7-rs-079",
+   "type": "cloze",
+   "text": "Mum: 'Don't go there.' → Mum told me {{not to go}} there.",
+   "hint": "(abym tam nie szedł / nie szła)",
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik; 'to not go' to typowy błąd.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not go",
+    "not go",
+    "don't go"
+   ]
+  },
+  {
+   "id": "en7-rs-080",
+   "type": "qa",
+   "question": "Jak relacjonujemy polecenie 'Sit down!'? She told me ___",
+   "answer": "to sit down",
+   "accept": [
+    "to + bezokolicznik",
+    "to + infinitive",
+    "to sit"
+   ],
+   "explanation": "Polecenie: tell + osoba + to + bezokolicznik: she told me to sit down.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "sit down",
+    "sitting down",
+    "that sit down"
+   ]
+  },
+  {
+   "id": "en7-rs-081",
+   "type": "qa",
+   "question": "Jak relacjonujemy zakaz 'Don't do it!'? He told me ___ it",
+   "answer": "not to do",
+   "accept": [
+    "not to"
+   ],
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik; nie 'to not do'.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "bezokolicznik",
+   "distractors": [
+    "to not do",
+    "don't do",
+    "no to do"
+   ]
+  },
+  {
+   "id": "en7-rs-082",
+   "type": "qa",
+   "question": "Którym czasownikiem relacjonujemy prośbę ('Can you help me, please?')?",
+   "answer": "ask",
+   "accept": [
+    "asked",
+    "ask sb to",
+    "ask + osoba + to"
+   ],
+   "explanation": "Prośby relacjonujemy przez ask + osoba + to; tell to polecenie, a say nie łączy się z to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "say/tell",
+   "distractors": [
+    "tell",
+    "order",
+    "say"
+   ]
+  },
+  {
+   "id": "en7-rs-083",
+   "type": "awl_word",
+   "word": "offer to do sth",
+   "polish": [
+    "zaoferować, że się coś zrobi"
+   ],
+   "example": "Dan offered to carry my bag to the bus stop.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-084",
+   "type": "awl_word",
+   "word": "refuse to do sth",
+   "polish": [
+    "odmówić zrobienia czegoś"
+   ],
+   "example": "Jake refused to lend me his bike.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-085",
+   "type": "awl_word",
+   "word": "agree to do sth",
+   "polish": [
+    "zgodzić się coś zrobić"
+   ],
+   "example": "Mum agreed to drive us to the match.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-086",
+   "type": "awl_word",
+   "word": "suggest doing sth",
+   "polish": [
+    "zaproponować zrobienie czegoś"
+   ],
+   "example": "Liz suggested going to the pool after school.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-087",
+   "type": "awl_word",
+   "word": "recommend doing sth",
+   "polish": [
+    "polecić zrobienie czegoś"
+   ],
+   "example": "The doctor recommended drinking more water.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-088",
+   "type": "awl_word",
+   "word": "admit doing sth",
+   "polish": [
+    "przyznać się do zrobienia czegoś"
+   ],
+   "example": "Tom admitted breaking the window.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-089",
+   "type": "awl_word",
+   "word": "apologise for doing sth",
+   "polish": [
+    "przeprosić za zrobienie czegoś"
+   ],
+   "example": "Ola apologised for forgetting my birthday.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-090",
+   "type": "awl_word",
+   "word": "warn sb not to do sth",
+   "polish": [
+    "ostrzec kogoś, żeby czegoś nie robił"
+   ],
+   "example": "The nurse warned me not to scratch the rash.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-091",
+   "type": "awl_word",
+   "word": "remind sb to do sth",
+   "polish": [
+    "przypomnieć komuś, żeby coś zrobił"
+   ],
+   "example": "Dad reminded me to take my inhaler.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-092",
+   "type": "awl_word",
+   "word": "invite sb to do sth",
+   "polish": [
+    "zaprosić kogoś do zrobienia czegoś"
+   ],
+   "example": "Zoe invited me to stay at her house.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-093",
+   "type": "awl_word",
+   "word": "encourage sb to do sth",
+   "polish": [
+    "zachęcić kogoś do zrobienia czegoś"
+   ],
+   "example": "My coach encouraged me to try climbing.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-094",
+   "type": "awl_word",
+   "word": "explain that",
+   "polish": [
+    "wyjaśnić, że"
+   ],
+   "example": "The doctor explained that the rash was an allergy.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-095",
+   "type": "awl_word",
+   "word": "complain that",
+   "polish": [
+    "poskarżyć się, że"
+   ],
+   "example": "Ben complained that his leg still hurt.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "czasownik relacjonujący"
+  },
+  {
+   "id": "en7-rs-096",
+   "type": "cloze",
+   "text": "Dan: 'I'll carry your bag.' → Dan offered {{to carry}} my bag.",
+   "hint": "offer + ?",
+   "explanation": "Po offer stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "carrying",
+    "that carry",
+    "carry"
+   ]
+  },
+  {
+   "id": "en7-rs-097",
+   "type": "cloze",
+   "text": "Jake: 'No, I won't lend you my bike.' → Jake refused {{to lend}} me his bike.",
+   "hint": "refuse + ?",
+   "explanation": "Po refuse stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "lending",
+    "that he lend",
+    "lend"
+   ]
+  },
+  {
+   "id": "en7-rs-098",
+   "type": "cloze",
+   "text": "Mum: 'OK, I'll drive you to the match.' → Mum agreed {{to drive}} us to the match.",
+   "hint": "agree + ?",
+   "explanation": "Po agree stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "driving",
+    "that drive",
+    "drive"
+   ]
+  },
+  {
+   "id": "en7-rs-099",
+   "type": "cloze",
+   "text": "Kate: 'I promise I'll call you.' → Kate promised {{to call}} me.",
+   "hint": "promise + ?",
+   "explanation": "Po promise stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "calling",
+    "that call",
+    "call"
+   ]
+  },
+  {
+   "id": "en7-rs-100",
+   "type": "cloze",
+   "text": "Liz: 'Let's go to the pool.' → Liz suggested {{going}} to the pool.",
+   "hint": "suggest + ?",
+   "explanation": "Po suggest stoi czasownik z -ing, nigdy to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "to go",
+    "go",
+    "that go"
+   ]
+  },
+  {
+   "id": "en7-rs-101",
+   "type": "cloze",
+   "text": "Doctor: 'You should drink more water.' → The doctor recommended {{drinking}} more water.",
+   "hint": "recommend + ?",
+   "explanation": "Po recommend stoi czasownik z -ing.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "to drink",
+    "drink",
+    "me drinking"
+   ]
+  },
+  {
+   "id": "en7-rs-102",
+   "type": "cloze",
+   "text": "Tom: 'Yes, I broke the window.' → Tom admitted {{breaking}} the window.",
+   "hint": "admit + ?",
+   "explanation": "Po admit stoi czasownik z -ing.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "to break",
+    "break",
+    "that broke"
+   ]
+  },
+  {
+   "id": "en7-rs-103",
+   "type": "cloze",
+   "text": "Nurse: 'Don't scratch the rash!' → The nurse warned me {{not to scratch}} the rash.",
+   "hint": "warn + osoba + ?",
+   "explanation": "Po warn + osoba stoi (not) to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "to not scratch",
+    "not scratching",
+    "don't scratch"
+   ]
+  },
+  {
+   "id": "en7-rs-104",
+   "type": "cloze",
+   "text": "Dad: 'Remember to take your inhaler.' → Dad reminded me {{to take}} my inhaler.",
+   "hint": "remind + osoba + ?",
+   "explanation": "Po remind + osoba stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "taking",
+    "take",
+    "that take"
+   ]
+  },
+  {
+   "id": "en7-rs-105",
+   "type": "cloze",
+   "text": "Zoe: 'Would you like to stay at my house?' → Zoe invited me {{to stay}} at her house.",
+   "hint": "invite + osoba + ?",
+   "explanation": "Po invite + osoba stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "staying",
+    "stay",
+    "that I stay"
+   ]
+  },
+  {
+   "id": "en7-rs-106",
+   "type": "cloze",
+   "text": "Coach: 'Go on, try climbing!' → My coach encouraged me {{to try}} climbing.",
+   "hint": "encourage + osoba + ?",
+   "explanation": "Po encourage + osoba stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "trying",
+    "try",
+    "that try"
+   ]
+  },
+  {
+   "id": "en7-rs-107",
+   "type": "cloze",
+   "text": "Doctor: 'The rash is an allergy.' → The doctor explained {{that}} the rash was an allergy.",
+   "hint": "explain + ?",
+   "explanation": "Po explain stoi that + zdanie; 'explained me that' to typowy błąd (poprawnie: explained to me).",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "me that",
+    "to",
+    "for"
+   ]
+  },
+  {
+   "id": "en7-rs-108",
+   "type": "cloze",
+   "text": "Ben: 'My leg still hurts.' → Ben complained {{that}} his leg still hurt.",
+   "hint": "complain + ?",
+   "explanation": "Po complain stoi that + zdanie (albo about + rzeczownik).",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "me that",
+    "to",
+    "about that"
+   ]
+  },
+  {
+   "id": "en7-rs-109",
+   "type": "cloze",
+   "text": "Nurse: 'You should rest.' → The nurse advised me {{to rest}}.",
+   "hint": "advise + osoba + ?",
+   "explanation": "Po advise + osoba stoi to + bezokolicznik.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "resting",
+    "rest",
+    "that rest"
+   ]
+  },
+  {
+   "id": "en7-rs-110",
+   "type": "qa",
+   "question": "Jaki wzorzec ma 'suggest'? suggest + ?",
+   "answer": "-ing",
+   "accept": [
+    "doing",
+    "gerund",
+    "czasownik z -ing",
+    "ing"
+   ],
+   "explanation": "Suggest + -ing: she suggested going home; nigdy 'suggested to go'.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "to + bezokolicznik",
+    "osoba + to",
+    "bezokolicznik bez to"
+   ]
+  },
+  {
+   "id": "en7-rs-111",
+   "type": "qa",
+   "question": "Jaki wzorzec ma 'remind'? remind + ?",
+   "answer": "osoba + to",
+   "accept": [
+    "sb to do",
+    "somebody to",
+    "osoba + to + bezokolicznik",
+    "me to"
+   ],
+   "explanation": "Remind + osoba + to + bezokolicznik: he reminded me to call.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "-ing",
+    "that",
+    "to + bezokolicznik"
+   ]
+  },
+  {
+   "id": "en7-rs-112",
+   "type": "qa",
+   "question": "Jaki wzorzec ma 'apologise'? apologise + ?",
+   "answer": "for + -ing",
+   "accept": [
+    "for doing",
+    "for + ing",
+    "for"
+   ],
+   "explanation": "Apologise for + -ing: she apologised for being late.",
+   "category": "en7_reported",
+   "difficulty": 3,
+   "kind": "wzorzec czasownika",
+   "distractors": [
+    "to + bezokolicznik",
+    "-ing",
+    "that"
+   ]
+  },
+  {
+   "id": "en7-rs-113",
+   "type": "qa",
+   "question": "Popraw błąd: 'He said me that he was ill.'",
+   "answer": "told me",
+   "accept": [
+    "He told me that he was ill.",
+    "said to me",
+    "He said to me that he was ill.",
+    "told me that"
+   ],
+   "explanation": "Say nie łączy się bezpośrednio z osobą: told me that… albo said to me that….",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "say/tell",
+   "distractors": [
+    "said me",
+    "told to me",
+    "said that me"
+   ]
+  },
+  {
+   "id": "en7-rs-114",
+   "type": "qa",
+   "question": "Popraw błąd: 'She asked me where was the hospital.'",
+   "answer": "where the hospital was",
+   "accept": [
+    "She asked me where the hospital was."
+   ],
+   "explanation": "Pytanie zależne ma szyk zdania oznajmującego: where the hospital was.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "szyk",
+   "distractors": [
+    "where was the hospital",
+    "where is the hospital",
+    "where did the hospital"
+   ]
+  },
+  {
+   "id": "en7-rs-115",
+   "type": "qa",
+   "question": "Popraw błąd: 'She said she would come tomorrow.' (relacja kilka dni później)",
+   "answer": "the next day",
+   "accept": [
+    "the following day"
+   ],
+   "explanation": "Okolicznik tomorrow zmienia się na the next day / the following day.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "wyrażenie czasu",
+   "distractors": [
+    "tomorrow",
+    "the day before",
+    "that day"
+   ]
+  },
+  {
+   "id": "en7-rs-116",
+   "type": "qa",
+   "question": "Popraw błąd: 'He asked if did I like sport.'",
+   "answer": "if I liked sport",
+   "accept": [
+    "whether I liked sport",
+    "He asked if I liked sport.",
+    "He asked whether I liked sport."
+   ],
+   "explanation": "W pytaniu zależnym znika did, a czasownik ma Past Simple: if I liked.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "if/whether",
+   "distractors": [
+    "if did I like",
+    "if I like sport",
+    "did I like sport"
+   ]
+  },
+  {
+   "id": "en7-rs-117",
+   "type": "qa",
+   "question": "Na jaki czas zmienia się Present Simple w mowie zależnej?",
+   "answer": "Past Simple",
+   "accept": [
+    "past simple"
+   ],
+   "explanation": "'I live here' → she said she lived there.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czas",
+   "distractors": [
+    "Past Perfect",
+    "Past Continuous",
+    "Present Perfect"
+   ]
+  },
+  {
+   "id": "en7-rs-118",
+   "type": "qa",
+   "question": "Na jaki czas zmienia się Past Simple w mowie zależnej?",
+   "answer": "Past Perfect",
+   "accept": [
+    "past perfect",
+    "had + III forma"
+   ],
+   "explanation": "'I saw it' → he said he had seen it.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czas",
+   "distractors": [
+    "Past Simple",
+    "Present Perfect",
+    "Past Continuous"
+   ]
+  },
+  {
+   "id": "en7-rs-119",
+   "type": "qa",
+   "question": "Na jaki czas zmienia się Present Perfect w mowie zależnej?",
+   "answer": "Past Perfect",
+   "accept": [
+    "past perfect",
+    "had + III forma"
+   ],
+   "explanation": "'I have finished' → she said she had finished.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czas",
+   "distractors": [
+    "Past Simple",
+    "Past Continuous",
+    "Present Perfect"
+   ]
+  },
+  {
+   "id": "en7-rs-120",
+   "type": "qa",
+   "question": "Który czas NIE zmienia się w mowie zależnej?",
+   "answer": "Past Perfect",
+   "accept": [
+    "past perfect"
+   ],
+   "explanation": "Past Perfect zostaje bez zmiany: 'I had left' → he said he had left.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "czas",
+   "distractors": [
+    "Past Simple",
+    "Present Perfect",
+    "Past Continuous"
+   ]
+  },
+  {
+   "id": "en7-rs-121",
+   "type": "qa",
+   "question": "Na co zmienia się 'can' w mowie zależnej?",
+   "answer": "could",
+   "accept": [],
+   "explanation": "Can → could: 'I can swim' → she said she could swim.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "can",
+    "might",
+    "would"
+   ]
+  },
+  {
+   "id": "en7-rs-122",
+   "type": "qa",
+   "question": "Na co zmienia się 'will' w mowie zależnej?",
+   "answer": "would",
+   "accept": [],
+   "explanation": "Will → would: 'I will help' → he said he would help.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "could",
+    "should"
+   ]
+  },
+  {
+   "id": "en7-rs-123",
+   "type": "qa",
+   "question": "Na co zmienia się 'must' w mowie zależnej?",
+   "answer": "had to",
+   "accept": [
+    "must",
+    "had to / must"
+   ],
+   "explanation": "Must → had to: 'You must rest' → the doctor said I had to rest.",
+   "category": "en7_reported",
+   "difficulty": 1,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "should",
+    "have to",
+    "could"
+   ]
+  },
+  {
+   "id": "en7-rs-124",
+   "type": "qa",
+   "question": "Który czasownik modalny NIE zmienia się w mowie zależnej?",
+   "answer": "would",
+   "accept": [
+    "could",
+    "might",
+    "should",
+    "ought to"
+   ],
+   "explanation": "Would, could, might, should, ought to zostają bez zmiany; zmieniają się will, can, may, must.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "czasownik modalny",
+   "distractors": [
+    "will",
+    "can",
+    "may"
+   ]
+  },
+  {
+   "id": "en7-rs-125",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Tom: 'I am tired.'",
+   "answer": "Tom said (that) he was tired.",
+   "accept": [
+    "Tom said he was tired.",
+    "Tom said that he was tired."
+   ],
+   "explanation": "Present Simple → Past Simple (am → was), I → he.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-126",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Kate: 'I have never been to London.'",
+   "answer": "Kate said (that) she had never been to London.",
+   "accept": [
+    "Kate said she had never been to London.",
+    "Kate said that she had never been to London."
+   ],
+   "explanation": "Present Perfect → Past Perfect (have been → had been), I → she.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-127",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Dad: 'Where are you going?'",
+   "answer": "Dad asked me where I was going.",
+   "accept": [
+    "Dad asked where I was going."
+   ],
+   "explanation": "Pytanie wh-: szyk oznajmujący (I was), Present Continuous → Past Continuous, you → I.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-128",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Nurse: 'Do you have a temperature?'",
+   "answer": "The nurse asked me if I had a temperature.",
+   "accept": [
+    "The nurse asked if I had a temperature.",
+    "The nurse asked me whether I had a temperature.",
+    "The nurse asked whether I had a temperature."
+   ],
+   "explanation": "Pytanie yes/no: if/whether, bez do, Present Simple → Past Simple (have → had).",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-129",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Teacher: 'Open your books, please.'",
+   "answer": "The teacher asked us to open our books.",
+   "accept": [
+    "The teacher told us to open our books."
+   ],
+   "explanation": "Prośba: ask + osoba + to + bezokolicznik; your → our.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-130",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Mum: 'I can't drive you to school today.'",
+   "answer": "Mum said (that) she couldn't drive me to school that day.",
+   "accept": [
+    "Mum said she couldn't drive me to school that day.",
+    "Mum said that she couldn't drive me to school that day."
+   ],
+   "explanation": "can't → couldn't, you → me, today → that day.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-131",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Ben: 'I saw this film last week.'",
+   "answer": "Ben said (that) he had seen that film the week before.",
+   "accept": [
+    "Ben said he had seen that film the week before.",
+    "Ben said that he had seen that film the previous week.",
+    "Ben said he had seen that film the previous week."
+   ],
+   "explanation": "Past Simple → Past Perfect, this → that, last week → the week before / the previous week.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
+  },
+  {
+   "id": "en7-rs-132",
+   "type": "qa",
+   "question": "Przekształć w mowę zależną: Coach: 'Don't be late for training tomorrow.'",
+   "answer": "The coach told us not to be late for training the next day.",
+   "accept": [
+    "The coach told us not to be late for training the following day.",
+    "The coach told me not to be late for training the next day.",
+    "The coach told me not to be late for training the following day."
+   ],
+   "explanation": "Zakaz: tell + osoba + not to + bezokolicznik; tomorrow → the next day / the following day.",
+   "category": "en7_reported",
+   "difficulty": 2,
+   "kind": "transformacja",
+   "quiz_suitable": false
   }
  ]
 }

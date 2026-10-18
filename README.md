@@ -50,7 +50,7 @@ Menu boczne (na komputerze) ma listę przedmiotów z liczbą kart do zrobienia d
 
 **Kategorie Biology (IB):** `bio_cells` (Cells), `bio_molecules` (Molecules & metabolism), `bio_genetics` (Genetics & evolution), `bio_human` (Human physiology), `bio_plants` (Plants), `bio_ecology` (Ecology), `bio_skills` (Skills & experiments), `bio_general` (Other, domyślna).
 
-**Kategorie Angielskiego (7 klasa):** tematy z podstawy programowej z prefiksem `en7_` (`people`, `home`, `school`, `work`, `family`, `food`, `shopping`, `travel`, `culture`, `sport`, `health`, `science`, `nature`, `society`, `other`). Typ `awl_word` wyświetla się tu jako *Słówko*.
+**Kategorie Angielskiego (7 klasa):** tematy z podstawy programowej z prefiksem `en7_` (`people`, `home`, `school`, `work`, `family`, `food`, `shopping`, `travel`, `culture`, `sport`, `health`, `science`, `nature`, `society`, `other`). Typ `awl_word` wyświetla się tu jako *Słówko*. Gramatyka ma osobną kategorię na każde zagadnienie, żeby dało się zawęzić sesję do jednego tematu: `en7_reported` (*Mowa zależna*, karty `en7-rs-001`…, zakres i źródła w [docs/reported-speech.md](docs/reported-speech.md), ściąga w [docs/reported-speech-sciaga.md](docs/reported-speech-sciaga.md)); kolejne tematy dostają własne kategorie `en7_<temat>` i prefiksy `id`.
 
 **Kategorie Biologii (7 klasa):** działy z prefiksem `bio7_` (`body`, `skin`, `movement`, `digestion`, `circulation`, `immune`, `breathing`, `excretion`, `nervous`, `senses`, `hormones`, `reproduction`, `health`, `other`).
 
