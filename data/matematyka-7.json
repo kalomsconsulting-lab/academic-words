@@ -3,6 +3,20 @@
  "subject": "matematyka_sp7",
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla szkoły podstawowej, matematyka, klasy VII–VIII (Dz.U. 2017 poz. 356, zm. Dz.U. 2024 poz. 996); zakres klasy 7 wg typowego rozkładu materiału",
+ "kinds": [
+  "liczba",
+  "wielkość",
+  "kwota",
+  "kąt",
+  "potęga",
+  "wyrażenie",
+  "wzór",
+  "rozwiązanie",
+  "prawdopodobieństwo",
+  "bryła",
+  "własność",
+  "pojęcie"
+ ],
  "items": [
   {
    "id": "mat7-pp-001",
@@ -18,7 +32,8 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-002",
@@ -29,7 +44,11 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "pojęcie",
+   "distractors": [
+    "wykładnik"
+   ]
   },
   {
    "id": "mat7-pp-003",
@@ -43,7 +62,8 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-004",
@@ -57,7 +77,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-005",
@@ -68,7 +89,12 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "odejmujemy",
+    "mnożymy"
+   ]
   },
   {
    "id": "mat7-pp-006",
@@ -79,7 +105,12 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "dodajemy",
+    "dzielimy"
+   ]
   },
   {
    "id": "mat7-pp-007",
@@ -94,7 +125,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-008",
@@ -111,7 +143,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-009",
@@ -122,7 +155,12 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "pojęcie",
+   "distractors": [
+    "dodajemy",
+    "dzielimy"
+   ]
   },
   {
    "id": "mat7-pp-010",
@@ -133,7 +171,8 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-011",
@@ -151,7 +190,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-012",
@@ -165,7 +205,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-013",
@@ -183,7 +224,8 @@
    "category": "mat7_numbers",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-014",
@@ -194,7 +236,8 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-015",
@@ -205,7 +248,8 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-016",
@@ -215,7 +259,8 @@
    "category": "mat7_numbers",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-017",
@@ -229,7 +274,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-018",
@@ -245,7 +291,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-019",
@@ -261,7 +308,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-020",
@@ -277,7 +325,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-021",
@@ -288,7 +337,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-022",
@@ -305,7 +355,8 @@
    "category": "mat7_numbers",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-023",
@@ -320,7 +371,8 @@
    "category": "mat7_numbers",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "potęga"
   },
   {
    "id": "mat7-pp-024",
@@ -331,7 +383,8 @@
    "category": "mat7_numbers",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.5"
+   "pp": "II.5",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-025",
@@ -347,7 +400,8 @@
    "category": "mat7_algebra",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-026",
@@ -364,7 +418,8 @@
    "category": "mat7_algebra",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-027",
@@ -375,7 +430,8 @@
    "category": "mat7_algebra",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-028",
@@ -386,7 +442,8 @@
    "category": "mat7_algebra",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-029",
@@ -402,7 +459,8 @@
    "category": "mat7_algebra",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-030",
@@ -419,7 +477,8 @@
    "category": "mat7_algebra",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-031",
@@ -437,7 +496,8 @@
    "category": "mat7_algebra",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-032",
@@ -448,7 +508,8 @@
    "category": "mat7_algebra",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-033",
@@ -463,7 +524,8 @@
    "category": "mat7_algebra",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-034",
@@ -477,7 +539,8 @@
    "category": "mat7_algebra",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-035",
@@ -488,7 +551,8 @@
    "category": "mat7_algebra",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-036",
@@ -502,7 +566,8 @@
    "category": "mat7_algebra",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-037",
@@ -516,7 +581,8 @@
    "category": "mat7_algebra",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-038",
@@ -527,7 +593,8 @@
    "category": "mat7_algebra",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-039",
@@ -541,7 +608,8 @@
    "category": "mat7_algebra",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-040",
@@ -558,7 +626,8 @@
    "category": "mat7_algebra",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-041",
@@ -574,7 +643,8 @@
    "category": "mat7_algebra",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-042",
@@ -590,7 +660,8 @@
    "category": "mat7_algebra",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "wyrażenie"
   },
   {
    "id": "mat7-pp-043",
@@ -601,7 +672,12 @@
    "category": "mat7_percent",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "pojęcie",
+   "distractors": [
+    "dziesiąta",
+    "tysięczna"
+   ]
   },
   {
    "id": "mat7-pp-044",
@@ -615,7 +691,8 @@
    "category": "mat7_percent",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-045",
@@ -629,7 +706,8 @@
    "category": "mat7_percent",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-046",
@@ -640,7 +718,8 @@
    "category": "mat7_percent",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-047",
@@ -654,7 +733,8 @@
    "category": "mat7_percent",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-048",
@@ -665,7 +745,8 @@
    "category": "mat7_percent",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-049",
@@ -679,7 +760,8 @@
    "category": "mat7_percent",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "kwota"
   },
   {
    "id": "mat7-pp-050",
@@ -690,7 +772,8 @@
    "category": "mat7_percent",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-051",
@@ -704,7 +787,8 @@
    "category": "mat7_percent",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "kwota"
   },
   {
    "id": "mat7-pp-052",
@@ -716,7 +800,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "własność"
   },
   {
    "id": "mat7-pp-053",
@@ -727,7 +812,8 @@
    "category": "mat7_equations",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VI.1"
+   "pp": "VI.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-054",
@@ -737,7 +823,8 @@
    "category": "mat7_equations",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VI.2"
+   "pp": "VI.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-055",
@@ -751,7 +838,8 @@
    "category": "mat7_equations",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VI.2"
+   "pp": "VI.2",
+   "kind": "rozwiązanie"
   },
   {
    "id": "mat7-pp-056",
@@ -765,7 +853,8 @@
    "category": "mat7_equations",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.2"
+   "pp": "VI.2",
+   "kind": "rozwiązanie"
   },
   {
    "id": "mat7-pp-057",
@@ -775,7 +864,8 @@
    "category": "mat7_equations",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.2"
+   "pp": "VI.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-058",
@@ -789,7 +879,8 @@
    "category": "mat7_equations",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.3"
+   "pp": "VI.3",
+   "kind": "rozwiązanie"
   },
   {
    "id": "mat7-pp-059",
@@ -803,7 +894,8 @@
    "category": "mat7_equations",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VI.3"
+   "pp": "VI.3",
+   "kind": "rozwiązanie"
   },
   {
    "id": "mat7-pp-060",
@@ -820,7 +912,8 @@
    "category": "mat7_equations",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VI.3"
+   "pp": "VI.3",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-061",
@@ -831,7 +924,8 @@
    "category": "mat7_equations",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.4"
+   "pp": "VI.4",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-062",
@@ -845,7 +939,8 @@
    "category": "mat7_equations",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VI.4"
+   "pp": "VI.4",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-063",
@@ -859,7 +954,8 @@
    "category": "mat7_equations",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VI.4"
+   "pp": "VI.4",
+   "kind": "kwota"
   },
   {
    "id": "mat7-pp-064",
@@ -877,7 +973,8 @@
    "category": "mat7_equations",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VI.5"
+   "pp": "VI.5",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-065",
@@ -894,7 +991,8 @@
    "category": "mat7_equations",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VI.5"
+   "pp": "VI.5",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-066",
@@ -904,7 +1002,8 @@
    "category": "mat7_percent",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.1"
+   "pp": "VII.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-067",
@@ -916,7 +1015,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "własność"
   },
   {
    "id": "mat7-pp-068",
@@ -930,7 +1030,8 @@
    "category": "mat7_percent",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.2"
+   "pp": "VII.2",
+   "kind": "kwota"
   },
   {
    "id": "mat7-pp-069",
@@ -944,7 +1045,8 @@
    "category": "mat7_percent",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.2"
+   "pp": "VII.2",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-070",
@@ -958,7 +1060,8 @@
    "category": "mat7_percent",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VII.3"
+   "pp": "VII.3",
+   "kind": "kwota"
   },
   {
    "id": "mat7-pp-071",
@@ -969,7 +1072,8 @@
    "category": "mat7_percent",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VII.3"
+   "pp": "VII.3",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-072",
@@ -985,7 +1089,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.1"
+   "pp": "VIII.1",
+   "kind": "własność"
   },
   {
    "id": "mat7-pp-073",
@@ -1000,7 +1105,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.1"
+   "pp": "VIII.1",
+   "kind": "kąt"
   },
   {
    "id": "mat7-pp-074",
@@ -1010,7 +1116,11 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.2"
+   "pp": "VIII.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "prostopadłymi"
+   ]
   },
   {
    "id": "mat7-pp-075",
@@ -1027,7 +1137,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.2"
+   "pp": "VIII.2",
+   "kind": "kąt"
   },
   {
    "id": "mat7-pp-076",
@@ -1042,7 +1153,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.3"
+   "pp": "VIII.3",
+   "kind": "własność"
   },
   {
    "id": "mat7-pp-077",
@@ -1058,7 +1170,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.4"
+   "pp": "VIII.4",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-078",
@@ -1069,7 +1182,12 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.4"
+   "pp": "VIII.4",
+   "kind": "pojęcie",
+   "distractors": [
+    "BBB",
+    "KBK"
+   ]
   },
   {
    "id": "mat7-pp-079",
@@ -1081,7 +1199,8 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VIII.5",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "własność"
   },
   {
    "id": "mat7-pp-080",
@@ -1091,7 +1210,11 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.5"
+   "pp": "VIII.5",
+   "kind": "własność",
+   "distractors": [
+    "mniejsza"
+   ]
   },
   {
    "id": "mat7-pp-081",
@@ -1106,7 +1229,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.6"
+   "pp": "VIII.6",
+   "kind": "kąt"
   },
   {
    "id": "mat7-pp-082",
@@ -1121,7 +1245,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.6"
+   "pp": "VIII.6",
+   "kind": "kąt"
   },
   {
    "id": "mat7-pp-083",
@@ -1136,7 +1261,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.6"
+   "pp": "VIII.6",
+   "kind": "kąt"
   },
   {
    "id": "mat7-pp-084",
@@ -1153,7 +1279,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.7"
+   "pp": "VIII.7",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-085",
@@ -1163,7 +1290,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.7"
+   "pp": "VIII.7",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-086",
@@ -1177,7 +1305,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.7"
+   "pp": "VIII.7",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-087",
@@ -1191,7 +1320,8 @@
    "category": "mat7_geometry",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VIII.7"
+   "pp": "VIII.7",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-088",
@@ -1205,7 +1335,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IX.1"
+   "pp": "IX.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-089",
@@ -1225,7 +1356,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IX.2"
+   "pp": "IX.2",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-090",
@@ -1243,7 +1375,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IX.2"
+   "pp": "IX.2",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-091",
@@ -1262,7 +1395,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IX.2"
+   "pp": "IX.2",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-092",
@@ -1280,7 +1414,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IX.2"
+   "pp": "IX.2",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-093",
@@ -1296,7 +1431,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IX.2"
+   "pp": "IX.2",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-094",
@@ -1312,7 +1448,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IX.2"
+   "pp": "IX.2",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-095",
@@ -1329,7 +1466,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "X.1"
+   "pp": "X.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-096",
@@ -1346,7 +1484,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "X.2"
+   "pp": "X.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-097",
@@ -1356,7 +1495,11 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "X.2"
+   "pp": "X.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "y"
+   ]
   },
   {
    "id": "mat7-pp-098",
@@ -1370,7 +1513,8 @@
    "category": "mat7_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "X.2"
+   "pp": "X.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-099",
@@ -1388,7 +1532,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "X.3"
+   "pp": "X.3",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-100",
@@ -1402,7 +1547,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.1"
+   "pp": "XI.1",
+   "kind": "bryła"
   },
   {
    "id": "mat7-pp-101",
@@ -1416,7 +1562,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.1"
+   "pp": "XI.1",
+   "kind": "bryła"
   },
   {
    "id": "mat7-pp-102",
@@ -1430,7 +1577,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.1"
+   "pp": "XI.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-103",
@@ -1441,7 +1589,8 @@
    "category": "mat7_solids",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XI.1"
+   "pp": "XI.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-104",
@@ -1452,7 +1601,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.1"
+   "pp": "XI.1",
+   "kind": "bryła"
   },
   {
    "id": "mat7-pp-105",
@@ -1466,7 +1616,8 @@
    "category": "mat7_solids",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XI.1"
+   "pp": "XI.1",
+   "kind": "bryła"
   },
   {
    "id": "mat7-pp-106",
@@ -1484,7 +1635,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.2"
+   "pp": "XI.2",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-107",
@@ -1502,7 +1654,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.2"
+   "pp": "XI.2",
+   "kind": "wzór"
   },
   {
    "id": "mat7-pp-108",
@@ -1518,7 +1671,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.2"
+   "pp": "XI.2",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-109",
@@ -1534,7 +1688,8 @@
    "category": "mat7_solids",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XI.2"
+   "pp": "XI.2",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-110",
@@ -1544,7 +1699,8 @@
    "category": "mat7_solids",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XI.2"
+   "pp": "XI.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-111",
@@ -1560,7 +1716,8 @@
    "category": "mat7_solids",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XI.2"
+   "pp": "XI.2",
+   "kind": "wielkość"
   },
   {
    "id": "mat7-pp-112",
@@ -1574,7 +1731,8 @@
    "category": "mat7_stats",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XII.1"
+   "pp": "XII.1",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-113",
@@ -1584,7 +1742,11 @@
    "category": "mat7_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "pojęcie",
+   "distractors": [
+    "sprzyjających"
+   ]
   },
   {
    "id": "mat7-pp-114",
@@ -1600,7 +1762,8 @@
    "category": "mat7_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "prawdopodobieństwo"
   },
   {
    "id": "mat7-pp-115",
@@ -1611,7 +1774,8 @@
    "category": "mat7_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "prawdopodobieństwo"
   },
   {
    "id": "mat7-pp-116",
@@ -1627,7 +1791,8 @@
    "category": "mat7_stats",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "prawdopodobieństwo"
   },
   {
    "id": "mat7-pp-117",
@@ -1641,7 +1806,8 @@
    "category": "mat7_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "prawdopodobieństwo"
   },
   {
    "id": "mat7-pp-118",
@@ -1655,7 +1821,8 @@
    "category": "mat7_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIII.1"
+   "pp": "XIII.1",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-119",
@@ -1670,7 +1837,8 @@
    "category": "mat7_stats",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XIII.1"
+   "pp": "XIII.1",
+   "kind": "kąt"
   },
   {
    "id": "mat7-pp-120",
@@ -1684,7 +1852,8 @@
    "category": "mat7_stats",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XIII.2"
+   "pp": "XIII.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-121",
@@ -1698,7 +1867,8 @@
    "category": "mat7_stats",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XIII.2"
+   "pp": "XIII.2",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-122",
@@ -1709,7 +1879,8 @@
    "category": "mat7_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIII.3"
+   "pp": "XIII.3",
+   "kind": "pojęcie"
   },
   {
    "id": "mat7-pp-123",
@@ -1720,7 +1891,8 @@
    "category": "mat7_stats",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XIII.3"
+   "pp": "XIII.3",
+   "kind": "liczba"
   },
   {
    "id": "mat7-pp-124",
@@ -1731,7 +1903,8 @@
    "category": "mat7_stats",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "XIII.3"
+   "pp": "XIII.3",
+   "kind": "liczba"
   }
  ]
 }
