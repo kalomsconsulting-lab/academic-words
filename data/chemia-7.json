@@ -30,7 +30,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "żelazo",
+    "glin",
+    "cynk"
+   ]
   },
   {
    "id": "chem7-pp-002",
@@ -42,7 +47,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "glin",
+    "miedź",
+    "cynk"
+   ]
   },
   {
    "id": "chem7-pp-003",
@@ -60,7 +70,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "właściwość"
+   "kind": "właściwość",
+   "distractors": [
+    "substancja żrąca",
+    "substancja toksyczna",
+    "substancja wybuchowa"
+   ]
   },
   {
    "id": "chem7-pp-004",
@@ -78,7 +93,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "właściwość"
+   "kind": "właściwość",
+   "distractors": [
+    "substancja żrąca",
+    "substancja łatwopalna",
+    "substancja utleniająca"
+   ]
   },
   {
    "id": "chem7-pp-005",
@@ -90,7 +110,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "właściwość"
+   "kind": "właściwość",
+   "distractors": [
+    "toksyczną",
+    "łatwopalną",
+    "wybuchową"
+   ]
   },
   {
    "id": "chem7-pp-006",
@@ -108,7 +133,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "wąchając bezpośrednio",
+    "pochylając się nad probówką",
+    "ogrzewając probówkę"
+   ]
   },
   {
    "id": "chem7-pp-007",
@@ -124,7 +154,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "wodę do kwasu",
+    "wodę do zasady",
+    "zasadę do kwasu"
+   ]
   },
   {
    "id": "chem7-pp-008",
@@ -140,7 +175,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "kind": "właściwość"
+   "kind": "właściwość",
+   "distractors": [
+    "stały",
+    "gazowy",
+    "krystaliczny"
+   ]
   },
   {
    "id": "chem7-pp-009",
@@ -155,7 +195,8 @@
    "kind": "właściwość",
    "distractors": [
     "ciekłym",
-    "stałym"
+    "stałym",
+    "krystalicznym"
    ]
   },
   {
@@ -169,7 +210,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.4",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "sublimacja",
+    "parowanie",
+    "kondensacja"
+   ]
   },
   {
    "id": "chem7-pp-011",
@@ -184,7 +230,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.4",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "parowanie",
+    "resublimacja",
+    "topnienie"
+   ]
   },
   {
    "id": "chem7-pp-012",
@@ -196,7 +247,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "roztworu",
+    "substancji rozpuszczonej",
+    "osadu"
+   ]
   },
   {
    "id": "chem7-pp-013",
@@ -210,7 +266,9 @@
    "pp": "I.5",
    "kind": "rodzaj mieszaniny",
    "distractors": [
-    "niejednorodna"
+    "niejednorodna",
+    "koloidalna",
+    "heterogeniczna"
    ]
   },
   {
@@ -227,7 +285,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.5",
-   "kind": "rodzaj mieszaniny"
+   "kind": "rodzaj mieszaniny",
+   "distractors": [
+    "jednorodna",
+    "homogeniczna",
+    "koloidalna"
+   ]
   },
   {
    "id": "chem7-pp-015",
@@ -244,7 +307,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.5",
-   "kind": "rodzaj mieszaniny"
+   "kind": "rodzaj mieszaniny",
+   "distractors": [
+    "niejednorodna",
+    "heterogeniczna",
+    "koloidalna"
+   ]
   },
   {
    "id": "chem7-pp-016",
@@ -261,7 +329,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.6",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "destylacja",
+    "dekantacja",
+    "odparowanie"
+   ]
   },
   {
    "id": "chem7-pp-017",
@@ -276,7 +349,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.6",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "sączenie",
+    "krystalizacja",
+    "dekantacja"
+   ]
   },
   {
    "id": "chem7-pp-018",
@@ -291,7 +369,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.6",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "zlewka",
+    "kolba",
+    "parownica"
+   ]
   },
   {
    "id": "chem7-pp-019",
@@ -303,7 +386,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.6",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "destylacja",
+    "sublimacja",
+    "sączenie"
+   ]
   },
   {
    "id": "chem7-pp-020",
@@ -318,7 +406,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.7",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "związek chemiczny",
+    "mieszanina",
+    "roztwór"
+   ]
   },
   {
    "id": "chem7-pp-021",
@@ -332,7 +425,9 @@
    "pp": "I.7",
    "kind": "pojęcie",
    "distractors": [
-    "pierwiastek chemiczny"
+    "pierwiastek chemiczny",
+    "roztwór właściwy",
+    "zawiesina"
    ]
   },
   {
@@ -348,7 +443,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "niemetale",
+    "półmetale",
+    "gazy szlachetne"
+   ]
   },
   {
    "id": "chem7-pp-023",
@@ -362,7 +462,9 @@
    "pp": "I.8",
    "kind": "pojęcie",
    "distractors": [
-    "metale"
+    "metale",
+    "półmetale",
+    "gazy szlachetne"
    ]
   },
   {
@@ -402,7 +504,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.9",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "wapń",
+    "krypton",
+    "kobalt"
+   ]
   },
   {
    "id": "chem7-pp-027",
@@ -415,7 +522,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.9",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "fosfor",
+    "platyna",
+    "polon"
+   ]
   },
   {
    "id": "chem7-pp-028",
@@ -427,7 +539,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.10",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "m",
+    "T",
+    "p"
+   ]
   },
   {
    "id": "chem7-pp-029",
@@ -461,7 +578,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "liczba masowa",
+    "masa atomowa",
+    "liczba neutronów"
+   ]
   },
   {
    "id": "chem7-pp-031",
@@ -475,7 +597,9 @@
    "pp": "II.1",
    "kind": "wielkość",
    "distractors": [
-    "masowej"
+    "masowej",
+    "neutronów",
+    "powłok"
    ]
   },
   {
@@ -505,7 +629,9 @@
    "pp": "II.2",
    "kind": "pojęcie",
    "distractors": [
-    "grupy"
+    "grupy",
+    "pierwiastka",
+    "bloku"
    ]
   },
   {
@@ -535,7 +661,9 @@
    "pp": "II.3",
    "kind": "pojęcie",
    "distractors": [
-    "elektronów"
+    "elektronów",
+    "nukleonów",
+    "jonów"
    ]
   },
   {
@@ -566,7 +694,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "jony",
+    "kationy",
+    "aniony"
+   ]
   },
   {
    "id": "chem7-pp-038",
@@ -582,7 +715,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "tryt",
+    "prot",
+    "hel"
+   ]
   },
   {
    "id": "chem7-pp-039",
@@ -599,7 +737,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "gram",
+    "mol",
+    "kilogram"
+   ]
   },
   {
    "id": "chem7-pp-040",
@@ -614,7 +757,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.5",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "bor",
+    "azot",
+    "tlen"
+   ]
   },
   {
    "id": "chem7-pp-041",
@@ -628,7 +776,9 @@
    "pp": "II.6",
    "kind": "pojęcie",
    "distractors": [
-    "okresu"
+    "okresu",
+    "powłoki",
+    "bloku"
    ]
   },
   {
@@ -644,7 +794,8 @@
    "kind": "pojęcie",
    "distractors": [
     "rosną",
-    "nasilają się"
+    "nasilają się",
+    "nie zmieniają się"
    ]
   },
   {
@@ -691,7 +842,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.8",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "wartościowość",
+    "masa atomowa",
+    "liczba atomowa"
+   ]
   },
   {
    "id": "chem7-pp-046",
@@ -708,7 +864,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "jonowe",
+    "metaliczne",
+    "wodorowe"
+   ]
   },
   {
    "id": "chem7-pp-047",
@@ -720,7 +881,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.8",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wewnętrzne",
+    "swobodne",
+    "rdzeniowe"
+   ]
   },
   {
    "id": "chem7-pp-048",
@@ -776,7 +942,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "anion",
+    "proton",
+    "elektron"
+   ]
   },
   {
    "id": "chem7-pp-052",
@@ -827,7 +998,9 @@
    "pp": "II.11",
    "kind": "właściwość",
    "distractors": [
-    "niskiej"
+    "niskiej",
+    "ujemnej",
+    "umiarkowanej"
    ]
   },
   {
@@ -906,7 +1079,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.13",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "tlenek siarki(IV)",
+    "tlenek selenu(VI)",
+    "tlenek fosforu(V)"
+   ]
   },
   {
    "id": "chem7-pp-060",
@@ -952,7 +1130,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "rodzaj reakcji"
+   "kind": "rodzaj reakcji",
+   "distractors": [
+    "przemianie fizycznej",
+    "zmianie stanu skupienia",
+    "dyfuzji"
+   ]
   },
   {
    "id": "chem7-pp-063",
@@ -967,7 +1150,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "substraty",
+    "katalizatory",
+    "odczynniki"
+   ]
   },
   {
    "id": "chem7-pp-064",
@@ -979,7 +1167,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "1",
+    "3",
+    "4"
+   ]
   },
   {
    "id": "chem7-pp-065",
@@ -991,7 +1184,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "stałości składu",
+    "Avogadra",
+    "okresowości"
+   ]
   },
   {
    "id": "chem7-pp-066",
@@ -1007,7 +1205,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "rodzaj reakcji"
+   "kind": "rodzaj reakcji",
+   "distractors": [
+    "endotermiczna",
+    "katalityczna",
+    "odwracalna"
+   ]
   },
   {
    "id": "chem7-pp-067",
@@ -1023,7 +1226,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "rodzaj reakcji"
+   "kind": "rodzaj reakcji",
+   "distractors": [
+    "egzotermiczna",
+    "katalityczna",
+    "nieodwracalna"
+   ]
   },
   {
    "id": "chem7-pp-068",
@@ -1036,7 +1244,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "inhibitor",
+    "substrat",
+    "rozpuszczalnik"
+   ]
   },
   {
    "id": "chem7-pp-069",
@@ -1053,7 +1266,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "wodą wapienną",
+    "papierkiem uniwersalnym",
+    "wodą bromową"
+   ]
   },
   {
    "id": "chem7-pp-070",
@@ -1070,7 +1288,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "woda",
+    "węglan wapnia",
+    "tlenek wapnia"
+   ]
   },
   {
    "id": "chem7-pp-071",
@@ -1082,7 +1305,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "wzór"
+   "kind": "wzór",
+   "distractors": [
+    "MgO2",
+    "Mg(OH)2",
+    "MgCO3"
+   ]
   },
   {
    "id": "chem7-pp-072",
@@ -1100,7 +1328,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "tlenek wapnia",
+    "tlenek glinu",
+    "tlenek węgla(IV)"
+   ]
   },
   {
    "id": "chem7-pp-073",
@@ -1115,7 +1348,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "tlenki azotu",
+    "tlenki siarki",
+    "pyły"
+   ]
   },
   {
    "id": "chem7-pp-074",
@@ -1130,7 +1368,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "proces"
+   "kind": "proces",
+   "distractors": [
+    "spalanie",
+    "erozja",
+    "redukcja"
+   ]
   },
   {
    "id": "chem7-pp-075",
@@ -1146,7 +1389,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "woda utleniona",
+    "woda bromowa",
+    "woda destylowana"
+   ]
   },
   {
    "id": "chem7-pp-076",
@@ -1163,7 +1411,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "wodór",
+    "tlen",
+    "siarkowodór"
+   ]
   },
   {
    "id": "chem7-pp-077",
@@ -1175,7 +1428,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "dziurę ozonową",
+    "smog",
+    "kwaśne opady"
+   ]
   },
   {
    "id": "chem7-pp-078",
@@ -1190,7 +1448,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "tlen",
+    "chlor",
+    "dwutlenek węgla"
+   ]
   },
   {
    "id": "chem7-pp-079",
@@ -1203,7 +1466,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "dwutlenek siarki",
+    "amoniak",
+    "chlorowodór"
+   ]
   },
   {
    "id": "chem7-pp-080",
@@ -1215,7 +1483,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "związek"
+   "kind": "związek",
+   "distractors": [
+    "kwas siarkowy",
+    "kwas azotowy",
+    "woda chlorowa"
+   ]
   },
   {
    "id": "chem7-pp-081",
@@ -1230,7 +1503,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "tlen",
+    "argon",
+    "dwutlenek węgla"
+   ]
   },
   {
    "id": "chem7-pp-082",
@@ -1260,7 +1538,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "związek",
+    "pierwiastek",
+    "zawiesina"
+   ]
   },
   {
    "id": "chem7-pp-084",
@@ -1292,7 +1575,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.6",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "wodór",
+    "argon",
+    "neon"
+   ]
   },
   {
    "id": "chem7-pp-086",
@@ -1305,7 +1593,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "mgła",
+    "dym",
+    "aerozol"
+   ]
   },
   {
    "id": "chem7-pp-087",
@@ -1322,7 +1615,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.7",
-   "kind": "pierwiastek"
+   "kind": "pierwiastek",
+   "distractors": [
+    "węgla i azotu",
+    "węgla i siarki",
+    "fosforu i azotu"
+   ]
   },
   {
    "id": "chem7-pp-088",
@@ -1336,7 +1634,9 @@
    "pp": "V.1",
    "kind": "właściwość",
    "distractors": [
-    "niepolarna"
+    "niepolarna",
+    "jonem",
+    "izotopem"
    ]
   },
   {
@@ -1352,7 +1652,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "rodzaj mieszaniny"
+   "kind": "rodzaj mieszaniny",
+   "distractors": [
+    "koloid",
+    "roztwór właściwy",
+    "emulsja"
+   ]
   },
   {
    "id": "chem7-pp-090",
@@ -1368,7 +1673,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "rodzaj mieszaniny"
+   "kind": "rodzaj mieszaniny",
+   "distractors": [
+    "zawiesina",
+    "roztwór właściwy",
+    "roztwór nasycony"
+   ]
   },
   {
    "id": "chem7-pp-091",
@@ -1396,7 +1706,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "wielkość"
+   "kind": "wielkość",
+   "distractors": [
+    "ciśnienia",
+    "gęstości",
+    "objętości"
+   ]
   },
   {
    "id": "chem7-pp-093",
@@ -1411,7 +1726,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "rodzaj mieszaniny"
+   "kind": "rodzaj mieszaniny",
+   "distractors": [
+    "nienasycony",
+    "stężony",
+    "rozcieńczony"
+   ]
   },
   {
    "id": "chem7-pp-094",
@@ -1443,7 +1763,9 @@
    "pp": "V.4",
    "kind": "rodzaj mieszaniny",
    "distractors": [
-    "nasycony"
+    "nasycony",
+    "stężony",
+    "przesycony"
    ]
   },
   {
@@ -1476,7 +1798,8 @@
    "kind": "pojęcie",
    "distractors": [
     "maleje",
-    "spada"
+    "spada",
+    "nie zmienia się"
    ]
   },
   {
@@ -1493,7 +1816,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "rośnie",
+    "nie zmienia się",
+    "podwaja się"
+   ]
   },
   {
    "id": "chem7-pp-099",
@@ -1507,7 +1835,9 @@
    "pp": "V.6",
    "kind": "pojęcie",
    "distractors": [
-    "rozpuszczalnika"
+    "rozpuszczalnika",
+    "substancji rozpuszczonej",
+    "wody"
    ]
   },
   {
