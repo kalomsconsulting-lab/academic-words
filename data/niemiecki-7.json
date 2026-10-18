@@ -1233,7 +1233,12 @@
    "category": "de7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "der",
+    "das",
+    "den"
+   ]
   },
   {
    "id": "de7-pp-088",
@@ -1244,7 +1249,12 @@
    "category": "de7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "der",
+    "die",
+    "dem"
+   ]
   },
   {
    "id": "de7-pp-089",
@@ -1255,7 +1265,12 @@
    "category": "de7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "eine",
+    "einen",
+    "einem"
+   ]
   },
   {
    "id": "de7-pp-090",
@@ -1266,7 +1281,12 @@
    "category": "de7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "bist",
+    "ist",
+    "sind"
+   ]
   },
   {
    "id": "de7-pp-091",
@@ -1277,7 +1297,12 @@
    "category": "de7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "bin",
+    "ist",
+    "seid"
+   ]
   },
   {
    "id": "de7-pp-092",
@@ -1288,7 +1313,12 @@
    "category": "de7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "habe",
+    "hast",
+    "haben"
+   ]
   },
   {
    "id": "de7-pp-093",
@@ -1299,7 +1329,12 @@
    "category": "de7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "spiele",
+    "spielt",
+    "spielen"
+   ]
   },
   {
    "id": "de7-pp-094",
@@ -1310,7 +1345,12 @@
    "category": "de7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "kein",
+    "nein",
+    "keine"
+   ]
   },
   {
    "id": "de7-pp-095",
@@ -1321,7 +1361,12 @@
    "category": "de7_grammar",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "kein",
+    "keine",
+    "nicht"
+   ]
   },
   {
    "id": "de7-pp-096",
@@ -1332,7 +1377,12 @@
    "category": "de7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "Wohnt",
+    "Wohne",
+    "Wohnen"
+   ]
   },
   {
    "id": "de7-pp-097",
@@ -1343,7 +1393,12 @@
    "category": "de7_grammar",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "distractors": [
+    "elf",
+    "zwölf",
+    "zwanzig"
+   ]
   },
   {
    "id": "de7-pp-098",
@@ -1354,7 +1409,12 @@
    "category": "de7_grammar",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I"
+   "pp": "I",
+   "distractors": [
+    "er",
+    "es",
+    "ihr"
+   ]
   }
  ]
 }
