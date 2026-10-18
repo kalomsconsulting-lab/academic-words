@@ -2187,6 +2187,269 @@
     "measuring cylinder",
     "volumetric flask"
    ]
+  },
+  {
+   "id": "chemib-pp-116",
+   "type": "order",
+   "prompt": "Put the steps of finding an empirical formula from percentage composition in order",
+   "steps": [
+    "Assume 100 g of compound, so each percentage becomes a mass in grams",
+    "Divide each mass by the element's molar mass to get moles",
+    "Divide all mole values by the smallest one",
+    "Multiply by a small integer if the ratio is not whole",
+    "Write the formula with these numbers as subscripts"
+   ],
+   "explanation": "The empirical formula is the simplest whole-number mole ratio of the elements.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chemib-pp-117",
+   "type": "order",
+   "prompt": "Put the steps of calculating the mass of product from the mass of a reactant in order",
+   "steps": [
+    "Write the balanced equation",
+    "Convert the given mass to moles: n = m / M",
+    "Use the mole ratio from the equation",
+    "Convert the moles of product to mass: m = n · M"
+   ],
+   "explanation": "Stoichiometry always goes through moles, because the equation relates amounts, not masses.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.5"
+  },
+  {
+   "id": "chemib-pp-118",
+   "type": "order",
+   "prompt": "Put the steps of preparing a standard solution in a volumetric flask in order",
+   "steps": [
+    "Weigh the solid accurately",
+    "Dissolve it in a small volume of distilled water in a beaker",
+    "Transfer the solution to the volumetric flask, rinsing the beaker",
+    "Add water up to the graduation mark",
+    "Stopper the flask and invert it to mix"
+   ],
+   "explanation": "Rinsing transfers all of the solute, and filling to the mark gives an exact volume and therefore an exact concentration.",
+   "category": "chemib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.3"
+  },
+  {
+   "id": "chemib-pp-119",
+   "type": "order",
+   "prompt": "Put the steps of writing the electron configuration of sulfur (Z = 16) in order",
+   "steps": [
+    "Find the number of electrons: 16",
+    "Fill 1s with 2 electrons",
+    "Fill 2s and 2p with 2 + 6 electrons",
+    "Fill 3s with 2 electrons",
+    "Place the remaining 4 electrons in 3p: 1s² 2s² 2p⁶ 3s² 3p⁴"
+   ],
+   "explanation": "Sublevels fill in order of increasing energy (Aufbau principle) until all electrons are placed.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "chemib-pp-120",
+   "type": "order",
+   "prompt": "Put the steps of drawing the Lewis structure of CO₂ in order",
+   "steps": [
+    "Count the valence electrons: 4 + 2 · 6 = 16",
+    "Place C as the central atom and join each O with a single bond",
+    "Distribute the remaining electrons as lone pairs on the oxygen atoms",
+    "Convert lone pairs into double bonds until every atom has an octet",
+    "Check that the structure uses exactly 16 electrons"
+   ],
+   "explanation": "The valence electron count fixes the structure: two C=O double bonds use all 16 electrons and give each atom an octet.",
+   "category": "chemib_bonding",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chemib-pp-121",
+   "type": "order",
+   "prompt": "Put the steps of balancing C₃H₈ + O₂ → CO₂ + H₂O in order",
+   "steps": [
+    "Balance carbon: 3 CO₂",
+    "Balance hydrogen: 4 H₂O",
+    "Count the oxygen atoms on the right: 6 + 4 = 10",
+    "Balance oxygen: 5 O₂",
+    "Check: C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O"
+   ],
+   "explanation": "In a combustion equation balance C and H first, and O last, because O₂ appears alone.",
+   "category": "chemib_reactions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.3"
+  },
+  {
+   "id": "chemib-pp-122",
+   "type": "order",
+   "prompt": "Put the steps of an acid–base titration in order",
+   "steps": [
+    "Rinse and fill the burette with the titrant and record the initial volume",
+    "Pipette a known volume of the analyte into a conical flask",
+    "Add a few drops of indicator",
+    "Add titrant slowly with swirling until the end-point colour change",
+    "Record the final volume and calculate the titre",
+    "Repeat until concordant results are obtained"
+   ],
+   "explanation": "The titre is the volume of titrant used; concordant titres within 0.1 cm³ are averaged.",
+   "category": "chemib_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB Tool 1"
+  },
+  {
+   "id": "chemib-pp-123",
+   "type": "order",
+   "prompt": "Put the halogens in order of increasing atomic radius",
+   "steps": [
+    "fluorine",
+    "chlorine",
+    "bromine",
+    "iodine"
+   ],
+   "explanation": "Down a group each element has one more occupied shell, so the atomic radius increases.",
+   "category": "chemib_periodic",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chemib-pp-124",
+   "type": "apply",
+   "situation": "You have 9.0 g of water and want the amount in moles. Which formula?",
+   "rule": "$$n = \\frac{m}{M}$$",
+   "wrong": [
+    "$$n = \\frac{V}{V_m}$$",
+    "$$n = c \\cdot V$$",
+    "$$N = n \\cdot N_A$$"
+   ],
+   "explanation": "Mass divided by molar mass gives moles: 9.0 / 18.0 = 0.50 mol.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chemib-pp-125",
+   "type": "apply",
+   "situation": "You have 4.8 dm³ of CO₂ at STP and want the amount in moles. Which formula?",
+   "rule": "$$n = \\frac{V}{V_m}$$",
+   "wrong": [
+    "$$n = \\frac{m}{M}$$",
+    "$$n = c \\cdot V$$",
+    "$$N = n \\cdot N_A$$"
+   ],
+   "explanation": "For a gas at STP the volume divided by the molar volume gives moles.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.3"
+  },
+  {
+   "id": "chemib-pp-126",
+   "type": "apply",
+   "situation": "You dissolve 0.50 mol of NaCl in 2.0 dm³ of solution and want its molar concentration. Which formula?",
+   "rule": "$$c = \\frac{n}{V}$$",
+   "wrong": [
+    "$$C_p = \\frac{m_s}{m_{sol}} \\cdot 100\\%$$",
+    "$$n = \\frac{m}{M}$$",
+    "$$c_1 V_1 = c_2 V_2$$"
+   ],
+   "explanation": "Molar concentration is moles of solute per cubic decimetre of solution: 0.25 mol/dm³.",
+   "category": "chemib_mole",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-127",
+   "type": "apply",
+   "situation": "You dilute 50 cm³ of 2.0 mol/dm³ HCl to 200 cm³ and want the new concentration. Which relation?",
+   "rule": "$$c_1 V_1 = c_2 V_2$$",
+   "wrong": [
+    "$$c = \\frac{n}{V}$$",
+    "$$n = \\frac{m}{M}$$",
+    "$$\\rho = \\frac{m}{V}$$"
+   ],
+   "explanation": "Dilution does not change the amount of solute, so c₁V₁ = c₂V₂ gives 0.50 mol/dm³.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.2"
+  },
+  {
+   "id": "chemib-pp-128",
+   "type": "apply",
+   "situation": "The theoretical yield is 10 g and you obtained 8 g. Which formula gives the percentage yield?",
+   "rule": "$$\\%\\,\\text{yield} = \\frac{\\text{actual yield}}{\\text{theoretical yield}} \\cdot 100\\%$$",
+   "wrong": [
+    "$$\\%\\,\\text{atom economy} = \\frac{M_{desired}}{\\sum M_{products}} \\cdot 100\\%$$",
+    "$$n = \\frac{m}{M}$$",
+    "$$\\%\\,\\text{by mass} = \\frac{m_{element}}{m_{compound}} \\cdot 100\\%$$"
+   ],
+   "explanation": "Percentage yield compares what was obtained with what the equation predicts: 80%.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB R2.1"
+  },
+  {
+   "id": "chemib-pp-129",
+   "type": "apply",
+   "situation": "Chlorine is 75% Cl-35 and 25% Cl-37 and you want its relative atomic mass. Which formula?",
+   "rule": "$$A_r = \\frac{\\sum (\\text{mass} \\times \\text{abundance})}{100}$$",
+   "wrong": [
+    "$$n = A - Z$$",
+    "$$N = n \\cdot N_A$$",
+    "$$M_r = \\sum A_r$$"
+   ],
+   "explanation": "Relative atomic mass is the abundance-weighted average of the isotope masses: 35.5.",
+   "category": "chemib_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB S1.2"
+  },
+  {
+   "id": "chemib-pp-130",
+   "type": "apply",
+   "situation": "You want the percentage by mass of oxygen in H₂O. Which formula?",
+   "rule": "$$\\%\\,\\text{O} = \\frac{A_r(\\text{O})}{M_r(\\text{H}_2\\text{O})} \\cdot 100\\%$$",
+   "wrong": [
+    "$$n = \\frac{m}{M}$$",
+    "$$c = \\frac{n}{V}$$",
+    "$$\\%\\,\\text{yield} = \\frac{\\text{actual yield}}{\\text{theoretical yield}} \\cdot 100\\%$$"
+   ],
+   "explanation": "Percentage composition divides the mass of the element in one mole by the molar mass: 16 / 18 ≈ 89%.",
+   "category": "chemib_mole",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chemib-pp-131",
+   "type": "apply",
+   "situation": "Two atoms with an electronegativity difference of 2.1 form a bond. Which rule predicts the bond type?",
+   "rule": "a difference above about 1.8 means an ionic bond",
+   "wrong": [
+    "a difference below 0.4 means a non-polar covalent bond",
+    "a difference between 0.4 and 1.8 means a polar covalent bond",
+    "metal with metal gives metallic bonding"
+   ],
+   "explanation": "A large electronegativity difference means electrons are transferred rather than shared, giving ions.",
+   "category": "chemib_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
   }
  ]
 }
