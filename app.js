@@ -995,10 +995,24 @@
   // ===================================================================
   // Budowanie sesji
   // ===================================================================
+  // Czy karta nadaje się do wybranego rodzaju ćwiczeń (chipy we Własnej sesji). Mix i fiszki biorą wszystko;
+  // wpisywanie obejmuje też luki (chooseKind zamienia je na „gap”), dopasowywanie wymaga wariantu par.
+  function fitsExercise(it, exercise) {
+    switch (exercise) {
+      case 'mc':
+      case 'gap': return eligible(exercise, it);
+      case 'typing': return eligible('typing', it) || eligible('gap', it);
+      case 'matching': return !!preferredVariant(it);
+      default: return true;
+    }
+  }
+
   function filterPool(cfg) {
+    const exercise = cfg.exercise || 'mix';
     return subjectPool().filter((it) =>
       inCat(it, cfg.category) &&
-      (cfg.difficulty === 'all' || String(it.difficulty) === String(cfg.difficulty)));
+      (cfg.difficulty === 'all' || String(it.difficulty) === String(cfg.difficulty)) &&
+      fitsExercise(it, exercise));
   }
 
   function quickItems(pool, size) {
@@ -1047,7 +1061,8 @@
     const ok = kinds.filter((k) => eligible(k, it));
     // zdanie z luką to też wpisywanie
     if (!ok.length && exercise === 'typing' && eligible('gap', it)) return 'gap';
-    // karta „ułóż w kolejności” ma tylko jedno ćwiczenie poza fiszką, więc dostaje je w każdym trybie
+    // karta „ułóż w kolejności” ma tylko jedno ćwiczenie poza fiszką; w sesjach z gotową listą kart (powtórka błędów)
+    // dostaje je niezależnie od trybu, bo pula Własnej sesji jest już zawężona przez fitsExercise()
     if (!ok.length && eligible('order', it)) return 'order';
     if (!ok.length) return eligible('mc', it) ? 'mc' : 'flashcard';
     if (ok.length === 1) return ok[0];
