@@ -26,7 +26,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "1.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "wolność",
+    "tolerancja",
+    "sprawiedliwość"
+   ]
   },
   {
    "id": "ez7-pp-002",
@@ -43,7 +48,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "1.5",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "wolontariat",
+    "transfuzja",
+    "dawstwo szpiku"
+   ]
   },
   {
    "id": "ez7-pp-003",
@@ -58,7 +68,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "1.5",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "krwiodawstwo",
+    "filantropia",
+    "staż"
+   ]
   },
   {
    "id": "ez7-pp-004",
@@ -70,7 +85,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "1.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "psychicznego",
+    "fizycznego",
+    "indywidualnego"
+   ]
   },
   {
    "id": "ez7-pp-005",
@@ -86,7 +106,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "2.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "środowisko",
+    "genetyka",
+    "opieka zdrowotna"
+   ]
   },
   {
    "id": "ez7-pp-006",
@@ -98,7 +123,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "duchowego",
+    "emocjonalnego",
+    "ekonomicznego"
+   ]
   },
   {
    "id": "ez7-pp-007",
@@ -114,7 +144,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.2",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "choroby cywilizacyjne",
+    "choroby genetyczne",
+    "choroby autoimmunologiczne"
+   ]
   },
   {
    "id": "ez7-pp-008",
@@ -131,7 +166,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "pokarmową",
+    "płciową",
+    "wektorową"
+   ]
   },
   {
    "id": "ez7-pp-009",
@@ -146,7 +186,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.2",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "anafilaksja",
+    "borelioza",
+    "zapalenie płuc"
+   ]
   },
   {
    "id": "ez7-pp-010",
@@ -158,7 +203,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "2.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "bąble",
+    "pęcherze",
+    "krosty"
+   ]
   },
   {
    "id": "ez7-pp-011",
@@ -173,7 +223,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.3",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "pandemia",
+    "endemia",
+    "ognisko"
+   ]
   },
   {
    "id": "ez7-pp-012",
@@ -188,7 +243,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.3",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "epidemia",
+    "endemia",
+    "zoonoza"
+   ]
   },
   {
    "id": "ez7-pp-013",
@@ -200,7 +260,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.3",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "mycie zębów",
+    "mycie włosów",
+    "płukanie gardła"
+   ]
   },
   {
    "id": "ez7-pp-014",
@@ -215,7 +280,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "zalecane",
+    "dodatkowe",
+    "sezonowe"
+   ]
   },
   {
    "id": "ez7-pp-015",
@@ -230,7 +300,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "obowiązkowe",
+    "przypominające",
+    "interwencyjne"
+   ]
   },
   {
    "id": "ez7-pp-016",
@@ -248,7 +323,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "2.4",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "odporność swoista",
+    "odporność wrodzona",
+    "odporność czynna"
+   ]
   },
   {
    "id": "ez7-pp-017",
@@ -260,7 +340,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.4",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "misinformacja",
+    "propaganda",
+    "plotka"
+   ]
   },
   {
    "id": "ez7-pp-018",
@@ -276,7 +361,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "niemodyfikowalne",
+    "genetyczne",
+    "wrodzone"
+   ]
   },
   {
    "id": "ez7-pp-019",
@@ -296,7 +386,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "dieta",
+    "palenie",
+    "stres"
+   ]
   },
   {
    "id": "ez7-pp-020",
@@ -313,7 +408,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "tętno",
+    "saturacja",
+    "glikemia"
+   ]
   },
   {
    "id": "ez7-pp-021",
@@ -325,7 +425,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "2.5",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "140/90",
+    "90/60",
+    "160/100"
+   ]
   },
   {
    "id": "ez7-pp-022",
@@ -341,7 +446,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.6",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "bariera komunikacyjna",
+    "bariera społeczna",
+    "bariera cyfrowa"
+   ]
   },
   {
    "id": "ez7-pp-023",
@@ -358,7 +468,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.w1",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "choroby cywilizacyjne",
+    "choroby genetyczne",
+    "choroby zawodowe"
+   ]
   },
   {
    "id": "ez7-pp-024",
@@ -374,7 +489,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.w1",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "kleszczowe zapalenie mózgu",
+    "malaria",
+    "wścieklizna"
+   ]
   },
   {
    "id": "ez7-pp-025",
@@ -390,7 +510,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.w2",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "choroby zakaźne",
+    "choroby genetyczne",
+    "choroby odzwierzęce"
+   ]
   },
   {
    "id": "ez7-pp-026",
@@ -405,7 +530,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.w2",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "zawał serca",
+    "padaczka",
+    "migrena"
+   ]
   },
   {
    "id": "ez7-pp-027",
@@ -417,7 +547,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.w2",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "paradontoza",
+    "zapalenie dziąseł",
+    "kamień nazębny"
+   ]
   },
   {
    "id": "ez7-pp-028",
@@ -432,7 +567,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "2.w2",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "niedoczynność tarczycy",
+    "osteoporoza",
+    "nadciśnienie"
+   ]
   },
   {
    "id": "ez7-pp-029",
@@ -505,7 +645,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.3",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "kifoza",
+    "lordoza",
+    "płaskostopie"
+   ]
   },
   {
    "id": "ez7-pp-033",
@@ -521,7 +666,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "mięśnie brzucha",
+    "mięśnie grzbietu",
+    "mięśnie pośladkowe"
+   ]
   },
   {
    "id": "ez7-pp-034",
@@ -533,7 +683,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "3.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "łokcie",
+    "nadgarstki",
+    "szyję"
+   ]
   },
   {
    "id": "ez7-pp-035",
@@ -549,7 +704,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.4",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "transport publiczny",
+    "carpooling",
+    "transport zmotoryzowany"
+   ]
   },
   {
    "id": "ez7-pp-036",
@@ -561,7 +721,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.4",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "tlenu",
+    "ozonu",
+    "azotu"
+   ]
   },
   {
    "id": "ez7-pp-037",
@@ -580,7 +745,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.4",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "aktywny tryb życia",
+    "zdrowy styl życia",
+    "higieniczny tryb życia"
+   ]
   },
   {
    "id": "ez7-pp-038",
@@ -595,7 +765,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.5",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "rozgrzewka",
+    "rehabilitacja",
+    "krioterapia"
+   ]
   },
   {
    "id": "ez7-pp-039",
@@ -610,7 +785,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.5",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "krioterapia",
+    "sauna",
+    "balneoterapia"
+   ]
   },
   {
    "id": "ez7-pp-040",
@@ -622,7 +802,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.5",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "intensywność",
+    "spontaniczność",
+    "wytrzymałość"
+   ]
   },
   {
    "id": "ez7-pp-041",
@@ -637,7 +822,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.w1",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "skolioza",
+    "krzywica",
+    "reumatyzm"
+   ]
   },
   {
    "id": "ez7-pp-042",
@@ -651,7 +841,9 @@
    "pp": "3.w1",
    "kind": "wartość",
    "distractors": [
-    "1"
+    "1",
+    "MODY",
+    "LADA"
    ]
   },
   {
@@ -667,7 +859,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "3.w2",
-   "kind": "hormon"
+   "kind": "hormon",
+   "distractors": [
+    "estrogeny",
+    "androgeny",
+    "prostaglandyny"
+   ]
   },
   {
    "id": "ez7-pp-044",
@@ -685,7 +882,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.1",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "ćwiartkę",
+    "trzecią część",
+    "dwie trzecie"
+   ]
   },
   {
    "id": "ez7-pp-045",
@@ -702,7 +904,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.1",
-   "kind": "produkt"
+   "kind": "produkt",
+   "distractors": [
+    "produkty białkowe",
+    "warzywa i owoce",
+    "produkty mleczne"
+   ]
   },
   {
    "id": "ez7-pp-046",
@@ -716,7 +923,9 @@
    "pp": "4.1",
    "kind": "produkt",
    "distractors": [
-    "zbożowe"
+    "zbożowe",
+    "mleczne",
+    "tłuszczowe"
    ]
   },
   {
@@ -733,7 +942,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.1",
-   "kind": "produkt"
+   "kind": "produkt",
+   "distractors": [
+    "herbata",
+    "sok",
+    "mleko"
+   ]
   },
   {
    "id": "ez7-pp-048",
@@ -749,7 +963,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "piramida żywieniowa",
+    "koło żywienia",
+    "indeks glikemiczny"
+   ]
   },
   {
    "id": "ez7-pp-049",
@@ -765,7 +984,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.2",
-   "kind": "produkt"
+   "kind": "produkt",
+   "distractors": [
+    "hipotoniczny",
+    "hipertoniczny",
+    "energetyzujący"
+   ]
   },
   {
    "id": "ez7-pp-050",
@@ -777,7 +1001,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.2",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "pieprzu",
+    "sody",
+    "cynamonu"
+   ]
   },
   {
    "id": "ez7-pp-051",
@@ -792,7 +1021,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.3",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "choroba Crohna",
+    "nietolerancja laktozy",
+    "choroba Hashimoto"
+   ]
   },
   {
    "id": "ez7-pp-052",
@@ -805,7 +1039,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "laktoza",
+    "kazeina",
+    "skrobia"
+   ]
   },
   {
    "id": "ez7-pp-053",
@@ -819,7 +1058,9 @@
    "pp": "4.3",
    "kind": "wartość",
    "distractors": [
-    "2"
+    "2",
+    "MODY",
+    "3"
    ]
   },
   {
@@ -835,7 +1076,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.3",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "choroba Gravesa-Basedowa",
+    "celiakia",
+    "cukrzyca typu 1"
+   ]
   },
   {
    "id": "ez7-pp-055",
@@ -850,7 +1096,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.4",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "tauryna",
+    "nikotyna",
+    "teobromina"
+   ]
   },
   {
    "id": "ez7-pp-056",
@@ -862,7 +1113,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.4",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "16",
+    "21",
+    "15"
+   ]
   },
   {
    "id": "ez7-pp-057",
@@ -875,7 +1131,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "4.4",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "suplementacja",
+    "farmakoterapia",
+    "fair play"
+   ]
   },
   {
    "id": "ez7-pp-058",
@@ -887,7 +1148,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "4.4",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "C",
+    "B12",
+    "B6"
+   ]
   },
   {
    "id": "ez7-pp-059",
@@ -904,7 +1170,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "5.1",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "reakcja alergiczna",
+    "reakcja anafilaktyczna",
+    "reakcja obronna"
+   ]
   },
   {
    "id": "ez7-pp-060",
@@ -920,7 +1191,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.1",
-   "kind": "hormon"
+   "kind": "hormon",
+   "distractors": [
+    "insulina",
+    "melatonina",
+    "serotonina"
+   ]
   },
   {
    "id": "ez7-pp-061",
@@ -936,7 +1212,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "poczucie winy",
+    "poczucie bezpieczeństwa",
+    "empatia"
+   ]
   },
   {
    "id": "ez7-pp-062",
@@ -952,7 +1233,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "poczucie własnej wartości",
+    "tożsamość",
+    "samoświadomość"
+   ]
   },
   {
    "id": "ez7-pp-063",
@@ -964,7 +1250,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "emotikonami",
+    "hasztagami",
+    "napisami"
+   ]
   },
   {
    "id": "ez7-pp-064",
@@ -981,7 +1272,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "ciałoneutralność",
+    "fatfobia",
+    "fitspiracja"
+   ]
   },
   {
    "id": "ez7-pp-065",
@@ -996,7 +1292,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.4",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "pierwsza pomoc przedmedyczna",
+    "psychoterapia",
+    "interwencja kryzysowa"
+   ]
   },
   {
    "id": "ez7-pp-066",
@@ -1010,7 +1311,9 @@
    "pp": "5.4",
    "kind": "zachowanie",
    "distractors": [
-    "mówienie"
+    "mówienie",
+    "doradzanie",
+    "pocieszanie"
    ]
   },
   {
@@ -1042,7 +1345,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.w2",
-   "kind": "zaburzenie"
+   "kind": "zaburzenie",
+   "distractors": [
+    "zaburzenia lękowe",
+    "fobia społeczna",
+    "ADHD"
+   ]
   },
   {
    "id": "ez7-pp-069",
@@ -1058,7 +1366,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.w2",
-   "kind": "zaburzenie"
+   "kind": "zaburzenie",
+   "distractors": [
+    "bulimia",
+    "ortoreksja",
+    "bigoreksja"
+   ]
   },
   {
    "id": "ez7-pp-070",
@@ -1074,7 +1387,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.w2",
-   "kind": "zaburzenie"
+   "kind": "zaburzenie",
+   "distractors": [
+    "anoreksja",
+    "ortoreksja",
+    "kompulsywne objadanie"
+   ]
   },
   {
    "id": "ez7-pp-071",
@@ -1091,7 +1409,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "5.w2",
-   "kind": "zaburzenie"
+   "kind": "zaburzenie",
+   "distractors": [
+    "anoreksja",
+    "hipochondria",
+    "fobia społeczna"
+   ]
   },
   {
    "id": "ez7-pp-072",
@@ -1106,7 +1429,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "przyjaźń",
+    "miłość dojrzała",
+    "koleżeństwo"
+   ]
   },
   {
    "id": "ez7-pp-073",
@@ -1118,7 +1446,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "przyjaźń",
+    "namiętność",
+    "sympatia"
+   ]
   },
   {
    "id": "ez7-pp-074",
@@ -1130,7 +1463,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "romantyczna",
+    "rodzicielska",
+    "platoniczna"
+   ]
   },
   {
    "id": "ez7-pp-075",
@@ -1145,7 +1483,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "zastępcza",
+    "niepełna",
+    "wielopokoleniowa"
+   ]
   },
   {
    "id": "ez7-pp-076",
@@ -1161,7 +1504,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.3",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "asertywność",
+    "perswazja",
+    "negocjacja"
+   ]
   },
   {
    "id": "ez7-pp-077",
@@ -1177,7 +1525,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "agresja",
+    "uległość",
+    "empatia"
+   ]
   },
   {
    "id": "ez7-pp-078",
@@ -1189,7 +1542,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "6.3",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "zasłona dymna",
+    "komunikat ja",
+    "jestem słoniem"
+   ]
   },
   {
    "id": "ez7-pp-079",
@@ -1204,7 +1562,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.4",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "negocjacja",
+    "arbitraż",
+    "kompromis"
+   ]
   },
   {
    "id": "ez7-pp-080",
@@ -1219,7 +1582,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "arbiter",
+    "sędzia",
+    "negocjator"
+   ]
   },
   {
    "id": "ez7-pp-081",
@@ -1231,7 +1599,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "6.4",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "rywalizacja",
+    "uleganie",
+    "unikanie"
+   ]
   },
   {
    "id": "ez7-pp-082",
@@ -1248,7 +1621,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.1",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "andropauza",
+    "menarche",
+    "owulacja"
+   ]
   },
   {
    "id": "ez7-pp-083",
@@ -1263,7 +1641,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.1",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "menopauza",
+    "pokwitanie",
+    "mutacja"
+   ]
   },
   {
    "id": "ez7-pp-084",
@@ -1276,7 +1659,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.2",
-   "kind": "hormon"
+   "kind": "hormon",
+   "distractors": [
+    "estrogen",
+    "progesteron",
+    "insulina"
+   ]
   },
   {
    "id": "ez7-pp-085",
@@ -1293,7 +1681,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.2",
-   "kind": "hormon"
+   "kind": "hormon",
+   "distractors": [
+    "androgeny",
+    "endorfiny",
+    "hormony tarczycy"
+   ]
   },
   {
    "id": "ez7-pp-086",
@@ -1312,7 +1705,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.2",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "kamica nerkowa",
+    "grzybica pochwy",
+    "zapalenie wyrostka"
+   ]
   },
   {
    "id": "ez7-pp-087",
@@ -1327,7 +1725,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.3",
-   "kind": "produkt"
+   "kind": "produkt",
+   "distractors": [
+    "tampon",
+    "podpaska",
+    "majtki menstruacyjne"
+   ]
   },
   {
    "id": "ez7-pp-088",
@@ -1342,7 +1745,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.3",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "tabu menstruacyjne",
+    "wykluczenie społeczne",
+    "ubóstwo energetyczne"
+   ]
   },
   {
    "id": "ez7-pp-089",
@@ -1354,7 +1762,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "7.3",
-   "kind": "wartość"
+   "kind": "wartość",
+   "distractors": [
+    "2",
+    "12",
+    "24"
+   ]
   },
   {
    "id": "ez7-pp-090",
@@ -1367,7 +1780,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "8.1",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "kwaśne deszcze",
+    "efekt cieplarniany",
+    "dziura ozonowa"
+   ]
   },
   {
    "id": "ez7-pp-091",
@@ -1385,7 +1803,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "8.1",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "dwutlenek siarki",
+    "tlenki azotu",
+    "tlenek węgla"
+   ]
   },
   {
    "id": "ez7-pp-092",
@@ -1400,7 +1823,8 @@
    "kind": "zjawisko",
    "distractors": [
     "mrozów",
-    "chłodów"
+    "chłodów",
+    "burz"
    ]
   },
   {
@@ -1418,7 +1842,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "8.1",
-   "kind": "choroba"
+   "kind": "choroba",
+   "distractors": [
+    "hipotermia",
+    "odmrożenie",
+    "udar mózgu"
+   ]
   },
   {
    "id": "ez7-pp-094",
@@ -1434,7 +1863,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "8.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "ekosystem",
+    "biosfera",
+    "biomasa"
+   ]
   },
   {
    "id": "ez7-pp-095",
@@ -1446,7 +1880,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "8.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "drapieżnych",
+    "wodnych",
+    "glebowych"
+   ]
   },
   {
    "id": "ez7-pp-096",
@@ -1462,7 +1901,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.1",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "cyberprzemoc",
+    "hejt",
+    "trolling"
+   ]
   },
   {
    "id": "ez7-pp-097",
@@ -1479,7 +1923,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "dane publiczne",
+    "dane statystyczne",
+    "dane anonimowe"
+   ]
   },
   {
    "id": "ez7-pp-098",
@@ -1491,7 +1940,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.1",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "ankiety",
+    "memy",
+    "quizy"
+   ]
   },
   {
    "id": "ez7-pp-099",
@@ -1506,7 +1960,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "tożsamość cyfrowa",
+    "higiena cyfrowa",
+    "wykluczenie cyfrowe"
+   ]
   },
   {
    "id": "ez7-pp-100",
@@ -1522,7 +1981,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.2",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "patostreaming",
+    "seksting",
+    "phishing"
+   ]
   },
   {
    "id": "ez7-pp-101",
@@ -1538,7 +2002,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.2",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "seksting",
+    "spam",
+    "stalking"
+   ]
   },
   {
    "id": "ez7-pp-102",
@@ -1553,7 +2022,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.2",
-   "kind": "zachowanie"
+   "kind": "zachowanie",
+   "distractors": [
+    "grooming",
+    "stalking",
+    "catfishing"
+   ]
   },
   {
    "id": "ez7-pp-103",
@@ -1565,7 +2039,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "9.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "ICD-10",
+    "DSM-5",
+    "ICF"
+   ]
   },
   {
    "id": "ez7-pp-104",
@@ -1580,7 +2059,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "anaboliczne",
+    "przeciwbólowe",
+    "przeciwzapalne"
+   ]
   },
   {
    "id": "ez7-pp-105",
@@ -1595,7 +2079,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "kofeina",
+    "amfetamina",
+    "tauryna"
+   ]
   },
   {
    "id": "ez7-pp-106",
@@ -1610,7 +2099,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "nerka",
+    "trzustka",
+    "żołądek"
+   ]
   },
   {
    "id": "ez7-pp-107",
@@ -1626,7 +2120,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.3",
-   "kind": "substancja"
+   "kind": "substancja",
+   "distractors": [
+    "sterydy anaboliczne",
+    "opioidy",
+    "benzodiazepiny"
+   ]
   },
   {
    "id": "ez7-pp-108",
@@ -1640,7 +2139,9 @@
    "pp": "9.3",
    "kind": "pojęcie",
    "distractors": [
-    "psychiczne"
+    "psychiczne",
+    "behawioralne",
+    "społeczne"
    ]
   },
   {
@@ -1656,7 +2157,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.4",
-   "kind": "metoda"
+   "kind": "metoda",
+   "distractors": [
+    "ślad cyfrowy",
+    "kontrola rodzicielska",
+    "cyberbezpieczeństwo"
+   ]
   },
   {
    "id": "ez7-pp-110",
@@ -1673,7 +2179,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.4",
-   "kind": "zjawisko"
+   "kind": "zjawisko",
+   "distractors": [
+    "przemoc rówieśnicza",
+    "manipulacja",
+    "mobbing"
+   ]
   },
   {
    "id": "ez7-pp-111",
@@ -1685,7 +2196,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "9.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "posiłkiem",
+    "treningiem",
+    "nauką"
+   ]
   }
  ]
 }
