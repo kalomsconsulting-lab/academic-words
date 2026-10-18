@@ -1,6 +1,20 @@
 {
  "version": 1,
  "subject": "cs_ib",
+ "kinds": [
+  "concept",
+  "hardware",
+  "software",
+  "number",
+  "value",
+  "standard",
+  "network",
+  "algorithm",
+  "expression",
+  "keyword",
+  "database",
+  "security"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, informatyka, zakres podstawowy (Dz.U. 2018 poz. 467); uzupełnienia z IB DP Computer Science (themes A1-A4, B1-B2) oznaczone 'IB'",
  "items": [
@@ -16,7 +30,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "hardware"
   },
   {
    "id": "csib-pp-002",
@@ -27,7 +42,11 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "hardware",
+   "distractors": [
+    "control unit"
+   ]
   },
   {
    "id": "csib-pp-003",
@@ -41,7 +60,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "hardware"
   },
   {
    "id": "csib-pp-004",
@@ -52,7 +72,11 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "concept",
+   "distractors": [
+    "volatile"
+   ]
   },
   {
    "id": "csib-pp-005",
@@ -67,7 +91,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "hardware"
   },
   {
    "id": "csib-pp-006",
@@ -78,7 +103,12 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "concept",
+   "distractors": [
+    "decode",
+    "execute"
+   ]
   },
   {
    "id": "csib-pp-007",
@@ -93,7 +123,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "hardware"
   },
   {
    "id": "csib-pp-008",
@@ -107,7 +138,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "software"
   },
   {
    "id": "csib-pp-009",
@@ -123,7 +155,8 @@
    "category": "csib_systems",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-010",
@@ -135,7 +168,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "software"
   },
   {
    "id": "csib-pp-011",
@@ -146,7 +180,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "software"
   },
   {
    "id": "csib-pp-012",
@@ -160,7 +195,8 @@
    "category": "csib_systems",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "hardware"
   },
   {
    "id": "csib-pp-013",
@@ -172,7 +208,8 @@
    "category": "csib_data",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2a"
+   "pp": "I.2a",
+   "kind": "number"
   },
   {
    "id": "csib-pp-014",
@@ -184,7 +221,8 @@
    "category": "csib_data",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2a"
+   "pp": "I.2a",
+   "kind": "number"
   },
   {
    "id": "csib-pp-015",
@@ -196,7 +234,8 @@
    "category": "csib_data",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2a"
+   "pp": "I.2a",
+   "kind": "number"
   },
   {
    "id": "csib-pp-016",
@@ -211,7 +250,8 @@
    "category": "csib_data",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2a"
+   "pp": "I.2a",
+   "kind": "value"
   },
   {
    "id": "csib-pp-017",
@@ -226,7 +266,8 @@
    "category": "csib_data",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2a"
+   "pp": "I.2a",
+   "kind": "value"
   },
   {
    "id": "csib-pp-018",
@@ -240,7 +281,8 @@
    "category": "csib_data",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-019",
@@ -252,7 +294,8 @@
    "category": "csib_data",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-020",
@@ -262,7 +305,8 @@
    "category": "csib_data",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-021",
@@ -274,7 +318,8 @@
    "category": "csib_data",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "standard"
   },
   {
    "id": "csib-pp-022",
@@ -285,7 +330,8 @@
    "category": "csib_data",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "standard"
   },
   {
    "id": "csib-pp-023",
@@ -297,7 +343,8 @@
    "category": "csib_data",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-024",
@@ -308,7 +355,8 @@
    "category": "csib_data",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-025",
@@ -322,7 +370,8 @@
    "category": "csib_data",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A1"
+   "pp": "IB A1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-026",
@@ -334,7 +383,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A2"
+   "pp": "IB A2",
+   "kind": "network"
   },
   {
    "id": "csib-pp-027",
@@ -345,7 +395,11 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A2"
+   "pp": "IB A2",
+   "kind": "network",
+   "distractors": [
+    "LAN"
+   ]
   },
   {
    "id": "csib-pp-028",
@@ -359,7 +413,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "network"
   },
   {
    "id": "csib-pp-029",
@@ -373,7 +428,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "number"
   },
   {
    "id": "csib-pp-030",
@@ -387,7 +443,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "standard"
   },
   {
    "id": "csib-pp-031",
@@ -402,7 +459,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "network"
   },
   {
    "id": "csib-pp-032",
@@ -414,7 +472,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A2"
+   "pp": "IB A2",
+   "kind": "hardware"
   },
   {
    "id": "csib-pp-033",
@@ -424,7 +483,12 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A2"
+   "pp": "IB A2",
+   "kind": "hardware",
+   "distractors": [
+    "hub",
+    "router"
+   ]
   },
   {
    "id": "csib-pp-034",
@@ -439,7 +503,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "standard"
   },
   {
    "id": "csib-pp-035",
@@ -454,7 +519,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-036",
@@ -464,7 +530,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "network"
   },
   {
    "id": "csib-pp-037",
@@ -479,7 +546,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "standard"
   },
   {
    "id": "csib-pp-038",
@@ -491,7 +559,8 @@
    "category": "csib_networks",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A2"
+   "pp": "IB A2",
+   "kind": "software"
   },
   {
    "id": "csib-pp-039",
@@ -503,7 +572,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-040",
@@ -513,7 +583,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-041",
@@ -524,7 +595,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB B1"
+   "pp": "IB B1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-042",
@@ -538,7 +610,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2c"
+   "pp": "I.2c",
+   "kind": "algorithm"
   },
   {
    "id": "csib-pp-043",
@@ -552,7 +625,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2c"
+   "pp": "I.2c",
+   "kind": "algorithm"
   },
   {
    "id": "csib-pp-044",
@@ -566,7 +640,8 @@
    "category": "csib_algorithms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB B1"
+   "pp": "IB B1",
+   "kind": "expression"
   },
   {
    "id": "csib-pp-045",
@@ -580,7 +655,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB B1"
+   "pp": "IB B1",
+   "kind": "algorithm"
   },
   {
    "id": "csib-pp-046",
@@ -595,7 +671,8 @@
    "category": "csib_algorithms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB B1"
+   "pp": "IB B1",
+   "kind": "expression"
   },
   {
    "id": "csib-pp-047",
@@ -611,7 +688,8 @@
    "category": "csib_algorithms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB B1"
+   "pp": "IB B1",
+   "kind": "expression"
   },
   {
    "id": "csib-pp-048",
@@ -621,7 +699,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB B1"
+   "pp": "IB B1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-049",
@@ -633,7 +712,8 @@
    "category": "csib_algorithms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2b"
+   "pp": "I.2b",
+   "kind": "value"
   },
   {
    "id": "csib-pp-050",
@@ -650,7 +730,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2b"
+   "pp": "I.2b",
+   "kind": "algorithm"
   },
   {
    "id": "csib-pp-051",
@@ -662,7 +743,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2d"
+   "pp": "I.2d",
+   "kind": "number"
   },
   {
    "id": "csib-pp-052",
@@ -679,7 +761,8 @@
    "category": "csib_algorithms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2a"
+   "pp": "I.2a",
+   "kind": "expression"
   },
   {
    "id": "csib-pp-053",
@@ -695,7 +778,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2a"
+   "pp": "I.2a",
+   "kind": "algorithm"
   },
   {
    "id": "csib-pp-054",
@@ -705,7 +789,8 @@
    "category": "csib_algorithms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-055",
@@ -717,7 +802,8 @@
    "category": "csib_programming",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-056",
@@ -729,7 +815,8 @@
    "category": "csib_programming",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-057",
@@ -743,7 +830,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-058",
@@ -757,7 +845,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-059",
@@ -767,7 +856,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-060",
@@ -779,7 +869,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-061",
@@ -789,7 +880,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-062",
@@ -803,7 +895,8 @@
    "category": "csib_programming",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-063",
@@ -817,7 +910,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-064",
@@ -829,7 +923,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-065",
@@ -841,7 +936,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-066",
@@ -855,7 +951,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-067",
@@ -865,7 +962,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-068",
@@ -879,7 +977,8 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-069",
@@ -891,7 +990,8 @@
    "category": "csib_programming",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "number"
   },
   {
    "id": "csib-pp-070",
@@ -906,7 +1006,8 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "value"
   },
   {
    "id": "csib-pp-071",
@@ -916,7 +1017,11 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "concept",
+   "distractors": [
+    "parameter"
+   ]
   },
   {
    "id": "csib-pp-072",
@@ -927,7 +1032,12 @@
    "category": "csib_programming",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "concept",
+   "distractors": [
+    "syntax",
+    "runtime"
+   ]
   },
   {
    "id": "csib-pp-073",
@@ -941,7 +1051,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3d"
+   "pp": "II.3d",
+   "kind": "database"
   },
   {
    "id": "csib-pp-074",
@@ -951,7 +1062,11 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3d"
+   "pp": "II.3d",
+   "kind": "database",
+   "distractors": [
+    "record"
+   ]
   },
   {
    "id": "csib-pp-075",
@@ -965,7 +1080,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3d"
+   "pp": "II.3d",
+   "kind": "database"
   },
   {
    "id": "csib-pp-076",
@@ -977,7 +1093,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3d"
+   "pp": "II.3d",
+   "kind": "database"
   },
   {
    "id": "csib-pp-077",
@@ -991,7 +1108,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A3"
+   "pp": "IB A3",
+   "kind": "standard"
   },
   {
    "id": "csib-pp-078",
@@ -1005,7 +1123,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A3"
+   "pp": "IB A3",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-079",
@@ -1019,7 +1138,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A3"
+   "pp": "IB A3",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-080",
@@ -1029,7 +1149,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3c"
+   "pp": "II.3c",
+   "kind": "keyword"
   },
   {
    "id": "csib-pp-081",
@@ -1044,7 +1165,8 @@
    "category": "csib_databases",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3c"
+   "pp": "II.3c",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-082",
@@ -1058,7 +1180,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3c"
+   "pp": "II.3c",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-083",
@@ -1070,7 +1193,8 @@
    "category": "csib_databases",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3d"
+   "pp": "II.3d",
+   "kind": "database"
   },
   {
    "id": "csib-pp-084",
@@ -1080,7 +1204,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-085",
@@ -1092,7 +1217,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-086",
@@ -1108,7 +1234,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "software"
   },
   {
    "id": "csib-pp-087",
@@ -1118,7 +1245,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "security"
   },
   {
    "id": "csib-pp-088",
@@ -1130,7 +1258,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-089",
@@ -1142,7 +1271,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "security"
   },
   {
    "id": "csib-pp-090",
@@ -1159,7 +1289,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "security"
   },
   {
    "id": "csib-pp-091",
@@ -1169,7 +1300,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "security"
   },
   {
    "id": "csib-pp-092",
@@ -1181,7 +1313,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "security"
   },
   {
    "id": "csib-pp-093",
@@ -1195,7 +1328,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-094",
@@ -1207,7 +1341,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-095",
@@ -1221,7 +1356,8 @@
    "category": "csib_impacts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A4"
+   "pp": "IB A4",
+   "kind": "concept"
   },
   {
    "id": "csib-pp-096",
@@ -1232,7 +1368,8 @@
    "category": "csib_impacts",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB A4"
+   "pp": "IB A4",
+   "kind": "concept"
   }
  ]
 }
