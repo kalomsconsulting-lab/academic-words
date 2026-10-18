@@ -34,7 +34,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S1.2",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "number of neutrons",
+    "number of nucleons",
+    "number of electron shells"
+   ]
   },
   {
    "id": "chemib-pp-002",
@@ -52,7 +57,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S1.2",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "protons plus electrons",
+    "number of neutrons",
+    "number of electron shells"
+   ]
   },
   {
    "id": "chemib-pp-003",
@@ -79,7 +89,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S1.2",
-   "kind": "particle"
+   "kind": "particle",
+   "distractors": [
+    "protons",
+    "electrons",
+    "valence electrons"
+   ]
   },
   {
    "id": "chemib-pp-005",
@@ -95,7 +110,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S1.2",
-   "kind": "particle"
+   "kind": "particle",
+   "distractors": [
+    "proton",
+    "neutron",
+    "nucleon"
+   ]
   },
   {
    "id": "chemib-pp-006",
@@ -112,7 +132,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S1.2",
-   "kind": "particle"
+   "kind": "particle",
+   "distractors": [
+    "protons and electrons",
+    "neutrons and electrons",
+    "electrons only"
+   ]
   },
   {
    "id": "chemib-pp-007",
@@ -124,7 +149,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S1.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "ions",
+    "electrons",
+    "allotropes"
+   ]
   },
   {
    "id": "chemib-pp-008",
@@ -217,7 +247,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "configuration"
+   "kind": "configuration",
+   "distractors": [
+    "3p6",
+    "3p4",
+    "3d5"
+   ]
   },
   {
    "id": "chemib-pp-014",
@@ -281,7 +316,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S1.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Hund's rule",
+    "Aufbau principle",
+    "Heisenberg uncertainty principle"
+   ]
   },
   {
    "id": "chemib-pp-018",
@@ -296,7 +336,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "period",
+    "block",
+    "series"
+   ]
   },
   {
    "id": "chemib-pp-019",
@@ -311,7 +356,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "group",
+    "block",
+    "family"
+   ]
   },
   {
    "id": "chemib-pp-020",
@@ -327,7 +377,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "p block",
+    "d block",
+    "f block"
+   ]
   },
   {
    "id": "chemib-pp-021",
@@ -345,7 +400,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "number of valence electrons",
+    "number of protons",
+    "number of neutrons"
+   ]
   },
   {
    "id": "chemib-pp-022",
@@ -362,7 +422,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "number of occupied shells",
+    "number of protons",
+    "number of neutrons"
+   ]
   },
   {
    "id": "chemib-pp-023",
@@ -376,7 +441,9 @@
    "pp": "II.3",
    "kind": "trend",
    "distractors": [
-    "increases"
+    "increases",
+    "stays constant",
+    "varies irregularly"
    ]
   },
   {
@@ -391,7 +458,9 @@
    "pp": "II.3",
    "kind": "trend",
    "distractors": [
-    "decreases"
+    "decreases",
+    "stays constant",
+    "varies irregularly"
    ]
   },
   {
@@ -409,7 +478,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "trend"
+   "kind": "trend",
+   "distractors": [
+    "decreases",
+    "stays constant",
+    "varies irregularly"
+   ]
   },
   {
    "id": "chemib-pp-026",
@@ -424,7 +498,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "chlorine",
+    "argon",
+    "magnesium"
+   ]
   },
   {
    "id": "chemib-pp-027",
@@ -439,7 +518,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S3.1",
-   "kind": "class"
+   "kind": "class",
+   "distractors": [
+    "alkaline earth metals",
+    "transition metals",
+    "halogens"
+   ]
   },
   {
    "id": "chemib-pp-028",
@@ -454,7 +538,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S3.1",
-   "kind": "class"
+   "kind": "class",
+   "distractors": [
+    "noble gases",
+    "alkali metals",
+    "chalcogens"
+   ]
   },
   {
    "id": "chemib-pp-029",
@@ -470,7 +559,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB S3.1",
-   "kind": "class"
+   "kind": "class",
+   "distractors": [
+    "halogens",
+    "alkali metals",
+    "transition metals"
+   ]
   },
   {
    "id": "chemib-pp-030",
@@ -484,7 +578,9 @@
    "pp": "X.1",
    "kind": "trend",
    "distractors": [
-    "decreases"
+    "decreases",
+    "stays constant",
+    "varies irregularly"
    ]
   },
   {
@@ -500,7 +596,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "oxygen",
+    "chlorine",
+    "nitrogen"
+   ]
   },
   {
    "id": "chemib-pp-032",
@@ -514,7 +615,9 @@
    "pp": "III.1",
    "kind": "trend",
    "distractors": [
-    "decreases"
+    "decreases",
+    "stays constant",
+    "varies irregularly"
    ]
   },
   {
@@ -531,7 +634,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "covalent",
+    "metallic",
+    "polar covalent"
+   ]
   },
   {
    "id": "chemib-pp-034",
@@ -547,7 +655,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "ionic",
+    "metallic",
+    "London dispersion"
+   ]
   },
   {
    "id": "chemib-pp-035",
@@ -563,7 +676,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "ionic",
+    "covalent",
+    "hydrogen bonding"
+   ]
   },
   {
    "id": "chemib-pp-036",
@@ -595,7 +713,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "non-polar covalent",
+    "ionic",
+    "metallic"
+   ]
   },
   {
    "id": "chemib-pp-038",
@@ -659,7 +782,9 @@
    "pp": "III.3",
    "kind": "bond type",
    "distractors": [
-    "pi"
+    "pi",
+    "double",
+    "dative"
    ]
   },
   {
@@ -688,7 +813,12 @@
    "difficulty": 3,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "bent",
+    "trigonal pyramidal",
+    "tetrahedral"
+   ]
   },
   {
    "id": "chemib-pp-044",
@@ -704,7 +834,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.5",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "molecular",
+    "metallic",
+    "giant covalent"
+   ]
   },
   {
    "id": "chemib-pp-045",
@@ -720,7 +855,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.5",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "ionic",
+    "metallic",
+    "giant covalent"
+   ]
   },
   {
    "id": "chemib-pp-046",
@@ -732,7 +872,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "localised",
+    "inner-shell",
+    "shared"
+   ]
   },
   {
    "id": "chemib-pp-047",
@@ -748,7 +893,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.6",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "isomerism",
+    "isotopy",
+    "polymerisation"
+   ]
   },
   {
    "id": "chemib-pp-048",
@@ -763,7 +913,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.6",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "diamond",
+    "fullerene",
+    "amorphous carbon"
+   ]
   },
   {
    "id": "chemib-pp-049",
@@ -776,7 +931,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.6",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "graphite",
+    "diamond",
+    "fullerene"
+   ]
   },
   {
    "id": "chemib-pp-050",
@@ -788,7 +948,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.6",
-   "kind": "value"
+   "kind": "value",
+   "distractors": [
+    "three",
+    "two",
+    "six"
+   ]
   },
   {
    "id": "chemib-pp-051",
@@ -805,7 +970,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.6",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "graphene",
+    "graphite",
+    "diamond"
+   ]
   },
   {
    "id": "chemib-pp-052",
@@ -821,7 +991,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "dipole-dipole forces",
+    "London dispersion forces",
+    "metallic bonding"
+   ]
   },
   {
    "id": "chemib-pp-053",
@@ -839,7 +1014,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "hydrogen bonding",
+    "dipole-dipole forces",
+    "ionic bonding"
+   ]
   },
   {
    "id": "chemib-pp-054",
@@ -851,7 +1031,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "Cl",
+    "S",
+    "P"
+   ]
   },
   {
    "id": "chemib-pp-055",
@@ -867,7 +1052,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "bond type"
+   "kind": "bond type",
+   "distractors": [
+    "London dispersion forces",
+    "higher molar mass",
+    "ionic bonding"
+   ]
   },
   {
    "id": "chemib-pp-056",
@@ -881,7 +1071,9 @@
    "pp": "III.4",
    "kind": "trend",
    "distractors": [
-    "weaker"
+    "weaker",
+    "shorter",
+    "more polar"
    ]
   },
   {
@@ -919,7 +1111,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "gram",
+    "dalton",
+    "molar"
+   ]
   },
   {
    "id": "chemib-pp-059",
@@ -931,7 +1128,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Planck",
+    "Faraday",
+    "Boltzmann"
+   ]
   },
   {
    "id": "chemib-pp-060",
@@ -1085,7 +1287,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "kind": "particle"
+   "kind": "particle",
+   "distractors": [
+    "electrons",
+    "protons",
+    "neutrons"
+   ]
   },
   {
    "id": "chemib-pp-069",
@@ -1168,7 +1375,8 @@
    "kind": "trend",
    "distractors": [
     "is greater than",
-    "is less than"
+    "is less than",
+    "is double"
    ]
   },
   {
@@ -1183,7 +1391,9 @@
    "pp": "I.4",
    "kind": "concept",
    "distractors": [
-    "molecular"
+    "molecular",
+    "structural",
+    "general"
    ]
   },
   {
@@ -1239,7 +1449,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB R2.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "excess reactant",
+    "catalyst",
+    "intermediate"
+   ]
   },
   {
    "id": "chemib-pp-079",
@@ -1270,7 +1485,9 @@
    "pp": "IB R2.1",
    "kind": "concept",
    "distractors": [
-    "theoretical"
+    "theoretical",
+    "percentage",
+    "maximum"
    ]
   },
   {
@@ -1352,7 +1569,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "Concentration",
+    "Molarity",
+    "Density"
+   ]
   },
   {
    "id": "chemib-pp-086",
@@ -1364,7 +1586,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "technique"
+   "kind": "technique",
+   "distractors": [
+    "concentration",
+    "crystallisation",
+    "evaporation"
+   ]
   },
   {
    "id": "chemib-pp-087",
@@ -1396,7 +1623,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "suspension",
+    "solution",
+    "foam"
+   ]
   },
   {
    "id": "chemib-pp-089",
@@ -1411,7 +1643,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.5",
-   "kind": "technique"
+   "kind": "technique",
+   "distractors": [
+    "distillation",
+    "evaporation",
+    "chromatography"
+   ]
   },
   {
    "id": "chemib-pp-090",
@@ -1427,7 +1664,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "technique"
+   "kind": "technique",
+   "distractors": [
+    "filtration",
+    "chromatography",
+    "crystallisation"
+   ]
   },
   {
    "id": "chemib-pp-091",
@@ -1443,7 +1685,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "technique"
+   "kind": "technique",
+   "distractors": [
+    "distillation",
+    "filtration",
+    "extraction"
+   ]
   },
   {
    "id": "chemib-pp-092",
@@ -1459,7 +1706,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "technique"
+   "kind": "technique",
+   "distractors": [
+    "distillation",
+    "chromatography",
+    "crystallisation"
+   ]
   },
   {
    "id": "chemib-pp-093",
@@ -1475,7 +1727,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "reaction type"
+   "kind": "reaction type",
+   "distractors": [
+    "endothermic",
+    "reversible",
+    "catalytic"
+   ]
   },
   {
    "id": "chemib-pp-094",
@@ -1491,7 +1748,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "reaction type"
+   "kind": "reaction type",
+   "distractors": [
+    "exothermic",
+    "reversible",
+    "catalytic"
+   ]
   },
   {
    "id": "chemib-pp-095",
@@ -1507,7 +1769,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "enthalpy change",
+    "bond energy",
+    "lattice energy"
+   ]
   },
   {
    "id": "chemib-pp-096",
@@ -1525,7 +1792,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "kind": "value"
+   "kind": "value",
+   "distractors": [
+    "positive",
+    "zero",
+    "undefined"
+   ]
   },
   {
    "id": "chemib-pp-097",
@@ -1540,7 +1812,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "inhibitor",
+    "reactant",
+    "solvent"
+   ]
   },
   {
    "id": "chemib-pp-098",
@@ -1554,7 +1831,9 @@
    "pp": "IV.4",
    "kind": "trend",
    "distractors": [
-    "higher"
+    "higher",
+    "zero",
+    "negative"
    ]
   },
   {
@@ -1572,7 +1851,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "temperature",
+    "enthalpy",
+    "activation energy"
+   ]
   },
   {
    "id": "chemib-pp-100",
@@ -1589,7 +1873,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "trend"
+   "kind": "trend",
+   "distractors": [
+    "decreases",
+    "has no effect",
+    "stops the reaction"
+   ]
   },
   {
    "id": "chemib-pp-101",
@@ -1601,7 +1890,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "ionisation",
+    "bond",
+    "lattice"
+   ]
   },
   {
    "id": "chemib-pp-102",
@@ -1619,7 +1913,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.3",
-   "kind": "reaction type"
+   "kind": "reaction type",
+   "distractors": [
+    "decomposition",
+    "neutralisation",
+    "double displacement"
+   ]
   },
   {
    "id": "chemib-pp-103",
@@ -1635,7 +1934,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.3",
-   "kind": "reaction type"
+   "kind": "reaction type",
+   "distractors": [
+    "synthesis",
+    "neutralisation",
+    "combustion"
+   ]
   },
   {
    "id": "chemib-pp-104",
@@ -1666,7 +1970,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "functional group",
+    "structural isomers",
+    "hydrocarbons"
+   ]
   },
   {
    "id": "chemib-pp-106",
@@ -1683,7 +1992,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "carboxyl",
+    "carbonyl",
+    "amino"
+   ]
   },
   {
    "id": "chemib-pp-107",
@@ -1698,7 +2012,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "class"
+   "kind": "class",
+   "distractors": [
+    "alcohols",
+    "esters",
+    "aldehydes"
+   ]
   },
   {
    "id": "chemib-pp-108",
@@ -1713,7 +2032,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XII.1",
-   "kind": "class"
+   "kind": "class",
+   "distractors": [
+    "alkanes",
+    "alkynes",
+    "arenes"
+   ]
   },
   {
    "id": "chemib-pp-109",
@@ -1729,7 +2053,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "equipment"
+   "kind": "equipment",
+   "distractors": [
+    "conical flask",
+    "beaker",
+    "measuring cylinder"
+   ]
   },
   {
    "id": "chemib-pp-110",
@@ -1745,7 +2074,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Tool 1",
-   "kind": "equipment"
+   "kind": "equipment",
+   "distractors": [
+    "pipette",
+    "measuring cylinder",
+    "conical flask"
+   ]
   },
   {
    "id": "chemib-pp-111",
@@ -1762,7 +2096,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Tool 1",
-   "kind": "equipment"
+   "kind": "equipment",
+   "distractors": [
+    "lab coat",
+    "gloves",
+    "face mask"
+   ]
   },
   {
    "id": "chemib-pp-112",
@@ -1778,7 +2117,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Tool 1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "oxidising",
+    "corrosive",
+    "explosive"
+   ]
   },
   {
    "id": "chemib-pp-113",
@@ -1794,7 +2138,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Tool 1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "corrosive",
+    "flammable",
+    "oxidising"
+   ]
   },
   {
    "id": "chemib-pp-114",
@@ -1811,7 +2160,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB Tool 1",
-   "kind": "technique"
+   "kind": "technique",
+   "distractors": [
+    "water to acid",
+    "both at once",
+    "ice to acid"
+   ]
   },
   {
    "id": "chemib-pp-115",
@@ -1827,7 +2181,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB Tool 1",
-   "kind": "equipment"
+   "kind": "equipment",
+   "distractors": [
+    "burette",
+    "measuring cylinder",
+    "volumetric flask"
+   ]
   }
  ]
 }
