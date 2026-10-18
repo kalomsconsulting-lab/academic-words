@@ -1658,6 +1658,265 @@
     "mode",
     "trimmed mean"
    ]
+  },
+  {
+   "id": "mathib-pp-097",
+   "type": "order",
+   "prompt": "Put the steps for solving x² − 5x + 6 = 0 with the discriminant in order",
+   "steps": [
+    "Identify the coefficients: a = 1, b = −5, c = 6",
+    "Calculate Δ = b² − 4ac = 25 − 24 = 1",
+    "Check the sign of Δ: Δ > 0, so there are two solutions",
+    "Apply x = (−b ± √Δ) / 2a",
+    "Write the solutions: x = 2 or x = 3"
+   ],
+   "explanation": "The discriminant decides how many real solutions there are, and the quadratic formula gives them.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "mathib-pp-098",
+   "type": "order",
+   "prompt": "Put the steps of solving the system x + y = 5, x − y = 1 by substitution in order",
+   "steps": [
+    "Express one variable from one equation: x = 5 − y",
+    "Substitute into the other equation: (5 − y) − y = 1",
+    "Solve for y: 5 − 2y = 1, so y = 2",
+    "Substitute back: x = 5 − 2 = 3",
+    "Check both equations with (3, 2)"
+   ],
+   "explanation": "Substitution reduces the system to one equation in one unknown; checking confirms the pair satisfies both equations.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "mathib-pp-099",
+   "type": "order",
+   "prompt": "Put the steps of solving |x − 3| = 5 in order",
+   "steps": [
+    "Rewrite as two cases: x − 3 = 5 or x − 3 = −5",
+    "Solve the first case: x = 8",
+    "Solve the second case: x = −2",
+    "Write the solution set: {−2, 8}"
+   ],
+   "explanation": "An absolute value equation |u| = a with a > 0 splits into u = a and u = −a.",
+   "category": "mathib_number",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.7"
+  },
+  {
+   "id": "mathib-pp-100",
+   "type": "order",
+   "prompt": "Put the steps of finding the equation of the line through (1, 2) and (3, 8) in order",
+   "steps": [
+    "Compute the gradient: a = (8 − 2) / (3 − 1) = 3",
+    "Write the form y = 3x + b",
+    "Substitute one point: 2 = 3 · 1 + b",
+    "Solve for b: b = −1",
+    "Write the equation: y = 3x − 1"
+   ],
+   "explanation": "The gradient comes from the two points, and one point then fixes the y-intercept.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "mathib-pp-101",
+   "type": "order",
+   "prompt": "Put the steps of finding the domain of f(x) = √(x − 3) / (x − 5) in order",
+   "steps": [
+    "Write the condition for the square root: x − 3 ≥ 0",
+    "Write the condition for the denominator: x − 5 ≠ 0",
+    "Solve each condition: x ≥ 3 and x ≠ 5",
+    "Combine them: D = [3, 5) ∪ (5, ∞)"
+   ],
+   "explanation": "The domain excludes values that make a root negative or a denominator zero.",
+   "category": "mathib_functions",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "mathib-pp-102",
+   "type": "order",
+   "prompt": "Put the steps of finding the hypotenuse of a right triangle with legs 5 and 12 in order",
+   "steps": [
+    "Write Pythagoras' theorem: a² + b² = c²",
+    "Substitute the legs: 5² + 12² = c²",
+    "Add the squares: 25 + 144 = 169",
+    "Take the square root: c = 13"
+   ],
+   "explanation": "In a right triangle the square of the hypotenuse equals the sum of the squares of the legs.",
+   "category": "mathib_geometry",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "VIII.1"
+  },
+  {
+   "id": "mathib-pp-103",
+   "type": "order",
+   "prompt": "Put the steps of finding the median of 7, 2, 9, 4, 5, 8 in order",
+   "steps": [
+    "Sort the data: 2, 4, 5, 7, 8, 9",
+    "Count the values: n = 6 (even)",
+    "Locate the two middle values: 5 and 7",
+    "Average them: (5 + 7) / 2 = 6"
+   ],
+   "explanation": "For an even number of values the median is the mean of the two middle values of the sorted list.",
+   "category": "mathib_stats",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "XII.2"
+  },
+  {
+   "id": "mathib-pp-104",
+   "type": "order",
+   "prompt": "Put the steps of finding the inverse of f(x) = 3x − 4 in order",
+   "steps": [
+    "Write y = 3x − 4",
+    "Swap x and y: x = 3y − 4",
+    "Solve for y: y = (x + 4) / 3",
+    "Write f⁻¹(x) = (x + 4) / 3"
+   ],
+   "explanation": "Swapping x and y reflects the graph in the line y = x, which is what an inverse function does.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB 2.2"
+  },
+  {
+   "id": "mathib-pp-105",
+   "type": "apply",
+   "situation": "You need to expand (2x + 3)². Which identity applies?",
+   "rule": "$$(a + b)^2 = a^2 + 2ab + b^2$$",
+   "wrong": [
+    "$$(a - b)^2 = a^2 - 2ab + b^2$$",
+    "$$a^2 - b^2 = (a - b)(a + b)$$",
+    "$$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$$"
+   ],
+   "explanation": "A sum squared expands with the plus sign in the middle term: 4x² + 12x + 9.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-106",
+   "type": "apply",
+   "situation": "You want to factorise x² − 49. Which identity applies?",
+   "rule": "$$a^2 - b^2 = (a - b)(a + b)$$",
+   "wrong": [
+    "$$(a + b)^2 = a^2 + 2ab + b^2$$",
+    "$$(a - b)^2 = a^2 - 2ab + b^2$$",
+    "$$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$$"
+   ],
+   "explanation": "x² − 49 is a difference of two squares, so it factorises as (x − 7)(x + 7).",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.1"
+  },
+  {
+   "id": "mathib-pp-107",
+   "type": "apply",
+   "situation": "You need to decide how many real solutions 2x² + 3x − 5 = 0 has. Which quantity do you compute?",
+   "rule": "$$\\Delta = b^2 - 4ac$$",
+   "wrong": [
+    "$$x_0 = -\\frac{b}{2a}$$",
+    "$$x_1 + x_2 = -\\frac{b}{a}$$",
+    "$$y = a(x - p)^2 + q$$"
+   ],
+   "explanation": "The sign of the discriminant tells the number of real roots; the other formulas give the vertex, Vieta's sum and the vertex form.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.4"
+  },
+  {
+   "id": "mathib-pp-108",
+   "type": "apply",
+   "situation": "A line passes through (2, 5) with gradient 3 and you want its equation. Which form is the most direct?",
+   "rule": "$$y - y_1 = a(x - x_1)$$",
+   "wrong": [
+    "$$a = \\frac{y_2 - y_1}{x_2 - x_1}$$",
+    "$$a_1 \\cdot a_2 = -1$$",
+    "$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$"
+   ],
+   "explanation": "The point–gradient form uses exactly the given data; the others compute a gradient from two points, test perpendicularity or give a distance.",
+   "category": "mathib_functions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.5"
+  },
+  {
+   "id": "mathib-pp-109",
+   "type": "apply",
+   "situation": "In a right triangle you know the hypotenuse (10) and an acute angle (30°) and want the side opposite the angle. Which ratio do you use?",
+   "rule": "$$\\sin\\alpha = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$",
+   "wrong": [
+    "$$\\cos\\alpha = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$",
+    "$$\\tan\\alpha = \\frac{\\text{opposite}}{\\text{adjacent}}$$",
+    "$$a^2 + b^2 = c^2$$"
+   ],
+   "explanation": "Sine links the opposite side with the hypotenuse, so opposite = 10 · sin 30° = 5.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VII.1"
+  },
+  {
+   "id": "mathib-pp-110",
+   "type": "apply",
+   "situation": "Two similar triangles have scale factor k = 2 and you want the ratio of their areas. Which rule applies?",
+   "rule": "$$\\frac{P_2}{P_1} = k^2$$",
+   "wrong": [
+    "$$\\frac{a_2}{a_1} = k$$",
+    "$$\\frac{V_2}{V_1} = k^3$$",
+    "$$P = \\frac{1}{2}ab\\sin\\gamma$$"
+   ],
+   "explanation": "Lengths scale by k, areas by k² and volumes by k³, so the area ratio is 4.",
+   "category": "mathib_geometry",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "VIII.9"
+  },
+  {
+   "id": "mathib-pp-111",
+   "type": "apply",
+   "situation": "You want to measure the spread of the middle 50% of exam scores. Which formula?",
+   "rule": "$$IQR = Q_3 - Q_1$$",
+   "wrong": [
+    "$$\\bar{x} = \\frac{\\sum x_i}{n}$$",
+    "$$\\text{range} = x_{max} - x_{min}$$",
+    "$$\\sigma = \\sqrt{\\frac{\\sum (x_i - \\bar{x})^2}{n}}$$"
+   ],
+   "explanation": "The interquartile range covers the middle half of the data and ignores extreme values.",
+   "category": "mathib_stats",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB 4.3"
+  },
+  {
+   "id": "mathib-pp-112",
+   "type": "apply",
+   "situation": "A price of 200 PLN is increased by 15%. Which expression gives the new price?",
+   "rule": "$$200 \\cdot 1.15$$",
+   "wrong": [
+    "$$200 \\cdot 0.85$$",
+    "$$200 \\cdot 0.15$$",
+    "$$\\frac{200}{1.15}$$"
+   ],
+   "explanation": "An increase of 15% means 115% of the price, so multiply by 1.15 to get 230 PLN.",
+   "category": "mathib_number",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.8"
   }
  ]
 }
