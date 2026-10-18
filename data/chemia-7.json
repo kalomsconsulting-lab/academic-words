@@ -1890,6 +1890,269 @@
    "source": "Podstawa programowa",
    "pp": "V.6",
    "kind": "wartość"
+  },
+  {
+   "id": "chem7-pp-103",
+   "type": "order",
+   "prompt": "Ułóż etapy rozdzielania mieszaniny soli kuchennej i piasku",
+   "steps": [
+    "Wsyp mieszaninę do wody i wymieszaj, aż sól się rozpuści",
+    "Przesącz zawiesinę przez sączek (piasek zostaje na sączku)",
+    "Odparuj wodę z przesączu w parownicy",
+    "Zbierz krystaliczną sól z parownicy"
+   ],
+   "explanation": "Sól rozpuszcza się w wodzie, a piasek nie, więc łączy się rozpuszczanie, sączenie i odparowanie.",
+   "category": "chem7_substances",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.6"
+  },
+  {
+   "id": "chem7-pp-104",
+   "type": "order",
+   "prompt": "Ułóż etapy bezpiecznego wykonywania doświadczenia chemicznego",
+   "steps": [
+    "Przeczytaj instrukcję i sprawdź piktogramy na odczynnikach",
+    "Załóż okulary ochronne i fartuch",
+    "Przygotuj sprzęt i odmierz odczynniki",
+    "Wykonaj doświadczenie i zapisz obserwacje",
+    "Sformułuj wniosek",
+    "Uprzątnij stanowisko i umyj ręce"
+   ],
+   "explanation": "Najpierw ocenia się zagrożenia i zabezpiecza, potem wykonuje doświadczenie, a na końcu porządkuje stanowisko.",
+   "category": "chem7_lab",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2"
+  },
+  {
+   "id": "chem7-pp-105",
+   "type": "order",
+   "prompt": "Ułóż kroki uzgadniania równania reakcji spalania magnezu: Mg + O2 → MgO",
+   "steps": [
+    "Zapisz wzory substratów i produktów: Mg + O2 → MgO",
+    "Policz atomy każdego pierwiastka po obu stronach",
+    "Dobierz współczynnik przed MgO, aby uzgodnić tlen: 2 MgO",
+    "Dobierz współczynnik przed Mg: 2 Mg",
+    "Sprawdź uzgodnione równanie: 2 Mg + O2 → 2 MgO"
+   ],
+   "explanation": "Uzgadnianie polega na dobieraniu współczynników tak, aby liczba atomów każdego pierwiastka była taka sama po obu stronach.",
+   "category": "chem7_reactions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chem7-pp-106",
+   "type": "order",
+   "prompt": "Ułóż etapy sporządzania 100 g roztworu soli o stężeniu 10%",
+   "steps": [
+    "Oblicz masę soli: 10% ze 100 g = 10 g",
+    "Oblicz masę wody: 100 g − 10 g = 90 g",
+    "Odważ 10 g soli",
+    "Odmierz 90 g (90 cm³) wody",
+    "Wsyp sól do wody i mieszaj do całkowitego rozpuszczenia"
+   ],
+   "explanation": "Stężenie procentowe mówi, ile gramów substancji przypada na 100 g roztworu, a reszta masy to rozpuszczalnik.",
+   "category": "chem7_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "chem7-pp-107",
+   "type": "order",
+   "prompt": "Ułóż kroki ustalania liczby cząstek w atomie sodu (A = 23, Z = 11)",
+   "steps": [
+    "Odczytaj liczbę atomową Z, czyli liczbę protonów: 11",
+    "Liczba elektronów w atomie obojętnym równa się Z: 11",
+    "Odczytaj liczbę masową A: 23",
+    "Oblicz liczbę neutronów: A − Z = 12"
+   ],
+   "explanation": "Liczba atomowa daje protony i elektrony, a różnica liczby masowej i atomowej daje neutrony.",
+   "category": "chem7_atoms",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chem7-pp-108",
+   "type": "order",
+   "prompt": "Ułóż kroki ustalania wzoru sumarycznego tlenku glinu (glin III-wartościowy, tlen II-wartościowy)",
+   "steps": [
+    "Zapisz symbole pierwiastków: Al, O",
+    "Zapisz wartościowości: Al(III), O(II)",
+    "Znajdź najmniejszą wspólną wielokrotność wartościowości: 6",
+    "Podziel ją przez wartościowość każdego pierwiastka: Al 6 : 3 = 2, O 6 : 2 = 3",
+    "Zapisz wzór: Al2O3"
+   ],
+   "explanation": "Indeksy we wzorze dobiera się tak, aby iloczyn liczby atomów i wartościowości był równy dla obu pierwiastków.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.12"
+  },
+  {
+   "id": "chem7-pp-109",
+   "type": "order",
+   "prompt": "Ułóż etapy doświadczenia: otrzymywanie i wykrywanie tlenu z nadtlenku wodoru",
+   "steps": [
+    "Wlej wodę utlenioną do probówki",
+    "Dodaj katalizator, np. tlenek manganu(IV)",
+    "Obserwuj wydzielanie się pęcherzyków gazu",
+    "Wprowadź do probówki żarzące się łuczywko",
+    "Zapisz obserwację: łuczywko rozpala się, więc gaz to tlen"
+   ],
+   "explanation": "Katalizator przyspiesza rozkład nadtlenku wodoru na wodę i tlen, a tlen rozpoznaje się po rozpaleniu żarzącego się łuczywka.",
+   "category": "chem7_air",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.1"
+  },
+  {
+   "id": "chem7-pp-110",
+   "type": "order",
+   "prompt": "Ułóż etapy zmian stanu skupienia wody podczas ogrzewania lodu",
+   "steps": [
+    "lód (ciało stałe)",
+    "topnienie",
+    "woda (ciecz)",
+    "parowanie lub wrzenie",
+    "para wodna (gaz)"
+   ],
+   "explanation": "Ogrzewanie prowadzi od ciała stałego przez ciecz do gazu; przejścia to topnienie i parowanie.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.4"
+  },
+  {
+   "id": "chem7-pp-111",
+   "type": "apply",
+   "situation": "W 200 g roztworu rozpuszczono 20 g cukru. Jak obliczysz stężenie procentowe tego roztworu?",
+   "rule": "$$C_p = \\frac{m_s}{m_r} \\cdot 100\\%$$",
+   "wrong": [
+    "$$m_r = m_s + m_w$$",
+    "$$d = \\frac{m}{V}$$",
+    "$$m_s = \\frac{C_p \\cdot m_r}{100\\%}$$"
+   ],
+   "explanation": "Stężenie procentowe to masa substancji podzielona przez masę roztworu razy 100%, czyli 10%.",
+   "category": "chem7_water",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "chem7-pp-112",
+   "type": "apply",
+   "situation": "Znasz stężenie roztworu (5%) i jego masę (400 g). Jak obliczysz masę rozpuszczonej substancji?",
+   "rule": "$$m_s = \\frac{C_p \\cdot m_r}{100\\%}$$",
+   "wrong": [
+    "$$C_p = \\frac{m_s}{m_r} \\cdot 100\\%$$",
+    "$$m_r = \\frac{m_s \\cdot 100\\%}{C_p}$$",
+    "$$m_r = m_s + m_w$$"
+   ],
+   "explanation": "Masę substancji oblicza się z przekształconego wzoru na stężenie: 5% · 400 g / 100% = 20 g.",
+   "category": "chem7_water",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.6"
+  },
+  {
+   "id": "chem7-pp-113",
+   "type": "apply",
+   "situation": "Masz obliczyć masę 50 cm³ oliwy o gęstości 0,92 g/cm³. Jaki wzór zastosujesz?",
+   "rule": "$$m = d \\cdot V$$",
+   "wrong": [
+    "$$V = \\frac{m}{d}$$",
+    "$$C_p = \\frac{m_s}{m_r} \\cdot 100\\%$$",
+    "$$m_r = m_s + m_w$$"
+   ],
+   "explanation": "Masa to gęstość razy objętość: 0,92 g/cm³ · 50 cm³ = 46 g.",
+   "category": "chem7_substances",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.10"
+  },
+  {
+   "id": "chem7-pp-114",
+   "type": "apply",
+   "situation": "Atom chloru ma liczbę atomową 17 i liczbę masową 35. Jak obliczysz liczbę neutronów?",
+   "rule": "$$n = A - Z$$",
+   "wrong": [
+    "$$p = Z$$",
+    "$$e = Z$$",
+    "$$A = p + n$$"
+   ],
+   "explanation": "Neutrony to liczba masowa minus liczba atomowa: 35 − 17 = 18.",
+   "category": "chem7_atoms",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "chem7-pp-115",
+   "type": "apply",
+   "situation": "Atom sodu oddaje jeden elektron atomowi chloru. Jaki zapis opisuje powstałe jony?",
+   "rule": "$$\\mathrm{Na^{+}},\\ \\mathrm{Cl^{-}}$$",
+   "wrong": [
+    "$$\\mathrm{Mg^{2+}},\\ \\mathrm{O^{2-}}$$",
+    "$$\\mathrm{K^{+}},\\ \\mathrm{Br^{-}}$$",
+    "$$\\mathrm{Ca^{2+}},\\ \\mathrm{Cl^{-}}$$"
+   ],
+   "explanation": "Sód po oddaniu elektronu staje się kationem Na⁺, a chlor po przyjęciu elektronu anionem Cl⁻.",
+   "category": "chem7_bonding",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "chem7-pp-116",
+   "type": "apply",
+   "situation": "Węgiel spala się w tlenie całkowicie, dając tlenek węgla(IV). Które równanie opisuje tę reakcję?",
+   "rule": "$$\\mathrm{C + O_2 \\rightarrow CO_2}$$",
+   "wrong": [
+    "$$\\mathrm{2C + O_2 \\rightarrow 2CO}$$",
+    "$$\\mathrm{2H_2 + O_2 \\rightarrow 2H_2O}$$",
+    "$$\\mathrm{2Mg + O_2 \\rightarrow 2MgO}$$"
+   ],
+   "explanation": "Spalanie całkowite węgla daje CO2; CO powstaje przy spalaniu niecałkowitym, a pozostałe równania dotyczą wodoru i magnezu.",
+   "category": "chem7_reactions",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "chem7-pp-117",
+   "type": "apply",
+   "situation": "Podczas rozkładu węglanu wapnia trzeba cały czas ogrzewać probówkę, inaczej reakcja ustaje. Która zasada to opisuje?",
+   "rule": "reakcja endotermiczna: układ pobiera energię z otoczenia",
+   "wrong": [
+    "reakcja egzotermiczna: układ oddaje energię do otoczenia",
+    "katalizator przyspiesza reakcję, ale się w niej nie zużywa",
+    "w reakcji syntezy z kilku substratów powstaje jeden produkt"
+   ],
+   "explanation": "Reakcja, która wymaga stałego dostarczania ciepła, jest endotermiczna.",
+   "category": "chem7_reactions",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.3"
+  },
+  {
+   "id": "chem7-pp-118",
+   "type": "apply",
+   "situation": "Chcesz sprawdzić, czy w wydychanym powietrzu jest dwutlenek węgla. Którą zasadę wykorzystasz?",
+   "rule": "$$\\mathrm{CO_2}$$ powoduje mętnienie wody wapiennej",
+   "wrong": [
+    "tlen podtrzymuje spalanie: żarzące się łuczywko rozpala się",
+    "wodór spala się z charakterystycznym dźwiękiem",
+    "para wodna skrapla się na zimnej powierzchni"
+   ],
+   "explanation": "Dwutlenek węgla reaguje z wodą wapienną, tworząc nierozpuszczalny węglan wapnia, który mętni roztwór.",
+   "category": "chem7_air",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "IV.3"
   }
  ]
 }
