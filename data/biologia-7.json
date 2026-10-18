@@ -1746,6 +1746,277 @@
     "szczepionki",
     "tabletek antykoncepcyjnych"
    ]
+  },
+  {
+   "id": "bio7-pp-052",
+   "type": "order",
+   "prompt": "Ułóż odcinki przewodu pokarmowego w kolejności, w jakiej przechodzi przez nie pokarm",
+   "steps": [
+    "jama ustna",
+    "gardło",
+    "przełyk",
+    "żołądek",
+    "jelito cienkie",
+    "jelito grube",
+    "odbytnica"
+   ],
+   "explanation": "Pokarm wędruje od jamy ustnej przez gardło i przełyk do żołądka, a potem przez jelito cienkie i grube do odbytnicy.",
+   "category": "bio7_digestion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3.1"
+  },
+  {
+   "id": "bio7-pp-053",
+   "type": "order",
+   "prompt": "Ułóż etapy trawienia i wchłaniania skrobi",
+   "steps": [
+    "Amylaza ślinowa w jamie ustnej rozkłada skrobię na krótsze cukry",
+    "W żołądku skrobia nie jest trawiona (kwaśne środowisko)",
+    "Amylaza trzustkowa w jelicie cienkim rozkłada ją dalej",
+    "Enzymy jelitowe rozkładają dwucukry do glukozy",
+    "Glukoza jest wchłaniana przez kosmki jelitowe do krwi"
+   ],
+   "explanation": "Trawienie skrobi zaczyna się w jamie ustnej, kończy w jelicie cienkim, a produkt końcowy, glukoza, wchłania się przez kosmki.",
+   "category": "bio7_digestion",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.3.3"
+  },
+  {
+   "id": "bio7-pp-054",
+   "type": "order",
+   "prompt": "Ułóż drogę krwi w dużym (ogólnym) obiegu krwi",
+   "steps": [
+    "lewa komora",
+    "aorta",
+    "tętnice",
+    "naczynia włosowate narządów",
+    "żyły",
+    "żyła główna",
+    "prawy przedsionek"
+   ],
+   "explanation": "Duży obieg zaczyna się w lewej komorze, prowadzi krew utlenowaną do narządów i wraca krwią odtlenowaną do prawego przedsionka.",
+   "category": "bio7_circulation",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4.2"
+  },
+  {
+   "id": "bio7-pp-055",
+   "type": "order",
+   "prompt": "Ułóż drogę wdychanego powietrza",
+   "steps": [
+    "jama nosowa",
+    "gardło",
+    "krtań",
+    "tchawica",
+    "oskrzela",
+    "oskrzeliki",
+    "pęcherzyki płucne"
+   ],
+   "explanation": "Powietrze jest ogrzewane i oczyszczane w jamie nosowej, a wymiana gazowa zachodzi dopiero w pęcherzykach płucnych.",
+   "category": "bio7_breathing",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.6.1"
+  },
+  {
+   "id": "bio7-pp-056",
+   "type": "order",
+   "prompt": "Ułóż etapy łuku odruchowego",
+   "steps": [
+    "receptor odbiera bodziec",
+    "neuron czuciowy przewodzi impuls do rdzenia kręgowego",
+    "neuron pośredniczący w rdzeniu przekazuje impuls",
+    "neuron ruchowy przewodzi impuls do efektora",
+    "efektor (mięsień) wykonuje reakcję"
+   ],
+   "explanation": "Odruch przebiega bez udziału świadomości, bo impuls zamyka się w rdzeniu kręgowym, nie w mózgu.",
+   "category": "bio7_nervous",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.8.2"
+  },
+  {
+   "id": "bio7-pp-057",
+   "type": "order",
+   "prompt": "Ułóż drogę moczu od jego powstania do wydalenia",
+   "steps": [
+    "nefron w nerce (filtracja krwi)",
+    "miedniczka nerkowa",
+    "moczowód",
+    "pęcherz moczowy",
+    "cewka moczowa"
+   ],
+   "explanation": "Mocz powstaje w nefronach, zbiera się w miedniczce, spływa moczowodem do pęcherza i jest wydalany cewką moczową.",
+   "category": "bio7_excretion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.7.2"
+  },
+  {
+   "id": "bio7-pp-058",
+   "type": "order",
+   "prompt": "Ułóż etapy odpowiedzi odpornościowej po wniknięciu bakterii do organizmu",
+   "steps": [
+    "Bakteria przekracza barierę skóry lub błon śluzowych",
+    "Komórki żerne pochłaniają bakterie i prezentują antygen",
+    "Limfocyty B rozpoznają antygen i namnażają się",
+    "Limfocyty B wytwarzają przeciwciała przeciw antygenowi",
+    "Powstają komórki pamięci immunologicznej"
+   ],
+   "explanation": "Odporność nieswoista (fagocytoza) działa pierwsza, a swoista (przeciwciała i komórki pamięci) rozwija się po rozpoznaniu antygenu.",
+   "category": "bio7_immune",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.5.2"
+  },
+  {
+   "id": "bio7-pp-059",
+   "type": "order",
+   "prompt": "Ułóż etapy rozwoju człowieka od zapłodnienia do porodu",
+   "steps": [
+    "zapłodnienie w jajowodzie",
+    "podziały zygoty w drodze do macicy",
+    "zagnieżdżenie zarodka w błonie śluzowej macicy",
+    "rozwój zarodka (do 8. tygodnia)",
+    "rozwój płodu",
+    "poród"
+   ],
+   "explanation": "Po zapłodnieniu zygota dzieli się, zagnieżdża w macicy, a zarodek po 8 tygodniach nazywa się płodem.",
+   "category": "bio7_reproduction",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.11.4"
+  },
+  {
+   "id": "bio7-pp-060",
+   "type": "apply",
+   "situation": "Chcesz sprawdzić, czy masa ciała ucznia o wzroście 1,6 m i masie 64 kg jest prawidłowa. Jaki wzór zastosujesz?",
+   "rule": "$$BMI = \\frac{m\\,[\\mathrm{kg}]}{h^2\\,[\\mathrm{m^2}]}$$",
+   "wrong": [
+    "tętno = liczba uderzeń serca na minutę",
+    "pojemność życiowa płuc = największa objętość powietrza wydychana po najgłębszym wdechu",
+    "ciśnienie krwi zapisuje się jako skurczowe/rozkurczowe"
+   ],
+   "explanation": "Wskaźnik masy ciała to masa w kilogramach podzielona przez kwadrat wzrostu w metrach: 64 / 2,56 = 25.",
+   "category": "bio7_digestion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.3.4"
+  },
+  {
+   "id": "bio7-pp-061",
+   "type": "apply",
+   "situation": "Osoba ma grupę krwi 0 Rh−. Która zasada decyduje o tym, komu może oddać krew?",
+   "rule": "grupa 0 Rh− to dawca uniwersalny: krwinki nie mają antygenów A, B ani D",
+   "wrong": [
+    "grupa AB Rh+ to biorca uniwersalny",
+    "konflikt serologiczny grozi, gdy matka jest Rh−, a płód Rh+",
+    "w osoczu osób z grupą B są przeciwciała anty-A"
+   ],
+   "explanation": "Brak antygenów na krwinkach sprawia, że krew grupy 0 Rh− nie wywołuje reakcji u biorców z innymi grupami.",
+   "category": "bio7_circulation",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.4.4"
+  },
+  {
+   "id": "bio7-pp-062",
+   "type": "apply",
+   "situation": "Turystę ukąsiła żmija i trzeba szybko zneutralizować jad. Która zasada wskazuje, co podać?",
+   "rule": "surowica z gotowymi przeciwciałami daje odporność bierną od razu",
+   "wrong": [
+    "szczepionka z antygenem wywołuje odporność czynną po kilku tygodniach",
+    "antybiotyki działają na bakterie, nie na wirusy",
+    "gorączka utrudnia namnażanie drobnoustrojów"
+   ],
+   "explanation": "Gdy liczy się czas, podaje się surowicę, bo zawiera gotowe przeciwciała, a organizm nie musi ich sam wytwarzać.",
+   "category": "bio7_immune",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.5.3"
+  },
+  {
+   "id": "bio7-pp-063",
+   "type": "apply",
+   "situation": "Podczas biegu oddech przyspiesza i pogłębia się. Która zasada to tłumaczy?",
+   "rule": "wzrost stężenia dwutlenku węgla we krwi pobudza ośrodek oddechowy",
+   "wrong": [
+    "wymiana gazowa w pęcherzykach płucnych zachodzi na drodze dyfuzji",
+    "przepona, kurcząc się, obniża się i powiększa klatkę piersiową",
+    "hemoglobina wiąże tlen w płucach i oddaje go w tkankach"
+   ],
+   "explanation": "Pracujące mięśnie wytwarzają więcej CO2, a jego wyższe stężenie we krwi przyspiesza oddychanie.",
+   "category": "bio7_breathing",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.6.3"
+  },
+  {
+   "id": "bio7-pp-064",
+   "type": "apply",
+   "situation": "Po słodkim posiłku poziom glukozy we krwi rośnie. Który mechanizm go obniża?",
+   "rule": "trzustka wydziela insulinę, która obniża poziom glukozy we krwi",
+   "wrong": [
+    "glukagon podnosi poziom glukozy, uwalniając ją z glikogenu",
+    "adrenalina przygotowuje organizm do walki lub ucieczki",
+    "tyroksyna przyspiesza przemianę materii"
+   ],
+   "explanation": "Insulina umożliwia komórkom pobieranie glukozy i jej magazynowanie jako glikogen, więc poziom cukru spada.",
+   "category": "bio7_hormones",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.10.1"
+  },
+  {
+   "id": "bio7-pp-065",
+   "type": "apply",
+   "situation": "Wchodzisz z jasnego dworu do ciemnego pokoju. Która zasada opisuje reakcję oka?",
+   "rule": "źrenica rozszerza się, aby wpuścić więcej światła",
+   "wrong": [
+    "soczewka zmienia kształt, aby ostro widzieć bliskie przedmioty (akomodacja)",
+    "czopki odpowiadają za widzenie barw przy dobrym oświetleniu",
+    "obraz na siatkówce jest odwrócony i pomniejszony"
+   ],
+   "explanation": "Tęczówka reguluje wielkość źrenicy: w ciemności źrenica się rozszerza, w jasnym świetle zwęża.",
+   "category": "bio7_senses",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.9.1"
+  },
+  {
+   "id": "bio7-pp-066",
+   "type": "apply",
+   "situation": "W upalny dzień organizm zaczyna się pocić. Która zasada tłumaczy, po co?",
+   "rule": "parowanie potu ze skóry odbiera ciepło i chłodzi organizm",
+   "wrong": [
+    "melanina chroni skórę przed promieniowaniem UV",
+    "naskórek stale się złuszcza i odnawia",
+    "gruczoły łojowe natłuszczają skórę i włosy"
+   ],
+   "explanation": "Pocenie się to element termoregulacji: parująca woda pobiera ciepło z powierzchni skóry.",
+   "category": "bio7_skin",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1.1"
+  },
+  {
+   "id": "bio7-pp-067",
+   "type": "apply",
+   "situation": "Zginasz rękę w łokciu. Która zasada opisuje pracę mięśni?",
+   "rule": "mięśnie działają antagonistycznie: zginacz (biceps) się kurczy, a prostownik (triceps) rozluźnia",
+   "wrong": [
+    "kości łączą się ruchomo w stawach",
+    "ścięgna łączą mięśnie z kośćmi",
+    "czerwony szpik kostny wytwarza krwinki"
+   ],
+   "explanation": "Mięsień może tylko się kurczyć, dlatego ruch w stawie wymaga pary mięśni o przeciwnym działaniu.",
+   "category": "bio7_movement",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2.3"
   }
  ]
 }
