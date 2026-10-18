@@ -2301,6 +2301,272 @@
     "family",
     "phylum"
    ]
+  },
+  {
+   "id": "bio-pp-077",
+   "type": "order",
+   "prompt": "Put the phases of the cell cycle in order, starting after the previous division",
+   "steps": [
+    "G1 phase: the cell grows and makes organelles",
+    "S phase: DNA is replicated",
+    "G2 phase: the cell prepares for division",
+    "Mitosis: the nucleus divides",
+    "Cytokinesis: the cytoplasm divides"
+   ],
+   "explanation": "Interphase (G1, S, G2) prepares the cell, and mitosis with cytokinesis produces two daughter cells.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.2"
+  },
+  {
+   "id": "bio-pp-078",
+   "type": "order",
+   "prompt": "Put the stages of mitosis in order",
+   "steps": [
+    "Prophase: chromosomes condense and the spindle forms",
+    "Metaphase: chromosomes line up at the equator",
+    "Anaphase: sister chromatids are pulled to opposite poles",
+    "Telophase: nuclear envelopes re-form around the two sets",
+    "Cytokinesis: the cytoplasm divides"
+   ],
+   "explanation": "Chromosomes condense, align, separate and are enclosed in new nuclei before the cell splits.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IV.4"
+  },
+  {
+   "id": "bio-pp-079",
+   "type": "order",
+   "prompt": "Put the steps of DNA replication in order",
+   "steps": [
+    "Helicase unwinds and separates the two strands",
+    "Primase adds short RNA primers",
+    "DNA polymerase adds complementary nucleotides in the 5' to 3' direction",
+    "The RNA primers are replaced with DNA",
+    "Ligase joins the Okazaki fragments on the lagging strand"
+   ],
+   "explanation": "Replication is semi-conservative: each new molecule keeps one original strand and gets one new strand.",
+   "category": "bio_genetics",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.1"
+  },
+  {
+   "id": "bio-pp-080",
+   "type": "order",
+   "prompt": "Put the steps of protein synthesis in order",
+   "steps": [
+    "RNA polymerase binds the promoter and unwinds the DNA",
+    "Transcription: mRNA is synthesised from the template strand",
+    "mRNA leaves the nucleus through a nuclear pore",
+    "A ribosome binds the mRNA and reads it codon by codon",
+    "tRNA molecules bring the amino acids matching each codon",
+    "The finished polypeptide is released and folds"
+   ],
+   "explanation": "Transcription in the nucleus makes mRNA, and translation at the ribosome turns it into a polypeptide.",
+   "category": "bio_genetics",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB D1.2"
+  },
+  {
+   "id": "bio-pp-081",
+   "type": "order",
+   "prompt": "Put the steps of a scientific investigation in order",
+   "steps": [
+    "Make an observation and ask a question",
+    "Formulate a testable hypothesis",
+    "Design an experiment with controlled variables",
+    "Collect and record the data",
+    "Analyse the data",
+    "Draw a conclusion and evaluate the method"
+   ],
+   "explanation": "A hypothesis is tested by an experiment whose data either support or reject it.",
+   "category": "bio_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "bio-pp-082",
+   "type": "order",
+   "prompt": "Put the steps of preparing and viewing a wet mount under a light microscope in order",
+   "steps": [
+    "Place a drop of water on a clean slide",
+    "Add a thin specimen to the drop",
+    "Lower a coverslip at an angle to avoid air bubbles",
+    "Start with the lowest-power objective and focus with the coarse knob",
+    "Switch to a higher-power objective and use the fine focus"
+   ],
+   "explanation": "A thin specimen under a coverslip lets light through, and focusing starts at low power to find the specimen.",
+   "category": "bio_skills",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "bio-pp-083",
+   "type": "order",
+   "prompt": "Put the steps of an enzyme-catalysed reaction in order",
+   "steps": [
+    "The substrate collides with the enzyme's active site",
+    "An enzyme–substrate complex forms",
+    "The active site changes shape slightly (induced fit) and lowers the activation energy",
+    "The substrate is converted into product",
+    "The product leaves and the enzyme is free to act again"
+   ],
+   "explanation": "The enzyme is not used up, so one molecule can catalyse the same reaction many times.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2.1"
+  },
+  {
+   "id": "bio-pp-084",
+   "type": "order",
+   "prompt": "Put the steps of the potato osmosis experiment in order",
+   "steps": [
+    "Cut potato cylinders of equal size and blot them dry",
+    "Measure the initial mass of each cylinder",
+    "Place each cylinder in a different sucrose concentration for the same time",
+    "Remove the cylinders, blot them dry and measure the final mass",
+    "Calculate the percentage change in mass and plot it against concentration"
+   ],
+   "explanation": "Percentage change in mass shows the direction of osmosis; the concentration with zero change equals the potato's solute concentration.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "bio-pp-085",
+   "type": "apply",
+   "situation": "A cell doubles its radius and its exchange of substances becomes less efficient. Which principle explains this?",
+   "rule": "the surface area to volume ratio decreases as a cell gets larger",
+   "wrong": [
+    "the rate of diffusion increases with a steeper concentration gradient",
+    "water moves by osmosis from a lower to a higher solute concentration",
+    "active transport needs ATP to move substances against the gradient"
+   ],
+   "explanation": "Volume grows with the cube of the radius but surface area only with the square, so exchange per unit volume falls.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB B2.3"
+  },
+  {
+   "id": "bio-pp-086",
+   "type": "apply",
+   "situation": "A red blood cell placed in distilled water swells and bursts. Which principle explains this?",
+   "rule": "in a hypotonic solution water enters by osmosis and an animal cell has no cell wall to stop it bursting",
+   "wrong": [
+    "in a hypertonic solution the cell loses water and shrinks",
+    "a plant cell becomes turgid because the cell wall resists bursting",
+    "facilitated diffusion uses channel proteins"
+   ],
+   "explanation": "Distilled water has a higher water potential than the cytoplasm, so water flows in until the membrane ruptures.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.4"
+  },
+  {
+   "id": "bio-pp-087",
+   "type": "apply",
+   "situation": "You heat an enzyme solution to 70 °C and the enzyme stops working. Which principle applies?",
+   "rule": "high temperature denatures the enzyme: the active site changes shape",
+   "wrong": [
+    "low temperature slows the reaction because molecules collide less often",
+    "a pH far from the optimum alters the charge of the active site",
+    "at high substrate concentration the enzymes become saturated"
+   ],
+   "explanation": "Heat breaks the bonds holding the enzyme's shape, so the substrate no longer fits the active site.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2.3"
+  },
+  {
+   "id": "bio-pp-088",
+   "type": "apply",
+   "situation": "You test the effect of light intensity on photosynthesis. Which rule tells you what to keep constant?",
+   "rule": "control variables: everything except the independent variable (temperature, CO₂) is kept the same",
+   "wrong": [
+    "the dependent variable is the one you measure",
+    "a control group receives no treatment",
+    "repeating trials reduces random error"
+   ],
+   "explanation": "Only the independent variable may change, otherwise you cannot tell what caused the result.",
+   "category": "bio_skills",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "bio-pp-089",
+   "type": "apply",
+   "situation": "An image of a cell is 50 mm wide and the scale bar shows the real width is 50 µm. Which formula gives the magnification?",
+   "rule": "$$\\text{magnification} = \\frac{\\text{image size}}{\\text{actual size}}$$",
+   "wrong": [
+    "$$\\text{SA:V} = \\frac{\\text{surface area}}{\\text{volume}}$$",
+    "$$\\text{total magnification} = \\text{eyepiece} \\times \\text{objective}$$",
+    "$$\\%\\,\\text{change} = \\frac{\\text{final} - \\text{initial}}{\\text{initial}} \\cdot 100\\%$$"
+   ],
+   "explanation": "Both sizes must be in the same unit: 50 000 µm / 50 µm = ×1000.",
+   "category": "bio_cells",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "III.5"
+  },
+  {
+   "id": "bio-pp-090",
+   "type": "apply",
+   "situation": "Sweating cools the body. Which property of water explains this?",
+   "rule": "high latent heat of vaporisation: evaporation removes a lot of heat",
+   "wrong": [
+    "cohesion lets water move up the xylem as a continuous column",
+    "high specific heat capacity buffers temperature changes",
+    "water is a polar solvent for ionic substances"
+   ],
+   "explanation": "Evaporating sweat takes the energy needed to break hydrogen bonds from the skin.",
+   "category": "bio_molecules",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.1.3"
+  },
+  {
+   "id": "bio-pp-091",
+   "type": "apply",
+   "situation": "A test tube turns brick red after heating with Benedict's reagent. Which rule applies?",
+   "rule": "Benedict's test: reducing sugars give an orange-red precipitate",
+   "wrong": [
+    "iodine solution turns blue-black with starch",
+    "the biuret test turns purple with proteins",
+    "the emulsion test gives a cloudy white layer with lipids"
+   ],
+   "explanation": "Reducing sugars such as glucose reduce the copper(II) ions in Benedict's reagent to a red precipitate.",
+   "category": "bio_molecules",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.1"
+  },
+  {
+   "id": "bio-pp-092",
+   "type": "apply",
+   "situation": "One DNA strand reads ATGC and you want the complementary strand. Which rule applies?",
+   "rule": "complementary base pairing: A pairs with T and C pairs with G",
+   "wrong": [
+    "in RNA uracil replaces thymine",
+    "the genetic code is read in triplets (codons)",
+    "the two DNA strands are antiparallel"
+   ],
+   "explanation": "Hydrogen bonds form only between A–T and C–G, so the complementary strand is TACG.",
+   "category": "bio_genetics",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.2.4"
   }
  ]
 }
