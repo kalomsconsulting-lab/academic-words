@@ -9,7 +9,7 @@ Oznaczenie w danych: każda karta z tego zadania ma `"source": "Podstawa program
 (np. `"VIII.7"`, dla treści z przewodników IB np. `"IB A2.1"`); w aplikacji dostaje znaczek 📘 i filtr. Identyfikatory:
 `<przedmiot>-pp-<nr>`.
 
-**Stan (2026-10-18):** zrobione wszystkie 24 przedmioty (łącznie 2476 kart z `pp` w 24 plikach `data/`), każdy w osobnym
+**Stan (2026-10-18):** zrobione wszystkie 24 przedmioty (łącznie 2604 kart z `pp` w 24 plikach `data/`, w tym 128 kart `order` i `apply` z 18 października 2026), każdy w osobnym
 commicie. Rzeczywiste liczby i odstępstwa od tabel poniżej są w sekcji *Wynik* na końcu. Tabele przedmiotów zostawiono
 w wersji z kroku 1 (plan); tam, gdzie wykonawca ustalił inne numery wymagań, jest to opisane w *Wyniku*.
 
@@ -823,21 +823,21 @@ Do decyzji:
 
 | Ścieżka | Przedmiot | Plik | Kart z `pp` (w pliku) | Źródło zweryfikowane |
 |---|---|---|---|---|
-| sp7 | Matematyka | matematyka-7.json | 124 | podstawaprogramowa.pl + rozkład GWO |
-| sp7 | Biologia | biologia-7.json | 96 (102) | zpe.gov.pl; 45 istniejących kart dostało `pp`, 51 nowych |
+| sp7 | Matematyka | matematyka-7.json | 140 (w tym 8 `order`, 8 `apply`) | podstawaprogramowa.pl + rozkład GWO |
+| sp7 | Biologia | biologia-7.json | 112 (118; w tym 8 `order`, 8 `apply`) | zpe.gov.pl; 45 istniejących kart dostało `pp`, 51 nowych |
 | sp7 | Angielski II.1 | angielski-7.json | 111 (113) | zpe.gov.pl; 13 tematów (brak „życia społecznego” w bieżącym tekście); 50 istniejących z `pp`, 61 nowych |
 | sp7 | Niemiecki II.2 | niemiecki-7.json | 98 | zpe.gov.pl; 12 tematów, gramatyka `pp: "I"` |
-| sp7 | Chemia | chemia-7.json | 102 | zpe.gov.pl, działy I–V |
-| sp7 | Fizyka | fizyka-7.json | 104 | zpe.gov.pl, działy I–V |
+| sp7 | Chemia | chemia-7.json | 118 (w tym 8 `order`, 8 `apply`) | zpe.gov.pl, działy I–V |
+| sp7 | Fizyka | fizyka-7.json | 120 (w tym 8 `order`, 8 `apply`) | zpe.gov.pl, działy I–V |
 | sp7 | Geografia | geografia-7.json | 102 | zpe.gov.pl, działy IX–XIII |
 | sp7 | Informatyka | informatyka-7.json | 87 | zpe.gov.pl, działy I–V (klasy VII–VIII) |
 | sp7 | Polski | polski-7.json | 123 | zpe.gov.pl; numery poprawione (patrz niżej) |
 | sp7 | Historia | historia-7.json | 112 | zpe.gov.pl; „XVIIII” to literówka = XVIII, numery z tabeli poprawne |
 | sp7 | Edukacja zdrowotna | edukacja-zdrowotna-7.json | 111 | PDF Dz.U. 2026 poz. 958, numeracja zgodna |
-| ib | Biology | biology.json | 109 (132) | zpe.gov.pl/szkola-ponadpodstawowa; 33 istniejące z `pp`, 76 nowych |
-| ib | Chemistry | chemistry.json | 115 | zpe.gov.pl/szkola-ponadpodstawowa |
-| ib | Physics | physics.json | 90 | zpe.gov.pl/szkola-ponadpodstawowa |
-| ib | Mathematics | mathematics.json | 96 | zpe.gov.pl/szkola-ponadpodstawowa |
+| ib | Biology | biology.json | 125 (148; w tym 8 `order`, 8 `apply`) | zpe.gov.pl/szkola-ponadpodstawowa; 33 istniejące z `pp`, 76 nowych |
+| ib | Chemistry | chemistry.json | 131 (w tym 8 `order`, 8 `apply`) | zpe.gov.pl/szkola-ponadpodstawowa |
+| ib | Physics | physics.json | 106 (w tym 8 `order`, 8 `apply`) | zpe.gov.pl/szkola-ponadpodstawowa |
+| ib | Mathematics | mathematics.json | 112 (w tym 8 `order`, 8 `apply`) | zpe.gov.pl/szkola-ponadpodstawowa |
 | ib | History | history.json | 98 | zpe.gov.pl/szkola-ponadpodstawowa (działy I–XIII) |
 | ib | History of Poland | historia-polski.json | 84 | zpe.gov.pl/szkola-ponadpodstawowa; numery po 2024 inne niż w tabeli (niżej) |
 | ib | Geography | geography.json | 98 | podstawaprogramowa.pl (ZP I–V) |
@@ -848,6 +848,12 @@ Do decyzji:
 | ib | Psychology | psychology.json | 89 | IB DP Psychology guide 2027 (struktura z TSM) |
 | ib | German B | german.json | 96 | podstawaprogramowa.pl, wariant III.2 (14 tematów) |
 | ib | Academic English | vocabulary.json | 0 | pominięty zgodnie z planem |
+
+**Karty `order` i `apply` (2026-10-18):** matematyka, fizyka, chemia i biologia w obu ścieżkach dostały po 8 kart „ułóż
+w kolejności” (etapy procesów, algorytmy rozwiązywania, doświadczenia) i 8 kart „który wzór lub zasada pasuje” (sytuacja →
+wzór w `$$…$$` albo zasada; `wrong` to prawdziwe wzory z tego samego działu). Identyfikatory kontynuują numerację pliku
+(`mat7-pp-125`…`140`, `fiz7-pp-105`…`120`, `chem7-pp-103`…`118`, `bio7-pp-052`…`067`, `mathib-pp-097`…`112`,
+`physib-pp-091`…`106`, `chemib-pp-116`…`131`, `bio-pp-077`…`092`); `pp` wskazuje wymaganie, którego dotyczy proces lub wzór.
 
 Właściwe adresy ZPE dla liceum: `https://zpe.gov.pl/podstawa-programowa/szkola-ponadpodstawowa/<przedmiot>` (slug
 `liceum-technikum` z tabel wyżej daje 404).
