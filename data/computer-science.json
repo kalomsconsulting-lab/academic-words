@@ -31,7 +31,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A1",
-   "kind": "hardware"
+   "kind": "hardware",
+   "distractors": [
+    "control processing unit",
+    "central program unit",
+    "computer processing unit"
+   ]
   },
   {
    "id": "csib-pp-002",
@@ -45,7 +50,9 @@
    "pp": "IB A1",
    "kind": "hardware",
    "distractors": [
-    "control unit"
+    "control unit",
+    "register",
+    "cache"
    ]
   },
   {
@@ -75,7 +82,9 @@
    "pp": "IB A1",
    "kind": "concept",
    "distractors": [
-    "volatile"
+    "volatile",
+    "virtual",
+    "cache"
    ]
   },
   {
@@ -92,7 +101,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A1",
-   "kind": "hardware"
+   "kind": "hardware",
+   "distractors": [
+    "RAM",
+    "ROM",
+    "register"
+   ]
   },
   {
    "id": "csib-pp-006",
@@ -107,7 +121,8 @@
    "kind": "concept",
    "distractors": [
     "decode",
-    "execute"
+    "execute",
+    "load"
    ]
   },
   {
@@ -139,7 +154,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "software"
+   "kind": "software",
+   "distractors": [
+    "firmware",
+    "driver",
+    "compiler"
+   ]
   },
   {
    "id": "csib-pp-009",
@@ -156,7 +176,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "memory management",
+    "file management",
+    "interrupt handling"
+   ]
   },
   {
    "id": "csib-pp-010",
@@ -169,7 +194,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "software"
+   "kind": "software",
+   "distractors": [
+    "driver",
+    "utility software",
+    "operating system"
+   ]
   },
   {
    "id": "csib-pp-011",
@@ -181,7 +211,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "software"
+   "kind": "software",
+   "distractors": [
+    "compiler",
+    "kernel",
+    "interpreter"
+   ]
   },
   {
    "id": "csib-pp-012",
@@ -196,7 +231,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "hardware"
+   "kind": "hardware",
+   "distractors": [
+    "server",
+    "mainframe",
+    "workstation"
+   ]
   },
   {
    "id": "csib-pp-013",
@@ -306,7 +346,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A1",
-   "kind": "number"
+   "kind": "number",
+   "distractors": [
+    "4",
+    "16",
+    "32"
+   ]
   },
   {
    "id": "csib-pp-021",
@@ -331,7 +376,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A1",
-   "kind": "standard"
+   "kind": "standard",
+   "distractors": [
+    "ASCII",
+    "EBCDIC",
+    "Latin-1"
+   ]
   },
   {
    "id": "csib-pp-023",
@@ -344,7 +394,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "voxel",
+    "bit",
+    "sample"
+   ]
   },
   {
    "id": "csib-pp-024",
@@ -356,7 +411,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "quantisation",
+    "compression",
+    "modulation"
+   ]
   },
   {
    "id": "csib-pp-025",
@@ -371,7 +431,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "lossy",
+    "lossy compression",
+    "resampling"
+   ]
   },
   {
    "id": "csib-pp-026",
@@ -384,7 +449,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A2",
-   "kind": "network"
+   "kind": "network",
+   "distractors": [
+    "large area network",
+    "local access network",
+    "linked area network"
+   ]
   },
   {
    "id": "csib-pp-027",
@@ -398,7 +468,9 @@
    "pp": "IB A2",
    "kind": "network",
    "distractors": [
-    "LAN"
+    "LAN",
+    "MAN",
+    "PAN"
    ]
   },
   {
@@ -414,7 +486,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "network"
+   "kind": "network",
+   "distractors": [
+    "MAC address",
+    "URL",
+    "port number"
+   ]
   },
   {
    "id": "csib-pp-029",
@@ -460,7 +537,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "network"
+   "kind": "network",
+   "distractors": [
+    "IP address",
+    "port number",
+    "hostname"
+   ]
   },
   {
    "id": "csib-pp-032",
@@ -473,7 +555,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A2",
-   "kind": "hardware"
+   "kind": "hardware",
+   "distractors": [
+    "switch",
+    "hub",
+    "modem"
+   ]
   },
   {
    "id": "csib-pp-033",
@@ -487,7 +574,8 @@
    "kind": "hardware",
    "distractors": [
     "hub",
-    "router"
+    "router",
+    "modem"
    ]
   },
   {
@@ -520,7 +608,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "socket",
+    "server",
+    "system"
+   ]
   },
   {
    "id": "csib-pp-036",
@@ -531,7 +624,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "network"
+   "kind": "network",
+   "distractors": [
+    "cookies",
+    "ports",
+    "sockets"
+   ]
   },
   {
    "id": "csib-pp-037",
@@ -560,7 +658,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A2",
-   "kind": "software"
+   "kind": "software",
+   "distractors": [
+    "antivirus",
+    "proxy server",
+    "router"
+   ]
   },
   {
    "id": "csib-pp-039",
@@ -573,7 +676,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "heuristic",
+    "flowchart",
+    "protocol"
+   ]
   },
   {
    "id": "csib-pp-040",
@@ -584,7 +692,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "flowchart",
+    "source code",
+    "machine code"
+   ]
   },
   {
    "id": "csib-pp-041",
@@ -596,7 +709,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB B1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "abstraction",
+    "pattern recognition",
+    "iteration"
+   ]
   },
   {
    "id": "csib-pp-042",
@@ -611,7 +729,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2c",
-   "kind": "algorithm"
+   "kind": "algorithm",
+   "distractors": [
+    "insertion sort",
+    "selection sort",
+    "merge sort"
+   ]
   },
   {
    "id": "csib-pp-043",
@@ -626,7 +749,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2c",
-   "kind": "algorithm"
+   "kind": "algorithm",
+   "distractors": [
+    "bubble sort",
+    "selection sort",
+    "quick sort"
+   ]
   },
   {
    "id": "csib-pp-044",
@@ -656,7 +784,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB B1",
-   "kind": "algorithm"
+   "kind": "algorithm",
+   "distractors": [
+    "linear search",
+    "sequential search",
+    "depth-first search"
+   ]
   },
   {
    "id": "csib-pp-046",
@@ -672,7 +805,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB B1",
-   "kind": "expression"
+   "kind": "expression",
+   "distractors": [
+    "O(n)",
+    "O(1)",
+    "O(n^2)"
+   ]
   },
   {
    "id": "csib-pp-047",
@@ -700,7 +838,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB B1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Boolean",
+    "scientific",
+    "binary"
+   ]
   },
   {
    "id": "csib-pp-049",
@@ -731,7 +874,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2b",
-   "kind": "algorithm"
+   "kind": "algorithm",
+   "distractors": [
+    "KMP",
+    "Boyer-Moore",
+    "Rabin-Karp"
+   ]
   },
   {
    "id": "csib-pp-051",
@@ -762,7 +910,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.2a",
-   "kind": "expression"
+   "kind": "expression",
+   "distractors": [
+    "cube root of n",
+    "logarithm of n",
+    "n divided by 3"
+   ]
   },
   {
    "id": "csib-pp-053",
@@ -779,7 +932,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2a",
-   "kind": "algorithm"
+   "kind": "algorithm",
+   "distractors": [
+    "sieve of Eratosthenes",
+    "Horner's algorithm",
+    "Newton's method"
+   ]
   },
   {
    "id": "csib-pp-054",
@@ -790,7 +948,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "truth table",
+    "flowchart",
+    "hash table"
+   ]
   },
   {
    "id": "csib-pp-055",
@@ -831,7 +994,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "int",
+    "str",
+    "float"
+   ]
   },
   {
    "id": "csib-pp-058",
@@ -846,7 +1014,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "int",
+    "float",
+    "bool"
+   ]
   },
   {
    "id": "csib-pp-059",
@@ -857,7 +1030,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "constant",
+    "function",
+    "literal"
+   ]
   },
   {
    "id": "csib-pp-060",
@@ -870,7 +1048,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "while",
+    "elif",
+    "for"
+   ]
   },
   {
    "id": "csib-pp-061",
@@ -881,7 +1064,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "else if",
+    "elseif",
+    "else"
+   ]
   },
   {
    "id": "csib-pp-062",
@@ -911,7 +1099,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "for loop",
+    "do-while loop",
+    "repeat loop"
+   ]
   },
   {
    "id": "csib-pp-064",
@@ -924,7 +1117,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "function",
+    "func",
+    "define"
+   ]
   },
   {
    "id": "csib-pp-065",
@@ -963,7 +1161,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "yield",
+    "break",
+    "print"
+   ]
   },
   {
    "id": "csib-pp-068",
@@ -978,7 +1181,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "print()",
+    "read()",
+    "scan()"
+   ]
   },
   {
    "id": "csib-pp-069",
@@ -1020,7 +1228,9 @@
    "pp": "II.1",
    "kind": "concept",
    "distractors": [
-    "parameter"
+    "parameter",
+    "attribute",
+    "operand"
    ]
   },
   {
@@ -1036,7 +1246,8 @@
    "kind": "concept",
    "distractors": [
     "syntax",
-    "runtime"
+    "runtime",
+    "compilation"
    ]
   },
   {
@@ -1052,7 +1263,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "database"
+   "kind": "database",
+   "distractors": [
+    "table",
+    "field",
+    "key"
+   ]
   },
   {
    "id": "csib-pp-074",
@@ -1065,7 +1281,9 @@
    "pp": "II.3d",
    "kind": "database",
    "distractors": [
-    "record"
+    "record",
+    "row",
+    "tuple"
    ]
   },
   {
@@ -1081,7 +1299,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "database"
+   "kind": "database",
+   "distractors": [
+    "foreign key",
+    "secondary key",
+    "index"
+   ]
   },
   {
    "id": "csib-pp-076",
@@ -1094,7 +1317,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "database"
+   "kind": "database",
+   "distractors": [
+    "primary key",
+    "secondary key",
+    "composite key"
+   ]
   },
   {
    "id": "csib-pp-077",
@@ -1150,7 +1378,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "keyword"
+   "kind": "keyword",
+   "distractors": [
+    "COUNT",
+    "AVERAGE",
+    "MAX"
+   ]
   },
   {
    "id": "csib-pp-081",
@@ -1166,7 +1399,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "relative reference",
+    "mixed reference",
+    "named range"
+   ]
   },
   {
    "id": "csib-pp-082",
@@ -1181,7 +1419,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3c",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "lookup table",
+    "conditional formatting",
+    "data validation"
+   ]
   },
   {
    "id": "csib-pp-083",
@@ -1194,7 +1437,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3d",
-   "kind": "database"
+   "kind": "database",
+   "distractors": [
+    "report",
+    "form",
+    "index"
+   ]
   },
   {
    "id": "csib-pp-084",
@@ -1205,7 +1453,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "metadata",
+    "public data",
+    "open data"
+   ]
   },
   {
    "id": "csib-pp-085",
@@ -1218,7 +1471,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "patent",
+    "trademark",
+    "licence"
+   ]
   },
   {
    "id": "csib-pp-086",
@@ -1246,7 +1504,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "security"
+   "kind": "security",
+   "distractors": [
+    "plagiarism",
+    "hacking",
+    "phishing"
+   ]
   },
   {
    "id": "csib-pp-088",
@@ -1259,7 +1522,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "cyberbullying",
+    "digital literacy",
+    "copyright"
+   ]
   },
   {
    "id": "csib-pp-089",
@@ -1272,7 +1540,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "security"
+   "kind": "security",
+   "distractors": [
+    "spyware",
+    "ransomware",
+    "DDoS attack"
+   ]
   },
   {
    "id": "csib-pp-090",
@@ -1301,7 +1574,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "security"
+   "kind": "security",
+   "distractors": [
+    "compression",
+    "hashing",
+    "decryption"
+   ]
   },
   {
    "id": "csib-pp-092",
@@ -1314,7 +1592,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "security"
+   "kind": "security",
+   "distractors": [
+    "spyware",
+    "adware",
+    "trojan"
+   ]
   },
   {
    "id": "csib-pp-093",
@@ -1342,7 +1625,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "digital divide",
+    "digital signature",
+    "digital certificate"
+   ]
   },
   {
    "id": "csib-pp-095",
@@ -1357,7 +1645,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "expert system",
+    "robotics",
+    "computer vision"
+   ]
   },
   {
    "id": "csib-pp-096",
@@ -1369,7 +1662,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB A4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "test data",
+    "metadata",
+    "source code"
+   ]
   }
  ]
 }
