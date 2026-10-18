@@ -528,3 +528,27 @@ details > summary { cursor: pointer; font-weight: 600; }
 .invite-body textarea { margin-top: 10px; min-height: 160px; }
 .invite-actions .btn { flex: 1 1 auto; }
 .invite-hello { background: var(--primary-soft); border-radius: 12px; padding: 10px 12px; font-weight: 600; }
+
+/* ===== Obrazki, wzory, nowe typy kart ===== */
+.card-img { display: block; max-width: 100%; max-height: 260px; margin: 6px auto 10px; border-radius: 12px; object-fit: contain; background: var(--surface-2); }
+.card-img.small { max-height: 160px; margin: 4px 0 6px; }
+.math { font-size: 1.05em; white-space: nowrap; }
+.math .katex-display { margin: 6px 0; }
+.steps { margin: 0; padding-left: 1.4em; display: grid; gap: 4px; text-align: left; font-weight: 600; }
+.steps li::marker { color: var(--accent); font-weight: 800; }
+
+/* Ułóż w kolejności */
+.order-list { list-style: none; margin: 10px 0; padding: 0; display: grid; gap: 8px; counter-reset: step; min-height: 20px; }
+.order-list .order-item { counter-increment: step; display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 8px 12px;
+  border-radius: 12px; border: 2px solid var(--accent); background: var(--accent-soft); font-weight: 600; cursor: pointer; }
+.order-list .order-item::before { content: counter(step); flex: none; width: 26px; height: 26px; border-radius: 8px; display: grid; place-items: center;
+  background: var(--accent); color: #fff; font-size: .85rem; font-weight: 800; }
+.order-list .order-item.ok { border-color: var(--ok); background: var(--ok-soft); cursor: default; }
+.order-list .order-item.ok::before { background: var(--ok); }
+.order-list .order-item.bad { border-color: var(--bad); background: var(--bad-soft); cursor: default; }
+.order-list .order-item.bad::before { background: var(--bad); }
+.order-fix { color: var(--ok); font-weight: 700; }
+.order-pool { display: grid; gap: 8px; margin-top: 12px; }
+@media (min-width: 640px) { .order-pool { grid-template-columns: 1fr 1fr; } }
+.order-pool .order-item { display: flex; align-items: center; gap: 10px; text-align: left; }
+.order-pool .order-item .key { flex: none; width: 26px; height: 26px; border-radius: 8px; border: 1.5px solid var(--border); display: grid; place-items: center; font-size: .8rem; color: var(--muted); }

@@ -284,6 +284,8 @@
     hedging: 'Hedging',
     qa: 'Pytanie i odpowiedź',
     cloze: 'Zdanie z luką',
+    order: 'Ułóż w kolejności',
+    apply: 'Który wzór / zasada pasuje',
   };
 
   // Przedmioty: plik ze słownictwem bazowym, dozwolone typy wpisów, kategoria dla wpisów bez kategorii.
@@ -343,6 +345,8 @@
   // Karty bazowe wygenerowane z podstawy programowej mają source = PP_SOURCE i pp = numer wymagania (np. „VI.3.2”).
   const PP_SOURCE = 'Podstawa programowa';
   for (const c of Object.values(CATEGORIES)) c.subject = c.subject || DEFAULT_SUBJECT;
+  // Typy „ułóż w kolejności” i „który wzór / zasada pasuje” są dostępne wszędzie, gdzie są pytania i luki.
+  for (const s of Object.values(SUBJECTS)) if (s.types.includes('qa')) s.types.push('order', 'apply');
   const typeLabel = (type, subject) => ((SUBJECTS[subject] || {}).typeLabels || {})[type] || TYPES[type] || type;
 
   // Ścieżki nauki: konto widzi tylko przedmioty swojej ścieżki. audience trafia do promptu AI.
@@ -464,6 +468,35 @@
 
   // append() bez null/false (natywne append zamienia null na tekst "null")
   const put = (root, ...kids) => root.append(...kids.flat(Infinity).filter((k) => k != null && k !== false));
+
+  // Wzory: fragment w $$…$$ albo \(…\) renderuje KaTeX (ładowany z CDN w index.html). Pojedynczy „$” to zwykły
+  // znak (adresy komórek $A$1 w informatyce). Bez biblioteki (offline przed pierwszym pobraniem) zostaje źródło wzoru.
+  const MATH_RE = /\$\$([^$]+?)\$\$|\\\(([\s\S]+?)\\\)/g;
+  const hasMath = (s) => { MATH_RE.lastIndex = 0; return MATH_RE.test(String(s || '')); };
+  function mathEl(src) {
+    const el = h('span', { class: 'math' });
+    if (window.katex) el.innerHTML = window.katex.renderToString(src.trim(), { throwOnError: false, output: 'html' });
+    else el.textContent = src.trim();
+    return el;
+  }
+  // Tekst karty jako lista węzłów: zwykły tekst + wzory. Używać wszędzie, gdzie wyświetlamy treść karty.
+  function rich(text) {
+    const s = String(text == null ? '' : text);
+    if (!hasMath(s)) return [s];
+    const out = [];
+    let last = 0;
+    MATH_RE.lastIndex = 0;
+    for (let m; (m = MATH_RE.exec(s));) {
+      if (m.index > last) out.push(s.slice(last, m.index));
+      out.push(mathEl(m[1] != null ? m[1] : m[2]));
+      last = m.index + m[0].length;
+    }
+    if (last < s.length) out.push(s.slice(last));
+    return out;
+  }
+  // Obrazek karty (pole image: adres względny w repo, np. images/geo7/mapa.png, albo pełny URL).
+  const imageEl = (it, cls = 'card-img') => (it && filled(it.image)
+    ? h('img', { class: cls, src: String(it.image).trim(), alt: it.image_alt || '', loading: 'lazy', draggable: 'false' }) : null);
 
   const shuffle = (arr) => {
     const a = arr.slice();
@@ -705,11 +738,26 @@
       { key: 'answer', label: 'Odpowiedź', req: true, hint: 'najlepiej 1–4 słowa', ph: 'mitochondrion' },
       { key: 'accept', label: 'Inne poprawne odpowiedzi', list: '/', hint: 'kilka oddziel „/”', ph: 'mitochondria' },
       { key: 'explanation', label: 'Wyjaśnienie', ph: 'Aerobic respiration produces most of the cell’s ATP in the mitochondria.' },
+      { key: 'image', label: 'Obrazek (adres)', hint: 'opcjonalnie, np. images/geo7/mapa.png', ph: 'images/…' },
     ],
     cloze: [
       { key: 'text', label: 'Zdanie z luką', req: true, hint: 'lukę zapisz w {{…}}, warianty oddziel „/”', ph: 'Enzymes lower the {{activation energy}} of a reaction.' },
       { key: 'hint', label: 'Podpowiedź', ph: 'energy' },
       { key: 'explanation', label: 'Wyjaśnienie', ph: 'The enzyme stabilises the transition state.' },
+      { key: 'image', label: 'Obrazek (adres)', hint: 'opcjonalnie', ph: 'images/…' },
+    ],
+    order: [
+      { key: 'prompt', label: 'Polecenie', req: true, ph: 'Ułóż etapy mitozy w kolejności' },
+      { key: 'steps', label: 'Kroki w poprawnej kolejności', req: true, list: '|', hint: '3–8 kroków, oddziel „|”', ph: 'profaza | metafaza | anafaza | telofaza' },
+      { key: 'explanation', label: 'Wyjaśnienie', ph: 'Chromosomy najpierw się kondensują, potem ustawiają w płaszczyźnie równikowej…' },
+      { key: 'image', label: 'Obrazek (adres)', hint: 'opcjonalnie', ph: 'images/…' },
+    ],
+    apply: [
+      { key: 'situation', label: 'Sytuacja', req: true, ph: 'Samochód jedzie ze stałą prędkością 20 m/s przez 5 s. Jak obliczysz przejechaną drogę?' },
+      { key: 'rule', label: 'Pasujący wzór lub zasada', req: true, ph: 's = v · t' },
+      { key: 'wrong', label: 'Niepasujące wzory lub zasady', req: true, list: '/', hint: '2–3, oddziel „/”', ph: 'v = s / t / a = Δv / t / F = m · a' },
+      { key: 'explanation', label: 'Wyjaśnienie', ph: 'Ruch jednostajny: droga to iloczyn prędkości i czasu.' },
+      { key: 'image', label: 'Obrazek (adres)', hint: 'opcjonalnie', ph: 'images/…' },
     ],
   };
 
@@ -735,6 +783,16 @@
       else if (f.options && filled(raw[f.key]) && !f.options[raw[f.key]]) errs.push(`Nieznana wartość ${f.key}: „${raw[f.key]}”`);
     }
     if (raw.type === 'cloze' && filled(raw.text) && !CLOZE_RE.test(raw.text)) errs.push('W zdaniu brakuje luki w podwójnych klamrach {{…}}');
+    if (raw.type === 'order' && filled(raw.steps)) {
+      const steps = toArr(raw.steps);
+      if (steps.length < 3 || steps.length > 8) errs.push('Potrzeba od 3 do 8 kroków');
+      if (uniq(steps.map(norm)).length !== steps.length) errs.push('Kroki się powtarzają');
+    }
+    if (raw.type === 'apply' && filled(raw.wrong)) {
+      const wrong = toArr(raw.wrong);
+      if (wrong.length < 2) errs.push('Potrzeba co najmniej 2 niepasujących wzorów lub zasad');
+      if (filled(raw.rule) && wrong.some((w) => norm(w) === norm(raw.rule))) errs.push('Niepasujący wzór jest taki sam jak pasujący');
+    }
     return errs;
   }
 
@@ -802,8 +860,30 @@
         it._answer = it.formal;
         it._gap = null;
         break;
+      case 'order':
+        // kolejność kroków: fiszka i ćwiczenie „ułóż w kolejności”; bez quizu, wpisywania i luk
+        it.prompt = String(it.prompt).trim();
+        it.steps = toArr(it.steps).map((s) => s.trim());
+        it._answers = [];
+        it._mc = null;
+        it._gap = null;
+        it._label = it.prompt;
+        it._answer = it.steps.join(' → ');
+        break;
+      case 'apply':
+        // wzór / zasada do sytuacji: fiszka i quiz z autorskimi błędnymi opcjami (pole wrong)
+        it.situation = String(it.situation).trim();
+        it.rule = String(it.rule).trim();
+        it.wrong = toArr(it.wrong).map((s) => s.trim());
+        it._answers = [it.rule];
+        it._mc = null; // nie zasila puli dystraktorów pytań i luk
+        it._gap = null;
+        it._label = it.situation;
+        it._answer = it.rule;
+        break;
     }
-    it._search = [it.informal, it.word, it.rule, it.incorrect, it.correct, it.example, it.example_formal,
+    it._search = [it.informal, it.word, it.rule, it.incorrect, it.correct, it.example, it.example_formal, it.prompt, it.situation,
+      ...(it.type === 'order' ? it.steps : []), ...(it.type === 'apply' ? it.wrong : []),
       it.question, it.answer, it.explanation, it.hint, it.type === 'cloze' ? it.text.replace(CLOZE_RE_G, '$1') : null, ...(it.accept || []),
       ...(Array.isArray(it.formal) ? it.formal : [it.formal]), ...(Array.isArray(it.polish) ? it.polish : [it.polish])]
       .filter(Boolean).map(searchKey).join(' ');
@@ -948,27 +1028,31 @@
       case 'mc':
         if (it.quiz_suitable === false) return false; // poprawna odpowiedź bez kontekstu myli (np. tak/nie, „X czy Y?”)
         if (it.type === 'qa' || it.type === 'cloze') return !!it._mc && (MC_POOL.get(it.subject) || 0) >= 4;
-        if (it.type === 'style_rule') return false;
+        if (it.type === 'apply') return it.wrong.length >= 2;
+        if (it.type === 'style_rule' || it.type === 'order') return false;
         if (it.type === 'awl_word') return it.polish.length > 0;
         return true;
       case 'typing':
         if (it.type === 'replacement') return true;
-        if (it.type === 'qa') return isShort(it.answer);
+        if (it.type === 'qa') return isShort(it.answer) && !hasMath(it.answer); // wzoru nie da się wpisać z klawiatury
         return (it.type === 'academic_verb' || it.type === 'awl_word') && it.polish.length > 0;
       case 'gap': return !!it._gap;
+      case 'order': return it.type === 'order' && it.steps.length >= 3;
       default: return false;
     }
   }
 
   function chooseKind(it, exercise) {
-    const kinds = exercise === 'mix' || exercise === 'matching' ? ['flashcard', 'mc', 'typing', 'gap'] : [exercise];
+    const kinds = exercise === 'mix' || exercise === 'matching' ? ['flashcard', 'mc', 'typing', 'gap', 'order'] : [exercise];
     const ok = kinds.filter((k) => eligible(k, it));
     // zdanie z luką to też wpisywanie
     if (!ok.length && exercise === 'typing' && eligible('gap', it)) return 'gap';
+    // karta „ułóż w kolejności” ma tylko jedno ćwiczenie poza fiszką, więc dostaje je w każdym trybie
+    if (!ok.length && eligible('order', it)) return 'order';
     if (!ok.length) return eligible('mc', it) ? 'mc' : 'flashcard';
     if (ok.length === 1) return ok[0];
     const fresh = !state.progress[it.id];
-    const w = fresh ? { flashcard: 3, mc: 3, typing: 1, gap: 1 } : { flashcard: 1, mc: 3, typing: 2, gap: 2 };
+    const w = fresh ? { flashcard: 3, mc: 3, typing: 1, gap: 1, order: 3 } : { flashcard: 1, mc: 3, typing: 2, gap: 2, order: 4 };
     const weights = {};
     for (const k of ok) weights[k] = w[k];
     return weightedPick(weights);
@@ -1062,7 +1146,7 @@
     if (it.type === 'replacement') return it.example_formal;
     if (it.type === 'academic_verb' || it.type === 'awl_word') return it.example;
     if (it.type === 'hedging') return it.formal;
-    if (it.type === 'qa') return it.explanation || '';
+    if (it.type === 'qa' || it.type === 'order' || it.type === 'apply') return it.explanation || '';
     if (it.type === 'cloze') return [`${it._gap.before}${it._gap.hidden}${it._gap.after}`, it.explanation].filter(Boolean).join(' — ');
     return '';
   }
@@ -1207,6 +1291,11 @@
         context: `→ „${it.formal}”`, answer: correct,
         options: opts(correct, shuffle(Object.values(TECHNIQUES).filter((t) => t !== correct)).slice(0, 3)) };
     }
+    if (it.type === 'apply') {
+      // błędne opcje są autorskie (pole wrong): wzory z tego samego działu, które do tej sytuacji nie pasują
+      return { instruction: 'Który wzór lub która zasada pasuje do tej sytuacji?', prompt: it.situation, sentence: true, image: it.image,
+        answer: it.rule, options: opts(it.rule, shuffle(it.wrong).slice(0, 3)) };
+    }
     return null;
   }
 
@@ -1250,15 +1339,27 @@
         };
       case 'qa':
         return {
-          label: 'Pytanie', text: it.question, sentence: true, expected: it.answer,
-          back: [h('div', { class: 'main' + (isShort(it.answer) ? '' : ' sentence') }, it.answer),
-            kv([['Też poprawnie', it.accept.join(' / ')]]), it.explanation ? h('p', { class: 'muted' }, it.explanation) : null],
+          label: 'Pytanie', text: it.question, sentence: true, expected: it.answer, image: it.image,
+          back: [h('div', { class: 'main' + (isShort(it.answer) ? '' : ' sentence') }, rich(it.answer)),
+            kv([['Też poprawnie', it.accept.join(' / ')]]), it.explanation ? h('p', { class: 'muted' }, rich(it.explanation)) : null],
         };
       case 'cloze':
         return {
-          label: 'Czego brakuje?', text: it._label, sentence: true, expected: it._gap.hidden,
-          back: [h('div', { class: 'main sentence' }, it._gap.before, h('mark', null, it._gap.hidden), it._gap.after),
-            kv([['Też poprawnie', it._answers.slice(1).join(' / ')]]), it.explanation ? h('p', { class: 'muted' }, it.explanation) : null],
+          label: 'Czego brakuje?', text: it._label, sentence: true, expected: it._gap.hidden, image: it.image,
+          back: [h('div', { class: 'main sentence' }, rich(it._gap.before), h('mark', null, rich(it._gap.hidden)), rich(it._gap.after)),
+            kv([['Też poprawnie', it._answers.slice(1).join(' / ')]]), it.explanation ? h('p', { class: 'muted' }, rich(it.explanation)) : null],
+        };
+      case 'order':
+        return {
+          label: 'Ułóż w kolejności', text: it.prompt, sentence: true, expected: it._answer, image: it.image,
+          back: [h('ol', { class: 'steps' }, it.steps.map((s) => h('li', null, rich(s)))),
+            it.explanation ? h('p', { class: 'muted' }, rich(it.explanation)) : null],
+        };
+      case 'apply':
+        return {
+          label: 'Który wzór / zasada pasuje?', text: it.situation, sentence: true, expected: it.rule, image: it.image,
+          back: [h('div', { class: 'main' }, rich(it.rule)),
+            kv([['Nie pasują', it.wrong.join(' · ')]]), it.explanation ? h('p', { class: 'muted' }, rich(it.explanation)) : null],
         };
       case 'hedging':
         return {
@@ -1277,7 +1378,8 @@
     const card = h('div', { class: 'flash', role: 'button', tabindex: '0', 'aria-label': 'Karta — kliknij, aby odwrócić' },
       h('div', { class: 'flash-face flash-front' },
         h('div', { class: 'side-label' }, f.label),
-        h('div', { class: 'main' + (f.sentence ? ' sentence' : '') }, f.text),
+        f.image ? imageEl({ image: f.image, image_alt: it.image_alt }) : null,
+        h('div', { class: 'main' + (f.sentence ? ' sentence' : '') }, rich(f.text)),
         h('div', { class: 'tap-hint' }, 'Dotknij, aby odwrócić')),
       h('div', { class: 'flash-face flash-back' }, f.back));
     let flipped = false;
@@ -1351,7 +1453,7 @@
     const q = buildMC(it);
     let answered = false;
     const buttons = q.options.map((o, i) => h('button', { class: 'opt', onClick: () => choose(i) },
-      h('span', { class: 'key' }, String(i + 1)), h('span', null, o.text)));
+      h('span', { class: 'key' }, String(i + 1)), h('span', null, rich(o.text))));
     function choose(i) {
       if (answered) return;
       answered = true;
@@ -1369,8 +1471,9 @@
     put(root,
       kindLabel('Quiz'),
       h('div', { class: 'muted' }, q.instruction),
-      h('div', { class: 'prompt' + (q.sentence ? ' sentence' : '') }, q.prompt),
-      q.context ? h('div', { class: 'context' }, q.context) : null,
+      (it.type === 'qa' || it.type === 'cloze' || it.type === 'apply') ? imageEl(it) : null,
+      h('div', { class: 'prompt' + (q.sentence ? ' sentence' : '') }, rich(q.prompt)),
+      q.context ? h('div', { class: 'context' }, rich(q.context)) : null,
       h('div', { class: 'options' }, buttons));
     ctx.onKey((e) => {
       const n = Number(e.key);
@@ -1433,7 +1536,8 @@
     put(root,
       kindLabel('Wpisywanie'),
       h('div', { class: 'muted' }, p.instruction),
-      h('div', { class: 'prompt' }, p.prompt),
+      it.type === 'qa' ? imageEl(it) : null,
+      h('div', { class: 'prompt' + (it.type === 'qa' ? ' sentence' : '') }, rich(p.prompt)),
       p.context ? h('div', { class: 'context' }, p.context) : null,
       h('div', { class: 'field' }, input),
       h('div', { class: 'row' },
@@ -1458,7 +1562,7 @@
       const res = giveUp ? { ok: false } : checkTyped(input.value, accepted);
       input.disabled = true;
       input.classList.add(res.ok ? 'ok' : 'bad');
-      line.textContent = g.hidden;
+      line.replaceChildren(...rich(g.hidden));
       line.classList.add(res.ok ? 'ok' : 'bad');
       ctx.finish([{ item: it, correct: res.ok, quality: res.ok ? (res.exact ? 4 : 3) : 1,
         prompt: `${g.before}___${g.after}`, expected: g.hidden, given: input.value || '(nie wiem)' }],
@@ -1470,10 +1574,11 @@
       h('div', { class: 'muted', style: 'margin-bottom:10px' },
         it.type === 'replacement' ? 'Wpisz formalne wyrażenie zamiast nieformalnego z nawiasu.'
           : it.type === 'cloze' ? 'Wpisz brakujące pojęcie.' : 'Wpisz brakujące słowo (podpowiedź po polsku).'),
+      it.type === 'cloze' ? imageEl(it) : null,
       h('div', { class: 'gap-sentence card' },
-        g.before,
+        rich(g.before),
         h('span', { class: 'gap-slot' }, h('span', { class: 'gap-hint' }, hint), line),
-        g.after),
+        rich(g.after)),
       h('div', { class: 'field' }, input),
       h('div', { class: 'row' },
         h('button', { class: 'btn btn-ghost', onClick: () => submit(true) }, 'Nie wiem'),
@@ -1490,8 +1595,8 @@
     let sel = null; // { side: 'l'|'r', i }
     let matched = 0;
 
-    const leftEls = pairs.map((p, i) => h('button', { class: 'match-item', draggable: 'true', dataset: { i } }, p.l));
-    const rightEls = rights.map((r, i) => h('button', { class: 'match-item', dataset: { i } }, r));
+    const leftEls = pairs.map((p, i) => h('button', { class: 'match-item', draggable: 'true', dataset: { i } }, rich(p.l)));
+    const rightEls = rights.map((r, i) => h('button', { class: 'match-item', dataset: { i } }, rich(r)));
 
     const clearSel = () => { leftEls.concat(rightEls).forEach((e) => e.classList.remove('sel')); sel = null; };
 
@@ -1554,7 +1659,66 @@
       h('div', { class: 'match-grid' }, h('div', { class: 'match-col' }, leftEls), h('div', { class: 'match-col' }, rightEls)));
   }
 
-  const RENDERERS = { flashcard: renderFlashcard, mc: renderMC, typing: renderTyping, gap: renderGap, matching: renderMatching };
+  // Ułóż w kolejności: kroki pomieszane w puli, uczeń dotyka je po kolei (albo klawisze 1–8), może cofnąć ostatni.
+  function renderOrder(step, root, ctx) {
+    const it = step.items[0];
+    const correct = it.steps;
+    let pool = shuffle(correct);
+    for (let n = 0; n < 5 && pool.every((s, i) => s === correct[i]); n++) pool = shuffle(correct); // nie podawaj gotowej kolejności
+    const placed = [];
+    let answered = false;
+    const poolEl = h('div', { class: 'order-pool' });
+    const listEl = h('ol', { class: 'order-list' });
+    const checkBtn = h('button', { class: 'btn btn-primary', disabled: true, onClick: () => submit(false) }, 'Sprawdź');
+    const undoBtn = h('button', { class: 'btn btn-ghost', disabled: true, onClick: () => undo() }, '↶ Cofnij');
+
+    function draw() {
+      poolEl.replaceChildren(...pool.map((s, i) => h('button', { class: 'match-item order-item', onClick: () => place(i) },
+        h('span', { class: 'key' }, String(i + 1)), h('span', null, rich(s)))));
+      listEl.replaceChildren(...placed.map((s, i) => h('li', { class: 'order-item placed', onClick: () => unplace(i) }, rich(s))));
+      checkBtn.disabled = answered || pool.length > 0;
+      undoBtn.disabled = answered || !placed.length;
+    }
+    function place(i) { if (answered || i >= pool.length) return; placed.push(pool.splice(i, 1)[0]); draw(); }
+    function unplace(i) { if (answered) return; pool.push(...placed.splice(i)); draw(); }
+    function undo() { if (!answered && placed.length) unplace(placed.length - 1); }
+    function submit(giveUp) {
+      if (answered) return;
+      answered = true;
+      const hits = placed.filter((s, i) => s === correct[i]).length;
+      const ok = !giveUp && placed.length === correct.length && hits === correct.length;
+      const expected = correct.map((s, i) => `${i + 1}. ${s}`).join('  ');
+      listEl.replaceChildren(...correct.map((s, i) => h('li', { class: 'order-item ' + (placed[i] === s ? 'ok' : 'bad') },
+        rich(placed[i] != null ? placed[i] : '—'), placed[i] !== s ? h('span', { class: 'order-fix' }, ' → ', rich(s)) : null)));
+      poolEl.replaceChildren();
+      checkBtn.disabled = undoBtn.disabled = true;
+      ctx.finish([{ item: it, correct: ok, quality: ok ? 4 : hits >= correct.length / 2 ? 2 : 1, prompt: it.prompt, expected: it._answer,
+        given: giveUp ? '(nie wiem)' : placed.join(' → ') }],
+        ok ? { ok: true, title: pick(OK_TITLES), detail: it.explanation || '' }
+          : { ok: false, title: giveUp ? 'Poprawna kolejność' : `Niestety… ${hits}/${correct.length} na swoim miejscu`, detail: expected });
+    }
+    draw();
+    put(root,
+      kindLabel('Ułóż w kolejności'),
+      imageEl(it),
+      h('div', { class: 'prompt sentence' }, rich(it.prompt)),
+      h('div', { class: 'muted small' }, 'Dotykaj kroki w poprawnej kolejności. Dotknięcie kroku na liście cofa go (i następne) do puli.'),
+      listEl,
+      poolEl,
+      h('div', { class: 'row', style: 'margin-top:14px' },
+        h('button', { class: 'btn btn-ghost', onClick: () => submit(true) }, 'Nie wiem'),
+        undoBtn,
+        h('div', { class: 'spacer' }),
+        checkBtn));
+    ctx.onKey((e) => {
+      const n = Number(e.key);
+      if (n >= 1 && n <= pool.length) place(n - 1);
+      else if (e.key === 'Backspace') { e.preventDefault(); undo(); }
+      else if (e.key === 'Enter' && !checkBtn.disabled) submit(false);
+    });
+  }
+
+  const RENDERERS = { flashcard: renderFlashcard, mc: renderMC, typing: renderTyping, gap: renderGap, matching: renderMatching, order: renderOrder };
 
   // ===================================================================
   // Sesja — kontroler
@@ -1581,7 +1745,7 @@
     const btn = h('button', { class: 'btn ' + (f.ok ? 'btn-primary' : 'btn-danger'), onClick: () => onContinue() }, 'Dalej');
     fb.replaceChildren(h('div', { class: 'feedback-inner' },
       h('div', { class: 'fb-icon', 'aria-hidden': 'true' }, f.ok ? '✓' : '✗'),
-      h('div', { class: 'fb-text' }, h('div', { class: 'fb-title' }, f.title), f.detail ? h('div', { class: 'fb-detail' }, f.detail) : null),
+      h('div', { class: 'fb-text' }, h('div', { class: 'fb-title' }, f.title), f.detail ? h('div', { class: 'fb-detail' }, rich(f.detail)) : null),
       btn));
     fb.className = 'feedback show ' + (f.ok ? 'ok' : 'bad');
     feedbackAt = Date.now();
@@ -1964,9 +2128,9 @@
       errors.length ? h('div', { class: 'card' },
         h('h2', null, 'Do przejrzenia'),
         h('div', { class: 'err-list' }, errors.map((e) => h('div', { class: 'err' + (e.skipped ? ' skipped' : '') },
-          h('div', { class: 'q' }, e.prompt),
-          e.given && !e.skipped ? h('div', { class: 'g' }, e.given) : e.skipped ? h('div', { class: 'muted small' }, 'pominięte') : null,
-          h('div', { class: 'a' }, '✓ ' + e.expected))))) : h('div', { class: 'card', style: 'text-align:center' }, 'Bez błędów — tak trzymaj! ⭐'));
+          h('div', { class: 'q' }, rich(e.prompt)),
+          e.given && !e.skipped ? h('div', { class: 'g' }, rich(e.given)) : e.skipped ? h('div', { class: 'muted small' }, 'pominięte') : null,
+          h('div', { class: 'a' }, '✓ ', rich(e.expected)))))) : h('div', { class: 'card', style: 'text-align:center' }, 'Bez błędów — tak trzymaj! ⭐'));
   }
 
   // ----- Słownik
@@ -2000,15 +2164,25 @@
           h('div', { class: 'word-head' }, h('span', { class: 'word-main' }, '✍️ ' + it.rule), badges),
           h('div', { class: 'word-details' }, ex('bad', '✗', it.incorrect), ex('good', '✓', it.correct)));
       case 'qa':
-        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, it.question), h('span', { class: 'word-arrow' }, '→'), h('span', { class: 'word-sub' }, it.answer)];
-        details = [it.accept.length ? h('div', null, h('b', null, 'Też poprawnie: '), it.accept.join(' / ')) : null,
-          it.explanation ? h('div', { class: 'muted small' }, it.explanation) : null];
+        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, rich(it.question)), h('span', { class: 'word-arrow' }, '→'), h('span', { class: 'word-sub' }, rich(it.answer))];
+        details = [imageEl(it, 'card-img small'), it.accept.length ? h('div', null, h('b', null, 'Też poprawnie: '), it.accept.join(' / ')) : null,
+          it.explanation ? h('div', { class: 'muted small' }, rich(it.explanation)) : null];
         break;
       case 'cloze':
-        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, it._gap.before, h('mark', null, it._gap.hidden), it._gap.after)];
-        details = [it._answers.length > 1 ? h('div', null, h('b', null, 'Też poprawnie: '), it._answers.slice(1).join(' / ')) : null,
+        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, rich(it._gap.before), h('mark', null, rich(it._gap.hidden)), rich(it._gap.after))];
+        details = [imageEl(it, 'card-img small'), it._answers.length > 1 ? h('div', null, h('b', null, 'Też poprawnie: '), it._answers.slice(1).join(' / ')) : null,
           it.hint ? h('div', null, h('b', null, 'Podpowiedź: '), it.hint) : null,
-          it.explanation ? h('div', { class: 'muted small' }, it.explanation) : null];
+          it.explanation ? h('div', { class: 'muted small' }, rich(it.explanation)) : null];
+        break;
+      case 'order':
+        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, '🔢 ', rich(it.prompt))];
+        details = [imageEl(it, 'card-img small'), h('ol', { class: 'steps' }, it.steps.map((s) => h('li', null, rich(s)))),
+          it.explanation ? h('div', { class: 'muted small' }, rich(it.explanation)) : null];
+        break;
+      case 'apply':
+        head = [h('span', { class: 'word-main', style: 'font-weight:600' }, rich(it.situation)), h('span', { class: 'word-arrow' }, '→'), h('span', { class: 'word-sub' }, rich(it.rule))];
+        details = [imageEl(it, 'card-img small'), h('div', null, h('b', null, 'Nie pasują: '), rich(it.wrong.join(' · '))),
+          it.explanation ? h('div', { class: 'muted small' }, rich(it.explanation)) : null];
         break;
       case 'hedging':
         head = [h('span', { class: 'word-main', style: 'font-weight:600' }, it.informal)];
@@ -2191,6 +2365,8 @@
     style_rule: ['rule', 'incorrect', 'correct'],
     qa: ['question', 'answer', 'explanation'],
     cloze: ['text', 'hint', 'explanation'],
+    order: ['prompt', 'steps', 'explanation'],
+    apply: ['situation', 'rule', 'wrong', 'explanation'],
   };
 
   // podgląd importu: { source, rows: [{ item, errors, warnings, dup, checked, line }], notes: [błędy parsera], parts, ai }
@@ -2207,7 +2383,7 @@
   }
 
   const fieldDef = (type, key) => (FIELDS[type] || []).find((f) => f.key === key);
-  const textKey = (it) => norm(it.informal || it.word || it.incorrect || it.rule || it.question || it.text || '');
+  const textKey = (it) => norm(it.informal || it.word || it.incorrect || (it.type === 'style_rule' && it.rule) || it.question || it.text || it.prompt || it.situation || '');
   // Duplikat = ten sam tekst w tym samym przedmiocie.
   const dupKey = (it) => { const k = textKey(it); return k ? `${subjectOf(it)}|${k}` : ''; };
   const fmtDate = (iso) => (iso ? new Date(iso).toLocaleDateString('pl-PL', { day: 'numeric', month: 'short', year: 'numeric' }) : '');
@@ -2217,7 +2393,7 @@
     const f = fieldDef(type, key);
     const v = String(text).trim();
     if (!f || !v) return v;
-    if (f.list) return v.split(f.list === '/' ? /\s*\/\s*/ : /\s*[,/]\s*/).filter(Boolean);
+    if (f.list) return v.split(f.list === '|' ? /\s*\|\s*/ : f.list === '/' ? /\s*\/\s*/ : /\s*[,/]\s*/).filter(Boolean);
     if (f.num) return Number(v) || undefined;
     if (f.options) {
       const k = v.toLowerCase().replace(/[\s-]+/g, '_');

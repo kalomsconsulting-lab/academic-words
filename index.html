@@ -13,6 +13,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Study Cards">
   <link rel="stylesheet" href="style.css">
+  <!-- Wzory w kartach ($$…$$): KaTeX z CDN, wersja przypięta; sw.js trzyma kopię offline po pierwszym użyciu. -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   <script>
     // Apply saved theme before first paint to avoid a flash.
     try {
@@ -51,6 +53,7 @@
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="config.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
   <script src="ai-import.js" defer></script>
   <script src="app.js" defer></script>
 </body>

@@ -100,7 +100,7 @@ Zasady:
     if (subject.vocab) return vocabPrompt(subject, cats, card);
     return `Na podstawie załączonego materiału z przedmiotu ${subject.label} przygotuj karty do nauki z fiszek i zwróć je jako JSON w bloku kodu.
 ${subject.audience ? `Poziom: ${subject.audience}. Pytania mają odpowiadać temu poziomowi.\n` : ''}
-Format: tablica obiektów. Użyj dwóch typów:
+Format: tablica obiektów. Użyj głównie dwóch typów:
 
 1. Pytanie i odpowiedź:
 ${card('qa', ex.qa)}
@@ -108,13 +108,24 @@ ${card('qa', ex.qa)}
 2. Zdanie z luką (ukryte pojęcie w podwójnych klamrach {{ }}):
 ${card('cloze', ex.cloze)}
 
+Dodatkowo, tylko gdy materiał na to pozwala (łącznie nie więcej niż 15% kart):
+
+3. Kolejność etapów procesu, chronologia (3–6 kroków w poprawnej kolejności):
+${card('order', pl ? { prompt: 'Ułóż etapy … w kolejności', steps: ['pierwszy etap', 'drugi etap', 'trzeci etap'], explanation: 'Wyjaśnienie w jednym zdaniu.' }
+    : { prompt: 'Put the stages of … in order', steps: ['first stage', 'second stage', 'third stage'], explanation: 'One-sentence explanation.' })}
+
+4. Który wzór albo która zasada pasuje do opisanej sytuacji (3 niepasujące, ale prawdziwe wzory/zasady z tego działu w "wrong"):
+${card('apply', pl ? { situation: 'Opis sytuacji lub zadania …', rule: 'pasujący wzór lub zasada', wrong: ['inny wzór', 'inny wzór', 'inna zasada'], explanation: 'Dlaczego ten wzór.' }
+    : { situation: 'Description of a situation or task …', rule: 'matching formula or rule', wrong: ['other formula', 'other formula', 'other rule'], explanation: 'Why this one.' })}
+
 Zasady:
 - ${pl ? 'Karty po polsku, poprawną polszczyzną (z polskimi znakami).' : 'Karty po angielsku, tak jak w materiale. Bez tłumaczeń na polski.'}
 - Jedna informacja na kartę. Pytaj o definicje, funkcje, różnice, przyczyny i skutki, etapy procesów, przykłady.
 - "answer" krótko: najlepiej 1–4 słowa (pojęcie, nazwa, liczba), bo uczeń wpisuje je z pamięci. Dłuższy komentarz daj do "explanation" (jedno zdanie).
 - "accept" (opcjonalnie): inne poprawne formy odpowiedzi, np. liczba mnoga, skrót, synonim.
 - W "cloze" dokładnie jedna luka. Ukrywaj kluczowe pojęcie, nigdy słowa typu "the", "is", "and". Inne poprawne formy wpisz w luce po "/": ${pl ? '{{tlen / O2}}' : '{{ATP / adenosine triphosphate}}'}.
-- Mniej więcej 60% kart "qa" i 40% "cloze".
+- Mniej więcej 60% kart "qa" i 40% "cloze"; typy "order" i "apply" tylko tam, gdzie naprawdę pasują.
+- Wzory matematyczne, chemiczne i fizyczne zapisuj w LaTeX między podwójnymi dolarami, np. "$$\\\\frac{a}{b}$$", "$$H_2SO_4$$"; zwykłe liczby i jednostki bez tego.
 - Dozwolone kategorie${cats.length ? `: ${cats.map((c) => `${c.key} (${c.label})`).join(', ')}` : ' — pomiń pole "category"'}.
 - "difficulty": 1 (łatwe), 2 (średnie), 3 (trudne).
 - Używaj tylko informacji z materiału, nie dopisuj faktów spoza niego.
