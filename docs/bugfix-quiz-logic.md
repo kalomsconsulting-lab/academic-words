@@ -26,10 +26,12 @@ obie dają krótką odpowiedź). Wymagania:
    `year` (rok, zakres lat, wiek), `number` (wartość, także z jednostką i liczebniki słowne), `formula` (wzór
    z `=` lub zmiennymi), `chem` (wzór sumaryczny: `NH3`, `Ca(OH)2`), `symbol` (`Fe`, `V`, `II`), `person`
    (pytanie „Kto…”, „Który władca…”, „Who…”), `place` („Gdzie…”, „Które państwo…”, odpowiedź z przyimkiem
-   i wielką literą), `proper` (inna nazwa własna) albo `term` (pojęcie). Rodzaj można nadpisać polem `kind` na
-   karcie. Kolejność wyboru: ta sama kategoria, rodzaj i typ (`qa`/`cloze`) → ten sam rodzaj i typ → ten sam rodzaj
+   i wielką literą), `proper` (inna nazwa własna) albo `term` (pojęcie). Nad rodzajem ogólnym stoi **szczegółowy tag `kind`** z pliku (ZROBIONE dla 21 plików `qa`/`cloze`):
+   każdy plik ma słownik `kinds` (8–16 tagów, np. historia: władca, dowódca, polityk, bitwa, miasto, traktat, rok;
+   biologia: narząd, substancja, choroba, hormon), a każda karta pole `kind`; dystraktory biorą najpierw karty
+   z tym samym tagiem, a przy małej puli schodzą do rodzaju ogólnego. Kolejność wyboru: ta sama kategoria, rodzaj i typ (`qa`/`cloze`) → ten sam rodzaj i typ → ten sam rodzaj
    → ta sama kategoria → reszta przedmiotu. Karty z `quiz_suitable: false` nie są dystraktorami.
-2. **Autorskie dystraktory** (ZROBIONE w kodzie, DO UZUPEŁNIENIA w danych). Opcjonalne pole `distractors: [...]`
+2. **Autorskie dystraktory** (ZROBIONE: kod oraz ok. 180 kart `cloze` z luką przeciwstawną w 21 plikach). Opcjonalne pole `distractors: [...]`
    (do 3 błędnych odpowiedzi) jest używane w pierwszej kolejności, a brakujące opcje dobiera pula. To jedyny sposób
    na naprawdę trudny quiz tam, gdzie rodzaj odpowiedzi nie wystarcza: luki z przeciwieństwem („niskiej / wysokiej”,
    „rosną / maleją”), pojęcia z tej samej rodziny (rodzaje tkanek, gatunki literackie, typy reakcji), bliskie daty.
