@@ -85,7 +85,8 @@
    "kind": "map term",
    "distractors": [
     "linear",
-    "verbal"
+    "verbal",
+    "graphic"
    ]
   },
   {
@@ -98,7 +99,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "isobars",
+    "isotherms",
+    "isohyets"
+   ]
   },
   {
    "id": "geoib-pp-006",
@@ -114,7 +120,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "meridian",
+    "parallel",
+    "graticule"
+   ]
   },
   {
    "id": "geoib-pp-007",
@@ -130,7 +141,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "dot map",
+    "isoline map",
+    "proportional symbol map"
+   ]
   },
   {
    "id": "geoib-pp-008",
@@ -148,7 +164,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "choropleth map",
+    "dot map",
+    "flow line map"
+   ]
   },
   {
    "id": "geoib-pp-009",
@@ -164,7 +185,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "thematic map",
+    "political map",
+    "synoptic map"
+   ]
   },
   {
    "id": "geoib-pp-010",
@@ -179,7 +205,8 @@
    "kind": "map term",
    "distractors": [
     "general-purpose",
-    "topographic"
+    "topographic",
+    "cadastral"
    ]
   },
   {
@@ -196,7 +223,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "map scale",
+    "map legend",
+    "remote sensing"
+   ]
   },
   {
    "id": "geoib-pp-012",
@@ -211,7 +243,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "Robinson projection",
+    "Peters projection",
+    "Mollweide projection"
+   ]
   },
   {
    "id": "geoib-pp-013",
@@ -227,7 +264,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.8",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "Global Information System",
+    "Geographic Imaging System",
+    "Geospatial Indexing System"
+   ]
   },
   {
    "id": "geoib-pp-014",
@@ -242,7 +284,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.7",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "General Positioning System",
+    "Global Pointing System",
+    "Geographic Positioning System"
+   ]
   },
   {
    "id": "geoib-pp-015",
@@ -258,7 +305,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.6",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "cartography",
+    "geodesy",
+    "surveying"
+   ]
   },
   {
    "id": "geoib-pp-016",
@@ -273,7 +325,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "Mars",
+    "Venus",
+    "Mercury"
+   ]
   },
   {
    "id": "geoib-pp-017",
@@ -303,7 +360,8 @@
    "kind": "concept",
    "distractors": [
     "outer",
-    "Jovian"
+    "Jovian",
+    "giant"
    ]
   },
   {
@@ -319,7 +377,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "constellation",
+    "nebula",
+    "star cluster"
+   ]
   },
   {
    "id": "geoib-pp-020",
@@ -335,7 +398,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "revolution",
+    "precession",
+    "nutation"
+   ]
   },
   {
    "id": "geoib-pp-021",
@@ -352,7 +420,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "rotation",
+    "precession",
+    "nutation"
+   ]
   },
   {
    "id": "geoib-pp-022",
@@ -386,7 +459,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "circulation"
+   "kind": "circulation",
+   "distractors": [
+    "centrifugal force",
+    "pressure gradient force",
+    "friction force"
+   ]
   },
   {
    "id": "geoib-pp-024",
@@ -400,7 +478,9 @@
    "pp": "II.2",
    "kind": "concept",
    "distractors": [
-    "equinox"
+    "equinox",
+    "perihelion",
+    "aphelion"
    ]
   },
   {
@@ -485,7 +565,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "oxygen",
+    "argon",
+    "carbon dioxide"
+   ]
   },
   {
    "id": "geoib-pp-030",
@@ -517,7 +602,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "layer"
+   "kind": "layer",
+   "distractors": [
+    "stratosphere",
+    "mesosphere",
+    "thermosphere"
+   ]
   },
   {
    "id": "geoib-pp-032",
@@ -532,7 +622,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "layer"
+   "kind": "layer",
+   "distractors": [
+    "troposphere",
+    "mesosphere",
+    "thermosphere"
+   ]
   },
   {
    "id": "geoib-pp-033",
@@ -580,7 +675,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "altitude",
+    "longitude",
+    "distance from the sea"
+   ]
   },
   {
    "id": "geoib-pp-036",
@@ -598,7 +698,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "continentality",
+    "rain shadow",
+    "urban heat island"
+   ]
   },
   {
    "id": "geoib-pp-037",
@@ -610,7 +715,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "circulation"
+   "kind": "circulation",
+   "distractors": [
+    "subtropical high",
+    "polar front",
+    "Hadley cell"
+   ]
   },
   {
    "id": "geoib-pp-038",
@@ -622,7 +732,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "value"
+   "kind": "value",
+   "distractors": [
+    "60",
+    "0",
+    "45"
+   ]
   },
   {
    "id": "geoib-pp-039",
@@ -638,7 +753,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "wind"
+   "kind": "wind",
+   "distractors": [
+    "westerlies",
+    "polar easterlies",
+    "monsoon"
+   ]
   },
   {
    "id": "geoib-pp-040",
@@ -655,7 +775,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "wind"
+   "kind": "wind",
+   "distractors": [
+    "trade winds",
+    "polar easterlies",
+    "monsoons"
+   ]
   },
   {
    "id": "geoib-pp-041",
@@ -671,7 +796,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "wind"
+   "kind": "wind",
+   "distractors": [
+    "trade winds",
+    "foehn",
+    "sirocco"
+   ]
   },
   {
    "id": "geoib-pp-042",
@@ -686,7 +816,8 @@
    "kind": "circulation",
    "distractors": [
     "Ferrel",
-    "polar"
+    "polar",
+    "Walker"
    ]
   },
   {
@@ -705,7 +836,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "convectional rainfall",
+    "frontal rainfall",
+    "monsoon rainfall"
+   ]
   },
   {
    "id": "geoib-pp-044",
@@ -722,7 +858,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "orographic rainfall",
+    "frontal rainfall",
+    "relief rainfall"
+   ]
   },
   {
    "id": "geoib-pp-045",
@@ -739,7 +880,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "orographic rainfall",
+    "convectional rainfall",
+    "relief rainfall"
+   ]
   },
   {
    "id": "geoib-pp-046",
@@ -756,7 +902,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "cyclone",
+    "depression",
+    "trough"
+   ]
   },
   {
    "id": "geoib-pp-047",
@@ -773,7 +924,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "climate map",
+    "topographic map",
+    "isohyet map"
+   ]
   },
   {
    "id": "geoib-pp-048",
@@ -785,7 +941,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "map term"
+   "kind": "map term",
+   "distractors": [
+    "isotherms",
+    "isohyets",
+    "contour lines"
+   ]
   },
   {
    "id": "geoib-pp-049",
@@ -802,7 +963,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "ridge",
+    "trough",
+    "air mass"
+   ]
   },
   {
    "id": "geoib-pp-050",
@@ -816,7 +982,9 @@
    "pp": "III.5",
    "kind": "climate term",
    "distractors": [
-    "weather"
+    "weather",
+    "season",
+    "air mass"
    ]
   },
   {
@@ -834,7 +1002,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.5",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "temperate continental",
+    "temperate maritime",
+    "Mediterranean"
+   ]
   },
   {
    "id": "geoib-pp-052",
@@ -851,7 +1024,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.6",
-   "kind": "climate term"
+   "kind": "climate term",
+   "distractors": [
+    "savanna",
+    "monsoon",
+    "Mediterranean"
+   ]
   },
   {
    "id": "geoib-pp-053",
@@ -866,7 +1044,8 @@
    "kind": "climate term",
    "distractors": [
     "maritime",
-    "transitional"
+    "transitional",
+    "Mediterranean"
    ]
   },
   {
@@ -879,7 +1058,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.7",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "ozone depletion",
+    "global dimming",
+    "albedo effect"
+   ]
   },
   {
    "id": "geoib-pp-055",
@@ -932,7 +1116,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "carbon cycle",
+    "nitrogen cycle",
+    "rock cycle"
+   ]
   },
   {
    "id": "geoib-pp-058",
@@ -983,7 +1172,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "circulation"
+   "kind": "circulation",
+   "distractors": [
+    "Canary Current",
+    "Labrador Current",
+    "Kuroshio Current"
+   ]
   },
   {
    "id": "geoib-pp-061",
@@ -995,7 +1189,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "circulation"
+   "kind": "circulation",
+   "distractors": [
+    "Benguela",
+    "California",
+    "Canary"
+   ]
   },
   {
    "id": "geoib-pp-062",
@@ -1012,7 +1211,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.3",
-   "kind": "wind"
+   "kind": "wind",
+   "distractors": [
+    "tides",
+    "density differences",
+    "the Moon's gravity"
+   ]
   },
   {
    "id": "geoib-pp-063",
@@ -1030,7 +1234,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "landform"
+   "kind": "landform",
+   "distractors": [
+    "floodplain",
+    "delta",
+    "estuary"
+   ]
   },
   {
    "id": "geoib-pp-064",
@@ -1045,7 +1254,8 @@
    "kind": "concept",
    "distractors": [
     "exorheic",
-    "external"
+    "external",
+    "arheic"
    ]
   },
   {
@@ -1061,7 +1271,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "landform"
+   "kind": "landform",
+   "distractors": [
+    "delta",
+    "levee",
+    "river terrace"
+   ]
   },
   {
    "id": "geoib-pp-066",
@@ -1088,7 +1303,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "permafrost",
+    "moraine",
+    "till"
+   ]
   },
   {
    "id": "geoib-pp-068",
@@ -1103,7 +1323,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.5",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "Iceland and Svalbard",
+    "Alaska and Siberia",
+    "Himalayas and Andes"
+   ]
   },
   {
    "id": "geoib-pp-069",
@@ -1120,7 +1345,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "layer"
+   "kind": "layer",
+   "distractors": [
+    "crust, magma, core",
+    "lithosphere, asthenosphere, core",
+    "crust, mantle, magma"
+   ]
   },
   {
    "id": "geoib-pp-070",
@@ -1135,7 +1365,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "layer"
+   "kind": "layer",
+   "distractors": [
+    "asthenosphere",
+    "mantle",
+    "crust"
+   ]
   },
   {
    "id": "geoib-pp-071",
@@ -1147,7 +1382,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "ocean currents",
+    "tidal forces",
+    "magnetic forces"
+   ]
   },
   {
    "id": "geoib-pp-072",
@@ -1211,7 +1451,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "landform"
+   "kind": "landform",
+   "distractors": [
+    "ridge",
+    "rift",
+    "basin"
+   ]
   },
   {
    "id": "geoib-pp-076",
@@ -1244,7 +1489,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "epeirogeny",
+    "subduction",
+    "weathering"
+   ]
   },
   {
    "id": "geoib-pp-078",
@@ -1277,7 +1527,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "tectonic term"
+   "kind": "tectonic term",
+   "distractors": [
+    "focus",
+    "hypocentre",
+    "fault"
+   ]
   },
   {
    "id": "geoib-pp-080",
@@ -1294,7 +1549,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Mercalli scale",
+    "Beaufort scale",
+    "Mohs scale"
+   ]
   },
   {
    "id": "geoib-pp-081",
@@ -1306,7 +1566,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "Mid-Atlantic Ridge",
+    "Alpide Belt",
+    "East African Rift"
+   ]
   },
   {
    "id": "geoib-pp-082",
@@ -1323,7 +1588,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "orogenic movements",
+    "volcanic eruptions",
+    "plate subduction"
+   ]
   },
   {
    "id": "geoib-pp-083",
@@ -1337,7 +1607,9 @@
    "pp": "V.2",
    "kind": "substance",
    "distractors": [
-    "lava"
+    "lava",
+    "tephra",
+    "obsidian"
    ]
   },
   {
@@ -1353,7 +1625,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "landform"
+   "kind": "landform",
+   "distractors": [
+    "crater",
+    "cinder cone",
+    "lava dome"
+   ]
   },
   {
    "id": "geoib-pp-085",
@@ -1368,7 +1645,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "erosion",
+    "deposition",
+    "transportation"
+   ]
   },
   {
    "id": "geoib-pp-086",
@@ -1387,7 +1669,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "chemical weathering",
+    "biological weathering",
+    "exfoliation"
+   ]
   },
   {
    "id": "geoib-pp-087",
@@ -1404,7 +1691,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "frost weathering",
+    "biological weathering",
+    "exfoliation"
+   ]
   },
   {
    "id": "geoib-pp-088",
@@ -1421,7 +1713,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "weathering, erosion, deposition",
+    "folding, faulting, uplift",
+    "erosion, deposition, uplift"
+   ]
   },
   {
    "id": "geoib-pp-089",
@@ -1454,7 +1751,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "landform"
+   "kind": "landform",
+   "distractors": [
+    "arête",
+    "U-shaped valley",
+    "moraine"
+   ]
   },
   {
    "id": "geoib-pp-091",
@@ -1470,7 +1772,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "landform"
+   "kind": "landform",
+   "distractors": [
+    "drumlin",
+    "yardang",
+    "moraine"
+   ]
   },
   {
    "id": "geoib-pp-092",
@@ -1487,7 +1794,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "substance"
+   "kind": "substance",
+   "distractors": [
+    "sedimentary rocks",
+    "metamorphic rocks",
+    "clastic rocks"
+   ]
   },
   {
    "id": "geoib-pp-093",
@@ -1503,7 +1815,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB core",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "crude death rate",
+    "fertility rate",
+    "natural increase rate"
+   ]
   },
   {
    "id": "geoib-pp-094",
@@ -1532,7 +1849,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB core",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "sex ratio",
+    "fertility rate",
+    "literacy rate"
+   ]
   },
   {
    "id": "geoib-pp-096",
@@ -1548,7 +1870,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB core",
-   "kind": "process"
+   "kind": "process",
+   "distractors": [
+    "ocean acidification",
+    "isostatic rebound",
+    "coral bleaching"
+   ]
   },
   {
    "id": "geoib-pp-097",
@@ -1562,7 +1889,9 @@
    "pp": "IB core",
    "kind": "process",
    "distractors": [
-    "adaptation"
+    "adaptation",
+    "resilience",
+    "geoengineering"
    ]
   },
   {
@@ -1575,7 +1904,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB core",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "offset",
+    "budget",
+    "sink"
+   ]
   }
  ]
 }
