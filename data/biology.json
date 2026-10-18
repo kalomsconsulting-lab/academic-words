@@ -1482,7 +1482,8 @@
    "category": "bio_general",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB A3.1"
+   "pp": "IB A3.1",
+   "quiz_suitable": false
   },
   {
    "id": "bio-pp-074",

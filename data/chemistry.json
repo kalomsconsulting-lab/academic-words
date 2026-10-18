@@ -195,10 +195,10 @@
    "id": "chemib-pp-014",
    "type": "qa",
    "question": "Write the electron configuration of the chloride ion, Cl-.",
-   "answer": "1s2 2s2 2p6 3s2 3p6",
+   "answer": "[Ne] 3s2 3p6",
    "accept": [
+    "1s2 2s2 2p6 3s2 3p6",
     "1s22s22p63s23p6",
-    "[Ne] 3s2 3p6",
     "[Ar]"
    ],
    "explanation": "Cl has 17 electrons; gaining one gives 18, the same configuration as argon.",
@@ -1250,7 +1250,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "quiz_suitable": false
   },
   {
    "id": "chemib-pp-088",

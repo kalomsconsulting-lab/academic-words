@@ -52,7 +52,8 @@
    "category": "geoib_skills",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "quiz_suitable": false
   },
   {
    "id": "geoib-pp-004",
@@ -1045,7 +1046,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "quiz_suitable": false
   },
   {
    "id": "geoib-pp-073",

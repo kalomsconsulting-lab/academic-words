@@ -753,7 +753,8 @@
    "function": "agreement",
    "example": "Critics admire the clarity of her argument.",
    "category": "academic_verbs",
-   "difficulty": 1
+   "difficulty": 1,
+   "quiz_suitable": false
   },
   {
    "id": "av013",
@@ -765,7 +766,8 @@
    "function": "agreement",
    "example": "The article extols the benefits of a plant-based diet.",
    "category": "academic_verbs",
-   "difficulty": 3
+   "difficulty": 3,
+   "quiz_suitable": false
   },
   {
    "id": "av014",
@@ -789,7 +791,8 @@
    "function": "agreement",
    "example": "Reviewers praised the originality of the research.",
    "category": "academic_verbs",
-   "difficulty": 1
+   "difficulty": 1,
+   "quiz_suitable": false
   },
   {
    "id": "av016",
@@ -865,7 +868,8 @@
    "function": "disagreement",
    "example": "Residents complain that the new law is unfair.",
    "category": "academic_verbs",
-   "difficulty": 1
+   "difficulty": 1,
+   "quiz_suitable": false
   },
   {
    "id": "av022",
@@ -878,7 +882,8 @@
    "function": "disagreement",
    "example": "The scientist later disavowed his earlier claims.",
    "category": "academic_verbs",
-   "difficulty": 3
+   "difficulty": 3,
+   "quiz_suitable": false
   },
   {
    "id": "av023",
@@ -890,7 +895,8 @@
    "function": "disagreement",
    "example": "These new findings complicate the traditional view.",
    "category": "academic_verbs",
-   "difficulty": 2
+   "difficulty": 2,
+   "quiz_suitable": false
   },
   {
    "id": "av024",
@@ -976,7 +982,8 @@
    "function": "disagreement",
    "example": "He renounced his earlier position on the issue.",
    "category": "academic_verbs",
-   "difficulty": 3
+   "difficulty": 3,
+   "quiz_suitable": false
   },
   {
    "id": "av031",
@@ -989,7 +996,8 @@
    "function": "disagreement",
    "example": "The government repudiated the allegations.",
    "category": "academic_verbs",
-   "difficulty": 3
+   "difficulty": 3,
+   "quiz_suitable": false
   },
   {
    "id": "av032",

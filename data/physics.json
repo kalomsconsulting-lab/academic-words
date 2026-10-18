@@ -110,7 +110,8 @@
    "category": "physib_measure",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "quiz_suitable": false
   },
   {
    "id": "physib-pp-008",
@@ -747,7 +748,7 @@
   {
    "id": "physib-pp-050",
    "type": "cloze",
-   "text": "Newton's second law in momentum form: the net force equals the rate of change of {{momentum}}, F = Δp / Δt.",
+   "text": "Newton's second law can be written with p = m · v: the net force equals the rate of change of {{momentum}}, F = Δp / Δt.",
    "hint": "p = m · v",
    "explanation": "F · Δt = Δp; the product F · Δt is called impulse.",
    "category": "physib_motion",
@@ -1146,7 +1147,8 @@
    "category": "physib_motion",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "quiz_suitable": false
   },
   {
    "id": "physib-pp-076",

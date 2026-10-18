@@ -715,7 +715,8 @@
    "category": "mat7_equations",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VI.1"
+   "pp": "VI.1",
+   "quiz_suitable": false
   },
   {
    "id": "mat7-pp-053",
@@ -914,7 +915,8 @@
    "category": "mat7_percent",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.1"
+   "pp": "VII.1",
+   "quiz_suitable": false
   },
   {
    "id": "mat7-pp-068",
@@ -1078,7 +1080,8 @@
    "category": "mat7_geometry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "VIII.5"
+   "pp": "VIII.5",
+   "quiz_suitable": false
   },
   {
    "id": "mat7-pp-080",

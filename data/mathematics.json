@@ -43,7 +43,8 @@
    "category": "mathib_number",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "quiz_suitable": false
   },
   {
    "id": "mathib-pp-004",
@@ -941,7 +942,8 @@
    "category": "mathib_geometry",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "VIII.2"
+   "pp": "VIII.2",
+   "quiz_suitable": false
   },
   {
    "id": "mathib-pp-065",
@@ -1051,7 +1053,8 @@
    "category": "mathib_geometry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VIII.8"
+   "pp": "VIII.8",
+   "quiz_suitable": false
   },
   {
    "id": "mathib-pp-073",

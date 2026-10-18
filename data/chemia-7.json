@@ -743,7 +743,8 @@
    "category": "chem7_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.11"
+   "pp": "II.11",
+   "quiz_suitable": false
   },
   {
    "id": "chem7-pp-056",
@@ -816,7 +817,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "quiz_suitable": false
   },
   {
    "id": "chem7-pp-061",
@@ -831,7 +833,8 @@
    "category": "chem7_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "quiz_suitable": false
   },
   {
    "id": "chem7-pp-062",
@@ -1241,7 +1244,8 @@
    "category": "chem7_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "quiz_suitable": false
   },
   {
    "id": "chem7-pp-092",

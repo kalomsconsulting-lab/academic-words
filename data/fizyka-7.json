@@ -680,7 +680,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.16"
+   "pp": "II.16",
+   "quiz_suitable": false
   },
   {
    "id": "fiz7-pp-047",
@@ -733,7 +734,8 @@
    "category": "fiz7_forces",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.17"
+   "pp": "II.17",
+   "quiz_suitable": false
   },
   {
    "id": "fiz7-pp-050",
@@ -1137,7 +1139,8 @@
    "category": "fiz7_heat",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "quiz_suitable": false
   },
   {
    "id": "fiz7-pp-076",

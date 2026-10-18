@@ -290,7 +290,8 @@
    "category": "inf7_programming",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "quiz_suitable": false
   },
   {
    "id": "inf7-pp-021",

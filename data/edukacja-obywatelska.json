@@ -1272,9 +1272,9 @@
    "id": "eo-pp-094",
    "type": "qa",
    "question": "Który konstytucyjny organ stoi na straży wolności słowa i interesu publicznego w radiu i telewizji?",
-   "answer": "Krajowa Rada Radiofonii i Telewizji",
+   "answer": "KRRiT",
    "accept": [
-    "KRRiT"
+    "Krajowa Rada Radiofonii i Telewizji"
    ],
    "explanation": "KRRiT przyznaje koncesje nadawcom i nadzoruje media publiczne.",
    "category": "eo_media",

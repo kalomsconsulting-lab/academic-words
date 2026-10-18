@@ -528,7 +528,8 @@
    "category": "his7_uprisings",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "XXI.3"
+   "pp": "XXI.3",
+   "quiz_suitable": false
   },
   {
    "id": "his7-pp-040",
@@ -1248,7 +1249,7 @@
   {
    "id": "his7-pp-092",
    "type": "cloze",
-   "text": "Na mocy traktatu wersalskiego Polska otrzymała Wielkopolskę i Pomorze Gdańskie, a {{Gdańsk}} stał się Wolnym Miastem pod opieką Ligi Narodów.",
+   "text": "Na mocy traktatu wersalskiego Polska otrzymała Wielkopolskę i część Pomorza, a {{Gdańsk}} stał się Wolnym Miastem pod opieką Ligi Narodów.",
    "hint": "miasto portowe nad Bałtykiem",
    "explanation": "Polska miała w Wolnym Mieście Gdańsku prawa celne i pocztowe, ale miasto było zdominowane przez Niemców.",
    "category": "his7_ii_rp",

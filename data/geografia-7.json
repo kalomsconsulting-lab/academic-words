@@ -984,7 +984,8 @@
    "category": "geo7_farming",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "X.9"
+   "pp": "X.9",
+   "quiz_suitable": false
   },
   {
    "id": "geo7-pp-070",

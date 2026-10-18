@@ -905,7 +905,8 @@
    "category": "csib_programming",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "quiz_suitable": false
   },
   {
    "id": "csib-pp-071",

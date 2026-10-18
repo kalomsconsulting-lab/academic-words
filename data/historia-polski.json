@@ -120,7 +120,7 @@
   {
    "id": "hpl-pp-009",
    "type": "cloze",
-   "text": "Na zjeździe gnieźnieńskim w 1000 roku utworzono polską metropolię kościelną, czyli arcybiskupstwo w {{Gnieźnie}}.",
+   "text": "W 1000 roku, podczas zjazdu z udziałem cesarza Ottona III, utworzono polską metropolię kościelną, czyli arcybiskupstwo w {{Gnieźnie}}.",
    "hint": "stolica Polan",
    "explanation": "Własna metropolia (z biskupstwami w Krakowie, Wrocławiu i Kołobrzegu) uniezależniła Kościół polski od arcybiskupów niemieckich.",
    "category": "hpl_piast",
@@ -969,7 +969,7 @@
   {
    "id": "hpl-pp-070",
    "type": "cloze",
-   "text": "Organizacja stanów pruskich (miast i rycerstwa) założona w 1440 roku przeciw rządom Krzyżaków to Związek {{Pruski}}.",
+   "text": "Organizacja miast i rycerstwa z państwa zakonnego, założona w 1440 roku przeciw rządom Krzyżaków, to Związek {{Pruski}}.",
    "hint": "od nazwy krainy",
    "explanation": "W 1454 roku Związek Pruski wypowiedział posłuszeństwo zakonowi i poddał Prusy królowi polskiemu.",
    "category": "hpl_jagiellon",

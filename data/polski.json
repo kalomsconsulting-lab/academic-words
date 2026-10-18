@@ -909,7 +909,7 @@
   {
    "id": "plib-pp-067",
    "type": "cloze",
-   "text": "„Hymn do miłości ojczyzny” Krasickiego rozpoczyna apostrofa: „Święta miłości kochanej {{ojczyzny}}”.",
+   "text": "Hymn Krasickiego śpiewany w Szkole Rycerskiej rozpoczyna apostrofa: „Święta miłości kochanej {{ojczyzny}}”.",
    "hint": "kraj rodzinny",
    "explanation": "Utwór pełnił funkcję hymnu Szkoły Rycerskiej; głosi gotowość do ofiary za ojczyznę.",
    "category": "plib_enlight",
@@ -1430,7 +1430,8 @@
    "category": "plib_language",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4.1"
+   "pp": "II.4.1",
+   "quiz_suitable": false
   },
   {
    "id": "plib-pp-107",
@@ -1460,7 +1461,8 @@
    "category": "plib_language",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.4.1"
+   "pp": "II.4.1",
+   "quiz_suitable": false
   },
   {
    "id": "plib-pp-109",
