@@ -1,6 +1,20 @@
 {
  "version": 1,
  "subject": "geography_ib",
+ "kinds": [
+  "value",
+  "map term",
+  "layer",
+  "process",
+  "climate term",
+  "wind",
+  "circulation",
+  "landform",
+  "tectonic term",
+  "place",
+  "substance",
+  "concept"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla liceum i technikum, geografia, zakres podstawowy (Dz.U. 2018 poz. 467), działy I–V (klasa 1); pojęcia tylko z IB DP Geography core oznaczone \"IB core\"",
  "items": [
@@ -21,7 +35,8 @@
    "category": "geoib_skills",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-002",
@@ -37,7 +52,8 @@
    "category": "geoib_skills",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-003",
@@ -53,7 +69,8 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.3",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "value"
   },
   {
    "id": "geoib-pp-004",
@@ -64,7 +81,12 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "map term",
+   "distractors": [
+    "linear",
+    "verbal"
+   ]
   },
   {
    "id": "geoib-pp-005",
@@ -75,7 +97,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-006",
@@ -90,7 +113,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-007",
@@ -105,7 +129,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-008",
@@ -122,7 +147,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-009",
@@ -137,7 +163,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-010",
@@ -148,7 +175,12 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term",
+   "distractors": [
+    "general-purpose",
+    "topographic"
+   ]
   },
   {
    "id": "geoib-pp-011",
@@ -163,7 +195,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-012",
@@ -177,7 +210,8 @@
    "category": "geoib_skills",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-013",
@@ -192,7 +226,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.8"
+   "pp": "I.8",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-014",
@@ -206,7 +241,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.7"
+   "pp": "I.7",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-015",
@@ -221,7 +257,8 @@
    "category": "geoib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.6"
+   "pp": "I.6",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-016",
@@ -235,7 +272,8 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "place"
   },
   {
    "id": "geoib-pp-017",
@@ -249,7 +287,8 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-018",
@@ -260,7 +299,12 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "concept",
+   "distractors": [
+    "outer",
+    "Jovian"
+   ]
   },
   {
    "id": "geoib-pp-019",
@@ -274,7 +318,8 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.4"
+   "pp": "II.4",
+   "kind": "concept"
   },
   {
    "id": "geoib-pp-020",
@@ -289,7 +334,8 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-021",
@@ -305,7 +351,8 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-022",
@@ -322,7 +369,8 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-023",
@@ -337,7 +385,8 @@
    "category": "geoib_global",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "circulation"
   },
   {
    "id": "geoib-pp-024",
@@ -348,7 +397,11 @@
    "category": "geoib_global",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "concept",
+   "distractors": [
+    "equinox"
+   ]
   },
   {
    "id": "geoib-pp-025",
@@ -365,7 +418,8 @@
    "category": "geoib_global",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-026",
@@ -380,7 +434,8 @@
    "category": "geoib_global",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-027",
@@ -397,7 +452,8 @@
    "category": "geoib_global",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-028",
@@ -413,7 +469,8 @@
    "category": "geoib_global",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-029",
@@ -427,7 +484,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "substance"
   },
   {
    "id": "geoib-pp-030",
@@ -443,7 +501,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-031",
@@ -457,7 +516,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "layer"
   },
   {
    "id": "geoib-pp-032",
@@ -471,7 +531,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "layer"
   },
   {
    "id": "geoib-pp-033",
@@ -488,7 +549,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-034",
@@ -505,7 +567,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-035",
@@ -516,7 +579,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "concept"
   },
   {
    "id": "geoib-pp-036",
@@ -533,7 +597,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-037",
@@ -544,7 +609,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "circulation"
   },
   {
    "id": "geoib-pp-038",
@@ -555,7 +621,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-039",
@@ -570,7 +637,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wind"
   },
   {
    "id": "geoib-pp-040",
@@ -586,7 +654,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wind"
   },
   {
    "id": "geoib-pp-041",
@@ -601,7 +670,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "wind"
   },
   {
    "id": "geoib-pp-042",
@@ -612,7 +682,12 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "circulation",
+   "distractors": [
+    "Ferrel",
+    "polar"
+   ]
   },
   {
    "id": "geoib-pp-043",
@@ -629,7 +704,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-044",
@@ -645,7 +721,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-045",
@@ -661,7 +738,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-046",
@@ -677,7 +755,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-047",
@@ -693,7 +772,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-048",
@@ -704,7 +784,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "map term"
   },
   {
    "id": "geoib-pp-049",
@@ -720,7 +801,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-050",
@@ -731,7 +813,11 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "climate term",
+   "distractors": [
+    "weather"
+   ]
   },
   {
    "id": "geoib-pp-051",
@@ -747,7 +833,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-052",
@@ -763,7 +850,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "climate term"
   },
   {
    "id": "geoib-pp-053",
@@ -774,7 +862,12 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "climate term",
+   "distractors": [
+    "maritime",
+    "transitional"
+   ]
   },
   {
    "id": "geoib-pp-054",
@@ -785,7 +878,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.7"
+   "pp": "III.7",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-055",
@@ -802,7 +896,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-056",
@@ -819,7 +914,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "concept"
   },
   {
    "id": "geoib-pp-057",
@@ -835,7 +931,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-058",
@@ -853,7 +950,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-059",
@@ -872,7 +970,8 @@
    "category": "geoib_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-060",
@@ -883,7 +982,8 @@
    "category": "geoib_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "circulation"
   },
   {
    "id": "geoib-pp-061",
@@ -894,7 +994,8 @@
    "category": "geoib_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "circulation"
   },
   {
    "id": "geoib-pp-062",
@@ -910,7 +1011,8 @@
    "category": "geoib_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "wind"
   },
   {
    "id": "geoib-pp-063",
@@ -927,7 +1029,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "landform"
   },
   {
    "id": "geoib-pp-064",
@@ -938,7 +1041,12 @@
    "category": "geoib_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "concept",
+   "distractors": [
+    "exorheic",
+    "external"
+   ]
   },
   {
    "id": "geoib-pp-065",
@@ -952,7 +1060,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "landform"
   },
   {
    "id": "geoib-pp-066",
@@ -966,7 +1075,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "place"
   },
   {
    "id": "geoib-pp-067",
@@ -977,7 +1087,8 @@
    "category": "geoib_water",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "substance"
   },
   {
    "id": "geoib-pp-068",
@@ -991,7 +1102,8 @@
    "category": "geoib_water",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "place"
   },
   {
    "id": "geoib-pp-069",
@@ -1007,7 +1119,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "layer"
   },
   {
    "id": "geoib-pp-070",
@@ -1021,7 +1134,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "layer"
   },
   {
    "id": "geoib-pp-071",
@@ -1032,7 +1146,8 @@
    "category": "geoib_landforms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-072",
@@ -1047,7 +1162,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "tectonic term"
   },
   {
    "id": "geoib-pp-073",
@@ -1064,7 +1180,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "tectonic term"
   },
   {
    "id": "geoib-pp-074",
@@ -1081,7 +1198,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "tectonic term"
   },
   {
    "id": "geoib-pp-075",
@@ -1092,7 +1210,8 @@
    "category": "geoib_landforms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "landform"
   },
   {
    "id": "geoib-pp-076",
@@ -1107,7 +1226,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "place"
   },
   {
    "id": "geoib-pp-077",
@@ -1123,7 +1243,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-078",
@@ -1139,7 +1260,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "tectonic term"
   },
   {
    "id": "geoib-pp-079",
@@ -1154,7 +1276,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "tectonic term"
   },
   {
    "id": "geoib-pp-080",
@@ -1170,7 +1293,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "concept"
   },
   {
    "id": "geoib-pp-081",
@@ -1181,7 +1305,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "place"
   },
   {
    "id": "geoib-pp-082",
@@ -1197,7 +1322,8 @@
    "category": "geoib_landforms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-083",
@@ -1208,7 +1334,11 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "substance",
+   "distractors": [
+    "lava"
+   ]
   },
   {
    "id": "geoib-pp-084",
@@ -1222,7 +1352,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "landform"
   },
   {
    "id": "geoib-pp-085",
@@ -1236,7 +1367,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-086",
@@ -1254,7 +1386,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-087",
@@ -1270,7 +1403,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-088",
@@ -1286,7 +1420,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-089",
@@ -1301,7 +1436,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "landform"
   },
   {
    "id": "geoib-pp-090",
@@ -1317,7 +1453,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "landform"
   },
   {
    "id": "geoib-pp-091",
@@ -1332,7 +1469,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "landform"
   },
   {
    "id": "geoib-pp-092",
@@ -1348,7 +1486,8 @@
    "category": "geoib_landforms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "substance"
   },
   {
    "id": "geoib-pp-093",
@@ -1363,7 +1502,8 @@
    "category": "geoib_population",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB core"
+   "pp": "IB core",
+   "kind": "concept"
   },
   {
    "id": "geoib-pp-094",
@@ -1379,7 +1519,8 @@
    "category": "geoib_population",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB core"
+   "pp": "IB core",
+   "kind": "value"
   },
   {
    "id": "geoib-pp-095",
@@ -1390,7 +1531,8 @@
    "category": "geoib_population",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB core"
+   "pp": "IB core",
+   "kind": "concept"
   },
   {
    "id": "geoib-pp-096",
@@ -1405,7 +1547,8 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB core"
+   "pp": "IB core",
+   "kind": "process"
   },
   {
    "id": "geoib-pp-097",
@@ -1416,7 +1559,11 @@
    "category": "geoib_climate",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB core"
+   "pp": "IB core",
+   "kind": "process",
+   "distractors": [
+    "adaptation"
+   ]
   },
   {
    "id": "geoib-pp-098",
@@ -1427,7 +1574,8 @@
    "category": "geoib_climate",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB core"
+   "pp": "IB core",
+   "kind": "concept"
   }
  ]
 }
