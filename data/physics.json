@@ -26,7 +26,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "unit"
+   "kind": "unit",
+   "distractors": [
+    "gram",
+    "newton",
+    "tonne"
+   ]
   },
   {
    "id": "physib-pp-002",
@@ -145,7 +150,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.5",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "force and displacement",
+    "mass and force",
+    "displacement and time"
+   ]
   },
   {
    "id": "physib-pp-009",
@@ -157,7 +167,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.11",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "median",
+    "mode",
+    "standard deviation"
+   ]
   },
   {
    "id": "physib-pp-010",
@@ -224,7 +239,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "displacement",
+    "tangent",
+    "position vector"
+   ]
   },
   {
    "id": "physib-pp-014",
@@ -236,7 +256,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "displacement",
+    "speed",
+    "position"
+   ]
   },
   {
    "id": "physib-pp-015",
@@ -284,7 +309,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "distance",
+    "acceleration",
+    "momentum"
+   ]
   },
   {
    "id": "physib-pp-018",
@@ -320,7 +350,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "acceleration",
+    "displacement",
+    "force"
+   ]
   },
   {
    "id": "physib-pp-020",
@@ -337,7 +372,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "acceleration",
+    "speed",
+    "force"
+   ]
   },
   {
    "id": "physib-pp-021",
@@ -352,7 +392,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "velocity",
+    "displacement",
+    "distance"
+   ]
   },
   {
    "id": "physib-pp-022",
@@ -464,7 +509,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.4",
-   "kind": "unit"
+   "kind": "unit",
+   "distractors": [
+    "second",
+    "newton",
+    "radian"
+   ]
   },
   {
    "id": "physib-pp-029",
@@ -540,7 +590,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.6",
-   "kind": "force"
+   "kind": "force",
+   "distractors": [
+    "balanced force",
+    "frictional force",
+    "centripetal force"
+   ]
   },
   {
    "id": "physib-pp-034",
@@ -603,7 +658,9 @@
    "pp": "II.6",
    "kind": "concept",
    "distractors": [
-    "the same"
+    "the same",
+    "perpendicular",
+    "parallel"
    ]
   },
   {
@@ -619,7 +676,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.6",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "weight",
+    "momentum",
+    "friction"
+   ]
   },
   {
    "id": "physib-pp-039",
@@ -649,7 +711,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.7",
-   "kind": "force"
+   "kind": "force",
+   "distractors": [
+    "kinetic friction",
+    "rolling friction",
+    "fluid friction"
+   ]
   },
   {
    "id": "physib-pp-041",
@@ -667,7 +734,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.7",
-   "kind": "force"
+   "kind": "force",
+   "distractors": [
+    "buoyancy",
+    "static friction",
+    "thrust"
+   ]
   },
   {
    "id": "physib-pp-042",
@@ -688,7 +760,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.7",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "ice skating",
+    "engine parts wearing out",
+    "oiling a bicycle chain"
+   ]
   },
   {
    "id": "physib-pp-043",
@@ -703,7 +780,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.8",
-   "kind": "force"
+   "kind": "force",
+   "distractors": [
+    "centrifugal force",
+    "gravitational force",
+    "frictional force"
+   ]
   },
   {
    "id": "physib-pp-044",
@@ -738,7 +820,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.9",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "non-inertial",
+    "accelerating",
+    "rotating"
+   ]
   },
   {
    "id": "physib-pp-046",
@@ -752,7 +839,9 @@
    "pp": "II.9",
    "kind": "concept",
    "distractors": [
-    "inertial"
+    "inertial",
+    "stationary",
+    "rotating"
    ]
   },
   {
@@ -789,7 +878,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB A.2",
-   "kind": "unit"
+   "kind": "unit",
+   "distractors": [
+    "kg / s",
+    "N · m",
+    "J · s"
+   ]
   },
   {
    "id": "physib-pp-049",
@@ -819,7 +913,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB A.2",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "kinetic energy",
+    "velocity",
+    "acceleration"
+   ]
   },
   {
    "id": "physib-pp-051",
@@ -838,7 +937,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IB A.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "conservative forces only",
+    "constant external force",
+    "zero kinetic energy"
+   ]
   },
   {
    "id": "physib-pp-052",
@@ -869,7 +973,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "unit"
+   "kind": "unit",
+   "distractors": [
+    "watt",
+    "newton",
+    "pascal"
+   ]
   },
   {
    "id": "physib-pp-054",
@@ -953,7 +1062,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "unit"
+   "kind": "unit",
+   "distractors": [
+    "joule",
+    "newton",
+    "hertz"
+   ]
   },
   {
    "id": "physib-pp-059",
@@ -1052,7 +1166,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "zero",
+    "increasing",
+    "decreasing"
+   ]
   },
   {
    "id": "physib-pp-065",
@@ -1097,7 +1216,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.10",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "potential energy",
+    "internal energy",
+    "thermal energy"
+   ]
   },
   {
    "id": "physib-pp-068",
@@ -1156,7 +1280,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "force"
+   "kind": "force",
+   "distractors": [
+    "normal force",
+    "air resistance",
+    "buoyancy"
+   ]
   },
   {
    "id": "physib-pp-071",
@@ -1174,7 +1303,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "force"
+   "kind": "force",
+   "distractors": [
+    "thrust",
+    "magnetic force",
+    "air resistance"
+   ]
   },
   {
    "id": "physib-pp-072",
@@ -1186,7 +1320,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "phenomenon"
+   "kind": "phenomenon",
+   "distractors": [
+    "overload",
+    "hypergravity",
+    "buoyancy"
+   ]
   },
   {
    "id": "physib-pp-073",
@@ -1204,7 +1343,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "phenomenon"
+   "kind": "phenomenon",
+   "distractors": [
+    "weightlessness",
+    "free fall",
+    "microgravity"
+   ]
   },
   {
    "id": "physib-pp-074",
@@ -1221,7 +1365,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "unit"
+   "kind": "unit",
+   "distractors": [
+    "light year",
+    "parsec",
+    "nautical mile"
+   ]
   },
   {
    "id": "physib-pp-075",
@@ -1275,7 +1424,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.5",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "it is contracting",
+    "it is static",
+    "it is rotating"
+   ]
   },
   {
    "id": "physib-pp-078",
@@ -1294,7 +1448,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "it decreases",
+    "it stays the same",
+    "it shortens"
+   ]
   },
   {
    "id": "physib-pp-079",
@@ -1310,7 +1469,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "work",
+    "temperature",
+    "internal energy"
+   ]
   },
   {
    "id": "physib-pp-080",
@@ -1322,7 +1486,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "temperature",
+    "momentum",
+    "pressure"
+   ]
   },
   {
    "id": "physib-pp-081",
@@ -1341,7 +1510,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "the second law",
+    "the third law",
+    "the zeroth law"
+   ]
   },
   {
    "id": "physib-pp-082",
@@ -1398,7 +1572,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "quantity"
+   "kind": "quantity",
+   "distractors": [
+    "latent heat of vaporization",
+    "specific heat capacity",
+    "heat of combustion"
+   ]
   },
   {
    "id": "physib-pp-085",
@@ -1413,7 +1592,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.3",
-   "kind": "phenomenon"
+   "kind": "phenomenon",
+   "distractors": [
+    "diffraction",
+    "refraction",
+    "reflection"
+   ]
   },
   {
    "id": "physib-pp-086",
@@ -1426,7 +1610,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.2",
-   "kind": "phenomenon"
+   "kind": "phenomenon",
+   "distractors": [
+    "interference",
+    "refraction",
+    "reflection"
+   ]
   },
   {
    "id": "physib-pp-087",
@@ -1442,7 +1631,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VI.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Ohm's law",
+    "Newton's law of gravitation",
+    "Faraday's law"
+   ]
   },
   {
    "id": "physib-pp-088",
@@ -1458,7 +1652,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VII.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Coulomb's law",
+    "Kirchhoff's law",
+    "Joule's law"
+   ]
   },
   {
    "id": "physib-pp-089",
@@ -1488,7 +1687,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "electron",
+    "neutron",
+    "positron"
+   ]
   }
  ]
 }
