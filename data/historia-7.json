@@ -52,7 +52,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XVIII.1",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "Konstytucja Księstwa Warszawskiego",
+    "Deklaracja praw człowieka",
+    "Konkordat napoleoński"
+   ]
   },
   {
    "id": "his7-pp-003",
@@ -64,7 +69,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XVIII.1",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "koalicja antyfrancuska",
+    "unia celna",
+    "polityka protekcjonizmu"
+   ]
   },
   {
    "id": "his7-pp-004",
@@ -93,7 +103,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XVIII.2",
-   "kind": "postać"
+   "kind": "postać",
+   "distractors": [
+    "Jan Henryk Dąbrowski",
+    "Józef Poniatowski",
+    "Tadeusz Kościuszko"
+   ]
   },
   {
    "id": "his7-pp-006",
@@ -106,7 +121,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XVIII.2",
-   "kind": "państwo"
+   "kind": "państwo",
+   "distractors": [
+    "Królestwo Polskie",
+    "Rzeczpospolita Krakowska",
+    "Wielkie Księstwo Poznańskie"
+   ]
   },
   {
    "id": "his7-pp-007",
@@ -154,7 +174,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIX.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "równowaga sił",
+    "konserwatyzm",
+    "absolutyzm"
+   ]
   },
   {
    "id": "his7-pp-010",
@@ -166,7 +191,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIX.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "suwerenność ludu",
+    "zasada narodowości",
+    "solidarność monarchów"
+   ]
   },
   {
    "id": "his7-pp-011",
@@ -179,7 +209,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIX.1",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "Trójprzymierze",
+    "Związek Niemiecki",
+    "Związek Reński"
+   ]
   },
   {
    "id": "his7-pp-012",
@@ -195,7 +230,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIX.1",
-   "kind": "państwo"
+   "kind": "państwo",
+   "distractors": [
+    "Księstwo Warszawskie",
+    "Rzeczpospolita Krakowska",
+    "Wielkie Księstwo Poznańskie"
+   ]
   },
   {
    "id": "his7-pp-013",
@@ -239,7 +279,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIX.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "burżuazja",
+    "arystokracja",
+    "inteligencja"
+   ]
   },
   {
    "id": "his7-pp-016",
@@ -251,7 +296,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIX.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "industrializacja",
+    "emigracja",
+    "mechanizacja"
+   ]
   },
   {
    "id": "his7-pp-017",
@@ -266,7 +316,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XX.1",
-   "kind": "postać"
+   "kind": "postać",
+   "distractors": [
+    "Mikołaj I",
+    "Aleksander II",
+    "Mikołaj II"
+   ]
   },
   {
    "id": "his7-pp-018",
@@ -278,7 +333,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XX.1",
-   "kind": "ustrój"
+   "kind": "ustrój",
+   "distractors": [
+    "unią realną",
+    "unią celną",
+    "federacją"
+   ]
   },
   {
    "id": "his7-pp-019",
@@ -310,7 +370,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XX.1",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "Szkoła Główna Warszawska",
+    "Liceum Krzemienieckie",
+    "Uniwersytet Wileński"
+   ]
   },
   {
    "id": "his7-pp-021",
@@ -341,7 +406,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XX.2",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "rabacja galicyjska",
+    "Wiosna Ludów",
+    "powstanie krakowskie"
+   ]
   },
   {
    "id": "his7-pp-023",
@@ -369,7 +439,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XX.2",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "abdykację",
+    "koronację",
+    "elekcję"
+   ]
   },
   {
    "id": "his7-pp-025",
@@ -385,7 +460,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XX.2",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Ostrołęka",
+    "Stoczek",
+    "Iganie"
+   ]
   },
   {
    "id": "his7-pp-026",
@@ -397,7 +477,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XX.2",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "Ustawą Rządową",
+    "Kodeksem Napoleona",
+    "Statutem Litewskim"
+   ]
   },
   {
    "id": "his7-pp-027",
@@ -410,7 +495,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XX.3",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Rzeczpospolita Krakowska",
+    "Królestwo Polskie",
+    "Prusy Zachodnie"
+   ]
   },
   {
    "id": "his7-pp-028",
@@ -425,7 +515,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XX.3",
-   "kind": "państwo"
+   "kind": "państwo",
+   "distractors": [
+    "Księstwo Warszawskie",
+    "Wielkie Księstwo Poznańskie",
+    "Wolne Miasto Gdańsk"
+   ]
   },
   {
    "id": "his7-pp-029",
@@ -437,7 +532,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XX.3",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Krajem Przywiślańskim",
+    "Kresami Wschodnimi",
+    "Królestwem Kongresowym"
+   ]
   },
   {
    "id": "his7-pp-030",
@@ -450,7 +550,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XX.4",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "Wiosna Ludów",
+    "Noc Listopadowa",
+    "rabacja galicyjska"
+   ]
   },
   {
    "id": "his7-pp-031",
@@ -512,7 +617,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXI.1",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "rabacja",
+    "kontrybucja",
+    "uwłaszczenie"
+   ]
   },
   {
    "id": "his7-pp-035",
@@ -528,7 +638,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXI.1",
-   "kind": "partia"
+   "kind": "partia",
+   "distractors": [
+    "biali",
+    "ludowcy",
+    "socjaliści"
+   ]
   },
   {
    "id": "his7-pp-036",
@@ -544,7 +659,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXI.1",
-   "kind": "partia"
+   "kind": "partia",
+   "distractors": [
+    "czerwoni",
+    "endecy",
+    "ludowcy"
+   ]
   },
   {
    "id": "his7-pp-037",
@@ -571,7 +691,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXI.3",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "oczynszowanie",
+    "wywłaszczenie",
+    "rusyfikację"
+   ]
   },
   {
    "id": "his7-pp-039",
@@ -597,7 +722,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXI.4",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Ziemie Zabrane",
+    "Generalne Gubernatorstwo",
+    "Gubernia Warszawska"
+   ]
   },
   {
    "id": "his7-pp-041",
@@ -689,7 +819,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXII.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "cła",
+    "podatki",
+    "kolonie"
+   ]
   },
   {
    "id": "his7-pp-047",
@@ -705,7 +840,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXII.3",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "izolacjonizm",
+    "protekcjonizm",
+    "merkantylizm"
+   ]
   },
   {
    "id": "his7-pp-048",
@@ -733,7 +873,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXII.3",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Azji",
+    "Ameryki Południowej",
+    "Indii"
+   ]
   },
   {
    "id": "his7-pp-050",
@@ -746,7 +891,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXII.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "liberalizm",
+    "socjalizm",
+    "konserwatyzm"
+   ]
   },
   {
    "id": "his7-pp-051",
@@ -762,7 +912,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXII.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "anarchizm",
+    "liberalizm",
+    "konserwatyzm"
+   ]
   },
   {
    "id": "his7-pp-052",
@@ -774,7 +929,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXII.4",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "abolicjonistów",
+    "anarchistów",
+    "czartystów"
+   ]
   },
   {
    "id": "his7-pp-053",
@@ -787,7 +947,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIII.1",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "germanizacja",
+    "polonizacja",
+    "sekularyzacja"
+   ]
   },
   {
    "id": "his7-pp-054",
@@ -800,7 +965,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIII.1",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "rusyfikacja",
+    "polonizacja",
+    "kolonizacja"
+   ]
   },
   {
    "id": "his7-pp-055",
@@ -816,7 +986,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXIII.1",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "Hakata",
+    "Komisja Kolonizacyjna",
+    "rugi pruskie"
+   ]
   },
   {
    "id": "his7-pp-056",
@@ -828,7 +1003,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIII.1",
-   "kind": "ustrój"
+   "kind": "ustrój",
+   "distractors": [
+    "niezależność",
+    "suwerenność",
+    "konstytucję"
+   ]
   },
   {
    "id": "his7-pp-057",
@@ -841,7 +1021,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXIII.1",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "Hakata",
+    "Rada Regencyjna",
+    "Liga Polska"
+   ]
   },
   {
    "id": "his7-pp-058",
@@ -854,7 +1039,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIII.2",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "trójlojalizm",
+    "walka zbrojna",
+    "bierny opór"
+   ]
   },
   {
    "id": "his7-pp-059",
@@ -869,7 +1059,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIII.2",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "praca organiczna",
+    "irredenta",
+    "konspiracja"
+   ]
   },
   {
    "id": "his7-pp-060",
@@ -881,7 +1076,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXIII.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "robotniczy",
+    "narodowy",
+    "ludowy"
+   ]
   },
   {
    "id": "his7-pp-061",
@@ -914,7 +1114,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIII.4",
-   "kind": "partia"
+   "kind": "partia",
+   "distractors": [
+    "ruch ludowy",
+    "ruch socjalistyczny",
+    "ruch robotniczy"
+   ]
   },
   {
    "id": "his7-pp-063",
@@ -941,7 +1146,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXIII.4",
-   "kind": "partia"
+   "kind": "partia",
+   "distractors": [
+    "Polska Partia Socjalistyczna",
+    "Liga Narodowa",
+    "Stronnictwo Narodowo-Demokratyczne"
+   ]
   },
   {
    "id": "his7-pp-065",
@@ -970,7 +1180,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXIII.5",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "strajk powszechny",
+    "strajk chłopski",
+    "strajk robotniczy"
+   ]
   },
   {
    "id": "his7-pp-067",
@@ -985,7 +1200,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIV.1",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "trójporozumienie",
+    "Święte Przymierze",
+    "Liga Narodów"
+   ]
   },
   {
    "id": "his7-pp-068",
@@ -1002,7 +1222,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIV.1",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "trójprzymierze",
+    "państwa centralne",
+    "Święte Przymierze"
+   ]
   },
   {
    "id": "his7-pp-069",
@@ -1019,7 +1244,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIV.1",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "zatopienie Lusitanii",
+    "aneksja Bośni",
+    "wojny bałkańskie"
+   ]
   },
   {
    "id": "his7-pp-070",
@@ -1033,7 +1263,9 @@
    "pp": "XXIV.2",
    "kind": "pojęcie",
    "distractors": [
-    "manewrową"
+    "manewrową",
+    "błyskawiczną",
+    "totalną"
    ]
   },
   {
@@ -1049,7 +1281,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIV.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "samolot",
+    "okręt podwodny",
+    "karabin maszynowy"
+   ]
   },
   {
    "id": "his7-pp-072",
@@ -1068,7 +1305,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIV.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "czołgów",
+    "karabinów maszynowych",
+    "łodzi podwodnych"
+   ]
   },
   {
    "id": "his7-pp-073",
@@ -1083,7 +1325,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIV.4",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "rewolucja październikowa",
+    "rewolucja 1905 roku",
+    "powstanie dekabrystów"
+   ]
   },
   {
    "id": "his7-pp-074",
@@ -1132,7 +1379,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXV.1",
-   "kind": "liczba"
+   "kind": "liczba",
+   "distractors": [
+    "w czternastym",
+    "w dziesiątym",
+    "w pierwszym"
+   ]
   },
   {
    "id": "his7-pp-077",
@@ -1159,7 +1411,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXV.2",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "akt 5 listopada",
+    "traktat brzeski",
+    "czyn legionowy"
+   ]
   },
   {
    "id": "his7-pp-079",
@@ -1176,7 +1433,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXV.2",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "Legiony Polskie",
+    "Polska Siła Zbrojna",
+    "I Korpus Polski"
+   ]
   },
   {
    "id": "his7-pp-080",
@@ -1207,7 +1469,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVI.2",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "traktat ryski",
+    "traktat brzeski",
+    "traktat w Trianon"
+   ]
   },
   {
    "id": "his7-pp-082",
@@ -1220,7 +1487,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVI.2",
-   "kind": "organizacja"
+   "kind": "organizacja",
+   "distractors": [
+    "Święte Przymierze",
+    "Mała Ententa",
+    "Komintern"
+   ]
   },
   {
    "id": "his7-pp-083",
@@ -1232,7 +1504,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXVI.2",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "podatków",
+    "trybutu",
+    "ceł"
+   ]
   },
   {
    "id": "his7-pp-084",
@@ -1247,7 +1524,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVI.3",
-   "kind": "ustrój"
+   "kind": "ustrój",
+   "distractors": [
+    "autorytaryzm",
+    "absolutyzm",
+    "demokracja"
+   ]
   },
   {
    "id": "his7-pp-085",
@@ -1310,7 +1592,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVII.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "Prezydent RP",
+    "Prezes Rady Ministrów",
+    "Marszałek Sejmu"
+   ]
   },
   {
    "id": "his7-pp-089",
@@ -1323,7 +1610,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVII.2",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "powstanie śląskie",
+    "powstanie styczniowe",
+    "powstanie sejneńskie"
+   ]
   },
   {
    "id": "his7-pp-090",
@@ -1355,7 +1647,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXVII.2",
-   "kind": "region"
+   "kind": "region",
+   "distractors": [
+    "Śląsk Cieszyński",
+    "Spisz i Orawa",
+    "Pomorze Gdańskie"
+   ]
   },
   {
    "id": "his7-pp-092",
@@ -1367,7 +1664,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVII.2",
-   "kind": "miasto"
+   "kind": "miasto",
+   "distractors": [
+    "Szczecin",
+    "Królewiec",
+    "Elbląg"
+   ]
   },
   {
    "id": "his7-pp-093",
@@ -1398,7 +1700,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXVII.3",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "bitwa warszawska",
+    "bitwa niemeńska",
+    "wyprawa wileńska"
+   ]
   },
   {
    "id": "his7-pp-095",
@@ -1410,7 +1717,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVII.3",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "wersalski",
+    "brzeski",
+    "paryski"
+   ]
   },
   {
    "id": "his7-pp-096",
@@ -1438,7 +1750,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXVIII.2",
-   "kind": "ustrój"
+   "kind": "ustrój",
+   "distractors": [
+    "republiki prezydenckiej",
+    "monarchii konstytucyjnej",
+    "rządów autorytarnych"
+   ]
   },
   {
    "id": "his7-pp-098",
@@ -1498,7 +1815,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXVIII.4",
-   "kind": "dokument"
+   "kind": "dokument",
+   "distractors": [
+    "konstytucja marcowa",
+    "mała konstytucja",
+    "konstytucja 3 maja"
+   ]
   },
   {
    "id": "his7-pp-102",
@@ -1510,7 +1832,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXVIII.5",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "neutralności",
+    "izolacji",
+    "appeasementu"
+   ]
   },
   {
    "id": "his7-pp-103",
@@ -1525,7 +1852,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIX.1",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "Żydzi",
+    "Białorusini",
+    "Niemcy"
+   ]
   },
   {
    "id": "his7-pp-104",
@@ -1584,7 +1916,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXIX.3",
-   "kind": "postać"
+   "kind": "postać",
+   "distractors": [
+    "Henryk Sienkiewicz",
+    "Stefan Żeromski",
+    "Bolesław Prus"
+   ]
   },
   {
    "id": "his7-pp-108",
@@ -1600,7 +1937,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXX.1",
-   "kind": "wydarzenie"
+   "kind": "wydarzenie",
+   "distractors": [
+    "remilitaryzacja Nadrenii",
+    "układ monachijski",
+    "pucz monachijski"
+   ]
   },
   {
    "id": "his7-pp-109",
@@ -1629,7 +1971,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XXX.2",
-   "kind": "polityka"
+   "kind": "polityka",
+   "distractors": [
+    "izolacjonizmu",
+    "równowagi",
+    "sankcji"
+   ]
   },
   {
    "id": "his7-pp-111",
@@ -1659,7 +2006,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XXX.3",
-   "kind": "pojęcie"
+   "kind": "pojęcie",
+   "distractors": [
+    "protektoraty",
+    "kolonie",
+    "mandaty"
+   ]
   }
  ]
 }
