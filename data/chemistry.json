@@ -1,6 +1,21 @@
 {
  "version": 1,
  "subject": "chemistry_ib",
+ "kinds": [
+  "quantity",
+  "value",
+  "particle",
+  "concept",
+  "trend",
+  "substance",
+  "class",
+  "configuration",
+  "bond type",
+  "formula",
+  "reaction type",
+  "equipment",
+  "technique"
+ ],
  "updated": "2026-10-18",
  "source": "Podstawa programowa kształcenia ogólnego dla liceum ogólnokształcącego i technikum, chemia, zakres podstawowy (Dz.U. 2018 poz. 467, zm. Dz.U. 2024 poz. 996), działy I-V, VII, X, XII; uzupełnienia z IB DP Chemistry guide (first assessment 2025); zakres klasy 1 wg typowego rozkładu materiału",
  "items": [
@@ -18,7 +33,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-002",
@@ -35,7 +51,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-003",
@@ -49,7 +66,8 @@
    "category": "chemib_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-004",
@@ -60,7 +78,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "particle"
   },
   {
    "id": "chemib-pp-005",
@@ -75,7 +94,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "particle"
   },
   {
    "id": "chemib-pp-006",
@@ -91,7 +111,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "particle"
   },
   {
    "id": "chemib-pp-007",
@@ -102,7 +123,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-008",
@@ -117,7 +139,8 @@
    "category": "chemib_atoms",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IB S1.2"
+   "pp": "IB S1.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-009",
@@ -134,7 +157,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-010",
@@ -149,7 +173,8 @@
    "category": "chemib_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "configuration"
   },
   {
    "id": "chemib-pp-011",
@@ -164,7 +189,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-012",
@@ -178,7 +204,8 @@
    "category": "chemib_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-013",
@@ -189,7 +216,8 @@
    "category": "chemib_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "configuration"
   },
   {
    "id": "chemib-pp-014",
@@ -205,7 +233,8 @@
    "category": "chemib_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "configuration"
   },
   {
    "id": "chemib-pp-015",
@@ -219,7 +248,8 @@
    "category": "chemib_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.1"
+   "pp": "II.1",
+   "kind": "configuration"
   },
   {
    "id": "chemib-pp-016",
@@ -234,7 +264,8 @@
    "category": "chemib_atoms",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB S1.3"
+   "pp": "IB S1.3",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-017",
@@ -249,7 +280,8 @@
    "category": "chemib_atoms",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.3"
+   "pp": "IB S1.3",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-018",
@@ -263,7 +295,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "X.1"
+   "pp": "X.1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-019",
@@ -277,7 +310,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "X.1"
+   "pp": "X.1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-020",
@@ -292,7 +326,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.2"
+   "pp": "II.2",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-021",
@@ -309,7 +344,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-022",
@@ -325,7 +361,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-023",
@@ -336,7 +373,11 @@
    "category": "chemib_periodic",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "trend",
+   "distractors": [
+    "increases"
+   ]
   },
   {
    "id": "chemib-pp-024",
@@ -347,7 +388,11 @@
    "category": "chemib_periodic",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "trend",
+   "distractors": [
+    "decreases"
+   ]
   },
   {
    "id": "chemib-pp-025",
@@ -363,7 +408,8 @@
    "category": "chemib_periodic",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "trend"
   },
   {
    "id": "chemib-pp-026",
@@ -377,7 +423,8 @@
    "category": "chemib_periodic",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "II.3"
+   "pp": "II.3",
+   "kind": "substance"
   },
   {
    "id": "chemib-pp-027",
@@ -391,7 +438,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S3.1"
+   "pp": "IB S3.1",
+   "kind": "class"
   },
   {
    "id": "chemib-pp-028",
@@ -405,7 +453,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S3.1"
+   "pp": "IB S3.1",
+   "kind": "class"
   },
   {
    "id": "chemib-pp-029",
@@ -420,7 +469,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S3.1"
+   "pp": "IB S3.1",
+   "kind": "class"
   },
   {
    "id": "chemib-pp-030",
@@ -431,7 +481,11 @@
    "category": "chemib_periodic",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "X.1"
+   "pp": "X.1",
+   "kind": "trend",
+   "distractors": [
+    "decreases"
+   ]
   },
   {
    "id": "chemib-pp-031",
@@ -445,7 +499,8 @@
    "category": "chemib_periodic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "substance"
   },
   {
    "id": "chemib-pp-032",
@@ -456,7 +511,11 @@
    "category": "chemib_periodic",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "trend",
+   "distractors": [
+    "decreases"
+   ]
   },
   {
    "id": "chemib-pp-033",
@@ -471,7 +530,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-034",
@@ -486,7 +546,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-035",
@@ -501,7 +562,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-036",
@@ -517,7 +579,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-037",
@@ -531,7 +594,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-038",
@@ -547,7 +611,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.1"
+   "pp": "III.1",
+   "kind": "substance"
   },
   {
    "id": "chemib-pp-039",
@@ -562,7 +627,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-040",
@@ -578,7 +644,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.2"
+   "pp": "III.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-041",
@@ -589,7 +656,11 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "bond type",
+   "distractors": [
+    "pi"
+   ]
   },
   {
    "id": "chemib-pp-042",
@@ -604,7 +675,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.3"
+   "pp": "III.3",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-043",
@@ -615,7 +687,8 @@
    "category": "chemib_bonding",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-044",
@@ -630,7 +703,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-045",
@@ -645,7 +719,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.5"
+   "pp": "III.5",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-046",
@@ -656,7 +731,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "X.2"
+   "pp": "X.2",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-047",
@@ -671,7 +747,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-048",
@@ -685,7 +762,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "substance"
   },
   {
    "id": "chemib-pp-049",
@@ -697,7 +775,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "substance"
   },
   {
    "id": "chemib-pp-050",
@@ -708,7 +787,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-051",
@@ -724,7 +804,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.6"
+   "pp": "III.6",
+   "kind": "substance"
   },
   {
    "id": "chemib-pp-052",
@@ -739,7 +820,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-053",
@@ -756,7 +838,8 @@
    "category": "chemib_bonding",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-054",
@@ -767,7 +850,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "substance"
   },
   {
    "id": "chemib-pp-055",
@@ -782,7 +866,8 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "bond type"
   },
   {
    "id": "chemib-pp-056",
@@ -793,7 +878,11 @@
    "category": "chemib_bonding",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "III.4"
+   "pp": "III.4",
+   "kind": "trend",
+   "distractors": [
+    "weaker"
+   ]
   },
   {
    "id": "chemib-pp-057",
@@ -813,7 +902,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-058",
@@ -828,7 +918,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-059",
@@ -839,7 +930,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.1"
+   "pp": "I.1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-060",
@@ -856,7 +948,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "formula"
   },
   {
    "id": "chemib-pp-061",
@@ -873,7 +966,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-062",
@@ -889,7 +983,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.2"
+   "pp": "I.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-063",
@@ -906,7 +1001,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-064",
@@ -921,7 +1017,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-065",
@@ -939,7 +1036,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-066",
@@ -956,7 +1054,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB S1.5"
+   "pp": "IB S1.5",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-067",
@@ -973,7 +1072,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-068",
@@ -984,7 +1084,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "particle"
   },
   {
    "id": "chemib-pp-069",
@@ -1001,7 +1102,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-070",
@@ -1017,7 +1119,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-071",
@@ -1033,7 +1136,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-072",
@@ -1048,7 +1152,8 @@
    "category": "chemib_mole",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "I.5"
+   "pp": "I.5",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-073",
@@ -1059,7 +1164,12 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.3"
+   "pp": "I.3",
+   "kind": "trend",
+   "distractors": [
+    "is greater than",
+    "is less than"
+   ]
   },
   {
    "id": "chemib-pp-074",
@@ -1070,7 +1180,11 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "concept",
+   "distractors": [
+    "molecular"
+   ]
   },
   {
    "id": "chemib-pp-075",
@@ -1082,7 +1196,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "formula"
   },
   {
    "id": "chemib-pp-076",
@@ -1094,7 +1209,8 @@
    "category": "chemib_mole",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "formula"
   },
   {
    "id": "chemib-pp-077",
@@ -1106,7 +1222,8 @@
    "category": "chemib_mole",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "I.4"
+   "pp": "I.4",
+   "kind": "formula"
   },
   {
    "id": "chemib-pp-078",
@@ -1121,7 +1238,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB R2.1"
+   "pp": "IB R2.1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-079",
@@ -1137,7 +1255,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB R2.1"
+   "pp": "IB R2.1",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-080",
@@ -1148,7 +1267,11 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB R2.1"
+   "pp": "IB R2.1",
+   "kind": "concept",
+   "distractors": [
+    "theoretical"
+   ]
   },
   {
    "id": "chemib-pp-081",
@@ -1165,7 +1288,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "formula"
   },
   {
    "id": "chemib-pp-082",
@@ -1182,7 +1306,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-083",
@@ -1197,7 +1322,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-084",
@@ -1213,7 +1339,8 @@
    "category": "chemib_mole",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-085",
@@ -1224,7 +1351,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-086",
@@ -1235,7 +1363,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.2"
+   "pp": "V.2",
+   "kind": "technique"
   },
   {
    "id": "chemib-pp-087",
@@ -1251,7 +1380,8 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "quiz_suitable": false
+   "quiz_suitable": false,
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-088",
@@ -1265,7 +1395,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.1"
+   "pp": "V.1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-089",
@@ -1279,7 +1410,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.5"
+   "pp": "V.5",
+   "kind": "technique"
   },
   {
    "id": "chemib-pp-090",
@@ -1294,7 +1426,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "technique"
   },
   {
    "id": "chemib-pp-091",
@@ -1309,7 +1442,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "technique"
   },
   {
    "id": "chemib-pp-092",
@@ -1324,7 +1458,8 @@
    "category": "chemib_mole",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.4"
+   "pp": "V.4",
+   "kind": "technique"
   },
   {
    "id": "chemib-pp-093",
@@ -1339,7 +1474,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "reaction type"
   },
   {
    "id": "chemib-pp-094",
@@ -1354,7 +1490,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "reaction type"
   },
   {
    "id": "chemib-pp-095",
@@ -1369,7 +1506,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.3"
+   "pp": "IV.3",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-096",
@@ -1386,7 +1524,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.5"
+   "pp": "IV.5",
+   "kind": "value"
   },
   {
    "id": "chemib-pp-097",
@@ -1400,7 +1539,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-098",
@@ -1411,7 +1551,11 @@
    "category": "chemib_reactions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.4"
+   "pp": "IV.4",
+   "kind": "trend",
+   "distractors": [
+    "higher"
+   ]
   },
   {
    "id": "chemib-pp-099",
@@ -1427,7 +1571,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IV.1"
+   "pp": "IV.1",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-100",
@@ -1443,7 +1588,8 @@
    "category": "chemib_reactions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "trend"
   },
   {
    "id": "chemib-pp-101",
@@ -1454,7 +1600,8 @@
    "category": "chemib_reactions",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IV.2"
+   "pp": "IV.2",
+   "kind": "quantity"
   },
   {
    "id": "chemib-pp-102",
@@ -1471,7 +1618,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.3"
+   "pp": "VII.3",
+   "kind": "reaction type"
   },
   {
    "id": "chemib-pp-103",
@@ -1486,7 +1634,8 @@
    "category": "chemib_reactions",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "VII.3"
+   "pp": "VII.3",
+   "kind": "reaction type"
   },
   {
    "id": "chemib-pp-104",
@@ -1501,7 +1650,8 @@
    "category": "chemib_organic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "formula"
   },
   {
    "id": "chemib-pp-105",
@@ -1515,7 +1665,8 @@
    "category": "chemib_organic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.2"
+   "pp": "XII.2",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-106",
@@ -1531,7 +1682,8 @@
    "category": "chemib_organic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.1"
+   "pp": "XII.1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-107",
@@ -1545,7 +1697,8 @@
    "category": "chemib_organic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.1"
+   "pp": "XII.1",
+   "kind": "class"
   },
   {
    "id": "chemib-pp-108",
@@ -1559,7 +1712,8 @@
    "category": "chemib_organic",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "XII.1"
+   "pp": "XII.1",
+   "kind": "class"
   },
   {
    "id": "chemib-pp-109",
@@ -1574,7 +1728,8 @@
    "category": "chemib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "V.3"
+   "pp": "V.3",
+   "kind": "equipment"
   },
   {
    "id": "chemib-pp-110",
@@ -1589,7 +1744,8 @@
    "category": "chemib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Tool 1"
+   "pp": "IB Tool 1",
+   "kind": "equipment"
   },
   {
    "id": "chemib-pp-111",
@@ -1605,7 +1761,8 @@
    "category": "chemib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Tool 1"
+   "pp": "IB Tool 1",
+   "kind": "equipment"
   },
   {
    "id": "chemib-pp-112",
@@ -1620,7 +1777,8 @@
    "category": "chemib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Tool 1"
+   "pp": "IB Tool 1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-113",
@@ -1635,7 +1793,8 @@
    "category": "chemib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Tool 1"
+   "pp": "IB Tool 1",
+   "kind": "concept"
   },
   {
    "id": "chemib-pp-114",
@@ -1651,7 +1810,8 @@
    "category": "chemib_skills",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Tool 1"
+   "pp": "IB Tool 1",
+   "kind": "technique"
   },
   {
    "id": "chemib-pp-115",
@@ -1666,7 +1826,8 @@
    "category": "chemib_skills",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Tool 1"
+   "pp": "IB Tool 1",
+   "kind": "equipment"
   }
  ]
 }
