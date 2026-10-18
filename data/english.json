@@ -1,6 +1,19 @@
 {
  "version": 1,
  "subject": "english_ib",
+ "kinds": [
+  "device",
+  "rhetorical term",
+  "poetic form",
+  "meter",
+  "narrative term",
+  "drama term",
+  "text type",
+  "text feature",
+  "analysis term",
+  "concept",
+  "number"
+ ],
  "updated": "2026-10-18",
  "source": "IB Diploma Programme Language A: Language and Literature guide (first assessment 2021) – literary and non-literary terminology for Pre-DP; the Polish core curriculum for modern languages (III.1.P) contains no literary content",
  "items": [
@@ -16,7 +29,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-002",
@@ -30,7 +44,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-003",
@@ -42,7 +57,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-004",
@@ -54,7 +70,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-005",
@@ -66,7 +83,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-006",
@@ -78,7 +96,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-007",
@@ -92,7 +111,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-008",
@@ -106,7 +126,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-009",
@@ -120,7 +141,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-010",
@@ -131,7 +153,12 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device",
+   "distractors": [
+    "situational irony",
+    "dramatic irony"
+   ]
   },
   {
    "id": "enib-pp-011",
@@ -142,7 +169,12 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device",
+   "distractors": [
+    "verbal irony",
+    "dramatic irony"
+   ]
   },
   {
    "id": "enib-pp-012",
@@ -157,7 +189,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-013",
@@ -171,7 +204,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-014",
@@ -183,7 +217,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-015",
@@ -195,7 +230,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-016",
@@ -209,7 +245,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-017",
@@ -223,7 +260,8 @@
    "category": "enib_devices",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-018",
@@ -235,7 +273,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-019",
@@ -247,7 +286,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-020",
@@ -261,7 +301,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-021",
@@ -272,7 +313,8 @@
    "category": "enib_devices",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB devices"
+   "pp": "IB devices",
+   "kind": "device"
   },
   {
    "id": "enib-pp-022",
@@ -287,7 +329,8 @@
    "category": "enib_poetry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-023",
@@ -302,7 +345,8 @@
    "category": "enib_poetry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-024",
@@ -316,7 +360,8 @@
    "category": "enib_poetry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-025",
@@ -327,7 +372,8 @@
    "category": "enib_poetry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-026",
@@ -342,7 +388,8 @@
    "category": "enib_poetry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-027",
@@ -358,7 +405,8 @@
    "category": "enib_poetry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "meter"
   },
   {
    "id": "enib-pp-028",
@@ -369,7 +417,8 @@
    "category": "enib_poetry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "meter"
   },
   {
    "id": "enib-pp-029",
@@ -385,7 +434,8 @@
    "category": "enib_poetry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "number"
   },
   {
    "id": "enib-pp-030",
@@ -400,7 +450,8 @@
    "category": "enib_poetry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-031",
@@ -415,7 +466,8 @@
    "category": "enib_poetry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-032",
@@ -429,7 +481,8 @@
    "category": "enib_poetry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-033",
@@ -440,7 +493,11 @@
    "category": "enib_poetry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "meter",
+   "distractors": [
+    "blank verse"
+   ]
   },
   {
    "id": "enib-pp-034",
@@ -451,7 +508,11 @@
    "category": "enib_poetry",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "meter",
+   "distractors": [
+    "free verse"
+   ]
   },
   {
    "id": "enib-pp-035",
@@ -466,7 +527,8 @@
    "category": "enib_poetry",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "poetic form"
   },
   {
    "id": "enib-pp-036",
@@ -480,7 +542,8 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-037",
@@ -491,7 +554,12 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term",
+   "distractors": [
+    "third person",
+    "second person"
+   ]
   },
   {
    "id": "enib-pp-038",
@@ -502,7 +570,11 @@
    "category": "enib_prose",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term",
+   "distractors": [
+    "limited"
+   ]
   },
   {
    "id": "enib-pp-039",
@@ -513,7 +585,11 @@
    "category": "enib_prose",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term",
+   "distractors": [
+    "omniscient"
+   ]
   },
   {
    "id": "enib-pp-040",
@@ -528,7 +604,8 @@
    "category": "enib_prose",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-041",
@@ -542,7 +619,8 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-042",
@@ -556,7 +634,8 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-043",
@@ -570,7 +649,8 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-044",
@@ -585,7 +665,8 @@
    "category": "enib_prose",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-045",
@@ -599,7 +680,8 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-046",
@@ -614,7 +696,8 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-047",
@@ -628,7 +711,8 @@
    "category": "enib_prose",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-048",
@@ -643,7 +727,8 @@
    "category": "enib_prose",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-049",
@@ -654,7 +739,8 @@
    "category": "enib_prose",
    "difficulty": 3,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-050",
@@ -665,7 +751,8 @@
    "category": "enib_prose",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "narrative term"
   },
   {
    "id": "enib-pp-051",
@@ -679,7 +766,8 @@
    "category": "enib_drama",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-052",
@@ -693,7 +781,8 @@
    "category": "enib_drama",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-053",
@@ -707,7 +796,8 @@
    "category": "enib_drama",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-054",
@@ -721,7 +811,8 @@
    "category": "enib_drama",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-055",
@@ -735,7 +826,8 @@
    "category": "enib_drama",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-056",
@@ -746,7 +838,8 @@
    "category": "enib_drama",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-057",
@@ -757,7 +850,12 @@
    "category": "enib_drama",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term",
+   "distractors": [
+    "verbal irony",
+    "situational irony"
+   ]
   },
   {
    "id": "enib-pp-058",
@@ -769,7 +867,8 @@
    "category": "enib_drama",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-059",
@@ -781,7 +880,8 @@
    "category": "enib_drama",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-060",
@@ -795,7 +895,8 @@
    "category": "enib_drama",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "drama term"
   },
   {
    "id": "enib-pp-061",
@@ -810,7 +911,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text type"
   },
   {
    "id": "enib-pp-062",
@@ -821,7 +923,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text type"
   },
   {
    "id": "enib-pp-063",
@@ -835,7 +938,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text feature"
   },
   {
    "id": "enib-pp-064",
@@ -849,7 +953,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text feature"
   },
   {
    "id": "enib-pp-065",
@@ -863,7 +968,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text feature"
   },
   {
    "id": "enib-pp-066",
@@ -877,7 +983,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text type"
   },
   {
    "id": "enib-pp-067",
@@ -893,7 +1000,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text type"
   },
   {
    "id": "enib-pp-068",
@@ -907,7 +1015,8 @@
    "category": "enib_nonlit",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text type"
   },
   {
    "id": "enib-pp-069",
@@ -922,7 +1031,8 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text feature"
   },
   {
    "id": "enib-pp-070",
@@ -933,7 +1043,11 @@
    "category": "enib_nonlit",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept",
+   "distractors": [
+    "literary"
+   ]
   },
   {
    "id": "enib-pp-071",
@@ -944,7 +1058,8 @@
    "category": "enib_nonlit",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "text feature"
   },
   {
    "id": "enib-pp-072",
@@ -956,7 +1071,8 @@
    "category": "enib_rhetoric",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-073",
@@ -968,7 +1084,8 @@
    "category": "enib_rhetoric",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-074",
@@ -980,7 +1097,8 @@
    "category": "enib_rhetoric",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-075",
@@ -994,7 +1112,8 @@
    "category": "enib_rhetoric",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-076",
@@ -1006,7 +1125,8 @@
    "category": "enib_rhetoric",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-077",
@@ -1021,7 +1141,8 @@
    "category": "enib_rhetoric",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-078",
@@ -1033,7 +1154,8 @@
    "category": "enib_rhetoric",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-079",
@@ -1044,7 +1166,8 @@
    "category": "enib_rhetoric",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-080",
@@ -1055,7 +1178,11 @@
    "category": "enib_rhetoric",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term",
+   "distractors": [
+    "exclusive"
+   ]
   },
   {
    "id": "enib-pp-081",
@@ -1070,7 +1197,8 @@
    "category": "enib_rhetoric",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-082",
@@ -1084,7 +1212,8 @@
    "category": "enib_rhetoric",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "rhetorical term"
   },
   {
    "id": "enib-pp-083",
@@ -1095,7 +1224,8 @@
    "category": "enib_analysis",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-084",
@@ -1111,7 +1241,8 @@
    "category": "enib_analysis",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-085",
@@ -1125,7 +1256,8 @@
    "category": "enib_analysis",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-086",
@@ -1140,7 +1272,8 @@
    "category": "enib_analysis",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-087",
@@ -1154,7 +1287,8 @@
    "category": "enib_analysis",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-088",
@@ -1168,7 +1302,8 @@
    "category": "enib_analysis",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-089",
@@ -1179,7 +1314,11 @@
    "category": "enib_analysis",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term",
+   "distractors": [
+    "denotation"
+   ]
   },
   {
    "id": "enib-pp-090",
@@ -1190,7 +1329,8 @@
    "category": "enib_analysis",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-091",
@@ -1204,7 +1344,8 @@
    "category": "enib_analysis",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term"
   },
   {
    "id": "enib-pp-092",
@@ -1215,7 +1356,11 @@
    "category": "enib_analysis",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Readers writers and texts"
+   "pp": "IB Readers writers and texts",
+   "kind": "analysis term",
+   "distractors": [
+    "block"
+   ]
   },
   {
    "id": "enib-pp-093",
@@ -1226,7 +1371,8 @@
    "category": "enib_texts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-094",
@@ -1240,7 +1386,8 @@
    "category": "enib_texts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-095",
@@ -1255,7 +1402,8 @@
    "category": "enib_texts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-096",
@@ -1269,7 +1417,8 @@
    "category": "enib_texts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-097",
@@ -1280,7 +1429,11 @@
    "category": "enib_texts",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept",
+   "distractors": [
+    "reception"
+   ]
   },
   {
    "id": "enib-pp-098",
@@ -1292,7 +1445,8 @@
    "category": "enib_texts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-099",
@@ -1307,7 +1461,8 @@
    "category": "enib_texts",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB Time and space"
+   "pp": "IB Time and space",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-100",
@@ -1321,7 +1476,8 @@
    "category": "enib_texts",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Intertextuality"
+   "pp": "IB Intertextuality",
+   "kind": "text type"
   },
   {
    "id": "enib-pp-101",
@@ -1333,7 +1489,8 @@
    "category": "enib_texts",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Intertextuality"
+   "pp": "IB Intertextuality",
+   "kind": "text type"
   },
   {
    "id": "enib-pp-102",
@@ -1344,7 +1501,8 @@
    "category": "enib_texts",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB Intertextuality"
+   "pp": "IB Intertextuality",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-103",
@@ -1358,7 +1516,8 @@
    "category": "enib_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB concepts"
+   "pp": "IB concepts",
+   "kind": "number"
   },
   {
    "id": "enib-pp-104",
@@ -1369,7 +1528,8 @@
    "category": "enib_other",
    "difficulty": 1,
    "source": "Podstawa programowa",
-   "pp": "IB concepts"
+   "pp": "IB concepts",
+   "kind": "concept"
   },
   {
    "id": "enib-pp-105",
@@ -1383,7 +1543,8 @@
    "category": "enib_other",
    "difficulty": 2,
    "source": "Podstawa programowa",
-   "pp": "IB concepts"
+   "pp": "IB concepts",
+   "kind": "concept"
   }
  ]
 }
