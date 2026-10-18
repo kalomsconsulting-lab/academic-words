@@ -1693,6 +1693,270 @@
     "neutron",
     "positron"
    ]
+  },
+  {
+   "id": "physib-pp-091",
+   "type": "order",
+   "prompt": "Put the steps of processing a repeated measurement in order",
+   "steps": [
+    "Record each reading with its unit",
+    "Calculate the mean of the readings",
+    "Estimate the uncertainty, e.g. half the range",
+    "Round the uncertainty to one significant figure",
+    "Round the mean to the same decimal place and write mean ± uncertainty"
+   ],
+   "explanation": "The final result is the mean with an uncertainty, both rounded consistently.",
+   "category": "physib_measure",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "I.12"
+  },
+  {
+   "id": "physib-pp-092",
+   "type": "order",
+   "prompt": "Put the SI prefixes in order of increasing size",
+   "steps": [
+    "nano (10⁻⁹)",
+    "micro (10⁻⁶)",
+    "milli (10⁻³)",
+    "kilo (10³)",
+    "mega (10⁶)",
+    "giga (10⁹)"
+   ],
+   "explanation": "Each listed prefix is a factor of 1000 larger than the previous one.",
+   "category": "physib_measure",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "I.1"
+  },
+  {
+   "id": "physib-pp-093",
+   "type": "order",
+   "prompt": "Put the steps of finding the time for a stone to fall 20 m from rest (g = 10 m/s²) in order",
+   "steps": [
+    "Write the known quantities: s = 20 m, u = 0, g = 10 m/s²",
+    "Choose the equation: s = gt² / 2",
+    "Rearrange: t² = 2s / g",
+    "Substitute: t² = 2 · 20 / 10 = 4",
+    "Take the square root: t = 2 s"
+   ],
+   "explanation": "Free fall from rest is uniformly accelerated motion, so the distance equation gives the time.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-094",
+   "type": "order",
+   "prompt": "Put the steps of solving a dynamics problem with Newton's second law in order",
+   "steps": [
+    "Draw a free-body diagram of all forces",
+    "Choose the positive direction",
+    "Find the net force along that direction",
+    "Apply F_net = ma",
+    "Solve for the unknown and check the units"
+   ],
+   "explanation": "Newton's second law needs the net force, so forces are collected on a diagram first.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.6"
+  },
+  {
+   "id": "physib-pp-095",
+   "type": "order",
+   "prompt": "Put the steps of solving a collision problem with conservation of momentum in order",
+   "steps": [
+    "Define the positive direction",
+    "Write the total momentum before the collision",
+    "Write the total momentum after the collision",
+    "Set the two totals equal",
+    "Solve for the unknown velocity and check its sign"
+   ],
+   "explanation": "In an isolated system total momentum is the same before and after the collision; the sign of a velocity shows its direction.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-096",
+   "type": "order",
+   "prompt": "Put the steps of finding the speed of a ball dropped from 5 m using energy conservation in order",
+   "steps": [
+    "Write the potential energy at the top: mgh",
+    "Write the kinetic energy at the bottom: mv² / 2",
+    "Equate them: mgh = mv² / 2",
+    "Cancel m and rearrange: v² = 2gh",
+    "Substitute: v = √(2 · 10 · 5) = 10 m/s"
+   ],
+   "explanation": "Without air resistance all the gravitational potential energy becomes kinetic energy.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-097",
+   "type": "order",
+   "prompt": "Put the stages of heating ice at −10 °C until it becomes steam in order",
+   "steps": [
+    "Ice warms up to 0 °C",
+    "Ice melts at a constant 0 °C",
+    "Water warms from 0 °C to 100 °C",
+    "Water boils at a constant 100 °C",
+    "Steam warms above 100 °C"
+   ],
+   "explanation": "During melting and boiling the temperature stays constant because the energy goes into changing the state.",
+   "category": "physib_thermal",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
+  },
+  {
+   "id": "physib-pp-098",
+   "type": "order",
+   "prompt": "Put the steps of deriving the orbital speed of a satellite in a circular orbit in order",
+   "steps": [
+    "Identify gravity as the centripetal force",
+    "Write GMm / r² = mv² / r",
+    "Cancel m and one r: v² = GM / r",
+    "Take the square root: v = √(GM / r)"
+   ],
+   "explanation": "Gravity provides the centripetal force, so the orbital speed depends only on the central mass and the orbit radius.",
+   "category": "physib_motion",
+   "difficulty": 3,
+   "source": "Podstawa programowa",
+   "pp": "III.2"
+  },
+  {
+   "id": "physib-pp-099",
+   "type": "apply",
+   "situation": "A car accelerates uniformly from rest at 2 m/s² for 5 s and you want the distance covered. Which equation?",
+   "rule": "$$s = \\frac{1}{2}at^2$$",
+   "wrong": [
+    "$$s = vt$$",
+    "$$v = u + at$$",
+    "$$a = \\frac{\\Delta v}{\\Delta t}$$"
+   ],
+   "explanation": "From rest with constant acceleration the distance grows with the square of time: 0.5 · 2 · 25 = 25 m.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-100",
+   "type": "apply",
+   "situation": "A ball is thrown upwards at 20 m/s and you want the maximum height without knowing the time. Which equation?",
+   "rule": "$$v^2 = u^2 + 2as$$",
+   "wrong": [
+    "$$s = ut + \\frac{1}{2}at^2$$",
+    "$$v = u + at$$",
+    "$$s = \\frac{u + v}{2}\\,t$$"
+   ],
+   "explanation": "This equation has no time in it; at the top v = 0, so s = u² / 2g = 20 m.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.3"
+  },
+  {
+   "id": "physib-pp-101",
+   "type": "apply",
+   "situation": "A 0.2 kg ball on a string moves in a horizontal circle of radius 0.5 m at 4 m/s and you want the tension. Which formula?",
+   "rule": "$$F = \\frac{mv^2}{r}$$",
+   "wrong": [
+    "$$v = \\frac{2\\pi r}{T}$$",
+    "$$F = G\\frac{Mm}{r^2}$$",
+    "$$p = mv$$"
+   ],
+   "explanation": "The tension acts as the centripetal force: 0.2 · 16 / 0.5 = 6.4 N.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.8"
+  },
+  {
+   "id": "physib-pp-102",
+   "type": "apply",
+   "situation": "Two ice skaters push off each other from rest and you know one skater's velocity. Which relation gives the other's?",
+   "rule": "$$m_1 v_1 + m_2 v_2 = 0$$",
+   "wrong": [
+    "$$F\\,\\Delta t = \\Delta p$$",
+    "$$E_k = \\frac{1}{2}mv^2$$",
+    "$$F = ma$$"
+   ],
+   "explanation": "The total momentum was zero before the push and stays zero, so the two momenta are equal and opposite.",
+   "category": "physib_motion",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "IB A.2"
+  },
+  {
+   "id": "physib-pp-103",
+   "type": "apply",
+   "situation": "A crane lifts a 300 kg load 12 m in 20 s and you want the useful power. Which formula?",
+   "rule": "$$P = \\frac{mgh}{t}$$",
+   "wrong": [
+    "$$W = Fs\\cos\\theta$$",
+    "$$E_k = \\frac{1}{2}mv^2$$",
+    "$$\\eta = \\frac{P_{out}}{P_{in}}$$"
+   ],
+   "explanation": "Power is the work done per unit time, and the work here equals the gain in potential energy: 300 · 10 · 12 / 20 = 1800 W.",
+   "category": "physib_energy",
+   "difficulty": 2,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-104",
+   "type": "apply",
+   "situation": "A motor takes in 500 W and delivers 400 W and you want its efficiency. Which formula?",
+   "rule": "$$\\eta = \\frac{P_{out}}{P_{in}} \\cdot 100\\%$$",
+   "wrong": [
+    "$$P = \\frac{W}{t}$$",
+    "$$P = Fv$$",
+    "$$E_p = mgh$$"
+   ],
+   "explanation": "Efficiency compares useful output with total input: 400 / 500 = 80%.",
+   "category": "physib_energy",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "II.10"
+  },
+  {
+   "id": "physib-pp-105",
+   "type": "apply",
+   "situation": "You want the gravitational force between the Earth and the Moon. Which formula?",
+   "rule": "$$F = G\\frac{Mm}{r^2}$$",
+   "wrong": [
+    "$$F = mg$$",
+    "$$g = \\frac{GM}{r^2}$$",
+    "$$F = \\frac{mv^2}{r}$$"
+   ],
+   "explanation": "Newton's law of gravitation gives the force between any two masses; F = mg only works near the Earth's surface.",
+   "category": "physib_motion",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "III.1"
+  },
+  {
+   "id": "physib-pp-106",
+   "type": "apply",
+   "situation": "You want the energy needed to warm 2 kg of water from 20 °C to 80 °C. Which formula?",
+   "rule": "$$Q = mc\\Delta T$$",
+   "wrong": [
+    "$$Q = mL$$",
+    "$$P = \\frac{Q}{t}$$",
+    "$$\\Delta U = Q + W$$"
+   ],
+   "explanation": "Heating without a change of state uses the specific heat capacity: 2 · 4200 · 60 = 504 000 J.",
+   "category": "physib_thermal",
+   "difficulty": 1,
+   "source": "Podstawa programowa",
+   "pp": "V.4"
   }
  ]
 }
