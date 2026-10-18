@@ -34,7 +34,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "period"
+   "kind": "period",
+   "distractors": [
+    "antiquity",
+    "the Middle Ages",
+    "the Bronze Age"
+   ]
   },
   {
    "id": "histib-pp-002",
@@ -46,7 +51,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "I.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "archaeology",
+    "chronology",
+    "genealogy"
+   ]
   },
   {
    "id": "histib-pp-003",
@@ -63,7 +73,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "I.2",
-   "kind": "period"
+   "kind": "period",
+   "distractors": [
+    "antiquity",
+    "the Renaissance",
+    "the early modern period"
+   ]
   },
   {
    "id": "histib-pp-004",
@@ -79,7 +94,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "Nile and Jordan",
+    "Indus and Ganges",
+    "Danube and Rhine"
+   ]
   },
   {
    "id": "histib-pp-005",
@@ -91,7 +111,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.1",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "Euphrates",
+    "Jordan",
+    "Indus"
+   ]
   },
   {
    "id": "histib-pp-006",
@@ -107,7 +132,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "writing"
+   "kind": "writing",
+   "distractors": [
+    "hieroglyphs",
+    "Linear B",
+    "Phoenician alphabet"
+   ]
   },
   {
    "id": "histib-pp-007",
@@ -124,7 +154,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "writing"
+   "kind": "writing",
+   "distractors": [
+    "cuneiform",
+    "Linear B",
+    "Phoenician alphabet"
+   ]
   },
   {
    "id": "histib-pp-008",
@@ -139,7 +174,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "ruler"
+   "kind": "ruler",
+   "distractors": [
+    "Nebuchadnezzar II",
+    "Sargon of Akkad",
+    "Cyrus the Great"
+   ]
   },
   {
    "id": "histib-pp-009",
@@ -155,7 +195,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "people"
+   "kind": "people",
+   "distractors": [
+    "Hittites",
+    "Minoans",
+    "Persians"
+   ]
   },
   {
    "id": "histib-pp-010",
@@ -171,7 +216,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.2",
-   "kind": "monument"
+   "kind": "monument",
+   "distractors": [
+    "ziggurats",
+    "obelisks",
+    "sphinxes"
+   ]
   },
   {
    "id": "histib-pp-011",
@@ -183,7 +233,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "person"
+   "kind": "person",
+   "distractors": [
+    "Laozi",
+    "Buddha",
+    "Sun Tzu"
+   ]
   },
   {
    "id": "histib-pp-012",
@@ -198,7 +253,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "II.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "polytheism",
+    "animism",
+    "paganism"
+   ]
   },
   {
    "id": "histib-pp-013",
@@ -233,7 +293,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "agora",
+    "acropolis",
+    "demos"
+   ]
   },
   {
    "id": "histib-pp-015",
@@ -248,7 +313,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "city"
+   "kind": "city",
+   "distractors": [
+    "Sparta",
+    "Corinth",
+    "Thebes"
+   ]
   },
   {
    "id": "histib-pp-016",
@@ -260,7 +330,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "system"
+   "kind": "system",
+   "distractors": [
+    "oligarchy",
+    "tyranny",
+    "aristocracy"
+   ]
   },
   {
    "id": "histib-pp-017",
@@ -276,7 +351,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.1",
-   "kind": "city"
+   "kind": "city",
+   "distractors": [
+    "Athens",
+    "Corinth",
+    "Thebes"
+   ]
   },
   {
    "id": "histib-pp-018",
@@ -341,7 +421,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "ruler"
+   "kind": "ruler",
+   "distractors": [
+    "Philip II",
+    "Darius III",
+    "Pyrrhus of Epirus"
+   ]
   },
   {
    "id": "histib-pp-022",
@@ -353,7 +438,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "III.2",
-   "kind": "period"
+   "kind": "period",
+   "distractors": [
+    "Archaic",
+    "Classical",
+    "Mycenaean"
+   ]
   },
   {
    "id": "histib-pp-023",
@@ -387,7 +477,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.3",
-   "kind": "event"
+   "kind": "event",
+   "distractors": [
+    "Pythian Games",
+    "Isthmian Games",
+    "Panathenaic Games"
+   ]
   },
   {
    "id": "histib-pp-025",
@@ -402,7 +497,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "monument"
+   "kind": "monument",
+   "distractors": [
+    "Temple of Zeus",
+    "Temple of Apollo",
+    "Pantheon"
+   ]
   },
   {
    "id": "histib-pp-026",
@@ -417,7 +517,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "person"
+   "kind": "person",
+   "distractors": [
+    "Plato",
+    "Aristotle",
+    "Diogenes"
+   ]
   },
   {
    "id": "histib-pp-027",
@@ -429,7 +534,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "III.4",
-   "kind": "person"
+   "kind": "person",
+   "distractors": [
+    "Hesiod",
+    "Herodotus",
+    "Virgil"
+   ]
   },
   {
    "id": "histib-pp-028",
@@ -441,7 +551,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "system"
+   "kind": "system",
+   "distractors": [
+    "monarchy",
+    "dictatorship",
+    "principate"
+   ]
   },
   {
    "id": "histib-pp-029",
@@ -457,7 +572,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "praetors",
+    "censors",
+    "tribunes"
+   ]
   },
   {
    "id": "histib-pp-030",
@@ -473,7 +593,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "Concilium Plebis",
+    "Comitia Centuriata",
+    "Areopagus"
+   ]
   },
   {
    "id": "histib-pp-031",
@@ -491,7 +616,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "consul",
+    "praetor",
+    "aedile"
+   ]
   },
   {
    "id": "histib-pp-032",
@@ -507,7 +637,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "ruler"
+   "kind": "ruler",
+   "distractors": [
+    "Pompey",
+    "Mark Antony",
+    "Sulla"
+   ]
   },
   {
    "id": "histib-pp-033",
@@ -537,7 +672,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.1",
-   "kind": "system"
+   "kind": "system",
+   "distractors": [
+    "dominate",
+    "tetrarchy",
+    "triumvirate"
+   ]
   },
   {
    "id": "histib-pp-035",
@@ -553,7 +693,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.2",
-   "kind": "city"
+   "kind": "city",
+   "distractors": [
+    "Alexandria",
+    "Utica",
+    "Leptis Magna"
+   ]
   },
   {
    "id": "histib-pp-036",
@@ -586,7 +731,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IV.4",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "Syria",
+    "Egypt",
+    "Cappadocia"
+   ]
   },
   {
    "id": "histib-pp-038",
@@ -653,7 +803,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "IV.6",
-   "kind": "ruler"
+   "kind": "ruler",
+   "distractors": [
+    "Constantine",
+    "Theodosius",
+    "Basil II"
+   ]
   },
   {
    "id": "histib-pp-042",
@@ -670,7 +825,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "city"
+   "kind": "city",
+   "distractors": [
+    "Rome",
+    "Antioch",
+    "Nicaea"
+   ]
   },
   {
    "id": "histib-pp-043",
@@ -687,7 +847,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.1",
-   "kind": "monument"
+   "kind": "monument",
+   "distractors": [
+    "San Vitale",
+    "St Mark's Basilica",
+    "Blue Mosque"
+   ]
   },
   {
    "id": "histib-pp-044",
@@ -738,7 +903,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "writing"
+   "kind": "writing",
+   "distractors": [
+    "Hadith",
+    "Torah",
+    "Sunnah"
+   ]
   },
   {
    "id": "histib-pp-047",
@@ -750,7 +920,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Commandments",
+    "Virtues",
+    "Precepts"
+   ]
   },
   {
    "id": "histib-pp-048",
@@ -784,7 +959,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "V.4",
-   "kind": "writing"
+   "kind": "writing",
+   "distractors": [
+    "Roman numerals",
+    "Greek numerals",
+    "Babylonian numerals"
+   ]
   },
   {
    "id": "histib-pp-050",
@@ -801,7 +981,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "kind": "ruler"
+   "kind": "ruler",
+   "distractors": [
+    "Pepin the Short",
+    "Clovis",
+    "Otto I"
+   ]
   },
   {
    "id": "histib-pp-051",
@@ -813,7 +998,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "kind": "period"
+   "kind": "period",
+   "distractors": [
+    "Reformation",
+    "Enlightenment",
+    "Restoration"
+   ]
   },
   {
    "id": "histib-pp-052",
@@ -829,7 +1019,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VI.1",
-   "kind": "event"
+   "kind": "event",
+   "distractors": [
+    "Treaty of Meerssen",
+    "Treaty of Aachen",
+    "Treaty of Tordesillas"
+   ]
   },
   {
    "id": "histib-pp-053",
@@ -862,7 +1057,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VI.3",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Reformation",
+    "secularisation",
+    "Romanisation"
+   ]
   },
   {
    "id": "histib-pp-055",
@@ -880,7 +1080,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VII.1",
-   "kind": "event"
+   "kind": "event",
+   "distractors": [
+    "Great Schism",
+    "Western Schism",
+    "Avignon Papacy"
+   ]
   },
   {
    "id": "histib-pp-056",
@@ -946,7 +1151,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VII.2",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "mendicant orders",
+    "monastic orders",
+    "Benedictines"
+   ]
   },
   {
    "id": "histib-pp-060",
@@ -958,7 +1168,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VIII.1",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "manor",
+    "allod",
+    "demesne"
+   ]
   },
   {
    "id": "histib-pp-061",
@@ -991,7 +1206,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VIII.1",
-   "kind": "people"
+   "kind": "people",
+   "distractors": [
+    "freemen",
+    "yeomen",
+    "burghers"
+   ]
   },
   {
    "id": "histib-pp-063",
@@ -1025,7 +1245,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "VIII.2",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "communes",
+    "estates",
+    "confraternities"
+   ]
   },
   {
    "id": "histib-pp-065",
@@ -1043,7 +1268,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "VIII.2",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "Lombard League",
+    "Swabian League",
+    "Teutonic Order"
+   ]
   },
   {
    "id": "histib-pp-066",
@@ -1078,7 +1308,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IX.1",
-   "kind": "ruler"
+   "kind": "ruler",
+   "distractors": [
+    "Mieszko I",
+    "Casimir the Restorer",
+    "Boleslaw the Bold"
+   ]
   },
   {
    "id": "histib-pp-068",
@@ -1090,7 +1325,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "period"
+   "kind": "period",
+   "distractors": [
+    "unification",
+    "partitions",
+    "interregnum"
+   ]
   },
   {
    "id": "histib-pp-069",
@@ -1107,7 +1347,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "X.1",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "Knights Templar",
+    "Knights Hospitaller",
+    "Sword Brothers"
+   ]
   },
   {
    "id": "histib-pp-070",
@@ -1162,7 +1407,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XII.3",
-   "kind": "event"
+   "kind": "event",
+   "distractors": [
+    "Union of Lublin",
+    "Union of Horodlo",
+    "Union of Mielnik"
+   ]
   },
   {
    "id": "histib-pp-073",
@@ -1196,7 +1446,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "event"
+   "kind": "event",
+   "distractors": [
+    "Great Famine",
+    "Plague of Justinian",
+    "Spanish flu"
+   ]
   },
   {
    "id": "histib-pp-075",
@@ -1213,7 +1468,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "England and Scotland",
+    "France and Spain",
+    "France and Burgundy"
+   ]
   },
   {
    "id": "histib-pp-076",
@@ -1230,7 +1490,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "person"
+   "kind": "person",
+   "distractors": [
+    "Catherine of Siena",
+    "Eleanor of Aquitaine",
+    "Hildegard of Bingen"
+   ]
   },
   {
    "id": "histib-pp-077",
@@ -1242,7 +1507,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "people"
+   "kind": "people",
+   "distractors": [
+    "archers",
+    "crossbowmen",
+    "pikemen"
+   ]
   },
   {
    "id": "histib-pp-078",
@@ -1260,7 +1530,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XI.1",
-   "kind": "event"
+   "kind": "event",
+   "distractors": [
+    "Jacquerie",
+    "Jack Cade's Rebellion",
+    "Pilgrimage of Grace"
+   ]
   },
   {
    "id": "histib-pp-079",
@@ -1278,7 +1553,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XI.2",
-   "kind": "place"
+   "kind": "place",
+   "distractors": [
+    "Seljuk Empire",
+    "Mamluk Sultanate",
+    "Timurid Empire"
+   ]
   },
   {
    "id": "histib-pp-080",
@@ -1310,7 +1590,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.2",
-   "kind": "institution"
+   "kind": "institution",
+   "distractors": [
+    "cathedral school",
+    "monastery",
+    "academy"
+   ]
   },
   {
    "id": "histib-pp-082",
@@ -1327,7 +1612,12 @@
    "difficulty": 3,
    "source": "Podstawa programowa",
    "pp": "XIII.2",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "humanism",
+    "mysticism",
+    "Stoicism"
+   ]
   },
   {
    "id": "histib-pp-083",
@@ -1360,7 +1650,12 @@
    "difficulty": 2,
    "source": "Podstawa programowa",
    "pp": "XIII.3",
-   "kind": "writing"
+   "kind": "writing",
+   "distractors": [
+    "Gaude Mater Polonia",
+    "Te Deum",
+    "Dies irae"
+   ]
   },
   {
    "id": "histib-pp-085",
@@ -1377,7 +1672,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Gothic",
+    "Byzantine",
+    "Baroque"
+   ]
   },
   {
    "id": "histib-pp-086",
@@ -1394,7 +1694,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "XIII.4",
-   "kind": "concept"
+   "kind": "concept",
+   "distractors": [
+    "Romanesque",
+    "Renaissance",
+    "Baroque"
+   ]
   },
   {
    "id": "histib-pp-087",
@@ -1411,7 +1716,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB skills",
-   "kind": "source term"
+   "kind": "source term",
+   "distractors": [
+    "origin, purpose, validity, limitations",
+    "opinion, perspective, value, language",
+    "origin, purpose, viewpoint, length"
+   ]
   },
   {
    "id": "histib-pp-088",
@@ -1442,7 +1752,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB skills",
-   "kind": "source term"
+   "kind": "source term",
+   "distractors": [
+    "origin",
+    "value",
+    "limitations"
+   ]
   },
   {
    "id": "histib-pp-090",
@@ -1456,7 +1771,9 @@
    "pp": "IB skills",
    "kind": "source term",
    "distractors": [
-    "limitations"
+    "limitations",
+    "origin",
+    "purpose"
    ]
   },
   {
@@ -1471,7 +1788,9 @@
    "pp": "IB skills",
    "kind": "source term",
    "distractors": [
-    "value"
+    "value",
+    "origin",
+    "purpose"
    ]
   },
   {
@@ -1489,7 +1808,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB skills",
-   "kind": "source term"
+   "kind": "source term",
+   "distractors": [
+    "secondary source",
+    "tertiary source",
+    "historiography"
+   ]
   },
   {
    "id": "histib-pp-093",
@@ -1523,7 +1847,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB skills",
-   "kind": "source term"
+   "kind": "source term",
+   "distractors": [
+    "objectivity",
+    "reliability",
+    "hindsight"
+   ]
   },
   {
    "id": "histib-pp-095",
@@ -1539,7 +1868,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB topic 10",
-   "kind": "topic"
+   "kind": "topic",
+   "distractors": [
+    "Independence movements",
+    "Rights and protest",
+    "Evolution of democratic states"
+   ]
   },
   {
    "id": "histib-pp-096",
@@ -1555,7 +1889,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB PS3",
-   "kind": "topic"
+   "kind": "topic",
+   "distractors": [
+    "Military leaders",
+    "Conquest and its impact",
+    "Rights and protest"
+   ]
   },
   {
    "id": "histib-pp-097",
@@ -1571,7 +1910,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB topic 12",
-   "kind": "topic"
+   "kind": "topic",
+   "distractors": [
+    "Authoritarian states",
+    "Independence movements",
+    "Rights and protest"
+   ]
   },
   {
    "id": "histib-pp-098",
@@ -1586,7 +1930,12 @@
    "difficulty": 1,
    "source": "Podstawa programowa",
    "pp": "IB PS5",
-   "kind": "topic"
+   "kind": "topic",
+   "distractors": [
+    "Rights and protest",
+    "Military leaders",
+    "Conquest and its impact"
+   ]
   }
  ]
 }
