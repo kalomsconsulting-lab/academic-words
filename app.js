@@ -653,6 +653,7 @@
   // ===================================================================
   let VOCAB = [];
   let VOCAB_META = {};
+  let SUBJECT_META = {}; // przedmiot -> metadane pliku (exam, weights, kinds)
   const BY_ID = new Map();
 
   const toArr = (v) => (Array.isArray(v) ? v : v ? [v] : []).map(String).filter(Boolean);
@@ -923,6 +924,7 @@
     }));
     BASE_ITEMS = loaded.flatMap((l) => l.items);
     VOCAB_META = loaded.find((l) => l.key === DEFAULT_SUBJECT).meta;
+    SUBJECT_META = Object.fromEntries(loaded.map((l) => [l.key, l.meta]));
     rebuildVocab();
   }
 
@@ -953,7 +955,7 @@
     const p = progress[it.id];
     if (!p || !p.hist || !p.hist.length) return 'new';
     const acc = p.hist.reduce((s, x) => s + x, 0) / p.hist.length;
-    if (acc > 0.9 && p.hist.length >= 3) return 'mastered';
+    if (sprintOf(it.subject) ? sprintMastered(p.hist) : acc > 0.9 && p.hist.length >= 3) return 'mastered';
     if (acc >= 0.6) return 'learning';
     return 'new';
   }
@@ -983,6 +985,8 @@
       p.interval = p.reps === 1 ? 1 : p.reps === 2 ? 6 : Math.round(p.interval * p.ef);
     }
     p.ef = Math.max(1.3, p.ef + 0.1 - (5 - q) * (0.08 + (5 - q) * 0.02));
+    const sp = sprintOf(it.subject);
+    if (sp && sp.left >= 1) p.interval = sprintInterval(p, q, sp);
     p.due = addDays(t, p.interval);
     save();
   }
@@ -991,7 +995,9 @@
 
   function srsCounts(pool = subjectPool(), subject = currentSubject()) {
     const due = pool.filter(isDue).length;
-    const newLeft = Math.max(0, state.settings.newPerDay - newCount(dayLog(), subject));
+    const sp = sprintOf(subject);
+    const limit = sp && sp.left >= 1 ? sprintNewLimit(subjectPool(subject), subject, sp) : state.settings.newPerDay;
+    const newLeft = Math.max(0, limit - newCount(dayLog(), subject));
     const unseen = pool.filter((it) => !state.progress[it.id]).length;
     return { due, newToday: Math.min(newLeft, unseen) };
   }
@@ -1002,6 +1008,98 @@
     if (!(daily[d] && daily[d].answers)) d = addDays(d, -1);
     while (daily[d] && daily[d].answers) { n++; d = addDays(d, -1); }
     return n;
+  }
+
+  // ===================================================================
+  // Tryb sprintu (przedmiot z datą sprawdzianu w pliku: pole exam)
+  // ===================================================================
+  // Plan nauki z opracowania (sekcja 12): dzień -> działy misji, arkusz próbny na papierze, powtórka pułapek.
+  const SPRINT_PLANS = {
+    geografia_mko: {
+      '2026-10-24': { cats: ['geomko_earth', 'geomko_map'] },
+      '2026-10-25': { cats: ['geomko_climate'], mock: 'Arkusz próbny 2025/26: 90 min na papierze, z zegarem, bez atlasu. Potem sprawdź z modelem oceniania i wypisz utracone punkty według działów.' },
+      '2026-10-26': { cats: ['geomko_europe_nature'], traps: ['geomko_earth', 'geomko_map', 'geomko_climate'], note: 'Wieczorem 15 min: pułapki konkursowe z ruchów Ziemi, mapy i klimatu.' },
+      '2026-10-27': { cats: ['geomko_europe_people'], mock: 'Arkusz próbny 2024/25: 60 min na 20 wybranych zadań, na papierze, z zegarem. Dopisz słabe obszary do listy z niedzieli.' },
+      '2026-10-28': { cats: ['geomko_neighbours', 'geomko_explorers', 'geomko_usa_canada'], weak: true, note: 'Potem już tylko najsłabsze działy i wszystkie pułapki. Koniec nauki do 20:00, przygotuj przybory.' },
+    },
+  };
+  const WEEKDAY_IN = ['w niedzielę', 'w poniedziałek', 'we wtorek', 'w środę', 'w czwartek', 'w piątek', 'w sobotę'];
+  const parseDay = (d) => { const [y, m, dd] = d.split('-').map(Number); return new Date(y, m - 1, dd); };
+  const daysUntil = (d, from = today()) => Math.round((parseDay(d) - parseDay(from)) / 864e5);
+
+  // Sprint trwa od dziś do dnia sprawdzianu włącznie; left = dni do sprawdzianu (0 = dziś).
+  const sprintCache = { day: '', map: {} };
+  function sprintOf(subject) {
+    const t = today();
+    if (sprintCache.day !== t) { sprintCache.day = t; sprintCache.map = {}; }
+    if (subject in sprintCache.map) return sprintCache.map[subject];
+    const meta = SUBJECT_META[subject] || {};
+    const exam = meta.exam;
+    let sp = null;
+    if (exam && exam.date && daysUntil(exam.date) >= 0) {
+      const plan = SPRINT_PLANS[subject] || {};
+      sp = { subject, exam, left: daysUntil(exam.date), weights: meta.weights || {}, plan, mission: plan[t] || null,
+        weekday: WEEKDAY_IN[parseDay(exam.date).getDay()] };
+    }
+    return (sprintCache.map[subject] = sp);
+  }
+
+  // W sprincie „opanowane” = dwie ostatnie odpowiedzi poprawne (na 3 odpowiedzi w odstępach SM-2 brakuje dni).
+  function sprintMastered(hist) {
+    return hist.length >= 2 && hist[hist.length - 1] === 1 && hist[hist.length - 2] === 1;
+  }
+
+  // Odstęp powtórki w sprincie: 1, 2, potem × ef, ale zawsze z powrotem przed dniem sprawdzianu.
+  // Ostatniego dnia poprawna karta już nie wraca, błędna — jeszcze dziś.
+  function sprintInterval(p, q, sp) {
+    if (q < 3) return 0;
+    const last = sp.left - 1; // dni do ostatniego dnia nauki
+    if (last < 1) return sp.left || 1;
+    const next = p.reps === 1 ? 1 : p.reps === 2 ? 2 : Math.round(p.interval * p.ef);
+    return Math.max(1, Math.min(next, last));
+  }
+
+  // Limit nowych kart w sprincie: karty nieobejrzane na początku dnia ÷ dni nauki do sprawdzianu.
+  function sprintNewLimit(pool, subject, sp, progress = state.progress, log = dayLog()) {
+    const unseen = pool.filter((it) => !progress[it.id]).length + newCount(log, subject);
+    return Math.ceil(unseen / Math.max(1, sp.left));
+  }
+
+  // Ocena przyswojenia: opanowanie działów × wagi z arkuszy → przewidywany wynik na `exam.points`.
+  function sprintStats(sp, pool, progress = state.progress) {
+    const t = today();
+    const cats = Object.entries(sp.weights).filter(([k]) => CATEGORIES[k]).map(([key, w]) => {
+      const items = pool.filter((it) => it.category === key);
+      const mastered = items.filter((it) => statusOf(it, progress) === 'mastered').length;
+      const seen = items.filter((it) => progress[it.id]).length;
+      return { key, w, total: items.length, mastered, seen, m: items.length ? mastered / items.length : 0 };
+    });
+    const wSum = cats.reduce((s, c) => s + c.w, 0) || 1;
+    const points = sp.exam.points || 40;
+    const score = Math.round(points * cats.reduce((s, c) => s + c.w * c.m, 0) / wSum);
+    // najsłabszy: z działów już zaczętych najmniej opanowany (nieruszone działy czekają na swój dzień w planie)
+    const started = cats.filter((c) => c.total && c.seen);
+    const weakest = (started.length ? started : cats.filter((c) => c.total)).slice().sort((a, b) => a.m - b.m || b.w - a.w)[0] || null;
+    let mission = null;
+    if (sp.mission) {
+      const items = pool.filter((it) => sp.mission.cats.includes(it.category));
+      const done = items.filter((it) => progress[it.id] && progress[it.id].due > t).length;
+      mission = { ...sp.mission, items, total: items.length, done, complete: items.length > 0 && done === items.length };
+    }
+    return { cats, score, points, weakest, mission };
+  }
+
+  // Wynik z poprzedniego dnia nauki (zapisywany w dzienniku), do pochwały „+3 pkt od wczoraj”.
+  function prevScore(subject, daily = state.daily) {
+    const t = today();
+    const d = Object.keys(daily).filter((k) => k < t && daily[k].score && daily[k].score[subject] != null).sort().pop();
+    return d ? daily[d].score[subject] : null;
+  }
+  function storeScore(subject, score) {
+    const log = dayLog();
+    if (log.score && log.score[subject] === score) return;
+    log.score = { ...(log.score || {}), [subject]: score };
+    save();
   }
 
   // ===================================================================
@@ -1041,11 +1139,15 @@
   function srsItems(pool) {
     const due = pool.filter(isDue).sort((a, b) => state.progress[a.id].due.localeCompare(state.progress[b.id].due)).slice(0, 30);
     const { newToday } = srsCounts(pool);
+    // w sprincie najpierw działy z misji dnia i karty z priorytetem 1; jedna sesja ma najwyżej 20 nowych
+    const sp = pool.length ? sprintOf(pool[0].subject) : null;
+    const inMission = (it) => (sp && sp.mission && sp.mission.cats.includes(it.category) ? 1 : 0);
     // własne materiały (najnowsze najpierw) wchodzą jako nowe przed resztą słownika
     const fresh = pool.filter((it) => !state.progress[it.id])
-      .sort((a, b) => b._custom - a._custom || String(b.addedAt || '').localeCompare(String(a.addedAt || '')) ||
+      .sort((a, b) => inMission(b) - inMission(a) || (sp ? (a.priority || 3) - (b.priority || 3) : 0) ||
+        b._custom - a._custom || String(b.addedAt || '').localeCompare(String(a.addedAt || '')) ||
         a.difficulty - b.difficulty || (a.awl_group || 0) - (b.awl_group || 0))
-      .slice(0, newToday);
+      .slice(0, sp ? Math.min(newToday, 20) : newToday);
     return shuffle([...due, ...fresh]);
   }
 
@@ -1631,7 +1733,9 @@
     function attempt(li, ri) {
       const L = leftEls[li], R = rightEls[ri];
       clearSel();
-      if (pairs[li].r === rights[ri]) {
+      // dwie karty z tą samą odpowiedzią (np. „Francja”) dają identyczne przyciski — każdy z nich pasuje
+      const owner = pairs.find((p) => p.r === rights[ri]);
+      if (pairs[li].r === rights[ri] || norm(owner.l) === norm(pairs[li].l)) {
         [L, R].forEach((e) => { e.classList.remove('wrong'); e.classList.add('done'); });
         L.disabled = R.disabled = true;
         matched++;
