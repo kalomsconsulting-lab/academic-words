@@ -29,20 +29,25 @@
   "grupa językowa",
   "góry",
   "jezioro",
+  "język",
   "kierunek",
   "kontynent",
   "krajobraz",
   "kąt",
   "lodowiec",
   "lud",
+  "megalopolis",
   "miasto",
   "morze lub cieśnina",
   "obiekt",
   "ocean",
   "odkrywca",
+  "organizacja",
+  "osoba",
   "państwo",
   "pojęcie",
   "pora roku",
+  "prowincja",
   "przylądek",
   "prąd morski",
   "pustynia",
@@ -56,8 +61,10 @@
   "równoleżnik",
   "skala",
   "stacja",
+  "stan",
   "stolica",
   "strefa",
+  "surowiec",
   "szczyt",
   "traktat",
   "typ wybrzeża",
@@ -10889,6 +10896,4205 @@
    ],
    "explanation": "Inne: ochrona terenów rolniczych, poprawa mikroklimatu, ochrona przed powodzią, bioróżnorodność.",
    "quiz_suitable": false
+  },
+  {
+   "id": "geomko-9-001",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Z którym państwem Polska ma najdłuższą granicę (796 km)?",
+   "answer": "z Czechami",
+   "accept": [
+    "Czechy",
+    "Czechami"
+   ],
+   "explanation": "Nie z Niemcami – to częsta pułapka.",
+   "distractors": [
+    "z Niemcami",
+    "ze Słowacją",
+    "z Ukrainą"
+   ]
+  },
+  {
+   "id": "geomko-9-002",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Z którym państwem Polska ma najkrótszą granicę (104 km)?",
+   "answer": "z Litwą",
+   "accept": [
+    "Litwa",
+    "Litwą"
+   ],
+   "explanation": "Ta liczba pojawiła się w zadaniu o skali w 2023 r.",
+   "distractors": [
+    "z Rosją",
+    "z Białorusią",
+    "z Niemcami"
+   ]
+  },
+  {
+   "id": "geomko-9-003",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile kilometrów ma granica Polski z Litwą?",
+   "answer": "104 km",
+   "accept": [
+    "104"
+   ],
+   "explanation": "To najkrótsza granica lądowa Polski.",
+   "distractors": [
+    "210 km",
+    "418 km",
+    "541 km"
+   ]
+  },
+  {
+   "id": "geomko-9-004",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile kilometrów ma granica morska Polski (Bałtyk)?",
+   "answer": "440 km",
+   "accept": [
+    "440"
+   ],
+   "explanation": "Bałtyk nie jest „sąsiadem”, więc nie liczy się do granic z państwami.",
+   "distractors": [
+    "104 km",
+    "796 km",
+    "210 km"
+   ]
+  },
+  {
+   "id": "geomko-9-005",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Wzdłuż jakich rzek biegnie granica Polski z Niemcami?",
+   "answer": "Odra i Nysa Łużycka",
+   "accept": [
+    "Odrą i Nysą Łużycką",
+    "Odra, Nysa Łużycka"
+   ],
+   "explanation": "Granica ma 467 km.",
+   "distractors": [
+    "Bug i Odra",
+    "Wisła i Odra",
+    "Łaba i Nysa Kłodzka"
+   ]
+  },
+  {
+   "id": "geomko-9-006",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka jest granicą Polski z Ukrainą i Białorusią?",
+   "answer": "Bug",
+   "explanation": "To granica zewnętrzna UE i Schengen.",
+   "distractors": [
+    "Dniestr",
+    "San",
+    "Niemen"
+   ]
+  },
+  {
+   "id": "geomko-9-007",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Którą część Rosji graniczy z Polską?",
+   "answer": "obwód królewiecki",
+   "accept": [
+    "obwód kaliningradzki",
+    "królewiecki",
+    "Kaliningrad"
+   ],
+   "explanation": "To eksklawa Rosji, nie osobne państwo; granica ma 210 km i przecina Zalew Wiślany.",
+   "distractors": [
+    "obwód pskowski",
+    "Karelia",
+    "obwód smoleński"
+   ]
+  },
+  {
+   "id": "geomko-9-008",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "cloze",
+   "text": "Tylko Polska graniczy jednocześnie z Niemcami i {{Rosją}}.",
+   "hint": "obwód królewiecki",
+   "explanation": "Czechy, Słowacja, Litwa i Niemcy to sąsiedzi w UE i NATO.",
+   "distractors": [
+    "Białorusią",
+    "Ukrainą",
+    "Litwą"
+   ]
+  },
+  {
+   "id": "geomko-9-009",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się strategiczny odcinek granicy Polska–Litwa między obwodem królewieckim a Białorusią?",
+   "answer": "przesmyk suwalski",
+   "accept": [
+    "przesmyk",
+    "Suwalszczyzna"
+   ],
+   "explanation": "To jedyne lądowe połączenie krajów bałtyckich z resztą NATO (ok. 65–100 km).",
+   "distractors": [
+    "Brama Morawska",
+    "Polesie",
+    "Pomorze Przednie"
+   ]
+  },
+  {
+   "id": "geomko-9-010",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Z którym państwem Polska dzieli Puszczę Białowieską?",
+   "answer": "z Białorusią",
+   "accept": [
+    "Białoruś",
+    "Białorusią"
+   ],
+   "explanation": "Nie z Litwą; symbolem puszczy jest żubr (UNESCO).",
+   "distractors": [
+    "z Litwą",
+    "z Ukrainą",
+    "z Rosją"
+   ]
+  },
+  {
+   "id": "geomko-9-011",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Który sąsiad Polski ma euro: Czechy czy Słowacja?",
+   "answer": "Słowacja",
+   "explanation": "Słowacja ma euro od 2009 r., Czechy używają korony.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-9-012",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Granice Polski",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które dwa państwa sąsiadujące z Polską powstały z rozpadu innych państw, należą do UE i mają euro?",
+   "answer": "Litwa i Słowacja",
+   "accept": [
+    "Słowacja i Litwa"
+   ],
+   "explanation": "Litwa – z rozpadu ZSRR (1991), Słowacja – Czechosłowacji (1993).",
+   "distractors": [
+    "Czechy i Litwa",
+    "Słowacja i Ukraina",
+    "Czechy i Słowacja"
+   ]
+  },
+  {
+   "id": "geomko-9-013",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Czech?",
+   "answer": "Praga",
+   "explanation": "Praga leży nad Wełtawą (50°N, 14°E).",
+   "distractors": [
+    "Brno",
+    "Bratysława",
+    "Wiedeń"
+   ]
+  },
+  {
+   "id": "geomko-9-014",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Słowacji?",
+   "answer": "Bratysława",
+   "explanation": "Bratysława leży nad Dunajem.",
+   "distractors": [
+    "Koszyce",
+    "Praga",
+    "Budapeszt"
+   ]
+  },
+  {
+   "id": "geomko-9-015",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Ukrainy?",
+   "answer": "Kijów",
+   "explanation": "Kijów leży nad Dnieprem (50°N, 30°E).",
+   "distractors": [
+    "Lwów",
+    "Charków",
+    "Odessa"
+   ]
+  },
+  {
+   "id": "geomko-9-016",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Niemiec?",
+   "answer": "Berlin",
+   "explanation": "Berlin leży nad Szprewą.",
+   "distractors": [
+    "Bonn",
+    "Monachium",
+    "Hamburg"
+   ]
+  },
+  {
+   "id": "geomko-9-017",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Białorusi?",
+   "answer": "Mińsk",
+   "explanation": "Mińsk leży nad Świsłoczą.",
+   "distractors": [
+    "Grodno",
+    "Brześć",
+    "Wilno"
+   ]
+  },
+  {
+   "id": "geomko-9-018",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Litwy?",
+   "answer": "Wilno",
+   "explanation": "Wilno leży nad Wilią.",
+   "distractors": [
+    "Kowno",
+    "Kłajpeda",
+    "Ryga"
+   ]
+  },
+  {
+   "id": "geomko-9-019",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Rosji?",
+   "answer": "Moskwa",
+   "explanation": "Moskwa leży nad rzeką Moskwą.",
+   "distractors": [
+    "Petersburg",
+    "Kaliningrad",
+    "Mińsk"
+   ]
+  },
+  {
+   "id": "geomko-9-020",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad jaką rzeką leży Praga?",
+   "answer": "Wełtawa",
+   "accept": [
+    "Wełtawą"
+   ],
+   "explanation": "Wełtawa wpada do Łaby; w Pradze jest Most Karola.",
+   "distractors": [
+    "Łaba",
+    "Morawa",
+    "Odra"
+   ]
+  },
+  {
+   "id": "geomko-9-021",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad jaką rzeką leży Berlin?",
+   "answer": "Szprewa",
+   "accept": [
+    "Szprewą"
+   ],
+   "explanation": "W Berlinie: Brama Brandenburska, Reichstag, wieża na Alexanderplatz.",
+   "distractors": [
+    "Łaba",
+    "Hawela",
+    "Odra"
+   ]
+  },
+  {
+   "id": "geomko-9-022",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad jaką rzeką leży Wilno?",
+   "answer": "Wilia",
+   "accept": [
+    "Wilią",
+    "Neris"
+   ],
+   "explanation": "W Wilnie: Ostra Brama, Wieża Giedymina, Góra Trzech Krzyży.",
+   "distractors": [
+    "Niemen",
+    "Dźwina",
+    "Świsłocz"
+   ]
+  },
+  {
+   "id": "geomko-9-023",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 2,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad jaką rzeką leży Mińsk?",
+   "answer": "Świsłocz",
+   "accept": [
+    "Świsłoczą"
+   ],
+   "explanation": "W Mińsku: Biblioteka Narodowa w kształcie diamentu, Wyspa Łez.",
+   "distractors": [
+    "Niemen",
+    "Prypeć",
+    "Dniepr"
+   ]
+  },
+  {
+   "id": "geomko-9-024",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski znajdują się: Brama Brandenburska i Reichstag z kopułą?",
+   "answer": "Berlin",
+   "explanation": "Stolice sąsiadów rozpoznaje się w arkuszach ze zdjęć (w 2025 r. cztery).",
+   "distractors": [
+    "Wiedeń",
+    "Praga",
+    "Monachium"
+   ]
+  },
+  {
+   "id": "geomko-9-025",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski znajdują się: Hradczany z katedrą św. Wita i Most Karola?",
+   "answer": "Praga",
+   "explanation": "Stolice sąsiadów rozpoznaje się w arkuszach ze zdjęć (w 2025 r. cztery).",
+   "distractors": [
+    "Bratysława",
+    "Wiedeń",
+    "Budapeszt"
+   ]
+  },
+  {
+   "id": "geomko-9-026",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski znajdują się: zamek na wzgórzu nad Dunajem i most SNP z „UFO”?",
+   "answer": "Bratysława",
+   "explanation": "Stolice sąsiadów rozpoznaje się w arkuszach ze zdjęć (w 2025 r. cztery).",
+   "distractors": [
+    "Budapeszt",
+    "Wiedeń",
+    "Praga"
+   ]
+  },
+  {
+   "id": "geomko-9-027",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski znajdują się: Ostra Brama i Wieża Giedymina?",
+   "answer": "Wilno",
+   "explanation": "Stolice sąsiadów rozpoznaje się w arkuszach ze zdjęć (w 2025 r. cztery).",
+   "distractors": [
+    "Ryga",
+    "Mińsk",
+    "Kowno"
+   ]
+  },
+  {
+   "id": "geomko-9-028",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski znajdują się: Biblioteka Narodowa w kształcie diamentu i Wyspa Łez?",
+   "answer": "Mińsk",
+   "explanation": "Stolice sąsiadów rozpoznaje się w arkuszach ze zdjęć (w 2025 r. cztery).",
+   "distractors": [
+    "Kijów",
+    "Wilno",
+    "Moskwa"
+   ]
+  },
+  {
+   "id": "geomko-9-029",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski znajdują się: Ławra Peczerska ze złotymi kopułami i Majdan Niepodległości?",
+   "answer": "Kijów",
+   "explanation": "Stolice sąsiadów rozpoznaje się w arkuszach ze zdjęć (w 2025 r. cztery).",
+   "distractors": [
+    "Moskwa",
+    "Mińsk",
+    "Lwów"
+   ]
+  },
+  {
+   "id": "geomko-9-030",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski znajdują się: Kreml, Plac Czerwony i Sobór Wasyla Błogosławionego?",
+   "answer": "Moskwa",
+   "explanation": "Stolice sąsiadów rozpoznaje się w arkuszach ze zdjęć (w 2025 r. cztery).",
+   "distractors": [
+    "Petersburg",
+    "Kijów",
+    "Mińsk"
+   ]
+  },
+  {
+   "id": "geomko-9-031",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Im dalej na wschód leży stolica sąsiada Polski, tym {{większa}} jest amplituda roczna temperatury.",
+   "hint": "kontynentalizm",
+   "explanation": "Berlin ma amplitudę ok. 19°C, Moskwa ok. 27°C.",
+   "distractors": [
+    "mniejsza",
+    "taka sama",
+    "zmienna"
+   ]
+  },
+  {
+   "id": "geomko-9-032",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Która stolica sąsiada Polski ma najmniejszą amplitudę roczną temperatury i najłagodniejsze zimy?",
+   "answer": "Berlin",
+   "explanation": "Leży najdalej na zachód (ok. 19°C).",
+   "distractors": [
+    "Praga",
+    "Bratysława",
+    "Wilno"
+   ]
+  },
+  {
+   "id": "geomko-9-033",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Klimatogram: zima −8°C, lato 19°C, amplituda 27°C. Która to stolica sąsiada Polski?",
+   "answer": "Moskwa",
+   "explanation": "Moskwa ma największą amplitudę i najmroźniejsze zimy.",
+   "distractors": [
+    "Kijów",
+    "Mińsk",
+    "Wilno"
+   ]
+  },
+  {
+   "id": "geomko-9-034",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "W której stolicy sąsiada Polski 23 marca Słońce zajdzie najpóźniej (w tym samym czasie UTC)?",
+   "answer": "w Berlinie",
+   "accept": [
+    "Berlin"
+   ],
+   "explanation": "W dniu bliskim równonocy decyduje długość geograficzna: najpóźniej zachodzi najdalej na zachodzie, najwcześniej w Moskwie.",
+   "distractors": [
+    "w Moskwie",
+    "w Pradze",
+    "w Kijowie"
+   ]
+  },
+  {
+   "id": "geomko-9-035",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Stolice sąsiadów",
+   "priority": 1,
+   "kind": "wartość",
+   "trap": true,
+   "type": "qa",
+   "question": "O ile różni się czas słoneczny Kijowa (30°E) i Warszawy (21°E)?",
+   "answer": "ok. 36 min",
+   "accept": [
+    "36 min",
+    "36 minut",
+    "36"
+   ],
+   "explanation": "9° × 4 min = 36 min; Ukraina ma czas UTC+2, czyli o godzinę „do przodu” względem Polski.",
+   "distractors": [
+    "ok. 9 min",
+    "ok. 1 h",
+    "ok. 51 min"
+   ]
+  },
+  {
+   "id": "geomko-9-036",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile krajów związkowych (landów) mają Niemcy?",
+   "answer": "16",
+   "accept": [
+    "szesnaście",
+    "16 landów"
+   ],
+   "explanation": "Niemcy mają ok. 84 mln mieszkańców – najwięcej w UE.",
+   "distractors": [
+    "12",
+    "9",
+    "20"
+   ]
+  },
+  {
+   "id": "geomko-9-037",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Który land Niemiec jest największy pod względem powierzchni?",
+   "answer": "Bawaria",
+   "explanation": "Najludniejszy jest Nadrenia Północna-Westfalia.",
+   "distractors": [
+    "Nadrenia Północna-Westfalia",
+    "Saksonia",
+    "Badenia-Wirtembergia"
+   ]
+  },
+  {
+   "id": "geomko-9-038",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Który land Niemiec jest najludniejszy (ok. 18 mln)?",
+   "answer": "Nadrenia Północna-Westfalia",
+   "accept": [
+    "Nadrenia-Westfalia"
+   ],
+   "explanation": "Jego stolica to Düsseldorf; leży tam Zagłębie Ruhry.",
+   "distractors": [
+    "Bawaria",
+    "Saksonia",
+    "Hesja"
+   ]
+  },
+  {
+   "id": "geomko-9-039",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się dawny największy okręg przemysłowy Europy oparty na węglu i stali (Essen, Dortmund, Duisburg)?",
+   "answer": "Zagłębie Ruhry",
+   "accept": [
+    "Ruhra",
+    "Zagłębie Ruhy"
+   ],
+   "explanation": "Od lat 60. przechodzi restrukturyzację.",
+   "distractors": [
+    "Zagłębie Saary",
+    "Śląsk",
+    "Zagłębie Donieckie"
+   ]
+  },
+  {
+   "id": "geomko-9-040",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 2,
+   "kind": "data",
+   "type": "cloze",
+   "text": "Ostatnią kopalnię węgla w Zagłębiu Ruhry (Prosper-Haniel) zamknięto w {{2018}} r.",
+   "hint": "rok",
+   "explanation": "Przyczyny: wyczerpywanie i nieopłacalność węgla, konkurencja importu, zanieczyszczenie.",
+   "distractors": [
+    "1990",
+    "2008",
+    "2023"
+   ]
+  },
+  {
+   "id": "geomko-9-041",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "obiekt",
+   "type": "qa",
+   "question": "Która dawna kopalnia w Essen jest dziś muzeum i obiektem UNESCO?",
+   "answer": "Zollverein",
+   "accept": [
+    "kopalnia Zollverein"
+   ],
+   "explanation": "To przykład rewitalizacji obiektu poprzemysłowego.",
+   "distractors": [
+    "Prosper-Haniel",
+    "Gasometr",
+    "Landschaftspark"
+   ]
+  },
+  {
+   "id": "geomko-9-042",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które miasto ma największy port śródlądowy Europy (na Renie)?",
+   "answer": "Duisburg",
+   "explanation": "Duisburg to centrum logistyczne Zagłębia Ruhry.",
+   "distractors": [
+    "Hamburg",
+    "Kolonia",
+    "Dortmund"
+   ]
+  },
+  {
+   "id": "geomko-9-043",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Na czym polegała restrukturyzacja Zagłębia Ruhry?",
+   "answer": "zamknięcie kopalń i hut, rozwój usług i nowoczesnego przemysłu",
+   "explanation": "Także: uczelnie, centra logistyczne, rewitalizacja obiektów poprzemysłowych na cele kultury i rekreacji, rekultywacja środowiska."
+  },
+  {
+   "id": "geomko-9-044",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "W którym niemieckim mieście znajduje się siedziba Volkswagena?",
+   "answer": "Wolfsburg",
+   "explanation": "Mercedes i Porsche – Stuttgart, BMW – Monachium.",
+   "distractors": [
+    "Stuttgart",
+    "Monachium",
+    "Ingolstadt"
+   ]
+  },
+  {
+   "id": "geomko-9-045",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Który port jest największy w Niemczech?",
+   "answer": "Hamburg",
+   "explanation": "Hamburg leży nad Łabą.",
+   "distractors": [
+    "Brema",
+    "Kilonia",
+    "Rostock"
+   ]
+  },
+  {
+   "id": "geomko-9-046",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Niemcy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jest głównym partnerem handlowym Polski (ok. 27% eksportu)?",
+   "answer": "Niemcy",
+   "explanation": "Drugie w eksporcie są Czechy.",
+   "distractors": [
+    "Czechy",
+    "Francja",
+    "Ukraina"
+   ]
+  },
+  {
+   "id": "geomko-9-047",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Kiedy powstały Czechy i Słowacja jako osobne państwa?",
+   "answer": "1.01.1993",
+   "accept": [
+    "1993",
+    "1 stycznia 1993"
+   ],
+   "explanation": "Pokojowy rozpad Czechosłowacji nazywa się „aksamitnym rozwodem”.",
+   "distractors": [
+    "1.01.1990",
+    "1.05.2004",
+    "17.11.1989"
+   ]
+  },
+  {
+   "id": "geomko-9-048",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 1,
+   "kind": "organizacja",
+   "type": "qa",
+   "question": "Jak nazywa się współpraca Polski, Czech, Słowacji i Węgier założona w 1991 r.?",
+   "answer": "Grupa Wyszehradzka",
+   "accept": [
+    "V4",
+    "Wyszehradzka"
+   ],
+   "explanation": "Trójkąt Weimarski (1991) tworzą Polska, Niemcy i Francja.",
+   "distractors": [
+    "Trójkąt Weimarski",
+    "Inicjatywa Trójmorza",
+    "Beneluks"
+   ]
+  },
+  {
+   "id": "geomko-9-049",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Jakie państwa tworzą Trójkąt Weimarski?",
+   "answer": "Polska, Niemcy, Francja",
+   "accept": [
+    "Polska, Niemcy i Francja"
+   ],
+   "explanation": "Powstał w 1991 r.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-9-050",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się kotlina otoczona Sudetami, Rudawami i Szumawą?",
+   "answer": "Kotlina Czeska",
+   "accept": [
+    "Czeska"
+   ],
+   "explanation": "Płynie przez nią Wełtawa do Łaby.",
+   "distractors": [
+    "Kotlina Panońska",
+    "Morawy",
+    "Kotlina Kłodzka"
+   ]
+  },
+  {
+   "id": "geomko-9-051",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 2,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Gdzie znajdują się zakłady Škody?",
+   "answer": "Mladá Boleslav",
+   "accept": [
+    "Mlada Boleslav"
+   ],
+   "explanation": "W Czechach słynne są też szkło i piwo (Pilzno, Czeskie Budziejowice).",
+   "distractors": [
+    "Pilzno",
+    "Ostrawa",
+    "Brno"
+   ]
+  },
+  {
+   "id": "geomko-9-052",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 2,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które uzdrowisko w Czechach jest najbardziej znane?",
+   "answer": "Karlowe Wary",
+   "accept": [
+    "Karlovy Vary"
+   ],
+   "explanation": "Inne atrakcje: Praga, Czeski Krumlov, Kutná Hora.",
+   "distractors": [
+    "Czeski Krumlov",
+    "Kutná Hora",
+    "Pilzno"
+   ]
+  },
+  {
+   "id": "geomko-9-053",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo sąsiadujące z Polską produkuje najwięcej samochodów na mieszkańca na świecie?",
+   "answer": "Słowacja",
+   "explanation": "Fabryki: VW Bratysława, Kia Żylina, Stellantis Trnawa, Jaguar Nitra.",
+   "distractors": [
+    "Czechy",
+    "Niemcy",
+    "Węgry"
+   ]
+  },
+  {
+   "id": "geomko-9-054",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "cloze",
+   "text": "Gerlach (2655 m), najwyższy szczyt Tatr i Karpat, leży na {{Słowacji}}.",
+   "hint": "południowy sąsiad",
+   "explanation": "Rysy (2499 m) to najwyższy szczyt Polski.",
+   "distractors": [
+    "Polsce",
+    "Ukrainie",
+    "Rumunii"
+   ]
+  },
+  {
+   "id": "geomko-9-055",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Czechy i Słowacja",
+   "priority": 2,
+   "kind": "obiekt",
+   "type": "qa",
+   "question": "Która jaskinia na Słowacji jest wpisana na listę UNESCO i słynie z lodu?",
+   "answer": "Dobszyńska Lodowa",
+   "accept": [
+    "Jaskinia Dobszyńska",
+    "Dobszyńska"
+   ],
+   "explanation": "Słowacja słynie też z wód termalnych i aquaparków (Tatralandia, Bešeňová).",
+   "distractors": [
+    "Macocha",
+    "Postojna",
+    "Demianowska"
+   ]
+  },
+  {
+   "id": "geomko-9-056",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się piaszczysta mierzeja na Litwie wpisana na listę UNESCO (wydmy)?",
+   "answer": "Mierzeja Kurońska",
+   "accept": [
+    "Kurońska"
+   ],
+   "explanation": "Głównym portem Litwy jest Kłajpeda.",
+   "distractors": [
+    "Mierzeja Wiślana",
+    "Mierzeja Helska",
+    "Mierzeja Łebska"
+   ]
+  },
+  {
+   "id": "geomko-9-057",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Jaki port jest najważniejszy na Litwie?",
+   "answer": "Kłajpeda",
+   "accept": [
+    "Klaipeda"
+   ],
+   "explanation": "Leży nad Bałtykiem przy Mierzei Kurońskiej.",
+   "distractors": [
+    "Kowno",
+    "Lipawa",
+    "Ryga"
+   ]
+  },
+  {
+   "id": "geomko-9-058",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się bagnisty region na południu Białorusi (rzeka Prypeć)?",
+   "answer": "Polesie",
+   "explanation": "Białoruś nie ma dostępu do morza.",
+   "distractors": [
+    "Podole",
+    "Wołyń",
+    "Suwalszczyzna"
+   ]
+  },
+  {
+   "id": "geomko-9-059",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 1,
+   "kind": "kierunek",
+   "trap": true,
+   "type": "qa",
+   "question": "W której części Białorusi mieszka najwięcej Polaków?",
+   "answer": "na północnym zachodzie",
+   "accept": [
+    "Grodzieńszczyzna",
+    "północny zachód",
+    "Grodno"
+   ],
+   "explanation": "Polacy na Litwie mieszkają głównie na Wileńszczyźnie, czyli na południowym wschodzie.",
+   "distractors": [
+    "na południowym wschodzie",
+    "na północnym wschodzie",
+    "na południowym zachodzie"
+   ]
+  },
+  {
+   "id": "geomko-9-060",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 1,
+   "kind": "kierunek",
+   "trap": true,
+   "type": "qa",
+   "question": "W której części Litwy mieszka najwięcej Polaków?",
+   "answer": "na południowym wschodzie",
+   "accept": [
+    "Wileńszczyzna",
+    "południowy wschód",
+    "wokół Wilna"
+   ],
+   "explanation": "Polacy stanowią ok. 6% ludności Litwy i mają posłów w Sejmie.",
+   "distractors": [
+    "na północnym zachodzie",
+    "na zachodzie",
+    "na północy"
+   ]
+  },
+  {
+   "id": "geomko-9-061",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 2,
+   "kind": "surowiec",
+   "type": "qa",
+   "question": "Jakie surowce Białoruś eksportuje m.in. w postaci nawozów?",
+   "answer": "potas",
+   "accept": [
+    "sole potasowe",
+    "potas i nawozy"
+   ],
+   "explanation": "Relacje Polski z Białorusią są napięte od wyborów w 2020 r.",
+   "distractors": [
+    "ropa naftowa",
+    "węgiel",
+    "miedź"
+   ]
+  },
+  {
+   "id": "geomko-9-062",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Od którego roku trwa kryzys migracyjny na granicy z Białorusią (migranci kierowani przez reżim)?",
+   "answer": "2021",
+   "accept": [
+    "od 2021",
+    "2021 r."
+   ],
+   "explanation": "Polska zbudowała zaporę graniczną.",
+   "distractors": [
+    "2015",
+    "2020",
+    "2022"
+   ]
+  },
+  {
+   "id": "geomko-9-063",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Litwa i Białoruś",
+   "priority": 1,
+   "kind": "obiekt",
+   "type": "qa",
+   "question": "Jak nazywa się kolej łącząca Polskę z krajami bałtyckimi?",
+   "answer": "Rail Baltica",
+   "explanation": "Inne połączenia z Litwą: Via Baltica, gazociąg GIPL, most energetyczny LitPol Link.",
+   "distractors": [
+    "Via Baltica",
+    "LitPol Link",
+    "Kolej Transsyberyjska"
+   ]
+  },
+  {
+   "id": "geomko-9-064",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jest największe spośród leżących w całości w Europie?",
+   "answer": "Ukraina",
+   "explanation": "Ma 604 tys. km²; stolicą jest Kijów nad Dnieprem.",
+   "distractors": [
+    "Francja",
+    "Hiszpania",
+    "Szwecja"
+   ]
+  },
+  {
+   "id": "geomko-9-065",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Dlaczego Ukrainę nazywa się „spichlerzem Europy”?",
+   "answer": "czarnoziemy na ok. 60% powierzchni i ciepły klimat kontynentalny",
+   "accept": [
+    "czarnoziemy"
+   ],
+   "explanation": "Ukraina to czołowy eksporter pszenicy, kukurydzy i oleju słonecznikowego."
+  },
+  {
+   "id": "geomko-9-066",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "rolnictwo",
+   "type": "qa",
+   "question": "Jakiego oleju Ukraina jest największym eksporterem na świecie?",
+   "answer": "słonecznikowego",
+   "accept": [
+    "słonecznikowy",
+    "olej słonecznikowy"
+   ],
+   "explanation": "Uprawia się tam też pszenicę, kukurydzę i jęczmień.",
+   "distractors": [
+    "rzepakowego",
+    "oliwy",
+    "palmowego"
+   ]
+  },
+  {
+   "id": "geomko-9-067",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Ukrainy (Karpaty)?",
+   "answer": "Howerla",
+   "explanation": "Ma 2061 m.",
+   "distractors": [
+    "Gerlach",
+    "Musała",
+    "Rysy"
+   ]
+  },
+  {
+   "id": "geomko-9-068",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "data",
+   "trap": true,
+   "type": "qa",
+   "question": "Kiedy doszło do katastrofy w elektrowni jądrowej w Czarnobylu?",
+   "answer": "26.04.1986",
+   "accept": [
+    "1986",
+    "26 kwietnia 1986"
+   ],
+   "explanation": "Czarnobyl leży na Ukrainie (wtedy ZSRR), choć najbardziej ucierpiała Białoruś.",
+   "distractors": [
+    "26.04.1991",
+    "11.03.2011",
+    "24.02.2022"
+   ]
+  },
+  {
+   "id": "geomko-9-069",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się zagłębie węgla i stali na wschodzie Ukrainy?",
+   "answer": "Donbas",
+   "accept": [
+    "Zagłębie Donieckie"
+   ],
+   "explanation": "Krzywy Róg słynie z rud żelaza.",
+   "distractors": [
+    "Krzywy Róg",
+    "Zagłębie Ruhry",
+    "Kuzbas"
+   ]
+  },
+  {
+   "id": "geomko-9-070",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Kiedy rozpoczęła się pełnoskalowa inwazja Rosji na Ukrainę?",
+   "answer": "24.02.2022",
+   "accept": [
+    "24 lutego 2022",
+    "2022"
+   ],
+   "explanation": "Wcześniej Rosja zaanektowała Krym (2014).",
+   "distractors": [
+    "24.02.2014",
+    "1.09.2021",
+    "26.04.2022"
+   ]
+  },
+  {
+   "id": "geomko-9-071",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "półwysep",
+   "type": "qa",
+   "question": "Który półwysep Rosja zaanektowała w 2014 r.?",
+   "answer": "Krym",
+   "accept": [
+    "Półwysep Krymski"
+   ],
+   "explanation": "W 2014 r. zaczęła się też wojna w Donbasie.",
+   "distractors": [
+    "Kolski",
+    "Jutlandzki",
+    "Peloponez"
+   ]
+  },
+  {
+   "id": "geomko-9-072",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Ukraina",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Jaki jest największy port Ukrainy nad Morzem Czarnym?",
+   "answer": "Odessa",
+   "explanation": "Inny port: Mikołajów.",
+   "distractors": [
+    "Mikołajów",
+    "Sewastopol",
+    "Konstanca"
+   ]
+  },
+  {
+   "id": "geomko-9-073",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile stref czasowych ma Rosja?",
+   "answer": "11",
+   "accept": [
+    "jedenaście",
+    "11 stref"
+   ],
+   "explanation": "Rosja leży na dwóch kontynentach i zajmuje 11% lądów.",
+   "distractors": [
+    "7",
+    "9",
+    "24"
+   ]
+  },
+  {
+   "id": "geomko-9-074",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się największa bagnista nizina świata (ropa i gaz)?",
+   "answer": "Nizina Zachodniosyberyjska",
+   "accept": [
+    "Zachodniosyberyjska"
+   ],
+   "explanation": "Leży między Uralem a Wyżyną Środkowosyberyjską.",
+   "distractors": [
+    "Nizina Wschodnioeuropejska",
+    "Wyżyna Środkowosyberyjska",
+    "Nizina Nadkaspijska"
+   ]
+  },
+  {
+   "id": "geomko-9-075",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile procent zasobów słodkiej wody świata zawiera Bajkał?",
+   "answer": "ok. 20%",
+   "accept": [
+    "20%",
+    "20"
+   ],
+   "explanation": "Bajkał jest najgłębszym jeziorem świata (1642 m).",
+   "distractors": [
+    "ok. 5%",
+    "ok. 50%",
+    "ok. 2%"
+   ]
+  },
+  {
+   "id": "geomko-9-076",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 1,
+   "kind": "półwysep",
+   "type": "qa",
+   "question": "Który półwysep na Dalekim Wschodzie Rosji ma 29 czynnych wulkanów?",
+   "answer": "Kamczatka",
+   "explanation": "Najwyższy wulkan: Kluczewska Sopka (4750 m).",
+   "distractors": [
+    "Czukocki",
+    "Tajmyr",
+    "Kolski"
+   ]
+  },
+  {
+   "id": "geomko-9-077",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Na jakiej części terytorium Rosji występuje wieczna zmarzlina?",
+   "answer": "ok. 60%",
+   "accept": [
+    "60%",
+    "60"
+   ],
+   "explanation": "Biegun zimna półkuli północnej: Ojmiakon i Wierchojańsk (−67°C).",
+   "distractors": [
+    "ok. 10%",
+    "ok. 30%",
+    "ok. 90%"
+   ]
+  },
+  {
+   "id": "geomko-9-078",
+   "category": "geomko_neighbours",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Który krajobraz zajmuje ponad połowę Rosji (największy las świata)?",
+   "answer": "tajga",
+   "explanation": "Od północy: tundra, tajga, lasy mieszane, lasostep, step.",
+   "distractors": [
+    "tundra",
+    "step",
+    "las mieszany"
+   ]
+  },
+  {
+   "id": "geomko-9-079",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż strefy krajobrazowe Rosji od północy",
+   "steps": [
+    "pustynia lodowa",
+    "tundra",
+    "tajga",
+    "lasy mieszane",
+    "lasostep",
+    "step"
+   ],
+   "explanation": "Na południu Nadkaspia są jeszcze pustynie, a w Soczi – klimat subtropikalny."
+  },
+  {
+   "id": "geomko-9-080",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Jak długa jest Kolej Transsyberyjska Moskwa–Władywostok?",
+   "answer": "ok. 9289 km",
+   "accept": [
+    "9289 km",
+    "9289",
+    "ponad 9 tys. km"
+   ],
+   "explanation": "Druga magistrala to BAM.",
+   "distractors": [
+    "ok. 2500 km",
+    "ok. 5000 km",
+    "ok. 15 000 km"
+   ]
+  },
+  {
+   "id": "geomko-9-081",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 1,
+   "kind": "rolnictwo",
+   "type": "qa",
+   "question": "Z jakiego zboża Rosja jest największym eksporterem?",
+   "answer": "pszenicy",
+   "accept": [
+    "pszenica"
+   ],
+   "explanation": "Uprawia się ją na czarnoziemach południa.",
+   "distractors": [
+    "kukurydzy",
+    "ryżu",
+    "jęczmienia"
+   ]
+  },
+  {
+   "id": "geomko-9-082",
+   "category": "geomko_neighbours",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Rosja",
+   "priority": 2,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się zagłębie węglowe na Syberii?",
+   "answer": "Kuzbas",
+   "accept": [
+    "Zagłębie Kuźnieckie"
+   ],
+   "explanation": "Gaz: Jamał, Urengoj; nikiel: Norylsk; diamenty: Jakucja.",
+   "distractors": [
+    "Donbas",
+    "Jamał",
+    "Norylsk"
+   ]
+  },
+  {
+   "id": "geomko-9-083",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Relacje Polski z sąsiadami",
+   "priority": 1,
+   "kind": "organizacja",
+   "type": "qa",
+   "question": "Jak nazywa się pierwszy euroregion (1991) na pograniczu Polski, Czech i Niemiec?",
+   "answer": "Nysa",
+   "accept": [
+    "Euroregion Nysa"
+   ],
+   "explanation": "Inne: Pomerania, Pro Europa Viadrina, Tatry, Karpacki, Bug, Niemen.",
+   "distractors": [
+    "Pomerania",
+    "Tatry",
+    "Karpacki"
+   ]
+  },
+  {
+   "id": "geomko-9-084",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Relacje Polski z sąsiadami",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Gdzie w Polsce mieszka mniejszość niemiecka (dwujęzyczne tablice)?",
+   "answer": "na Opolszczyźnie",
+   "accept": [
+    "Opolszczyzna",
+    "Śląsk Opolski"
+   ],
+   "explanation": "Mniejszość litewska mieszka w Puńsku i Sejnach, białoruska na Podlasiu.",
+   "distractors": [
+    "na Podlasiu",
+    "na Kaszubach",
+    "na Spiszu"
+   ]
+  },
+  {
+   "id": "geomko-9-085",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Relacje Polski z sąsiadami",
+   "priority": 2,
+   "kind": "region",
+   "type": "qa",
+   "question": "Gdzie w Polsce mieszka mniejszość litewska?",
+   "answer": "w Puńsku i Sejnach",
+   "accept": [
+    "Puńsk",
+    "Sejny",
+    "Suwalszczyzna"
+   ],
+   "explanation": "Polacy mieszkają zaś na Wileńszczyźnie na Litwie.",
+   "distractors": [
+    "na Opolszczyźnie",
+    "na Podlasiu",
+    "na Śląsku Cieszyńskim"
+   ]
+  },
+  {
+   "id": "geomko-9-086",
+   "category": "geomko_neighbours",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 9 · Relacje Polski z sąsiadami",
+   "priority": 2,
+   "kind": "organizacja",
+   "type": "qa",
+   "question": "Jak nazywa się program UE finansujący projekty współpracy transgranicznej?",
+   "answer": "Interreg",
+   "explanation": "Z jego środków powstają mosty, ścieżki rowerowe, wspólne straże pożarne.",
+   "distractors": [
+    "Erasmus",
+    "Horyzont",
+    "Schengen"
+   ]
+  },
+  {
+   "id": "geomko-10-001",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Który podróżnik w XIII w. dotarł lądem do Chin, na dwór Kubilaj-chana?",
+   "answer": "Marco Polo",
+   "explanation": "Opisał podróż w „Opisaniu świata”; wrócił morzem przez Sumatrę i Indie.",
+   "distractors": [
+    "Vasco da Gama",
+    "Krzysztof Kolumb",
+    "Bartolomeu Dias"
+   ]
+  },
+  {
+   "id": "geomko-10-002",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się lądowy szlak handlowy z Europy do Chin przez Azję Środkową?",
+   "answer": "Jedwabny Szlak",
+   "explanation": "Nazwę nadał Ferdinand von Richthofen w 1877 r.",
+   "distractors": [
+    "Szlak Bursztynowy",
+    "Szlak Korzenny",
+    "Via Baltica"
+   ]
+  },
+  {
+   "id": "geomko-10-003",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Które z tych zwierząt mógł zobaczyć Marco Polo w Azji: puma, szympans, jak?",
+   "answer": "jak",
+   "explanation": "Zwierzęta Azji: baktrian, jak, panda, tygrys; puma żyje w Ameryce, szympans w Afryce.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-10-004",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Który żeglarz opłynął w 1488 r. Przylądek Dobrej Nadziei (nazwał go Przylądkiem Burz)?",
+   "answer": "Bartolomeu Dias",
+   "accept": [
+    "Dias",
+    "Bartłomiej Diaz",
+    "Diaz"
+   ],
+   "explanation": "Otworzył drogę morską do Indii.",
+   "distractors": [
+    "Vasco da Gama",
+    "Ferdynand Magellan",
+    "James Cook"
+   ]
+  },
+  {
+   "id": "geomko-10-005",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Kiedy Krzysztof Kolumb dotarł do wyspy San Salvador?",
+   "answer": "12.10.1492",
+   "accept": [
+    "12 października 1492",
+    "1492"
+   ],
+   "explanation": "Wypłynął z Palos 3.08.1492 pod banderą Hiszpanii.",
+   "distractors": [
+    "20.05.1498",
+    "3.08.1492",
+    "6.09.1522"
+   ]
+  },
+  {
+   "id": "geomko-10-006",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Pod banderą jakiego państwa płynął Kolumb?",
+   "answer": "Hiszpanii",
+   "accept": [
+    "Hiszpania",
+    "Kastylii"
+   ],
+   "explanation": "Wyprawę wsparła Izabela Kastylijska.",
+   "distractors": [
+    "Portugalii",
+    "Anglii",
+    "Wenecji"
+   ]
+  },
+  {
+   "id": "geomko-10-007",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "cloze",
+   "text": "Kolumb do końca życia sądził, że dotarł do {{Indii}}.",
+   "hint": "Azja",
+   "explanation": "Nigdy nie postawił stopy w Ameryce Północnej – dotarł do Karaibów oraz Ameryki Środkowej i Południowej.",
+   "distractors": [
+    "Chin",
+    "Afryki",
+    "Australii"
+   ]
+  },
+  {
+   "id": "geomko-10-008",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Krzysztof Kolumb {{nie dotarł}} do Ameryki Północnej (na terytorium dzisiejszych USA i Kanady).",
+   "hint": "pułapka",
+   "explanation": "Dotarł do Bahamów, Kuby, Haiti oraz wybrzeży Ameryki Środkowej i Południowej.",
+   "distractors": [
+    "dotarł jako pierwszy",
+    "dotarł w 1492 r.",
+    "dotarł w ostatniej wyprawie"
+   ]
+  },
+  {
+   "id": "geomko-10-009",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 2,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Gdzie znajdują się szczątki Kolumba?",
+   "answer": "w katedrze w Sewilli",
+   "accept": [
+    "Sewilla",
+    "w Sewilli"
+   ],
+   "explanation": "Zmarł w 1506 r. w Valladolid.",
+   "distractors": [
+    "w Lizbonie",
+    "w Genui",
+    "w Madrycie"
+   ]
+  },
+  {
+   "id": "geomko-10-010",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Który żeglarz pierwszy dotarł morzem do Indii (Kalikat, 1498)?",
+   "answer": "Vasco da Gama",
+   "accept": [
+    "da Gama"
+   ],
+   "explanation": "Płynął pod banderą Portugalii przez Przylądek Dobrej Nadziei.",
+   "distractors": [
+    "Bartolomeu Dias",
+    "Krzysztof Kolumb",
+    "Marco Polo"
+   ]
+  },
+  {
+   "id": "geomko-10-011",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż etapy trasy Vasco da Gamy do Indii",
+   "steps": [
+    "Lizbona",
+    "Wyspy Kanaryjskie",
+    "Wyspy Zielonego Przylądka",
+    "Przylądek Dobrej Nadziei",
+    "Kanał Mozambicki",
+    "Malindi",
+    "Kalikat"
+   ],
+   "explanation": "Do Kalikatu dotarł 20.05.1498; nie dotarł do Rogu Afryki ani Zatoki Bengalskiej."
+  },
+  {
+   "id": "geomko-10-012",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Vasco da Gama po rejsie do Indii {{wrócił do Lizbony}}; zmarł w Indiach dopiero w 1524 r.",
+   "hint": "koniec wyprawy",
+   "explanation": "Zmarł podczas trzeciej podróży.",
+   "distractors": [
+    "zginął w Kalikacie",
+    "został w Indiach",
+    "zginął na Filipinach"
+   ]
+  },
+  {
+   "id": "geomko-10-013",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "kierunek",
+   "type": "cloze",
+   "text": "Gdy Vasco da Gama płynął na południe od zwrotnika Koziorożca, Słońce górowało po {{północnej}} stronie nieba.",
+   "hint": "półkula południowa",
+   "explanation": "Na półkuli południowej poza zwrotnikami Słońce góruje zawsze na północy.",
+   "distractors": [
+    "południowej",
+    "wschodniej",
+    "zachodniej"
+   ]
+  },
+  {
+   "id": "geomko-10-014",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "trap": true,
+   "type": "qa",
+   "question": "Od kogo pochodzi nazwa „Ameryka”?",
+   "answer": "od Amerigo Vespucciego",
+   "accept": [
+    "Vespucci",
+    "Amerigo Vespucci",
+    "Vespucciego"
+   ],
+   "explanation": "Uznał, że to nowy kontynent; nazwę umieścił Waldseemüller na mapie w 1507 r.",
+   "distractors": [
+    "od Krzysztofa Kolumba",
+    "od Johna Cabota",
+    "od Ferdynanda Magellana"
+   ]
+  },
+  {
+   "id": "geomko-10-015",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "traktat",
+   "type": "qa",
+   "question": "Który traktat z 1494 r. podzielił świat między Hiszpanię i Portugalię?",
+   "answer": "traktat z Tordesillas",
+   "accept": [
+    "z Tordesillas",
+    "Tordesillas"
+   ],
+   "explanation": "Hiszpania dostała zachód, Portugalia wschód – stąd portugalska Brazylia.",
+   "distractors": [
+    "traktat z Maastricht",
+    "traktaty rzymskie",
+    "traktat z Utrechtu"
+   ]
+  },
+  {
+   "id": "geomko-10-016",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Dlaczego w Brazylii mówi się po portugalsku?",
+   "answer": "traktat z Tordesillas przyznał wschód Portugalii",
+   "accept": [
+    "traktat z Tordesillas"
+   ],
+   "explanation": "Linia podziału przecięła wschodni kraniec Ameryki Południowej."
+  },
+  {
+   "id": "geomko-10-017",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "trap": true,
+   "type": "qa",
+   "question": "Kto dokończył pierwsze opłynięcie Ziemi po śmierci Magellana?",
+   "answer": "Juan Sebastián Elcano",
+   "accept": [
+    "Elcano",
+    "Juan Sebastian Elcano"
+   ],
+   "explanation": "Magellan zginął 27.04.1521 na wyspie Mactan (Filipiny).",
+   "distractors": [
+    "Francis Drake",
+    "Vasco da Gama",
+    "Amerigo Vespucci"
+   ]
+  },
+  {
+   "id": "geomko-10-018",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Gdzie zginął Ferdynand Magellan?",
+   "answer": "na Filipinach",
+   "accept": [
+    "Filipiny",
+    "Mactan",
+    "na wyspie Mactan"
+   ],
+   "explanation": "Zginął 27.04.1521; nie opłynął świata.",
+   "distractors": [
+    "na Molukach",
+    "w Cieśninie Magellana",
+    "na Guamie"
+   ]
+  },
+  {
+   "id": "geomko-10-019",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ilu ludzi wróciło z wyprawy Magellana na statku Victoria (1522)?",
+   "answer": "18",
+   "accept": [
+    "18 ludzi",
+    "osiemnastu"
+   ],
+   "explanation": "Wypłynęło 5 statków i ok. 270 ludzi.",
+   "distractors": [
+    "270",
+    "50",
+    "5"
+   ]
+  },
+  {
+   "id": "geomko-10-020",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Skąd pochodzi nazwa Ocean Spokojny?",
+   "answer": "od spokojnej pogody podczas rejsu Magellana",
+   "accept": [
+    "od spokojnej pogody"
+   ],
+   "explanation": "Magellan wpłynął na ocean przez cieśninę nazwaną potem jego imieniem."
+  },
+  {
+   "id": "geomko-10-021",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Wyprawa Magellana {{nie doświadczyła}} nocy polarnej, bo żadna wyprawa XV–XVI w. nie przekroczyła koła podbiegunowego.",
+   "hint": "Cieśnina Magellana leży na 53°S",
+   "explanation": "Cieśnina Magellana (53°S) i Przylądek Dobrej Nadziei (34°S) leżą poza strefą tropikalną, ale daleko od koła podbiegunowego.",
+   "distractors": [
+    "doświadczyła",
+    "doświadczyła dwukrotnie",
+    "doświadczyła na Molukach"
+   ]
+  },
+  {
+   "id": "geomko-10-022",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Który Anglik dokonał drugiego opłynięcia świata (1577–1580, statek Golden Hind)?",
+   "answer": "Francis Drake",
+   "accept": [
+    "Drake"
+   ],
+   "explanation": "Łupił hiszpańskie kolonie i dotarł do wybrzeży Kalifornii.",
+   "distractors": [
+    "James Cook",
+    "John Cabot",
+    "Henry Hudson"
+   ]
+  },
+  {
+   "id": "geomko-10-023",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Jak nazywa się cieśnina między Ameryką Południową a Antarktydą?",
+   "answer": "Cieśnina Drake'a",
+   "accept": [
+    "Drake'a",
+    "Cieśnina Drake’a"
+   ],
+   "explanation": "Nazwa pochodzi od Francisa Drake'a.",
+   "distractors": [
+    "Cieśnina Magellana",
+    "Cieśnina Beringa",
+    "Cieśnina Gibraltarska"
+   ]
+  },
+  {
+   "id": "geomko-10-024",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Z którego państwa pochodzili pierwsi Europejczycy w Australii?",
+   "answer": "z Holandii",
+   "accept": [
+    "Holandia",
+    "Holandii",
+    "Niderlandy"
+   ],
+   "explanation": "Willem Janszoon (1606), Abel Tasman (1642–1644); Australię nazywano Nową Holandią.",
+   "distractors": [
+    "z Anglii",
+    "z Portugalii",
+    "z Hiszpanii"
+   ]
+  },
+  {
+   "id": "geomko-10-025",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Jak nazywa się rdzenna ludność Australii?",
+   "answer": "Aborygeni",
+   "accept": [
+    "Pierwsze Narody",
+    "ludność rdzenna"
+   ],
+   "explanation": "Mieszkają w Australii od ponad 40–60 tys. lat.",
+   "distractors": [
+    "Maorysi",
+    "Inuici",
+    "Papuasi"
+   ]
+  },
+  {
+   "id": "geomko-10-026",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Który żeglarz odkrył Tasmanię i Nową Zelandię?",
+   "answer": "Abel Tasman",
+   "accept": [
+    "Tasman"
+   ],
+   "explanation": "Płynął pod banderą Holandii w latach 1642–1644.",
+   "distractors": [
+    "James Cook",
+    "Willem Janszoon",
+    "Francis Drake"
+   ]
+  },
+  {
+   "id": "geomko-10-027",
+   "category": "geomko_explorers",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Który brytyjski żeglarz zbadał wschodnie wybrzeże Australii (Botany Bay, 1770)?",
+   "answer": "James Cook",
+   "accept": [
+    "Cook"
+   ],
+   "explanation": "Pierwszy przekroczył koło podbiegunowe południowe; zginął na Hawajach w 1779 r.",
+   "distractors": [
+    "Abel Tasman",
+    "Francis Drake",
+    "George Vancouver"
+   ]
+  },
+  {
+   "id": "geomko-10-028",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jeden skutek wielkich odkryć geograficznych.",
+   "answer": "kolonializm",
+   "accept": [
+    "handel niewolnikami",
+    "wymiana roślin i zwierząt",
+    "upadek Azteków i Inków",
+    "rozwój kartografii"
+   ],
+   "explanation": "Do Europy trafiły ziemniak, kukurydza, pomidor i kakao; do Ameryki koń, bydło, pszenica i choroby.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-10-029",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Wyprawy światowe",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Które z tych roślin przywieziono do Europy z Ameryki: pszenica, ziemniak, winorośl?",
+   "answer": "ziemniak",
+   "explanation": "Z Ameryki: ziemniak, kukurydza, pomidor, kakao.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-10-030",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto jako pierwszy Europejczyk dotarł do Ameryki (ok. 1000 r., Winlandia)?",
+   "answer": "Leif Eriksson",
+   "accept": [
+    "Eriksson",
+    "Leif Eriksson (Wikingowie)",
+    "Wikingowie"
+   ],
+   "explanation": "Osada L'Anse aux Meadows na Nowej Fundlandii jest na liście UNESCO.",
+   "distractors": [
+    "John Cabot",
+    "Krzysztof Kolumb",
+    "Jacques Cartier"
+   ]
+  },
+  {
+   "id": "geomko-10-031",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "trap": true,
+   "type": "qa",
+   "question": "Kto w 1497 r. dotarł do Nowej Fundlandii i Labradoru dla Anglii?",
+   "answer": "John Cabot",
+   "accept": [
+    "Cabot",
+    "Giovanni Caboto"
+   ],
+   "explanation": "To podstawa roszczeń Anglii do Ameryki Północnej; łowiska dorsza.",
+   "distractors": [
+    "Henry Hudson",
+    "Jacques Cartier",
+    "Leif Eriksson"
+   ]
+  },
+  {
+   "id": "geomko-10-032",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto w 1513 r. dotarł do Florydy i nadał jej nazwę?",
+   "answer": "Juan Ponce de León",
+   "accept": [
+    "Ponce de León",
+    "Ponce de Leon"
+   ],
+   "explanation": "Nazwa od Wielkanocy (Pascua Florida); to pierwsze lądowanie Europejczyków na terenie dzisiejszych USA.",
+   "distractors": [
+    "Hernando de Soto",
+    "Francisco de Coronado",
+    "Giovanni da Verrazzano"
+   ]
+  },
+  {
+   "id": "geomko-10-033",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto zbadał Zatokę i rzekę Świętego Wawrzyńca (1534–1542) i rozpoczął Nową Francję?",
+   "answer": "Jacques Cartier",
+   "accept": [
+    "Cartier"
+   ],
+   "explanation": "Dotarł do wsi Stadacona (Quebec) i Hochelaga (Montreal).",
+   "distractors": [
+    "Samuel de Champlain",
+    "Henry Hudson",
+    "John Cabot"
+   ]
+  },
+  {
+   "id": "geomko-10-034",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Nazwa „Kanada” pochodzi od irokeskiego słowa kanata, oznaczającego {{wioskę / wieś}}.",
+   "hint": "nie od odkrywcy",
+   "explanation": "Słowo usłyszał Jacques Cartier.",
+   "distractors": [
+    "rzekę",
+    "las",
+    "jezioro"
+   ]
+  },
+  {
+   "id": "geomko-10-035",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto założył Quebec w 1608 r. i jest nazywany „ojcem Nowej Francji”?",
+   "answer": "Samuel de Champlain",
+   "accept": [
+    "Champlain"
+   ],
+   "explanation": "Zbadał też Wielkie Jeziora; handel futrami.",
+   "distractors": [
+    "Jacques Cartier",
+    "René-Robert de La Salle",
+    "Henry Hudson"
+   ]
+  },
+  {
+   "id": "geomko-10-036",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Który Europejczyk jako pierwszy dotarł nad Missisipi (1539–1542)?",
+   "answer": "Hernando de Soto",
+   "accept": [
+    "de Soto"
+   ],
+   "explanation": "Zbadał południowy wschód USA (Floryda, Georgia, Alabama).",
+   "distractors": [
+    "Francisco de Coronado",
+    "Ponce de León",
+    "La Salle"
+   ]
+  },
+  {
+   "id": "geomko-10-037",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 2,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Ludzie którego hiszpańskiego odkrywcy zobaczyli Wielki Kanion (1540–1542)?",
+   "answer": "Francisco Vázquez de Coronado",
+   "accept": [
+    "Coronado",
+    "de Coronado"
+   ],
+   "explanation": "Zbadał południowy zachód USA i Wielkie Równiny.",
+   "distractors": [
+    "Hernando de Soto",
+    "Ponce de León",
+    "Lewis i Clark"
+   ]
+  },
+  {
+   "id": "geomko-10-038",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 2,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto zbadał Zatokę Nowojorską w 1524 r. dla Francji?",
+   "answer": "Giovanni da Verrazzano",
+   "accept": [
+    "Verrazzano"
+   ],
+   "explanation": "Jego imię nosi most w Nowym Jorku.",
+   "distractors": [
+    "Henry Hudson",
+    "Jacques Cartier",
+    "John Cabot"
+   ]
+  },
+  {
+   "id": "geomko-10-039",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "cloze",
+   "text": "Henry Hudson płynął rzeką Hudson dla {{Holandii}}, a do Zatoki Hudsona – dla Anglii.",
+   "hint": "Nowy Amsterdam",
+   "explanation": "To dwie różne wyprawy (1609 i 1610–1611).",
+   "distractors": [
+    "Anglii",
+    "Francji",
+    "Hiszpanii"
+   ]
+  },
+  {
+   "id": "geomko-10-040",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Jak nazywało się holenderskie miasto, z którego powstał Nowy Jork?",
+   "answer": "Nowy Amsterdam",
+   "accept": [
+    "New Amsterdam"
+   ],
+   "explanation": "Założono je w 1624 r. u ujścia rzeki Hudson.",
+   "distractors": [
+    "Nowa Holandia",
+    "Nowa Anglia",
+    "Jamestown"
+   ]
+  },
+  {
+   "id": "geomko-10-041",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Jak nazywa się pierwsza stała angielska osada w Ameryce (1607, Wirginia)?",
+   "answer": "Jamestown",
+   "explanation": "W 1620 r. Pielgrzymi z Mayflower założyli Plymouth.",
+   "distractors": [
+    "Plymouth",
+    "Boston",
+    "Nowy Amsterdam"
+   ]
+  },
+  {
+   "id": "geomko-10-042",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto spłynął Missisipi do ujścia i ogłosił Luizjanę własnością Francji (1682)?",
+   "answer": "René-Robert de La Salle",
+   "accept": [
+    "La Salle",
+    "de La Salle"
+   ],
+   "explanation": "Nazwa Luizjana pochodzi od Ludwika XIV.",
+   "distractors": [
+    "Jacques Marquette",
+    "Hernando de Soto",
+    "Samuel de Champlain"
+   ]
+  },
+  {
+   "id": "geomko-10-043",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto odkrył, że Azja i Ameryka nie są połączone lądem (1728)?",
+   "answer": "Vitus Bering",
+   "accept": [
+    "Bering"
+   ],
+   "explanation": "Płynął dla Rosji; jego imię nosi Cieśnina Beringa.",
+   "distractors": [
+    "James Cook",
+    "Alexander Mackenzie",
+    "Henry Hudson"
+   ]
+  },
+  {
+   "id": "geomko-10-044",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo sprzedało Alaskę USA i kiedy?",
+   "answer": "Rosja, 1867",
+   "accept": [
+    "Rosja",
+    "Rosja w 1867"
+   ],
+   "explanation": "Cena wyniosła 7,2 mln dolarów.",
+   "distractors": [
+    "Kanada, 1867",
+    "Wielka Brytania, 1803",
+    "Francja, 1803"
+   ]
+  },
+  {
+   "id": "geomko-10-045",
+   "category": "geomko_explorers",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "trap": true,
+   "type": "qa",
+   "question": "Kto pierwszy przeszedł Amerykę Północną lądem do Pacyfiku na północ od Meksyku (1793)?",
+   "answer": "Alexander Mackenzie",
+   "accept": [
+    "Mackenzie"
+   ],
+   "explanation": "Wcześniej (1789) spłynął rzeką Mackenzie do Oceanu Arktycznego; wyprawa Lewisa i Clarka była później.",
+   "distractors": [
+    "Meriwether Lewis",
+    "George Vancouver",
+    "Samuel de Champlain"
+   ]
+  },
+  {
+   "id": "geomko-10-046",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Jak nazywa się wyprawa USA (1804–1806) z St. Louis przez Góry Skaliste do Pacyfiku?",
+   "answer": "wyprawa Lewisa i Clarka",
+   "accept": [
+    "Lewis i Clark",
+    "Lewisa i Clarka"
+   ],
+   "explanation": "Wysłał ją prezydent Jefferson po zakupie Luizjany (1803); przewodniczką była Sacagawea.",
+   "distractors": [
+    "wyprawa Mackenziego",
+    "wyprawa La Salle'a",
+    "wyprawa Coronado"
+   ]
+  },
+  {
+   "id": "geomko-10-047",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Od którego państwa USA kupiły Luizjanę w 1803 r.?",
+   "answer": "od Francji",
+   "accept": [
+    "Francja",
+    "Francji"
+   ],
+   "explanation": "Potem wysłały na zachód wyprawę Lewisa i Clarka.",
+   "distractors": [
+    "od Hiszpanii",
+    "od Wielkiej Brytanii",
+    "od Rosji"
+   ]
+  },
+  {
+   "id": "geomko-10-048",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto pierwszy pokonał Przejście Północno-Zachodnie (1903–1906)?",
+   "answer": "Roald Amundsen",
+   "accept": [
+    "Amundsen"
+   ],
+   "explanation": "Wyprawa Johna Franklina zaginęła w 1845 r.",
+   "distractors": [
+    "John Franklin",
+    "Henry Hudson",
+    "Robert Peary"
+   ]
+  },
+  {
+   "id": "geomko-10-049",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 2,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto w 1909 r. jako pierwszy (spornie) dotarł do bieguna północnego?",
+   "answer": "Robert Peary",
+   "accept": [
+    "Peary"
+   ],
+   "explanation": "Wyprawa płynęła pod banderą USA.",
+   "distractors": [
+    "Roald Amundsen",
+    "John Franklin",
+    "James Cook"
+   ]
+  },
+  {
+   "id": "geomko-10-050",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 2,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Kto sporządził szczegółowe mapy północno-zachodniego wybrzeża Ameryki (1791–1795)?",
+   "answer": "George Vancouver",
+   "accept": [
+    "Vancouver"
+   ],
+   "explanation": "Jego imię noszą wyspa i miasto w Kanadzie.",
+   "distractors": [
+    "James Cook",
+    "Alexander Mackenzie",
+    "Vitus Bering"
+   ]
+  },
+  {
+   "id": "geomko-10-051",
+   "category": "geomko_explorers",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 10 · Odkrycia w Ameryce Północnej",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo kolonizowało dolinę Świętego Wawrzyńca, Wielkie Jeziora i Missisipi?",
+   "answer": "Francja",
+   "explanation": "Hiszpanie – południe, Anglicy – wybrzeże atlantyckie, Rosjanie – Alaska.",
+   "distractors": [
+    "Hiszpania",
+    "Anglia",
+    "Holandia"
+   ]
+  },
+  {
+   "id": "geomko-11-001",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jest drugie pod względem powierzchni na świecie (po Rosji)?",
+   "answer": "Kanada",
+   "explanation": "Kanada ma 9,98 mln km², ale tylko ok. 41 mln mieszkańców.",
+   "distractors": [
+    "USA",
+    "Chiny",
+    "Brazylia"
+   ]
+  },
+  {
+   "id": "geomko-11-002",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica USA?",
+   "answer": "Waszyngton",
+   "accept": [
+    "Waszyngton D.C.",
+    "Washington"
+   ],
+   "explanation": "Dystrykt Kolumbii nie jest stanem; to nie Nowy Jork.",
+   "distractors": [
+    "Nowy Jork",
+    "Filadelfia",
+    "Boston"
+   ]
+  },
+  {
+   "id": "geomko-11-003",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Kanady?",
+   "answer": "Ottawa",
+   "explanation": "Ottawa leży w prowincji Ontario; to nie Toronto ani Montreal.",
+   "distractors": [
+    "Toronto",
+    "Montreal",
+    "Vancouver"
+   ]
+  },
+  {
+   "id": "geomko-11-004",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile stanów mają USA?",
+   "answer": "50",
+   "accept": [
+    "50 stanów",
+    "pięćdziesiąt"
+   ],
+   "explanation": "Do tego Dystrykt Kolumbii; ostatnie stany to Alaska i Hawaje (1959).",
+   "distractors": [
+    "48",
+    "52",
+    "13"
+   ]
+  },
+  {
+   "id": "geomko-11-005",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile prowincji i terytoriów ma Kanada?",
+   "answer": "10 prowincji i 3 terytoria",
+   "accept": [
+    "10 i 3",
+    "10 prowincji, 3 terytoria"
+   ],
+   "explanation": "Najmłodsze terytorium to Nunavut (1999).",
+   "distractors": [
+    "13 prowincji",
+    "12 prowincji i 2 terytoria",
+    "8 prowincji i 5 terytoriów"
+   ]
+  },
+  {
+   "id": "geomko-11-006",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Które stany USA powstały jako ostatnie (1959)?",
+   "answer": "Alaska i Hawaje",
+   "accept": [
+    "Hawaje i Alaska"
+   ],
+   "explanation": "Portoryko i Guam to terytoria, nie stany.",
+   "distractors": [
+    "Teksas i Kalifornia",
+    "Portoryko i Guam",
+    "Alaska i Portoryko"
+   ]
+  },
+  {
+   "id": "geomko-11-007",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "język",
+   "type": "qa",
+   "question": "Jakie języki urzędowe ma Kanada?",
+   "answer": "angielski i francuski",
+   "accept": [
+    "francuski i angielski"
+   ],
+   "explanation": "Francuski dominuje w prowincji Quebec.",
+   "distractors": [
+    "angielski i hiszpański",
+    "francuski i inuktitut",
+    "tylko angielski"
+   ]
+  },
+  {
+   "id": "geomko-11-008",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "osoba",
+   "type": "qa",
+   "question": "Kto jest głową państwa w Kanadzie?",
+   "answer": "król Karol III",
+   "accept": [
+    "Karol III",
+    "król brytyjski",
+    "monarcha brytyjski"
+   ],
+   "explanation": "Kanada to monarchia konstytucyjna i federacja z premierem.",
+   "distractors": [
+    "prezydent",
+    "premier Kanady",
+    "gubernator Quebecu"
+   ]
+  },
+  {
+   "id": "geomko-11-009",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Dane podstawowe",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Gęstość zaludnienia Kanady wynosi ok. {{4}} os. na km² – jedna z najniższych na świecie.",
+   "hint": "bardzo mało",
+   "explanation": "W USA ok. 36 os. na km².",
+   "distractors": [
+    "36",
+    "120",
+    "15"
+   ]
+  },
+  {
+   "id": "geomko-11-010",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Rzeźba Ameryki Północnej ma układ pasów {{południkowych}}, więc masy powietrza swobodnie przemieszczają się z północy na południe.",
+   "hint": "inaczej niż w Europie",
+   "explanation": "Stąd tornada i gwałtowne zmiany pogody.",
+   "distractors": [
+    "równoleżnikowych",
+    "koncentrycznych",
+    "ukośnych"
+   ]
+  },
+  {
+   "id": "geomko-11-011",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "qa",
+   "question": "Dlaczego na Wielkich Równinach często występują tornada?",
+   "answer": "zderzają się ciepłe masy powietrza znad Zatoki Meksykańskiej i zimne znad Kanady",
+   "accept": [
+    "zderzanie się mas powietrza"
+   ],
+   "explanation": "Południkowy układ gór nie stanowi bariery; to nie skutek huraganów."
+  },
+  {
+   "id": "geomko-11-012",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się pas na Wielkich Równinach, gdzie najczęściej występują tornada (Kansas, Oklahoma, Teksas)?",
+   "answer": "Tornado Alley",
+   "accept": [
+    "Aleja Tornad"
+   ],
+   "explanation": "W 1930 r. Równiny nawiedziły burze pyłowe (Dust Bowl).",
+   "distractors": [
+    "Corn Belt",
+    "Sun Belt",
+    "Rust Belt"
+   ]
+  },
+  {
+   "id": "geomko-11-013",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Jak nazywa się system młodych gór fałdowych na zachodzie Ameryki Północnej (9 tys. km)?",
+   "answer": "Kordyliery",
+   "explanation": "Należą do nich Góry Skaliste, Sierra Nevada, Góry Kaskadowe.",
+   "distractors": [
+    "Appalachy",
+    "Andy",
+    "Góry Skaliste"
+   ]
+  },
+  {
+   "id": "geomko-11-014",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Które stare góry leżą na wschodzie USA (węgiel kamienny)?",
+   "answer": "Appalachy",
+   "explanation": "Najwyższy szczyt: Mount Mitchell (2037 m).",
+   "distractors": [
+    "Kordyliery",
+    "Góry Skaliste",
+    "Sierra Nevada"
+   ]
+  },
+  {
+   "id": "geomko-11-015",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jaki szczyt jest najwyższy w 48 kontynentalnych stanach USA (Sierra Nevada)?",
+   "answer": "Mount Whitney",
+   "accept": [
+    "Whitney"
+   ],
+   "explanation": "Ma 4421 m; Denali (Alaska) jest najwyższy w całej Ameryce Pn.",
+   "distractors": [
+    "Denali",
+    "Mount Elbert",
+    "Mount Rainier"
+   ]
+  },
+  {
+   "id": "geomko-11-016",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "cloze",
+   "text": "Denali, najwyższy szczyt Ameryki Północnej, leży na {{Alasce}}, a nie w Górach Skalistych.",
+   "hint": "największy stan",
+   "explanation": "Dawniej nazywał się Mount McKinley (6190 m).",
+   "distractors": [
+    "w Kolorado",
+    "w Kalifornii",
+    "w Jukonie"
+   ]
+  },
+  {
+   "id": "geomko-11-017",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Kanady (Jukon)?",
+   "answer": "Mount Logan",
+   "accept": [
+    "Logan"
+   ],
+   "explanation": "Ma 5959 m.",
+   "distractors": [
+    "Denali",
+    "Mount Whitney",
+    "Mount Elbert"
+   ]
+  },
+  {
+   "id": "geomko-11-018",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Który wulkan w Górach Kaskadowych wybuchł w 1980 r.?",
+   "answer": "Mount St. Helens",
+   "accept": [
+    "St. Helens",
+    "Mount Saint Helens"
+   ],
+   "explanation": "Inny wulkan Gór Kaskadowych: Mount Rainier.",
+   "distractors": [
+    "Mount Rainier",
+    "Kilauea",
+    "Mauna Loa"
+   ]
+  },
+  {
+   "id": "geomko-11-019",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Jak nazywa się uskok w Kalifornii, na którym dochodzi do trzęsień ziemi?",
+   "answer": "uskok San Andreas",
+   "accept": [
+    "San Andreas"
+   ],
+   "explanation": "W Kalifornii leży też Dolina Śmierci (rekord 56,7°C).",
+   "distractors": [
+    "Rów Mariański",
+    "Wielki Kanion",
+    "Dolina Centralna"
+   ]
+  },
+  {
+   "id": "geomko-11-020",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Gdzie leży najniższy punkt USA (−86 m)?",
+   "answer": "w Dolinie Śmierci",
+   "accept": [
+    "Dolina Śmierci",
+    "Death Valley"
+   ],
+   "explanation": "Leży w Kalifornii; tam zanotowano rekord 56,7°C.",
+   "distractors": [
+    "w Wielkiej Kotlinie",
+    "nad Wielkim Jeziorem Słonym",
+    "w delcie Missisipi"
+   ]
+  },
+  {
+   "id": "geomko-11-021",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Na jakiej wyżynie rzeka wyżłobiła Wielki Kanion (446 km, do 1,8 km głębokości)?",
+   "answer": "Wyżyna Kolorado",
+   "accept": [
+    "Kolorado"
+   ],
+   "explanation": "Wielki Kanion leży w Arizonie.",
+   "distractors": [
+    "Wielka Kotlina",
+    "Wielkie Równiny",
+    "Tarcza Kanadyjska"
+   ]
+  },
+  {
+   "id": "geomko-11-022",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się pas upraw kukurydzy i soi w USA (Iowa, Illinois)?",
+   "answer": "Corn Belt",
+   "accept": [
+    "Pas Kukurydziany"
+   ],
+   "explanation": "Na Wielkich Równinach uprawia się też pszenicę.",
+   "distractors": [
+    "Sun Belt",
+    "Rust Belt",
+    "Cotton Belt"
+   ]
+  },
+  {
+   "id": "geomko-11-023",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile kilometrów ma system rzeczny Missisipi z Missouri?",
+   "answer": "6275 km",
+   "accept": [
+    "6275",
+    "ok. 6275 km"
+   ],
+   "explanation": "To 4. system rzeczny świata; delta w Nowym Orleanie.",
+   "distractors": [
+    "3530 km",
+    "4241 km",
+    "2850 km"
+   ]
+  },
+  {
+   "id": "geomko-11-024",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "trap": true,
+   "type": "qa",
+   "question": "Do jakiego akwenu uchodzi Missisipi?",
+   "answer": "Zatoka Meksykańska",
+   "accept": [
+    "do Zatoki Meksykańskiej",
+    "Zatoki Meksykańskiej"
+   ],
+   "explanation": "Mackenzie płynie do Oceanu Arktycznego, Kolumbia i Fraser do Pacyfiku.",
+   "distractors": [
+    "Ocean Atlantycki",
+    "Ocean Spokojny",
+    "Zatoka Hudsona"
+   ]
+  },
+  {
+   "id": "geomko-11-025",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka tworzy granicę USA z Meksykiem?",
+   "answer": "Rio Grande",
+   "explanation": "Odkrycia „na północ od Rio Grande” to poszerzenie programu.",
+   "distractors": [
+    "Kolorado",
+    "Missisipi",
+    "Missouri"
+   ]
+  },
+  {
+   "id": "geomko-11-026",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "ocean",
+   "trap": true,
+   "type": "qa",
+   "question": "Do jakiego oceanu uchodzi rzeka Mackenzie?",
+   "answer": "do Oceanu Arktycznego",
+   "accept": [
+    "Arktycznego",
+    "Ocean Arktyczny"
+   ],
+   "explanation": "Z Jeziorem Niewolniczym ma 4241 km.",
+   "distractors": [
+    "do Oceanu Spokojnego",
+    "do Oceanu Atlantyckiego",
+    "do Zatoki Meksykańskiej"
+   ]
+  },
+  {
+   "id": "geomko-11-027",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się obszar prekambryjskich skał z tysiącami jezior wokół Zatoki Hudsona?",
+   "answer": "Tarcza Kanadyjska",
+   "accept": [
+    "Kanadyjska"
+   ],
+   "explanation": "Bogata w rudy niklu (Sudbury), miedzi, uranu, złota.",
+   "distractors": [
+    "Wielkie Równiny",
+    "Archipelag Arktyczny",
+    "Wielka Kotlina"
+   ]
+  },
+  {
+   "id": "geomko-11-028",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "jezioro",
+   "trap": true,
+   "type": "qa",
+   "question": "Które z Wielkich Jezior jest największe (82 tys. km²)?",
+   "answer": "Jezioro Górne",
+   "accept": [
+    "Górne"
+   ],
+   "explanation": "To największe słodkowodne jezioro świata pod względem powierzchni.",
+   "distractors": [
+    "Michigan",
+    "Huron",
+    "Erie"
+   ]
+  },
+  {
+   "id": "geomko-11-029",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "jezioro",
+   "trap": true,
+   "type": "qa",
+   "question": "Które z Wielkich Jezior leży w całości w USA?",
+   "answer": "Michigan",
+   "accept": [
+    "Jezioro Michigan"
+   ],
+   "explanation": "Pozostałe Wielkie Jeziora są graniczne; nad Michigan leży Chicago.",
+   "distractors": [
+    "Jezioro Górne",
+    "Erie",
+    "Ontario"
+   ]
+  },
+  {
+   "id": "geomko-11-030",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "cloze",
+   "text": "Wodospad Niagara leży między jeziorami Erie i {{Ontario}}.",
+   "hint": "najniżej położone z Wielkich Jezior",
+   "explanation": "Wielkie Jeziora odprowadzają wodę Rzeką Świętego Wawrzyńca do Atlantyku.",
+   "distractors": [
+    "Huron",
+    "Michigan",
+    "Górne"
+   ]
+  },
+  {
+   "id": "geomko-11-031",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 2,
+   "kind": "wyspa",
+   "type": "qa",
+   "question": "Która wyspa jest największa w Archipelagu Arktycznym Kanady (5. na świecie)?",
+   "answer": "Ziemia Baffina",
+   "accept": [
+    "Wyspa Baffina",
+    "Baffina"
+   ],
+   "explanation": "Ma 507 tys. km².",
+   "distractors": [
+    "Ellesmere",
+    "Wyspa Wiktorii",
+    "Grenlandia"
+   ]
+  },
+  {
+   "id": "geomko-11-032",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Który krajobraz pokrywa środkową Kanadę (ok. 30% lasów borealnych świata)?",
+   "answer": "tajga",
+   "explanation": "Na północy Kanady jest tundra, na południu lasy mieszane.",
+   "distractors": [
+    "tundra",
+    "preria",
+    "las mieszany"
+   ]
+  },
+  {
+   "id": "geomko-11-033",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywa się roślinność śródziemnomorska w Kalifornii?",
+   "answer": "chaparral",
+   "explanation": "Kalifornia środkowa i południowa ma klimat podzwrotnikowy śródziemnomorski.",
+   "distractors": [
+    "makia",
+    "preria",
+    "tajga"
+   ]
+  },
+  {
+   "id": "geomko-11-034",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywają się bagna na Florydzie, gdzie żyją aligatory?",
+   "answer": "Everglades",
+   "explanation": "Południowy wschód USA nawiedzają huragany (Katrina 2005 – Nowy Orlean).",
+   "distractors": [
+    "Corn Belt",
+    "Mojave",
+    "Okefenokee"
+   ]
+  },
+  {
+   "id": "geomko-11-035",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 2,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Który huragan zniszczył Nowy Orlean w 2005 r.?",
+   "answer": "Katrina",
+   "accept": [
+    "huragan Katrina"
+   ],
+   "explanation": "Huragany przychodzą z Atlantyku.",
+   "distractors": [
+    "Sandy",
+    "Andrew",
+    "Harvey"
+   ]
+  },
+  {
+   "id": "geomko-11-036",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "pustynia",
+   "type": "qa",
+   "question": "Jakie pustynie leżą na południowym zachodzie USA?",
+   "answer": "Mojave i Sonora",
+   "accept": [
+    "Mojave",
+    "Sonora"
+   ],
+   "explanation": "Rośnie tam kaktus saguaro.",
+   "distractors": [
+    "Atakama i Namib",
+    "Gobi i Kara-kum",
+    "Kalahari i Namib"
+   ]
+  },
+  {
+   "id": "geomko-11-037",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 1,
+   "kind": "prąd morski",
+   "type": "qa",
+   "question": "Który ciepły prąd płynie wzdłuż wybrzeży Florydy i Karoliny?",
+   "answer": "Zatokowy",
+   "accept": [
+    "Golfsztrom",
+    "Prąd Zatokowy"
+   ],
+   "explanation": "Zimne prądy: Labradorski i Kalifornijski.",
+   "distractors": [
+    "Labradorski",
+    "Kalifornijski",
+    "Alaskański"
+   ]
+  },
+  {
+   "id": "geomko-11-038",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Środowisko przyrodnicze",
+   "priority": 2,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jakie wulkany tworzą Hawaje?",
+   "answer": "tarczowe",
+   "accept": [
+    "wulkany tarczowe"
+   ],
+   "explanation": "Mauna Kea, Mauna Loa, Kilauea.",
+   "distractors": [
+    "stożkowe",
+    "błotne",
+    "wygasłe"
+   ]
+  },
+  {
+   "id": "geomko-11-039",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "stan",
+   "type": "qa",
+   "question": "Który stan USA jest największy (1,7 mln km²)?",
+   "answer": "Alaska",
+   "explanation": "Kupiony od Rosji w 1867 r.; stolica Juneau.",
+   "distractors": [
+    "Teksas",
+    "Kalifornia",
+    "Montana"
+   ]
+  },
+  {
+   "id": "geomko-11-040",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "stan",
+   "type": "qa",
+   "question": "Który stan USA jest najludniejszy (ok. 39 mln)?",
+   "answer": "Kalifornia",
+   "explanation": "Stolica: Sacramento; Los Angeles, San Francisco, Dolina Krzemowa.",
+   "distractors": [
+    "Teksas",
+    "Floryda",
+    "Nowy Jork"
+   ]
+  },
+  {
+   "id": "geomko-11-041",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "stan",
+   "type": "qa",
+   "question": "Który stan USA jest najmniejszy?",
+   "answer": "Rhode Island",
+   "explanation": "Stolica: Providence.",
+   "distractors": [
+    "Delaware",
+    "Connecticut",
+    "Hawaje"
+   ]
+  },
+  {
+   "id": "geomko-11-042",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "stan",
+   "type": "qa",
+   "question": "Który stan USA jest drugi pod względem powierzchni i ludności (Houston, Dallas)?",
+   "answer": "Teksas",
+   "explanation": "Stolica: Austin; ropa, NASA w Houston.",
+   "distractors": [
+    "Kalifornia",
+    "Alaska",
+    "Floryda"
+   ]
+  },
+  {
+   "id": "geomko-11-043",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Kalifornii?",
+   "answer": "Sacramento",
+   "explanation": "Stolicą stanu często nie jest jego największe miasto.",
+   "distractors": [
+    "Los Angeles",
+    "San Francisco",
+    "San Diego"
+   ]
+  },
+  {
+   "id": "geomko-11-044",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Teksasu?",
+   "answer": "Austin",
+   "explanation": "Stolicą stanu często nie jest jego największe miasto.",
+   "distractors": [
+    "Houston",
+    "Dallas",
+    "San Antonio"
+   ]
+  },
+  {
+   "id": "geomko-11-045",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica stanu Nowy Jork?",
+   "answer": "Albany",
+   "explanation": "Stolicą stanu często nie jest jego największe miasto.",
+   "distractors": [
+    "Nowy Jork",
+    "Buffalo",
+    "Rochester"
+   ]
+  },
+  {
+   "id": "geomko-11-046",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Florydy?",
+   "answer": "Tallahassee",
+   "explanation": "Stolicą stanu często nie jest jego największe miasto.",
+   "distractors": [
+    "Miami",
+    "Orlando",
+    "Tampa"
+   ]
+  },
+  {
+   "id": "geomko-11-047",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Illinois?",
+   "answer": "Springfield",
+   "explanation": "Stolicą stanu często nie jest jego największe miasto.",
+   "distractors": [
+    "Chicago",
+    "Peoria",
+    "Rockford"
+   ]
+  },
+  {
+   "id": "geomko-11-048",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica stanu Waszyngton?",
+   "answer": "Olympia",
+   "explanation": "Stolicą stanu często nie jest jego największe miasto.",
+   "distractors": [
+    "Seattle",
+    "Waszyngton",
+    "Spokane"
+   ]
+  },
+  {
+   "id": "geomko-11-049",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Alaski?",
+   "answer": "Juneau",
+   "explanation": "Stolicą stanu często nie jest jego największe miasto.",
+   "distractors": [
+    "Anchorage",
+    "Fairbanks",
+    "Nome"
+   ]
+  },
+  {
+   "id": "geomko-11-050",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "miasto",
+   "trap": true,
+   "type": "cloze",
+   "text": "Stan Waszyngton ze stolicą Olympia i miastem {{Seattle}} to coś innego niż Waszyngton D.C.",
+   "hint": "Boeing, Microsoft, Amazon",
+   "explanation": "Waszyngton D.C. (Dystrykt Kolumbii) to stolica USA, która nie jest stanem.",
+   "distractors": [
+    "Portland",
+    "Spokane",
+    "Vancouver"
+   ]
+  },
+  {
+   "id": "geomko-11-051",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "prowincja",
+   "type": "qa",
+   "question": "Która prowincja Kanady jest najludniejsza (ok. 16 mln)?",
+   "answer": "Ontario",
+   "explanation": "Stolica: Toronto; leży w niej też Ottawa.",
+   "distractors": [
+    "Quebec",
+    "Kolumbia Brytyjska",
+    "Alberta"
+   ]
+  },
+  {
+   "id": "geomko-11-052",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "prowincja",
+   "trap": true,
+   "type": "qa",
+   "question": "Która prowincja Kanady jest największa i francuskojęzyczna?",
+   "answer": "Quebec",
+   "accept": [
+    "Québec"
+   ],
+   "explanation": "Leży tam Montreal; ok. 60% prądu Kanady pochodzi z hydroelektrowni Quebecu.",
+   "distractors": [
+    "Ontario",
+    "Nunavut",
+    "Kolumbia Brytyjska"
+   ]
+  },
+  {
+   "id": "geomko-11-053",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "prowincja",
+   "type": "qa",
+   "question": "W której prowincji Kanady leży Vancouver?",
+   "answer": "Kolumbia Brytyjska",
+   "accept": [
+    "Kolumbii Brytyjskiej"
+   ],
+   "explanation": "Stolicą prowincji jest Victoria.",
+   "distractors": [
+    "Alberta",
+    "Ontario",
+    "Jukon"
+   ]
+  },
+  {
+   "id": "geomko-11-054",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "prowincja",
+   "type": "qa",
+   "question": "Która prowincja Kanady słynie z ropy z piasków roponośnych Athabasca?",
+   "answer": "Alberta",
+   "explanation": "Stolica: Edmonton; miasta Calgary i Banff.",
+   "distractors": [
+    "Saskatchewan",
+    "Ontario",
+    "Manitoba"
+   ]
+  },
+  {
+   "id": "geomko-11-055",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 1,
+   "kind": "prowincja",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się kanadyjskie terytorium utworzone w 1999 r. jako samorząd Inuitów?",
+   "answer": "Nunavut",
+   "explanation": "To terytorium, nie prowincja; stolica Iqaluit.",
+   "distractors": [
+    "Jukon",
+    "Terytoria Północno-Zachodnie",
+    "Labrador"
+   ]
+  },
+  {
+   "id": "geomko-11-056",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Podział administracyjny",
+   "priority": 2,
+   "kind": "prowincja",
+   "type": "qa",
+   "question": "Które prowincje Kanady nazywa się „spichlerzem pszenicy” (prerie)?",
+   "answer": "Saskatchewan i Manitoba",
+   "accept": [
+    "Saskatchewan",
+    "Manitoba",
+    "Alberta, Saskatchewan i Manitoba"
+   ],
+   "explanation": "Kanada jest pierwszym producentem potasu na świecie.",
+   "distractors": [
+    "Ontario i Quebec",
+    "Jukon i Nunavut",
+    "Nowa Szkocja i Nowy Brunszwik"
+   ]
+  },
+  {
+   "id": "geomko-11-057",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "megalopolis",
+   "type": "qa",
+   "question": "Jak nazywa się megalopolis Boston – Nowy Jork – Filadelfia – Baltimore – Waszyngton?",
+   "answer": "BosWash",
+   "explanation": "Ma ok. 50 mln mieszkańców na 800 km.",
+   "distractors": [
+    "ChiPitts",
+    "SanSan",
+    "Sun Belt"
+   ]
+  },
+  {
+   "id": "geomko-11-058",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "megalopolis",
+   "type": "qa",
+   "question": "Jak nazywa się megalopolis San Francisco – Los Angeles – San Diego?",
+   "answer": "SanSan",
+   "explanation": "ChiPitts to Chicago – Detroit – Cleveland – Pittsburgh.",
+   "distractors": [
+    "BosWash",
+    "ChiPitts",
+    "Silicon Valley"
+   ]
+  },
+  {
+   "id": "geomko-11-059",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "megalopolis",
+   "type": "qa",
+   "question": "Jak nazywa się megalopolis wokół Wielkich Jezior (Chicago – Detroit – Cleveland – Pittsburgh)?",
+   "answer": "ChiPitts",
+   "explanation": "Pokrywa się z dawnym Pasem Rdzy.",
+   "distractors": [
+    "BosWash",
+    "SanSan",
+    "Corn Belt"
+   ]
+  },
+  {
+   "id": "geomko-11-060",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się pas dawnych okręgów przemysłowych USA (Detroit, Cleveland, Pittsburgh), który traci ludność?",
+   "answer": "Rust Belt",
+   "accept": [
+    "Pas Rdzy"
+   ],
+   "explanation": "Detroit straciło 2/3 mieszkańców od 1950 r.",
+   "distractors": [
+    "Sun Belt",
+    "Corn Belt",
+    "BosWash"
+   ]
+  },
+  {
+   "id": "geomko-11-061",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się pas południowych stanów USA, który przyciąga ludność i nowe technologie?",
+   "answer": "Sun Belt",
+   "accept": [
+    "Pas Słońca"
+   ],
+   "explanation": "Teksas, Floryda, Arizona, Kalifornia, Georgia; najszybciej rosną Phoenix, Houston, Dallas, Austin, Atlanta, Miami.",
+   "distractors": [
+    "Rust Belt",
+    "Corn Belt",
+    "Tornado Alley"
+   ]
+  },
+  {
+   "id": "geomko-11-062",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "kierunek",
+   "trap": true,
+   "type": "cloze",
+   "text": "Migracje wewnętrzne w USA prowadzą z północnego wschodu na {{południe i zachód}}.",
+   "hint": "Sun Belt",
+   "explanation": "Przyczyny: klimat, tańsza praca, nowe technologie.",
+   "distractors": [
+    "północ",
+    "północny wschód",
+    "Wielkie Równiny"
+   ]
+  },
+  {
+   "id": "geomko-11-063",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile procent Kanadyjczyków mieszka w pasie 200–300 km od granicy z USA?",
+   "answer": "ok. 90%",
+   "accept": [
+    "90%",
+    "90"
+   ],
+   "explanation": "Na północy jest surowy klimat; na południu żyzne gleby, Wielkie Jeziora, bliskość rynku USA.",
+   "distractors": [
+    "ok. 50%",
+    "ok. 30%",
+    "ok. 70%"
+   ]
+  },
+  {
+   "id": "geomko-11-064",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 2,
+   "kind": "megalopolis",
+   "type": "qa",
+   "question": "Jak nazywa się pas miast Kanady od Quebecu po Windsor, w którym mieszka ponad 50% ludności?",
+   "answer": "korytarz Quebec – Windsor",
+   "accept": [
+    "korytarz Quebec-Windsor",
+    "Quebec – Windsor"
+   ],
+   "explanation": "Leżą w nim Quebec, Montreal, Ottawa, Toronto, Hamilton, Windsor.",
+   "distractors": [
+    "BosWash",
+    "SanSan",
+    "Tarcza Kanadyjska"
+   ]
+  },
+  {
+   "id": "geomko-11-065",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które miasto Kanady jest największe?",
+   "answer": "Toronto",
+   "explanation": "Aglomeracja ok. 6,5 mln; kolejne: Montreal, Vancouver.",
+   "distractors": [
+    "Montreal",
+    "Vancouver",
+    "Ottawa"
+   ]
+  },
+  {
+   "id": "geomko-11-066",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się rozlewanie się zabudowy podmiejskiej w miastach USA?",
+   "answer": "urban sprawl",
+   "accept": [
+    "suburbanizacja",
+    "rozlewanie się miast"
+   ],
+   "explanation": "Rozległe suburbia domów jednorodzinnych, zależność od samochodu.",
+   "distractors": [
+    "gentryfikacja",
+    "reurbanizacja",
+    "segregacja"
+   ]
+  },
+  {
+   "id": "geomko-11-067",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Jaka grupa ludności rośnie w USA najszybciej (ok. 19%)?",
+   "answer": "Latynosi",
+   "accept": [
+    "Latynoamerykanie",
+    "Hispanics"
+   ],
+   "explanation": "Mieszkają głównie w Kalifornii, Teksasie i na Florydzie.",
+   "distractors": [
+    "Afroamerykanie",
+    "Azjaci",
+    "rdzenni Amerykanie"
+   ]
+  },
+  {
+   "id": "geomko-11-068",
+   "category": "geomko_usa_canada",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się zagłębie nowych technologii w Kalifornii (San Jose, Apple, Google)?",
+   "answer": "Dolina Krzemowa",
+   "accept": [
+    "Silicon Valley"
+   ],
+   "explanation": "Inny ośrodek technologii: Seattle (Microsoft, Amazon).",
+   "distractors": [
+    "Corn Belt",
+    "Hollywood",
+    "Rust Belt"
+   ]
+  },
+  {
+   "id": "geomko-11-069",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "miasto",
+   "trap": true,
+   "type": "qa",
+   "question": "W którym mieście ma siedzibę Boeing?",
+   "answer": "Seattle",
+   "explanation": "Airbus jest firmą europejską (Tuluza).",
+   "distractors": [
+    "Tuluza",
+    "Houston",
+    "Detroit"
+   ]
+  },
+  {
+   "id": "geomko-11-070",
+   "category": "geomko_usa_canada",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 1,
+   "kind": "surowiec",
+   "type": "qa",
+   "question": "Którego surowca Kanada jest pierwszym producentem na świecie?",
+   "answer": "potasu",
+   "accept": [
+    "potas"
+   ],
+   "explanation": "Inne: ropa (4. producent), uran, nikiel, złoto, drewno.",
+   "distractors": [
+    "niklu",
+    "ropy naftowej",
+    "węgla"
+   ]
+  },
+  {
+   "id": "geomko-11-071",
+   "category": "geomko_usa_canada",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 11 · Urbanizacja i osadnictwo",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile procent eksportu Kanady trafia do USA?",
+   "answer": "ok. 75%",
+   "accept": [
+    "75%",
+    "75"
+   ],
+   "explanation": "Obowiązuje umowa USMCA z USA i Meksykiem.",
+   "distractors": [
+    "ok. 25%",
+    "ok. 50%",
+    "ok. 95%"
+   ]
   }
  ]
 }
