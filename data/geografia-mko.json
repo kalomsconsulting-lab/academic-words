@@ -21,9 +21,12 @@
  },
  "kinds": [
   "data",
+  "dzielnica",
+  "firma",
   "forma rzeźby",
   "gleba",
   "godzina",
+  "grupa językowa",
   "góry",
   "jezioro",
   "kierunek",
@@ -45,6 +48,8 @@
   "pustynia",
   "półwysep",
   "region",
+  "religia",
+  "rolnictwo",
   "roślina lub zwierzę",
   "ruch Ziemi",
   "rzeka",
@@ -54,12 +59,15 @@
   "stolica",
   "strefa",
   "szczyt",
+  "traktat",
   "typ wybrzeża",
   "wartość",
   "współrzędne",
   "wyspa",
+  "zabytek",
   "zatoka",
-  "zjawisko"
+  "zjawisko",
+  "źródło energii"
  ],
  "items": [
   {
@@ -8258,6 +8266,2628 @@
     "Bułgaria, Rumunia i Turcja"
    ],
    "explanation": "Grecja leży nad Morzem Egejskim i Jońskim.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-001",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Albanii?",
+   "answer": "Tirana",
+   "explanation": "Albania jest kandydatem do UE; dominuje islam.",
+   "distractors": [
+    "Skopje",
+    "Podgorica",
+    "Prisztina"
+   ]
+  },
+  {
+   "id": "geomko-8-002",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Andory?",
+   "answer": "Andorra la Vella",
+   "accept": [
+    "Andora"
+   ],
+   "explanation": "Mikropaństwo w Pirenejach; poza UE, ale używa euro.",
+   "distractors": [
+    "Vaduz",
+    "San Marino",
+    "Monako"
+   ]
+  },
+  {
+   "id": "geomko-8-003",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Austrii?",
+   "answer": "Wiedeń",
+   "explanation": "Austria (UE od 1995) nie ma dostępu do morza i jest neutralna – poza NATO.",
+   "distractors": [
+    "Berno",
+    "Budapeszt",
+    "Praga"
+   ]
+  },
+  {
+   "id": "geomko-8-004",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Belgii?",
+   "answer": "Bruksela",
+   "explanation": "W Brukseli są siedziby Komisji Europejskiej i NATO.",
+   "distractors": [
+    "Amsterdam",
+    "Luksemburg",
+    "Haga"
+   ]
+  },
+  {
+   "id": "geomko-8-005",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Bośni i Hercegowiny?",
+   "answer": "Sarajewo",
+   "explanation": "Kraj kandydujący do UE; ok. 50% mieszkańców to muzułmanie.",
+   "distractors": [
+    "Podgorica",
+    "Zagrzeb",
+    "Belgrad"
+   ]
+  },
+  {
+   "id": "geomko-8-006",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Bułgarii?",
+   "answer": "Sofia",
+   "explanation": "Bułgaria jest w UE od 2007 r., a euro ma od 1.01.2026.",
+   "distractors": [
+    "Bukareszt",
+    "Skopje",
+    "Belgrad"
+   ]
+  },
+  {
+   "id": "geomko-8-007",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Chorwacji?",
+   "answer": "Zagrzeb",
+   "explanation": "Chorwacja weszła do UE w 2013 r.",
+   "distractors": [
+    "Lublana",
+    "Sarajewo",
+    "Belgrad"
+   ]
+  },
+  {
+   "id": "geomko-8-008",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Cypru?",
+   "answer": "Nikozja",
+   "explanation": "Cypr to podzielona wyspa, geograficznie w Azji.",
+   "distractors": [
+    "Valletta",
+    "Ateny",
+    "Ankara"
+   ]
+  },
+  {
+   "id": "geomko-8-009",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Czarnogóry?",
+   "answer": "Podgorica",
+   "explanation": "Czarnogóra jest niepodległa od 2006 r. i używa euro jednostronnie.",
+   "distractors": [
+    "Tirana",
+    "Sarajewo",
+    "Prisztina"
+   ]
+  },
+  {
+   "id": "geomko-8-010",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Danii?",
+   "answer": "Kopenhaga",
+   "explanation": "Kopenhaga leży na wyspie Zelandii.",
+   "distractors": [
+    "Oslo",
+    "Sztokholm",
+    "Helsinki"
+   ]
+  },
+  {
+   "id": "geomko-8-011",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Estonii?",
+   "answer": "Tallinn",
+   "explanation": "Estoński to język ugrofiński.",
+   "distractors": [
+    "Ryga",
+    "Helsinki",
+    "Wilno"
+   ]
+  },
+  {
+   "id": "geomko-8-012",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Finlandii?",
+   "answer": "Helsinki",
+   "explanation": "Finlandia należy do NATO od 2023 r.",
+   "distractors": [
+    "Tallinn",
+    "Sztokholm",
+    "Oslo"
+   ]
+  },
+  {
+   "id": "geomko-8-013",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Grecji?",
+   "answer": "Ateny",
+   "explanation": "Grecja jest w UE od 1981 r.",
+   "distractors": [
+    "Nikozja",
+    "Sofia",
+    "Tirana"
+   ]
+  },
+  {
+   "id": "geomko-8-014",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Hiszpanii?",
+   "answer": "Madryt",
+   "explanation": "Madryt leży na Mesecie; Hiszpania jest w UE od 1986 r.",
+   "distractors": [
+    "Barcelona",
+    "Lizbona",
+    "Sewilla"
+   ]
+  },
+  {
+   "id": "geomko-8-015",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Irlandii?",
+   "answer": "Dublin",
+   "explanation": "Irlandia jest w UE od 1973 r., ale poza strefą Schengen.",
+   "distractors": [
+    "Edynburg",
+    "Belfast",
+    "Londyn"
+   ]
+  },
+  {
+   "id": "geomko-8-016",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Islandii?",
+   "answer": "Reykjavik",
+   "accept": [
+    "Reykjavík"
+   ],
+   "explanation": "Islandia jest poza UE, ale w Schengen.",
+   "distractors": [
+    "Oslo",
+    "Nuuk",
+    "Helsinki"
+   ]
+  },
+  {
+   "id": "geomko-8-017",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Kosowa?",
+   "answer": "Prisztina",
+   "accept": [
+    "Pristina"
+   ],
+   "explanation": "Kosowo ogłosiło niepodległość w 2008 r.",
+   "distractors": [
+    "Skopje",
+    "Tirana",
+    "Podgorica"
+   ]
+  },
+  {
+   "id": "geomko-8-018",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Liechtensteinu?",
+   "answer": "Vaduz",
+   "explanation": "Liechtenstein jest poza UE, w Schengen, i używa franka szwajcarskiego.",
+   "distractors": [
+    "Andorra la Vella",
+    "Berno",
+    "Monako"
+   ]
+  },
+  {
+   "id": "geomko-8-019",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Łotwy?",
+   "answer": "Ryga",
+   "explanation": "Łotwa należy do UE od 2004 r. i ma euro od 2014 r.",
+   "distractors": [
+    "Tallinn",
+    "Wilno",
+    "Mińsk"
+   ]
+  },
+  {
+   "id": "geomko-8-020",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Macedonii Północnej?",
+   "answer": "Skopje",
+   "explanation": "Skopje leży nad Wardarem; kraj nie ma dostępu do morza.",
+   "distractors": [
+    "Tirana",
+    "Sofia",
+    "Prisztina"
+   ]
+  },
+  {
+   "id": "geomko-8-021",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Malty?",
+   "answer": "Valletta",
+   "accept": [
+    "La Valletta"
+   ],
+   "explanation": "Malta to najgęściej zaludnione państwo UE.",
+   "distractors": [
+    "Nikozja",
+    "Ateny",
+    "Palermo"
+   ]
+  },
+  {
+   "id": "geomko-8-022",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Mołdawii?",
+   "answer": "Kiszyniów",
+   "explanation": "Mołdawia jest kandydatem do UE i nie ma dostępu do morza.",
+   "distractors": [
+    "Bukareszt",
+    "Kijów",
+    "Mińsk"
+   ]
+  },
+  {
+   "id": "geomko-8-023",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Norwegii?",
+   "answer": "Oslo",
+   "explanation": "Norwegia jest poza UE, ale w Schengen i EFTA.",
+   "distractors": [
+    "Sztokholm",
+    "Bergen",
+    "Kopenhaga"
+   ]
+  },
+  {
+   "id": "geomko-8-024",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Portugalii?",
+   "answer": "Lizbona",
+   "explanation": "Lizbona leży u ujścia Tagu.",
+   "distractors": [
+    "Madryt",
+    "Porto",
+    "Sewilla"
+   ]
+  },
+  {
+   "id": "geomko-8-025",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Rumunii?",
+   "answer": "Bukareszt",
+   "explanation": "Bukareszt nie leży nad Dunajem.",
+   "distractors": [
+    "Sofia",
+    "Kiszyniów",
+    "Budapeszt"
+   ]
+  },
+  {
+   "id": "geomko-8-026",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Serbii?",
+   "answer": "Belgrad",
+   "explanation": "Belgrad leży u ujścia Sawy do Dunaju.",
+   "distractors": [
+    "Zagrzeb",
+    "Sarajewo",
+    "Skopje"
+   ]
+  },
+  {
+   "id": "geomko-8-027",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Słowenii?",
+   "answer": "Lublana",
+   "accept": [
+    "Ljubljana"
+   ],
+   "explanation": "Słowenia ma tylko 47 km wybrzeża i euro od 2007 r.",
+   "distractors": [
+    "Zagrzeb",
+    "Bratysława",
+    "Wiedeń"
+   ]
+  },
+  {
+   "id": "geomko-8-028",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Szwecji?",
+   "answer": "Sztokholm",
+   "explanation": "Szwecja jest w UE bez euro i w NATO od 2024 r.",
+   "distractors": [
+    "Oslo",
+    "Kopenhaga",
+    "Helsinki"
+   ]
+  },
+  {
+   "id": "geomko-8-029",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Węgier?",
+   "answer": "Budapeszt",
+   "explanation": "Węgry nie mają dostępu do morza; Budapeszt leży nad Dunajem.",
+   "distractors": [
+    "Bukareszt",
+    "Wiedeń",
+    "Bratysława"
+   ]
+  },
+  {
+   "id": "geomko-8-030",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jaka jest stolica Włoch?",
+   "answer": "Rzym",
+   "explanation": "Włochy są jednym z sześciu założycieli EWG.",
+   "distractors": [
+    "Mediolan",
+    "Watykan",
+    "Neapol"
+   ]
+  },
+  {
+   "id": "geomko-8-031",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Szwajcarii?",
+   "answer": "Berno",
+   "explanation": "Nie Zurych ani Genewa – to częsta pułapka.",
+   "distractors": [
+    "Zurych",
+    "Genewa",
+    "Bazylea"
+   ]
+  },
+  {
+   "id": "geomko-8-032",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Turcji?",
+   "answer": "Ankara",
+   "explanation": "Stambuł nad Bosforem jest największym miastem, ale nie stolicą.",
+   "distractors": [
+    "Stambuł",
+    "Izmir",
+    "Nikozja"
+   ]
+  },
+  {
+   "id": "geomko-8-033",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Jaka jest stolica Holandii?",
+   "answer": "Amsterdam",
+   "explanation": "Siedzibą rządu jest Haga.",
+   "distractors": [
+    "Haga",
+    "Rotterdam",
+    "Bruksela"
+   ]
+  },
+  {
+   "id": "geomko-8-034",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "miasto",
+   "trap": true,
+   "type": "cloze",
+   "text": "Stolicą Holandii jest Amsterdam, ale siedzibą rządu jest {{Haga}}.",
+   "hint": "miasto nad Morzem Północnym",
+   "explanation": "To częsta pułapka w zadaniach o stolicach.",
+   "distractors": [
+    "Rotterdam",
+    "Utrecht",
+    "Bruksela"
+   ]
+  },
+  {
+   "id": "geomko-8-035",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jest najmniejsze na świecie (0,44 km²)?",
+   "answer": "Watykan",
+   "explanation": "Watykan jest poza UE, ale używa euro.",
+   "distractors": [
+    "Monako",
+    "San Marino",
+    "Liechtenstein"
+   ]
+  },
+  {
+   "id": "geomko-8-036",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jest najstarszą republiką świata?",
+   "answer": "San Marino",
+   "explanation": "San Marino jest poza UE, ale używa euro.",
+   "distractors": [
+    "Watykan",
+    "Andora",
+    "Szwajcaria"
+   ]
+  },
+  {
+   "id": "geomko-8-037",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jest największe na świecie (17,1 mln km²)?",
+   "answer": "Rosja",
+   "explanation": "Stolicą Rosji jest Moskwa.",
+   "distractors": [
+    "Kanada",
+    "Chiny",
+    "USA"
+   ]
+  },
+  {
+   "id": "geomko-8-038",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo UE jest największe pod względem powierzchni (ok. 549 tys. km² w Europie)?",
+   "answer": "Francja",
+   "explanation": "Najludniejsze państwo UE to Niemcy.",
+   "distractors": [
+    "Hiszpania",
+    "Niemcy",
+    "Szwecja"
+   ]
+  },
+  {
+   "id": "geomko-8-039",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo UE ma najwięcej mieszkańców (ok. 84 mln)?",
+   "answer": "Niemcy",
+   "explanation": "Największe pod względem powierzchni jest Francja.",
+   "distractors": [
+    "Francja",
+    "Włochy",
+    "Hiszpania"
+   ]
+  },
+  {
+   "id": "geomko-8-040",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Jakie państwa tworzą Beneluks?",
+   "answer": "Belgia, Holandia, Luksemburg",
+   "accept": [
+    "Belgia, Holandia i Luksemburg"
+   ],
+   "explanation": "Wszystkie trzy są założycielami EWG.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-041",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Jakie państwa tworzą kraje bałtyckie?",
+   "answer": "Litwa, Łotwa, Estonia",
+   "accept": [
+    "Litwa, Łotwa i Estonia"
+   ],
+   "explanation": "Wszystkie są w UE i NATO od 2004 r.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-042",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Jakie państwa nazywa się skandynawskimi (w ścisłym znaczeniu)?",
+   "answer": "Dania, Norwegia, Szwecja",
+   "accept": [
+    "Dania, Norwegia i Szwecja"
+   ],
+   "explanation": "Państwa nordyckie to dodatkowo Finlandia i Islandia.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-043",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Wymień trzy państwa Europy bez dostępu do morza, o które najczęściej pytają arkusze (poza Serbią i Austrią).",
+   "answer": "Czechy, Słowacja, Węgry",
+   "accept": [
+    "Czechy, Słowacja i Węgry"
+   ],
+   "explanation": "Inne: Austria, Serbia, Szwajcaria, Białoruś, Mołdawia, Macedonia Północna, Kosowo i mikropaństwa.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-044",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Państwa i stolice",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które z mikropaństw Europy jest wyspą i członkiem UE?",
+   "answer": "Malta",
+   "explanation": "Mikropaństwa: Watykan, Monako, San Marino, Liechtenstein, Andora, Malta.",
+   "distractors": [
+    "Monako",
+    "Andora",
+    "San Marino"
+   ]
+  },
+  {
+   "id": "geomko-8-045",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile państw założyło EWG w 1957 r.?",
+   "answer": "6",
+   "accept": [
+    "sześć",
+    "6 państw"
+   ],
+   "explanation": "Francja, RFN, Włochy, Belgia, Holandia, Luksemburg.",
+   "distractors": [
+    "10",
+    "12",
+    "4"
+   ]
+  },
+  {
+   "id": "geomko-8-046",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Wymień sześć państw założycielskich EWG.",
+   "answer": "Francja, RFN, Włochy, Belgia, Holandia, Luksemburg",
+   "explanation": "Traktaty rzymskie podpisano w 1957 r."
+  },
+  {
+   "id": "geomko-8-047",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "W którym roku podpisano traktaty rzymskie (EWG i Euratom)?",
+   "answer": "1957",
+   "accept": [
+    "1957 r.",
+    "w 1957"
+   ],
+   "explanation": "W 1951 r. powstała EWWiS (węgiel i stal).",
+   "distractors": [
+    "1951",
+    "1992",
+    "1973"
+   ]
+  },
+  {
+   "id": "geomko-8-048",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "traktat",
+   "type": "qa",
+   "question": "Który traktat z 1992 r. powołał Unię Europejską?",
+   "answer": "traktat z Maastricht",
+   "accept": [
+    "z Maastricht",
+    "Maastricht",
+    "traktat z Maastricht"
+   ],
+   "explanation": "UE działa od 1.11.1993; traktat lizboński podpisano w 2007 r.",
+   "distractors": [
+    "traktat lizboński",
+    "traktaty rzymskie",
+    "traktat z Schengen"
+   ]
+  },
+  {
+   "id": "geomko-8-049",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "W którym roku do EWG weszły Wielka Brytania, Irlandia i Dania?",
+   "answer": "1973",
+   "accept": [
+    "1973 r.",
+    "w 1973"
+   ],
+   "explanation": "To pierwsze rozszerzenie wspólnoty.",
+   "distractors": [
+    "1981",
+    "1986",
+    "1995"
+   ]
+  },
+  {
+   "id": "geomko-8-050",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "W którym roku do UE weszły Austria, Szwecja i Finlandia?",
+   "answer": "1995",
+   "accept": [
+    "1995 r.",
+    "w 1995"
+   ],
+   "explanation": "Wcześniej: 1981 Grecja, 1986 Hiszpania i Portugalia.",
+   "distractors": [
+    "1986",
+    "2004",
+    "1973"
+   ]
+  },
+  {
+   "id": "geomko-8-051",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Kiedy Polska weszła do Unii Europejskiej?",
+   "answer": "1 maja 2004",
+   "accept": [
+    "1.05.2004",
+    "2004",
+    "1 V 2004"
+   ],
+   "explanation": "Razem z Polską weszło 10 państw.",
+   "distractors": [
+    "1 stycznia 2007",
+    "21 grudnia 2007",
+    "1 lipca 2013"
+   ]
+  },
+  {
+   "id": "geomko-8-052",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile państw weszło do UE 1 maja 2004 r.?",
+   "answer": "10",
+   "accept": [
+    "dziesięć",
+    "10 państw"
+   ],
+   "explanation": "Polska, Czechy, Słowacja, Węgry, Słowenia, Litwa, Łotwa, Estonia, Cypr, Malta.",
+   "distractors": [
+    "8",
+    "12",
+    "6"
+   ]
+  },
+  {
+   "id": "geomko-8-053",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które dwa państwa weszły do UE w 2007 r.?",
+   "answer": "Rumunia i Bułgaria",
+   "accept": [
+    "Bułgaria i Rumunia"
+   ],
+   "explanation": "Oba mają pełne członkostwo w Schengen od 2025 r.",
+   "distractors": [
+    "Chorwacja i Słowenia",
+    "Cypr i Malta",
+    "Litwa i Łotwa"
+   ]
+  },
+  {
+   "id": "geomko-8-054",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo weszło do UE jako ostatnie i kiedy?",
+   "answer": "Chorwacja, 2013",
+   "accept": [
+    "Chorwacja",
+    "Chorwacja w 2013",
+    "Chorwacja 1.07.2013"
+   ],
+   "explanation": "Chorwacja weszła 1.07.2013, a do strefy euro i Schengen w 2023 r.",
+   "distractors": [
+    "Bułgaria, 2007",
+    "Rumunia, 2007",
+    "Słowenia, 2004"
+   ]
+  },
+  {
+   "id": "geomko-8-055",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Kiedy Wielka Brytania opuściła UE (brexit)?",
+   "answer": "31 stycznia 2020",
+   "accept": [
+    "31.01.2020",
+    "2020",
+    "31 I 2020"
+   ],
+   "explanation": "Wielka Brytania używa funta i jest poza Schengen.",
+   "distractors": [
+    "23 czerwca 2016",
+    "1 stycznia 2021",
+    "29 marca 2019"
+   ]
+  },
+  {
+   "id": "geomko-8-056",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile państw liczy dziś Unia Europejska?",
+   "answer": "27",
+   "accept": [
+    "27 państw",
+    "dwadzieścia siedem"
+   ],
+   "explanation": "Ok. 450 mln mieszkańców, ok. 4,2 mln km².",
+   "distractors": [
+    "28",
+    "25",
+    "21"
+   ]
+  },
+  {
+   "id": "geomko-8-057",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile państw należy do strefy euro od 1.01.2026?",
+   "answer": "21",
+   "accept": [
+    "21 państw"
+   ],
+   "explanation": "Najnowszym członkiem jest Bułgaria.",
+   "distractors": [
+    "20",
+    "27",
+    "19"
+   ]
+  },
+  {
+   "id": "geomko-8-058",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo jako ostatnie przyjęło euro (1.01.2026)?",
+   "answer": "Bułgaria",
+   "explanation": "Wcześniej Chorwacja (2023).",
+   "distractors": [
+    "Chorwacja",
+    "Rumunia",
+    "Litwa"
+   ]
+  },
+  {
+   "id": "geomko-8-059",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Wymień sześć państw UE bez euro.",
+   "answer": "Polska, Czechy, Węgry, Rumunia, Szwecja, Dania",
+   "explanation": "Dania ma zapisaną w traktatach klauzulę, która pozwala jej nie wprowadzać euro."
+  },
+  {
+   "id": "geomko-8-060",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "cloze",
+   "text": "Dania i {{Szwecja}} należą do UE, ale nie mają euro; Norwegia w ogóle nie należy do UE.",
+   "hint": "Skandynawia",
+   "explanation": "W arkuszu 2025 pułapką było zdanie „Polska, Szwecja i Norwegia”.",
+   "distractors": [
+    "Norwegia",
+    "Finlandia",
+    "Islandia"
+   ]
+  },
+  {
+   "id": "geomko-8-061",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które dwa państwa spoza UE używają euro jednostronnie, bez umowy?",
+   "answer": "Czarnogóra i Kosowo",
+   "accept": [
+    "Kosowo i Czarnogóra"
+   ],
+   "explanation": "Andora, Monako, San Marino i Watykan używają euro na mocy umów.",
+   "distractors": [
+    "Andora i Monako",
+    "Serbia i Albania",
+    "Szwajcaria i Norwegia"
+   ]
+  },
+  {
+   "id": "geomko-8-062",
+   "category": "geomko_europe_people",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 2,
+   "kind": "data",
+   "type": "qa",
+   "question": "W którym roku Litwa przyjęła euro?",
+   "answer": "2015",
+   "accept": [
+    "2015 r.",
+    "w 2015"
+   ],
+   "explanation": "Łotwa – 2014, Estonia – 2011.",
+   "distractors": [
+    "2011",
+    "2014",
+    "2009"
+   ]
+  },
+  {
+   "id": "geomko-8-063",
+   "category": "geomko_europe_people",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 2,
+   "kind": "data",
+   "type": "qa",
+   "question": "W którym roku Słowacja przyjęła euro?",
+   "answer": "2009",
+   "accept": [
+    "2009 r.",
+    "w 2009"
+   ],
+   "explanation": "Słowenia – 2007, Cypr i Malta – 2008.",
+   "distractors": [
+    "2007",
+    "2015",
+    "2004"
+   ]
+  },
+  {
+   "id": "geomko-8-064",
+   "category": "geomko_europe_people",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 2,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jako pierwsze z rozszerzenia 2004 r. przyjęło euro (2007)?",
+   "answer": "Słowenia",
+   "explanation": "Potem Cypr i Malta (2008), Słowacja (2009).",
+   "distractors": [
+    "Słowacja",
+    "Estonia",
+    "Malta"
+   ]
+  },
+  {
+   "id": "geomko-8-065",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedną korzyść z wprowadzenia euro.",
+   "answer": "brak kosztów wymiany walut",
+   "accept": [
+    "brak ryzyka kursowego",
+    "łatwiejsze porównywanie cen",
+    "większy handel"
+   ],
+   "explanation": "Inne: brak ryzyka kursowego, łatwiejsze porównywanie cen, więcej handlu i inwestycji, wygoda podróży.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-066",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Gdzie podpisano w 1985 r. porozumienie znoszące kontrole na granicach wewnętrznych?",
+   "answer": "w Schengen",
+   "accept": [
+    "Schengen"
+   ],
+   "explanation": "Schengen to wieś w Luksemburgu.",
+   "distractors": [
+    "w Maastricht",
+    "w Lizbonie",
+    "w Rzymie"
+   ]
+  },
+  {
+   "id": "geomko-8-067",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "data",
+   "trap": true,
+   "type": "qa",
+   "question": "Od kiedy Polska należy do strefy Schengen?",
+   "answer": "21 grudnia 2007",
+   "accept": [
+    "21.12.2007",
+    "2007",
+    "od 2007"
+   ],
+   "explanation": "Nie od 2004 r. – to częsta pułapka.",
+   "distractors": [
+    "1 maja 2004",
+    "1 stycznia 2004",
+    "1 maja 2007"
+   ]
+  },
+  {
+   "id": "geomko-8-068",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo UE jest poza strefą Schengen (poza Cyprem, który jest w trakcie przyjmowania)?",
+   "answer": "Irlandia",
+   "explanation": "Norwegia, Islandia, Szwajcaria i Liechtenstein są w Schengen, choć nie w UE.",
+   "distractors": [
+    "Dania",
+    "Malta",
+    "Szwecja"
+   ]
+  },
+  {
+   "id": "geomko-8-069",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwa spoza UE należą do strefy Schengen?",
+   "answer": "Islandia, Norwegia, Szwajcaria, Liechtenstein",
+   "explanation": "Irlandia jest w UE, ale poza Schengen."
+  },
+  {
+   "id": "geomko-8-070",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "W którym mieście obraduje Parlament Europejski na sesjach plenarnych?",
+   "answer": "Strasburg",
+   "accept": [
+    "w Strasburgu"
+   ],
+   "explanation": "Część prac odbywa się w Brukseli.",
+   "distractors": [
+    "Bruksela",
+    "Luksemburg",
+    "Frankfurt nad Menem"
+   ]
+  },
+  {
+   "id": "geomko-8-071",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Gdzie ma siedzibę Europejski Bank Centralny?",
+   "answer": "Frankfurt nad Menem",
+   "accept": [
+    "Frankfurt",
+    "we Frankfurcie"
+   ],
+   "explanation": "EBC dba o stabilność cen w strefie euro.",
+   "distractors": [
+    "Bruksela",
+    "Luksemburg",
+    "Strasburg"
+   ]
+  },
+  {
+   "id": "geomko-8-072",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Gdzie ma siedzibę Trybunał Sprawiedliwości UE?",
+   "answer": "Luksemburg",
+   "accept": [
+    "w Luksemburgu"
+   ],
+   "explanation": "Komisja Europejska i Rada UE mają siedzibę w Brukseli.",
+   "distractors": [
+    "Haga",
+    "Strasburg",
+    "Bruksela"
+   ]
+  },
+  {
+   "id": "geomko-8-073",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo jest największym płatnikiem netto do budżetu UE?",
+   "answer": "Niemcy",
+   "explanation": "Polska od 2004 r. jest największym beneficjentem netto.",
+   "distractors": [
+    "Francja",
+    "Polska",
+    "Włochy"
+   ]
+  },
+  {
+   "id": "geomko-8-074",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo jest największym beneficjentem netto funduszy UE?",
+   "answer": "Polska",
+   "explanation": "Największym płatnikiem netto są Niemcy.",
+   "distractors": [
+    "Niemcy",
+    "Rumunia",
+    "Grecja"
+   ]
+  },
+  {
+   "id": "geomko-8-075",
+   "category": "geomko_europe_people",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "cloze",
+   "text": "Członkostwo w UE nie oznacza członkostwa w NATO – poza NATO są np. Austria, Irlandia, Malta i {{Cypr}}.",
+   "hint": "podzielona wyspa",
+   "explanation": "UE nie ma też wspólnej armii.",
+   "distractors": [
+    "Finlandia",
+    "Szwecja",
+    "Dania"
+   ]
+  },
+  {
+   "id": "geomko-8-076",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 2,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się polityka UE, w ramach której rolnicy dostają dopłaty bezpośrednie?",
+   "answer": "Wspólna Polityka Rolna",
+   "accept": [
+    "WPR"
+   ],
+   "explanation": "Fundusze strukturalne i spójności wyrównują różnice w rozwoju regionów.",
+   "distractors": [
+    "polityka spójności",
+    "Zielony Ład",
+    "Euratom"
+   ]
+  },
+  {
+   "id": "geomko-8-077",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Unia Europejska",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Wymień cztery swobody rynku wewnętrznego UE.",
+   "answer": "przepływ towarów, usług, kapitału i osób",
+   "explanation": "Pracownik płaci podatki i ma świadczenia w kraju, w którym pracuje."
+  },
+  {
+   "id": "geomko-8-078",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ilu mieszkańców ma Europa (z europejską częścią Rosji)?",
+   "answer": "ok. 745 mln",
+   "accept": [
+    "745 mln",
+    "745 milionów"
+   ],
+   "explanation": "To ok. 9% ludności świata na 7% lądów.",
+   "distractors": [
+    "ok. 450 mln",
+    "ok. 1,4 mld",
+    "ok. 330 mln"
+   ]
+  },
+  {
+   "id": "geomko-8-079",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo Europy ma najmniejszą gęstość zaludnienia (ok. 4 os./km²)?",
+   "answer": "Islandia",
+   "explanation": "Rzadko zaludnione są też Norwegia, Finlandia i Rosja.",
+   "distractors": [
+    "Norwegia",
+    "Finlandia",
+    "Szwecja"
+   ]
+  },
+  {
+   "id": "geomko-8-080",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które duże państwo Europy (poza mikropaństwami) jest najgęściej zaludnione (ok. 520 os./km²)?",
+   "answer": "Holandia",
+   "accept": [
+    "Niderlandy"
+   ],
+   "explanation": "Najgęściej zaludnione są mikropaństwa: Monako i Malta.",
+   "distractors": [
+    "Belgia",
+    "Niemcy",
+    "Wielka Brytania"
+   ]
+  },
+  {
+   "id": "geomko-8-081",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Dzietność w Europie wynosi ok. 1,4–1,5 dziecka na kobietę, czyli poniżej poziomu zastępowalności pokoleń, który wynosi {{2,1 / 2.1}}.",
+   "hint": "próg",
+   "explanation": "Dlatego w większości państw przyrost naturalny jest ujemny.",
+   "distractors": [
+    "1,5",
+    "3,0",
+    "1,0"
+   ]
+  },
+  {
+   "id": "geomko-8-082",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Przyczyną starzenia się społeczeństw Europy jest spadek dzietności i {{wydłużenie życia / wydłużanie się życia}}, a nie emigracja.",
+   "hint": "medycyna",
+   "explanation": "Emigracja młodych tylko pogłębia skutki starzenia.",
+   "distractors": [
+    "emigracja młodych",
+    "wzrost imigracji",
+    "spadek umieralności niemowląt"
+   ]
+  },
+  {
+   "id": "geomko-8-083",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile wynosi mediana wieku w Europie (najwyższa na świecie)?",
+   "answer": "ok. 44 lata",
+   "accept": [
+    "44 lata",
+    "44"
+   ],
+   "explanation": "Najstarsze społeczeństwa: Włochy, Niemcy, Portugalia, Grecja.",
+   "distractors": [
+    "ok. 30 lat",
+    "ok. 54 lata",
+    "ok. 38 lat"
+   ]
+  },
+  {
+   "id": "geomko-8-084",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jeden gospodarczy skutek starzenia się i wyludniania Europy.",
+   "answer": "niedobór pracowników",
+   "accept": [
+    "obciążenie systemu emerytalnego",
+    "mniejsze wpływy podatkowe",
+    "spadek popytu"
+   ],
+   "explanation": "Inne: wzrost kosztów pracy, obciążenie ochrony zdrowia, zamykanie szkół i sklepów na wsi, wyższy wiek emerytalny, potrzeba imigracji.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-085",
+   "category": "geomko_europe_people",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Wskaż region Europy, w którym prognozuje się ubytek ludności do 2040 r.: Bawaria, Kurlandia czy Jutlandia?",
+   "answer": "Kurlandia",
+   "explanation": "Ubytek: Kurlandia, Dalmacja, Korsyka, wschodnie Niemcy, Bułgaria, Rumunia; wzrost: Bawaria, Jutlandia, Katalonia, Irlandia, Szwecja.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-086",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Z jakiego kraju przybyła w 2022 r. największa w Europie od II wojny światowej fala uchodźców?",
+   "answer": "z Ukrainy",
+   "accept": [
+    "Ukraina",
+    "Ukrainy"
+   ],
+   "explanation": "W Polsce zostało ok. 1 mln uchodźców; w 2015 r. był kryzys migracyjny z Syrii.",
+   "distractors": [
+    "z Syrii",
+    "z Afganistanu",
+    "z Białorusi"
+   ]
+  },
+  {
+   "id": "geomko-8-087",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "grupa językowa",
+   "trap": true,
+   "type": "qa",
+   "question": "Do której grupy języków należy język rumuński?",
+   "answer": "romańskiej",
+   "accept": [
+    "romańskie",
+    "romański",
+    "języki romańskie"
+   ],
+   "explanation": "Romańskie są też francuski, włoski, hiszpański i portugalski.",
+   "distractors": [
+    "słowiańskiej",
+    "germańskiej",
+    "bałtyckiej"
+   ]
+  },
+  {
+   "id": "geomko-8-088",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "grupa językowa",
+   "type": "qa",
+   "question": "Do której rodziny należą języki fiński, estoński i węgierski?",
+   "answer": "uralskiej",
+   "accept": [
+    "uralskie",
+    "ugrofińskiej",
+    "ugrofińskie"
+   ],
+   "explanation": "To nie są języki indoeuropejskie.",
+   "distractors": [
+    "słowiańskiej",
+    "bałtyckiej",
+    "germańskiej"
+   ]
+  },
+  {
+   "id": "geomko-8-089",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "grupa językowa",
+   "trap": true,
+   "type": "qa",
+   "question": "Do której grupy języków należą litewski i łotewski?",
+   "answer": "bałtyckiej",
+   "accept": [
+    "bałtyckie",
+    "bałtycka"
+   ],
+   "explanation": "Estoński nie jest językiem bałtyckim, tylko uralskim.",
+   "distractors": [
+    "słowiańskiej",
+    "uralskiej",
+    "germańskiej"
+   ]
+  },
+  {
+   "id": "geomko-8-090",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "grupa językowa",
+   "type": "qa",
+   "question": "Który język w Europie jest językiem izolowanym (niespokrewnionym z innymi)?",
+   "answer": "baskijski",
+   "explanation": "Baskowie żyją w Hiszpanii i Francji.",
+   "distractors": [
+    "albański",
+    "węgierski",
+    "irlandzki"
+   ]
+  },
+  {
+   "id": "geomko-8-091",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 2,
+   "kind": "grupa językowa",
+   "type": "qa",
+   "question": "Do której grupy języków należą irlandzki i walijski?",
+   "answer": "celtyckiej",
+   "accept": [
+    "celtyckie"
+   ],
+   "explanation": "Języki celtyckie to część rodziny indoeuropejskiej.",
+   "distractors": [
+    "germańskiej",
+    "romańskiej",
+    "bałtyckiej"
+   ]
+  },
+  {
+   "id": "geomko-8-092",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "religia",
+   "type": "qa",
+   "question": "Jakie wyznanie dominuje w Grecji, Serbii, Bułgarii i Rumunii?",
+   "answer": "prawosławie",
+   "accept": [
+    "prawosławne"
+   ],
+   "explanation": "Protestantyzm dominuje w Skandynawii, katolicyzm m.in. w Polsce i Włoszech.",
+   "distractors": [
+    "katolicyzm",
+    "protestantyzm",
+    "islam"
+   ]
+  },
+  {
+   "id": "geomko-8-093",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "religia",
+   "type": "qa",
+   "question": "Jakie wyznanie dominuje w Skandynawii?",
+   "answer": "protestantyzm",
+   "accept": [
+    "luteranizm",
+    "protestanckie"
+   ],
+   "explanation": "Dominuje też w Wielkiej Brytanii, północnych Niemczech, Estonii i na Łotwie.",
+   "distractors": [
+    "katolicyzm",
+    "prawosławie",
+    "islam"
+   ]
+  },
+  {
+   "id": "geomko-8-094",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Ludność Europy",
+   "priority": 1,
+   "kind": "religia",
+   "type": "qa",
+   "question": "Jakie wyznanie dominuje na Litwie i w Chorwacji?",
+   "answer": "katolicyzm",
+   "accept": [
+    "katolickie"
+   ],
+   "explanation": "Na Łotwie i w Estonii dominuje protestantyzm.",
+   "distractors": [
+    "prawosławie",
+    "protestantyzm",
+    "islam"
+   ]
+  },
+  {
+   "id": "geomko-8-095",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo Europy ma największy udział energii jądrowej w produkcji prądu (ok. 65–70%)?",
+   "answer": "Francja",
+   "explanation": "Koncerny EDF i Framatome.",
+   "distractors": [
+    "Niemcy",
+    "Szwecja",
+    "Polska"
+   ]
+  },
+  {
+   "id": "geomko-8-096",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo produkuje ok. 90% prądu w hydroelektrowniach?",
+   "answer": "Norwegia",
+   "explanation": "Sprzyjają temu rzeki o dużych spadkach i obfite opady.",
+   "distractors": [
+    "Szwecja",
+    "Islandia",
+    "Austria"
+   ]
+  },
+  {
+   "id": "geomko-8-097",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwo ma najwyższy na świecie udział energii wiatrowej (ok. 55%)?",
+   "answer": "Dania",
+   "explanation": "Silne wiatry zachodnie i płytkie Morze Północne sprzyjają farmom morskim.",
+   "distractors": [
+    "Niemcy",
+    "Holandia",
+    "Wielka Brytania"
+   ]
+  },
+  {
+   "id": "geomko-8-098",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo wyłączyło swoje elektrownie jądrowe w 2023 r. (Energiewende)?",
+   "answer": "Niemcy",
+   "explanation": "Ponad 50% prądu w Niemczech pochodzi z OZE.",
+   "distractors": [
+    "Francja",
+    "Szwecja",
+    "Belgia"
+   ]
+  },
+  {
+   "id": "geomko-8-099",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "źródło energii",
+   "type": "qa",
+   "question": "Jakie paliwo dominuje w produkcji prądu w Polsce?",
+   "answer": "węgiel",
+   "accept": [
+    "węgiel kamienny i brunatny",
+    "węgiel kamienny",
+    "węgiel brunatny"
+   ],
+   "explanation": "Ok. 55–60% prądu, ale udział maleje; rosną wiatr i słońce.",
+   "distractors": [
+    "gaz ziemny",
+    "uran",
+    "ropa naftowa"
+   ]
+  },
+  {
+   "id": "geomko-8-100",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Islandia nie ma elektrowni jądrowych ani {{węglowych}}.",
+   "hint": "paliwo kopalne",
+   "explanation": "Prąd pochodzi z wody (ok. 70%) i geotermii (ok. 30%).",
+   "distractors": [
+    "wodnych",
+    "geotermalnych",
+    "wiatrowych"
+   ]
+  },
+  {
+   "id": "geomko-8-101",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedną wadę elektrowni jądrowej.",
+   "answer": "odpady promieniotwórcze",
+   "accept": [
+    "ryzyko awarii",
+    "koszt i czas budowy"
+   ],
+   "explanation": "Zalety: brak emisji CO₂, ogromna moc, stabilność; awaria w Czarnobylu w 1986 r.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-102",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedną wadę elektrowni wiatrowej.",
+   "answer": "niestabilność produkcji",
+   "accept": [
+    "hałas",
+    "zagrożenie dla ptaków",
+    "zmiana krajobrazu"
+   ],
+   "explanation": "Zalety: odnawialna, możliwa na morzu, bez emisji.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-103",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedną wadę elektrowni wodnej zbiornikowej.",
+   "answer": "zalewanie dolin i przesiedlenia",
+   "accept": [
+    "zmiana ekosystemu rzeki",
+    "zależność od opadów"
+   ],
+   "explanation": "Zalety: odnawialna, tania w eksploatacji, łatwa w krajach o dużych spadkach terenu.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-104",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedną wadę elektrowni cieplnej (węglowej).",
+   "answer": "emisja CO₂ i pyłów",
+   "accept": [
+    "emisja CO2",
+    "zanieczyszczenie powietrza",
+    "zależność od importu"
+   ],
+   "explanation": "Zaleta: stabilna produkcja dzięki istniejącej infrastrukturze.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-105",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 1,
+   "kind": "pora roku",
+   "type": "cloze",
+   "text": "Fotowoltaika ma niską efektywność {{zimą / w zimie}} i w Europie Północnej.",
+   "hint": "pora roku",
+   "explanation": "Zaletą jest możliwość produkcji prądu przez gospodarstwa domowe.",
+   "distractors": [
+    "latem",
+    "w południe",
+    "w Europie Południowej"
+   ]
+  },
+  {
+   "id": "geomko-8-106",
+   "category": "geomko_europe_people",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Energetyka",
+   "priority": 3,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "W którym włoskim miejscu działa elektrownia geotermalna?",
+   "answer": "Larderello",
+   "explanation": "Geotermia jest możliwa tylko w strefach aktywności wulkanicznej.",
+   "distractors": [
+    "Pompeje",
+    "Neapol",
+    "Katania"
+   ]
+  },
+  {
+   "id": "geomko-8-107",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Rolnictwo Danii i Węgier",
+   "priority": 1,
+   "kind": "rolnictwo",
+   "type": "qa",
+   "question": "Jaki chów zwierząt dominuje w rolnictwie Danii?",
+   "answer": "trzody chlewnej",
+   "accept": [
+    "świń",
+    "trzoda chlewna",
+    "świnie"
+   ],
+   "explanation": "Dania ma ok. 12 mln świń – ponad dwa razy więcej niż ludzi; eksportuje bekon, masło i sery.",
+   "distractors": [
+    "owiec",
+    "drobiu",
+    "koni"
+   ]
+  },
+  {
+   "id": "geomko-8-108",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Rolnictwo Danii i Węgier",
+   "priority": 1,
+   "kind": "rolnictwo",
+   "type": "cloze",
+   "text": "Rolnictwo Danii jest wysokotowarowe i intensywne, a jego ważną cechą jest {{spółdzielczość}}.",
+   "hint": "organizacja rolników",
+   "explanation": "Warunki: niziny polodowcowe, gleby średnie, łagodny klimat morski.",
+   "distractors": [
+    "latyfundia",
+    "koczownictwo",
+    "gospodarka żarowa"
+   ]
+  },
+  {
+   "id": "geomko-8-109",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Rolnictwo Danii i Węgier",
+   "priority": 1,
+   "kind": "gleba",
+   "type": "qa",
+   "question": "Jakie gleby zajmują ok. 30% powierzchni Węgier?",
+   "answer": "czarnoziemy",
+   "accept": [
+    "czarnoziem"
+   ],
+   "explanation": "Na Nizinie Węgierskiej (puszta) uprawia się zboża, słonecznik i paprykę.",
+   "distractors": [
+    "bielicowe",
+    "brunatne",
+    "mady"
+   ]
+  },
+  {
+   "id": "geomko-8-110",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Rolnictwo Danii i Węgier",
+   "priority": 1,
+   "kind": "rolnictwo",
+   "type": "qa",
+   "question": "Z jakiej przyprawy słynie węgierski Szeged?",
+   "answer": "papryka",
+   "accept": [
+    "papryki",
+    "papryka mielona"
+   ],
+   "explanation": "Węgry eksportują zboża, wino, paprykę i drób.",
+   "distractors": [
+    "szafran",
+    "chrzan",
+    "gorczyca"
+   ]
+  },
+  {
+   "id": "geomko-8-111",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Rolnictwo Danii i Węgier",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się słynny węgierski region winiarski (oprócz Egeru)?",
+   "answer": "Tokaj",
+   "explanation": "Węgry mają klimat umiarkowany ciepły kontynentalny z opadami letnimi.",
+   "distractors": [
+    "Bordeaux",
+    "Szampania",
+    "Mozela"
+   ]
+  },
+  {
+   "id": "geomko-8-112",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Rolnictwo Danii i Węgier",
+   "priority": 1,
+   "kind": "rolnictwo",
+   "type": "cloze",
+   "text": "Na Węgrzech po 1990 r. przeważają {{duże gospodarstwa}}, powstałe z dawnych spółdzielni państwowych.",
+   "hint": "wielkość gospodarstw",
+   "explanation": "W Danii dominują rodzinne gospodarstwa o rosnącej wielkości.",
+   "distractors": [
+    "małe gospodarstwa",
+    "gospodarstwa samozaopatrzeniowe",
+    "plantacje"
+   ]
+  },
+  {
+   "id": "geomko-8-113",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "W którym mieście znajdują się zakłady Airbusa?",
+   "answer": "Tuluza",
+   "accept": [
+    "w Tuluzie"
+   ],
+   "explanation": "Airbus to największy producent samolotów pasażerskich na świecie.",
+   "distractors": [
+    "Lyon",
+    "Marsylia",
+    "Bordeaux"
+   ]
+  },
+  {
+   "id": "geomko-8-114",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "cloze",
+   "text": "Airbus to koncern europejski, którego udziałowcami są rządy Francji, Niemiec i {{Hiszpanii}}.",
+   "hint": "Półwysep Iberyjski",
+   "explanation": "Boeing to firma amerykańska, Embraer – brazylijska.",
+   "distractors": [
+    "Włoch",
+    "Wielkiej Brytanii",
+    "Holandii"
+   ]
+  },
+  {
+   "id": "geomko-8-115",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 1,
+   "kind": "firma",
+   "type": "qa",
+   "question": "Jak nazywa się francuska kolej dużych prędkości?",
+   "answer": "TGV",
+   "explanation": "Pociągi produkuje Alstom.",
+   "distractors": [
+    "ICE",
+    "AVE",
+    "Eurostar"
+   ]
+  },
+  {
+   "id": "geomko-8-116",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Gdzie znajduje się kosmodrom, z którego startują europejskie rakiety Ariane?",
+   "answer": "Kourou",
+   "accept": [
+    "w Kourou",
+    "Gujana Francuska"
+   ],
+   "explanation": "Leży w Gujanie Francuskiej.",
+   "distractors": [
+    "Tuluza",
+    "Bajkonur",
+    "Przylądek Canaveral"
+   ]
+  },
+  {
+   "id": "geomko-8-117",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Jaki udział w PKB Francji mają usługi?",
+   "answer": "ok. 79%",
+   "accept": [
+    "79%",
+    "79"
+   ],
+   "explanation": "Francja to druga gospodarka UE.",
+   "distractors": [
+    "ok. 50%",
+    "ok. 30%",
+    "ok. 95%"
+   ]
+  },
+  {
+   "id": "geomko-8-118",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo przyjmuje najwięcej turystów na świecie (ok. 100 mln rocznie)?",
+   "answer": "Francja",
+   "explanation": "Drugie jest Hiszpania (ok. 94 mln).",
+   "distractors": [
+    "Hiszpania",
+    "Włochy",
+    "USA"
+   ]
+  },
+  {
+   "id": "geomko-8-119",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 1,
+   "kind": "dzielnica",
+   "type": "qa",
+   "question": "Jak nazywa się dzielnica biurowa Paryża położona poza ścisłym centrum?",
+   "answer": "La Défense",
+   "accept": [
+    "La Defense",
+    "Defense"
+   ],
+   "explanation": "Paryż to centrum finansowe, mody i luksusu.",
+   "distractors": [
+    "City",
+    "Canary Wharf",
+    "Montmartre"
+   ]
+  },
+  {
+   "id": "geomko-8-120",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Przemysł i usługi Francji",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Przemysł nowoczesny Francji opiera się na współpracy przedsiębiorstw z {{placówkami naukowo-badawczymi / ośrodkami naukowymi}}.",
+   "hint": "uczelnie",
+   "explanation": "Przykłady: Airbus, Ariane, TGV, energetyka jądrowa, farmacja.",
+   "distractors": [
+    "kopalniami węgla",
+    "gospodarstwami rolnymi",
+    "portami rybackimi"
+   ]
+  },
+  {
+   "id": "geomko-8-121",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jest drugie na świecie pod względem liczby turystów (ok. 94 mln)?",
+   "answer": "Hiszpania",
+   "explanation": "Pierwsza jest Francja (ok. 100 mln).",
+   "distractors": [
+    "Włochy",
+    "Grecja",
+    "Turcja"
+   ]
+  },
+  {
+   "id": "geomko-8-122",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "W którym mieście znajduje się Alhambra?",
+   "answer": "Granada",
+   "accept": [
+    "w Granadzie"
+   ],
+   "explanation": "To zabytek kultury islamskiej w Andaluzji.",
+   "distractors": [
+    "Sewilla",
+    "Kordoba",
+    "Barcelona"
+   ]
+  },
+  {
+   "id": "geomko-8-123",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które miasto jest stolicą Andaluzji (katedra z Giraldą, grób Kolumba)?",
+   "answer": "Sewilla",
+   "accept": [
+    "Sevilla"
+   ],
+   "explanation": "W Granadzie jest Alhambra.",
+   "distractors": [
+    "Granada",
+    "Kordoba",
+    "Walencja"
+   ]
+  },
+  {
+   "id": "geomko-8-124",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "W którym mieście znajdują się budowle Gaudíego?",
+   "answer": "Barcelona",
+   "accept": [
+    "w Barcelonie"
+   ],
+   "explanation": "Barcelona cierpi z powodu nadmiernej turystyki.",
+   "distractors": [
+    "Madryt",
+    "Walencja",
+    "Sewilla"
+   ]
+  },
+  {
+   "id": "geomko-8-125",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które miasto wprowadziło opłatę za wstęp dla turystów z powodu nadmiernej turystyki?",
+   "answer": "Wenecja",
+   "explanation": "Problem dotyczy też Barcelony i Dubrownika.",
+   "distractors": [
+    "Florencja",
+    "Dubrownik",
+    "Rzym"
+   ]
+  },
+  {
+   "id": "geomko-8-126",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 1,
+   "kind": "zabytek",
+   "type": "qa",
+   "question": "Który zabytek starożytny stoi w Atenach?",
+   "answer": "Akropol",
+   "explanation": "Inne starożytne zabytki: Delfy, Olimpia, Rzym, Pompeje, Agrygent.",
+   "distractors": [
+    "Koloseum",
+    "Alhambra",
+    "Knossos"
+   ]
+  },
+  {
+   "id": "geomko-8-127",
+   "category": "geomko_europe_people",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "W Chorwacji turystyka daje ok. {{20% / 20 %}} PKB.",
+   "hint": "około jednej piątej",
+   "explanation": "Chorwację odwiedza ok. 20 mln turystów rocznie – pięć razy więcej, niż ma mieszkańców.",
+   "distractors": [
+    "5%",
+    "50%",
+    "2%"
+   ]
+  },
+  {
+   "id": "geomko-8-128",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Turystyka Europy Południowej",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jeden negatywny skutek turystyki w Europie Południowej.",
+   "answer": "wzrost cen mieszkań",
+   "accept": [
+    "zanieczyszczenie",
+    "sezonowość",
+    "nadmierna turystyka",
+    "zużycie wody latem",
+    "pożary"
+   ],
+   "explanation": "Pozytywne: dochody, miejsca pracy, rozwój infrastruktury.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-8-129",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Londyn i Paryż",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad którą rzeką leży Londyn?",
+   "answer": "Tamiza",
+   "accept": [
+    "Tamizą"
+   ],
+   "explanation": "Tamiza uchodzi estuarium do Morza Północnego.",
+   "distractors": [
+    "Sekwana",
+    "Severn",
+    "Ren"
+   ]
+  },
+  {
+   "id": "geomko-8-130",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Londyn i Paryż",
+   "priority": 1,
+   "kind": "dzielnica",
+   "type": "qa",
+   "question": "Jak nazywa się obszar wyłączony z zabudowy wokół Londynu?",
+   "answer": "Zielony Pas",
+   "accept": [
+    "Green Belt"
+   ],
+   "explanation": "Ogranicza rozlewanie się miasta i daje tereny rekreacyjne.",
+   "distractors": [
+    "Docklands",
+    "City",
+    "Canary Wharf"
+   ]
+  },
+  {
+   "id": "geomko-8-131",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Londyn i Paryż",
+   "priority": 1,
+   "kind": "dzielnica",
+   "type": "qa",
+   "question": "Jak nazywa się dzielnica dawnych doków Londynu przebudowana na dzielnicę biurową?",
+   "answer": "Docklands",
+   "accept": [
+    "Canary Wharf"
+   ],
+   "explanation": "To przykład rewitalizacji terenów portowych.",
+   "distractors": [
+    "La Défense",
+    "City",
+    "Greenwich"
+   ]
+  },
+  {
+   "id": "geomko-8-132",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Londyn i Paryż",
+   "priority": 1,
+   "kind": "dzielnica",
+   "type": "qa",
+   "question": "W której dzielnicy Londynu przebiega południk 0°?",
+   "answer": "Greenwich",
+   "explanation": "Od niego liczy się długość geograficzną i czas UTC.",
+   "distractors": [
+    "City",
+    "Westminster",
+    "Docklands"
+   ]
+  },
+  {
+   "id": "geomko-8-133",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Londyn i Paryż",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które miasto ma najstarsze metro na świecie (1863)?",
+   "answer": "Londyn",
+   "explanation": "Londyn ma ok. 9 mln mieszkańców.",
+   "distractors": [
+    "Paryż",
+    "Budapeszt",
+    "Nowy Jork"
+   ]
+  },
+  {
+   "id": "geomko-8-134",
+   "category": "geomko_europe_people",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Londyn i Paryż",
+   "priority": 1,
+   "kind": "zabytek",
+   "type": "qa",
+   "question": "Które muzeum jest najczęściej odwiedzanym muzeum świata?",
+   "answer": "Luwr",
+   "explanation": "Leży w Paryżu.",
+   "distractors": [
+    "British Museum",
+    "Prado",
+    "Ermitaż"
+   ]
+  },
+  {
+   "id": "geomko-8-135",
+   "category": "geomko_europe_people",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 8 · Londyn i Paryż",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedną korzyść z Zielonego Pasa wokół metropolii.",
+   "answer": "ograniczenie rozlewania się zabudowy",
+   "accept": [
+    "tereny rekreacyjne",
+    "lepsza jakość powietrza",
+    "retencja wody"
+   ],
+   "explanation": "Inne: ochrona terenów rolniczych, poprawa mikroklimatu, ochrona przed powodzią, bioróżnorodność.",
    "quiz_suitable": false
   }
  ]
