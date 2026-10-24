@@ -22,29 +22,44 @@
  "kinds": [
   "data",
   "forma rzeźby",
+  "gleba",
   "godzina",
   "góry",
   "jezioro",
   "kierunek",
   "kontynent",
+  "krajobraz",
   "kąt",
+  "lodowiec",
+  "lud",
   "miasto",
+  "morze lub cieśnina",
+  "obiekt",
   "ocean",
   "odkrywca",
   "państwo",
   "pojęcie",
+  "pora roku",
   "przylądek",
+  "prąd morski",
+  "pustynia",
+  "półwysep",
+  "region",
+  "roślina lub zwierzę",
   "ruch Ziemi",
   "rzeka",
   "równoleżnik",
   "skala",
+  "stacja",
+  "stolica",
   "strefa",
   "szczyt",
   "typ wybrzeża",
   "wartość",
   "współrzędne",
   "wyspa",
-  "zatoka"
+  "zatoka",
+  "zjawisko"
  ],
  "items": [
   {
@@ -4041,6 +4056,4209 @@
     "Missisipi",
     "Jangcy"
    ]
+  },
+  {
+   "id": "geomko-6-001",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się charakterystyczny przebieg pogody ustalony na podstawie wieloletnich obserwacji?",
+   "answer": "klimat",
+   "explanation": "Pogoda to stan atmosfery w danym miejscu i czasie; klimat ustala się z co najmniej 30 lat obserwacji.",
+   "distractors": [
+    "pogoda",
+    "mikroklimat",
+    "front atmosferyczny"
+   ]
+  },
+  {
+   "id": "geomko-6-002",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Klimat ustala się na podstawie obserwacji z co najmniej {{30 lat / 30}}.",
+   "hint": "kilka dekad",
+   "explanation": "Pogoda to stan atmosfery w danej chwili, klimat – wieloletnia norma.",
+   "distractors": [
+    "5 lat",
+    "10 lat",
+    "100 lat"
+   ]
+  },
+  {
+   "id": "geomko-6-003",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się wykres rocznego przebiegu średniej miesięcznej temperatury i miesięcznych sum opadów?",
+   "answer": "klimatogram",
+   "accept": [
+    "diagram klimatyczny"
+   ],
+   "explanation": "Temperatura jest linią (°C), opady słupkami (mm).",
+   "distractors": [
+    "hipsometria",
+    "barogram",
+    "profil terenu"
+   ]
+  },
+  {
+   "id": "geomko-6-004",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się różnica między średnią temperaturą najcieplejszego i najzimniejszego miesiąca?",
+   "answer": "amplituda roczna temperatury",
+   "accept": [
+    "amplituda roczna",
+    "amplituda"
+   ],
+   "explanation": "Mała w klimacie morskim (do ok. 15°C), duża w kontynentalnym (powyżej 25°C).",
+   "distractors": [
+    "średnia roczna temperatura",
+    "amplituda dobowa",
+    "suma opadów"
+   ]
+  },
+  {
+   "id": "geomko-6-005",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Najcieplejszy miesiąc ma średnio 24°C, najzimniejszy −12°C. Ile wynosi amplituda roczna temperatury?",
+   "answer": "36°C",
+   "accept": [
+    "36",
+    "36 °C",
+    "36 stopni"
+   ],
+   "explanation": "24°C − (−12°C) = 36°C; tak duża amplituda oznacza klimat kontynentalny.",
+   "distractors": [
+    "12°C",
+    "24°C",
+    "18°C"
+   ]
+  },
+  {
+   "id": "geomko-6-006",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Najcieplejszy miesiąc ma średnio 17°C, najzimniejszy 5°C. Ile wynosi amplituda roczna temperatury?",
+   "answer": "12°C",
+   "accept": [
+    "12",
+    "12 °C",
+    "12 stopni"
+   ],
+   "explanation": "17°C − 5°C = 12°C; amplituda do ok. 15°C wskazuje na klimat morski.",
+   "distractors": [
+    "22°C",
+    "11°C",
+    "5°C"
+   ]
+  },
+  {
+   "id": "geomko-6-007",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Jak obliczysz średnią roczną temperaturę z klimatogramu?",
+   "rule": "zsumuj 12 średnich miesięcznych i podziel przez 12",
+   "wrong": [
+    "odejmij najniższą średnią od najwyższej",
+    "zsumuj słupki opadów",
+    "dodaj najwyższą i najniższą średnią"
+   ],
+   "explanation": "Różnica skrajnych średnich to amplituda, a suma słupków – roczna suma opadów."
+  },
+  {
+   "id": "geomko-6-008",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Temperatura powietrza spada z wysokością o ok. {{0,6°C / 0,6 °C / 0.6°C}} na każde 100 m.",
+   "hint": "mniej niż 1°C",
+   "explanation": "Dlatego w górach występują piętra klimatyczno-roślinne.",
+   "distractors": [
+    "1,5°C",
+    "0,1°C",
+    "6°C"
+   ]
+  },
+  {
+   "id": "geomko-6-009",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się wiatr, który latem wieje znad oceanu na ląd (deszczowy), a zimą z lądu (suchy)?",
+   "answer": "monsun",
+   "explanation": "Monsuny występują w Azji Południowej i Wschodniej.",
+   "distractors": [
+    "pasat",
+    "bryza",
+    "fen"
+   ]
+  },
+  {
+   "id": "geomko-6-010",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się stały wiatr wiejący od zwrotników ku równikowi?",
+   "answer": "pasat",
+   "accept": [
+    "pasaty"
+   ],
+   "explanation": "Na półkuli północnej wieje z NE, na południowej z SE; jest suchy, bo wieje z obszarów wysokiego ciśnienia.",
+   "distractors": [
+    "monsun",
+    "wiatr zachodni",
+    "bryza"
+   ]
+  },
+  {
+   "id": "geomko-6-011",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Dlaczego w klimacie monsunowym najwięcej opadów przypada na lato?",
+   "answer": "latem wilgotne powietrze napływa znad oceanu na ląd",
+   "accept": [
+    "monsun letni"
+   ],
+   "explanation": "Ląd nagrzewa się szybciej niż ocean, powstaje nad nim niż i ściąga wilgotne powietrze."
+  },
+  {
+   "id": "geomko-6-012",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "kierunek",
+   "trap": true,
+   "type": "cloze",
+   "text": "Klimatogram z maksimum temperatury w grudniu–styczniu pochodzi z półkuli {{południowej}}.",
+   "hint": "to nie błąd wykresu",
+   "explanation": "Na półkuli południowej lato przypada na grudzień–luty.",
+   "distractors": [
+    "północnej",
+    "wschodniej",
+    "zachodniej"
+   ]
+  },
+  {
+   "id": "geomko-6-013",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "strefa",
+   "type": "qa",
+   "question": "Prawie płaska linia temperatury ok. 25–27°C przez cały rok oznacza strefę…",
+   "answer": "równikową",
+   "accept": [
+    "równikowa",
+    "strefa równikowa"
+   ],
+   "explanation": "Tam Słońce góruje wysoko przez cały rok.",
+   "distractors": [
+    "zwrotnikową",
+    "podzwrotnikową",
+    "umiarkowaną"
+   ]
+  },
+  {
+   "id": "geomko-6-014",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Jeśli najniższa średnia miesięczna jest wyższa niż ok. {{18°C / 18 °C}}, klimatogram pochodzi ze strefy gorącej (równikowej lub zwrotnikowej).",
+   "hint": "próg strefy gorącej",
+   "explanation": "Zima 0–10°C wskazuje na strefę podzwrotnikową.",
+   "distractors": [
+    "0°C",
+    "10°C",
+    "25°C"
+   ]
+  },
+  {
+   "id": "geomko-6-015",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "strefa",
+   "type": "qa",
+   "question": "Najcieplejszy miesiąc ma średnią poniżej 10°C. Z jakiej strefy pochodzi klimatogram?",
+   "answer": "okołobiegunowej",
+   "accept": [
+    "okołobiegunowa",
+    "strefa okołobiegunowa",
+    "subpolarnej",
+    "polarnej"
+   ],
+   "explanation": "Za ciepło na tundrę trzeba ok. 10°C w najcieplejszym miesiącu.",
+   "distractors": [
+    "umiarkowanej chłodnej",
+    "podzwrotnikowej",
+    "umiarkowanej ciepłej"
+   ]
+  },
+  {
+   "id": "geomko-6-016",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "strefa",
+   "trap": true,
+   "type": "qa",
+   "question": "Suche, gorące lato i deszczowa, łagodna zima – jaka to odmiana klimatu?",
+   "answer": "śródziemnomorski",
+   "accept": [
+    "śródziemnomorska",
+    "klimat śródziemnomorski"
+   ],
+   "explanation": "To klimat podzwrotnikowy; turyści przyjeżdżają latem, gdy jest sucho.",
+   "distractors": [
+    "monsunowy",
+    "umiarkowany morski",
+    "podrównikowy"
+   ]
+  },
+  {
+   "id": "geomko-6-017",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Opady poniżej {{250 mm}} rocznie oznaczają klimat suchy (pustynny).",
+   "hint": "granica pustyni",
+   "explanation": "Takie opady ma np. Sahara.",
+   "distractors": [
+    "500 mm",
+    "1000 mm",
+    "50 mm"
+   ]
+  },
+  {
+   "id": "geomko-6-018",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "strefa",
+   "type": "qa",
+   "question": "Ponad 1000 mm opadów w 3–4 letnich miesiącach to cecha klimatu…",
+   "answer": "monsunowego",
+   "accept": [
+    "monsunowy",
+    "monsun"
+   ],
+   "explanation": "Monsun letni przynosi wilgotne powietrze znad oceanu.",
+   "distractors": [
+    "śródziemnomorskiego",
+    "równikowego",
+    "morskiego"
+   ]
+  },
+  {
+   "id": "geomko-6-019",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Temperatura 26–28°C w każdym miesiącu i opady 150–300 mm co miesiąc. Jaki to krajobraz?",
+   "answer": "wilgotny las równikowy",
+   "accept": [
+    "las równikowy",
+    "wilgotne lasy równikowe"
+   ],
+   "explanation": "To klimat równikowy wybitnie wilgotny.",
+   "distractors": [
+    "sawanna",
+    "las monsunowy",
+    "makia"
+   ]
+  },
+  {
+   "id": "geomko-6-020",
+   "category": "geomko_climate",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Czytanie klimatogramu",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Maksimum 24°C w lipcu, minimum −12°C w styczniu, 450 mm opadów głównie latem. Jaki to krajobraz?",
+   "answer": "step",
+   "accept": [
+    "lasostep",
+    "step lub lasostep"
+   ],
+   "explanation": "To klimat umiarkowany ciepły kontynentalny.",
+   "distractors": [
+    "tajga",
+    "las liściasty",
+    "tundra"
+   ]
+  },
+  {
+   "id": "geomko-6-021",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "W klimacie równikowym wybitnie wilgotnym codziennie po południu padają deszcze {{zenitalne}}.",
+   "hint": "Słońce wysoko",
+   "explanation": "Silne nagrzanie → parowanie → wznoszenie i skraplanie pary → ulewa.",
+   "distractors": [
+    "monsunowe",
+    "frontalne",
+    "orograficzne"
+   ]
+  },
+  {
+   "id": "geomko-6-022",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "gleba",
+   "trap": true,
+   "type": "qa",
+   "question": "Jakie gleby występują pod wilgotnym lasem równikowym?",
+   "answer": "laterytowe",
+   "accept": [
+    "ferralitowe",
+    "laterytowe (ferralitowe)",
+    "czerwone laterytowe"
+   ],
+   "explanation": "Są czerwone i ubogie – składniki odżywcze są „w roślinach”, nie w glebie.",
+   "distractors": [
+    "czarnoziemy",
+    "bielicowe",
+    "cynamonowe"
+   ]
+  },
+  {
+   "id": "geomko-6-023",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Gleby lasów równikowych są ubogie mimo bujnej roślinności, bo materia jest szybko rozkładana i {{wymywana}}.",
+   "hint": "deszcz",
+   "explanation": "Większość składników odżywczych jest zmagazynowana w roślinach.",
+   "distractors": [
+    "zamarzana",
+    "nawiewana",
+    "zasalana"
+   ]
+  },
+  {
+   "id": "geomko-6-024",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Gdzie występuje wilgotny las równikowy? Podaj największy obszar w Ameryce Południowej.",
+   "answer": "Nizina Amazonki",
+   "accept": [
+    "Amazonia",
+    "dorzecze Amazonki"
+   ],
+   "explanation": "Inne obszary: Kotlina Konga, Indonezja (Borneo, Sumatra), Nowa Gwinea.",
+   "distractors": [
+    "Wyżyna Brazylijska",
+    "Pampa",
+    "Atakama"
+   ]
+  },
+  {
+   "id": "geomko-6-025",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywa się krajobraz z wysokimi trawami i rzadko rozrzuconymi drzewami (akacje, baobaby)?",
+   "answer": "sawanna",
+   "explanation": "Klimat podrównikowy: pora deszczowa latem, pora sucha zimą.",
+   "distractors": [
+    "step",
+    "preria",
+    "makia"
+   ]
+  },
+  {
+   "id": "geomko-6-026",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "strefa",
+   "trap": true,
+   "type": "cloze",
+   "text": "Sawanna leży w strefie gorącej (podrównikowej), a step – w strefie {{umiarkowanej}}.",
+   "hint": "Ukraina, Kazachstan",
+   "explanation": "To dwa różne krajobrazy trawiaste.",
+   "distractors": [
+    "podzwrotnikowej",
+    "zwrotnikowej",
+    "okołobiegunowej"
+   ]
+  },
+  {
+   "id": "geomko-6-027",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "trap": true,
+   "type": "qa",
+   "question": "W jakim krajobrazie odbywają się wielkie migracje antylop gnu (Serengeti)?",
+   "answer": "sawanna",
+   "accept": [
+    "na sawannie",
+    "sawanny"
+   ],
+   "explanation": "Gnu, zebra, gepard, żyrafa, słoń – to zwierzęta sawanny.",
+   "distractors": [
+    "step",
+    "pustynia",
+    "las równikowy"
+   ]
+  },
+  {
+   "id": "geomko-6-028",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Który lud z Afryki Wschodniej zajmuje się pasterstwem bydła na sawannie?",
+   "answer": "Masajowie",
+   "accept": [
+    "Masaje"
+   ],
+   "explanation": "Mieszkają w wioskach kraal w Kenii i Tanzanii.",
+   "distractors": [
+    "Tuaregowie",
+    "Beduini",
+    "Pigmeje"
+   ]
+  },
+  {
+   "id": "geomko-6-029",
+   "category": "geomko_climate",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 2,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się sawanna w Wenezueli?",
+   "answer": "llanos",
+   "explanation": "Sawanna w Brazylii to campos.",
+   "distractors": [
+    "pampa",
+    "preria",
+    "puszta"
+   ]
+  },
+  {
+   "id": "geomko-6-030",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "trap": true,
+   "type": "qa",
+   "question": "Która mucha przenosi śpiączkę afrykańską?",
+   "answer": "tse-tse",
+   "accept": [
+    "mucha tse-tse",
+    "tsetse"
+   ],
+   "explanation": "Malaria i śpiączka przenoszą się przez owady, nie drogą kropelkową.",
+   "distractors": [
+    "bąk",
+    "meszka",
+    "komar widliszek"
+   ]
+  },
+  {
+   "id": "geomko-6-031",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "trap": true,
+   "type": "cloze",
+   "text": "Malarię przenoszą {{komary}}, a nie kontakt z chorym drogą kropelkową.",
+   "hint": "owady",
+   "explanation": "Choroby te występują m.in. na sawannie.",
+   "distractors": [
+    "kleszcze",
+    "muchy tse-tse",
+    "pchły"
+   ]
+  },
+  {
+   "id": "geomko-6-032",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się piaszczysta pustynia?",
+   "answer": "erg",
+   "explanation": "Kamienista to hamada, żwirowa – serir.",
+   "distractors": [
+    "hamada",
+    "serir",
+    "oaza"
+   ]
+  },
+  {
+   "id": "geomko-6-033",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się pustynia kamienista?",
+   "answer": "hamada",
+   "explanation": "Piaszczysta to erg, żwirowa – serir.",
+   "distractors": [
+    "erg",
+    "serir",
+    "wadi"
+   ]
+  },
+  {
+   "id": "geomko-6-034",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Na pustyni gorącej dobowe amplitudy temperatury sięgają {{40°C / 40 °C}}, bo noce są chłodne.",
+   "hint": "bardzo duże",
+   "explanation": "Skrajne amplitudy dobowe powodują wietrzenie mechaniczne skał.",
+   "distractors": [
+    "5°C",
+    "15°C",
+    "100°C"
+   ]
+  },
+  {
+   "id": "geomko-6-035",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Jak nazywają się rośliny magazynujące wodę (kaktusy, aloes)?",
+   "answer": "sukulenty",
+   "accept": [
+    "sukulent"
+   ],
+   "explanation": "Na pustyni po deszczu szybko kwitną też efemerydy.",
+   "distractors": [
+    "efemerydy",
+    "epifity",
+    "liany"
+   ]
+  },
+  {
+   "id": "geomko-6-036",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Jaka roślina jest podstawą rolnictwa w oazach Sahary?",
+   "answer": "palma daktylowa",
+   "accept": [
+    "daktylowiec",
+    "daktyle"
+   ],
+   "explanation": "Zanik oaz to jeden ze skutków wyczerpywania wód podziemnych.",
+   "distractors": [
+    "oliwka",
+    "baobab",
+    "palma olejowa"
+   ]
+  },
+  {
+   "id": "geomko-6-037",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Jak nazywa się pustynny lis z Sahary o wielkich uszach?",
+   "answer": "fenek",
+   "explanation": "Inne zwierzęta Sahary: dromader, skorpion, żmija rogata.",
+   "distractors": [
+    "korsak",
+    "piesak",
+    "szakal"
+   ]
+  },
+  {
+   "id": "geomko-6-038",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Jakie ludy koczownicze żyją na Saharze i Półwyspie Arabskim?",
+   "answer": "Tuaregowie i Beduini",
+   "accept": [
+    "Tuaregowie",
+    "Beduini"
+   ],
+   "explanation": "Hodują wielbłądy i kozy.",
+   "distractors": [
+    "Masajowie i Fulanie",
+    "Inuici i Saamowie",
+    "Jakuci i Ewenkowie"
+   ]
+  },
+  {
+   "id": "geomko-6-039",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Pustynie zwrotnikowe powstają tam, gdzie zstępuje suche powietrze, a pasaty wiejące ku równikowi są {{suche}}.",
+   "hint": "pasat",
+   "explanation": "Dlatego opady spadają poniżej 250 mm rocznie.",
+   "distractors": [
+    "wilgotne",
+    "zimne",
+    "monsunowe"
+   ]
+  },
+  {
+   "id": "geomko-6-040",
+   "category": "geomko_climate",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 2,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Jaka miejscowość w Indiach słynie z rekordowych opadów monsunowych (do 11 000 mm)?",
+   "answer": "Czerrapundżi",
+   "accept": [
+    "Cherrapunji",
+    "Czerapundżi"
+   ],
+   "explanation": "Monsun letni przynosi tam ogromne ilości deszczu.",
+   "distractors": [
+    "Bombaj",
+    "Kalkuta",
+    "Delhi"
+   ]
+  },
+  {
+   "id": "geomko-6-041",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 2,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Jakie rośliny uprawia się w strefie monsunowej Azji?",
+   "answer": "ryż, herbata, juta",
+   "accept": [
+    "ryż",
+    "ryż i herbata"
+   ],
+   "explanation": "Obszary te są bardzo gęsto zaludnione.",
+   "distractors": [
+    "oliwki, winorośl, figi",
+    "pszenica, słonecznik",
+    "kakao, kauczuk"
+   ]
+  },
+  {
+   "id": "geomko-6-042",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywa się zarośla twardolistne w klimacie śródziemnomorskim (dąb ostrolistny, oliwka, mirt)?",
+   "answer": "makia",
+   "explanation": "Odpowiedniki: chaparral (Kalifornia), fynbos (RPA), mallee (Australia).",
+   "distractors": [
+    "tajga",
+    "sawanna",
+    "tundra"
+   ]
+  },
+  {
+   "id": "geomko-6-043",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywa się roślinność podobna do makii w Republice Południowej Afryki?",
+   "answer": "fynbos",
+   "explanation": "W Kalifornii to chaparral, w Australii mallee.",
+   "distractors": [
+    "chaparral",
+    "mallee",
+    "llanos"
+   ]
+  },
+  {
+   "id": "geomko-6-044",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywa się roślinność podobna do makii w Kalifornii?",
+   "answer": "chaparral",
+   "explanation": "W RPA to fynbos, w Australii mallee.",
+   "distractors": [
+    "fynbos",
+    "mallee",
+    "campos"
+   ]
+  },
+  {
+   "id": "geomko-6-045",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "gleba",
+   "type": "qa",
+   "question": "Jakie gleby występują w klimacie śródziemnomorskim?",
+   "answer": "cynamonowe",
+   "accept": [
+    "terra rossa",
+    "cynamonowe (terra rossa)"
+   ],
+   "explanation": "Uprawia się tam oliwki, winorośl, cytrusy i figi.",
+   "distractors": [
+    "czarnoziemy",
+    "laterytowe",
+    "bielicowe"
+   ]
+  },
+  {
+   "id": "geomko-6-046",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pora roku",
+   "trap": true,
+   "type": "cloze",
+   "text": "W klimacie śródziemnomorskim deszcz pada głównie {{zimą}}, a turyści przyjeżdżają latem, gdy jest sucho.",
+   "hint": "pora roku",
+   "explanation": "Opady 400–800 mm rocznie.",
+   "distractors": [
+    "latem",
+    "wiosną",
+    "jesienią"
+   ]
+  },
+  {
+   "id": "geomko-6-047",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Jakie jezioro w Azji Środkowej uległo katastrofie z powodu nawadniania pól?",
+   "answer": "Morze Aralskie",
+   "accept": [
+    "Aralskie",
+    "Jezioro Aralskie"
+   ],
+   "explanation": "Wodę z zasilających je rzek zużyto do nawadniania upraw.",
+   "distractors": [
+    "Morze Kaspijskie",
+    "Bajkał",
+    "Bałchasz"
+   ]
+  },
+  {
+   "id": "geomko-6-048",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 2,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Jaki wielbłąd żyje na pustyniach Azji Środkowej?",
+   "answer": "wielbłąd dwugarbny",
+   "accept": [
+    "baktrian",
+    "dwugarbny"
+   ],
+   "explanation": "Na Saharze żyje wielbłąd jednogarbny – dromader.",
+   "distractors": [
+    "dromader",
+    "lama",
+    "alpaka"
+   ]
+  },
+  {
+   "id": "geomko-6-049",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jaka formacja roślinna występuje w klimacie umiarkowanym ciepłym morskim?",
+   "answer": "lasy liściaste i mieszane",
+   "accept": [
+    "las liściasty",
+    "lasy liściaste",
+    "lasy mieszane"
+   ],
+   "explanation": "Dąb, buk, grab, lipa – liście zrzucane na zimę; gleby brunatne i płowe.",
+   "distractors": [
+    "tajga",
+    "step",
+    "makia"
+   ]
+  },
+  {
+   "id": "geomko-6-050",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "gleba",
+   "type": "qa",
+   "question": "Które gleby są najżyźniejsze na świecie?",
+   "answer": "czarnoziemy",
+   "accept": [
+    "czarnoziem"
+   ],
+   "explanation": "Powstają pod stepem: corocznie obumierające trawy dają grubą warstwę próchnicy (do 1 m).",
+   "distractors": [
+    "bielicowe",
+    "laterytowe",
+    "tundrowe"
+   ]
+  },
+  {
+   "id": "geomko-6-051",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż ciąg przyczyn i skutków w krajobrazie stepu",
+   "steps": [
+    "wnętrze kontynentu",
+    "klimat kontynentalny: mało opadów, mroźne zimy",
+    "brak drzew, dominują trawy",
+    "obumierające trawy dają próchnicę",
+    "czarnoziemy",
+    "spichlerz zbożowy"
+   ],
+   "explanation": "Takiego wyjaśnienia wymagał arkusz z 2025 r. (step – klimat kontynentalny – czarnoziem)."
+  },
+  {
+   "id": "geomko-6-052",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się step w Ameryce Północnej?",
+   "answer": "preria",
+   "explanation": "Żyją tam bizon, widłoróg i kojot.",
+   "distractors": [
+    "pampa",
+    "puszta",
+    "sawanna"
+   ]
+  },
+  {
+   "id": "geomko-6-053",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się step w Argentynie?",
+   "answer": "pampa",
+   "explanation": "Żyje tam nandu.",
+   "distractors": [
+    "preria",
+    "puszta",
+    "llanos"
+   ]
+  },
+  {
+   "id": "geomko-6-054",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się step na Węgrzech?",
+   "answer": "puszta",
+   "explanation": "Step w RPA to weld.",
+   "distractors": [
+    "pampa",
+    "preria",
+    "weld"
+   ]
+  },
+  {
+   "id": "geomko-6-055",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "trap": true,
+   "type": "qa",
+   "question": "Jakie zwierzęta są typowe dla prerii?",
+   "answer": "bizon i widłoróg",
+   "accept": [
+    "bizon",
+    "widłoróg",
+    "bizon, widłoróg, kojot"
+   ],
+   "explanation": "Gnu i zebra to zwierzęta sawanny, a lama – Andów.",
+   "distractors": [
+    "gnu i zebra",
+    "łoś i ryś",
+    "lama i alpaka"
+   ]
+  },
+  {
+   "id": "geomko-6-056",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Jaki lud stepów Azji mieszka w jurtach i hoduje konie i owce?",
+   "answer": "Mongołowie",
+   "accept": [
+    "Mongolowie"
+   ],
+   "explanation": "Step to dla nich pastwisko; na stepach Ukrainy żyli Kozacy.",
+   "distractors": [
+    "Jakuci",
+    "Tuaregowie",
+    "Masajowie"
+   ]
+  },
+  {
+   "id": "geomko-6-057",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywa się borealny las iglasty strefy umiarkowanej chłodnej?",
+   "answer": "tajga",
+   "explanation": "Świerk, jodła, sosna, modrzew; gleby bielicowe; Syberia, Kanada, północna Skandynawia.",
+   "distractors": [
+    "tundra",
+    "step",
+    "makia"
+   ]
+  },
+  {
+   "id": "geomko-6-058",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Które drzewo iglaste tajgi zrzuca igły na zimę?",
+   "answer": "modrzew",
+   "explanation": "Dzięki temu znosi mrozy Syberii.",
+   "distractors": [
+    "świerk",
+    "jodła",
+    "sosna"
+   ]
+  },
+  {
+   "id": "geomko-6-059",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "gleba",
+   "type": "qa",
+   "question": "Jakie gleby występują pod tajgą?",
+   "answer": "bielicowe",
+   "accept": [
+    "bielice"
+   ],
+   "explanation": "Są kwaśne; na wschodzie Syberii występuje wieczna zmarzlina.",
+   "distractors": [
+    "czarnoziemy",
+    "laterytowe",
+    "cynamonowe"
+   ]
+  },
+  {
+   "id": "geomko-6-060",
+   "category": "geomko_climate",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "W głębi Syberii zimy w tajdze są mroźniejsze niż w tundrze (Ojmiakon ok. −67°C) z powodu {{kontynentalizmu}}.",
+   "hint": "daleko od oceanu",
+   "explanation": "Odległość od oceanu zwiększa amplitudę – latem ciepło, zimą bardzo mroźno.",
+   "distractors": [
+    "wysokości n.p.m.",
+    "prądów morskich",
+    "monsunów"
+   ]
+  },
+  {
+   "id": "geomko-6-061",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 2,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Który lud tajgi hoduje konie i bydło w Jakucji?",
+   "answer": "Jakuci",
+   "accept": [
+    "Jakutowie"
+   ],
+   "explanation": "Ewenkowie w tajdze hodują renifery.",
+   "distractors": [
+    "Inuici",
+    "Mongołowie",
+    "Saamowie"
+   ]
+  },
+  {
+   "id": "geomko-6-062",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywa się bezdrzewny krajobraz z mchami, porostami i karłowatymi brzozami za kołem podbiegunowym?",
+   "answer": "tundra",
+   "explanation": "Wieczna zmarzlina nie pozwala wodzie wsiąkać, więc latem tworzą się bagna.",
+   "distractors": [
+    "tajga",
+    "step",
+    "pustynia lodowa"
+   ]
+  },
+  {
+   "id": "geomko-6-063",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Dlaczego latem w tundrze tworzą się bagna?",
+   "answer": "wieczna zmarzlina nie pozwala wodzie wsiąkać",
+   "accept": [
+    "wieczna zmarzlina",
+    "zmarzlina"
+   ],
+   "explanation": "Rozmarza tylko cienka warstwa gleby."
+  },
+  {
+   "id": "geomko-6-064",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Jakie zwierzę jest podstawą życia mieszkańców tundry?",
+   "answer": "renifer",
+   "accept": [
+    "karibu",
+    "renifery"
+   ],
+   "explanation": "Renifery hodują Nieńcy i Saamowie; w Ameryce dziki renifer to karibu.",
+   "distractors": [
+    "piżmowół",
+    "łoś",
+    "jak"
+   ]
+  },
+  {
+   "id": "geomko-6-065",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Który lud mieszka na Grenlandii, w Kanadzie i na Alasce?",
+   "answer": "Inuici",
+   "accept": [
+    "Eskimosi",
+    "Inuitowie"
+   ],
+   "explanation": "Tradycyjnie budowali igloo i zajmowali się myślistwem.",
+   "distractors": [
+    "Saamowie",
+    "Jakuci",
+    "Nieńcy"
+   ]
+  },
+  {
+   "id": "geomko-6-066",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Który lud hoduje renifery na północy Skandynawii?",
+   "answer": "Saamowie",
+   "accept": [
+    "Lapończycy",
+    "Saami"
+   ],
+   "explanation": "Nieńcy hodują renifery na północy Rosji.",
+   "distractors": [
+    "Inuici",
+    "Jakuci",
+    "Mongołowie"
+   ]
+  },
+  {
+   "id": "geomko-6-067",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "region",
+   "trap": true,
+   "type": "cloze",
+   "text": "Niedźwiedzie polarne żyją tylko w {{Arktyce}}, a pingwiny tylko na półkuli południowej.",
+   "hint": "północ",
+   "explanation": "Nie spotkają się w naturze.",
+   "distractors": [
+    "Antarktyce",
+    "tajdze",
+    "tundrze Ameryki Południowej"
+   ]
+  },
+  {
+   "id": "geomko-6-068",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 2,
+   "kind": "stacja",
+   "type": "qa",
+   "question": "Jak nazywa się polska stacja badawcza na Wyspie Króla Jerzego (Antarktyka)?",
+   "answer": "Arctowski",
+   "accept": [
+    "Stacja Arctowskiego",
+    "im. Arctowskiego"
+   ],
+   "explanation": "Na Antarktydzie nie ma stałych mieszkańców.",
+   "distractors": [
+    "Dobrowolski",
+    "Hornsund",
+    "Wostok"
+   ]
+  },
+  {
+   "id": "geomko-6-069",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 2,
+   "kind": "stacja",
+   "type": "qa",
+   "question": "Gdzie zanotowano najniższą temperaturę na Ziemi (−89°C)?",
+   "answer": "stacja Wostok",
+   "accept": [
+    "Wostok",
+    "Antarktyda"
+   ],
+   "explanation": "Klimat polarny: wszystkie miesiące poniżej 0°C, opady poniżej 200 mm.",
+   "distractors": [
+    "Ojmiakon",
+    "Wierchojańsk",
+    "Arctowski"
+   ]
+  },
+  {
+   "id": "geomko-6-070",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż piętra roślinne w Alpach od podnóża",
+   "steps": [
+    "las liściasty",
+    "las iglasty",
+    "kosodrzewina",
+    "hale",
+    "turnie",
+    "wieczny śnieg i lodowce"
+   ],
+   "explanation": "Piętra wynikają ze spadku temperatury o ok. 0,6°C na 100 m."
+  },
+  {
+   "id": "geomko-6-071",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "krajobraz",
+   "type": "qa",
+   "question": "Jak nazywają się łąki wysokogórskie w Alpach?",
+   "answer": "hale",
+   "accept": [
+    "łąki alpejskie",
+    "hala"
+   ],
+   "explanation": "Leżą powyżej kosodrzewiny.",
+   "distractors": [
+    "turnie",
+    "pampa",
+    "puszta"
+   ]
+  },
+  {
+   "id": "geomko-6-072",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "trap": true,
+   "type": "qa",
+   "question": "Jakie zwierzęta juczne i wełniste hoduje się w Andach?",
+   "answer": "lama i alpaka",
+   "accept": [
+    "lama",
+    "alpaka",
+    "lamy i alpaki"
+   ],
+   "explanation": "W Himalajach hoduje się jaki.",
+   "distractors": [
+    "jak i baktrian",
+    "renifer i piżmowół",
+    "dromader i koza"
+   ]
+  },
+  {
+   "id": "geomko-6-073",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Strefy klimatyczne i krajobrazy",
+   "priority": 1,
+   "kind": "lud",
+   "type": "qa",
+   "question": "Jak nazywa się lud z Nepalu znany jako przewodnicy w Himalajach?",
+   "answer": "Szerpowie",
+   "accept": [
+    "Szerpa",
+    "Szerpowie"
+   ],
+   "explanation": "Hodują jaki, uprawiają jęczmień i ziemniaki.",
+   "distractors": [
+    "Tybetańczycy",
+    "Mongołowie",
+    "Jakuci"
+   ]
+  },
+  {
+   "id": "geomko-6-074",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "równoleżnik",
+   "type": "cloze",
+   "text": "Prądy ciepłe płyną od {{równika}} ku wyższym szerokościom, a zimne – od biegunów ku równikowi.",
+   "hint": "skąd płyną ciepłe?",
+   "explanation": "W strefie zwrotnikowej prądy ciepłe płyną przy wschodnich wybrzeżach kontynentów, zimne – przy zachodnich.",
+   "distractors": [
+    "biegunów",
+    "zwrotników",
+    "kół podbiegunowych"
+   ]
+  },
+  {
+   "id": "geomko-6-075",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "prąd morski",
+   "type": "qa",
+   "question": "Który ciepły prąd łagodzi zimy Europy Zachodniej i Norwegii?",
+   "answer": "Północnoatlantycki",
+   "accept": [
+    "Prąd Zatokowy",
+    "Golfsztrom",
+    "Prąd Północnoatlantycki"
+   ],
+   "explanation": "Dzięki niemu port w Murmańsku nie zamarza, a Londyn jest zimą cieplejszy niż Nowy Jork.",
+   "distractors": [
+    "Labradorski",
+    "Kanaryjski",
+    "Kuro-siwo"
+   ]
+  },
+  {
+   "id": "geomko-6-076",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "cloze",
+   "text": "Dzięki Prądowi Północnoatlantyckiemu nie zamarza port w {{Murmańsku}}, choć leży za kołem podbiegunowym.",
+   "hint": "Rosja",
+   "explanation": "Ciepły prąd ogrzewa wybrzeża Norwegii i Półwyspu Kolskiego.",
+   "distractors": [
+    "Archangielsku",
+    "Petersburgu",
+    "Gdańsku"
+   ]
+  },
+  {
+   "id": "geomko-6-077",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "prąd morski",
+   "trap": true,
+   "type": "qa",
+   "question": "Który zimny prąd powoduje powstanie pustyni Namib?",
+   "answer": "Benguelski",
+   "accept": [
+    "Prąd Benguelski"
+   ],
+   "explanation": "Zimny prąd ochładza powietrze i hamuje parowanie oraz konwekcję – stąd brak opadów.",
+   "distractors": [
+    "Kanaryjski",
+    "Peruwiański",
+    "Mozambicki"
+   ]
+  },
+  {
+   "id": "geomko-6-078",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "prąd morski",
+   "trap": true,
+   "type": "qa",
+   "question": "Który zimny prąd odpowiada za najsuchszą pustynię świata – Atakamę?",
+   "answer": "Peruwiański",
+   "accept": [
+    "Humboldta",
+    "Prąd Peruwiański",
+    "Prąd Humboldta"
+   ],
+   "explanation": "Ten prąd daje też bogate łowiska u wybrzeży Peru.",
+   "distractors": [
+    "Kalifornijski",
+    "Benguelski",
+    "Brazylijski"
+   ]
+  },
+  {
+   "id": "geomko-6-079",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "pustynia",
+   "trap": true,
+   "type": "qa",
+   "question": "Która pustynia jest najsuchsza na Ziemi?",
+   "answer": "Atakama",
+   "explanation": "Leży nad oceanem, bo zimny Prąd Peruwiański hamuje opady.",
+   "distractors": [
+    "Sahara",
+    "Namib",
+    "Gobi"
+   ]
+  },
+  {
+   "id": "geomko-6-080",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "prąd morski",
+   "type": "qa",
+   "question": "Który zimny prąd płynie wzdłuż wybrzeży Maroka i Sahary Zachodniej?",
+   "answer": "Kanaryjski",
+   "accept": [
+    "Prąd Kanaryjski"
+   ],
+   "explanation": "Powoduje suche wybrzeże, mgły i chłodniejsze lato na Wyspach Kanaryjskich.",
+   "distractors": [
+    "Benguelski",
+    "Gwinejski",
+    "Labradorski"
+   ]
+  },
+  {
+   "id": "geomko-6-081",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "prąd morski",
+   "type": "qa",
+   "question": "Który zimny prąd powoduje surowe zimy wschodniej Kanady i niesie góry lodowe?",
+   "answer": "Labradorski",
+   "accept": [
+    "Prąd Labradorski"
+   ],
+   "explanation": "Na jego szlaku zatonął Titanic.",
+   "distractors": [
+    "Północnoatlantycki",
+    "Kalifornijski",
+    "Kuro-siwo"
+   ]
+  },
+  {
+   "id": "geomko-6-082",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 2,
+   "kind": "prąd morski",
+   "type": "qa",
+   "question": "Który zimny prąd powoduje mgły w San Francisco?",
+   "answer": "Kalifornijski",
+   "accept": [
+    "Prąd Kalifornijski"
+   ],
+   "explanation": "Wybrzeże Kalifornii jest przez niego suche.",
+   "distractors": [
+    "Labradorski",
+    "Peruwiański",
+    "Kuro-siwo"
+   ]
+  },
+  {
+   "id": "geomko-6-083",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Prądy morskie",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Pustynie nadbrzeżne, takie jak Namib i Atakama, leżą przy oceanie, bo {{zimny prąd}} hamuje parowanie i opady.",
+   "hint": "woda przy brzegu",
+   "explanation": "Zimny prąd ochładza powietrze od dołu, więc nie powstają chmury deszczowe.",
+   "distractors": [
+    "ciepły prąd",
+    "monsun",
+    "pasat"
+   ]
+  },
+  {
+   "id": "geomko-6-084",
+   "category": "geomko_climate",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Pustynnienie i antropopresja",
+   "priority": 1,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Jak nazywa się degradacja gleb na obszarach suchych i półsuchych prowadząca do powstania pustyni?",
+   "answer": "pustynnienie",
+   "accept": [
+    "stepowienie",
+    "desertyfikacja"
+   ],
+   "explanation": "Przykład z arkusza 2025: Afryka Północna i Sahel.",
+   "distractors": [
+    "erozja",
+    "zasolenie",
+    "deforestacja"
+   ]
+  },
+  {
+   "id": "geomko-6-085",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Pustynnienie i antropopresja",
+   "priority": 2,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Jak nazywa się projekt zalesiania, który ma powstrzymać pustynnienie w Sahelu?",
+   "answer": "Wielki Zielony Mur",
+   "accept": [
+    "Zielony Mur"
+   ],
+   "explanation": "Inne metody: płoty i maty przeciw wiatrowi, nawadnianie kropelkowe, ograniczenie wypasu.",
+   "distractors": [
+    "Wielki Mur Chiński",
+    "Zielona Rewolucja",
+    "Pas Słońca"
+   ]
+  },
+  {
+   "id": "geomko-6-086",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Pustynnienie i antropopresja",
+   "priority": 1,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Jaki sposób nawadniania ogranicza zasolenie gleb na obszarach suchych?",
+   "answer": "nawadnianie kropelkowe",
+   "accept": [
+    "kropelkowe"
+   ],
+   "explanation": "Nawadnianie zalewowe powoduje zasolenie gleb.",
+   "distractors": [
+    "nawadnianie zalewowe",
+    "deszczowanie",
+    "melioracja odwadniająca"
+   ]
+  },
+  {
+   "id": "geomko-6-087",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Pustynnienie i antropopresja",
+   "priority": 1,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Podaj jeden skutek społeczno-gospodarczy pustynnienia w Afryce Północnej.",
+   "answer": "spadek plonów i głód",
+   "accept": [
+    "migracje ludności",
+    "konflikty o wodę",
+    "ubóstwo",
+    "głód"
+   ],
+   "explanation": "Inne: utrata pastwisk, migracje do miast lub Europy, konflikty o wodę i ziemię, burze pyłowe niszczące infrastrukturę.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-6-088",
+   "category": "geomko_climate",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 6 · Pustynnienie i antropopresja",
+   "priority": 1,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Podaj jedną przyczynę pustynnienia spowodowaną przez człowieka.",
+   "answer": "nadmierny wypas",
+   "accept": [
+    "wylesianie",
+    "nadmierne nawadnianie",
+    "uprawa na stokach"
+   ],
+   "explanation": "Najważniejszą przyczyną w skali regionu są jednak zmiany klimatu (mniej opadów, susze).",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-001",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Położenie i cechy ogólne",
+   "priority": 1,
+   "kind": "kierunek",
+   "type": "cloze",
+   "text": "Europa leży w całości na półkuli {{północnej}} i prawie w całości na wschodniej.",
+   "hint": "równik",
+   "explanation": "Rozciągłość południkowa Europy: 36°N–71°N.",
+   "distractors": [
+    "południowej",
+    "zachodniej",
+    "wschodniej i południowej"
+   ]
+  },
+  {
+   "id": "geomko-7-002",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Położenie i cechy ogólne",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Która cieśnina oddziela Europę od Afryki?",
+   "answer": "Cieśnina Gibraltarska",
+   "accept": [
+    "Gibraltarska",
+    "Gibraltar"
+   ],
+   "explanation": "Ma tylko ok. 14 km szerokości.",
+   "distractors": [
+    "Bosfor",
+    "Cieśnina Mesyńska",
+    "Dardanele"
+   ]
+  },
+  {
+   "id": "geomko-7-003",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Położenie i cechy ogólne",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile kilometrów szerokości ma Cieśnina Gibraltarska?",
+   "answer": "ok. 14 km",
+   "accept": [
+    "14 km",
+    "14"
+   ],
+   "explanation": "Oddziela Hiszpanię od Maroka.",
+   "distractors": [
+    "ok. 32 km",
+    "ok. 140 km",
+    "ok. 3 km"
+   ]
+  },
+  {
+   "id": "geomko-7-004",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Położenie i cechy ogólne",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Europa ma najbardziej rozwiniętą linię brzegową; żaden jej punkt nie leży dalej niż ok. {{1600 km}} od morza.",
+   "hint": "kontynent półwyspów i wysp",
+   "explanation": "Długość linii brzegowej Europy to ok. 38 tys. km.",
+   "distractors": [
+    "600 km",
+    "3000 km",
+    "160 km"
+   ]
+  },
+  {
+   "id": "geomko-7-005",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Położenie i cechy ogólne",
+   "priority": 1,
+   "kind": "kontynent",
+   "type": "qa",
+   "question": "Który kontynent ma najniższą średnią wysokość (ok. 300 m n.p.m.)?",
+   "answer": "Europa",
+   "explanation": "Niziny zajmują ok. 57% jej powierzchni.",
+   "distractors": [
+    "Australia",
+    "Afryka",
+    "Ameryka Północna"
+   ]
+  },
+  {
+   "id": "geomko-7-006",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Położenie i cechy ogólne",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Na południu Europy przeważają góry {{młode / alpejskie / młode (alpejskie)}}, a na północy i w środku – stare (kaledońskie i hercyńskie).",
+   "hint": "Alpy, Pireneje",
+   "explanation": "Góry Skandynawskie są stare mimo dużej wysokości.",
+   "distractors": [
+    "stare",
+    "wulkaniczne",
+    "zrębowe"
+   ]
+  },
+  {
+   "id": "geomko-7-007",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Alp?",
+   "answer": "Mont Blanc",
+   "accept": [
+    "Mont Blanc 4809 m"
+   ],
+   "explanation": "Ma 4809 m i leży na granicy Francji i Włoch.",
+   "distractors": [
+    "Matterhorn",
+    "Grossglockner",
+    "Zugspitze"
+   ]
+  },
+  {
+   "id": "geomko-7-008",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "cloze",
+   "text": "Mont Blanc leży na granicy Francji i {{Włoch}}.",
+   "hint": "Półwysep Apeniński",
+   "explanation": "To najwyższy szczyt Alp (4809 m).",
+   "distractors": [
+    "Szwajcarii",
+    "Austrii",
+    "Niemiec"
+   ]
+  },
+  {
+   "id": "geomko-7-009",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Pirenejów?",
+   "answer": "Aneto",
+   "explanation": "Ma 3404 m; Pireneje są naturalną granicą Półwyspu Iberyjskiego.",
+   "distractors": [
+    "Mulhacén",
+    "Musała",
+    "Olimp"
+   ]
+  },
+  {
+   "id": "geomko-7-010",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Który łańcuch górski jest naturalną granicą Półwyspu Iberyjskiego?",
+   "answer": "Pireneje",
+   "explanation": "Leży w Hiszpanii, Francji i Andorze.",
+   "distractors": [
+    "Góry Betyckie",
+    "Apeniny",
+    "Alpy"
+   ]
+  },
+  {
+   "id": "geomko-7-011",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Hiszpanii kontynentalnej (Sierra Nevada)?",
+   "answer": "Mulhacén",
+   "accept": [
+    "Mulhacen"
+   ],
+   "explanation": "Ma 3479 m i leży w Górach Betyckich.",
+   "distractors": [
+    "Aneto",
+    "Teide",
+    "Musała"
+   ]
+  },
+  {
+   "id": "geomko-7-012",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Który łańcuch górski jest „kręgosłupem” Półwyspu Apenińskiego?",
+   "answer": "Apeniny",
+   "explanation": "Najwyższy szczyt: Corno Grande (2912 m).",
+   "distractors": [
+    "Alpy",
+    "Góry Dynarskie",
+    "Pindos"
+   ]
+  },
+  {
+   "id": "geomko-7-013",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy czynny wulkan Europy (ok. 3350 m)?",
+   "answer": "Etna",
+   "explanation": "Leży na Sycylii, nie na Krecie.",
+   "distractors": [
+    "Wezuwiusz",
+    "Stromboli",
+    "Hekla"
+   ]
+  },
+  {
+   "id": "geomko-7-014",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "wyspa",
+   "trap": true,
+   "type": "cloze",
+   "text": "Etna leży na {{Sycylii}}; na Krecie nie ma czynnego wulkanu.",
+   "hint": "największa wyspa Morza Śródziemnego",
+   "explanation": "Wulkan Santorynu leży na Cykladach.",
+   "distractors": [
+    "Krecie",
+    "Sardynii",
+    "Korsyce"
+   ]
+  },
+  {
+   "id": "geomko-7-015",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Który wulkan wznosi się nad Neapolem?",
+   "answer": "Wezuwiusz",
+   "explanation": "Ma 1281 m; w 79 r. zniszczył Pompeje.",
+   "distractors": [
+    "Etna",
+    "Stromboli",
+    "Hekla"
+   ]
+  },
+  {
+   "id": "geomko-7-016",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Karpat?",
+   "answer": "Gerlach",
+   "accept": [
+    "Gerlachowski Szczyt"
+   ],
+   "explanation": "Ma 2655 m i leży w Tatrach na Słowacji.",
+   "distractors": [
+    "Rysy",
+    "Musała",
+    "Śnieżka"
+   ]
+  },
+  {
+   "id": "geomko-7-017",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "góry",
+   "trap": true,
+   "type": "qa",
+   "question": "Które góry ciągną się równolegle do Adriatyku i są krasowe?",
+   "answer": "Góry Dynarskie",
+   "accept": [
+    "Dynarskie",
+    "Alpy Dynarskie"
+   ],
+   "explanation": "Ich zatopienie dało wybrzeże dalmatyńskie; jaskinie Postojna i Jeziora Plitwickie to przykłady krasu.",
+   "distractors": [
+    "Apeniny",
+    "Pindos",
+    "Rodopy"
+   ]
+  },
+  {
+   "id": "geomko-7-018",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 2,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "W którym państwie leżą Jeziora Plitwickie (przykład zjawisk krasowych)?",
+   "answer": "Chorwacja",
+   "accept": [
+    "w Chorwacji"
+   ],
+   "explanation": "Kras Gór Dynarskich – także jaskinie Postojna i Szkocjańskie w Słowenii.",
+   "distractors": [
+    "Słowenia",
+    "Czarnogóra",
+    "Albania"
+   ]
+  },
+  {
+   "id": "geomko-7-019",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Półwyspu Bałkańskiego?",
+   "answer": "Musała",
+   "accept": [
+    "Musala"
+   ],
+   "explanation": "Ma 2925 m i leży w górach Riła w Bułgarii.",
+   "distractors": [
+    "Olimp",
+    "Botew",
+    "Maja Jezercë"
+   ]
+  },
+  {
+   "id": "geomko-7-020",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Które góry dały nazwę Półwyspowi Bałkańskiemu?",
+   "answer": "Bałkan",
+   "accept": [
+    "Stara Płanina",
+    "Bałkany"
+   ],
+   "explanation": "Najwyższy szczyt: Botew (2376 m), Bułgaria.",
+   "distractors": [
+    "Rodopy",
+    "Pindos",
+    "Góry Dynarskie"
+   ]
+  },
+  {
+   "id": "geomko-7-021",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Który szczyt w Grecji był w mitologii siedzibą bogów?",
+   "answer": "Olimp",
+   "explanation": "Ma 2918 m i oddziela Macedonię od Tesalii.",
+   "distractors": [
+    "Parnas",
+    "Musała",
+    "Etna"
+   ]
+  },
+  {
+   "id": "geomko-7-022",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Gór Skandynawskich?",
+   "answer": "Galdhøpiggen",
+   "accept": [
+    "Galdhopiggen"
+   ],
+   "explanation": "Ma 2469 m (Norwegia).",
+   "distractors": [
+    "Kebnekaise",
+    "Ben Nevis",
+    "Narodnaja"
+   ]
+  },
+  {
+   "id": "geomko-7-023",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Góry Skandynawskie, mimo dużej wysokości, są górami {{starymi / kaledońskimi}}.",
+   "hint": "orogeneza kaledońska",
+   "explanation": "Przemodelowały je lodowce: fiordy, doliny U-kształtne.",
+   "distractors": [
+    "młodymi",
+    "wulkanicznymi",
+    "alpejskimi"
+   ]
+  },
+  {
+   "id": "geomko-7-024",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Uralu?",
+   "answer": "Narodnaja",
+   "explanation": "Ma 1895 m; Ural ma ok. 2500 km i jest granicą Europa–Azja.",
+   "distractors": [
+    "Elbrus",
+    "Kazbek",
+    "Galdhøpiggen"
+   ]
+  },
+  {
+   "id": "geomko-7-025",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Wielkiej Brytanii (Grampiany)?",
+   "answer": "Ben Nevis",
+   "explanation": "Ma 1345 m; jeziora w Szkocji to lochy.",
+   "distractors": [
+    "Snowdon",
+    "Puy de Sancy",
+    "Galdhøpiggen"
+   ]
+  },
+  {
+   "id": "geomko-7-026",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Które góry we Francji zbudowane są z wygasłych wulkanów?",
+   "answer": "Masyw Centralny",
+   "accept": [
+    "Masyw Centralny Francuski"
+   ],
+   "explanation": "Najwyższy szczyt: Puy de Sancy (1886 m); stąd wypływa Loara.",
+   "distractors": [
+    "Wogezy",
+    "Jura",
+    "Pireneje"
+   ]
+  },
+  {
+   "id": "geomko-7-027",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Góry Europy",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Sudetów?",
+   "answer": "Śnieżka",
+   "explanation": "Ma 1603 m (Polska, Czechy).",
+   "distractors": [
+    "Rysy",
+    "Babia Góra",
+    "Gerlach"
+   ]
+  },
+  {
+   "id": "geomko-7-028",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Niziny i depresje",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Która nizina jest największa w Europie?",
+   "answer": "Nizina Wschodnioeuropejska",
+   "accept": [
+    "Wschodnioeuropejska"
+   ],
+   "explanation": "Obejmuje Rosję, Ukrainę, Białoruś i kraje bałtyckie.",
+   "distractors": [
+    "Nizina Środkowoeuropejska",
+    "Nizina Węgierska",
+    "Nizina Padańska"
+   ]
+  },
+  {
+   "id": "geomko-7-029",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Niziny i depresje",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Gdzie leży najniższy punkt Europy (do −28 m)?",
+   "answer": "Nizina Nadkaspijska",
+   "accept": [
+    "Nadkaspijska",
+    "nad Morzem Kaspijskim"
+   ],
+   "explanation": "To depresja w Rosji i Kazachstanie.",
+   "distractors": [
+    "Niziny Holandii",
+    "Nizina Padańska",
+    "Nizina Wołoska"
+   ]
+  },
+  {
+   "id": "geomko-7-030",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Niziny i depresje",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jaka nizina leży w północnych Włoszech nad rzeką Pad?",
+   "answer": "Nizina Padańska",
+   "accept": [
+    "Padańska"
+   ],
+   "explanation": "Uprawa ryżu, mgły, przemysł Mediolan–Turyn.",
+   "distractors": [
+    "Nizina Węgierska",
+    "Nizina Wołoska",
+    "Nizina Akwitańska"
+   ]
+  },
+  {
+   "id": "geomko-7-031",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Niziny i depresje",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak inaczej nazywa się Nizina Węgierska?",
+   "answer": "Nizina Panońska",
+   "accept": [
+    "Panońska"
+   ],
+   "explanation": "Puszta i czarnoziemy; płyną przez nią Dunaj i Cisa.",
+   "distractors": [
+    "Nizina Wołoska",
+    "Nizina Padańska",
+    "Meseta"
+   ]
+  },
+  {
+   "id": "geomko-7-032",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Niziny i depresje",
+   "priority": 1,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się wyżyna (600–800 m) we wnętrzu Półwyspu Iberyjskiego, na której leży Madryt?",
+   "answer": "Meseta",
+   "accept": [
+    "Meseta Iberyjska"
+   ],
+   "explanation": "Leży w Hiszpanii i Portugalii.",
+   "distractors": [
+    "Nizina Akwitańska",
+    "Masyw Centralny",
+    "Wyżyna Podolska"
+   ]
+  },
+  {
+   "id": "geomko-7-033",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Niziny i depresje",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Ok. {{26% / 26 %}} powierzchni Holandii leży poniżej poziomu morza (poldery).",
+   "hint": "około jednej czwartej",
+   "explanation": "Najniższy punkt Holandii ma −6,7 m.",
+   "distractors": [
+    "5%",
+    "50%",
+    "75%"
+   ]
+  },
+  {
+   "id": "geomko-7-034",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Niziny i depresje",
+   "priority": 2,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się nizina w Rumunii i Bułgarii nad dolnym Dunajem – „spichlerz Rumunii”?",
+   "answer": "Nizina Wołoska",
+   "accept": [
+    "Wołoska",
+    "Nizina Dolnodunajska"
+   ],
+   "explanation": "Leży między Karpatami a Dunajem.",
+   "distractors": [
+    "Nizina Panońska",
+    "Nizina Padańska",
+    "Nizina Nadkaspijska"
+   ]
+  },
+  {
+   "id": "geomko-7-035",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka jest najdłuższa w Europie?",
+   "answer": "Wołga",
+   "explanation": "Ma 3530 km i uchodzi deltą do Morza Kaspijskiego.",
+   "distractors": [
+    "Dunaj",
+    "Dniepr",
+    "Ural"
+   ]
+  },
+  {
+   "id": "geomko-7-036",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "trap": true,
+   "type": "cloze",
+   "text": "Wołga wpada do Morza {{Kaspijskiego}}, a nie do Morza Czarnego.",
+   "hint": "jezioro bezodpływowe",
+   "explanation": "Uchodzi do niego deltą – największą w Europie.",
+   "distractors": [
+    "Czarnego",
+    "Azowskiego",
+    "Białego"
+   ]
+  },
+  {
+   "id": "geomko-7-037",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Gdzie ma źródła Dunaj?",
+   "answer": "w Schwarzwaldzie",
+   "accept": [
+    "Schwarzwald",
+    "Schwarzwaldzie"
+   ],
+   "explanation": "Dunaj płynie ok. 2850–2900 km do Morza Czarnego.",
+   "distractors": [
+    "w Alpach",
+    "w Karpatach",
+    "w Masywie Centralnym"
+   ]
+  },
+  {
+   "id": "geomko-7-038",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Przez ile państw płynie Dunaj?",
+   "answer": "10",
+   "accept": [
+    "dziesięć",
+    "10 państw"
+   ],
+   "explanation": "Niemcy, Austria, Słowacja, Węgry, Chorwacja, Serbia, Rumunia, Bułgaria, Mołdawia, Ukraina.",
+   "distractors": [
+    "6",
+    "8",
+    "12"
+   ]
+  },
+  {
+   "id": "geomko-7-039",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż stolice nad Dunajem w kolejności z biegiem rzeki",
+   "steps": [
+    "Wiedeń",
+    "Bratysława",
+    "Budapeszt",
+    "Belgrad"
+   ],
+   "explanation": "Bukareszt i Sofia nie leżą nad Dunajem."
+  },
+  {
+   "id": "geomko-7-040",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "stolica",
+   "trap": true,
+   "type": "qa",
+   "question": "Która z tych stolic nie leży nad Dunajem: Wiedeń, Budapeszt, Bukareszt, Belgrad?",
+   "answer": "Bukareszt",
+   "explanation": "Nad Dunajem leżą cztery stolice: Wiedeń, Bratysława, Budapeszt, Belgrad; nie leżą tam Bukareszt i Sofia.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-041",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Do jakiego morza uchodzi Dunaj?",
+   "answer": "Morze Czarne",
+   "accept": [
+    "Czarne",
+    "do Morza Czarnego"
+   ],
+   "explanation": "Delta Dunaju leży w Rumunii i na Ukrainie (UNESCO).",
+   "distractors": [
+    "Morze Kaspijskie",
+    "Morze Azowskie",
+    "Morze Adriatyckie"
+   ]
+  },
+  {
+   "id": "geomko-7-042",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 2,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się przełom Dunaju przez Karpaty na granicy Serbii i Rumunii?",
+   "answer": "Żelazna Brama",
+   "accept": [
+    "Żelazne Wrota"
+   ],
+   "explanation": "To jeden z najważniejszych punktów biegu Dunaju.",
+   "distractors": [
+    "Brama Morawska",
+    "Przełęcz Brennera",
+    "Bosfor"
+   ]
+  },
+  {
+   "id": "geomko-7-043",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka jest najważniejszą drogą wodną Europy (Rotterdam, Zagłębie Ruhry)?",
+   "answer": "Ren",
+   "explanation": "Płynie z Alp przez Jezioro Bodeńskie do Morza Północnego.",
+   "distractors": [
+    "Dunaj",
+    "Łaba",
+    "Sekwana"
+   ]
+  },
+  {
+   "id": "geomko-7-044",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Ren uchodzi do morza {{deltą}}, a Sekwana i Tamiza – estuariami.",
+   "hint": "Holandia",
+   "explanation": "Przy ujściu Renu leży Rotterdam – największy port Europy.",
+   "distractors": [
+    "estuarium",
+    "zalewem",
+    "fiordem"
+   ]
+  },
+  {
+   "id": "geomko-7-045",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Jaki port przy ujściu Renu jest największy w Europie?",
+   "answer": "Rotterdam",
+   "explanation": "Leży w delcie Renu w Holandii.",
+   "distractors": [
+    "Hamburg",
+    "Antwerpia",
+    "Marsylia"
+   ]
+  },
+  {
+   "id": "geomko-7-046",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad którą rzeką leżą Praga (na dopływie Wełtawie), Drezno i Hamburg?",
+   "answer": "Łaba",
+   "accept": [
+    "Łabą"
+   ],
+   "explanation": "Łaba ma źródła w Karkonoszach i uchodzi estuarium do Morza Północnego.",
+   "distractors": [
+    "Ren",
+    "Odra",
+    "Dunaj"
+   ]
+  },
+  {
+   "id": "geomko-7-047",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka jest najdłuższa we Francji?",
+   "answer": "Loara",
+   "explanation": "Ma 1012 km, wypływa z Masywu Centralnego; słynie z zamków.",
+   "distractors": [
+    "Sekwana",
+    "Rodan",
+    "Garonna"
+   ]
+  },
+  {
+   "id": "geomko-7-048",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad którą rzeką leży Paryż?",
+   "answer": "Sekwana",
+   "accept": [
+    "Sekwaną"
+   ],
+   "explanation": "Sekwana uchodzi estuarium do kanału La Manche koło Hawru.",
+   "distractors": [
+    "Loara",
+    "Rodan",
+    "Tamiza"
+   ]
+  },
+  {
+   "id": "geomko-7-049",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka jest najdłuższa na Półwyspie Iberyjskim?",
+   "answer": "Tag",
+   "explanation": "Uchodzi estuarium do Atlantyku w Lizbonie.",
+   "distractors": [
+    "Ebro",
+    "Duero",
+    "Gwadalkiwir"
+   ]
+  },
+  {
+   "id": "geomko-7-050",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka jest najdłuższa we Włoszech?",
+   "answer": "Pad",
+   "explanation": "Uchodzi deltą do Adriatyku.",
+   "distractors": [
+    "Tyber",
+    "Arno",
+    "Adyga"
+   ]
+  },
+  {
+   "id": "geomko-7-051",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 2,
+   "kind": "region",
+   "type": "qa",
+   "question": "Jak nazywa się delta Rodanu we Francji?",
+   "answer": "Camargue",
+   "explanation": "Rodan wypływa z Alp, przepływa przez Jezioro Genewskie i Lyon.",
+   "distractors": [
+    "Prowansja",
+    "Bretania",
+    "Akwitania"
+   ]
+  },
+  {
+   "id": "geomko-7-052",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad którą rzeką leżą Kijów i Zaporoże?",
+   "answer": "Dniepr",
+   "accept": [
+    "Dnieprem"
+   ],
+   "explanation": "Dniepr uchodzi do Morza Czarnego.",
+   "distractors": [
+    "Dniestr",
+    "Don",
+    "Wołga"
+   ]
+  },
+  {
+   "id": "geomko-7-053",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Do jakiego morza uchodzi Don?",
+   "answer": "Morze Azowskie",
+   "accept": [
+    "Azowskie",
+    "do Morza Azowskiego"
+   ],
+   "explanation": "U ujścia Donu leży Rostów.",
+   "distractors": [
+    "Morze Czarne",
+    "Morze Kaspijskie",
+    "Morze Białe"
+   ]
+  },
+  {
+   "id": "geomko-7-054",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Nad którą rzeką leży Skopje (Macedonia Północna)?",
+   "answer": "Wardar",
+   "explanation": "Wardar uchodzi do Zatoki Termajskiej w Grecji.",
+   "distractors": [
+    "Sawa",
+    "Drina",
+    "Marica"
+   ]
+  },
+  {
+   "id": "geomko-7-055",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Które rzeki wyznaczają umowną północną granicę Półwyspu Bałkańskiego?",
+   "answer": "Dunaj i Sawa",
+   "accept": [
+    "Dunaj, Sawa i Kupa",
+    "Sawa i Dunaj"
+   ],
+   "explanation": "Sawa wpada do Dunaju w Belgradzie.",
+   "distractors": [
+    "Dunaj i Drawa",
+    "Sawa i Wardar",
+    "Dniestr i Prut"
+   ]
+  },
+  {
+   "id": "geomko-7-056",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Odra została skrócona regulacją. Ile ma dziś kilometrów?",
+   "answer": "854 km",
+   "accept": [
+    "854",
+    "ok. 854 km"
+   ],
+   "explanation": "Przed regulacją miała ok. 1020 km; wypływa w Czechach, uchodzi do Zalewu Szczecińskiego.",
+   "distractors": [
+    "1047 km",
+    "1094 km",
+    "1020 km"
+   ]
+  },
+  {
+   "id": "geomko-7-057",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Rzeki Europy",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka jest najdłuższa w zlewisku Morza Bałtyckiego?",
+   "answer": "Wisła",
+   "explanation": "Ma 1047 km; wypływa z Baraniej Góry.",
+   "distractors": [
+    "Odra",
+    "Niemen",
+    "Dźwina"
+   ]
+  },
+  {
+   "id": "geomko-7-058",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Które jezioro jest największe w Europie (poza Morzem Kaspijskim)?",
+   "answer": "Ładoga",
+   "accept": [
+    "Jezioro Ładoga"
+   ],
+   "explanation": "Ma 17,7 tys. km² i leży w Rosji.",
+   "distractors": [
+    "Onega",
+    "Wener",
+    "Balaton"
+   ]
+  },
+  {
+   "id": "geomko-7-059",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Które jezioro jest największe w Unii Europejskiej?",
+   "answer": "Wener",
+   "accept": [
+    "Vänern"
+   ],
+   "explanation": "Ma 5,6 tys. km² i leży w Szwecji.",
+   "distractors": [
+    "Saimaa",
+    "Balaton",
+    "Garda"
+   ]
+  },
+  {
+   "id": "geomko-7-060",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Które jezioro jest największe w Europie Środkowej?",
+   "answer": "Balaton",
+   "explanation": "Leży na Węgrzech, jest płytkie (ok. 3 m) i turystyczne.",
+   "distractors": [
+    "Bodeńskie",
+    "Genewskie",
+    "Śniardwy"
+   ]
+  },
+  {
+   "id": "geomko-7-061",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Które jezioro leży na pograniczu Niemiec, Austrii i Szwajcarii?",
+   "answer": "Jezioro Bodeńskie",
+   "accept": [
+    "Bodeńskie"
+   ],
+   "explanation": "Przepływa przez nie Ren.",
+   "distractors": [
+    "Jezioro Genewskie",
+    "Garda",
+    "Como"
+   ]
+  },
+  {
+   "id": "geomko-7-062",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Przez które jezioro przepływa Rodan?",
+   "answer": "Jezioro Genewskie",
+   "accept": [
+    "Genewskie",
+    "Lemańskie",
+    "Jezioro Lemańskie"
+   ],
+   "explanation": "Leży w Szwajcarii i Francji.",
+   "distractors": [
+    "Jezioro Bodeńskie",
+    "Garda",
+    "Balaton"
+   ]
+  },
+  {
+   "id": "geomko-7-063",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Które jezioro jest najstarsze w Europie (UNESCO)?",
+   "answer": "Ochrydzkie",
+   "accept": [
+    "Jezioro Ochrydzkie"
+   ],
+   "explanation": "Leży w Macedonii Północnej i Albanii.",
+   "distractors": [
+    "Prespa",
+    "Szkoderskie",
+    "Ładoga"
+   ]
+  },
+  {
+   "id": "geomko-7-064",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Które jezioro na Bałkanach leży w trzech państwach (Macedonia Pn., Albania, Grecja)?",
+   "answer": "Prespa",
+   "accept": [
+    "Jezioro Prespa"
+   ],
+   "explanation": "Z tych państw Macedonia Północna nie ma dostępu do morza.",
+   "distractors": [
+    "Ochrydzkie",
+    "Szkoderskie",
+    "Balaton"
+   ]
+  },
+  {
+   "id": "geomko-7-065",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 2,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Które jezioro jest największe na Bałkanach?",
+   "answer": "Szkoderskie",
+   "accept": [
+    "Jezioro Szkoderskie"
+   ],
+   "explanation": "Leży w Albanii i Czarnogórze.",
+   "distractors": [
+    "Ochrydzkie",
+    "Prespa",
+    "Balaton"
+   ]
+  },
+  {
+   "id": "geomko-7-066",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo nazywa się „krajem tysięcy jezior”?",
+   "answer": "Finlandia",
+   "explanation": "Ma ok. 188 tys. jezior; największe to Saimaa.",
+   "distractors": [
+    "Szwecja",
+    "Norwegia",
+    "Estonia"
+   ]
+  },
+  {
+   "id": "geomko-7-067",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Które morze jest najpłytsze na świecie (ok. 14 m)?",
+   "answer": "Morze Azowskie",
+   "accept": [
+    "Azowskie"
+   ],
+   "explanation": "Łączy się z Morzem Czarnym przez Cieśninę Kerczeńską.",
+   "distractors": [
+    "Morze Bałtyckie",
+    "Morze Północne",
+    "Morze Białe"
+   ]
+  },
+  {
+   "id": "geomko-7-068",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Morze Bałtyckie jest morzem śródlądowym, słabo zasolonym – ok. {{7‰ / 7 promili}}.",
+   "hint": "mniej niż 1%",
+   "explanation": "Średnie zasolenie oceanu to ok. 35‰.",
+   "distractors": [
+    "35‰",
+    "1‰",
+    "20‰"
+   ]
+  },
+  {
+   "id": "geomko-7-069",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Które morze europejskie jest szelfowe i ma złoża ropy i gazu?",
+   "answer": "Morze Północne",
+   "accept": [
+    "Północne"
+   ],
+   "explanation": "Norwegia czerpie dochody z ropy z Morza Północnego.",
+   "distractors": [
+    "Morze Bałtyckie",
+    "Morze Barentsa",
+    "Morze Czarne"
+   ]
+  },
+  {
+   "id": "geomko-7-070",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Która cieśnina łączy Morze Czarne z Morzem Marmara?",
+   "answer": "Bosfor",
+   "explanation": "Dardanele łączą Morze Marmara z Egejskim; obie należą do Turcji.",
+   "distractors": [
+    "Dardanele",
+    "Cieśnina Kerczeńska",
+    "Cieśnina Gibraltarska"
+   ]
+  },
+  {
+   "id": "geomko-7-071",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Jak nazywa się najwęższa część kanału La Manche (Dover, 32 km), pod którą biegnie Eurotunel?",
+   "answer": "Cieśnina Kaletańska",
+   "accept": [
+    "Kaletańska",
+    "Cieśnina Dover",
+    "Pas de Calais"
+   ],
+   "explanation": "Eurotunel łączy Wielką Brytanię z Francją.",
+   "distractors": [
+    "Sund",
+    "Skagerrak",
+    "Cieśnina Mesyńska"
+   ]
+  },
+  {
+   "id": "geomko-7-072",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Która cieśnina oddziela Danię od Szwecji (most Kopenhaga–Malmö)?",
+   "answer": "Sund",
+   "accept": [
+    "Øresund",
+    "Oresund"
+   ],
+   "explanation": "Most i tunel łączą Kopenhagę z Malmö.",
+   "distractors": [
+    "Skagerrak",
+    "Kattegat",
+    "Wielki Bełt"
+   ]
+  },
+  {
+   "id": "geomko-7-073",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 1,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Która cieśnina oddziela Sycylię od Półwyspu Apenińskiego?",
+   "answer": "Cieśnina Mesyńska",
+   "accept": [
+    "Mesyńska"
+   ],
+   "explanation": "Cieśnina Bonifacio oddziela Korsykę od Sardynii.",
+   "distractors": [
+    "Cieśnina Otranto",
+    "Cieśnina Bonifacio",
+    "Bosfor"
+   ]
+  },
+  {
+   "id": "geomko-7-074",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Jeziora i morza",
+   "priority": 2,
+   "kind": "morze lub cieśnina",
+   "type": "qa",
+   "question": "Która cieśnina oddziela Korsykę od Sardynii?",
+   "answer": "Cieśnina Bonifacio",
+   "accept": [
+    "Bonifacio"
+   ],
+   "explanation": "Korsyka należy do Francji, Sardynia do Włoch.",
+   "distractors": [
+    "Cieśnina Mesyńska",
+    "Cieśnina Otranto",
+    "Cieśnina Gibraltarska"
+   ]
+  },
+  {
+   "id": "geomko-7-075",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "wyspa",
+   "type": "qa",
+   "question": "Która wyspa jest największa w Europie?",
+   "answer": "Wielka Brytania",
+   "explanation": "Ma ok. 219 tys. km²; druga jest Islandia (103 tys.), trzecia Irlandia.",
+   "distractors": [
+    "Islandia",
+    "Irlandia",
+    "Sycylia"
+   ]
+  },
+  {
+   "id": "geomko-7-076",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "wyspa",
+   "type": "qa",
+   "question": "Która wyspa jest największa na Morzu Śródziemnym?",
+   "answer": "Sycylia",
+   "explanation": "Ma 25,7 tys. km² i należy do Włoch; kolejne: Sardynia, Cypr, Korsyka, Kreta.",
+   "distractors": [
+    "Sardynia",
+    "Cypr",
+    "Kreta"
+   ]
+  },
+  {
+   "id": "geomko-7-077",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż wyspy Morza Śródziemnego od największej",
+   "steps": [
+    "Sycylia",
+    "Sardynia",
+    "Cypr",
+    "Korsyka",
+    "Kreta"
+   ],
+   "explanation": "Sycylia ma 25,7 tys. km²."
+  },
+  {
+   "id": "geomko-7-078",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "wyspa",
+   "type": "qa",
+   "question": "Na której wyspie urodził się Napoleon?",
+   "answer": "Korsyka",
+   "accept": [
+    "na Korsyce"
+   ],
+   "explanation": "Korsyka (stolica Ajaccio) należy do Francji i ma autonomię; jej symbolem jest Głowa Maura.",
+   "distractors": [
+    "Sardynia",
+    "Sycylia",
+    "Elba"
+   ]
+  },
+  {
+   "id": "geomko-7-079",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "wyspa",
+   "type": "qa",
+   "question": "Na której wyspie leżą Syrakuzy, miasto Archimedesa?",
+   "answer": "Sycylia",
+   "accept": [
+    "na Sycylii"
+   ],
+   "explanation": "Na Sycylii jest też Etna.",
+   "distractors": [
+    "Kreta",
+    "Sardynia",
+    "Cypr"
+   ]
+  },
+  {
+   "id": "geomko-7-080",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "wyspa",
+   "type": "qa",
+   "question": "Na której wyspie rozwijała się kultura minojska (Knossos, Heraklion)?",
+   "answer": "Kreta",
+   "accept": [
+    "na Krecie"
+   ],
+   "explanation": "Na Krecie nie ma czynnego wulkanu.",
+   "distractors": [
+    "Cypr",
+    "Rodos",
+    "Sycylia"
+   ]
+  },
+  {
+   "id": "geomko-7-081",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Do którego państwa należy Sardynia?",
+   "answer": "Włochy",
+   "accept": [
+    "Włoch",
+    "do Włoch"
+   ],
+   "explanation": "Stolica wyspy to Cagliari.",
+   "distractors": [
+    "Francja",
+    "Hiszpania",
+    "Grecja"
+   ]
+  },
+  {
+   "id": "geomko-7-082",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Do którego państwa należy Svalbard (Spitsbergen)?",
+   "answer": "Norwegia",
+   "accept": [
+    "Norwegii",
+    "do Norwegii"
+   ],
+   "explanation": "Do Norwegii należy też Jan Mayen.",
+   "distractors": [
+    "Dania",
+    "Islandia",
+    "Rosja"
+   ]
+  },
+  {
+   "id": "geomko-7-083",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Do którego państwa należą Wyspy Owcze?",
+   "answer": "Dania",
+   "accept": [
+    "Danii",
+    "do Danii"
+   ],
+   "explanation": "To terytorium autonomiczne, podobnie jak Grenlandia.",
+   "distractors": [
+    "Norwegia",
+    "Islandia",
+    "Wielka Brytania"
+   ]
+  },
+  {
+   "id": "geomko-7-084",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Do którego państwa należą Wyspy Alandzkie?",
+   "answer": "Finlandia",
+   "accept": [
+    "Finlandii",
+    "do Finlandii"
+   ],
+   "explanation": "Leżą między Szwecją a Finlandią.",
+   "distractors": [
+    "Szwecja",
+    "Estonia",
+    "Dania"
+   ]
+  },
+  {
+   "id": "geomko-7-085",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Do którego państwa należą Madera i Azory?",
+   "answer": "Portugalia",
+   "accept": [
+    "Portugalii",
+    "do Portugalii"
+   ],
+   "explanation": "Wyspy Kanaryjskie należą do Hiszpanii (leżą przy Afryce).",
+   "distractors": [
+    "Hiszpania",
+    "Wielka Brytania",
+    "Francja"
+   ]
+  },
+  {
+   "id": "geomko-7-086",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Do którego państwa należy Bornholm?",
+   "answer": "Dania",
+   "accept": [
+    "Danii",
+    "do Danii"
+   ],
+   "explanation": "Bornholm leży na Bałtyku na wschód od Zelandii.",
+   "distractors": [
+    "Szwecja",
+    "Niemcy",
+    "Polska"
+   ]
+  },
+  {
+   "id": "geomko-7-087",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "wyspa",
+   "type": "qa",
+   "question": "Na której wyspie leży Kopenhaga?",
+   "answer": "Zelandia",
+   "accept": [
+    "na Zelandii"
+   ],
+   "explanation": "Dania to Półwysep Jutlandzki i ok. 400 wysp.",
+   "distractors": [
+    "Fionia",
+    "Bornholm",
+    "Gotlandia"
+   ]
+  },
+  {
+   "id": "geomko-7-088",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "kontynent",
+   "trap": true,
+   "type": "cloze",
+   "text": "Cypr leży geograficznie w {{Azji}}, ale politycznie należy do Unii Europejskiej.",
+   "hint": "kontynent",
+   "explanation": "Podobnie Grenlandia leży w Ameryce Północnej, a politycznie należy do Danii.",
+   "distractors": [
+    "Afryce",
+    "Europie",
+    "Australii"
+   ]
+  },
+  {
+   "id": "geomko-7-089",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "półwysep",
+   "type": "qa",
+   "question": "Który półwysep jest największy w Europie (ok. 800 tys. km²)?",
+   "answer": "Skandynawski",
+   "accept": [
+    "Półwysep Skandynawski"
+   ],
+   "explanation": "Leżą na nim Norwegia i Szwecja.",
+   "distractors": [
+    "Iberyjski",
+    "Bałkański",
+    "Apeniński"
+   ]
+  },
+  {
+   "id": "geomko-7-090",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "półwysep",
+   "type": "qa",
+   "question": "Na jakim półwyspie leży kontynentalna część Danii?",
+   "answer": "Jutlandzki",
+   "accept": [
+    "Jutlandia",
+    "Półwysep Jutlandzki"
+   ],
+   "explanation": "Reszta Danii to ok. 400 wysp.",
+   "distractors": [
+    "Skandynawski",
+    "Kolski",
+    "Bretoński"
+   ]
+  },
+  {
+   "id": "geomko-7-091",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "półwysep",
+   "type": "qa",
+   "question": "Na którym półwyspie leży Murmańsk?",
+   "answer": "Kolski",
+   "accept": [
+    "Półwysep Kolski"
+   ],
+   "explanation": "Murmańsk nie zamarza dzięki ciepłemu prądowi.",
+   "distractors": [
+    "Krymski",
+    "Jutlandzki",
+    "Skandynawski"
+   ]
+  },
+  {
+   "id": "geomko-7-092",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Wyspy i półwyspy",
+   "priority": 1,
+   "kind": "półwysep",
+   "type": "qa",
+   "question": "Jak nazywa się półwysep na południu Grecji?",
+   "answer": "Peloponez",
+   "explanation": "Inne greckie półwyspy: Chalkidiki.",
+   "distractors": [
+    "Chalkidiki",
+    "Kalabria",
+    "Krym"
+   ]
+  },
+  {
+   "id": "geomko-7-093",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Klimat Europy",
+   "priority": 1,
+   "kind": "kierunek",
+   "trap": true,
+   "type": "cloze",
+   "text": "Kontynentalizm termiczny w Europie rośnie ku {{wschodowi / wschodowi kontynentu}}: im dalej od Atlantyku, tym większa amplituda roczna temperatury.",
+   "hint": "nie ku północy",
+   "explanation": "Zima w Moskwie jest mroźniejsza niż w Tromsø (69°N) na wybrzeżu Norwegii.",
+   "distractors": [
+    "północy",
+    "południowi",
+    "zachodowi"
+   ]
+  },
+  {
+   "id": "geomko-7-094",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Klimat Europy",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż miasta od najmniejszej do największej amplitudy rocznej temperatury",
+   "steps": [
+    "Brest",
+    "Warszawa",
+    "Moskwa",
+    "Kazań"
+   ],
+   "explanation": "Amplituda rośnie z oddalaniem się od Atlantyku: Brest ok. 10°C, Kazań ponad 30°C."
+  },
+  {
+   "id": "geomko-7-095",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Klimat Europy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Na wschód od Atlantyku suma opadów {{maleje / zmniejsza się}}, a rośnie udział opadów letnich.",
+   "hint": "kontynentalizm",
+   "explanation": "Słabnie łagodzący wpływ oceanu i wiatrów zachodnich.",
+   "distractors": [
+    "rośnie",
+    "nie zmienia się",
+    "podwaja się"
+   ]
+  },
+  {
+   "id": "geomko-7-096",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Klimat Europy",
+   "priority": 2,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które miasto na wybrzeżu Norwegii ma ponad 2000 mm opadów rocznie?",
+   "answer": "Bergen",
+   "explanation": "Najmniej opadów w Europie: Nizina Nadkaspijska i Almería w Hiszpanii.",
+   "distractors": [
+    "Oslo",
+    "Tromsø",
+    "Sztokholm"
+   ]
+  },
+  {
+   "id": "geomko-7-097",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Klimat Europy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedną przyczynę łagodnych zim w Europie Zachodniej.",
+   "answer": "ciepły Prąd Północnoatlantycki",
+   "accept": [
+    "wiatry zachodnie znad Atlantyku",
+    "Prąd Północnoatlantycki",
+    "wiatry zachodnie"
+   ],
+   "explanation": "Inne przyczyny kontynentalizmu: brak barier górskich o przebiegu południkowym i rozległość lądu na wschodzie.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-098",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Na jakiej formie dna oceanicznego leży Islandia?",
+   "answer": "Grzbiet Śródatlantycki",
+   "accept": [
+    "grzbiet śródoceaniczny",
+    "Śródatlantycki"
+   ],
+   "explanation": "Na Islandii rozsuwają się płyty północnoamerykańska i eurazjatycka.",
+   "distractors": [
+    "Rów Mariański",
+    "szelf",
+    "Grzbiet Łomonosowa"
+   ]
+  },
+  {
+   "id": "geomko-7-099",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Na Islandii płyty litosfery się rozsuwają – to strefa {{ryftu / ryft}}, a nie subdukcji.",
+   "hint": "dolina Thingvellir",
+   "explanation": "Płyty oddalają się o ok. 2 cm na rok, a magma wypełnia szczelinę.",
+   "distractors": [
+    "subdukcji",
+    "kolizji",
+    "uskoku przesuwczego"
+   ]
+  },
+  {
+   "id": "geomko-7-100",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "stolica",
+   "type": "qa",
+   "question": "Jak nazywa się stolica Islandii – najdalej na północ położona stolica świata?",
+   "answer": "Reykjavik",
+   "accept": [
+    "Reykjavík"
+   ],
+   "explanation": "Leży na ok. 64°N.",
+   "distractors": [
+    "Oslo",
+    "Helsinki",
+    "Nuuk"
+   ]
+  },
+  {
+   "id": "geomko-7-101",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Który islandzki wulkan wstrzymał w 2010 r. ruch lotniczy w Europie?",
+   "answer": "Eyjafjallajökull",
+   "accept": [
+    "Eyjafjallajokull"
+   ],
+   "explanation": "Inne wulkany: Hekla, Katla, Grímsvötn; seria erupcji na półwyspie Reykjanes 2023–2025.",
+   "distractors": [
+    "Hekla",
+    "Etna",
+    "Katla"
+   ]
+  },
+  {
+   "id": "geomko-7-102",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "lodowiec",
+   "type": "qa",
+   "question": "Jak nazywa się największy lodowiec Europy (ok. 8 tys. km²)?",
+   "answer": "Vatnajökull",
+   "accept": [
+    "Vatnajokull"
+   ],
+   "explanation": "Leży na Islandii; erupcje pod lodem dają powodzie lodowcowe (jökulhlaup).",
+   "distractors": [
+    "Aletsch",
+    "Jostedalsbreen",
+    "Eyjafjallajökull"
+   ]
+  },
+  {
+   "id": "geomko-7-103",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Jak nazywa się gorące źródło wyrzucające okresowo słup wody (np. Strokkur)?",
+   "answer": "gejzer",
+   "accept": [
+    "gejzery"
+   ],
+   "explanation": "Nazwa pochodzi od islandzkiego Geysiru.",
+   "distractors": [
+    "wulkan",
+    "fumarola",
+    "jökulhlaup"
+   ]
+  },
+  {
+   "id": "geomko-7-104",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "qa",
+   "question": "Z jakich źródeł Islandia czerpie prawie 100% energii elektrycznej?",
+   "answer": "odnawialnych",
+   "accept": [
+    "z OZE",
+    "OZE",
+    "wodne i geotermalne",
+    "odnawialne"
+   ],
+   "explanation": "Ok. 70% z hydroelektrowni, 30% z geotermii; ok. 90% domów ogrzewa woda geotermalna.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-105",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Tania energia na Islandii przyciąga huty {{aluminium}}.",
+   "hint": "lekki metal",
+   "explanation": "Energia pochodzi z hydroelektrowni i geotermii.",
+   "distractors": [
+    "stali",
+    "miedzi",
+    "złota"
+   ]
+  },
+  {
+   "id": "geomko-7-106",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Islandia",
+   "priority": 1,
+   "kind": "roślina lub zwierzę",
+   "type": "qa",
+   "question": "Jaka ryba jest głównym towarem eksportowym Islandii?",
+   "answer": "dorsz",
+   "accept": [
+    "dorsze"
+   ],
+   "explanation": "Islandia nie należy do UE (jest w EFTA, EOG, Schengen i NATO).",
+   "distractors": [
+    "łosoś",
+    "śledź",
+    "tuńczyk"
+   ]
+  },
+  {
+   "id": "geomko-7-107",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Alpy",
+   "priority": 1,
+   "kind": "lodowiec",
+   "type": "qa",
+   "question": "Jak nazywa się największy lodowiec Alp (23 km)?",
+   "answer": "Aletsch",
+   "accept": [
+    "Lodowiec Aletsch"
+   ],
+   "explanation": "Lodowce przemodelowały Alpy: doliny U-kształtne, kotły, granie.",
+   "distractors": [
+    "Vatnajökull",
+    "Mer de Glace",
+    "Jostedalsbreen"
+   ]
+  },
+  {
+   "id": "geomko-7-108",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Alpy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Doliny wyżłobione przez lodowce mają przekrój w kształcie litery {{U}}.",
+   "hint": "kształt",
+   "explanation": "Doliny rzeczne mają przekrój w kształcie V.",
+   "distractors": [
+    "V",
+    "L",
+    "W"
+   ]
+  },
+  {
+   "id": "geomko-7-109",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Alpy",
+   "priority": 1,
+   "kind": "zjawisko",
+   "type": "qa",
+   "question": "Jak nazywa się ciepły, suchy wiatr wiejący z gór (w Tatrach – halny)?",
+   "answer": "fen",
+   "accept": [
+    "wiatr fenowy",
+    "halny"
+   ],
+   "explanation": "Występuje w Alpach i Tatrach.",
+   "distractors": [
+    "pasat",
+    "monsun",
+    "bryza"
+   ]
+  },
+  {
+   "id": "geomko-7-110",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Alpy",
+   "priority": 1,
+   "kind": "obiekt",
+   "type": "qa",
+   "question": "Jak nazywa się najdłuższy kolejowy tunel świata (57 km) w Alpach?",
+   "answer": "tunel Gotarda",
+   "accept": [
+    "Gotarda",
+    "Gotthard",
+    "tunel św. Gotarda"
+   ],
+   "explanation": "Alpy przecinają też tunel pod Mont Blanc i przełęcze (Brenner, Wielka św. Bernarda, Simplon).",
+   "distractors": [
+    "Eurotunel",
+    "tunel Mont Blanc",
+    "tunel Simplon"
+   ]
+  },
+  {
+   "id": "geomko-7-111",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Alpy",
+   "priority": 3,
+   "kind": "obiekt",
+   "type": "qa",
+   "question": "Jak nazywa się przełęcz w Alpach na granicy Austrii i Włoch?",
+   "answer": "Brenner",
+   "accept": [
+    "Przełęcz Brennera"
+   ],
+   "explanation": "Prowadzi przez nią ważny szlak z Niemiec do Włoch.",
+   "distractors": [
+    "Simplon",
+    "Wielka św. Bernarda",
+    "Żelazna Brama"
+   ]
+  },
+  {
+   "id": "geomko-7-112",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Alpy",
+   "priority": 2,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się wypas bydła latem na wysokogórskich łąkach?",
+   "answer": "wypas sezonowy",
+   "accept": [
+    "pasterstwo sezonowe",
+    "wypas na halach",
+    "transhumancja"
+   ],
+   "explanation": "Z mleka robi się sery, np. ementaler i gruyère.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-113",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Alpy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Podaj jedno zagrożenie dla środowiska Alp.",
+   "answer": "topnienie lodowców",
+   "accept": [
+    "lawiny",
+    "erozja stoków narciarskich"
+   ],
+   "explanation": "Zagrożeniami są lawiny, topnienie lodowców i erozja stoków narciarskich.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-114",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "qa",
+   "question": "Które państwa Półwyspu Bałkańskiego nie mają dostępu do morza?",
+   "answer": "Serbia, Macedonia Północna, Kosowo",
+   "accept": [
+    "Serbia, Kosowo, Macedonia Północna"
+   ],
+   "explanation": "Słowenia ma 47 km wybrzeża, a Bośnia i Hercegowina 20 km (Neum).",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-115",
+   "category": "geomko_europe_nature",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 2,
+   "kind": "wartość",
+   "trap": true,
+   "type": "qa",
+   "question": "Ile kilometrów wybrzeża ma Bośnia i Hercegowina (miasto Neum)?",
+   "answer": "ok. 20 km",
+   "accept": [
+    "20 km",
+    "20"
+   ],
+   "explanation": "Słowenia ma ok. 47 km wybrzeża.",
+   "distractors": [
+    "ok. 47 km",
+    "ok. 200 km",
+    "0 km"
+   ]
+  },
+  {
+   "id": "geomko-7-116",
+   "category": "geomko_europe_nature",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 2,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Na jakie państwa rozpadła się w 1993 r. Czechosłowacja?",
+   "answer": "Czechy i Słowacja",
+   "accept": [
+    "Czechy, Słowacja"
+   ],
+   "explanation": "Jugosławia rozpadała się od 1991 r.",
+   "distractors": [
+    "Czechy i Morawy",
+    "Słowacja i Węgry",
+    "Czechy i Austria"
+   ]
+  },
+  {
+   "id": "geomko-7-117",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 2,
+   "kind": "data",
+   "type": "qa",
+   "question": "Kiedy Macedonia zmieniła nazwę na Macedonię Północną?",
+   "answer": "w 2019 r.",
+   "accept": [
+    "2019",
+    "2019 r."
+   ],
+   "explanation": "Zmiana nastąpiła pod naciskiem Grecji.",
+   "distractors": [
+    "w 2008 r.",
+    "w 1991 r.",
+    "w 2013 r."
+   ]
+  },
+  {
+   "id": "geomko-7-118",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo ogłosiło niepodległość w 2008 r. jako ostatnie z byłej Jugosławii?",
+   "answer": "Kosowo",
+   "explanation": "Czarnogóra odłączyła się od Serbii w 2006 r.",
+   "distractors": [
+    "Czarnogóra",
+    "Macedonia Północna",
+    "Bośnia i Hercegowina"
+   ]
+  },
+  {
+   "id": "geomko-7-119",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "W którym państwie Bałkanów islam wyznaje ok. 95% mieszkańców?",
+   "answer": "Kosowo",
+   "explanation": "Islam dominuje też w Albanii i Bośni i Hercegowinie.",
+   "distractors": [
+    "Albania",
+    "Bośnia i Hercegowina",
+    "Bułgaria"
+   ]
+  },
+  {
+   "id": "geomko-7-120",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwa byłej Jugosławii mają dostęp do Adriatyku (poza Bośnią i Hercegowiną)?",
+   "answer": "Słowenia, Chorwacja, Czarnogóra",
+   "accept": [
+    "Słowenia, Chorwacja i Czarnogóra"
+   ],
+   "explanation": "Bośnia i Hercegowina ma tylko ok. 20 km wybrzeża.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-7-121",
+   "category": "geomko_europe_nature",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 7 · Bałkany",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwa bałkańskie mają dostęp do Morza Czarnego?",
+   "answer": "Bułgaria, Rumunia, Turcja",
+   "accept": [
+    "Bułgaria, Rumunia i Turcja"
+   ],
+   "explanation": "Grecja leży nad Morzem Egejskim i Jońskim.",
+   "quiz_suitable": false
   }
  ]
 }
