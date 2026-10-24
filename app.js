@@ -242,6 +242,16 @@
     geo7_services:    { subject: 'geografia_sp7', label: 'Usługi i transport', short: 'Usługi', pl: 'transport, turystyka, handel', icon: '🚆' },
     geo7_regions:     { subject: 'geografia_sp7', label: 'Regiony Polski', short: 'Regiony', pl: 'relacje człowiek–środowisko', icon: '🗺️' },
     geo7_other:       { subject: 'geografia_sp7', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
+    // Konkurs geograficzny MKO 2026/27 (etap szkolny; działy = sekcje 4–11 opracowania)
+    geomko_earth:         { subject: 'geografia_mko', label: 'Ruchy Ziemi i oświetlenie', short: 'Ruchy Ziemi', pl: 'czas, pory roku, górowanie Słońca', icon: '🌍' },
+    geomko_map:           { subject: 'geografia_mko', label: 'Mapa, skala, współrzędne', short: 'Mapa', pl: 'skala, poziomice, lądy i oceany', icon: '🧭' },
+    geomko_climate:       { subject: 'geografia_mko', label: 'Strefy klimatyczne i krajobrazy', short: 'Klimat', pl: 'klimatogramy, krajobrazy świata', icon: '🌦️' },
+    geomko_europe_nature: { subject: 'geografia_mko', label: 'Europa: środowisko', short: 'Europa – przyroda', pl: 'góry, rzeki, wyspy, wybrzeża', icon: '🏔️' },
+    geomko_europe_people: { subject: 'geografia_mko', label: 'Europa: państwa, ludność, UE', short: 'Europa – państwa', pl: 'stolice, UE, gospodarka', icon: '🏛️' },
+    geomko_neighbours:    { subject: 'geografia_mko', label: 'Sąsiedzi Polski', short: 'Sąsiedzi', pl: 'Niemcy, Czechy, Słowacja, Litwa, Białoruś, Ukraina, Rosja', icon: '🤝' },
+    geomko_explorers:     { subject: 'geografia_mko', label: 'Wielkie odkrycia geograficzne', short: 'Odkrycia', pl: 'Kolumb, da Gama, Magellan, Ameryka Pn.', icon: '⛵' },
+    geomko_usa_canada:    { subject: 'geografia_mko', label: 'USA i Kanada', short: 'USA i Kanada', pl: 'środowisko, stany, miasta', icon: '🗽' },
+    geomko_other:         { subject: 'geografia_mko', label: 'Inne', short: 'Inne', pl: 'pozostałe', icon: '📘' },
     // Niemiecki (słówka; podpis po polsku, pl = temat po niemiecku)
     de7_people:       { subject: 'niemiecki_sp7', label: 'Człowiek', short: 'Człowiek', pl: 'der Mensch', icon: '🧑' },
     de7_family:       { subject: 'niemiecki_sp7', label: 'Rodzina i przyjaciele', short: 'Rodzina', pl: 'Familie und Freunde', icon: '👨‍👩‍👧' },
@@ -332,6 +342,7 @@
     polski_sp7: { label: 'Polski', icon: '📖', tagline: 'Lektury, gramatyka i pojęcia', file: 'data/polski-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'pol7_other' },
     historia_sp7: { label: 'Historia', icon: '📜', tagline: 'XIX wiek i dwudziestolecie: daty i pojęcia', file: 'data/historia-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'his7_other' },
     geografia_sp7: { label: 'Geografia', icon: '🗺️', tagline: 'Geografia Polski', file: 'data/geografia-7.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geo7_other' },
+    geografia_mko: { label: 'Konkurs geograficzny', icon: '🏆', tagline: 'MKO 2026/27 · etap szkolny 29.10', file: 'data/geografia-mko.json', lang: 'pl', types: ['qa', 'cloze'], defaultType: 'qa', defaultCategory: 'geomko_other' },
     niemiecki_sp7: {
       label: 'Niemiecki', icon: '🥨', tagline: 'Słówka i zwroty z niemieckiego', file: 'data/niemiecki-7.json', lang: 'de-pl', vocab: true,
       types: ['awl_word', 'qa', 'cloze'], defaultType: 'awl_word', defaultCategory: 'de7_other', typeLabels: { awl_word: 'Słówko' },
@@ -363,7 +374,7 @@
     sp7: {
       label: '7 klasa szkoły podstawowej',
       subjects: ['english_sp7', 'biologia_sp7', 'matematyka_sp7', 'polski_sp7', 'niemiecki_sp7', 'chemia_sp7', 'fizyka_sp7',
-        'historia_sp7', 'geografia_sp7', 'informatyka_sp7', 'edukacja_zdrowotna_sp7'],
+        'historia_sp7', 'geografia_sp7', 'geografia_mko', 'informatyka_sp7', 'edukacja_zdrowotna_sp7'],
       audience: 'uczeń 7 klasy polskiej szkoły podstawowej (podstawa programowa)',
     },
   };

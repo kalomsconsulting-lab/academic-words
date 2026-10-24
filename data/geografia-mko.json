@@ -1,0 +1,4046 @@
+{
+ "version": 1,
+ "subject": "geografia_mko",
+ "updated": "2026-10-24",
+ "source": "Opracowanie: Konkurs geograficzny MKO 2026/27 — etap szkolny (program merytoryczny z 9.09.2026, analiza arkuszy etapu szkolnego 2019–2025)",
+ "exam": {
+  "date": "2026-10-29",
+  "time": "09:00",
+  "points": 40,
+  "minutes": 90
+ },
+ "weights": {
+  "geomko_earth": 12,
+  "geomko_map": 15,
+  "geomko_climate": 18,
+  "geomko_europe_nature": 20,
+  "geomko_europe_people": 18,
+  "geomko_neighbours": 7,
+  "geomko_explorers": 7,
+  "geomko_usa_canada": 3
+ },
+ "kinds": [
+  "data",
+  "forma rzeźby",
+  "godzina",
+  "góry",
+  "jezioro",
+  "kierunek",
+  "kontynent",
+  "kąt",
+  "miasto",
+  "ocean",
+  "odkrywca",
+  "państwo",
+  "pojęcie",
+  "przylądek",
+  "ruch Ziemi",
+  "rzeka",
+  "równoleżnik",
+  "skala",
+  "strefa",
+  "szczyt",
+  "typ wybrzeża",
+  "wartość",
+  "współrzędne",
+  "wyspa",
+  "zatoka"
+ ],
+ "items": [
+  {
+   "id": "geomko-4-001",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się obrót Ziemi wokół własnej osi?",
+   "answer": "ruch obrotowy",
+   "accept": [
+    "rotacja",
+    "obrotowy"
+   ],
+   "explanation": "Pełny obrót względem Słońca trwa 24 h (doba słoneczna).",
+   "distractors": [
+    "ruch obiegowy",
+    "rewolucja",
+    "precesja"
+   ]
+  },
+  {
+   "id": "geomko-4-002",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się obieg Ziemi wokół Słońca?",
+   "answer": "ruch obiegowy",
+   "accept": [
+    "rewolucja",
+    "obiegowy"
+   ],
+   "explanation": "Ziemia obiega Słońce po orbicie eliptycznej w ciągu roku.",
+   "distractors": [
+    "ruch obrotowy",
+    "rotacja",
+    "precesja"
+   ]
+  },
+  {
+   "id": "geomko-4-003",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "kierunek",
+   "type": "cloze",
+   "text": "Ziemia obraca się wokół własnej osi z {{zachodu na wschód}}.",
+   "hint": "kierunek",
+   "explanation": "Dlatego Słońce pozornie wędruje ze wschodu na zachód.",
+   "distractors": [
+    "wschodu na zachód",
+    "północy na południe",
+    "południa na północ"
+   ]
+  },
+  {
+   "id": "geomko-4-004",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile trwa doba gwiazdowa, czyli obrót Ziemi względem gwiazd?",
+   "answer": "23 h 56 min 4 s",
+   "accept": [
+    "23 h 56 min",
+    "23h56min",
+    "23 godziny 56 minut"
+   ],
+   "explanation": "Doba słoneczna (względem Słońca) trwa 24 h.",
+   "distractors": [
+    "24 h",
+    "23 h 50 min",
+    "24 h 4 min"
+   ]
+  },
+  {
+   "id": "geomko-4-005",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Ruch obiegowy trwa 365 dni {{5 h 49 min / 5 godzin 49 minut}}.",
+   "hint": "ponad 365 dni",
+   "explanation": "Te dodatkowe godziny sumują się w rok przestępny co 4 lata.",
+   "distractors": [
+    "6 h 12 min",
+    "4 h 11 min",
+    "2 h 30 min"
+   ]
+  },
+  {
+   "id": "geomko-4-006",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Ponieważ ruch obiegowy trwa ponad 365 dni, co 4 lata mamy rok {{przestępny}}.",
+   "hint": "dodatkowy dzień",
+   "explanation": "Nadmiar ok. 6 h rocznie po 4 latach daje jeden dzień (29 lutego).",
+   "distractors": [
+    "zwrotny",
+    "polarny",
+    "gwiazdowy"
+   ]
+  },
+  {
+   "id": "geomko-4-007",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "trap": true,
+   "type": "cloze",
+   "text": "Oś ziemska jest nachylona do płaszczyzny orbity pod kątem {{66°33'}}.",
+   "hint": "kąt do płaszczyzny orbity",
+   "explanation": "66°33' to nachylenie do płaszczyzny orbity, a 23°27' to odchylenie od prostopadłej.",
+   "distractors": [
+    "23°27'",
+    "90°",
+    "45°"
+   ]
+  },
+  {
+   "id": "geomko-4-008",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "trap": true,
+   "type": "cloze",
+   "text": "Oś ziemska jest odchylona od prostopadłej do płaszczyzny orbity o {{23°27'}} – tyle samo wynosi szerokość geograficzna zwrotników.",
+   "hint": "kąt do prostopadłej",
+   "explanation": "Pułapka: nie myl z kątem 66°33' (nachylenie do płaszczyzny orbity).",
+   "distractors": [
+    "66°33'",
+    "30°",
+    "21°"
+   ]
+  },
+  {
+   "id": "geomko-4-009",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Na którą gwiazdę wskazuje oś ziemska?",
+   "answer": "Gwiazdę Polarną",
+   "accept": [
+    "Gwiazda Polarna",
+    "Polarna",
+    "Polarną"
+   ],
+   "explanation": "Oś zachowuje stały kierunek w przestrzeni, co jest przyczyną pór roku.",
+   "distractors": [
+    "Syriusza",
+    "Wegę",
+    "Betelgezę"
+   ]
+  },
+  {
+   "id": "geomko-4-010",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się moment, w którym Słońce jest najwyżej nad horyzontem?",
+   "answer": "górowanie Słońca",
+   "accept": [
+    "górowanie"
+   ],
+   "explanation": "To lokalne południe słoneczne (12:00 czasu słonecznego); w Polsce Słońce góruje zawsze po południowej stronie nieba.",
+   "distractors": [
+    "zenit",
+    "przesilenie",
+    "równonoc"
+   ]
+  },
+  {
+   "id": "geomko-4-011",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się punkt na niebie dokładnie nad głową obserwatora?",
+   "answer": "zenit",
+   "explanation": "Słońce może górować w zenicie tylko między zwrotnikami.",
+   "distractors": [
+    "nadir",
+    "horyzont",
+    "górowanie"
+   ]
+  },
+  {
+   "id": "geomko-4-012",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Słońce może górować w zenicie tylko {{między zwrotnikami / w strefie międzyzwrotnikowej}}.",
+   "hint": "strefa oświetlenia",
+   "explanation": "Poza zwrotnikami promienie nigdy nie padają pionowo.",
+   "distractors": [
+    "między kołami podbiegunowymi",
+    "na biegunach",
+    "w strefach umiarkowanych"
+   ]
+  },
+  {
+   "id": "geomko-4-013",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się czas wyznaczony przez górowanie Słońca, jednakowy dla wszystkich punktów na tym samym południku?",
+   "answer": "czas słoneczny",
+   "accept": [
+    "czas miejscowy",
+    "słoneczny",
+    "miejscowy"
+   ],
+   "explanation": "Czas strefowy jest za to jednolity dla całej strefy szerokiej na 15°.",
+   "distractors": [
+    "czas strefowy",
+    "czas urzędowy",
+    "czas uniwersalny"
+   ]
+  },
+  {
+   "id": "geomko-4-014",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Strefa czasowa ma szerokość {{15°}} długości geograficznej, a wszystkich stref jest 24.",
+   "hint": "liczba stopni",
+   "explanation": "360° : 24 h = 15° na godzinę.",
+   "distractors": [
+    "10°",
+    "30°",
+    "1°"
+   ]
+  },
+  {
+   "id": "geomko-4-015",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Wzdłuż którego południka w przybliżeniu biegnie międzynarodowa linia zmiany daty?",
+   "answer": "180°",
+   "accept": [
+    "180",
+    "południk 180°",
+    "180 stopni"
+   ],
+   "explanation": "To linia łamana przez Ocean Spokojny, omijająca wyspy i państwa.",
+   "distractors": [
+    "0°",
+    "90°W",
+    "150°E"
+   ]
+  },
+  {
+   "id": "geomko-4-016",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "data",
+   "type": "cloze",
+   "text": "Równonoc wiosenna (na półkuli północnej) przypada {{21 marca / 21 III / 21.03}}.",
+   "hint": "data",
+   "explanation": "W dniu równonocy dzień i noc trwają po 12 h na całej Ziemi.",
+   "distractors": [
+    "22 czerwca",
+    "23 września",
+    "22 grudnia"
+   ]
+  },
+  {
+   "id": "geomko-4-017",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "data",
+   "type": "cloze",
+   "text": "Równonoc jesienna przypada {{23 września / 23 IX / 23.09}}.",
+   "hint": "data",
+   "explanation": "Słońce góruje wtedy w zenicie nad równikiem.",
+   "distractors": [
+    "21 marca",
+    "22 czerwca",
+    "22 grudnia"
+   ]
+  },
+  {
+   "id": "geomko-4-018",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "data",
+   "type": "cloze",
+   "text": "Przesilenie letnie na półkuli północnej przypada {{22 czerwca / 22 VI / 22.06}}.",
+   "hint": "najdłuższy dzień",
+   "explanation": "Na półkuli północnej to najdłuższy dzień w roku.",
+   "distractors": [
+    "21 marca",
+    "23 września",
+    "22 grudnia"
+   ]
+  },
+  {
+   "id": "geomko-4-019",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "data",
+   "type": "cloze",
+   "text": "Przesilenie zimowe na półkuli północnej przypada {{22 grudnia / 22 XII / 22.12}}.",
+   "hint": "najkrótszy dzień",
+   "explanation": "Na półkuli północnej to najkrótszy dzień w roku.",
+   "distractors": [
+    "21 marca",
+    "22 czerwca",
+    "23 września"
+   ]
+  },
+  {
+   "id": "geomko-4-020",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Definicje",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Dni i noce polarne występują od {{kół podbiegunowych / koła podbiegunowego / 66°33'}} do biegunów.",
+   "hint": "szerokość 66°33'",
+   "explanation": "Dzień polarny: Słońce nie zachodzi przez co najmniej 24 h; noc polarna: nie wschodzi.",
+   "distractors": [
+    "zwrotników",
+    "równika",
+    "45. równoleżnika"
+   ]
+  },
+  {
+   "id": "geomko-4-021",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 2,
+   "type": "order",
+   "prompt": "Ułóż planety Układu Słonecznego od najbliższej Słońcu",
+   "steps": [
+    "Merkury",
+    "Wenus",
+    "Ziemia",
+    "Mars",
+    "Jowisz",
+    "Saturn",
+    "Uran",
+    "Neptun"
+   ],
+   "explanation": "Cztery planety skaliste, potem cztery olbrzymy."
+  },
+  {
+   "id": "geomko-4-022",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile wynosi średnia odległość Ziemi od Słońca?",
+   "answer": "ok. 150 mln km",
+   "accept": [
+    "150 mln km",
+    "150 milionów km",
+    "1 j.a.",
+    "1 jednostka astronomiczna",
+    "150 mln"
+   ],
+   "explanation": "Ta odległość to 1 jednostka astronomiczna.",
+   "distractors": [
+    "ok. 384 tys. km",
+    "ok. 108 mln km",
+    "ok. 228 mln km"
+   ]
+  },
+  {
+   "id": "geomko-4-023",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 1,
+   "kind": "data",
+   "trap": true,
+   "type": "qa",
+   "question": "Kiedy Ziemia jest najbliżej Słońca (peryhelium)?",
+   "answer": "ok. 3 stycznia",
+   "accept": [
+    "3 stycznia",
+    "na początku stycznia",
+    "w styczniu"
+   ],
+   "explanation": "Zimą na półkuli północnej Ziemia jest bliżej Słońca; aphelium (ok. 152 mln km) wypada ok. 4 lipca.",
+   "distractors": [
+    "ok. 4 lipca",
+    "ok. 21 marca",
+    "ok. 22 czerwca"
+   ]
+  },
+  {
+   "id": "geomko-4-024",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Pory roku wynikają z {{nachylenia osi ziemskiej / nachylenia osi}}, a nie z odległości Ziemi od Słońca.",
+   "hint": "oś",
+   "explanation": "Zimą na półkuli północnej Ziemia jest nawet bliżej Słońca niż latem.",
+   "distractors": [
+    "zmiany odległości od Słońca",
+    "eliptycznej orbity",
+    "ruchu obrotowego"
+   ]
+  },
+  {
+   "id": "geomko-4-025",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile wynosi obwód równika?",
+   "answer": "ok. 40 075 km",
+   "accept": [
+    "40 075 km",
+    "40075 km",
+    "40 000 km",
+    "40 tys. km",
+    "40075"
+   ],
+   "explanation": "Najdłuższym równoleżnikiem jest równik.",
+   "distractors": [
+    "ok. 20 000 km",
+    "ok. 12 756 km",
+    "ok. 6378 km"
+   ]
+  },
+  {
+   "id": "geomko-4-026",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile wynosi prędkość liniowa ruchu obrotowego na równiku?",
+   "answer": "ok. 1670 km/h",
+   "accept": [
+    "1670 km/h",
+    "1670"
+   ],
+   "explanation": "Prędkość maleje ku biegunom, bo równoleżniki są coraz krótsze.",
+   "distractors": [
+    "ok. 835 km/h",
+    "ok. 30 km/s",
+    "ok. 111 km/h"
+   ]
+  },
+  {
+   "id": "geomko-4-027",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 2,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Na szerokości 60° prędkość liniowa ruchu obrotowego jest {{dwa razy mniejsza / 2 razy mniejsza}} niż na równiku.",
+   "hint": "porównaj z równikiem",
+   "explanation": "Równoleżnik 60° jest dwa razy krótszy od równika, a obrót trwa tyle samo.",
+   "distractors": [
+    "dwa razy większa",
+    "taka sama",
+    "trzy razy mniejsza"
+   ]
+  },
+  {
+   "id": "geomko-4-028",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 3,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Z jaką prędkością Ziemia obiega Słońce?",
+   "answer": "ok. 30 km/s",
+   "accept": [
+    "30 km/s",
+    "30"
+   ],
+   "explanation": "To prędkość ruchu obiegowego, nie obrotowego.",
+   "distractors": [
+    "ok. 3 km/s",
+    "ok. 300 km/s",
+    "ok. 1670 km/s"
+   ]
+  },
+  {
+   "id": "geomko-4-029",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 2,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się rzeczywisty kształt Ziemi?",
+   "answer": "geoida",
+   "explanation": "Ziemia jest spłaszczona przy biegunach na skutek ruchu obrotowego.",
+   "distractors": [
+    "kula",
+    "elipsa",
+    "ekliptyka"
+   ]
+  },
+  {
+   "id": "geomko-4-030",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Promień biegunowy Ziemi (6357 km) jest krótszy od równikowego (6378 km), bo Ziemia jest spłaszczona na skutek {{ruchu obrotowego / rotacji}}.",
+   "hint": "który ruch?",
+   "explanation": "Spłaszczenie wywołuje siła odśrodkowa obracającej się Ziemi.",
+   "distractors": [
+    "ruchu obiegowego",
+    "nachylenia osi",
+    "przyciągania Księżyca"
+   ]
+  },
+  {
+   "id": "geomko-4-031",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ziemia w Układzie Słonecznym",
+   "priority": 3,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile trwa obieg Księżyca wokół Ziemi?",
+   "answer": "27,3 doby",
+   "accept": [
+    "27,3 dnia",
+    "27.3",
+    "27,3"
+   ],
+   "explanation": "Fazy Księżyca powtarzają się co ok. 29,5 doby; Księżyc jest ok. 384 tys. km od Ziemi.",
+   "distractors": [
+    "29,5 doby",
+    "24 h",
+    "365 dni"
+   ]
+  },
+  {
+   "id": "geomko-4-032",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "kierunek",
+   "type": "cloze",
+   "text": "Siła Coriolisa odchyla ciała poruszające się na półkuli północnej w {{prawo}}, a na południowej w lewo.",
+   "hint": "strona",
+   "explanation": "To skutek ruchu obrotowego; wpływa na kierunek wiatrów i prądów morskich.",
+   "distractors": [
+    "lewo",
+    "kierunku równika",
+    "kierunku bieguna"
+   ]
+  },
+  {
+   "id": "geomko-4-033",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Następstwo dnia i nocy jest skutkiem ruchu {{obrotowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obrotowy odpowiada za zjawiska dobowe i fizyczne skutki obrotu: dzień i noc, czas słoneczny, spłaszczenie Ziemi, siłę Coriolisa.",
+   "distractors": [
+    "obiegowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-034",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "trap": true,
+   "type": "cloze",
+   "text": "Spłaszczenie Ziemi przy biegunach jest skutkiem ruchu {{obrotowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obrotowy odpowiada za zjawiska dobowe i fizyczne skutki obrotu: dzień i noc, czas słoneczny, spłaszczenie Ziemi, siłę Coriolisa.",
+   "distractors": [
+    "obiegowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-035",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "trap": true,
+   "type": "cloze",
+   "text": "Siła Coriolisa jest skutkiem ruchu {{obrotowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obrotowy odpowiada za zjawiska dobowe i fizyczne skutki obrotu: dzień i noc, czas słoneczny, spłaszczenie Ziemi, siłę Coriolisa.",
+   "distractors": [
+    "obiegowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-036",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Różnice czasu słonecznego między południkami są skutkiem ruchu {{obrotowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obrotowy odpowiada za zjawiska dobowe i fizyczne skutki obrotu: dzień i noc, czas słoneczny, spłaszczenie Ziemi, siłę Coriolisa.",
+   "distractors": [
+    "obiegowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-037",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Pozorna wędrówka Słońca po niebie w ciągu dnia jest skutkiem ruchu {{obrotowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obrotowy odpowiada za zjawiska dobowe i fizyczne skutki obrotu: dzień i noc, czas słoneczny, spłaszczenie Ziemi, siłę Coriolisa.",
+   "distractors": [
+    "obiegowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-038",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "trap": true,
+   "type": "cloze",
+   "text": "Nocne polowania nietoperzy i lisów są skutkiem ruchu {{obrotowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obrotowy odpowiada za zjawiska dobowe i fizyczne skutki obrotu: dzień i noc, czas słoneczny, spłaszczenie Ziemi, siłę Coriolisa.",
+   "distractors": [
+    "obiegowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-039",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Otwieranie się kwiatów rano jest skutkiem ruchu {{obrotowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obrotowy odpowiada za zjawiska dobowe i fizyczne skutki obrotu: dzień i noc, czas słoneczny, spłaszczenie Ziemi, siłę Coriolisa.",
+   "distractors": [
+    "obiegowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-040",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Astronomiczne pory roku są skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-041",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Zmiana długości dnia i nocy w ciągu roku jest skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-042",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Występowanie dni i nocy polarnych jest skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-043",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Sen zimowy niedźwiedzi i świstaków jest skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-044",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "trap": true,
+   "type": "cloze",
+   "text": "Odloty bocianów i żurawi na zimę są skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-045",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Kwitnienie wiśni w Tokio na przełomie marca i kwietnia jest skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-046",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Migracje antylop gnu w Serengeti są skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-047",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Ruch obrotowy – następstwa",
+   "priority": 1,
+   "kind": "ruch Ziemi",
+   "type": "cloze",
+   "text": "Sezonowe zmiany cen truskawek są skutkiem ruchu {{obiegowego}} Ziemi.",
+   "hint": "obrotowy czy obiegowy?",
+   "explanation": "Ruch obiegowy odpowiada za zjawiska roczne: pory roku, zmiany długości dnia, sezonowość w przyrodzie i gospodarce.",
+   "distractors": [
+    "obrotowego"
+   ],
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-048",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "O ile minut różni się czas słoneczny na dwóch południkach oddalonych o 1°?",
+   "answer": "4 minuty",
+   "accept": [
+    "4 min",
+    "4",
+    "o 4 minuty"
+   ],
+   "explanation": "360° w 24 h, czyli 15° na godzinę i 1° na 4 minuty (15' = 1 minuta).",
+   "distractors": [
+    "1 minutę",
+    "15 minut",
+    "60 minut"
+   ]
+  },
+  {
+   "id": "geomko-4-049",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "O ile stopni długości geograficznej „przesuwa się” górowanie Słońca w ciągu 1 godziny?",
+   "answer": "15°",
+   "accept": [
+    "15",
+    "15 stopni"
+   ],
+   "explanation": "360° : 24 h = 15° na godzinę.",
+   "distractors": [
+    "1°",
+    "4°",
+    "30°"
+   ]
+  },
+  {
+   "id": "geomko-4-050",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "kierunek",
+   "type": "cloze",
+   "text": "Punkt położony dalej na {{wschód}} ma zawsze późniejszy czas słoneczny.",
+   "hint": "kierunek",
+   "explanation": "Słońce wschodzi tam wcześniej, bo Ziemia obraca się z zachodu na wschód.",
+   "distractors": [
+    "zachód",
+    "północ",
+    "południe"
+   ]
+  },
+  {
+   "id": "geomko-4-051",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "type": "apply",
+   "situation": "W Warszawie (21°E) jest 12:00 czasu słonecznego. Jak obliczysz godzinę w Lizbonie (9°W)?",
+   "rule": "dodaj długości (różne półkule), zamień na czas i odejmij, bo Lizbona leży na zachód",
+   "wrong": [
+    "odejmij długości i dodaj czas",
+    "dodaj długości i dodaj czas",
+    "odejmij długości i odejmij czas"
+   ],
+   "explanation": "21° + 9° = 30° = 2 h; Lizbona leży na zachód, więc jest tam 10:00."
+  },
+  {
+   "id": "geomko-4-052",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Jak obliczysz różnicę czasu słonecznego między Poznaniem (17°E) a Lublinem (23°E)?",
+   "rule": "odejmij długości (ta sama półkula) i pomnóż przez 4 min",
+   "wrong": [
+    "dodaj długości i pomnóż przez 4 min",
+    "odejmij długości i podziel przez 4",
+    "dodaj długości i podziel przez 15"
+   ],
+   "explanation": "23° − 17° = 6°, 6 × 4 min = 24 min; w Lublinie jest później."
+  },
+  {
+   "id": "geomko-4-053",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "godzina",
+   "type": "qa",
+   "question": "W Warszawie (21°E) jest 12:00 czasu słonecznego. Która godzina jest wtedy w Nowym Jorku (74°W)?",
+   "answer": "5:40",
+   "accept": [
+    "05:40",
+    "5.40",
+    "5 40"
+   ],
+   "explanation": "21° + 74° = 95° = 6 h 20 min; Nowy Jork leży na zachód, więc 12:00 − 6:20 = 5:40.",
+   "distractors": [
+    "6:20",
+    "18:20",
+    "17:40"
+   ]
+  },
+  {
+   "id": "geomko-4-054",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "godzina",
+   "type": "qa",
+   "question": "W Tokio (140°E) jest 20:00 czasu słonecznego. Która godzina jest wtedy w Lizbonie (9°W)?",
+   "answer": "10:04",
+   "accept": [
+    "10.04",
+    "10 04"
+   ],
+   "explanation": "140° + 9° = 149° = 9 h 56 min; Lizbona leży na zachód: 20:00 − 9:56 = 10:04.",
+   "distractors": [
+    "9:56",
+    "11:04",
+    "6:04"
+   ]
+  },
+  {
+   "id": "geomko-4-055",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "godzina",
+   "type": "qa",
+   "question": "Na południku 0° jest 12:00 czasu słonecznego. Która godzina jest wtedy na południku 31°E (Kair)?",
+   "answer": "14:04",
+   "accept": [
+    "14.04",
+    "14 04"
+   ],
+   "explanation": "31° × 4 min = 124 min = 2 h 4 min; na wschodzie jest później.",
+   "distractors": [
+    "9:56",
+    "14:31",
+    "13:04"
+   ]
+  },
+  {
+   "id": "geomko-4-056",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "godzina",
+   "type": "qa",
+   "question": "Na południku 45°E jest 8:00 czasu słonecznego. Która godzina jest wtedy na południku 30°W?",
+   "answer": "3:00",
+   "accept": [
+    "03:00",
+    "3.00",
+    "3"
+   ],
+   "explanation": "45° + 30° = 75° = 5 h; południk 30°W leży na zachód, więc 8:00 − 5 h = 3:00.",
+   "distractors": [
+    "13:00",
+    "5:00",
+    "1:00"
+   ]
+  },
+  {
+   "id": "geomko-4-057",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "godzina",
+   "type": "qa",
+   "question": "Na południku 150°E jest 2:00 czasu słonecznego, 1 listopada. Jaki dzień i godzina są wtedy na południku 60°E?",
+   "answer": "20:00, 31 października",
+   "accept": [
+    "31 października 20:00",
+    "20:00 31 października",
+    "20:00 31 X",
+    "31.10 20:00",
+    "20:00, 31.10"
+   ],
+   "explanation": "150° − 60° = 90° = 6 h; na zachód odejmujemy: 2:00 − 6 h = 20:00 poprzedniego dnia.",
+   "distractors": [
+    "8:00, 1 listopada",
+    "20:00, 1 listopada",
+    "8:00, 31 października"
+   ]
+  },
+  {
+   "id": "geomko-4-058",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "W dniu równonocy o kolejności wschodu Słońca decyduje wyłącznie {{długość geograficzna}}: najwcześniej Słońce wschodzi w punkcie położonym najdalej na wschód.",
+   "hint": "współrzędna",
+   "explanation": "W równonoc dzień trwa wszędzie 12 h, więc szerokość geograficzna nie ma znaczenia.",
+   "distractors": [
+    "szerokość geograficzna",
+    "wysokość n.p.m.",
+    "odległość od morza"
+   ]
+  },
+  {
+   "id": "geomko-4-059",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Na którym południku opiera się czas środkowoeuropejski (CET), obowiązujący w Polsce zimą?",
+   "answer": "15°E",
+   "accept": [
+    "15 E",
+    "15°",
+    "południk 15°E",
+    "15"
+   ],
+   "explanation": "CET to UTC+1; latem Polska ma czas CEST, czyli UTC+2.",
+   "distractors": [
+    "21°E",
+    "0°",
+    "30°E"
+   ]
+  },
+  {
+   "id": "geomko-4-060",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Obliczanie czasu",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Jaką strefą UTC jest czas letni w Polsce (CEST)?",
+   "answer": "UTC+2",
+   "accept": [
+    "UTC +2",
+    "+2",
+    "UTC + 2"
+   ],
+   "explanation": "Obowiązuje od ostatniej niedzieli marca do ostatniej niedzieli października; zimą jest UTC+1.",
+   "distractors": [
+    "UTC+1",
+    "UTC+3",
+    "UTC+0"
+   ]
+  },
+  {
+   "id": "geomko-4-061",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Linia zmiany daty",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Przekraczając linię zmiany daty z Ameryki do Azji (płynąc na zachód), przesuwamy datę o jeden dzień {{do przodu / naprzód}}.",
+   "hint": "dodajemy czy odejmujemy?",
+   "explanation": "Z Azji do Ameryki datę cofamy o jeden dzień.",
+   "distractors": [
+    "wstecz",
+    "o dwa dni do przodu",
+    "o pół dnia"
+   ]
+  },
+  {
+   "id": "geomko-4-062",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Linia zmiany daty",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Podróżny przekracza linię zmiany daty z Hawajów do Japonii w środę 1 października. Jaki jest dzień po przekroczeniu?",
+   "answer": "czwartek 2 października",
+   "accept": [
+    "czwartek",
+    "2 października",
+    "czwartek, 2 października"
+   ],
+   "explanation": "Z Ameryki do Azji przesuwamy datę o dzień do przodu.",
+   "distractors": [
+    "wtorek 30 września",
+    "środa 1 października",
+    "piątek 3 października"
+   ]
+  },
+  {
+   "id": "geomko-4-063",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Linia zmiany daty",
+   "priority": 3,
+   "kind": "państwo",
+   "type": "qa",
+   "question": "Które państwo jako pierwsze wita Nowy Rok (wyspy Line, UTC+14)?",
+   "answer": "Kiribati",
+   "explanation": "Wcześnie Nowy Rok witają też Samoa i Nowa Zelandia; najpóźniej wyspy Howland i Baker oraz Samoa Amerykańskie.",
+   "distractors": [
+    "Japonia",
+    "Australia",
+    "Chile"
+   ]
+  },
+  {
+   "id": "geomko-4-064",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Linia zmiany daty",
+   "priority": 2,
+   "kind": "odkrywca",
+   "type": "qa",
+   "question": "Która wyprawa jako pierwsza doświadczyła „zgubionego dnia” po opłynięciu Ziemi?",
+   "answer": "wyprawa Magellana–Elcano",
+   "accept": [
+    "Magellana",
+    "Magellan",
+    "Elcano",
+    "Magellana i Elcano",
+    "Magellana-Elcano"
+   ],
+   "explanation": "Wyprawa (1519–1522) płynęła na zachód i po powrocie miała w dzienniku o jeden dzień mniej; później to samo spotkało Drake'a.",
+   "distractors": [
+    "wyprawa Kolumba",
+    "wyprawa Vasco da Gamy",
+    "wyprawa Cooka"
+   ]
+  },
+  {
+   "id": "geomko-4-065",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "równoleżnik",
+   "type": "cloze",
+   "text": "22 czerwca promienie słoneczne padają prostopadle na {{zwrotnik Raka}}.",
+   "hint": "równoleżnik 23°27'N",
+   "explanation": "W ten dzień na półkuli północnej jest najdłuższy dzień, a od koła podbiegunowego N do bieguna – dzień polarny.",
+   "distractors": [
+    "zwrotnik Koziorożca",
+    "równik",
+    "koło podbiegunowe północne"
+   ]
+  },
+  {
+   "id": "geomko-4-066",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "równoleżnik",
+   "type": "cloze",
+   "text": "22 grudnia Słońce góruje w zenicie nad {{zwrotnikiem Koziorożca}}.",
+   "hint": "równoleżnik 23°27'S",
+   "explanation": "Wtedy od koła podbiegunowego N do bieguna N panuje noc polarna.",
+   "distractors": [
+    "zwrotnikiem Raka",
+    "równikiem",
+    "kołem podbiegunowym południowym"
+   ]
+  },
+  {
+   "id": "geomko-4-067",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "równoleżnik",
+   "type": "cloze",
+   "text": "W dniach równonocy Słońce góruje w zenicie nad {{równikiem}}.",
+   "hint": "równoleżnik 0°",
+   "explanation": "Dzień i noc trwają wtedy po 12 h na całej Ziemi.",
+   "distractors": [
+    "zwrotnikiem Raka",
+    "zwrotnikiem Koziorożca",
+    "kołem podbiegunowym"
+   ]
+  },
+  {
+   "id": "geomko-4-068",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Gdzie panuje noc polarna 22 grudnia?",
+   "answer": "za kołem podbiegunowym północnym",
+   "accept": [
+    "od koła podbiegunowego północnego do bieguna",
+    "w Arktyce",
+    "za północnym kołem podbiegunowym"
+   ],
+   "explanation": "Na półkuli południowej za kołem podbiegunowym trwa wtedy dzień polarny.",
+   "distractors": [
+    "za kołem podbiegunowym południowym",
+    "między zwrotnikami",
+    "na równiku"
+   ]
+  },
+  {
+   "id": "geomko-4-069",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "W dniach równonocy terminator (granica dnia i nocy) przechodzi przez {{oba bieguny / bieguny}}.",
+   "hint": "skrajne punkty osi",
+   "explanation": "Dzieli wtedy każdy równoleżnik na pół, więc dzień trwa wszędzie 12 h.",
+   "distractors": [
+    "oba zwrotniki",
+    "koła podbiegunowe",
+    "równik"
+   ]
+  },
+  {
+   "id": "geomko-4-070",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "data",
+   "type": "qa",
+   "question": "Na którym schemacie oświetlenia Ziemi (22 VI czy 22 XII) terminator pozostawia biegun północny w cieniu?",
+   "answer": "22 XII",
+   "accept": [
+    "22 grudnia",
+    "22.12"
+   ],
+   "explanation": "22 grudnia półkula północna jest odchylona od Słońca.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-071",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile trwa dzień w Warszawie 22 czerwca?",
+   "answer": "ok. 16,5 h",
+   "accept": [
+    "16,5 h",
+    "16.5",
+    "16,5",
+    "16 h 30 min",
+    "16,5 godziny"
+   ],
+   "explanation": "Latem dzień wydłuża się wraz z szerokością geograficzną.",
+   "distractors": [
+    "ok. 7,7 h",
+    "12 h",
+    "ok. 20 h"
+   ]
+  },
+  {
+   "id": "geomko-4-072",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile trwa dzień w Warszawie 22 grudnia?",
+   "answer": "ok. 7,7 h",
+   "accept": [
+    "7,7 h",
+    "7.7",
+    "7,7",
+    "7 h 42 min",
+    "7,7 godziny"
+   ],
+   "explanation": "Zimą dzień skraca się wraz z szerokością geograficzną.",
+   "distractors": [
+    "ok. 16,5 h",
+    "12 h",
+    "ok. 4 h"
+   ]
+  },
+  {
+   "id": "geomko-4-073",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile trwa dzień na równiku?",
+   "answer": "12 h",
+   "accept": [
+    "12 godzin",
+    "12",
+    "zawsze 12 h"
+   ],
+   "explanation": "Na równiku długość dnia nie zmienia się w ciągu roku.",
+   "distractors": [
+    "24 h",
+    "16 h",
+    "6 h"
+   ]
+  },
+  {
+   "id": "geomko-4-074",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Oświetlenie Ziemi",
+   "priority": 1,
+   "kind": "miasto",
+   "type": "qa",
+   "question": "Które miasto ma 22 grudnia krótszy dzień: Kamień Pomorski (54°N) czy Białka Tatrzańska (49,4°N)?",
+   "answer": "Kamień Pomorski",
+   "accept": [
+    "Kamień"
+   ],
+   "explanation": "Zimą na półkuli północnej dzień skraca się wraz ze wzrostem szerokości geograficznej (skutek ruchu obiegowego).",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-075",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Oblicz wysokość górowania Słońca 22 czerwca w Krakowie (50°N).",
+   "rule": "$$h = 90^\\circ - \\varphi + 23^\\circ 27'$$",
+   "wrong": [
+    "$$h = 90^\\circ - \\varphi$$",
+    "$$h = 90^\\circ - \\varphi - 23^\\circ 27'$$",
+    "$$h = \\varphi + 23^\\circ 27'$$"
+   ],
+   "explanation": "22 czerwca deklinacja Słońca wynosi +23°27', więc ją dodajemy."
+  },
+  {
+   "id": "geomko-4-076",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Oblicz wysokość górowania Słońca 22 grudnia w Gdańsku (54°N).",
+   "rule": "$$h = 90^\\circ - \\varphi - 23^\\circ 27'$$",
+   "wrong": [
+    "$$h = 90^\\circ - \\varphi + 23^\\circ 27'$$",
+    "$$h = 90^\\circ - \\varphi$$",
+    "$$h = \\varphi - 23^\\circ 27'$$"
+   ],
+   "explanation": "22 grudnia deklinacja Słońca wynosi −23°27', więc ją odejmujemy."
+  },
+  {
+   "id": "geomko-4-077",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Oblicz wysokość górowania Słońca 21 marca w Poznaniu (52°N).",
+   "rule": "$$h = 90^\\circ - \\varphi$$",
+   "wrong": [
+    "$$h = 90^\\circ - \\varphi + 23^\\circ 27'$$",
+    "$$h = 90^\\circ - \\varphi - 23^\\circ 27'$$",
+    "$$h = 90^\\circ + \\varphi$$"
+   ],
+   "explanation": "W dniu równonocy deklinacja Słońca wynosi 0°."
+  },
+  {
+   "id": "geomko-4-078",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz wysokość górowania Słońca w Krakowie (50°N) 22 czerwca.",
+   "answer": "63°27'",
+   "accept": [
+    "63°27",
+    "63° 27'",
+    "63,45°",
+    "63,45",
+    "63.45"
+   ],
+   "explanation": "90° − 50° + 23°27' = 63°27'.",
+   "distractors": [
+    "40°",
+    "16°33'",
+    "66°33'"
+   ]
+  },
+  {
+   "id": "geomko-4-079",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz wysokość górowania Słońca w Warszawie (52°N) 22 grudnia.",
+   "answer": "14°33'",
+   "accept": [
+    "14°33",
+    "14° 33'",
+    "14,55°",
+    "14,55"
+   ],
+   "explanation": "90° − 52° − 23°27' = 14°33'.",
+   "distractors": [
+    "61°27'",
+    "38°",
+    "23°27'"
+   ]
+  },
+  {
+   "id": "geomko-4-080",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz wysokość górowania Słońca w Warszawie (52°N) 21 marca.",
+   "answer": "38°",
+   "accept": [
+    "38",
+    "38 stopni"
+   ],
+   "explanation": "W równonoc: 90° − 52° = 38°.",
+   "distractors": [
+    "52°",
+    "61°27'",
+    "14°33'"
+   ]
+  },
+  {
+   "id": "geomko-4-081",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz wysokość górowania Słońca w Gdańsku (54°N) 22 czerwca.",
+   "answer": "59°27'",
+   "accept": [
+    "59°27",
+    "59° 27'",
+    "59,45°",
+    "59,45"
+   ],
+   "explanation": "90° − 54° + 23°27' = 59°27'.",
+   "distractors": [
+    "36°",
+    "12°33'",
+    "66°33'"
+   ]
+  },
+  {
+   "id": "geomko-4-082",
+   "category": "geomko_earth",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz wysokość górowania Słońca w Zakopanem (49°N) 22 grudnia.",
+   "answer": "17°33'",
+   "accept": [
+    "17°33",
+    "17° 33'",
+    "17,55°",
+    "17,55"
+   ],
+   "explanation": "90° − 49° − 23°27' = 17°33'.",
+   "distractors": [
+    "64°27'",
+    "41°",
+    "25°33'"
+   ]
+  },
+  {
+   "id": "geomko-4-083",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "cloze",
+   "text": "Poza strefą międzyzwrotnikową różnica wysokości górowania Słońca między 22 czerwca a 22 grudnia wynosi zawsze {{46°54'}}.",
+   "hint": "dwa razy 23°27'",
+   "explanation": "2 × 23°27' = 46°54'.",
+   "distractors": [
+    "23°27'",
+    "66°33'",
+    "90°"
+   ]
+  },
+  {
+   "id": "geomko-4-084",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Wysokość górowania Słońca",
+   "priority": 1,
+   "kind": "kąt",
+   "trap": true,
+   "type": "cloze",
+   "text": "W Polsce Słońce nigdy nie góruje w zenicie; najwyżej, na ok. {{64°}}, góruje w Tatrach 22 czerwca.",
+   "hint": "kąt",
+   "explanation": "Polska leży na północ od zwrotnika Raka, więc promienie nigdy nie padają tu pionowo.",
+   "distractors": [
+    "90°",
+    "52°",
+    "74°"
+   ]
+  },
+  {
+   "id": "geomko-4-085",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Strefy oświetlenia",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile razy w roku Słońce góruje w zenicie w strefie międzyzwrotnikowej (poza samymi zwrotnikami)?",
+   "answer": "dwa razy",
+   "accept": [
+    "2 razy",
+    "2",
+    "dwukrotnie"
+   ],
+   "explanation": "Na samych zwrotnikach – raz w roku.",
+   "distractors": [
+    "raz",
+    "ani razu",
+    "cztery razy"
+   ]
+  },
+  {
+   "id": "geomko-4-086",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Strefy oświetlenia",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Na zwrotnikach Słońce góruje w zenicie {{raz}} w roku.",
+   "hint": "ile razy?",
+   "explanation": "Zwrotnik Raka – 22 czerwca, zwrotnik Koziorożca – 22 grudnia.",
+   "distractors": [
+    "dwa razy",
+    "ani razu",
+    "cztery razy"
+   ]
+  },
+  {
+   "id": "geomko-4-087",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Strefy oświetlenia",
+   "priority": 1,
+   "kind": "strefa",
+   "type": "qa",
+   "question": "W której strefie oświetlenia leży Polska?",
+   "answer": "umiarkowanej północnej",
+   "accept": [
+    "umiarkowanej",
+    "umiarkowana",
+    "strefa umiarkowana",
+    "umiarkowana północna"
+   ],
+   "explanation": "Strefa umiarkowana leży między zwrotnikiem a kołem podbiegunowym: Słońce nigdy w zenicie, cztery pory roku.",
+   "distractors": [
+    "międzyzwrotnikowej",
+    "podbiegunowej północnej",
+    "umiarkowanej południowej"
+   ]
+  },
+  {
+   "id": "geomko-4-088",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Strefy oświetlenia",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Dlaczego w strefie międzyzwrotnikowej nie ma termicznych pór roku?",
+   "answer": "Słońce cały rok góruje wysoko, a dzień trwa ok. 12 h",
+   "explanation": "Różnice w nasłonecznieniu w ciągu roku są tam małe."
+  },
+  {
+   "id": "geomko-4-089",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Strefy oświetlenia",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile trwa dzień polarny na biegunie?",
+   "answer": "ok. pół roku",
+   "accept": [
+    "pół roku",
+    "6 miesięcy",
+    "około pół roku",
+    "ok. 6 miesięcy"
+   ],
+   "explanation": "Na kole podbiegunowym dzień polarny trwa tylko 1 dobę.",
+   "distractors": [
+    "1 dobę",
+    "3 miesiące",
+    "cały rok"
+   ]
+  },
+  {
+   "id": "geomko-4-090",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Strefy oświetlenia",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Na kole podbiegunowym dzień polarny trwa {{1 dobę / jedną dobę / 24 h}}.",
+   "hint": "jak długo?",
+   "explanation": "Im bliżej bieguna, tym dłużej – na biegunie ok. pół roku.",
+   "distractors": [
+    "pół roku",
+    "tydzień",
+    "3 miesiące"
+   ]
+  },
+  {
+   "id": "geomko-4-091",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Strefy oświetlenia",
+   "priority": 1,
+   "kind": "równoleżnik",
+   "trap": true,
+   "type": "cloze",
+   "text": "Granice stref oświetlenia wyznaczają zwrotniki i {{koła podbiegunowe}}; granice stref klimatycznych są dodatkowo przesunięte przez prądy morskie i rozkład lądów.",
+   "hint": "równoleżniki 66°33'",
+   "explanation": "Strefa oświetlenia, strefa klimatyczna i strefa krajobrazowa to trzy różne podziały.",
+   "distractors": [
+    "południki 0° i 180°",
+    "izotermy",
+    "równik"
+   ]
+  },
+  {
+   "id": "geomko-4-092",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Pułapki konkursowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "qa",
+   "question": "„22 czerwca dzień jest najkrótszy” – na której półkuli to zdanie jest prawdziwe?",
+   "answer": "na południowej",
+   "accept": [
+    "południowej",
+    "półkula południowa",
+    "na półkuli południowej"
+   ],
+   "explanation": "Na półkuli południowej 22 czerwca zaczyna się astronomiczna zima.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-093",
+   "category": "geomko_earth",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Pułapki konkursowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "qa",
+   "question": "Z której półkuli nie widać Gwiazdy Polarnej?",
+   "answer": "z południowej",
+   "accept": [
+    "południowej",
+    "półkula południowa",
+    "z półkuli południowej"
+   ],
+   "explanation": "Gwiazda Polarna leży niemal dokładnie nad biegunem północnym.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-4-094",
+   "category": "geomko_earth",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 4 · Pułapki konkursowe",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Statki Magellana płynęły na zachód, czyli {{przeciwnie do / przeciwnie}} kierunku ruchu obrotowego Ziemi.",
+   "hint": "Ziemia obraca się na wschód",
+   "explanation": "Zdanie „płynęły zgodnie z kierunkiem ruchu obrotowego” jest fałszywe.",
+   "distractors": [
+    "zgodnie z",
+    "prostopadle do",
+    "wzdłuż"
+   ]
+  },
+  {
+   "id": "geomko-5-001",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się półokrąg łączący bieguny?",
+   "answer": "południk",
+   "explanation": "Wszystkie południki mają tę samą długość, ok. 20 000 km.",
+   "distractors": [
+    "równoleżnik",
+    "równik",
+    "zwrotnik"
+   ]
+  },
+  {
+   "id": "geomko-5-002",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Wszystkie południki mają tę samą długość, ok. {{20 000 km / 20000 km}}.",
+   "hint": "połowa obwodu Ziemi",
+   "explanation": "Równoleżniki są za to coraz krótsze ku biegunom.",
+   "distractors": [
+    "40 000 km",
+    "10 000 km",
+    "6378 km"
+   ]
+  },
+  {
+   "id": "geomko-5-003",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "równoleżnik",
+   "type": "qa",
+   "question": "Który równoleżnik jest najdłuższy?",
+   "answer": "równik",
+   "accept": [
+    "równik 0°"
+   ],
+   "explanation": "Równik ma ok. 40 075 km; ku biegunom równoleżniki są coraz krótsze.",
+   "distractors": [
+    "zwrotnik Raka",
+    "koło podbiegunowe północne",
+    "zwrotnik Koziorożca"
+   ]
+  },
+  {
+   "id": "geomko-5-004",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Południki 0° i {{180°}} dzielą Ziemię na półkulę wschodnią i zachodnią.",
+   "hint": "południk zmiany daty",
+   "explanation": "Równik dzieli Ziemię na półkulę północną i południową.",
+   "distractors": [
+    "90°",
+    "360°",
+    "45°"
+   ]
+  },
+  {
+   "id": "geomko-5-005",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się kąt między płaszczyzną równika a kierunkiem do danego punktu na Ziemi?",
+   "answer": "szerokość geograficzna",
+   "accept": [
+    "szerokość"
+   ],
+   "explanation": "Przyjmuje wartości 0°–90° N lub S.",
+   "distractors": [
+    "długość geograficzna",
+    "azymut",
+    "wysokość górowania"
+   ]
+  },
+  {
+   "id": "geomko-5-006",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się kąt między płaszczyzną południka 0° a płaszczyzną południka danego punktu?",
+   "answer": "długość geograficzna",
+   "accept": [
+    "długość"
+   ],
+   "explanation": "Przyjmuje wartości 0°–180° E lub W.",
+   "distractors": [
+    "szerokość geograficzna",
+    "azymut",
+    "deklinacja"
+   ]
+  },
+  {
+   "id": "geomko-5-007",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Długość geograficzna przyjmuje wartości od 0° do {{180°}} E lub W.",
+   "hint": "maksimum",
+   "explanation": "Szerokość geograficzna – od 0° do 90° N lub S.",
+   "distractors": [
+    "90°",
+    "360°",
+    "66°33'"
+   ]
+  },
+  {
+   "id": "geomko-5-008",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Szerokość geograficzna przyjmuje wartości od 0° do {{90°}} N lub S.",
+   "hint": "biegun",
+   "explanation": "Biegun północny ma szerokość 90°N.",
+   "distractors": [
+    "180°",
+    "360°",
+    "66°33'"
+   ]
+  },
+  {
+   "id": "geomko-5-009",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "W pełnym zapisie współrzędnych najpierw podaje się {{szerokość geograficzną / szerokość}}, a potem długość, np. 52°14'N, 21°00'E.",
+   "hint": "kolejność",
+   "explanation": "Tak zapisane są współrzędne Warszawy.",
+   "distractors": [
+    "długość geograficzną",
+    "wysokość n.p.m.",
+    "azymut"
+   ]
+  },
+  {
+   "id": "geomko-5-010",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile minut kątowych (') ma 1 stopień?",
+   "answer": "60'",
+   "accept": [
+    "60",
+    "60 minut"
+   ],
+   "explanation": "1° = 60', a 1' = 60''.",
+   "distractors": [
+    "100'",
+    "30'",
+    "360'"
+   ]
+  },
+  {
+   "id": "geomko-5-011",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Zwrotnik Raka leży na szerokości {{23°27'N / 23°27' N}}.",
+   "hint": "półkula północna",
+   "explanation": "Zwrotnik Koziorożca leży na 23°27'S.",
+   "distractors": [
+    "66°33'N",
+    "23°27'S",
+    "0°"
+   ]
+  },
+  {
+   "id": "geomko-5-012",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Koło podbiegunowe północne leży na szerokości {{66°33'N / 66°33' N}}.",
+   "hint": "dni i noce polarne",
+   "explanation": "Koło podbiegunowe południowe leży na 66°33'S.",
+   "distractors": [
+    "23°27'N",
+    "90°N",
+    "66°33'S"
+   ]
+  },
+  {
+   "id": "geomko-5-013",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Współrzędne podane z dokładnością do 1° trzeba zapisać z {{literą półkuli / oznaczeniem półkuli}} (N lub S, E lub W) – bez niej odpowiedź dostaje 0 pkt.",
+   "hint": "N/S, E/W",
+   "explanation": "Np. 52°N, 21°E, a nie 52°, 21°.",
+   "distractors": [
+    "nazwą kontynentu",
+    "minutami kątowymi",
+    "wysokością n.p.m."
+   ]
+  },
+  {
+   "id": "geomko-5-014",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "1° szerokości geograficznej ma wszędzie ok. {{111 km}}.",
+   "hint": "tyle samo co 1° na równiku",
+   "explanation": "Długość 1° długości geograficznej maleje ku biegunom.",
+   "distractors": [
+    "55,5 km",
+    "60 km",
+    "40 km"
+   ]
+  },
+  {
+   "id": "geomko-5-015",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Siatka geograficzna",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "1° długości geograficznej ma ok. 111 km tylko na równiku, a na szerokości 60° ok. {{55,5 km / 55.5 km}}.",
+   "hint": "połowa",
+   "explanation": "Na biegunie odległość ta wynosi 0.",
+   "distractors": [
+    "111 km",
+    "30 km",
+    "80 km"
+   ]
+  },
+  {
+   "id": "geomko-5-016",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Rozciągłość",
+   "priority": 1,
+   "trap": true,
+   "type": "apply",
+   "situation": "Oblicz rozciągłość równoleżnikową obszaru między 20°W a 45°E.",
+   "rule": "dodaj długości geograficzne (punkty po obu stronach południka 0°)",
+   "wrong": [
+    "odejmij długości geograficzne",
+    "odejmij szerokości geograficzne",
+    "dodaj szerokości geograficzne"
+   ],
+   "explanation": "20° + 45° = 65°. Rozciągłość równoleżnikowa liczy się z długości, południkowa – z szerokości."
+  },
+  {
+   "id": "geomko-5-017",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Rozciągłość",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz rozciągłość równoleżnikową obszaru między 20°W a 45°E.",
+   "answer": "65°",
+   "accept": [
+    "65",
+    "65 stopni"
+   ],
+   "explanation": "Punkty leżą po obu stronach południka 0°, więc stopnie sumujemy.",
+   "distractors": [
+    "25°",
+    "45°",
+    "115°"
+   ]
+  },
+  {
+   "id": "geomko-5-018",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Rozciągłość",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz rozciągłość południkową między punktami 10°S i 25°N.",
+   "answer": "35°",
+   "accept": [
+    "35",
+    "35 stopni"
+   ],
+   "explanation": "Punkty leżą po obu stronach równika, więc 10° + 25° = 35°.",
+   "distractors": [
+    "15°",
+    "25°",
+    "10°"
+   ]
+  },
+  {
+   "id": "geomko-5-019",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Rozciągłość",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz rozciągłość południkową Europy: Przylądek Marroquí (36°00'N) – Przylądek Nordkinn (71°08'N).",
+   "answer": "35°08'",
+   "accept": [
+    "35°08",
+    "35° 08'",
+    "35°8'"
+   ],
+   "explanation": "Ta sama półkula: 71°08' − 36°00' = 35°08'.",
+   "distractors": [
+    "107°08'",
+    "77°30'",
+    "36°"
+   ]
+  },
+  {
+   "id": "geomko-5-020",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Rozciągłość",
+   "priority": 1,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Oblicz rozciągłość równoleżnikową Europy: Przylądek Roca (9°30'W) – podnóże Uralu Polarnego (ok. 68°E).",
+   "answer": "77°30'",
+   "accept": [
+    "77°30",
+    "77° 30'",
+    "77,5°"
+   ],
+   "explanation": "Różne półkule: 9°30' + 68° = 77°30'.",
+   "distractors": [
+    "58°30'",
+    "35°08'",
+    "68°"
+   ]
+  },
+  {
+   "id": "geomko-5-021",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "przylądek",
+   "type": "qa",
+   "question": "Jak nazywa się najdalej na zachód wysunięty punkt lądowy Europy?",
+   "answer": "Przylądek Roca",
+   "accept": [
+    "Roca",
+    "Cabo da Roca"
+   ],
+   "explanation": "Leży w Portugalii, 38°47'N 9°30'W.",
+   "distractors": [
+    "Przylądek Nordkinn",
+    "Przylądek Marroquí",
+    "Przylądek Finisterre"
+   ]
+  },
+  {
+   "id": "geomko-5-022",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "państwo",
+   "type": "cloze",
+   "text": "Przylądek Roca – najdalej na zachód wysunięty punkt lądowy Europy – leży w {{Portugalii}}.",
+   "hint": "Półwysep Iberyjski",
+   "explanation": "Jego współrzędne to 38°47'N 9°30'W.",
+   "distractors": [
+    "Hiszpanii",
+    "Francji",
+    "Irlandii"
+   ]
+  },
+  {
+   "id": "geomko-5-023",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "przylądek",
+   "trap": true,
+   "type": "qa",
+   "question": "Jak nazywa się najdalej na północ wysunięty punkt lądowy Europy?",
+   "answer": "Przylądek Nordkinn",
+   "accept": [
+    "Nordkinn"
+   ],
+   "explanation": "Leży w Norwegii, 71°08'N 27°40'E; Nordkapp leży na wyspie, więc nie jest punktem lądu stałego.",
+   "distractors": [
+    "Przylądek Nordkapp",
+    "Przylądek Roca",
+    "Przylądek Marroquí"
+   ]
+  },
+  {
+   "id": "geomko-5-024",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 2,
+   "kind": "wyspa",
+   "trap": true,
+   "type": "cloze",
+   "text": "Nordkapp nie jest skrajnym północnym punktem lądu stałego Europy, bo leży na wyspie {{Magerøya / Mageroya}}.",
+   "hint": "wyspa w Norwegii",
+   "explanation": "Skrajnym punktem lądowym jest Przylądek Nordkinn.",
+   "distractors": [
+    "Spitsbergen",
+    "Lofoty",
+    "Islandia"
+   ]
+  },
+  {
+   "id": "geomko-5-025",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "przylądek",
+   "type": "qa",
+   "question": "Jak nazywa się najdalej na południe wysunięty punkt lądowy Europy?",
+   "answer": "Przylądek Marroquí",
+   "accept": [
+    "Marroquí",
+    "Marroqui",
+    "Przylądek Marroqui",
+    "Tarifa"
+   ],
+   "explanation": "Leży koło Tarify w Hiszpanii, 36°00'N 5°37'W.",
+   "distractors": [
+    "Przylądek Roca",
+    "Gibraltar",
+    "Przylądek Nordkinn"
+   ]
+  },
+  {
+   "id": "geomko-5-026",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Co jest najdalej na wschód wysuniętym punktem Europy?",
+   "answer": "podnóże Uralu Polarnego",
+   "accept": [
+    "Ural Polarny",
+    "Ural",
+    "podnóże Uralu"
+   ],
+   "explanation": "Leży w Rosji, ok. 68°E.",
+   "distractors": [
+    "Kaukaz",
+    "Morze Kaspijskie",
+    "ujście Wołgi"
+   ]
+  },
+  {
+   "id": "geomko-5-027",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "współrzędne",
+   "type": "qa",
+   "question": "Podaj współrzędne Przylądka Roca.",
+   "answer": "38°47'N 9°30'W",
+   "accept": [
+    "38°47'N, 9°30'W",
+    "38°47' N 9°30' W"
+   ],
+   "explanation": "To skrajny zachodni punkt lądowy Europy (Portugalia).",
+   "distractors": [
+    "71°08'N 27°40'E",
+    "36°00'N 5°37'W",
+    "9°30'N 38°47'W"
+   ]
+  },
+  {
+   "id": "geomko-5-028",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż ogniwa umownej granicy Europa–Azja od Uralu do Morza Czarnego",
+   "steps": [
+    "wschodnie podnóże Uralu",
+    "rzeka Emba",
+    "Morze Kaspijskie",
+    "Obniżenie Kumsko-Manyckie",
+    "Morze Azowskie",
+    "Morze Czarne"
+   ],
+   "explanation": "Dalej granica biegnie przez Bosfor, Morze Marmara i Dardanele do Morza Egejskiego."
+  },
+  {
+   "id": "geomko-5-029",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "type": "order",
+   "prompt": "Ułóż ogniwa granicy Europa–Azja od Morza Czarnego na południowy zachód",
+   "steps": [
+    "Morze Czarne",
+    "Bosfor",
+    "Morze Marmara",
+    "Dardanele",
+    "Morze Egejskie"
+   ],
+   "explanation": "Cieśniny tureckie oddzielają europejską część Turcji od Azji Mniejszej."
+  },
+  {
+   "id": "geomko-5-030",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile wynosi powierzchnia Europy?",
+   "answer": "ok. 10,5 mln km²",
+   "accept": [
+    "10,5 mln km²",
+    "10,5 mln km2",
+    "10.5 mln",
+    "10,5 mln"
+   ],
+   "explanation": "To ok. 7% lądów; Europa i Azja tworzą jeden kontynent fizyczny – Eurazję.",
+   "distractors": [
+    "ok. 44,4 mln km²",
+    "ok. 7,7 mln km²",
+    "ok. 24,2 mln km²"
+   ]
+  },
+  {
+   "id": "geomko-5-031",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skrajne punkty i granice Europy",
+   "priority": 1,
+   "kind": "kontynent",
+   "type": "qa",
+   "question": "Jak nazywa się kontynent fizyczny, który tworzą Europa i Azja?",
+   "answer": "Eurazja",
+   "explanation": "Granica Europa–Azja jest umowna.",
+   "distractors": [
+    "Laurazja",
+    "Gondwana",
+    "Pangea"
+   ]
+  },
+  {
+   "id": "geomko-5-032",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "kontynent",
+   "type": "qa",
+   "question": "Który kontynent jest największy?",
+   "answer": "Azja",
+   "explanation": "Azja ma 44,4 mln km²; jest na niej Everest i Morze Martwe.",
+   "distractors": [
+    "Afryka",
+    "Ameryka Północna",
+    "Antarktyda"
+   ]
+  },
+  {
+   "id": "geomko-5-033",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "kontynent",
+   "type": "qa",
+   "question": "Który kontynent jest najmniejszy?",
+   "answer": "Australia",
+   "explanation": "Australia ma ok. 7,7 mln km² (z Oceanią ok. 8,5 mln km²).",
+   "distractors": [
+    "Europa",
+    "Antarktyda",
+    "Ameryka Południowa"
+   ]
+  },
+  {
+   "id": "geomko-5-034",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "kontynent",
+   "type": "qa",
+   "question": "Który kontynent przecinają równik i oba zwrotniki?",
+   "answer": "Afryka",
+   "explanation": "Afryka ma 30,3 mln km²; w jej północnej części leży Sahara (ok. 9 mln km²).",
+   "distractors": [
+    "Ameryka Południowa",
+    "Azja",
+    "Australia"
+   ]
+  },
+  {
+   "id": "geomko-5-035",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "kontynent",
+   "type": "qa",
+   "question": "Który kontynent leży w całości w strefie podbiegunowej?",
+   "answer": "Antarktyda",
+   "explanation": "Pokrywa go lądolód o grubości do 4 km.",
+   "distractors": [
+    "Australia",
+    "Ameryka Północna",
+    "Europa"
+   ]
+  },
+  {
+   "id": "geomko-5-036",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "wartość",
+   "trap": true,
+   "type": "qa",
+   "question": "Ile metrów n.p.m. ma Mount Everest według pomiaru z 2020 r.?",
+   "answer": "8849 m",
+   "accept": [
+    "8849",
+    "8848 m",
+    "8848"
+   ],
+   "explanation": "Starsze źródła podają 8848 m – obie wartości są uznawane.",
+   "distractors": [
+    "8611 m",
+    "8586 m",
+    "6961 m"
+   ]
+  },
+  {
+   "id": "geomko-5-037",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "jezioro",
+   "type": "qa",
+   "question": "Gdzie leży najniżej położony punkt lądu na Ziemi (ok. −430 m)?",
+   "answer": "nad Morzem Martwym",
+   "accept": [
+    "Morze Martwe",
+    "Morza Martwego",
+    "przy Morzu Martwym"
+   ],
+   "explanation": "Morze Martwe leży w Azji, w depresji.",
+   "distractors": [
+    "nad Morzem Kaspijskim",
+    "w Dolinie Śmierci",
+    "w Depresji Turfańskiej"
+   ]
+  },
+  {
+   "id": "geomko-5-038",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Afryki?",
+   "answer": "Kilimandżaro",
+   "accept": [
+    "Kilimanjaro"
+   ],
+   "explanation": "Ma 5895 m n.p.m.",
+   "distractors": [
+    "Elbrus",
+    "Aconcagua",
+    "Denali"
+   ]
+  },
+  {
+   "id": "geomko-5-039",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Ameryki Północnej?",
+   "answer": "Denali",
+   "accept": [
+    "McKinley",
+    "Mount McKinley"
+   ],
+   "explanation": "Ma 6190 m n.p.m. i leży na Alasce.",
+   "distractors": [
+    "Aconcagua",
+    "Mont Blanc",
+    "Kilimandżaro"
+   ]
+  },
+  {
+   "id": "geomko-5-040",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Ameryki Południowej?",
+   "answer": "Aconcagua",
+   "explanation": "Ma 6961 m n.p.m. i leży w Andach.",
+   "distractors": [
+    "Denali",
+    "Chimborazo",
+    "Kilimandżaro"
+   ]
+  },
+  {
+   "id": "geomko-5-041",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Australii?",
+   "answer": "Góra Kościuszki",
+   "accept": [
+    "Kościuszko",
+    "Mount Kosciuszko",
+    "Góra Kościuszko"
+   ],
+   "explanation": "Ma 2228 m n.p.m.",
+   "distractors": [
+    "Masyw Vinsona",
+    "Aconcagua",
+    "Mont Blanc"
+   ]
+  },
+  {
+   "id": "geomko-5-042",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 2,
+   "kind": "szczyt",
+   "type": "qa",
+   "question": "Jak nazywa się najwyższy szczyt Antarktydy?",
+   "answer": "Masyw Vinsona",
+   "accept": [
+    "Vinson",
+    "Vinsona"
+   ],
+   "explanation": "Ma 4892 m n.p.m.",
+   "distractors": [
+    "Góra Kościuszki",
+    "Erebus",
+    "Denali"
+   ]
+  },
+  {
+   "id": "geomko-5-043",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "szczyt",
+   "type": "cloze",
+   "text": "Za najwyższy szczyt Europy uznaje się {{Elbrus}} (5642 m, Kaukaz) albo Mont Blanc (4809 m, Alpy) – zależnie od przyjętej granicy Europa–Azja.",
+   "hint": "Kaukaz",
+   "explanation": "Według granicy przez Obniżenie Kumsko-Manyckie Kaukaz leży w Azji, a najwyższy jest Mont Blanc.",
+   "distractors": [
+    "Matterhorn",
+    "Olimp",
+    "Musała"
+   ]
+  },
+  {
+   "id": "geomko-5-044",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "góry",
+   "type": "qa",
+   "question": "Jaki jest najdłuższy łańcuch górski świata?",
+   "answer": "Andy",
+   "explanation": "Andy mają ok. 7500 km długości.",
+   "distractors": [
+    "Himalaje",
+    "Góry Skaliste",
+    "Ural"
+   ]
+  },
+  {
+   "id": "geomko-5-045",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "wyspa",
+   "trap": true,
+   "type": "qa",
+   "question": "Która wyspa jest największa na świecie?",
+   "answer": "Grenlandia",
+   "explanation": "Ma 2,17 mln km²; Australia nie jest wyspą, tylko kontynentem.",
+   "distractors": [
+    "Nowa Gwinea",
+    "Borneo",
+    "Madagaskar"
+   ]
+  },
+  {
+   "id": "geomko-5-046",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "państwo",
+   "trap": true,
+   "type": "cloze",
+   "text": "Grenlandia leży w Ameryce Północnej, ale politycznie należy do {{Danii}}.",
+   "hint": "państwo europejskie",
+   "explanation": "To największa wyspa świata (2,17 mln km²).",
+   "distractors": [
+    "Norwegii",
+    "Kanady",
+    "Islandii"
+   ]
+  },
+  {
+   "id": "geomko-5-047",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 2,
+   "kind": "wyspa",
+   "trap": true,
+   "type": "qa",
+   "question": "Która wyspa jest druga pod względem wielkości na świecie?",
+   "answer": "Nowa Gwinea",
+   "explanation": "Trzecia jest Borneo.",
+   "distractors": [
+    "Borneo",
+    "Madagaskar",
+    "Wielka Brytania"
+   ]
+  },
+  {
+   "id": "geomko-5-048",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "ocean",
+   "type": "qa",
+   "question": "Który ocean jest największy?",
+   "answer": "Ocean Spokojny",
+   "accept": [
+    "Spokojny",
+    "Pacyfik"
+   ],
+   "explanation": "Zajmuje ok. 180 mln km², czyli ok. 50% powierzchni oceanów.",
+   "distractors": [
+    "Ocean Atlantycki",
+    "Ocean Indyjski",
+    "Ocean Arktyczny"
+   ]
+  },
+  {
+   "id": "geomko-5-049",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "ocean",
+   "type": "qa",
+   "question": "Który ocean jest najmniejszy i najpłytszy?",
+   "answer": "Ocean Arktyczny",
+   "accept": [
+    "Arktyczny",
+    "Ocean Lodowaty Północny"
+   ],
+   "explanation": "Ma ok. 14 mln km² i jest pokryty lodem morskim.",
+   "distractors": [
+    "Ocean Indyjski",
+    "Ocean Atlantycki",
+    "Ocean Południowy"
+   ]
+  },
+  {
+   "id": "geomko-5-050",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 2,
+   "kind": "ocean",
+   "type": "qa",
+   "question": "Który ocean leży w większości na półkuli południowej?",
+   "answer": "Ocean Indyjski",
+   "accept": [
+    "Indyjski"
+   ],
+   "explanation": "Ma ok. 75 mln km².",
+   "distractors": [
+    "Ocean Atlantycki",
+    "Ocean Arktyczny",
+    "Ocean Spokojny"
+   ]
+  },
+  {
+   "id": "geomko-5-051",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Jak nazywa się najgłębsze miejsce oceanów (10 994 m)?",
+   "answer": "Głębia Challengera",
+   "accept": [
+    "Rów Mariański",
+    "Głębia Challengera w Rowie Mariańskim"
+   ],
+   "explanation": "Leży w Rowie Mariańskim na Oceanie Spokojnym.",
+   "distractors": [
+    "Rów Atakamski",
+    "Rów Puerto Rico",
+    "Grzbiet Śródatlantycki"
+   ]
+  },
+  {
+   "id": "geomko-5-052",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Przez który grzbiet śródoceaniczny przebiegają Islandia i Azory?",
+   "answer": "Grzbiet Śródatlantycki",
+   "accept": [
+    "Śródatlantycki"
+   ],
+   "explanation": "To granica płyt litosfery na Oceanie Atlantyckim.",
+   "distractors": [
+    "Grzbiet Wschodniopacyficzny",
+    "Rów Mariański",
+    "Grzbiet Łomonosowa"
+   ]
+  },
+  {
+   "id": "geomko-5-053",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Lądy zajmują ok. {{29%}} powierzchni Ziemi, a oceany 71%.",
+   "hint": "mniej niż jedna trzecia",
+   "explanation": "Powierzchnia Ziemi to ok. 510 mln km².",
+   "distractors": [
+    "71%",
+    "50%",
+    "39%"
+   ]
+  },
+  {
+   "id": "geomko-5-054",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 1,
+   "kind": "kierunek",
+   "type": "cloze",
+   "text": "Półkula {{północna}} jest nazywana „lądową”, a południowa „oceaniczną”.",
+   "hint": "na której jest więcej lądów?",
+   "explanation": "Lądy zajmują ok. 39% półkuli północnej i ok. 19% południowej.",
+   "distractors": [
+    "południowa",
+    "wschodnia",
+    "zachodnia"
+   ]
+  },
+  {
+   "id": "geomko-5-055",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Kontynenty i oceany",
+   "priority": 3,
+   "kind": "ocean",
+   "type": "qa",
+   "question": "Jak nazywa się ocean wokół Antarktydy, na południe od 60°S, uznawany przez część źródeł za piąty ocean?",
+   "answer": "Ocean Południowy",
+   "accept": [
+    "Południowy"
+   ],
+   "explanation": "Pozostałe cztery to Spokojny, Atlantycki, Indyjski i Arktyczny.",
+   "distractors": [
+    "Ocean Arktyczny",
+    "Ocean Indyjski",
+    "Ocean Spokojny"
+   ]
+  },
+  {
+   "id": "geomko-5-056",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Formy ukształtowania powierzchni",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Niziny to obszary położone na wysokości od 0 do {{300 m}} n.p.m.",
+   "hint": "granica z wyżynami",
+   "explanation": "Wyżyny leżą powyżej 300 m i są płaskie; góry mają duże wysokości względne.",
+   "distractors": [
+    "200 m",
+    "500 m",
+    "1000 m"
+   ]
+  },
+  {
+   "id": "geomko-5-057",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Formy ukształtowania powierzchni",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Jak nazywa się obszar lądu położony poniżej poziomu morza?",
+   "answer": "depresja",
+   "explanation": "Najgłębsza depresja na lądzie leży nad Morzem Martwym.",
+   "distractors": [
+    "nizina",
+    "kotlina",
+    "szelf"
+   ]
+  },
+  {
+   "id": "geomko-5-058",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Formy ukształtowania powierzchni",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Jak nazywa się płytka część dna morskiego przy kontynencie, do ok. 200 m głębokości?",
+   "answer": "szelf",
+   "accept": [
+    "szelf kontynentalny"
+   ],
+   "explanation": "Szelf zajmuje ok. 8% dna oceanów; za nim jest stok kontynentalny.",
+   "distractors": [
+    "stok kontynentalny",
+    "basen oceaniczny",
+    "rów oceaniczny"
+   ]
+  },
+  {
+   "id": "geomko-5-059",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Formy ukształtowania powierzchni",
+   "priority": 2,
+   "kind": "wartość",
+   "type": "cloze",
+   "text": "Rowy oceaniczne mają głębokość ponad {{6 km / 6000 m}}.",
+   "hint": "najgłębsze formy dna",
+   "explanation": "Basen oceaniczny ma zwykle 4–6 km głębokości.",
+   "distractors": [
+    "200 m",
+    "2 km",
+    "1 km"
+   ]
+  },
+  {
+   "id": "geomko-5-060",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jak nazywa się typ wybrzeża z wąskimi, głębokimi i stromymi zatokami w zatopionych dolinach lodowcowych?",
+   "answer": "fiordowe",
+   "accept": [
+    "fiordowy",
+    "fiordy"
+   ],
+   "explanation": "Przykłady: Norwegia (Sognefjord, 204 km), Islandia, Szkocja.",
+   "distractors": [
+    "szkierowe",
+    "riasowe",
+    "dalmatyńskie"
+   ]
+  },
+  {
+   "id": "geomko-5-061",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 2,
+   "kind": "zatoka",
+   "type": "qa",
+   "question": "Jak nazywa się najdłuższy fiord Norwegii (204 km)?",
+   "answer": "Sognefjord",
+   "explanation": "Fiordy powstały przez zatopienie dolin lodowcowych.",
+   "distractors": [
+    "Hardangerfjord",
+    "Geirangerfjord",
+    "Oslofjord"
+   ]
+  },
+  {
+   "id": "geomko-5-062",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jak nazywa się typ wybrzeża z tysiącami wysepek – zatopionymi pagórkami morenowymi i mutonami (Szwecja, Finlandia)?",
+   "answer": "szkierowe",
+   "accept": [
+    "skjerowe",
+    "szkierowy",
+    "szkiery"
+   ],
+   "explanation": "Typowe dla okolic Sztokholmu.",
+   "distractors": [
+    "fiordowe",
+    "dalmatyńskie",
+    "lagunowe"
+   ]
+  },
+  {
+   "id": "geomko-5-063",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jaki typ wybrzeża ma Chorwacja?",
+   "answer": "dalmatyńskie",
+   "accept": [
+    "dalmatyński"
+   ],
+   "explanation": "Wyspy są wydłużone wzdłuż brzegu, bo to grzbiety zatopionych pasm górskich.",
+   "distractors": [
+    "riasowe",
+    "fiordowe",
+    "klifowe"
+   ]
+  },
+  {
+   "id": "geomko-5-064",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "cloze",
+   "text": "Wybrzeże dalmatyńskie powstało przez zatopienie {{pasm górskich}} równoległych do brzegu.",
+   "hint": "nie doliny",
+   "explanation": "Dlatego wyspy u wybrzeży Chorwacji są wydłużone wzdłuż lądu.",
+   "distractors": [
+    "dolin rzecznych",
+    "dolin lodowcowych",
+    "pagórków morenowych"
+   ]
+  },
+  {
+   "id": "geomko-5-065",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jak nazywa się typ wybrzeża z zatopionymi dolinami rzecznymi prostopadłymi do brzegu (Galicja, Bretania, Irlandia)?",
+   "answer": "riasowe",
+   "accept": [
+    "riasowy",
+    "rias"
+   ],
+   "explanation": "Doliny rzeczne – riasowe, doliny lodowcowe – fiordowe.",
+   "distractors": [
+    "fiordowe",
+    "dalmatyńskie",
+    "szkierowe"
+   ]
+  },
+  {
+   "id": "geomko-5-066",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jaki typ wybrzeża występuje koło Dover, na Rugii i w Normandii?",
+   "answer": "klifowe",
+   "accept": [
+    "klifowy",
+    "klif"
+   ],
+   "explanation": "Fale niszczą brzeg i tworzą strome urwiska.",
+   "distractors": [
+    "wattowe",
+    "lagunowe",
+    "riasowe"
+   ]
+  },
+  {
+   "id": "geomko-5-067",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jaki typ wybrzeża ma Polska (Hel, Mierzeja Wiślana)?",
+   "answer": "mierzejowo-zalewowe",
+   "accept": [
+    "mierzejowe",
+    "mierzejowo zalewowe"
+   ],
+   "explanation": "Akumulacja piasku tworzy mierzeje odcinające zalewy; podobnie na Mierzei Kurońskiej na Litwie.",
+   "distractors": [
+    "klifowe",
+    "wattowe",
+    "szkierowe"
+   ]
+  },
+  {
+   "id": "geomko-5-068",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jaki typ wybrzeża występuje w okolicach Wenecji?",
+   "answer": "lagunowe",
+   "accept": [
+    "lagunowy",
+    "laguna"
+   ],
+   "explanation": "Piaszczyste wały odcinają tam płytkie laguny.",
+   "distractors": [
+    "dalmatyńskie",
+    "fiordowe",
+    "klifowe"
+   ]
+  },
+  {
+   "id": "geomko-5-069",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "typ wybrzeża",
+   "type": "qa",
+   "question": "Jak nazywa się płaskie wybrzeże odsłaniane podczas odpływu (Holandia, Niemcy, Dania)?",
+   "answer": "wattowe",
+   "accept": [
+    "watowe",
+    "watty"
+   ],
+   "explanation": "Morze Wattowe ciągnie się wzdłuż wybrzeży tych trzech państw.",
+   "distractors": [
+    "lagunowe",
+    "mierzejowo-zalewowe",
+    "riasowe"
+   ]
+  },
+  {
+   "id": "geomko-5-070",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Jak nazywa się ujście, w którym rzeka dzieli się na ramiona, bo osadza niesiony materiał?",
+   "answer": "delta",
+   "accept": [
+    "ujście deltowe"
+   ],
+   "explanation": "Delty mają m.in. Dunaj, Wołga, Ren, Pad, Rodan i Ebro.",
+   "distractors": [
+    "estuarium",
+    "zalew",
+    "meander"
+   ]
+  },
+  {
+   "id": "geomko-5-071",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "forma rzeźby",
+   "type": "qa",
+   "question": "Jak nazywa się lejkowate ujście rzeki poszerzane przez pływy?",
+   "answer": "estuarium",
+   "accept": [
+    "ujście lejkowe",
+    "lejkowe"
+   ],
+   "explanation": "Mają je m.in. Tamiza, Sekwana, Loara i Łaba.",
+   "distractors": [
+    "delta",
+    "zalew",
+    "fiord"
+   ]
+  },
+  {
+   "id": "geomko-5-072",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "rzeka",
+   "type": "qa",
+   "question": "Która rzeka ma największą deltę w Europie?",
+   "answer": "Wołga",
+   "explanation": "Wołga uchodzi deltą do Morza Kaspijskiego.",
+   "distractors": [
+    "Dunaj",
+    "Ren",
+    "Rodan"
+   ]
+  },
+  {
+   "id": "geomko-5-073",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Typy wybrzeży i ujść rzek",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Tamiza, Sekwana i Loara mają ujścia {{lejkowe / estuaria}}.",
+   "hint": "pływy",
+   "explanation": "Dunaj, Wołga i Pad tworzą natomiast delty.",
+   "distractors": [
+    "deltowe",
+    "zalewowe",
+    "fiordowe"
+   ]
+  },
+  {
+   "id": "geomko-5-074",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Ile kilometrów w terenie odpowiada 1 cm na mapie w skali 1:100 000?",
+   "answer": "1 km",
+   "accept": [
+    "1",
+    "1000 m",
+    "jeden kilometr"
+   ],
+   "explanation": "Skreśl 5 zer, żeby dostać km (100 000 cm = 1 km).",
+   "distractors": [
+    "100 m",
+    "10 km",
+    "100 km"
+   ]
+  },
+  {
+   "id": "geomko-5-075",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "skala",
+   "type": "qa",
+   "question": "Zamień skalę 1:175 000 na mianowaną (w km).",
+   "answer": "1 cm – 1,75 km",
+   "accept": [
+    "1,75 km",
+    "1 cm = 1,75 km",
+    "1 cm - 1,75 km",
+    "1.75 km"
+   ],
+   "explanation": "W metrach: 1 cm – 1750 m.",
+   "distractors": [
+    "1 cm – 17,5 km",
+    "1 cm – 175 km",
+    "1 cm – 0,175 km"
+   ]
+  },
+  {
+   "id": "geomko-5-076",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "skala",
+   "type": "qa",
+   "question": "Zamień skalę 1:25 000 na mianowaną (w metrach).",
+   "answer": "1 cm – 250 m",
+   "accept": [
+    "250 m",
+    "1 cm = 250 m",
+    "1 cm - 250 m"
+   ],
+   "explanation": "Skreśl 2 zera, żeby dostać metry.",
+   "distractors": [
+    "1 cm – 25 m",
+    "1 cm – 2500 m",
+    "1 cm – 2,5 km"
+   ]
+  },
+  {
+   "id": "geomko-5-077",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "skala",
+   "type": "qa",
+   "question": "Zamień skalę mianowaną 1 cm – 40 km na skalę liczbową.",
+   "answer": "1:4 000 000",
+   "accept": [
+    "1:4000000",
+    "1 : 4 000 000"
+   ],
+   "explanation": "40 km = 4 000 000 cm.",
+   "distractors": [
+    "1:400 000",
+    "1:40 000",
+    "1:40 000 000"
+   ]
+  },
+  {
+   "id": "geomko-5-078",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Odcinek ma na mapie 7 cm, a skala wynosi 1:500 000. Jak obliczysz odległość w terenie?",
+   "rule": "pomnóż odległość na mapie przez mianownik skali",
+   "wrong": [
+    "podziel odległość na mapie przez mianownik skali",
+    "pomnóż odległość na mapie przez kwadrat mianownika",
+    "podziel mianownik skali przez odległość na mapie"
+   ],
+   "explanation": "7 × 5 km = 35 km."
+  },
+  {
+   "id": "geomko-5-079",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Granica ma 104 km. Jak obliczysz jej długość na mapie w skali 1:2 000 000?",
+   "rule": "podziel odległość rzeczywistą przez mianownik skali",
+   "wrong": [
+    "pomnóż odległość rzeczywistą przez mianownik skali",
+    "pomnóż odległość rzeczywistą przez odległość na mapie",
+    "podziel kwadrat odległości rzeczywistej przez mianownik"
+   ],
+   "explanation": "1 cm = 20 km, więc 104 : 20 = 5,2 cm."
+  },
+  {
+   "id": "geomko-5-080",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "type": "apply",
+   "situation": "Rzeka o długości 2900 km zajmuje na mapie 14,5 cm. Jak obliczysz skalę mapy?",
+   "rule": "odległość na mapie : odległość rzeczywista w tych samych jednostkach",
+   "wrong": [
+    "odległość rzeczywista × odległość na mapie",
+    "odległość na mapie : odległość rzeczywista w różnych jednostkach",
+    "odległość rzeczywista w km : 100"
+   ],
+   "explanation": "2900 km = 290 000 000 cm; 290 000 000 : 14,5 = 20 000 000, więc 1:20 000 000."
+  },
+  {
+   "id": "geomko-5-081",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "trap": true,
+   "type": "apply",
+   "situation": "Jezioro zajmuje na mapie 3 cm², skala 1:200 000. Jak obliczysz jego powierzchnię?",
+   "rule": "pomnóż pole na mapie przez kwadrat liczby km na 1 cm",
+   "wrong": [
+    "pomnóż pole na mapie przez liczbę km na 1 cm",
+    "pomnóż pole na mapie przez mianownik skali",
+    "podziel pole na mapie przez kwadrat liczby km na 1 cm"
+   ],
+   "explanation": "Skala powierzchniowa to kwadrat liniowej: 1 cm = 2 km, więc 1 cm² = 4 km² i 3 cm² = 12 km²."
+  },
+  {
+   "id": "geomko-5-082",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Na mapie w skali 1:750 000 trasa ma 15 cm. Ile to kilometrów?",
+   "answer": "112,5 km",
+   "accept": [
+    "112,5",
+    "112.5 km",
+    "112.5"
+   ],
+   "explanation": "1 cm = 7,5 km; 15 × 7,5 km = 112,5 km.",
+   "distractors": [
+    "11,25 km",
+    "1125 km",
+    "50 km"
+   ]
+  },
+  {
+   "id": "geomko-5-083",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Granica Polski z Litwą ma 104 km. Ile centymetrów zajmie na mapie w skali 1:2 000 000?",
+   "answer": "5,2 cm",
+   "accept": [
+    "5,2",
+    "5.2 cm",
+    "5.2"
+   ],
+   "explanation": "1 cm = 20 km; 104 : 20 = 5,2 cm.",
+   "distractors": [
+    "52 cm",
+    "0,52 cm",
+    "20,8 cm"
+   ]
+  },
+  {
+   "id": "geomko-5-084",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "skala",
+   "type": "qa",
+   "question": "Dunaj (2900 km) zajmuje na mapie 14,5 cm. W jakiej skali jest mapa?",
+   "answer": "1:20 000 000",
+   "accept": [
+    "1:20000000",
+    "1 : 20 000 000"
+   ],
+   "explanation": "290 000 000 cm : 14,5 cm = 20 000 000.",
+   "distractors": [
+    "1:2 000 000",
+    "1:200 000 000",
+    "1:200 000"
+   ]
+  },
+  {
+   "id": "geomko-5-085",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Jezioro na mapie w skali 1:200 000 zajmuje 3 cm². Jaka jest jego powierzchnia rzeczywista?",
+   "answer": "12 km²",
+   "accept": [
+    "12 km2",
+    "12",
+    "12 kilometrów kwadratowych"
+   ],
+   "explanation": "1 cm = 2 km → 1 cm² = 4 km² → 3 × 4 = 12 km².",
+   "distractors": [
+    "6 km²",
+    "600 km²",
+    "1,2 km²"
+   ]
+  },
+  {
+   "id": "geomko-5-086",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Park na mapie w skali 1:50 000 zajmuje 8 cm². Jaka jest jego powierzchnia rzeczywista?",
+   "answer": "2 km²",
+   "accept": [
+    "2 km2",
+    "2",
+    "200 ha"
+   ],
+   "explanation": "1 cm = 0,5 km → 1 cm² = 0,25 km² → 8 × 0,25 = 2 km².",
+   "distractors": [
+    "4 km²",
+    "400 km²",
+    "0,4 km²"
+   ]
+  },
+  {
+   "id": "geomko-5-087",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Odcinek ma 4,5 cm na mapie w skali 1:300 000. Ile to kilometrów w terenie?",
+   "answer": "13,5 km",
+   "accept": [
+    "13,5",
+    "13.5 km",
+    "13.5"
+   ],
+   "explanation": "1 cm = 3 km; 4,5 × 3 km = 13,5 km.",
+   "distractors": [
+    "1,35 km",
+    "135 km",
+    "6,7 km"
+   ]
+  },
+  {
+   "id": "geomko-5-088",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "pojęcie",
+   "trap": true,
+   "type": "cloze",
+   "text": "Większa skala ma {{mniejszy}} mianownik i pokazuje więcej szczegółów.",
+   "hint": "odwrotnie niż intuicja",
+   "explanation": "Skala 1:10 000 jest większa niż 1:1 000 000.",
+   "distractors": [
+    "większy",
+    "taki sam",
+    "dwukrotnie większy"
+   ]
+  },
+  {
+   "id": "geomko-5-089",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "skala",
+   "trap": true,
+   "type": "qa",
+   "question": "Która skala jest większa: 1:10 000 czy 1:1 000 000?",
+   "answer": "1:10 000",
+   "accept": [
+    "1:10000",
+    "1 : 10 000"
+   ],
+   "explanation": "Większa skala = mniejszy mianownik = więcej szczegółów.",
+   "quiz_suitable": false
+  },
+  {
+   "id": "geomko-5-090",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "skala",
+   "type": "qa",
+   "question": "Jaką skalę ma mapa w skali sześć razy większej niż 1:300 000?",
+   "answer": "1:50 000",
+   "accept": [
+    "1:50000",
+    "1 : 50 000"
+   ],
+   "explanation": "Skala większa = mianownik mniejszy: 300 000 : 6 = 50 000.",
+   "distractors": [
+    "1:1 800 000",
+    "1:500 000",
+    "1:30 000"
+   ]
+  },
+  {
+   "id": "geomko-5-091",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Skala mapy",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Odcinek ma 6 cm na mapie 1:300 000. Ile centymetrów będzie miał na mapie w skali sześć razy większej?",
+   "answer": "36 cm",
+   "accept": [
+    "36",
+    "36 centymetrów"
+   ],
+   "explanation": "Na mapie w skali 6 razy większej odcinek jest 6 razy dłuższy: 6 × 6 cm = 36 cm.",
+   "distractors": [
+    "1 cm",
+    "6 cm",
+    "18 cm"
+   ]
+  },
+  {
+   "id": "geomko-5-092",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się linia łącząca punkty o tej samej wysokości bezwzględnej?",
+   "answer": "poziomica",
+   "accept": [
+    "izohipsa",
+    "warstwica"
+   ],
+   "explanation": "Wysokość bezwzględna to wysokość nad poziomem morza (n.p.m.).",
+   "distractors": [
+    "izobata",
+    "izoterma",
+    "izobara"
+   ]
+  },
+  {
+   "id": "geomko-5-093",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się różnica wysokości między sąsiednimi poziomicami?",
+   "answer": "cięcie poziomicowe",
+   "accept": [
+    "cięcie",
+    "cięcie warstwicowe"
+   ],
+   "explanation": "Odczytuje się je z legendy albo z dwóch opisanych poziomic.",
+   "distractors": [
+    "wysokość względna",
+    "skala mapy",
+    "spadek rzeki"
+   ]
+  },
+  {
+   "id": "geomko-5-094",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "qa",
+   "question": "Jak nazywa się różnica wysokości bezwzględnych dwóch punktów?",
+   "answer": "wysokość względna",
+   "accept": [
+    "względna"
+   ],
+   "explanation": "Np. Rysy 2499 m − Morskie Oko 1395 m = 1104 m.",
+   "distractors": [
+    "wysokość bezwzględna",
+    "cięcie poziomicowe",
+    "amplituda"
+   ]
+  },
+  {
+   "id": "geomko-5-095",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Oblicz wysokość względną między Rysami (2499 m n.p.m.) a Morskim Okiem (1395 m n.p.m.).",
+   "answer": "1104 m",
+   "accept": [
+    "1104",
+    "1104 metry"
+   ],
+   "explanation": "2499 m − 1395 m = 1104 m.",
+   "distractors": [
+    "3894 m",
+    "1204 m",
+    "1395 m"
+   ]
+  },
+  {
+   "id": "geomko-5-096",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 1,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Poziomice ułożone gęsto oznaczają stok {{stromy}}.",
+   "hint": "nachylenie",
+   "explanation": "Poziomice ułożone rzadko oznaczają stok łagodny.",
+   "distractors": [
+    "łagodny",
+    "płaski",
+    "wklęsły"
+   ]
+  },
+  {
+   "id": "geomko-5-097",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Punkt A leży na poziomicy 800 m, punkt B na poziomicy 1250 m. Jaką wysokość pokona turysta idący z A do B?",
+   "answer": "450 m",
+   "accept": [
+    "450",
+    "450 metrów"
+   ],
+   "explanation": "1250 m − 800 m = 450 m.",
+   "distractors": [
+    "400 m",
+    "500 m",
+    "2050 m"
+   ]
+  },
+  {
+   "id": "geomko-5-098",
+   "category": "geomko_map",
+   "difficulty": 3,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 1,
+   "kind": "wartość",
+   "type": "qa",
+   "question": "Punkt A leży na poziomicy 800 m, B na 1250 m, cięcie poziomicowe wynosi 50 m. Ile poziomic przetnie turysta idący z A do B (licząc poziomicę, na której leży B)?",
+   "answer": "9",
+   "accept": [
+    "9 poziomic",
+    "dziewięć"
+   ],
+   "explanation": "450 m : 50 m = 9 (poziomice 850, 900, …, 1250 m).",
+   "distractors": [
+    "8",
+    "10",
+    "45"
+   ]
+  },
+  {
+   "id": "geomko-5-099",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 2,
+   "kind": "pojęcie",
+   "type": "cloze",
+   "text": "Droga, która prowadzi „wyłącznie pod górę”, przecina poziomice o {{rosnących}} wartościach.",
+   "hint": "kierunek zmian",
+   "explanation": "Kreski spadu lub kolejność wartości pokazują kierunek w dół stoku.",
+   "distractors": [
+    "malejących",
+    "jednakowych",
+    "przemiennych"
+   ]
+  },
+  {
+   "id": "geomko-5-100",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 3,
+   "kind": "kąt",
+   "type": "qa",
+   "question": "Jaki azymut ma kierunek zachodni?",
+   "answer": "270°",
+   "accept": [
+    "270",
+    "270 stopni"
+   ],
+   "explanation": "Azymut liczy się od północy zgodnie z ruchem wskazówek zegara: E = 90°, S = 180°, W = 270°.",
+   "distractors": [
+    "90°",
+    "180°",
+    "0°"
+   ]
+  },
+  {
+   "id": "geomko-5-101",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Mapa poziomicowa",
+   "priority": 3,
+   "kind": "kierunek",
+   "type": "cloze",
+   "text": "Azymut liczy się od kierunku {{północnego / północy}} zgodnie z ruchem wskazówek zegara.",
+   "hint": "N",
+   "explanation": "Wschód ma azymut 90°, południe 180°.",
+   "distractors": [
+    "południowego",
+    "wschodniego",
+    "zachodniego"
+   ]
+  },
+  {
+   "id": "geomko-5-102",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Pułapki konkursowe",
+   "priority": 1,
+   "kind": "jezioro",
+   "trap": true,
+   "type": "qa",
+   "question": "Które jezioro jest największe na świecie?",
+   "answer": "Morze Kaspijskie",
+   "accept": [
+    "Kaspijskie",
+    "Morze Kaspijskie (jezioro)"
+   ],
+   "explanation": "Mimo nazwy to jezioro (371 tys. km²), nie morze.",
+   "distractors": [
+    "Bajkał",
+    "Jezioro Wiktorii",
+    "Jezioro Górne"
+   ]
+  },
+  {
+   "id": "geomko-5-103",
+   "category": "geomko_map",
+   "difficulty": 1,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Pułapki konkursowe",
+   "priority": 1,
+   "kind": "jezioro",
+   "trap": true,
+   "type": "qa",
+   "question": "Które jezioro jest najgłębsze na świecie?",
+   "answer": "Bajkał",
+   "explanation": "Bajkał ma 1642 m głębokości.",
+   "distractors": [
+    "Morze Kaspijskie",
+    "Tanganika",
+    "Ładoga"
+   ]
+  },
+  {
+   "id": "geomko-5-104",
+   "category": "geomko_map",
+   "difficulty": 2,
+   "source": "Opracowanie MKO",
+   "pp": "MKO 5 · Pułapki konkursowe",
+   "priority": 1,
+   "kind": "rzeka",
+   "trap": true,
+   "type": "cloze",
+   "text": "Nil (6650 km) tradycyjnie uznaje się za najdłuższą rzekę świata, a {{Amazonka}} jest rzeką najzasobniejszą w wodę.",
+   "hint": "Ameryka Południowa",
+   "explanation": "Nowsze pomiary dają Amazonce 6400–7000 km długości.",
+   "distractors": [
+    "Kongo",
+    "Missisipi",
+    "Jangcy"
+   ]
+  }
+ ]
+}
