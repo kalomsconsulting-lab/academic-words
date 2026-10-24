@@ -191,7 +191,10 @@ body.no-level.parent-mode .nav a[data-route="dashboard"] { display: none !import
     font-weight: 800; font-size: 1.05rem; padding: 4px 8px 18px;
   }
   .topbar { display: none; }
-  .nav-subjects { display: flex; flex-direction: column; gap: 2px; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+  .nav > * { flex-shrink: 0; }
+  /* lista przedmiotów przewija się sama, linki widoków (Dziś … Ustawienia) zostają zawsze widoczne */
+  .nav-subjects { display: flex; flex-direction: column; gap: 2px; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border);
+    flex: 0 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; }
   .nav-section { display: block; }
   .nav-heading { font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding: 4px 14px 6px; }
   .lbl-long { display: inline; }
@@ -199,6 +202,13 @@ body.no-level.parent-mode .nav a[data-route="dashboard"] { display: none !import
   .nav-settings { margin-top: auto; }
   .view { padding: 32px 32px 48px; }
   body.in-session .nav { display: none; }
+}
+/* niski ekran (laptop, powiększenie w przeglądarce): ciaśniejsze menu boczne */
+@media (min-width: 900px) and (max-height: 860px) {
+  .nav { padding: 12px 14px; gap: 2px; }
+  .nav-brand { padding-bottom: 10px; }
+  .nav a { padding: 7px 14px; }
+  .subj-item { padding: 6px 10px; }
 }
 
 /* ===== Components ===== */

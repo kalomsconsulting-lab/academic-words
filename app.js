@@ -2216,6 +2216,12 @@
     const list = document.getElementById('nav-subjects');
     list.replaceChildren(h('div', { class: 'nav-heading' }, 'Przedmioty'),
       ...levelSubjects().map((k) => subjectItem(k, todo[k], () => setSubject(k))));
+    // na niskim ekranie lista przewija się sama: aktywny przedmiot ma być widoczny (bez przewijania strony)
+    const act = list.querySelector('.subj-item.active');
+    if (act && list.scrollHeight > list.clientHeight) {
+      if (act.offsetTop - list.offsetTop < list.scrollTop) list.scrollTop = act.offsetTop - list.offsetTop - 30;
+      else if (act.offsetTop - list.offsetTop + act.offsetHeight > list.scrollTop + list.clientHeight) list.scrollTop = act.offsetTop - list.offsetTop + act.offsetHeight - list.clientHeight + 8;
+    }
     document.getElementById('nav-section').textContent = `${subj.icon} ${subj.label}`;
 
     const sw = document.getElementById('subj-switch');
