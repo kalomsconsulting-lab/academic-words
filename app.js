@@ -564,6 +564,8 @@
       daily: {},          // 'YYYY-MM-DD' -> { answers, newItems }
       customItems: [],    // własne materiały dodane w aplikacji (id z prefiksem "c-")
       deletedCustom: {},  // id -> czas usunięcia (tombstones, żeby synchronizacja nie przywracała usuniętych)
+      badges: {},         // odznaka ('cat:<kategoria>', 'mission:<przedmiot>:<dzień>') -> dzień zdobycia
+      records: {},        // rekordy, np. run = najdłuższa seria poprawnych odpowiedzi
       settings: {
         theme: 'system',
         name: '',
@@ -592,6 +594,8 @@
         daily: s.daily || {},
         customItems: s.customItems || [],
         deletedCustom: s.deletedCustom || {},
+        badges: s.badges || {},
+        records: s.records || {},
       };
     } catch (e) {
       return base;
@@ -1078,8 +1082,7 @@
     const points = sp.exam.points || 40;
     const score = Math.round(points * cats.reduce((s, c) => s + c.w * c.m, 0) / wSum);
     // najsłabszy: z działów już zaczętych najmniej opanowany (nieruszone działy czekają na swój dzień w planie)
-    const started = cats.filter((c) => c.total && c.seen);
-    const weakest = (started.length ? started : cats.filter((c) => c.total)).slice().sort((a, b) => a.m - b.m || b.w - a.w)[0] || null;
+    const weakest = cats.filter((c) => c.total && c.seen).sort((a, b) => a.m - b.m || b.w - a.w)[0] || null;
     let mission = null;
     if (sp.mission) {
       const items = pool.filter((it) => sp.mission.cats.includes(it.category));
@@ -1114,6 +1117,7 @@
       case 'order': return eligible(exercise, it);
       case 'typing': return eligible('typing', it) || eligible('gap', it);
       case 'matching': return !!preferredVariant(it);
+      case 'exam': return EXAM_KINDS.some((k) => eligible(k, it));
       default: return true;
     }
   }
@@ -1172,7 +1176,8 @@
   }
 
   function chooseKind(it, exercise) {
-    const kinds = exercise === 'mix' || exercise === 'matching' ? ['flashcard', 'mc', 'typing', 'gap', 'order'] : [exercise];
+    const kinds = exercise === 'mix' || exercise === 'matching' ? ['flashcard', 'mc', 'typing', 'gap', 'order']
+      : exercise === 'exam' ? EXAM_KINDS : [exercise]; // mini-arkusz bez fiszek: samoocena nie jest odpowiedzią
     const ok = kinds.filter((k) => eligible(k, it));
     // zdanie z luką to też wpisywanie
     if (!ok.length && exercise === 'typing' && eligible('gap', it)) return 'gap';
@@ -1245,22 +1250,82 @@
   let session = null;
   let lastSummary = null;
 
+  // Sesje sprintu (cfg.sprint): misja dnia, najsłabszy dział, same pułapki, mini-arkusz.
+  const EXAM_KINDS = ['mc', 'typing', 'gap', 'order'];
+  const EXAM_SIZE = 20, EXAM_MINUTES = 25;
+  const byPriority = (a, b) => (a.priority || 3) - (b.priority || 3) || a.difficulty - b.difficulty;
+
+  function sprintItems(cfg) {
+    const subject = currentSubject();
+    const sp = sprintOf(subject);
+    const pool = subjectPool(subject);
+    if (!sp) return [];
+    const p = state.progress;
+    const t = today();
+    const notMastered = (it) => statusOf(it) !== 'mastered';
+    switch (cfg.sprint) {
+      case 'mission': {
+        const m = sprintStats(sp, pool).mission;
+        if (!m) return [];
+        const due = m.items.filter((it) => p[it.id] && p[it.id].due <= t);
+        const fresh = m.items.filter((it) => !p[it.id]).sort(byPriority);
+        return shuffle([...due, ...fresh].slice(0, 20));
+      }
+      case 'weak': {
+        // karty z błędami przed nieobejrzanymi
+        const list = pool.filter((it) => it.category === cfg.category && notMastered(it));
+        const seen = shuffle(list.filter((it) => p[it.id]));
+        return shuffle([...seen, ...list.filter((it) => !p[it.id]).sort(byPriority)].slice(0, 15));
+      }
+      case 'traps': {
+        const list = pool.filter((it) => it.trap && (!cfg.cats || cfg.cats.includes(it.category)));
+        return shuffle([...shuffle(list.filter(notMastered)), ...shuffle(list.filter((it) => !notMastered(it)))].slice(0, 20));
+      }
+      case 'exam': {
+        // liczba pytań z działu proporcjonalna do wagi (metoda największych reszt), tylko działy z kartami
+        const fits = (it) => EXAM_KINDS.some((k) => eligible(k, it));
+        const cats = Object.entries(sp.weights).map(([key, w]) => ({ key, w, list: pool.filter((it) => it.category === key && fits(it)) }))
+          .filter((c) => c.list.length);
+        const wSum = cats.reduce((s, c) => s + c.w, 0);
+        if (!wSum) return [];
+        cats.forEach((c) => { c.exact = (EXAM_SIZE * c.w) / wSum; c.n = Math.min(c.list.length, Math.floor(c.exact)); });
+        let rest = EXAM_SIZE - cats.reduce((s, c) => s + c.n, 0);
+        for (const c of cats.slice().sort((a, b) => (b.exact - b.n) - (a.exact - a.n))) {
+          if (rest > 0 && c.n < c.list.length) { c.n++; rest--; }
+        }
+        // priorytet 1 częściej, ale nie wyłącznie
+        return shuffle(cats.flatMap((c) => shuffle(c.list).sort((a, b) => ((a.priority || 3) === 1 ? 0 : 1) - ((b.priority || 3) === 1 ? 0 : 1)).slice(0, c.n)));
+      }
+      default: return [];
+    }
+  }
+
+  function startSprint(sprint, extra = {}) {
+    const cfg = { mode: 'quick', category: 'all', difficulty: 'all', exercise: sprint === 'exam' ? 'exam' : 'mix', sprint, ...extra };
+    startSession(cfg);
+  }
+
   function startSession(cfg) {
     const pool = filterPool(cfg);
     let items;
     if (cfg.items) items = cfg.items.filter((it) => BY_ID.get(it.id) === it); // bez wpisów usuniętych w międzyczasie
+    else if (cfg.sprint) items = sprintItems(cfg);
     else if (cfg.mode === 'srs') items = srsItems(pool);
     else items = quickItems(pool, cfg.size || state.settings.sessionSize);
     if (!items.length) {
-      toast(cfg.mode === 'srs' ? 'Na dziś nie ma nic do powtórki 🎉' : 'Brak słów dla wybranych filtrów.');
+      toast(cfg.sprint === 'mission' ? 'Misja dnia wykonana! 🎯' : cfg.mode === 'srs' ? 'Na dziś nie ma nic do powtórki 🎉' : 'Brak słów dla wybranych filtrów.');
       return;
     }
+    const sp = sprintOf(currentSubject());
     session = {
       cfg,
       steps: buildSteps(items, cfg.exercise || 'mix', pool),
       index: 0,
       results: [],
       requeued: new Set(),
+      items,
+      scoreBefore: sp ? sprintStats(sp, subjectPool()).score : null,
+      deadline: cfg.sprint === 'exam' ? Date.now() + EXAM_MINUTES * 60e3 : null,
     };
     if (location.hash === '#/session') route(); else location.hash = '#/session';
   }
@@ -1858,6 +1923,7 @@
   let keyHandler = null;
   let feedbackAt = 0;
   let feedbackContinue = null;
+  let examTick = null;
 
   function feedbackEl() {
     let fb = document.getElementById('feedback');
@@ -1877,7 +1943,8 @@
     const btn = h('button', { class: 'btn ' + (f.ok ? 'btn-primary' : 'btn-danger'), onClick: () => onContinue() }, 'Dalej');
     fb.replaceChildren(h('div', { class: 'feedback-inner' },
       h('div', { class: 'fb-icon', 'aria-hidden': 'true' }, f.ok ? '✓' : '✗'),
-      h('div', { class: 'fb-text' }, h('div', { class: 'fb-title' }, f.title), f.detail ? h('div', { class: 'fb-detail' }, rich(f.detail)) : null),
+      h('div', { class: 'fb-text' }, h('div', { class: 'fb-title' }, f.title), f.detail ? h('div', { class: 'fb-detail' }, rich(f.detail)) : null,
+        f.trap ? h('div', { class: 'fb-trap' }, f.trap) : null),
       btn));
     fb.className = 'feedback show ' + (f.ok ? 'ok' : 'bad');
     feedbackAt = Date.now();
@@ -1905,12 +1972,17 @@
           r.retry = !!step.retry;
           if (!r.skipped) record(r.item, r.correct, r.quality);
           s.results.push(r);
-          if (s.cfg.mode === 'srs' && !r.correct && !r.skipped && !s.requeued.has(r.item.id)) {
+          const requeue = s.cfg.mode === 'srs' || (s.cfg.sprint && s.cfg.sprint !== 'exam');
+          if (requeue && !r.correct && !r.skipped && !s.requeued.has(r.item.id)) {
             s.requeued.add(r.item.id);
             s.steps.push({ kind: chooseKind(r.item, 'mix'), items: [r.item], retry: true });
           }
         }
         const ok = fb ? fb.ok : tone === 'ok';
+        const sp = sprintOf(step.items[0].subject);
+        if (fb && !fb.ok && sp && results.some((r) => !r.correct && r.item.trap)) {
+          fb = { ...fb, trap: `⚠️ To klasyczna pułapka konkursowa. Dobrze, że teraz, a nie ${sp.left ? sp.weekday : 'na konkursie'}.` };
+        }
         view.classList.remove('flash-ok', 'flash-bad');
         void view.offsetWidth;
         view.classList.add(ok ? 'flash-ok' : 'flash-bad');
@@ -1935,11 +2007,27 @@
       advance();
     }
 
+    if (s.deadline && Date.now() >= s.deadline) { finishSession(); return; }
+    const timer = s.deadline ? h('div', { class: 'exam-timer', title: 'Czas do końca mini-arkusza' }) : null;
+    clearInterval(examTick);
+    if (timer) {
+      const tick = () => {
+        const ms = s.deadline - Date.now();
+        if (ms <= 0) { clearInterval(examTick); if (session === s && currentRoute === 'session') { toast('Koniec czasu ⏰'); finishSession(); } return; }
+        const sec = Math.ceil(ms / 1000);
+        timer.textContent = `⏱ ${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`;
+        timer.classList.toggle('low', sec <= 120);
+      };
+      tick();
+      examTick = setInterval(tick, 1000);
+    }
+
     view.replaceChildren(
       h('div', { class: 'session-top' },
         h('button', { class: 'icon-btn', 'aria-label': 'Zakończ sesję', title: 'Zakończ sesję', onClick: quitSession }, '✕'),
         h('div', { class: 'bar', role: 'progressbar', 'aria-valuenow': String(s.index), 'aria-valuemax': String(total) },
           h('span', { class: 'p', style: `width:${pct}%` })),
+        timer,
         h('div', { class: 'count' }, `${s.index + 1}/${total}`)),
       stepRoot,
       h('div', { class: 'session-actions' },
@@ -1951,13 +2039,84 @@
 
   function quitSession() {
     const answered = session ? session.results.length : 0;
-    if (answered && !confirm('Zakończyć sesję? Dotychczasowe odpowiedzi są zapisane.')) return;
+    const exam = session && session.deadline;
+    if ((answered || exam) && !confirm(exam ? 'Zakończyć mini-arkusz? Pytania bez odpowiedzi liczą się jako 0 pkt.' : 'Zakończyć sesję? Dotychczasowe odpowiedzi są zapisane.')) return;
+    if (exam) { finishSession(); return; }
     if (answered) finishSession();
     else { session = null; location.hash = '#/dashboard'; }
   }
 
+  const missionTitle = (m) => m.cats.map((k) => (CATEGORIES[k] ? CATEGORIES[k].short : k)).join(' + ');
+
+  // Mini-arkusz: wynik działu = odsetek poprawnych × waga; pytania bez odpowiedzi (koniec czasu) = 0.
+  function examResult(s, first) {
+    const sp = sprintOf(s.items[0].subject);
+    const ok = new Map(first.map((r) => [r.item.id, !!r.correct && !r.skipped]));
+    const cats = {};
+    for (const it of s.items) {
+      const c = cats[it.category] = cats[it.category] || { key: it.category, n: 0, correct: 0, w: (sp && sp.weights[it.category]) || 0 };
+      c.n++;
+      if (ok.get(it.id)) c.correct++;
+    }
+    const list = Object.values(cats).sort((a, b) => b.w - a.w);
+    const wSum = list.reduce((x, c) => x + c.w, 0) || 1;
+    const points = (sp && sp.exam.points) || 40;
+    const score = Math.round(points * list.reduce((x, c) => x + c.w * (c.correct / c.n), 0) / wSum);
+    return { score, points, cats: list, asked: s.items.length, answered: first.filter((r) => !r.skipped).length,
+      minutes: Math.min(EXAM_MINUTES, Math.ceil((Date.now() - (s.deadline - EXAM_MINUTES * 60e3)) / 60e3)) };
+  }
+
+  // Pochwały za konkretne sukcesy sesji (rekord serii, bezbłędna sesja, odznaki działów, misja, wzrost wyniku).
+  function sessionPraise(s, first) {
+    const out = [];
+    const subject = s.items[0].subject;
+    const badges = state.badges = state.badges || {};
+    const records = state.records = state.records || {};
+    let run = 0, best = 0;
+    for (const r of s.results) { if (r.skipped) continue; run = r.correct ? run + 1 : 0; best = Math.max(best, run); }
+    if (best >= 5 && best > (records.run || 0)) {
+      out.push({ icon: '🔥', text: `Nowy rekord: ${best} ${plural(best, 'poprawna odpowiedź', 'poprawne odpowiedzi', 'poprawnych odpowiedzi')} z rzędu!` });
+      records.run = best;
+      records.ts = Date.now();
+    }
+    if (first.length >= 5 && first.every((r) => r.correct && !r.skipped)) out.push({ icon: '💎', text: 'Bezbłędna sesja: wszystko dobrze za pierwszym razem!' });
+    const pool = subjectPool(subject);
+    for (const [key, c] of catsOf(subject)) {
+      const items = pool.filter((it) => it.category === key);
+      const id = 'cat:' + key;
+      if (items.length < 5 || badges[id]) continue;
+      if (statsFor(items).mastered / items.length >= 0.8) {
+        badges[id] = today();
+        out.push({ icon: c.icon, text: `Nowa odznaka: Mistrz działu „${c.short}” (80% kart opanowanych)` });
+      }
+    }
+    const sp = sprintOf(subject);
+    if (sp) {
+      const st = sprintStats(sp, pool);
+      const mid = `mission:${subject}:${today()}`;
+      if (st.mission && st.mission.complete && !badges[mid]) {
+        badges[mid] = today();
+        out.push({ icon: '🎯', text: `Misja dnia wykonana: ${missionTitle(st.mission)}!` });
+      }
+      const prev = prevScore(subject);
+      const dSession = s.scoreBefore != null ? st.score - s.scoreBefore : 0;
+      const dDay = prev != null ? st.score - prev : 0;
+      if (dSession > 0) {
+        out.push({ icon: '📈', text: `Przewidywany wynik: ~${st.score}/${st.points}` +
+          [dSession > 0 ? ` (+${dSession} pkt w tej sesji` : null, dDay > 0 ? `${dSession > 0 ? ', ' : ' ('}+${dDay} pkt od wczoraj` : null].filter(Boolean).join('') + ')' });
+      }
+      storeScore(subject, st.score);
+    }
+    const answered = s.results.filter((r) => !r.skipped).length;
+    const days = streak();
+    if (days >= 2 && answered && answered === dayLog().answers) out.push({ icon: '🔥', text: `${days} ${plural(days, 'dzień', 'dni', 'dni')} nauki z rzędu. Seria trwa!` });
+    if (out.length) save();
+    return out;
+  }
+
   function finishSession() {
     const s = session;
+    clearInterval(examTick);
     const first = s.results.filter((r) => !r.retry);
     lastSummary = {
       cfg: s.cfg,
@@ -1965,6 +2124,8 @@
       correct: first.filter((r) => r.correct).length,
       errors: first.filter((r) => !r.correct),
     };
+    if (s.cfg.sprint === 'exam') lastSummary.exam = examResult(s, first);
+    lastSummary.praise = sessionPraise(s, first);
     session = null;
     hideFeedback();
     location.hash = '#/summary';
@@ -2083,11 +2244,93 @@
       rest.map(([k, n]) => h('button', { class: 'chip', onClick: () => setSubject(k) }, `${SUBJECTS[k].icon} ${SUBJECTS[k].label} · ${n}`)));
   }
 
+  // Odznaki działów i misji danego przedmiotu (chipy na panelu).
+  function badgeChips(subject, badges = state.badges || {}) {
+    const cats = catsOf(subject).filter(([k]) => badges['cat:' + k]).map(([, c]) => `${c.icon} Mistrz: ${c.short}`);
+    const missions = Object.keys(badges).filter((id) => id.startsWith(`mission:${subject}:`)).length;
+    if (!cats.length && !missions) return null;
+    return h('div', { class: 'badges' }, cats.map((t) => h('span', { class: 'badge' }, t)),
+      missions ? h('span', { class: 'badge' }, `🎯 ${missions} ${plural(missions, 'misja wykonana', 'misje wykonane', 'misji wykonanych')}`) : null);
+  }
+
+  const examWhen = (sp) => {
+    const d = parseDay(sp.exam.date);
+    return `${d.toLocaleDateString('pl-PL', { weekday: 'long', day: 'numeric', month: 'numeric' })}${sp.exam.time ? ', ' + sp.exam.time : ''}`;
+  };
+  const leftText = (sp) => (sp.left === 0 ? 'dziś' : sp.left === 1 ? 'jutro' : `za ${sp.left} dni`);
+
+  // Paski działów z wagą i opanowaniem (panel Dziś i widok rodzica).
+  function sprintBars(st) {
+    return h('div', { class: 'cat-list sprint-bars' }, st.cats.map((c) => {
+      const cat = CATEGORIES[c.key];
+      return h('div', { class: 'cat-row', style: 'cursor:default' },
+        h('span', { class: 'cat-ico' }, cat.icon),
+        h('span', null,
+          h('div', { class: 'cat-name' }, cat.short, h('span', { class: 'cat-pl' }, `waga ${c.w}%`)),
+          h('div', { class: 'bar' }, h('span', { class: 'm', style: `width:${c.m * 100}%` }))),
+        h('span', { class: 'muted small', style: 'text-align:right;white-space:nowrap' },
+          c.total ? `${Math.round(c.m * 100)}%` : 'brak kart', h('br'), c.total ? `${c.mastered}/${c.total}` : ''));
+    }));
+  }
+
+  function sprintPanel(sp, pool) {
+    const st = sprintStats(sp, pool);
+    storeScore(sp.subject, st.score);
+    const prev = prevScore(sp.subject);
+    const delta = prev != null ? st.score - prev : null;
+    const traps = pool.filter((it) => it.trap);
+    const examPool = pool.filter((it) => fitsExercise(it, 'exam') && sp.weights[it.category]);
+    const m = st.mission;
+    const weakBtn = st.weakest ? h('button', { class: 'btn btn-block', onClick: () => startSprint('weak', { category: st.weakest.key }) },
+      `🎯 Powtórz najsłabszy dział: ${CATEGORIES[st.weakest.key].short}`) : null;
+
+    const missionCard = m ? h('div', { class: 'card start-card' },
+      h('h2', null, '🗺️ Misja dnia'),
+      h('div', { class: 'mission-title' }, `${missionTitle(m)}, ${m.total} ${plural(m.total, 'karta', 'karty', 'kart')}`),
+      m.total ? [
+        h('div', { class: 'bar', style: 'margin:10px 0 6px' }, h('span', { class: 'm', style: `width:${(m.done / m.total) * 100}%` })),
+        h('div', { class: 'muted small' }, m.complete ? '✅ Misja wykonana! Wszystkie karty zaliczone na dziś.' : `${m.done}/${m.total} zaliczonych dziś. Błędne wracają do misji.`),
+        h('button', { class: 'btn btn-primary btn-block', style: 'margin-top:12px', disabled: m.complete, onClick: () => startSprint('mission') },
+          m.complete ? 'Misja wykonana 🎉' : m.done ? 'Kontynuuj misję' : 'Zacznij misję')]
+        : h('p', { class: 'muted small' }, 'Karty do tych działów jeszcze są przygotowywane. Na razie zrób powtórki albo mini-arkusz.'),
+      m.mock ? h('div', { class: 'callout' }, h('b', null, '📝 Dziś arkusz próbny. '), m.mock) : null,
+      m.note ? h('div', { class: 'callout' }, m.note) : null,
+      m.traps ? h('button', { class: 'btn btn-block', style: 'margin-top:10px', onClick: () => startSprint('traps', { cats: m.traps }) }, '⚠️ Pułapki z ruchów Ziemi, mapy i klimatu') : null,
+      m.weak ? weakBtn : null)
+      : h('div', { class: 'card start-card' },
+        h('h2', null, sp.left === 0 ? '🍀 Powodzenia!' : '🗺️ Misja dnia'),
+        h('p', { class: 'muted small' }, sp.left === 0
+          ? `Konkurs dziś${sp.exam.time ? ' o ' + sp.exam.time : ''}. Legitymacja, dwa długopisy, linijka, prosty kalkulator.`
+          : 'Na dziś plan nie przewiduje misji. Zrób powtórki albo mini-arkusz.'));
+
+    const scoreCard = h('div', { class: 'card start-card' },
+      h('h2', null, '📊 Przewidywany wynik'),
+      h('div', { class: 'row', style: 'align-items:baseline' },
+        h('span', { class: 'big-num' }, `~${st.score}`), h('span', { class: 'muted' }, `/ ${st.points} pkt`),
+        delta ? h('span', { class: 'delta' + (delta > 0 ? ' up' : ' down') }, `${delta > 0 ? '+' : ''}${delta} od wczoraj`) : null),
+      h('p', { class: 'muted small', style: 'margin:6px 0 10px' }, 'Opanowanie działów × ich waga w arkuszach. Karta jest opanowana po dwóch dobrych odpowiedziach z rzędu.'),
+      sprintBars(st),
+      h('div', { class: 'stack', style: 'margin-top:12px' },
+        m && m.weak ? null : weakBtn,
+        traps.length ? h('button', { class: 'btn btn-block', onClick: () => startSprint('traps') }, `⚠️ Tylko pułapki (${traps.length})`) : null,
+        examPool.length >= 8 ? h('button', { class: 'btn btn-accent btn-block', onClick: () => startSprint('exam') }, `📝 Mini-arkusz: ${EXAM_SIZE} pytań, ${EXAM_MINUTES} min`) : null),
+      badgeChips(sp.subject));
+
+    return [
+      h('div', { class: 'card sprint-head' },
+        h('div', { class: 'sprint-count' }, sp.left === 0 ? '🏆 Konkurs dziś!' : `🏆 Konkurs ${leftText(sp)}`),
+        h('div', { class: 'muted small' }, `${examWhen(sp)}${sp.exam.minutes ? ` · ${sp.exam.minutes} min` : ''} · ${st.points} pkt. ` +
+          (sp.left >= 1 ? 'Tryb sprintu: każda karta wróci przed konkursem, błędne jeszcze dziś.' : ''))),
+      h('div', { class: 'grid grid-2' }, missionCard, scoreCard),
+    ];
+  }
+
   function renderDashboard(view) {
     const name = state.settings.name.trim();
     const st = streak();
     const subj = SUBJECTS[currentSubject()];
     const pool = subjectPool();
+    const sp = sprintOf(currentSubject());
     const { due, newToday } = srsCounts(pool);
     const overall = statsFor(pool);
     const mine = pool.filter((it) => it._custom);
@@ -2123,6 +2366,7 @@
             ? h('a', { href: '#/settings', class: 'small' }, '☁️ Włącz synchronizację między urządzeniami')
             : null),
         st ? h('div', { class: 'streak', title: 'Dni nauki z rzędu' }, `🔥 ${st} ${plural(st, 'dzień', 'dni', 'dni')}`) : null),
+      sp && pool.length ? sprintPanel(sp, pool) : null,
       otherSubjectsHint(),
       pool.length ? null : h('div', { class: 'card' },
         h('h2', null, `${subj.icon} ${subj.label}: jeszcze brak kart`),
@@ -2134,7 +2378,9 @@
           h('div', { class: 'row', style: 'align-items:baseline' },
             h('span', { class: 'big-num' }, String(due)),
             h('span', { class: 'muted' }, `do powtórki dziś${newToday ? ` + ${newToday} ${plural(newToday, 'nowe', 'nowe', 'nowych')}` : ''}`)),
-          h('p', { class: 'muted small', style: 'margin-top:8px' }, 'Algorytm SM-2 dobiera to, co właśnie zaczynasz zapominać.'),
+          h('p', { class: 'muted small', style: 'margin-top:8px' }, sp && sp.left >= 1
+            ? `Sprint: odstępy skrócone do dnia konkursu, nowych kart dziennie tyle, żeby zdążyć ze wszystkimi.`
+            : 'Algorytm SM-2 dobiera to, co właśnie zaczynasz zapominać.'),
           h('button', { class: 'btn btn-primary btn-block', disabled: !(due + newToday),
             onClick: () => startSession({ mode: 'srs', category: 'all', difficulty: 'all', exercise: 'mix' }) },
           due + newToday ? 'Rozpocznij powtórki' : 'Na dziś wszystko! 🎉')),
@@ -2153,9 +2399,10 @@
           h('div', { class: 'stat' }, h('b', null, String(overall.new)), h('span', null, 'Nowe'))),
         h('div', { style: 'margin-top:12px' }, progressBar(overall)),
         h('div', { class: 'legend' },
-          h('span', null, h('i', { style: 'background:var(--ok)' }), 'opanowane (>90%)'),
+          h('span', null, h('i', { style: 'background:var(--ok)' }), sp ? 'opanowane (2× dobrze z rzędu)' : 'opanowane (>90%)'),
           h('span', null, h('i', { style: 'background:var(--warn)' }), 'w nauce (60–90%)'),
-          h('span', null, h('i', { style: 'background:var(--surface-2);border:1px solid var(--border)' }), 'nowe (<60%)'))) : null,
+          h('span', null, h('i', { style: 'background:var(--surface-2);border:1px solid var(--border)' }), 'nowe (<60%)')),
+        sp ? null : badgeChips(currentSubject())) : null,
       pool.length ? h('div', { class: 'card' },
         h('h2', null, 'Kategorie'),
         h('p', { class: 'muted small' }, 'Kliknij kategorię, aby od razu zacząć szybką sesję.'),
@@ -2251,15 +2498,33 @@
     ringEl.append(h('div', { class: 'val' }, `${correct}/${total}`));
 
     const errItems = uniq(errors.map((e) => e.item));
+    const { exam, praise = [] } = lastSummary;
+    // powtórka błędów to zwykła sesja (bez zegara mini-arkusza i bez doboru kart sprintu)
+    const retryCfg = { ...cfg, mode: 'quick', sprint: null, exercise: cfg.exercise === 'exam' ? 'mix' : cfg.exercise, items: errItems };
     view.replaceChildren(
       h('div', { class: 'card summary-head' },
-        h('h1', null, 'Koniec sesji'),
+        h('h1', null, exam ? 'Koniec mini-arkusza' : 'Koniec sesji'),
         ringEl,
         h('h2', null, `${correct}/${total} — ${msg}`),
         h('div', { class: 'row', style: 'justify-content:center;margin-top:14px' },
-          errItems.length ? h('button', { class: 'btn btn-danger', onClick: () => startSession({ ...cfg, mode: 'quick', items: errItems }) }, `🔁 Powtórz błędy (${errItems.length})`) : null,
-          h('button', { class: 'btn btn-primary', onClick: () => startSession({ ...cfg, items: undefined }) }, 'Kolejna sesja'),
+          errItems.length ? h('button', { class: 'btn btn-danger', onClick: () => startSession(retryCfg) }, `🔁 Powtórz błędy (${errItems.length})`) : null,
+          h('button', { class: 'btn btn-primary', onClick: () => startSession({ ...cfg, items: undefined }) }, exam ? 'Nowy mini-arkusz' : 'Kolejna sesja'),
           h('a', { class: 'btn', href: '#/dashboard' }, 'Panel'))),
+      exam ? h('div', { class: 'card' },
+        h('h2', null, `📝 Wynik: ~${exam.score}/${exam.points} pkt`),
+        h('p', { class: 'muted small' }, `${exam.answered}/${exam.asked} pytań w ${exam.minutes} min. Wynik przeliczony z wag działów` +
+          (exam.answered < exam.asked ? '; pytania bez odpowiedzi liczą się jako 0.' : '.')),
+        h('div', { class: 'cat-list' }, exam.cats.map((c) => {
+          const cat = CATEGORIES[c.key];
+          return h('div', { class: 'cat-row', style: 'cursor:default' },
+            h('span', { class: 'cat-ico' }, cat.icon),
+            h('span', null, h('div', { class: 'cat-name' }, cat.short, h('span', { class: 'cat-pl' }, `waga ${c.w}%`)),
+              h('div', { class: 'bar' }, h('span', { class: c.correct / c.n >= 0.6 ? 'm' : 'l', style: `width:${(c.correct / c.n) * 100}%` }))),
+            h('span', { class: 'muted small', style: 'text-align:right;white-space:nowrap' }, `${c.correct}/${c.n}`, h('br'), c.correct / c.n < 0.6 ? 'do powtórki' : ''));
+        }))) : '', // nie null: natywne replaceChildren wypisałoby „null”
+      praise.length ? h('div', { class: 'card praise' },
+        h('h2', null, 'Sukcesy'),
+        h('ul', { class: 'praise-list' }, praise.map((p) => h('li', null, h('span', { class: 'praise-ico', 'aria-hidden': 'true' }, p.icon), p.text)))) : '',
       errors.length ? h('div', { class: 'card' },
         h('h2', null, 'Do przejrzenia'),
         h('div', { class: 'err-list' }, errors.map((e) => h('div', { class: 'err' + (e.skipped ? ' skipped' : '') },
@@ -2481,6 +2746,8 @@
     if (!confirm('Na pewno usunąć cały postęp nauki? Tej operacji nie można cofnąć (chyba że masz eksport).')) return;
     state.progress = {};
     state.daily = {};
+    state.badges = {};
+    state.records = {};
     state.resetAt = Date.now(); // synchronizacja nie przywróci starszych wpisów z chmury
     save();
     toast('Postęp wyczyszczony');
@@ -3087,6 +3354,11 @@
           daily[d].newBy = { ...(cur.newBy || {}) };
           for (const [k, n] of Object.entries(v.newBy || {})) daily[d].newBy[k] = Math.max(daily[d].newBy[k] || 0, n);
         }
+        // przewidywany wynik sprintu zapisany tego dnia: wyższy z obu urządzeń
+        if (cur.score || v.score) {
+          daily[d].score = { ...(cur.score || {}) };
+          for (const [k, n] of Object.entries(v.score || {})) daily[d].score[k] = Math.max(daily[d].score[k] ?? n, n);
+        }
       }
     }
     const remoteNewer = (remote.settingsTs || 0) > (local.settingsTs || 0);
@@ -3101,8 +3373,16 @@
     for (const it of [...(remote.customItems || []), ...(local.customItems || [])]) {
       if (it && it.id && !deletedCustom[it.id]) custom.set(it.id, it);
     }
+    // odznaki: suma (wcześniejszy dzień zdobycia); rekordy: wyższy
+    // (po wyczyszczeniu postępu nie wracają te sprzed resetu)
+    const badges = {};
+    for (const src of [remote.badges || {}, local.badges || {}]) {
+      for (const [id, d] of Object.entries(src)) if (d >= resetDay && !(badges[id] && badges[id] < d)) badges[id] = d;
+    }
+    const records = [remote.records || {}, local.records || {}].filter((r) => (r.ts || 0) >= resetAt)
+      .reduce((a, r) => ((r.run || 0) > (a.run || 0) ? r : a), {});
     return {
-      ...local, progress, daily, settings, resetAt, deletedCustom,
+      ...local, progress, daily, settings, resetAt, deletedCustom, badges, records,
       settingsTs: Math.max(local.settingsTs || 0, remote.settingsTs || 0),
       customItems: [...custom.values()],
     };
@@ -3547,7 +3827,14 @@
       .filter((x) => x.it && x.wrong > 0)
       .sort((a, b) => b.wrong - a.wrong || (a.p.correct / a.p.attempts) - (b.p.correct / b.p.attempts))
       .slice(0, 5);
-    return { name: settings.name || '', level, subjects, week, today: (daily[t] && daily[t].answers) || 0, streak: streak(daily), lastDay, hardest };
+    // sprinty przed sprawdzianem: misja dnia, przewidywany wynik, najsłabszy dział
+    const sprints = subjects.map(({ key }) => {
+      const sp = sprintOf(key);
+      if (!sp) return null;
+      const stats = sprintStats(sp, items.filter((it) => it.subject === key), prog);
+      return { key, sp, st: stats, prev: prevScore(key, daily), badges: badgeChips(key, st.badges || {}) };
+    }).filter(Boolean);
+    return { name: settings.name || '', level, subjects, week, today: (daily[t] && daily[t].answers) || 0, streak: streak(daily), lastDay, hardest, sprints };
   }
 
   const localDate = (d) => { const [y, m, dd] = d.split('-').map(Number); return new Date(y, m - 1, dd); };
@@ -3596,6 +3883,20 @@
         h('div', { class: 'stat' }, h('b', null, String(s.today)), h('span', null, 'odpowiedzi dziś')),
         h('div', { class: 'stat' }, h('b', { style: 'color:var(--warn)' }, `🔥 ${s.streak}`), h('span', null, plural(s.streak, 'dzień z rzędu', 'dni z rzędu', 'dni z rzędu'))),
         h('div', { class: 'stat' }, h('b', { class: 'small' }, dayAgo(s.lastDay)), h('span', null, 'ostatnia nauka'))),
+      s.sprints.map(({ key, sp, st, prev, badges }) => {
+        const m = st.mission;
+        const delta = prev != null ? st.score - prev : null;
+        return h('div', { class: 'sprint-parent' },
+          h('h3', null, `${SUBJECTS[key].icon} ${SUBJECTS[key].label}: ${sp.left === 0 ? 'dziś!' : leftText(sp)}`),
+          h('div', { class: 'stat-row' },
+            h('div', { class: 'stat' }, h('b', null, `~${st.score}/${st.points}`), h('span', null, delta ? `przewidywany wynik (${delta > 0 ? '+' : ''}${delta} od wczoraj)` : 'przewidywany wynik')),
+            h('div', { class: 'stat' }, h('b', { class: 'small' }, m ? (m.complete ? '✅ wykonana' : `${m.done}/${m.total}`) : '—'),
+              h('span', null, m ? `misja: ${missionTitle(m)}` : 'misja dnia')),
+            h('div', { class: 'stat' }, h('b', { class: 'small' }, st.weakest ? `${CATEGORIES[st.weakest.key].icon} ${CATEGORIES[st.weakest.key].short}` : '—'),
+              h('span', null, st.weakest ? `najsłabszy dział (${Math.round(st.weakest.m * 100)}%)` : 'najsłabszy dział'))),
+          m && m.mock ? h('div', { class: 'callout' }, h('b', null, '📝 Dziś arkusz próbny na papierze. '), m.mock) : null,
+          sprintBars(st), badges);
+      }),
       h('h3', null, 'Ostatnie 7 dni'), chart,
       s.subjects.length ? [h('h3', null, 'Przedmioty'),
         h('div', { class: 'cat-list' }, s.subjects.map((x) => h('div', { class: 'cat-row', style: 'cursor:default' },
